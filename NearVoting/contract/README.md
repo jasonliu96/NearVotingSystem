@@ -21,6 +21,6 @@ Exploring The Code
 
   [smart contract]: https://docs.near.org/docs/develop/contracts/overview
   [AssemblyScript]: https://www.assemblyscript.org/
-  [create-near-app]: https://github.com/near/create-near-app
+  [create-near-app]: https://github.com/near/create-near-appasb
   [Node.js]: https://nodejs.org/en/download/package-manager/
   [as-pect]: https://www.npmjs.com/package/@as-pect/cli
