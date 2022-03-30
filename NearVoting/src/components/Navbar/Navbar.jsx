@@ -5,19 +5,28 @@ import { login, logout } from '../../utils';
 const Navbar = () => {
   return (
     <>
-      <div className="Navbar">w 
+      <div className="Navbar">
         <ul>
           <li>
             <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/admin/register">Add Candidate</Link>
+          </li>
+          <li>
+            <Link to="/admin/change">Change State</Link>
+          </li>
+          <li>
+            <Link to="/register">Voter Registration</Link>
+          </li>
+          <li>
+            <Link to="/results">Results</Link>
           </li>
         </ul>
         <ul>
           <button className="link" style={{ float: 'right' }} onClick={login}>
             Log In
           </button>
-          <li>
-            <Link to="/signup">Signup</Link>
-          </li>
           <li>
           <button className="link" style={{ float: 'right' }} onClick={logout}>
             Sign out
