@@ -7,10 +7,40 @@ import  Notification  from '../Notification';
 import ConfirmationModal from '../ConfirmationModal';
 function Landing() {
   const [candidates, setCandidates] = React.useState([])
-  const [rmConfirmation, setRmConfirmation] = React.useState(false)
-  const { networkId } = getConfig(process.env.NODE_ENV || 'development')
+  const [selectedCandidate, setSelCandidate] = React.useState(0)
   const [showNotification, setShowNotification] = React.useState(false)
   const [showModal, setShowModal] = React.useState(false)
+  const closeModal = () => {
+    setShowModal(false);
+  };
+  const openModal = () => {
+    setShowModal(true);
+  };
+
+  async function confirmDelete (e){
+    e.preventDefault();
+    if(e.target.value==="Delete"){
+      const idx = parseInt(selectedCandidate)
+      try {
+        // make an update call to the smart contract
+        await window.contract.removeCandidate({
+          // pass the value that the user entered in the greeting field
+          index: idx
+        })
+      } catch (e) {
+        alert(
+          'Something went wrong! ' +
+          'Maybe you need to sign out and back in? ' +
+          'Check your browser console for more info.'
+        )
+        throw e
+      } finally {
+        setShowNotification(true)
+      }
+    }
+    else {}
+    closeModal()
+  }
   React.useEffect(
     () => {
       // in this case, we only care to query the contract when signed in
@@ -50,28 +80,12 @@ function Landing() {
       setShowNotification(true)
     }
   }
-  async function removeCandidate(e){
+  const  removeCandidate = (e) =>{
     e.preventDefault()
-    console.log(e.target.value)
-    const idx = parseInt(e.target.value)
-    setShowModal(true)
-    try {
-      // make an update call to the smart contract
-      await window.contract.removeCandidate({
-        // pass the value that the user entered in the greeting field
-        index: idx
-      })
-    } catch (e) {
-      alert(
-        'Something went wrong! ' +
-        'Maybe you need to sign out and back in? ' +
-        'Check your browser console for more info.'
-      )
-      throw e
-    } finally {
-      setShowNotification(true)
-    }
+    setSelCandidate(e.currentTarget.value)
+    openModal()
   }
+
   if (!window.walletConnection.isSignedIn()) {
     return (
       <main>
@@ -115,8 +129,8 @@ function Landing() {
             </Typography>
           </CardContent>
           <CardActions>
-            <Button onClick={submitVote} value={index}size="small">Vote</Button>
-            <CloseIcon onClick={removeCandidate}/>
+            <Button onClick={submitVote} value={index} size="small">Vote</Button>
+            <Button onClick={removeCandidate} value={index}><CloseIcon/></Button>
           </CardActions>
         </Card>
       ))
@@ -125,7 +139,11 @@ function Landing() {
       </Box>
       </div>
     </main>
-    {showModal && <ConfirmationModal/>}
+    {showModal && <ConfirmationModal 
+        onSubmit={confirmDelete}
+        open={showModal}
+        closeModal={closeModal}
+        selectedCandidate={candidates[selectedCandidate].name}/>}
     {showNotification && <Notification/>}
     </>
   );
