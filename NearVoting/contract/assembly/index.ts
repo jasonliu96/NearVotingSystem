@@ -7,12 +7,20 @@ export function addCandidate(text: string): void{
     CandidateList.push(candidate)
 }
 
+// export function getCandidates(): Candidate[] {
+//     const numCand = min(CANDIDATE_LIMIT, CandidateList.length);
+//     const startIndex = CandidateList.length - numCand;
+//     const result = new Array<Candidate>(numCand);
+//     for (let i=0; i<numCand; i++){
+//         result[i] = CandidateList[i+startIndex];
+//     }
+//     return result;
+// }
+
 export function getCandidates(): Candidate[] {
-    const numCand = min(CANDIDATE_LIMIT, CandidateList.length);
-    const startIndex = CandidateList.length - numCand;
-    const result = new Array<Candidate>(numCand);
-    for (let i=0; i<numCand; i++){
-        result[i] = CandidateList[i+startIndex];
+    const result = new Array<Candidate>();
+    for (let i=0; i<CandidateList.length; i++){
+        result[i] = CandidateList[i];
     }
     return result;
 }
@@ -29,4 +37,8 @@ export function voteCandidate(index: i32):void {
     votes += 1;
     const newCandidate = new Candidate(name, votes)
     CandidateList.replace(index, newCandidate)
+}
+
+export function removeCandidate(index: i32): void {
+    CandidateList.swap_remove(index)
 }

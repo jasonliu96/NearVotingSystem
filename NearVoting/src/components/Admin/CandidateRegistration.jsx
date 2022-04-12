@@ -1,8 +1,11 @@
 import React from 'react';
 import { FormControl, InputLabel, Input, FormHelperText, Button } from '@mui/material';
+import Notification from '../Notification'
 
 function CandidateRegistration() {
   const [candidateName, setName] = React.useState("")
+  const [showNotification, setShowNotification] = React.useState(false)
+
   async function submitCandidate(e){
     e.preventDefault()
     console.log(candidateName)
@@ -20,6 +23,8 @@ function CandidateRegistration() {
       )
       throw e
     } finally {
+      console.log("candidate added")
+      setShowNotification(true)
     }
   }
   return (
@@ -32,6 +37,7 @@ function CandidateRegistration() {
       <Button size="small" onClick={submitCandidate}>Submit</Button>
       </FormControl>
       </div>
+      {showNotification && <Notification />}
     </div>
   );
 }

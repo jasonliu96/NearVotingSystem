@@ -1,11 +1,16 @@
 import React from 'react';
 import { login, logout } from '../../utils'
 import getConfig from '../../config'
-import { Card, CardActions, CardContent, Typography, Button} from '@mui/material';
+import { Card, CardActions, CardContent, Typography, Button, Box} from '@mui/material';
+import CloseIcon from '@mui/icons-material/Close';
+import  Notification  from '../Notification';
+import ConfirmationModal from '../ConfirmationModal';
 function Landing() {
   const [candidates, setCandidates] = React.useState([])
+  const [rmConfirmation, setRmConfirmation] = React.useState(false)
   const { networkId } = getConfig(process.env.NODE_ENV || 'development')
-
+  const [showNotification, setShowNotification] = React.useState(false)
+  const [showModal, setShowModal] = React.useState(false)
   React.useEffect(
     () => {
       // in this case, we only care to query the contract when signed in
@@ -42,6 +47,29 @@ function Landing() {
       )
       throw e
     } finally {
+      setShowNotification(true)
+    }
+  }
+  async function removeCandidate(e){
+    e.preventDefault()
+    console.log(e.target.value)
+    const idx = parseInt(e.target.value)
+    setShowModal(true)
+    try {
+      // make an update call to the smart contract
+      await window.contract.removeCandidate({
+        // pass the value that the user entered in the greeting field
+        index: idx
+      })
+    } catch (e) {
+      alert(
+        'Something went wrong! ' +
+        'Maybe you need to sign out and back in? ' +
+        'Check your browser console for more info.'
+      )
+      throw e
+    } finally {
+      setShowNotification(true)
     }
   }
   if (!window.walletConnection.isSignedIn()) {
@@ -61,14 +89,23 @@ function Landing() {
     )
   }
   return (
+    <>
     <main>
       <h1>Candidates</h1>
       <p> Below are the candidates you can vote for </p>
+      <div style={{ width: '100%' }}>
+      <Box sx={{ display: 'flex',
+          flexWrap: 'wrap',
+          p: 1,
+          m: 1,
+          bgcolor: 'background.paper',
+          alignItems: 'flex-start',
+          maxWidth: 1500,
+          borderRadius: 1,}}>
       {candidates?.length>0
       ?
       candidates.map((value, index)=>(
-      <div key={index}>
-        <Card sx={{ maxWidth: 150 }}>
+        <Card key={index} sx={{ border: 1, p: 1, m: 1, maxWidth: 150 }}>
           <CardContent>
             <Typography>
               {value.name} id:{index}
@@ -79,13 +116,18 @@ function Landing() {
           </CardContent>
           <CardActions>
             <Button onClick={submitVote} value={index}size="small">Vote</Button>
+            <CloseIcon onClick={removeCandidate}/>
           </CardActions>
         </Card>
-      </div>
       ))
       :
       <p>No Candidates Added Yet</p>}
+      </Box>
+      </div>
     </main>
+    {showModal && <ConfirmationModal/>}
+    {showNotification && <Notification/>}
+    </>
   );
 }
 
