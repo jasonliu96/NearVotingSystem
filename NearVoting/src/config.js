@@ -38,6 +38,8 @@ function getConfig(env) {
       nodeUrl: process.env.NEAR_NODE_URL || 'http://localhost:3030',
       keyPath: process.env.NEAR_CLI_LOCALNET_KEY_PATH || `${process.env.HOME}/.near/validator_key.json`,
       walletUrl: process.env.NEAR_WALLET_URL || 'http://localhost:4000/wallet',
+      helperUrl: process.env.NEAR_HELPER_URL,
+      masterAccount: 'test.near',
       contractName: CONTRACT_NAME,
   };
   case 'test':
