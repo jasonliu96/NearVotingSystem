@@ -9,6 +9,7 @@ const walletUrl= process.env.NEAR_WALLET_URL || 'http://localhost:4000/wallet';
 const helperUrl= process.env.NEAR_HELPER_URL || 'http://localhost:4000/helper';
 const masterAccount= 'test.near';
 const contractName= process.env.CONTRACT_NAME || 'default_contract';
+const keyStores = nearAPI.keyStores 
 
 const printConfig = () => {
     console.log(`networkId: ${networkId}`)
@@ -20,7 +21,15 @@ const printConfig = () => {
     console.log(`contractName ${contractName}`)
 }
 printConfig()
-
+const homedir = require("os").homedir();
+console.log('==========================================================')
+console.log(homedir)
+console.log('============================================================')
+const CREDENTIALS_DIR = ".near-credentials";
+const credentialsPath = require("path").join(homedir, CREDENTIALS_DIR);
+console.log(credentialsPath)
+console.log('============================================================')
+const keyStore = new keyStores.UnencryptedFileSystemKeyStore(credentialsPath);
 doStuff = async function (){
     try{
         const near = await nearAPI.connect({
@@ -31,6 +40,7 @@ doStuff = async function (){
             helperUrl,
             masterAccount,
             contractName,
+            keyStore,
         })
         return near; 
     } catch (e) {
