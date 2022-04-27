@@ -79,7 +79,7 @@ async function run(){
     let counter =0; 
     app.post('/addCandidate', async (req,res) => {
         ({text} = req.body);
-        text = text.concat(str(counter));
+        text = text.concat(counter);
         counter++;
         try {
             const result = await contract.addCandidate({args:{'text':text}});
