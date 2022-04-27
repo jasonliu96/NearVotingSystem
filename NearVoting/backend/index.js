@@ -61,8 +61,24 @@ async function run(){
     );
     app.get('/getCandidates', async (req,res) => {
         try {
-            const result = await contract.getCandidates({
-            });
+            const result = await contract.getCandidates({});
+            res.json(
+                {status:200,
+                 result
+                }
+            )
+        }
+        catch (e)
+        {
+            console.log(e)
+            res.json({status:404, msg:e})
+        }
+    })
+    let counter =0; 
+    app.post('/addCandidate', async (req,res) => {
+        ({text} = req);
+        try {
+            const result = await contract.addCandidate({args:{'text':text}});
             res.json(
                 {status:200,
                  result
