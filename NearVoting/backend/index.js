@@ -76,7 +76,7 @@ async function run(){
     })
     let counter =0; 
     app.post('/addCandidate', async (req,res) => {
-        ({text} = req);
+        ({text} = req).body;
         try {
             const result = await contract.addCandidate({args:{'text':text}});
             res.json(
