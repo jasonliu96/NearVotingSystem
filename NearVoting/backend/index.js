@@ -57,7 +57,7 @@ async function run(){
         "master.test.near",
         {
         // name of contract you're connecting to
-        changeMethods: ['getCandidates', 'addCandidate'], // change methods modify state
+        changeMethods: ['getCandidates', 'addCandidate', 'voteCandidate'], // change methods modify state
         sender: account, // account object to initialize and sign transactions.
         }
     );
@@ -83,6 +83,22 @@ async function run(){
         counter++;
         try {
             const result = await contract.addCandidate({args:{'text':text}});
+            res.json(
+                {status:200,
+                 result
+                }
+            )
+        }
+        catch (e)
+        {
+            console.log(e)
+            res.json({status:404, msg:e})
+        }
+    })
+    app.post('/voteCandidate', async (req,res) => {
+        ({idx} = req.body);
+        try {
+            const result = await contract.addCandidate({args:{'index':idx}});
             res.json(
                 {status:200,
                  result
