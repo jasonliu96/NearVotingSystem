@@ -5,41 +5,20 @@ async function run(){
     const path = require("path");
     const homedir = require("os").homedir();
     const { connect, KeyPair, keyStores, utils, Contract } = require("near-api-js");
-    
-    const networkId =  process.env.NEAR_CLI_LOCALNET_NETWORK_ID || 'local';
-    const nodeUrl= process.env.NEAR_NODE_URL || 'http://localhost:3030';
-    const keyPath= process.env.NEAR_CLI_LOCALNET_KEY_PATH || `${process.env.HOME}/.near/validator_key.json`;
-    const walletUrl= process.env.NEAR_WALLET_URL || 'http://localhost:4000/wallet';
-    const helperUrl= process.env.NEAR_HELPER_URL || 'http://localhost:4000/helper';
-    const masterAccount= 'test.near';
-    const contractName= process.env.CONTRACT_NAME || 'default_contract';
-    const explorerUrl = process.env.NEAR_EXPLORER_URL || 'http://localhost:4000/explorer';
 
     const CREDENTIALS_DIR = ".near-credentials";
-    const ACCOUNT_ID = "master.test.near";
+    const ACCOUNT_ID = "laptopliuj.testnet";
     const credentialsPath = path.join(homedir, CREDENTIALS_DIR);
     const keyStore = new keyStores.UnencryptedFileSystemKeyStore(credentialsPath);
 
     const config = {
-        keyStore,
-        networkId,
-        nodeUrl,
-        walletUrl,
-        helperUrl,
-        explorerUrl,
+    keyStore,
+    networkId: "testnet",
+    nodeUrl: "https://rpc.testnet.near.org",
+    walletUrl: "https://wallet.testnet.near.org",
+    helperUrl: "https://helper.testnet.near.org",
+    explorerUrl: "https://explorer.testnet.near.org",
     };
-
-    app.get('/configs', (req, res)=>{
-        res.json({
-            networkId: networkId,
-            nodeUrl: nodeUrl,
-            keyPath :keyPath,
-            walletUrl :walletUrl,
-            helperUrl :helperUrl,
-            masterAccount :masterAccount,
-            contractName :contractName,
-        })
-    })
 
     app.get('/', (req, res) => {
         res.json({
@@ -47,11 +26,12 @@ async function run(){
             msg:"hello"
         })
     })
+
     const near = await connect(config);
     const account = await near.account(ACCOUNT_ID);
     const contract = new Contract(
         account, // the account object that is connecting
-        "master.test.near",
+        "laptopliuj.testnet",
         {
         // name of contract you're connecting to
         changeMethods: ['getCandidates', 'addCandidate'], // change methods modify state
