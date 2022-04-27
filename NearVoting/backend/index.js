@@ -20,6 +20,7 @@ async function run(){
     const credentialsPath = path.join(homedir, CREDENTIALS_DIR);
     const keyStore = new keyStores.UnencryptedFileSystemKeyStore(credentialsPath);
 
+
     const config = {
         keyStore,
         networkId,
@@ -51,7 +52,7 @@ async function run(){
     const account = await near.account(ACCOUNT_ID);
     const contract = new Contract(
         account, // the account object that is connecting
-        "master.test.near",
+        "laptopliuj.testnet",
         {
         // name of contract you're connecting to
         changeMethods: ['getCandidates', 'addCandidate'], // change methods modify state
