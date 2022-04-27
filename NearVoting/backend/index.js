@@ -69,12 +69,16 @@ async function run(){
         try {
             const result = await contract.getCandidates({
             });
-            res.json(result)
+            res.json(
+                {status:200,
+                 result
+                }
+            )
         }
         catch (e)
         {
             console.log(e)
-            res.json({msg:"error"})
+            res.json({status:404, msg:e})
         }
     })
     app.listen(port);
