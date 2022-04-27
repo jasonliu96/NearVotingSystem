@@ -15,9 +15,7 @@ async function run(){
     const explorerUrl = process.env.NEAR_EXPLORER_URL || 'http://localhost:4000/explorer';
 
     const CREDENTIALS_DIR = ".near-credentials";
-    const CONTRACT_NAME = "laptopliuj.testnet";
-    const METHOD_NAME = "getCandidates"
-    const ACCOUNT_ID = "laptopliuj.testnet";
+    const ACCOUNT_ID = "master.test.near";
     const credentialsPath = path.join(homedir, CREDENTIALS_DIR);
     const keyStore = new keyStores.UnencryptedFileSystemKeyStore(credentialsPath);
 
@@ -60,7 +58,7 @@ async function run(){
     const account = await near.account(ACCOUNT_ID);
     const contract = new Contract(
         account, // the account object that is connecting
-        "laptopliuj.testnet",
+        "master.test.near",
         {
         // name of contract you're connecting to
         changeMethods: ['getCandidates', 'addCandidate'], // change methods modify state
