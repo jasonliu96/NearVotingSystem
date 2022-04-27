@@ -66,9 +66,16 @@ async function run(){
         }
     );
     app.get('/getCandidates', async (req,res) => {
-        const result = await contract.getCandidates({
-        });
-        res.json(result)
+        try {
+            const result = await contract.getCandidates({
+            });
+            res.json(result)
+        }
+        catch (e)
+        {
+            console.log(e)
+            res.json({msg:"error"})
+        }
     })
     app.listen(port);
     console.log(`server listening on port port ${port}`)
