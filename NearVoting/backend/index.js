@@ -63,7 +63,7 @@ async function run(){
     );
     app.get('/getCandidates', async (req,res) => {
         try {
-            const result = await contract.getCandidates({args:{}, gas:600000000000000});
+            const result = await contract.getCandidates({args:{}, gas:300000000000000});
             res.json(
                 {status:200,
                  result
