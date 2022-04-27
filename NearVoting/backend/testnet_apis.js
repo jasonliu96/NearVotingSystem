@@ -1,7 +1,9 @@
 async function run(){
     const express = require('express');
     const app = express();
-    const port = 9999;
+    const bodyParser = require('body-parser');
+    app.use(bodyParser.json())
+    const port = 7777;
     const path = require("path");
     const homedir = require("os").homedir();
     const { connect, KeyPair, keyStores, utils, Contract } = require("near-api-js");
@@ -53,6 +55,24 @@ async function run(){
             console.log(e)
             res.json({status:404, msg:e})
         }
+    })
+    let counter =0; 
+    app.post('/addCandidate', async (req,res) => {
+        ({text} = req.body)
+        try {
+            const result = await contract.addCandidate({args:{'text':text}});
+            res.json(
+                {status:200,
+                 result
+                }
+            )
+        }
+        catch (e)
+        {
+            console.log(e)
+            res.json({status:404, msg:e})
+        }
+        res.json({ status:200, msg:"added" })
     })
     app.listen(port);
     console.log(`server listening on port port ${port}`)
