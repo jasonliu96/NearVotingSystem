@@ -12,6 +12,7 @@ async function run(){
     const helperUrl= process.env.NEAR_HELPER_URL || 'http://localhost:4000/helper';
     const masterAccount= 'test.near';
     const contractName= process.env.CONTRACT_NAME || 'default_contract';
+    const explorerUrl = process.env.NEAR_EXPLORER_URL || 'http://localhost:4000/explorer';
 
     const CREDENTIALS_DIR = ".near-credentials";
     const CONTRACT_NAME = "laptopliuj.testnet";
