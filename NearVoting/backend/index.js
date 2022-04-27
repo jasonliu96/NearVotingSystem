@@ -52,7 +52,7 @@ async function run(){
     const account = await near.account(ACCOUNT_ID);
     const contract = new Contract(
         account, // the account object that is connecting
-        "laptopliuj.testnet",
+        "master.test.net",
         {
         // name of contract you're connecting to
         changeMethods: ['getCandidates', 'addCandidate'], // change methods modify state
