@@ -1,6 +1,7 @@
 import React from 'react';
 import { PieChart } from 'react-minimal-pie-chart';
 import { Card,List, ListItemText} from '@mui/material';
+import { login, logout } from '../../utils'
 
 function ResultsPage() {
   const [numVotes, setNumVotes] = React.useState(0)
@@ -11,6 +12,22 @@ function ResultsPage() {
   function mapCandidates(candidates){
     const temp = candidates.filter((value, index) => (value.votes>0)).map((value, index)=>({title:value.name, value:value.votes, color:colors[index%10]}))
     setData(temp)
+  }
+  if (!window.walletConnection.isSignedIn()) {
+    return (
+      <main>
+        <h1>Welcome to NearVoting!</h1>
+        <p>
+          To Make use of this voting application you first need to login!
+        </p>
+        <p>
+          Go ahead and click the button below to try it out:
+        </p>
+        <p style={{ textAlign: 'center', marginTop: '2.5em' }}>
+          <button onClick={login}>Sign in</button>
+        </p>
+      </main>
+    )
   }
   React.useEffect(
     () => {
