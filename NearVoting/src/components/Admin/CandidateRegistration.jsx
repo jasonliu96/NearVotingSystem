@@ -5,7 +5,7 @@ import Notification from '../Notification'
 function CandidateRegistration() {
   const [candidateName, setName] = React.useState("")
   const [showNotification, setShowNotification] = React.useState(false)
-
+  const [msg, setMsg ] = React.useState('Added a Candidate')
   async function submitCandidate(e){
     e.preventDefault()
     console.log(candidateName)
@@ -37,7 +37,7 @@ function CandidateRegistration() {
       <Button size="small" onClick={submitCandidate}>Submit</Button>
       </FormControl>
       </div>
-      {showNotification && <Notification />}
+      {showNotification && <Notification method={msg}/>}
     </div>
   );
 }

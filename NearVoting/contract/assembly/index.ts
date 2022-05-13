@@ -1,3 +1,4 @@
+import { storage, logging } from 'near-sdk-as';
 import { Candidate, CandidateList } from './model';
 
 const CANDIDATE_LIMIT = 10
@@ -5,6 +6,8 @@ const CANDIDATE_LIMIT = 10
 export function addCandidate(text: string): void{
     const candidate = new Candidate(text, 0)
     CandidateList.push(candidate)
+    const new_value = getNumCandidates() + 1;
+    storage.set<i8>("candidate_counter", new_value);
 }
 
 // export function getCandidates(): Candidate[] {
@@ -37,8 +40,33 @@ export function voteCandidate(index: i32):void {
     votes += 1;
     const newCandidate = new Candidate(name, votes)
     CandidateList.replace(index, newCandidate)
+    const new_value = get_num() + 1;
+    storage.set<i8>("vote_counter", new_value);
+    logging.log("Increased number to " +  new_value.toString());
 }
 
 export function removeCandidate(index: i32): void {
+    const new_value = getNumCandidates() - 1;
+    storage.set<i8>("candidate_counter", new_value);
     CandidateList.swap_remove(index)
 }
+
+export function get_num(): i8 {
+    return storage.getPrimitive<i8>("vote_counter", 0);
+}
+
+export function get_num_voters(): i8 {
+    return storage.getPrimitive<i8>("voter_counter", 0);
+}
+
+export function getNumCandidates(): i8 {
+    return storage.getPrimitive<i8>("candidate_counter", 0);
+}
+
+// Public method - Reset to zero
+function reset(): void {
+    storage.set<i8>("vote_counter", 0);
+    logging.log("Reset counter to zero");
+}
+
+

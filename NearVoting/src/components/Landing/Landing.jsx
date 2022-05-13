@@ -10,6 +10,7 @@ function Landing() {
   const [selectedCandidate, setSelCandidate] = React.useState(0)
   const [showNotification, setShowNotification] = React.useState(false)
   const [showModal, setShowModal] = React.useState(false)
+  const [msg, setMsg ] = React.useState('Submitted a Vote')
   const closeModal = () => {
     setShowModal(false);
   };
@@ -63,6 +64,7 @@ function Landing() {
     e.preventDefault()
     console.log(e.target.value)
     const idx = parseInt(e.target.value)
+    setMsg('Submitted a Vote')
     try {
       // make an update call to the smart contract
       await window.contract.voteCandidate({
@@ -82,6 +84,7 @@ function Landing() {
   }
   const  removeCandidate = (e) =>{
     e.preventDefault()
+    setMsg('Removed Candidate')
     setSelCandidate(e.currentTarget.value)
     openModal()
   }
@@ -144,7 +147,7 @@ function Landing() {
         open={showModal}
         closeModal={closeModal}
         selectedCandidate={candidates[selectedCandidate].name}/>}
-    {showNotification && <Notification/>}
+    {showNotification && <Notification method={msg}/>}
     </>
   );
 }

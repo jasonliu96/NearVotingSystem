@@ -21,7 +21,7 @@ html {
 
 body {
   margin: 0;
-  padding: 1em;
+  padding: 0;
 }
 
 main {
@@ -69,6 +69,16 @@ button {
   padding: 0.3em 0.75em;
   transition: transform 30ms;
 }
+
+.LoginButton {
+  padding:0;
+}
+.LoginNav {
+  display: flex;
+  justify-content: center;
+  padding-right:1em;
+}
+
 button:hover, button:focus {
   box-shadow: 0 0 10em rgba(255, 255, 255, 0.2) inset;
 }
@@ -137,7 +147,7 @@ code {
 }
 
 li {
-  padding-bottom: 1em;
+  padding-bottom: 0;
 }
 
 aside {

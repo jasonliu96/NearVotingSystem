@@ -7,7 +7,6 @@ import CandidateRegistration from './components/Admin/CandidateRegistration';
 import ChangeStatePage from './components/Admin/ChangeStatePage';
 import ResultsPage from './components/User/ResultsPage';
 import VoterRegistration from './components/User/VoterRegistration';
-import OldApp from './OldApp'
 
 function App() {
   return (

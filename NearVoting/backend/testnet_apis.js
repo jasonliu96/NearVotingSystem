@@ -36,7 +36,7 @@ async function run(){
         "laptopliuj.testnet",
         {
         // name of contract you're connecting to
-        changeMethods: ['getCandidates', 'addCandidate'], // change methods modify state
+        changeMethods: ['getCandidates', 'addCandidate', 'voteCandidate'], // change methods modify state
         sender: account, // account object to initialize and sign transactions.
         }
     );
