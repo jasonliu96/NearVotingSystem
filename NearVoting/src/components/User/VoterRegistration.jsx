@@ -9,11 +9,13 @@ import {
 } from '@mui/material'
 import Select, { SelectChangeEvent } from '@mui/material/Select'
 import MenuItem from '@mui/material/MenuItem'
+import axios from 'axios'
 import { AdapterDateFns } from '@mui/x-date-pickers/AdapterDateFns'
 import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider'
 import { DatePicker } from '@mui/x-date-pickers/DatePicker'
 
 function VoterRegistration() {
+  const serverUrl = 'http://localhost:9999'
   const [firstName, setFirstName] = React.useState('')
   const [lastName, setLastName] = React.useState('')
   const [citizen, setCitizen] = React.useState('')
@@ -29,6 +31,44 @@ function VoterRegistration() {
   async function submitVoter(e) {
     e.preventDefault()
     console.log(firstName)
+    console.log(
+      firstName,
+      lastName,
+      citizen,
+      assistance,
+      phone,
+      identification,
+      email,
+      address,
+    )
+
+    const data = {
+      firstName,
+      lastName,
+      citizen,
+      assistance,
+      phone,
+      identification,
+      email,
+      address,
+    }
+
+    axios.defaults.withCredentials = false
+    console.log(`Register voter with axios and : ${data}`)
+    await axios.post(`${serverUrl}/voter/registerVoter`, data).then(
+      (response) => {
+        console.log(response.data, response.status)
+        if (response.status == 200) {
+          console.log(`Register voter is successfull: ${response.status}`)
+        } else {
+          console.log(`response for register voter is: ${response.status}`)
+        }
+      },
+      (error) => {
+        console.log(`Error while registering voter ${error}`)
+      },
+    )
+
     // try {
     //   // make an update call to the smart contract
     //   await window.contract.addCandidate({
