@@ -100,7 +100,7 @@ function ChangeStatePage() {
       </div>
       ))
       :
-      <p>No phases Added Yet</p>}
+      <p>The Voting process will start after selecting the Phase</p>}
       
       </div>
 
