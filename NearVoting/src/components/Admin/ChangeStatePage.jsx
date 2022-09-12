@@ -6,8 +6,8 @@ function ChangeStatePage() {
   
   const [phase, setCount] = useState(1);
   const [phases,setphase] = useState([]);
-  const [selectValue,setselectvalue] = useState([]);
-
+  // const [selectValue,setselectvalue] = useState([]);
+  const [selectValue,setselectvalue] = useState('');
 
   async function handleChange(e){
     setselectvalue(e.target.value);
@@ -81,7 +81,7 @@ function ChangeStatePage() {
       {phases?.length>0
       ?
       phases.slice(-1).map((value, index)=>(
-        <div>
+        <div key={index}>
         {(() => {
           if (value.phase == 1) {
             return (
@@ -114,7 +114,7 @@ function ChangeStatePage() {
 
 
       <form name="phaseselect">
-      <select name="selectList" id="selectList"     value={selectValue} onChange={handleChange} >
+      <select name="selectList" id="selectList"  value={selectValue} onChange={handleChange} >
       <option value="0">Select the phase</option>
       <option value="1">Registration Phase</option>
       <option value="2">Voting Phase</option>
