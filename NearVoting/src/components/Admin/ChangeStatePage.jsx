@@ -4,8 +4,14 @@ import CloseIcon from '@mui/icons-material/Close';
 
 function ChangeStatePage({phases, submit, selectValue, setselectvalue, handleChange}) {
   
+
   // const [phases,setphase] = useState([]);
   // const [selectValue,setselectvalue] = useState('');
+  
+  const [phase, setCount] = useState(1);
+  const [phases,setphase] = useState([]);
+  // const [selectValue,setselectvalue] = useState([]);
+  const [selectValue,setselectvalue] = useState('');
 
 
   // async function handleChange(e){
@@ -102,7 +108,7 @@ function ChangeStatePage({phases, submit, selectValue, setselectvalue, handleCha
       </div>
 
       <form name="phaseselect">
-      <select name="selectList" id="selectList"     value={selectValue} onChange={handleChange} >
+      <select name="selectList" id="selectList"  value={selectValue} onChange={handleChange} >
       <option value="0">Select the phase</option>
       <option value="1">Registration Phase</option>
       <option value="2">Voting Phase</option>
