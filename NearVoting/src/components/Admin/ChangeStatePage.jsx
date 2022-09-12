@@ -4,7 +4,6 @@ import CloseIcon from '@mui/icons-material/Close';
 
 function ChangeStatePage() {
   
-  const [phase, setCount] = useState(1);
   const [phases,setphase] = useState([]);
   const [selectValue,setselectvalue] = useState([]);
 
@@ -103,15 +102,6 @@ function ChangeStatePage() {
       <p>The Voting process will start after selecting the Phase</p>}
       
       </div>
-
-
-
-      
-
-
-
-
-
 
       <form name="phaseselect">
       <select name="selectList" id="selectList"     value={selectValue} onChange={handleChange} >
