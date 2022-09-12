@@ -114,6 +114,7 @@ function CandidateRegistration() {
           />
           <TextField
             id="candidateId"
+            required
             label="FEC Candidate Identification Number"
             onChange={(e) => setIdnumber(e.target.value)}
             value={candidateId}
@@ -133,6 +134,7 @@ function CandidateRegistration() {
           <TextField
             id="partyAffiliation"
             required
+            label = "Party Affiliation"
             onChange={(e) => setPartyAffiliation(e.target.value)}
             value={partyAffiliation}
             variant="filled"
