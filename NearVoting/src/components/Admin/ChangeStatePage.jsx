@@ -1,16 +1,16 @@
 import React, {useState,useEffect} from 'react';
-import { Card, CardActions, CardContent, Typography, Button, Box} from '@mui/material';
-import CloseIcon from '@mui/icons-material/Close';
+import { Button, FormControl, InputLabel, Select, MenuItem} from '@mui/material';
+
 
 function ChangeStatePage({phases, submit, selectValue, handleChange}) {
   
   
   return (
-    <div style={{ textAlign: 'center' }}>
+    <div style={{ width: '100%', textAlign: 'center' }}>
     
       <h1>Change State Page </h1>
 
-      <div style={{ width: '100%' }}>
+      <div style={{ width: '100%', textAlign: 'center', margin:10 }}>
       {phases?.length>0
       ?
       phases.slice(-1).map((value, index)=>(
@@ -18,15 +18,15 @@ function ChangeStatePage({phases, submit, selectValue, handleChange}) {
         {(() => {
           if (value.phase == 1) {
             return (
-              <div>Registration Phase</div>
+              <div>Current Phase : Registration</div>
             )
           } else if (value.phase == 2) {
             return (
-              <div>Voting Phase</div>
+              <div>Current Phase : Voting</div>
             )
           } else if (value.phase == 3) {
             return (
-              <div>Results Phase</div>
+              <div>Current Phase : Results</div>
             )
           }
         })()}
@@ -36,18 +36,20 @@ function ChangeStatePage({phases, submit, selectValue, handleChange}) {
       <p>The Voting process will start after selecting the Phase</p>}
       
       </div>
-
-      <form name="phaseselect">
-      <select name="selectList" id="selectList"     value={selectValue} onChange={handleChange} >
-      <option value="0">Select the phase</option>
-      <option value="1">Registration Phase</option>
-      <option value="2">Voting Phase</option>
-      <option value="3">Result Phase</option>
+<div>
+      <FormControl sx={{ m: 1, minWidth: 200 }} size="small">
+      <InputLabel id="demo-simple-select-autowidth-label">Phase</InputLabel>
+      <Select name="selectList" id="selectList"     value={selectValue} onChange={handleChange} autoWidth
+          label="Phase" >
+      <MenuItem value="1">Registration Phase</MenuItem>
+      <MenuItem value="2">Voting Phase</MenuItem>
+      <MenuItem value="3">Result Phase</MenuItem>
     
-      </select>
-      <div><input type="submit" value="Submit" onClick={submit} style={{ textAlign: 'center', marginTop:15 }}></input></div>
+      </Select>
+      <div><Button variant="outlined" type="submit" value="Submit" onClick={submit} style={{ textAlign: 'center', marginTop:20 , width:200}}> Submit</Button></div>
       
-      </form>      
+      </FormControl>    
+      </div>  
     </div>
   );
 }
