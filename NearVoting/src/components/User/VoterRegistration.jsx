@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import {
   FormControl,
   InputLabel,
@@ -16,6 +16,13 @@ import DialogContent from '@mui/material/DialogContent'
 import DialogContentText from '@mui/material/DialogContentText'
 import DialogTitle from '@mui/material/DialogTitle'
 import axios from 'axios'
+import Alert from '@mui/material/Alert'
+import IconButton from '@mui/material/IconButton'
+import Collapse from '@mui/material/Collapse'
+import CloseIcon from '@mui/icons-material/Close'
+import CheckIcon from '@mui/icons-material/Check'
+import Box from '@mui/material/Box'
+
 import { AdapterDateFns } from '@mui/x-date-pickers/AdapterDateFns'
 import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider'
 import { DatePicker } from '@mui/x-date-pickers/DatePicker'
@@ -35,6 +42,8 @@ function VoterRegistration() {
   const [msg, setMsg] = React.useState('Added a Voter')
   const [errors, setErrors] = React.useState([])
   const [open, setOpen] = React.useState(false)
+  const [successOpen, setsuccessOpen] = React.useState(false)
+  const [errorOpen, seterrorOpen] = React.useState(false)
 
   async function submitVoter(e) {
     e.preventDefault()
@@ -65,7 +74,7 @@ function VoterRegistration() {
     }
 
     await validateInput(data)
-
+    console.log('No errors occurred')
     axios.defaults.withCredentials = false
     console.log(`Register voter with axios and : ${data}`)
     await axios.post(`${serverUrl}/voter/registerVoter`, data).then(
@@ -73,15 +82,28 @@ function VoterRegistration() {
         console.log(response.data, response.status)
         if (response.status == 200) {
           console.log(`Register voter is successfull: ${response.status}`)
+          seterrorOpen(false)
+          setsuccessOpen(true)
         } else {
           console.log(`response for register voter is: ${response.status}`)
+          setsuccessOpen(false)
+          seterrorOpen(true)
         }
       },
       (error) => {
         console.log(`Error while registering voter ${error}`)
+        setsuccessOpen(false)
+        seterrorOpen(true)
       },
     )
   }
+
+  useEffect(() => {
+    if (errors.length > 0) {
+      console.log('Error has occurred')
+      setOpen(true)
+    }
+  }, [errors])
 
   async function validateInput(data) {
     const {
@@ -151,11 +173,6 @@ function VoterRegistration() {
       console.log('address field missing')
       setErrors((errors) => [...errors, 'Address field should not be empty'])
     }
-
-    if (errors.length > 0) {
-      console.log('Error has occurred')
-      setOpen(true)
-    }
   }
 
   const handleClose = () => {
@@ -167,6 +184,65 @@ function VoterRegistration() {
     <div>
       <h1>Voter Registration</h1>
       <div className="centeredText">
+        <Box
+          sx={{
+            width: '90%',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            marginLeft: '100px',
+          }}
+        >
+          <Collapse in={successOpen}>
+            <Alert
+              action={
+                <IconButton
+                  aria-label="close"
+                  color="inherit"
+                  size="small"
+                  onClick={() => {
+                    setsuccessOpen(false)
+                  }}
+                >
+                  <CloseIcon fontSize="inherit" />
+                </IconButton>
+              }
+              sx={{ mb: 2 }}
+            >
+              Voter Registration Successfull!
+            </Alert>
+          </Collapse>
+        </Box>
+        <Box
+          sx={{
+            width: '90%',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            marginLeft: '100px',
+          }}
+        >
+          <Collapse in={errorOpen}>
+            <Alert
+              severity="error"
+              action={
+                <IconButton
+                  aria-label="close"
+                  color="error"
+                  size="small"
+                  onClick={() => {
+                    seterrorOpen(false)
+                  }}
+                >
+                  <CloseIcon fontSize="inherit" />
+                </IconButton>
+              }
+              sx={{ mb: 2 }}
+            >
+              Voter Registration Failed!
+            </Alert>
+          </Collapse>
+        </Box>
         <Form onSubmit={submitVoter}>
           <FormControl>
             <TextField
