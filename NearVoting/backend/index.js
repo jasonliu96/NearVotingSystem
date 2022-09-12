@@ -3,14 +3,15 @@ const cors = require('cors');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 const { application } = require('express');
-
+const config = require('./config');
 const app = express();
 app.use(cors());
 app.use(bodyParser.json());
 
 const port = 9999;
-
-
+require('./models/candidateschema')
+const candidate = require('./routes/candidate/candidateRoutes')
+app.use('/candidate', candidate)
 async function run(){
 
     app.get('/', async (req,res) => {
@@ -21,4 +22,12 @@ async function run(){
     console.log(`server listening on port port ${port}`)
 }
 
-run();
+mongoose.connect(config.mongodb.conn, {
+    useNewUrlParser: true, useUnifiedTopology: true
+})
+.then(()=>{
+    run();
+})
+.catch((err)=>{
+    console.log(err);
+})

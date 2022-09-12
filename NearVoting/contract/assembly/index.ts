@@ -1,5 +1,5 @@
 import { storage, logging } from 'near-sdk-as';
-import { Candidate, CandidateList } from './model';
+import { Candidate, CandidateList, Phase, PhaseList } from './model';
 
 const CANDIDATE_LIMIT = 10
 
@@ -69,4 +69,18 @@ function reset(): void {
     logging.log("Reset counter to zero");
 }
 
+//function to save states
+export function addstate(text: string): void{
+    const phase = new Phase(text, 0)
+    PhaseList.push(phase)
+}
+
+export function getPhases(): Phase[] {
+    
+    const result = new Array<Phase>();
+    for (let i=0; i<PhaseList.length; i++){
+        result[i] = PhaseList[i];
+    }
+    return result;
+}
 
