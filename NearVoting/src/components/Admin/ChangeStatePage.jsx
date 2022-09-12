@@ -5,7 +5,7 @@ import CloseIcon from '@mui/icons-material/Close';
 function ChangeStatePage() {
   
   const [phases,setphase] = useState([]);
-  const [selectValue,setselectvalue] = useState([]);
+  const [selectValue,setselectvalue] = useState('');
 
 
   async function handleChange(e){
@@ -80,7 +80,7 @@ function ChangeStatePage() {
       {phases?.length>0
       ?
       phases.slice(-1).map((value, index)=>(
-        <div>
+        <div key={index}>
         {(() => {
           if (value.phase == 1) {
             return (

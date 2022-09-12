@@ -45,7 +45,7 @@ function App() {
       {phases?.length>0
       ?
       phases.slice(-1).map((value, index)=>(
-      <Router>
+      <Router key={index}>
         <Navbar />
         <Routes>
           <Route path="" element={value.phase == 2 ? <Landing /> : <NoLanding /> } />
