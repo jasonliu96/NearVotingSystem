@@ -1,7 +1,10 @@
 const express = require('express')
 const router = express.Router()
 
-const { register } = require('../../queries/voter/register')
+const {
+  register,
+  checkUniqueIdentification,
+} = require('../../queries/voter/register')
 
 router.post('/registerVoter', async (req, res) => {
   try {
@@ -19,4 +22,21 @@ router.post('/registerVoter', async (req, res) => {
   }
 })
 
+router.post('/checkUniqueIdentification', async (req, res) => {
+  try {
+    console.log(
+      `CheckUniqueIdentification request body: ${JSON.stringify(req.body)}`,
+    )
+
+    let results = null
+    results = await checkUniqueIdentification(req.body, res)
+    console.log(`checkUniqueIdentification results ${results.status}`)
+    // res.data = results.data
+    // res.status = results.status
+    res.sendStatus(results.status)
+  } catch (err) {
+    console.log(`Catch error: ${err}`)
+    return err
+  }
+})
 module.exports = router

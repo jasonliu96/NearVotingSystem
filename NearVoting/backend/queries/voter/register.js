@@ -6,6 +6,7 @@ const register = async (request, response) => {
   const {
     firstName,
     lastName,
+    name,
     citizen,
     assistance,
     phone,
@@ -17,6 +18,7 @@ const register = async (request, response) => {
   const voter = new VoterInfo({
     firstName,
     lastName,
+    name,
     citizen,
     assistance,
     phone,
@@ -45,4 +47,28 @@ const register = async (request, response) => {
   return response
 }
 
-module.exports = { register }
+const checkUniqueIdentification = async (request, response) => {
+  console.log(
+    `checkUniqueIdentification mongo request: ${JSON.stringify(request)}`,
+  )
+  const { identification } = request
+
+  await VoterInfo.find({ identification })
+    .then((result) => {
+      console.log('checkUniqueIdentification')
+      console.log(result.length)
+      console.log(result)
+      if (result.length > 0) response.status = 201
+      else response.status = 200
+
+      console.log(`Response: ${response.status}`)
+    })
+    .catch((err) => {
+      console.log(err)
+      response.status = 400
+    })
+
+  return response
+}
+
+module.exports = { register, checkUniqueIdentification }

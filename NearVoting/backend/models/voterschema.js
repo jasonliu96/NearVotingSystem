@@ -5,6 +5,7 @@ const { Schema } = mongoose
 const voterSchema = new Schema({
   firstName: { type: String, required: true },
   lastName: { type: String, required: true },
+  name: { type: String, required: true },
   citizen: { type: String, required: true },
   assistance: { type: String, required: true },
   phone: { type: Number, required: true, unique: true },
