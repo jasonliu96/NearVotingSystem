@@ -13,26 +13,57 @@ import {
   FormControlLabel,
 } from '@mui/material'
 import Notification from '../Notification'
+import axios from 'axios'
 
 function CandidateRegistration() {
   // const [candidateName, setName] = React.useState("")
-  const [candidateName, setName] = React.useState('')
-  const [addressNumSt, setAddress] = React.useState('')
+  const serverUrl = 'http://localhost:9999'
+  const [fullName, setName] = React.useState('')
+  const [address, setAddress] = React.useState('')
   const [cityStateZip, setCityStateZip] = React.useState('')
-  const [idNumber, setIdnumber] = React.useState('')
+  const [candidateId, setIdnumber] = React.useState('')
   const [partyAffiliation, setPartyAffiliation] = React.useState('')
-  const [officeSought, setOffice] = React.useState('')
+  const [office, setOffice] = React.useState('')
   const [stateDistrict, setStateDistrict] = React.useState('')
   const [showNotification, setShowNotification] = React.useState(false)
   const [msg, setMsg] = React.useState('Added a Candidate')
+
   async function submitCandidate(e) {
     e.preventDefault()
-    console.log(candidateName)
+    console.log(fullName)
+
+    const data = {
+      fullName,
+      address,
+      cityStateZip,
+      candidateId,
+      // statement,
+      partyAffiliation,
+      office,
+      stateDistrict,
+    }
+
+    axios.defaults.withCredentials = false
+    console.log(`Add Candidate with axios and : ${data}`)
+    await axios.post(`${serverUrl}/candidate/addCandidate`, data).then(
+      (response) => {
+        console.log(response.data, response.status)
+        if (response.status == 200) {
+          console.log(`Add candidate was successfull: ${response.status}`)
+        } else {
+          console.log(`response for add candidate is: ${response.status}`)
+        }
+      },
+      (error) => {
+        console.log(`Error while adding candidate ${error}`)
+      },
+    )
+
     try {
       // make an update call to the smart contract
       await window.contract.addCandidate({
         // pass the value that the user entered in the greeting field
-        text: candidateName
+        text: fullName
       })
     } catch (e) {
       alert(
@@ -52,21 +83,21 @@ function CandidateRegistration() {
       <div className="centeredText">
         <FormControl >
           <TextField
-            id="candidateName"
+            id="fullName"
             required
             label="Name of the Candidate (in full)"
             onChange={(e) => setName(e.target.value)}
-            value={candidateName}
+            value={fullName}
             variant="filled"
             color="secondary"
             style={{ width: '550px', margin: '10px' }}
           />
           <TextField
-            id="addressNumSt"
+            id="address"
             required
             label="Address (number and street)"
             onChange={(e) => setAddress(e.target.value)}
-            value={addressNumSt}
+            value={address}
             variant="filled"
             color="secondary"
             style={{ width: '550px', margin: '10px' }}
@@ -82,15 +113,15 @@ function CandidateRegistration() {
             style={{ width: '550px', margin: '10px' }}
           />
           <TextField
-            id="idNumber"
+            id="candidateId"
             label="FEC Candidate Identification Number"
             onChange={(e) => setIdnumber(e.target.value)}
-            value={idNumber}
+            value={candidateId}
             variant="filled"
             color="secondary"
             style={{ width: '550px', margin: '10px' }}
           />
-          <FormLabel id="demo-radio-buttons-group-label">Is This Statement</FormLabel>
+          {/* <FormLabel id="demo-radio-buttons-group-label">Is This Statement</FormLabel>
           <RadioGroup
             aria-labelledby="demo-radio-buttons-group-label"
             defaultValue="New (N)"
@@ -98,11 +129,10 @@ function CandidateRegistration() {
           >
             <FormControlLabel value="New (N)" control={<Radio />} label="New (N)" />
             <FormControlLabel value="Amended (A)" control={<Radio />} label="Amended (A)" />
-          </RadioGroup>
+          </RadioGroup> */}
           <TextField
             id="partyAffiliation"
             required
-            label="Party Affiliation"
             onChange={(e) => setPartyAffiliation(e.target.value)}
             value={partyAffiliation}
             variant="filled"
@@ -111,11 +141,11 @@ function CandidateRegistration() {
             style={{ width: '550px', margin: '10px' }}
           />
           <TextField
-            id="officeSought"
+            id="office"
             required
             label="Office Sought"
             onChange={(e) => setOffice(e.target.value)}
-            value={officeSought}
+            value={office}
             variant="filled"
             placeholder="House"
             color="secondary"
