@@ -41,6 +41,7 @@
     "@mui/system": "^5.7.0",
     "@mui/x-date-pickers": "^5.0.0-alpha.3",
     "@types/react": ">=16.14.8",
+    "axios": "^0.27.2",
     "body-parser": "^1.20.0",
     "cors": "^2.8.5",
     "date-fns": "^2.28.0",

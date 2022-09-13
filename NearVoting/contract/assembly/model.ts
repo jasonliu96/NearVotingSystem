@@ -7,4 +7,12 @@ export class Candidate{
     }
 }
 
+@nearBindgen
+export class Phase{
+    constructor(public phase: string, public phasenumber: number){
+
+    }
+}
+
 export const CandidateList = new PersistentVector<Candidate>("c")
+export const PhaseList = new PersistentVector<Phase>("f")

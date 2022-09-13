@@ -14,6 +14,10 @@ require('./models/testschema')
 const voter = require('./routes/voter/voterRoutes')
 app.use('/voter', voter)
 
+require('./models/candidateschema')
+const candidate = require('./routes/candidate/candidateRoutes')
+app.use('/candidate', candidate)
+
 async function run() {
   app.get('/', async (req, res) => {
     res.send(200, 'Welcome to Near Voting')
