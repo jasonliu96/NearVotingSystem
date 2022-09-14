@@ -43,7 +43,6 @@ const register = async (request, response) => {
       response.data = 'Error while registering voter in mongoDB'
     })
 
-  console.log('Already returned response')
   return response
 }
 

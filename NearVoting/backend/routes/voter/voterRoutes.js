@@ -31,8 +31,6 @@ router.post('/checkUniqueIdentification', async (req, res) => {
     let results = null
     results = await checkUniqueIdentification(req.body, res)
     console.log(`checkUniqueIdentification results ${results.status}`)
-    // res.data = results.data
-    // res.status = results.status
     res.sendStatus(results.status)
   } catch (err) {
     console.log(`Catch error: ${err}`)
