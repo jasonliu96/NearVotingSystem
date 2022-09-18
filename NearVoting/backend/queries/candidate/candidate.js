@@ -45,4 +45,28 @@ const addCandidate = async (request, response) => {
   return response
 }
 
-module.exports = { addCandidate }
+const checkUniquecandidateId = async (request, response) => {
+  console.log(
+    `checkUniquecandidateId mongo request: ${JSON.stringify(request)}`,
+  )
+  const { candidateId } = request
+
+  await CandidateInfo.find({ candidateId })
+    .then((result) => {
+      console.log('checkUniquecandidateId')
+      console.log(result.length)
+      console.log(result)
+      if (result.length > 0) response.status = 201
+      else response.status = 200
+
+      console.log(`Response: ${response.status}`)
+    })
+    .catch((err) => {
+      console.log(err)
+      response.status = 400
+    })
+
+  return response
+}
+
+module.exports = { addCandidate , checkUniquecandidateId }
