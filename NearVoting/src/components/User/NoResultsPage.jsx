@@ -23,15 +23,17 @@ function NoResultsPage() {
 
   return (
     <>
-    <main>
-      <h1>Results</h1>
-      <div style={{ textAlign: 'center', position: 'absolute',
-    top: '50%',
-    left: '50%',
-    transform: 'translate(-50%, -50%)' }}>It is not the correct Phase.</div>
-    
-    
-    </main>
+      <main>
+        <h1>Results</h1>
+        <div style={{
+          textAlign: 'center', position: 'absolute',
+          top: '50%',
+          left: '50%',
+          transform: 'translate(-50%, -50%)'
+        }}>It is not the correct Phase.</div>
+
+
+      </main>
     </>
   );
 }
