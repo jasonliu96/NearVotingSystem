@@ -1,5 +1,5 @@
 timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
-1663640344006,2,HTTP Request,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,100T getCandidates 1-510,text,false,,2080,0,510,510,http://localhost:8080/getCandidates,0,0,0
+1663640344006,1753,HTTP Request,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,100T getCandidates 1-510,text,false,,2080,0,510,510,http://localhost:8080/getCandidates,0,0,0
 1663640341471,7549,HTTP Request,200,OK,100T getCandidates 1-1,text,true,,7654,211,999,999,http://localhost:8080/getCandidates,7549,0,1
 1663640341476,10537,HTTP Request,200,OK,100T getCandidates 1-2,text,true,,7654,211,998,998,http://localhost:8080/getCandidates,10536,0,0
 1663640341476,10541,HTTP Request,200,OK,100T getCandidates 1-4,text,true,,7654,211,997,997,http://localhost:8080/getCandidates,10541,0,0
