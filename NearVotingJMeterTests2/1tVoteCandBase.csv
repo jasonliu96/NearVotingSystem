@@ -1,0 +1,2 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1663635404349,15006,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,300T voteCandidate 1-1,text,false,,2441,0,1,1,http://localhost:8080/voteCandidate,0,0,0
