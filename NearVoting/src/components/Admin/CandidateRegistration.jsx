@@ -70,10 +70,15 @@ function CandidateRegistration() {
       axios.defaults.withCredentials = false
       console.log(`Add Candidate with axios and : ${data}`)
       await axios.post(`${serverUrl}/candidate/addCandidate`, data).then(
-        (response) => {
+        async (response) => {
           console.log(response.data, response.status)
           if (response.status == 200) {
             console.log(`Add candidate was successfull: ${response.status}`)
+            // make an update call to the smart contract
+            await window.contract.addCandidate({
+              // pass the value that the user entered in the greeting field
+              text: fullName
+            })
             seterrorOpen(false)
             setsuccessOpen(true)
           } else {
@@ -88,11 +93,7 @@ function CandidateRegistration() {
           seterrorOpen(true)
         },
       )
-      // make an update call to the smart contract
-      await window.contract.addCandidate({
-        // pass the value that the user entered in the greeting field
-        text: fullName
-      })
+
     } catch (e) {
       alert(
         'Something went wrong! ' +
