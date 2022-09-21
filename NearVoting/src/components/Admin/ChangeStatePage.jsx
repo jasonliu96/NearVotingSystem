@@ -1,15 +1,34 @@
 import React, {useState,useEffect} from 'react';
 import { Button, FormControl, InputLabel, Select, MenuItem} from '@mui/material';
+import Alert from '@mui/material/Alert'
+import IconButton from '@mui/material/IconButton'
+import Collapse from '@mui/material/Collapse'
+import CloseIcon from '@mui/icons-material/Close'
 
+function ChangeStatePage({phases, submit, selectValue, handleChange, successOpen, handleModalChange}) {
 
-function ChangeStatePage({phases, submit, selectValue, handleChange}) {
-  
-  
   return (
     <div style={{ width: '100%', textAlign: 'center' }}>
-    
       <h1>Change State Page </h1>
-
+      <Collapse in={successOpen}>
+            <Alert
+              action={
+                <IconButton
+                  aria-label="close"
+                  color="inherit"
+                  size="small"
+                  onClick={
+                    handleModalChange
+                  }
+                >
+                  <CloseIcon fontSize="inherit" />
+                </IconButton>
+              }
+              sx={{ mb: 2 }}
+            >
+              Phase Change Successful
+            </Alert>
+          </Collapse>
       <div style={{ width: '100%', textAlign: 'center', margin:10 }}>
       {phases?.length>0
       ?
