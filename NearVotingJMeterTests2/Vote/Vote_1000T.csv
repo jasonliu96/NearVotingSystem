@@ -1,0 +1,1001 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1663638914392,1725,HTTP Request,200,OK,1000T voteCandidate 1-33,text,true,,261,225,378,378,http://localhost:8080/voteCandidate,1725,0,1
+1663638914398,1721,HTTP Request,200,OK,1000T voteCandidate 1-34,text,true,,261,225,377,377,http://localhost:8080/voteCandidate,1721,0,1
+1663638914387,1732,HTTP Request,200,OK,1000T voteCandidate 1-32,text,true,,261,225,377,377,http://localhost:8080/voteCandidate,1732,0,1
+1663638914423,1699,HTTP Request,200,OK,1000T voteCandidate 1-39,text,true,,261,225,377,377,http://localhost:8080/voteCandidate,1699,0,1
+1663638914417,1705,HTTP Request,200,OK,1000T voteCandidate 1-38,text,true,,261,225,377,377,http://localhost:8080/voteCandidate,1705,0,1
+1663638914412,1710,HTTP Request,200,OK,1000T voteCandidate 1-37,text,true,,261,225,377,377,http://localhost:8080/voteCandidate,1710,0,1
+1663638914407,1715,HTTP Request,200,OK,1000T voteCandidate 1-36,text,true,,261,225,377,377,http://localhost:8080/voteCandidate,1715,0,1
+1663638914428,1695,HTTP Request,200,OK,1000T voteCandidate 1-40,text,true,,261,225,375,375,http://localhost:8080/voteCandidate,1695,0,1
+1663638914432,1703,HTTP Request,200,OK,1000T voteCandidate 1-41,text,true,,261,225,373,373,http://localhost:8080/voteCandidate,1703,0,1
+1663638914447,1751,HTTP Request,200,OK,1000T voteCandidate 1-44,text,true,,261,225,385,385,http://localhost:8080/voteCandidate,1751,0,1
+1663638914442,1758,HTTP Request,200,OK,1000T voteCandidate 1-43,text,true,,261,225,384,384,http://localhost:8080/voteCandidate,1758,0,1
+1663638914437,1763,HTTP Request,200,OK,1000T voteCandidate 1-42,text,true,,261,225,384,384,http://localhost:8080/voteCandidate,1763,0,1
+1663638914457,1743,HTTP Request,200,OK,1000T voteCandidate 1-46,text,true,,261,225,384,384,http://localhost:8080/voteCandidate,1743,0,1
+1663638914453,1749,HTTP Request,200,OK,1000T voteCandidate 1-45,text,true,,261,225,382,382,http://localhost:8080/voteCandidate,1749,0,0
+1663638914467,1735,HTTP Request,200,OK,1000T voteCandidate 1-48,text,true,,261,225,382,382,http://localhost:8080/voteCandidate,1735,0,1
+1663638914462,1741,HTTP Request,200,OK,1000T voteCandidate 1-47,text,true,,261,225,382,382,http://localhost:8080/voteCandidate,1741,0,1
+1663638914478,1725,HTTP Request,200,OK,1000T voteCandidate 1-50,text,true,,261,225,382,382,http://localhost:8080/voteCandidate,1725,0,1
+1663638914236,2082,HTTP Request,200,OK,1000T voteCandidate 1-1,text,true,,261,225,385,385,http://localhost:8080/voteCandidate,2082,0,1
+1663638914572,1746,HTTP Request,200,OK,1000T voteCandidate 1-69,text,true,,261,225,385,385,http://localhost:8080/voteCandidate,1746,0,0
+1663638914241,2077,HTTP Request,200,OK,1000T voteCandidate 1-2,text,true,,261,225,385,385,http://localhost:8080/voteCandidate,2077,0,1
+1663638914553,1765,HTTP Request,200,OK,1000T voteCandidate 1-65,text,true,,261,225,386,386,http://localhost:8080/voteCandidate,1765,0,1
+1663638914557,1761,HTTP Request,200,OK,1000T voteCandidate 1-66,text,true,,261,225,387,387,http://localhost:8080/voteCandidate,1761,0,0
+1663638914547,1771,HTTP Request,200,OK,1000T voteCandidate 1-64,text,true,,261,225,387,387,http://localhost:8080/voteCandidate,1771,0,1
+1663638914562,1756,HTTP Request,200,OK,1000T voteCandidate 1-67,text,true,,261,225,387,387,http://localhost:8080/voteCandidate,1756,0,0
+1663638914542,1776,HTTP Request,200,OK,1000T voteCandidate 1-63,text,true,,261,225,385,385,http://localhost:8080/voteCandidate,1776,0,1
+1663638914523,1795,HTTP Request,200,OK,1000T voteCandidate 1-59,text,true,,261,225,385,385,http://localhost:8080/voteCandidate,1795,0,1
+1663638914518,1800,HTTP Request,200,OK,1000T voteCandidate 1-58,text,true,,261,225,381,381,http://localhost:8080/voteCandidate,1800,0,1
+1663638914527,1791,HTTP Request,200,OK,1000T voteCandidate 1-60,text,true,,261,225,381,381,http://localhost:8080/voteCandidate,1791,0,1
+1663638914537,1781,HTTP Request,200,OK,1000T voteCandidate 1-62,text,true,,261,225,381,381,http://localhost:8080/voteCandidate,1781,0,1
+1663638914532,1787,HTTP Request,200,OK,1000T voteCandidate 1-61,text,true,,261,225,381,381,http://localhost:8080/voteCandidate,1787,0,1
+1663638914507,1812,HTTP Request,200,OK,1000T voteCandidate 1-56,text,true,,261,225,377,377,http://localhost:8080/voteCandidate,1812,0,1
+1663638914498,1821,HTTP Request,200,OK,1000T voteCandidate 1-54,text,true,,261,225,377,377,http://localhost:8080/voteCandidate,1821,0,1
+1663638914512,1807,HTTP Request,200,OK,1000T voteCandidate 1-57,text,true,,261,225,377,377,http://localhost:8080/voteCandidate,1807,0,1
+1663638914502,1817,HTTP Request,200,OK,1000T voteCandidate 1-55,text,true,,261,225,377,377,http://localhost:8080/voteCandidate,1817,0,1
+1663638914473,1846,HTTP Request,200,OK,1000T voteCandidate 1-49,text,true,,261,225,377,377,http://localhost:8080/voteCandidate,1846,0,1
+1663638914482,1837,HTTP Request,200,OK,1000T voteCandidate 1-51,text,true,,261,225,377,377,http://localhost:8080/voteCandidate,1837,0,1
+1663638914488,1831,HTTP Request,200,OK,1000T voteCandidate 1-52,text,true,,261,225,377,377,http://localhost:8080/voteCandidate,1831,0,1
+1663638914493,1826,HTTP Request,200,OK,1000T voteCandidate 1-53,text,true,,261,225,377,377,http://localhost:8080/voteCandidate,1826,0,1
+1663638914592,1879,HTTP Request,200,OK,1000T voteCandidate 1-73,text,true,,261,225,411,411,http://localhost:8080/voteCandidate,1879,0,0
+1663638914245,2227,HTTP Request,200,OK,1000T voteCandidate 1-3,text,true,,261,225,410,410,http://localhost:8080/voteCandidate,2227,0,1
+1663638914587,1886,HTTP Request,200,OK,1000T voteCandidate 1-72,text,true,,261,225,409,409,http://localhost:8080/voteCandidate,1886,0,0
+1663638914567,1906,HTTP Request,200,OK,1000T voteCandidate 1-68,text,true,,261,225,408,408,http://localhost:8080/voteCandidate,1906,0,0
+1663638914583,1890,HTTP Request,200,OK,1000T voteCandidate 1-71,text,true,,261,225,407,407,http://localhost:8080/voteCandidate,1890,0,0
+1663638914578,1896,HTTP Request,200,OK,1000T voteCandidate 1-70,text,true,,261,225,406,406,http://localhost:8080/voteCandidate,1896,0,0
+1663638914597,1877,HTTP Request,200,OK,1000T voteCandidate 1-74,text,true,,261,225,405,405,http://localhost:8080/voteCandidate,1877,0,0
+1663638914250,2225,HTTP Request,200,OK,1000T voteCandidate 1-4,text,true,,261,225,404,404,http://localhost:8080/voteCandidate,2225,0,1
+1663638914251,2224,HTTP Request,200,OK,1000T voteCandidate 1-5,text,true,,261,225,403,403,http://localhost:8080/voteCandidate,2224,0,1
+1663638914257,2220,HTTP Request,200,OK,1000T voteCandidate 1-6,text,true,,261,225,403,403,http://localhost:8080/voteCandidate,2220,0,1
+1663638914262,2219,HTTP Request,200,OK,1000T voteCandidate 1-7,text,true,,261,225,402,402,http://localhost:8080/voteCandidate,2218,0,0
+1663638914267,2214,HTTP Request,200,OK,1000T voteCandidate 1-8,text,true,,261,225,401,401,http://localhost:8080/voteCandidate,2214,0,1
+1663638914273,2208,HTTP Request,200,OK,1000T voteCandidate 1-9,text,true,,261,225,401,401,http://localhost:8080/voteCandidate,2208,0,1
+1663638914277,2205,HTTP Request,200,OK,1000T voteCandidate 1-10,text,true,,261,225,400,400,http://localhost:8080/voteCandidate,2205,0,1
+1663638914282,2201,HTTP Request,200,OK,1000T voteCandidate 1-11,text,true,,261,225,399,399,http://localhost:8080/voteCandidate,2201,0,1
+1663638914286,2197,HTTP Request,200,OK,1000T voteCandidate 1-12,text,true,,261,225,398,398,http://localhost:8080/voteCandidate,2197,0,1
+1663638914327,2178,HTTP Request,200,OK,1000T voteCandidate 1-20,text,true,,261,225,401,401,http://localhost:8080/voteCandidate,2178,0,1
+1663638914323,2183,HTTP Request,200,OK,1000T voteCandidate 1-19,text,true,,261,225,400,400,http://localhost:8080/voteCandidate,2182,0,1
+1663638914333,2173,HTTP Request,200,OK,1000T voteCandidate 1-21,text,true,,261,225,399,399,http://localhost:8080/voteCandidate,2173,0,1
+1663638914347,2160,HTTP Request,200,OK,1000T voteCandidate 1-24,text,true,,261,225,399,399,http://localhost:8080/voteCandidate,2160,0,1
+1663638914343,2259,HTTP Request,200,OK,1000T voteCandidate 1-23,text,true,,261,225,417,417,http://localhost:8080/voteCandidate,2259,0,0
+1663638914339,2263,HTTP Request,200,OK,1000T voteCandidate 1-22,text,true,,261,225,416,416,http://localhost:8080/voteCandidate,2263,0,1
+1663638914352,2251,HTTP Request,200,OK,1000T voteCandidate 1-25,text,true,,261,225,415,415,http://localhost:8080/voteCandidate,2251,0,1
+1663638914362,2243,HTTP Request,200,OK,1000T voteCandidate 1-27,text,true,,261,225,414,414,http://localhost:8080/voteCandidate,2243,0,1
+1663638914358,2252,HTTP Request,200,OK,1000T voteCandidate 1-26,text,true,,261,225,414,414,http://localhost:8080/voteCandidate,2252,0,0
+1663638914368,2243,HTTP Request,200,OK,1000T voteCandidate 1-28,text,true,,261,225,414,414,http://localhost:8080/voteCandidate,2243,0,1
+1663638914373,2253,HTTP Request,200,OK,1000T voteCandidate 1-29,text,true,,261,225,416,416,http://localhost:8080/voteCandidate,2253,0,1
+1663638914377,2250,HTTP Request,200,OK,1000T voteCandidate 1-30,text,true,,261,225,415,415,http://localhost:8080/voteCandidate,2250,0,1
+1663638914382,2245,HTTP Request,200,OK,1000T voteCandidate 1-31,text,true,,261,225,414,414,http://localhost:8080/voteCandidate,2245,0,0
+1663638914403,2225,HTTP Request,200,OK,1000T voteCandidate 1-35,text,true,,261,225,413,413,http://localhost:8080/voteCandidate,2225,0,1
+1663638914867,1799,HTTP Request,200,OK,1000T voteCandidate 1-128,text,true,,261,225,419,419,http://localhost:8080/voteCandidate,1798,0,1
+1663638914848,1818,HTTP Request,200,OK,1000T voteCandidate 1-124,text,true,,261,225,418,418,http://localhost:8080/voteCandidate,1818,0,1
+1663638914878,1788,HTTP Request,200,OK,1000T voteCandidate 1-130,text,true,,261,225,417,417,http://localhost:8080/voteCandidate,1788,0,1
+1663638914872,1795,HTTP Request,200,OK,1000T voteCandidate 1-129,text,true,,261,225,417,417,http://localhost:8080/voteCandidate,1795,0,0
+1663638914852,1839,HTTP Request,200,OK,1000T voteCandidate 1-125,text,true,,261,225,421,421,http://localhost:8080/voteCandidate,1839,0,1
+1663638914898,1868,HTTP Request,200,OK,1000T voteCandidate 1-133,text,true,,261,225,434,434,http://localhost:8080/voteCandidate,1868,0,1
+1663638914837,1949,HTTP Request,200,OK,1000T voteCandidate 1-122,text,true,,261,225,437,437,http://localhost:8080/voteCandidate,1949,0,1
+1663638914808,1979,HTTP Request,200,OK,1000T voteCandidate 1-116,text,true,,261,225,437,437,http://localhost:8080/voteCandidate,1979,0,0
+1663638914803,1984,HTTP Request,200,OK,1000T voteCandidate 1-115,text,true,,261,225,436,436,http://localhost:8080/voteCandidate,1984,0,1
+1663638914843,1945,HTTP Request,200,OK,1000T voteCandidate 1-123,text,true,,261,225,435,435,http://localhost:8080/voteCandidate,1945,0,1
+1663638914887,1903,HTTP Request,200,OK,1000T voteCandidate 1-132,text,true,,261,225,434,434,http://localhost:8080/voteCandidate,1903,0,1
+1663638914817,1973,HTTP Request,200,OK,1000T voteCandidate 1-118,text,true,,261,225,434,434,http://localhost:8080/voteCandidate,1973,0,0
+1663638914822,1970,HTTP Request,200,OK,1000T voteCandidate 1-119,text,true,,261,225,433,433,http://localhost:8080/voteCandidate,1970,0,1
+1663638914832,1961,HTTP Request,200,OK,1000T voteCandidate 1-121,text,true,,261,225,432,432,http://localhost:8080/voteCandidate,1961,0,1
+1663638914812,1982,HTTP Request,200,OK,1000T voteCandidate 1-117,text,true,,261,225,431,431,http://localhost:8080/voteCandidate,1982,0,1
+1663638914827,1968,HTTP Request,200,OK,1000T voteCandidate 1-120,text,true,,261,225,430,430,http://localhost:8080/voteCandidate,1968,0,1
+1663638914862,1933,HTTP Request,200,OK,1000T voteCandidate 1-127,text,true,,261,225,429,429,http://localhost:8080/voteCandidate,1933,0,0
+1663638914883,1924,HTTP Request,200,OK,1000T voteCandidate 1-131,text,true,,261,225,430,430,http://localhost:8080/voteCandidate,1924,0,0
+1663638914901,1907,HTTP Request,200,OK,1000T voteCandidate 1-135,text,true,,261,225,430,430,http://localhost:8080/voteCandidate,1907,0,1
+1663638914906,1903,HTTP Request,200,OK,1000T voteCandidate 1-136,text,true,,261,225,429,429,http://localhost:8080/voteCandidate,1903,0,1
+1663638914911,1898,HTTP Request,200,OK,1000T voteCandidate 1-137,text,true,,261,225,428,428,http://localhost:8080/voteCandidate,1898,0,0
+1663638914898,1912,HTTP Request,200,OK,1000T voteCandidate 1-134,text,true,,261,225,427,427,http://localhost:8080/voteCandidate,1912,0,1
+1663638914857,1954,HTTP Request,200,OK,1000T voteCandidate 1-126,text,true,,261,225,426,426,http://localhost:8080/voteCandidate,1954,0,0
+1663638914922,1893,HTTP Request,200,OK,1000T voteCandidate 1-139,text,true,,261,225,426,426,http://localhost:8080/voteCandidate,1893,0,0
+1663638914927,1888,HTTP Request,200,OK,1000T voteCandidate 1-140,text,true,,261,225,425,425,http://localhost:8080/voteCandidate,1888,0,0
+1663638914917,1899,HTTP Request,200,OK,1000T voteCandidate 1-138,text,true,,261,225,424,424,http://localhost:8080/voteCandidate,1899,0,0
+1663638914937,1879,HTTP Request,200,OK,1000T voteCandidate 1-142,text,true,,261,225,424,424,http://localhost:8080/voteCandidate,1879,0,0
+1663638914942,1875,HTTP Request,200,OK,1000T voteCandidate 1-143,text,true,,261,225,423,423,http://localhost:8080/voteCandidate,1875,0,1
+1663638914947,1898,HTTP Request,200,OK,1000T voteCandidate 1-144,text,true,,261,225,427,427,http://localhost:8080/voteCandidate,1898,0,1
+1663638914932,1914,HTTP Request,200,OK,1000T voteCandidate 1-141,text,true,,261,225,427,427,http://localhost:8080/voteCandidate,1914,0,0
+1663638914953,1894,HTTP Request,200,OK,1000T voteCandidate 1-145,text,true,,261,225,426,426,http://localhost:8080/voteCandidate,1894,0,0
+1663638914956,1892,HTTP Request,200,OK,1000T voteCandidate 1-146,text,true,,261,225,425,425,http://localhost:8080/voteCandidate,1892,0,1
+1663638914961,1887,HTTP Request,200,OK,1000T voteCandidate 1-147,text,true,,261,225,424,424,http://localhost:8080/voteCandidate,1887,0,1
+1663638914967,1883,HTTP Request,200,OK,1000T voteCandidate 1-148,text,true,,261,225,423,423,http://localhost:8080/voteCandidate,1883,0,0
+1663638914992,1858,HTTP Request,200,OK,1000T voteCandidate 1-153,text,true,,261,225,422,422,http://localhost:8080/voteCandidate,1858,0,1
+1663638914978,1966,HTTP Request,200,OK,1000T voteCandidate 1-150,text,true,,261,225,440,440,http://localhost:8080/voteCandidate,1966,0,0
+1663638914988,1956,HTTP Request,200,OK,1000T voteCandidate 1-152,text,true,,261,225,439,439,http://localhost:8080/voteCandidate,1956,0,1
+1663638914972,1973,HTTP Request,200,OK,1000T voteCandidate 1-149,text,true,,261,225,438,438,http://localhost:8080/voteCandidate,1973,0,0
+1663638914983,1962,HTTP Request,200,OK,1000T voteCandidate 1-151,text,true,,261,225,438,438,http://localhost:8080/voteCandidate,1962,0,1
+1663638914607,2341,HTTP Request,200,OK,1000T voteCandidate 1-76,text,true,,261,225,437,437,http://localhost:8080/voteCandidate,2341,0,0
+1663638914613,2336,HTTP Request,200,OK,1000T voteCandidate 1-77,text,true,,261,225,436,436,http://localhost:8080/voteCandidate,2336,0,0
+1663638914637,2312,HTTP Request,200,OK,1000T voteCandidate 1-80,text,true,,261,225,435,435,http://localhost:8080/voteCandidate,2312,0,0
+1663638914602,2348,HTTP Request,200,OK,1000T voteCandidate 1-75,text,true,,261,225,434,434,http://localhost:8080/voteCandidate,2348,0,0
+1663638914637,2313,HTTP Request,200,OK,1000T voteCandidate 1-82,text,true,,261,225,433,433,http://localhost:8080/voteCandidate,2313,0,0
+1663638914637,2314,HTTP Request,200,OK,1000T voteCandidate 1-79,text,true,,261,225,433,433,http://localhost:8080/voteCandidate,2314,0,0
+1663638914618,2334,HTTP Request,200,OK,1000T voteCandidate 1-78,text,true,,261,225,432,432,http://localhost:8080/voteCandidate,2334,0,19
+1663638914637,2316,HTTP Request,200,OK,1000T voteCandidate 1-81,text,true,,261,225,431,431,http://localhost:8080/voteCandidate,2316,0,0
+1663638914647,2307,HTTP Request,200,OK,1000T voteCandidate 1-84,text,true,,261,225,430,430,http://localhost:8080/voteCandidate,2307,0,1
+1663638914654,2301,HTTP Request,200,OK,1000T voteCandidate 1-85,text,true,,261,225,429,429,http://localhost:8080/voteCandidate,2300,0,0
+1663638914658,2422,HTTP Request,200,OK,1000T voteCandidate 1-86,text,true,,261,225,453,453,http://localhost:8080/voteCandidate,2422,0,0
+1663638915002,2080,HTTP Request,200,OK,1000T voteCandidate 1-155,text,true,,261,225,453,453,http://localhost:8080/voteCandidate,2080,0,1
+1663638915037,2047,HTTP Request,200,OK,1000T voteCandidate 1-162,text,true,,261,225,453,453,http://localhost:8080/voteCandidate,2047,0,1
+1663638915012,2072,HTTP Request,200,OK,1000T voteCandidate 1-157,text,true,,261,225,453,453,http://localhost:8080/voteCandidate,2072,0,0
+1663638915007,2077,HTTP Request,200,OK,1000T voteCandidate 1-156,text,true,,261,225,453,453,http://localhost:8080/voteCandidate,2077,0,1
+1663638915031,2053,HTTP Request,200,OK,1000T voteCandidate 1-161,text,true,,261,225,449,449,http://localhost:8080/voteCandidate,2053,0,1
+1663638915023,2062,HTTP Request,200,OK,1000T voteCandidate 1-159,text,true,,261,225,449,449,http://localhost:8080/voteCandidate,2062,0,0
+1663638914997,2088,HTTP Request,200,OK,1000T voteCandidate 1-154,text,true,,261,225,447,447,http://localhost:8080/voteCandidate,2088,0,1
+1663638915017,2069,HTTP Request,200,OK,1000T voteCandidate 1-158,text,true,,261,225,447,447,http://localhost:8080/voteCandidate,2069,0,0
+1663638914661,2425,HTTP Request,200,OK,1000T voteCandidate 1-87,text,true,,261,225,446,446,http://localhost:8080/voteCandidate,2425,0,1
+1663638914642,2445,HTTP Request,200,OK,1000T voteCandidate 1-83,text,true,,261,225,445,445,http://localhost:8080/voteCandidate,2445,0,1
+1663638914292,2796,HTTP Request,200,OK,1000T voteCandidate 1-13,text,true,,261,225,444,444,http://localhost:8080/voteCandidate,2796,0,1
+1663638914302,2787,HTTP Request,200,OK,1000T voteCandidate 1-15,text,true,,261,225,443,443,http://localhost:8080/voteCandidate,2787,0,1
+1663638914297,2793,HTTP Request,200,OK,1000T voteCandidate 1-14,text,true,,261,225,442,442,http://localhost:8080/voteCandidate,2793,0,1
+1663638914318,2772,HTTP Request,200,OK,1000T voteCandidate 1-17,text,true,,261,225,441,441,http://localhost:8080/voteCandidate,2772,0,1
+1663638914671,2420,HTTP Request,200,OK,1000T voteCandidate 1-89,text,true,,261,225,441,441,http://localhost:8080/voteCandidate,2420,0,1
+1663638914666,2426,HTTP Request,200,OK,1000T voteCandidate 1-88,text,true,,261,225,440,440,http://localhost:8080/voteCandidate,2426,0,1
+1663638914318,2774,HTTP Request,200,OK,1000T voteCandidate 1-16,text,true,,261,225,439,439,http://localhost:8080/voteCandidate,2774,0,1
+1663638914318,2775,HTTP Request,200,OK,1000T voteCandidate 1-18,text,true,,261,225,438,438,http://localhost:8080/voteCandidate,2775,0,1
+1663638914687,2406,HTTP Request,200,OK,1000T voteCandidate 1-92,text,true,,261,225,437,437,http://localhost:8080/voteCandidate,2406,0,1
+1663638914676,2418,HTTP Request,200,OK,1000T voteCandidate 1-90,text,true,,261,225,436,436,http://localhost:8080/voteCandidate,2418,0,1
+1663638914681,2413,HTTP Request,200,OK,1000T voteCandidate 1-91,text,true,,261,225,435,435,http://localhost:8080/voteCandidate,2413,0,1
+1663638914701,2404,HTTP Request,200,OK,1000T voteCandidate 1-95,text,true,,261,225,436,436,http://localhost:8080/voteCandidate,2404,0,1
+1663638914692,2414,HTTP Request,200,OK,1000T voteCandidate 1-93,text,true,,261,225,436,436,http://localhost:8080/voteCandidate,2414,0,1
+1663638914712,2394,HTTP Request,200,OK,1000T voteCandidate 1-97,text,true,,261,225,435,435,http://localhost:8080/voteCandidate,2394,0,0
+1663638914696,2411,HTTP Request,200,OK,1000T voteCandidate 1-94,text,true,,261,225,434,434,http://localhost:8080/voteCandidate,2411,0,1
+1663638914751,2357,HTTP Request,200,OK,1000T voteCandidate 1-105,text,true,,261,225,433,433,http://localhost:8080/voteCandidate,2357,0,1
+1663638914756,2353,HTTP Request,200,OK,1000T voteCandidate 1-106,text,true,,261,225,432,432,http://localhost:8080/voteCandidate,2353,0,1
+1663638914761,2348,HTTP Request,200,OK,1000T voteCandidate 1-107,text,true,,261,225,431,431,http://localhost:8080/voteCandidate,2348,0,1
+1663638914767,2343,HTTP Request,200,OK,1000T voteCandidate 1-108,text,true,,261,225,430,430,http://localhost:8080/voteCandidate,2343,0,1
+1663638914773,2337,HTTP Request,200,OK,1000T voteCandidate 1-109,text,true,,261,225,429,429,http://localhost:8080/voteCandidate,2337,0,0
+1663638914777,2335,HTTP Request,200,OK,1000T voteCandidate 1-110,text,true,,261,225,429,429,http://localhost:8080/voteCandidate,2335,0,0
+1663638914746,2368,HTTP Request,200,OK,1000T voteCandidate 1-104,text,true,,261,225,428,428,http://localhost:8080/voteCandidate,2368,0,1
+1663638914782,2340,HTTP Request,200,OK,1000T voteCandidate 1-111,text,true,,261,225,429,429,http://localhost:8080/voteCandidate,2340,0,0
+1663638914787,2360,HTTP Request,200,OK,1000T voteCandidate 1-112,text,true,,261,225,433,433,http://localhost:8080/voteCandidate,2360,0,0
+1663638914797,2351,HTTP Request,200,OK,1000T voteCandidate 1-114,text,true,,261,225,432,432,http://localhost:8080/voteCandidate,2351,0,0
+1663638914792,2357,HTTP Request,200,OK,1000T voteCandidate 1-113,text,true,,261,225,431,431,http://localhost:8080/voteCandidate,2357,0,1
+1663638915247,2172,HTTP Request,200,OK,1000T voteCandidate 1-204,text,true,,261,225,484,484,http://localhost:8080/voteCandidate,2172,0,1
+1663638915257,2164,HTTP Request,200,OK,1000T voteCandidate 1-206,text,true,,261,225,483,483,http://localhost:8080/voteCandidate,2163,0,0
+1663638915278,2143,HTTP Request,200,OK,1000T voteCandidate 1-209,text,true,,261,225,482,482,http://localhost:8080/voteCandidate,2143,0,1
+1663638915278,2144,HTTP Request,200,OK,1000T voteCandidate 1-210,text,true,,261,225,482,482,http://localhost:8080/voteCandidate,2144,0,1
+1663638915278,2145,HTTP Request,200,OK,1000T voteCandidate 1-208,text,true,,261,225,481,481,http://localhost:8080/voteCandidate,2145,0,1
+1663638915282,2142,HTTP Request,200,OK,1000T voteCandidate 1-211,text,true,,261,225,480,480,http://localhost:8080/voteCandidate,2142,0,1
+1663638915262,2163,HTTP Request,200,OK,1000T voteCandidate 1-207,text,true,,261,225,479,479,http://localhost:8080/voteCandidate,2163,0,0
+1663638915291,2134,HTTP Request,200,OK,1000T voteCandidate 1-213,text,true,,261,225,478,478,http://localhost:8080/voteCandidate,2134,0,1
+1663638915297,2129,HTTP Request,200,OK,1000T voteCandidate 1-214,text,true,,261,225,477,477,http://localhost:8080/voteCandidate,2129,0,1
+1663638915302,2126,HTTP Request,200,OK,1000T voteCandidate 1-215,text,true,,261,225,477,477,http://localhost:8080/voteCandidate,2126,0,1
+1663638915306,2213,HTTP Request,200,OK,1000T voteCandidate 1-216,text,true,,261,225,494,494,http://localhost:8080/voteCandidate,2213,0,1
+1663638915311,2209,HTTP Request,200,OK,1000T voteCandidate 1-217,text,true,,261,225,493,493,http://localhost:8080/voteCandidate,2208,0,1
+1663638915316,2204,HTTP Request,200,OK,1000T voteCandidate 1-218,text,true,,261,225,492,492,http://localhost:8080/voteCandidate,2204,0,1
+1663638915321,2200,HTTP Request,200,OK,1000T voteCandidate 1-219,text,true,,261,225,491,491,http://localhost:8080/voteCandidate,2200,0,1
+1663638915326,2195,HTTP Request,200,OK,1000T voteCandidate 1-220,text,true,,261,225,490,490,http://localhost:8080/voteCandidate,2195,0,1
+1663638915287,2235,HTTP Request,200,OK,1000T voteCandidate 1-212,text,true,,261,225,489,489,http://localhost:8080/voteCandidate,2235,0,1
+1663638915346,2195,HTTP Request,200,OK,1000T voteCandidate 1-224,text,true,,261,225,492,492,http://localhost:8080/voteCandidate,2195,0,1
+1663638915332,2209,HTTP Request,200,OK,1000T voteCandidate 1-221,text,true,,261,225,492,492,http://localhost:8080/voteCandidate,2209,0,1
+1663638915337,2205,HTTP Request,200,OK,1000T voteCandidate 1-222,text,true,,261,225,491,491,http://localhost:8080/voteCandidate,2205,0,1
+1663638915341,2202,HTTP Request,200,OK,1000T voteCandidate 1-223,text,true,,261,225,490,490,http://localhost:8080/voteCandidate,2202,0,1
+1663638915356,2188,HTTP Request,200,OK,1000T voteCandidate 1-226,text,true,,261,225,489,489,http://localhost:8080/voteCandidate,2188,0,1
+1663638915351,2194,HTTP Request,200,OK,1000T voteCandidate 1-225,text,true,,261,225,488,488,http://localhost:8080/voteCandidate,2194,0,1
+1663638917542,20,HTTP Request,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,1000T voteCandidate 1-663,text,false,,2080,0,490,490,http://localhost:8080/voteCandidate,0,0,0
+1663638915366,2237,HTTP Request,200,OK,1000T voteCandidate 1-228,text,true,,261,225,498,498,http://localhost:8080/voteCandidate,2237,0,1
+1663638915372,2231,HTTP Request,200,OK,1000T voteCandidate 1-229,text,true,,261,225,497,497,http://localhost:8080/voteCandidate,2231,0,1
+1663638915028,2576,HTTP Request,200,OK,1000T voteCandidate 1-160,text,true,,261,225,496,496,http://localhost:8080/voteCandidate,2576,0,0
+1663638915042,2563,HTTP Request,200,OK,1000T voteCandidate 1-163,text,true,,261,225,495,495,http://localhost:8080/voteCandidate,2563,0,0
+1663638915377,2228,HTTP Request,200,OK,1000T voteCandidate 1-230,text,true,,261,225,494,494,http://localhost:8080/voteCandidate,2228,0,0
+1663638915381,2225,HTTP Request,200,OK,1000T voteCandidate 1-231,text,true,,261,225,494,494,http://localhost:8080/voteCandidate,2225,0,1
+1663638915386,2221,HTTP Request,200,OK,1000T voteCandidate 1-232,text,true,,261,225,493,493,http://localhost:8080/voteCandidate,2221,0,1
+1663638915392,2215,HTTP Request,200,OK,1000T voteCandidate 1-233,text,true,,261,225,492,492,http://localhost:8080/voteCandidate,2215,0,0
+1663638915396,2212,HTTP Request,200,OK,1000T voteCandidate 1-234,text,true,,261,225,491,491,http://localhost:8080/voteCandidate,2212,0,1
+1663638915402,2207,HTTP Request,200,OK,1000T voteCandidate 1-235,text,true,,261,225,490,490,http://localhost:8080/voteCandidate,2207,0,0
+1663638915407,2202,HTTP Request,200,OK,1000T voteCandidate 1-236,text,true,,261,225,489,489,http://localhost:8080/voteCandidate,2202,0,0
+1663638915362,2248,HTTP Request,200,OK,1000T voteCandidate 1-227,text,true,,261,225,488,488,http://localhost:8080/voteCandidate,2248,0,0
+1663638915112,2498,HTTP Request,200,OK,1000T voteCandidate 1-177,text,true,,261,225,487,487,http://localhost:8080/voteCandidate,2498,0,1
+1663638915116,2495,HTTP Request,200,OK,1000T voteCandidate 1-178,text,true,,261,225,487,487,http://localhost:8080/voteCandidate,2495,0,0
+1663638915121,2491,HTTP Request,200,OK,1000T voteCandidate 1-179,text,true,,261,225,486,486,http://localhost:8080/voteCandidate,2491,0,1
+1663638914727,2923,HTTP Request,200,OK,1000T voteCandidate 1-100,text,true,,261,225,492,492,http://localhost:8080/voteCandidate,2923,0,0
+1663638915063,2587,HTTP Request,200,OK,1000T voteCandidate 1-167,text,true,,261,225,491,491,http://localhost:8080/voteCandidate,2587,0,0
+1663638914717,2934,HTTP Request,200,OK,1000T voteCandidate 1-98,text,true,,261,225,490,490,http://localhost:8080/voteCandidate,2934,0,0
+1663638915058,2593,HTTP Request,200,OK,1000T voteCandidate 1-166,text,true,,261,225,490,490,http://localhost:8080/voteCandidate,2593,0,1
+1663638915067,2585,HTTP Request,200,OK,1000T voteCandidate 1-168,text,true,,261,225,489,489,http://localhost:8080/voteCandidate,2585,0,0
+1663638915102,2551,HTTP Request,200,OK,1000T voteCandidate 1-175,text,true,,261,225,488,488,http://localhost:8080/voteCandidate,2551,0,0
+1663638915087,2577,HTTP Request,200,OK,1000T voteCandidate 1-172,text,true,,261,225,489,489,http://localhost:8080/voteCandidate,2577,0,0
+1663638915052,2613,HTTP Request,200,OK,1000T voteCandidate 1-165,text,true,,261,225,488,488,http://localhost:8080/voteCandidate,2613,0,0
+1663638914742,2924,HTTP Request,200,OK,1000T voteCandidate 1-103,text,true,,261,225,487,487,http://localhost:8080/voteCandidate,2924,0,0
+1663638914733,2934,HTTP Request,200,OK,1000T voteCandidate 1-101,text,true,,261,225,487,487,http://localhost:8080/voteCandidate,2934,0,0
+1663638915107,2561,HTTP Request,200,OK,1000T voteCandidate 1-176,text,true,,261,225,486,486,http://localhost:8080/voteCandidate,2561,0,0
+1663638915136,2533,HTTP Request,200,OK,1000T voteCandidate 1-182,text,true,,261,225,485,485,http://localhost:8080/voteCandidate,2533,0,1
+1663638915093,2576,HTTP Request,200,OK,1000T voteCandidate 1-173,text,true,,261,225,484,484,http://localhost:8080/voteCandidate,2576,0,0
+1663638915077,2593,HTTP Request,200,OK,1000T voteCandidate 1-170,text,true,,261,225,483,483,http://localhost:8080/voteCandidate,2593,0,0
+1663638915141,2531,HTTP Request,200,OK,1000T voteCandidate 1-183,text,true,,261,225,482,482,http://localhost:8080/voteCandidate,2531,0,1
+1663638914707,2966,HTTP Request,200,OK,1000T voteCandidate 1-96,text,true,,261,225,482,482,http://localhost:8080/voteCandidate,2966,0,1
+1663638914722,2951,HTTP Request,200,OK,1000T voteCandidate 1-99,text,true,,261,225,481,481,http://localhost:8080/voteCandidate,2951,0,0
+1663638915072,2602,HTTP Request,200,OK,1000T voteCandidate 1-169,text,true,,261,225,480,480,http://localhost:8080/voteCandidate,2602,0,0
+1663638914737,2938,HTTP Request,200,OK,1000T voteCandidate 1-102,text,true,,261,225,479,479,http://localhost:8080/voteCandidate,2938,0,1
+1663638915047,2628,HTTP Request,200,OK,1000T voteCandidate 1-164,text,true,,261,225,478,478,http://localhost:8080/voteCandidate,2628,0,0
+1663638915098,2578,HTTP Request,200,OK,1000T voteCandidate 1-174,text,true,,261,225,478,478,http://localhost:8080/voteCandidate,2578,0,0
+1663638915146,2531,HTTP Request,200,OK,1000T voteCandidate 1-184,text,true,,261,225,477,477,http://localhost:8080/voteCandidate,2531,0,1
+1663638915151,2526,HTTP Request,200,OK,1000T voteCandidate 1-185,text,true,,261,225,476,476,http://localhost:8080/voteCandidate,2526,0,1
+1663638915168,2510,HTTP Request,200,OK,1000T voteCandidate 1-187,text,true,,261,225,475,475,http://localhost:8080/voteCandidate,2510,0,0
+1663638915168,2511,HTTP Request,200,OK,1000T voteCandidate 1-186,text,true,,261,225,474,474,http://localhost:8080/voteCandidate,2511,0,0
+1663638915126,2553,HTTP Request,200,OK,1000T voteCandidate 1-180,text,true,,261,225,473,473,http://localhost:8080/voteCandidate,2553,0,1
+1663638915082,2598,HTTP Request,200,OK,1000T voteCandidate 1-171,text,true,,261,225,472,472,http://localhost:8080/voteCandidate,2598,0,1
+1663638915172,2524,HTTP Request,200,OK,1000T voteCandidate 1-189,text,true,,261,225,475,475,http://localhost:8080/voteCandidate,2524,0,1
+1663638915168,2529,HTTP Request,200,OK,1000T voteCandidate 1-188,text,true,,261,225,474,474,http://localhost:8080/voteCandidate,2529,0,0
+1663638915177,2520,HTTP Request,200,OK,1000T voteCandidate 1-190,text,true,,261,225,473,473,http://localhost:8080/voteCandidate,2520,0,0
+1663638915191,2507,HTTP Request,200,OK,1000T voteCandidate 1-193,text,true,,261,225,472,472,http://localhost:8080/voteCandidate,2507,0,1
+1663638915197,2501,HTTP Request,200,OK,1000T voteCandidate 1-194,text,true,,261,225,471,471,http://localhost:8080/voteCandidate,2501,0,1
+1663638915201,2498,HTTP Request,200,OK,1000T voteCandidate 1-195,text,true,,261,225,470,470,http://localhost:8080/voteCandidate,2498,0,1
+1663638915206,2494,HTTP Request,200,OK,1000T voteCandidate 1-196,text,true,,261,225,469,469,http://localhost:8080/voteCandidate,2494,0,1
+1663638915186,2545,HTTP Request,200,OK,1000T voteCandidate 1-192,text,true,,261,225,475,475,http://localhost:8080/voteCandidate,2545,0,1
+1663638915131,2601,HTTP Request,200,OK,1000T voteCandidate 1-181,text,true,,261,225,474,474,http://localhost:8080/voteCandidate,2601,0,1
+1663638915181,2552,HTTP Request,200,OK,1000T voteCandidate 1-191,text,true,,261,225,473,473,http://localhost:8080/voteCandidate,2552,0,1
+1663638915221,2604,HTTP Request,200,OK,1000T voteCandidate 1-199,text,true,,261,225,489,489,http://localhost:8080/voteCandidate,2604,0,1
+1663638915211,2614,HTTP Request,200,OK,1000T voteCandidate 1-197,text,true,,261,225,489,489,http://localhost:8080/voteCandidate,2614,0,1
+1663638915217,2608,HTTP Request,200,OK,1000T voteCandidate 1-198,text,true,,261,225,489,489,http://localhost:8080/voteCandidate,2608,0,0
+1663638915226,2600,HTTP Request,200,OK,1000T voteCandidate 1-200,text,true,,261,225,487,487,http://localhost:8080/voteCandidate,2600,0,1
+1663638915242,2585,HTTP Request,200,OK,1000T voteCandidate 1-203,text,true,,261,225,487,487,http://localhost:8080/voteCandidate,2585,0,1
+1663638915252,2576,HTTP Request,200,OK,1000T voteCandidate 1-205,text,true,,261,225,486,486,http://localhost:8080/voteCandidate,2576,0,1
+1663638915233,2609,HTTP Request,200,OK,1000T voteCandidate 1-201,text,true,,261,225,488,488,http://localhost:8080/voteCandidate,2609,0,0
+1663638915238,2605,HTTP Request,200,OK,1000T voteCandidate 1-202,text,true,,261,225,487,487,http://localhost:8080/voteCandidate,2605,0,1
+1663638915731,2195,HTTP Request,200,OK,1000T voteCandidate 1-301,text,true,,261,225,503,503,http://localhost:8080/voteCandidate,2195,0,1
+1663638915581,2346,HTTP Request,200,OK,1000T voteCandidate 1-271,text,true,,261,225,502,502,http://localhost:8080/voteCandidate,2346,0,1
+1663638915572,2355,HTTP Request,200,OK,1000T voteCandidate 1-269,text,true,,261,225,501,501,http://localhost:8080/voteCandidate,2355,0,1
+1663638915637,2291,HTTP Request,200,OK,1000T voteCandidate 1-282,text,true,,261,225,500,500,http://localhost:8080/voteCandidate,2291,0,0
+1663638915607,2321,HTTP Request,200,OK,1000T voteCandidate 1-276,text,true,,261,225,499,499,http://localhost:8080/voteCandidate,2321,0,0
+1663638915707,2222,HTTP Request,200,OK,1000T voteCandidate 1-296,text,true,,261,225,498,498,http://localhost:8080/voteCandidate,2222,0,0
+1663638915702,2228,HTTP Request,200,OK,1000T voteCandidate 1-295,text,true,,261,225,497,497,http://localhost:8080/voteCandidate,2228,0,1
+1663638915712,2218,HTTP Request,200,OK,1000T voteCandidate 1-297,text,true,,261,225,497,497,http://localhost:8080/voteCandidate,2218,0,0
+1663638915616,2315,HTTP Request,200,OK,1000T voteCandidate 1-278,text,true,,261,225,496,496,http://localhost:8080/voteCandidate,2315,0,0
+1663638915762,2282,HTTP Request,200,OK,1000T voteCandidate 1-307,text,true,,261,225,517,517,http://localhost:8080/voteCandidate,2282,0,0
+1663638915768,2334,HTTP Request,200,OK,1000T voteCandidate 1-308,text,true,,261,225,528,528,http://localhost:8080/voteCandidate,2334,0,0
+1663638915773,2330,HTTP Request,200,OK,1000T voteCandidate 1-309,text,true,,261,225,527,527,http://localhost:8080/voteCandidate,2330,0,1
+1663638915777,2326,HTTP Request,200,OK,1000T voteCandidate 1-310,text,true,,261,225,526,526,http://localhost:8080/voteCandidate,2326,0,1
+1663638915717,2387,HTTP Request,200,OK,1000T voteCandidate 1-298,text,true,,261,225,525,525,http://localhost:8080/voteCandidate,2386,0,0
+1663638915757,2347,HTTP Request,200,OK,1000T voteCandidate 1-306,text,true,,261,225,524,524,http://localhost:8080/voteCandidate,2347,0,1
+1663638915803,2302,HTTP Request,200,OK,1000T voteCandidate 1-315,text,true,,261,225,523,523,http://localhost:8080/voteCandidate,2302,0,0
+1663638915797,2308,HTTP Request,200,OK,1000T voteCandidate 1-314,text,true,,261,225,522,522,http://localhost:8080/voteCandidate,2308,0,1
+1663638915787,2318,HTTP Request,200,OK,1000T voteCandidate 1-312,text,true,,261,225,521,521,http://localhost:8080/voteCandidate,2318,0,1
+1663638915782,2324,HTTP Request,200,OK,1000T voteCandidate 1-311,text,true,,261,225,521,521,http://localhost:8080/voteCandidate,2324,0,0
+1663638915792,2314,HTTP Request,200,OK,1000T voteCandidate 1-313,text,true,,261,225,520,520,http://localhost:8080/voteCandidate,2314,0,1
+1663638915812,2295,HTTP Request,200,OK,1000T voteCandidate 1-317,text,true,,261,225,519,519,http://localhost:8080/voteCandidate,2295,0,1
+1663638915808,2299,HTTP Request,200,OK,1000T voteCandidate 1-316,text,true,,261,225,518,518,http://localhost:8080/voteCandidate,2299,0,0
+1663638915816,2292,HTTP Request,200,OK,1000T voteCandidate 1-318,text,true,,261,225,517,517,http://localhost:8080/voteCandidate,2292,0,1
+1663638915822,2286,HTTP Request,200,OK,1000T voteCandidate 1-319,text,true,,261,225,516,516,http://localhost:8080/voteCandidate,2286,0,0
+1663638915827,2282,HTTP Request,200,OK,1000T voteCandidate 1-320,text,true,,261,225,515,515,http://localhost:8080/voteCandidate,2282,0,0
+1663638915831,2391,HTTP Request,200,OK,1000T voteCandidate 1-321,text,true,,261,225,537,537,http://localhost:8080/voteCandidate,2391,0,1
+1663638915838,2385,HTTP Request,200,OK,1000T voteCandidate 1-322,text,true,,261,225,536,536,http://localhost:8080/voteCandidate,2385,0,0
+1663638915842,2381,HTTP Request,200,OK,1000T voteCandidate 1-323,text,true,,261,225,535,535,http://localhost:8080/voteCandidate,2381,0,1
+1663638915422,2802,HTTP Request,200,OK,1000T voteCandidate 1-239,text,true,,261,225,534,534,http://localhost:8080/voteCandidate,2802,0,0
+1663638915418,2806,HTTP Request,200,OK,1000T voteCandidate 1-238,text,true,,261,225,533,533,http://localhost:8080/voteCandidate,2806,0,0
+1663638915432,2793,HTTP Request,200,OK,1000T voteCandidate 1-241,text,true,,261,225,532,532,http://localhost:8080/voteCandidate,2793,0,0
+1663638915457,2768,HTTP Request,200,OK,1000T voteCandidate 1-246,text,true,,261,225,532,532,http://localhost:8080/voteCandidate,2768,0,0
+1663638915427,2799,HTTP Request,200,OK,1000T voteCandidate 1-240,text,true,,261,225,531,531,http://localhost:8080/voteCandidate,2799,0,0
+1663638915436,2790,HTTP Request,200,OK,1000T voteCandidate 1-242,text,true,,261,225,530,530,http://localhost:8080/voteCandidate,2790,0,1
+1663638915467,2760,HTTP Request,200,OK,1000T voteCandidate 1-248,text,true,,261,225,529,529,http://localhost:8080/voteCandidate,2760,0,0
+1663638915442,2785,HTTP Request,200,OK,1000T voteCandidate 1-243,text,true,,261,225,528,528,http://localhost:8080/voteCandidate,2785,0,0
+1663638915453,2775,HTTP Request,200,OK,1000T voteCandidate 1-245,text,true,,261,225,527,527,http://localhost:8080/voteCandidate,2775,0,1
+1663638915448,2780,HTTP Request,200,OK,1000T voteCandidate 1-244,text,true,,261,225,526,526,http://localhost:8080/voteCandidate,2780,0,1
+1663638915462,2766,HTTP Request,200,OK,1000T voteCandidate 1-247,text,true,,261,225,525,525,http://localhost:8080/voteCandidate,2766,0,1
+1663638915846,2383,HTTP Request,200,OK,1000T voteCandidate 1-324,text,true,,261,225,524,524,http://localhost:8080/voteCandidate,2383,0,1
+1663638915471,2758,HTTP Request,200,OK,1000T voteCandidate 1-249,text,true,,261,225,523,523,http://localhost:8080/voteCandidate,2758,0,1
+1663638915851,2379,HTTP Request,200,OK,1000T voteCandidate 1-325,text,true,,261,225,522,522,http://localhost:8080/voteCandidate,2379,0,1
+1663638915413,2818,HTTP Request,200,OK,1000T voteCandidate 1-237,text,true,,261,225,522,522,http://localhost:8080/voteCandidate,2817,0,0
+1663638915856,2375,HTTP Request,200,OK,1000T voteCandidate 1-326,text,true,,261,225,521,521,http://localhost:8080/voteCandidate,2375,0,1
+1663638915483,2749,HTTP Request,200,OK,1000T voteCandidate 1-251,text,true,,261,225,520,520,http://localhost:8080/voteCandidate,2749,0,1
+1663638915488,2744,HTTP Request,200,OK,1000T voteCandidate 1-252,text,true,,261,225,519,519,http://localhost:8080/voteCandidate,2744,0,0
+1663638915861,2372,HTTP Request,200,OK,1000T voteCandidate 1-327,text,true,,261,225,518,518,http://localhost:8080/voteCandidate,2372,0,1
+1663638915492,2742,HTTP Request,200,OK,1000T voteCandidate 1-253,text,true,,261,225,517,517,http://localhost:8080/voteCandidate,2742,0,0
+1663638915866,2368,HTTP Request,200,OK,1000T voteCandidate 1-328,text,true,,261,225,516,516,http://localhost:8080/voteCandidate,2368,0,1
+1663638915497,2746,HTTP Request,200,OK,1000T voteCandidate 1-254,text,true,,261,225,517,517,http://localhost:8080/voteCandidate,2746,0,0
+1663638915502,2742,HTTP Request,200,OK,1000T voteCandidate 1-255,text,true,,261,225,516,516,http://localhost:8080/voteCandidate,2742,0,1
+1663638915507,2737,HTTP Request,200,OK,1000T voteCandidate 1-256,text,true,,261,225,515,515,http://localhost:8080/voteCandidate,2737,0,0
+1663638915476,2769,HTTP Request,200,OK,1000T voteCandidate 1-250,text,true,,261,225,514,514,http://localhost:8080/voteCandidate,2769,0,1
+1663638915513,2732,HTTP Request,200,OK,1000T voteCandidate 1-257,text,true,,261,225,513,513,http://localhost:8080/voteCandidate,2732,0,0
+1663638915522,2724,HTTP Request,200,OK,1000T voteCandidate 1-259,text,true,,261,225,512,512,http://localhost:8080/voteCandidate,2724,0,1
+1663638915526,2720,HTTP Request,200,OK,1000T voteCandidate 1-260,text,true,,261,225,512,512,http://localhost:8080/voteCandidate,2720,0,1
+1663638915531,2716,HTTP Request,200,OK,1000T voteCandidate 1-261,text,true,,261,225,511,511,http://localhost:8080/voteCandidate,2716,0,1
+1663638915536,2711,HTTP Request,200,OK,1000T voteCandidate 1-262,text,true,,261,225,510,510,http://localhost:8080/voteCandidate,2711,0,1
+1663638915547,2701,HTTP Request,200,OK,1000T voteCandidate 1-264,text,true,,261,225,509,509,http://localhost:8080/voteCandidate,2701,0,1
+1663638915518,2731,HTTP Request,200,OK,1000T voteCandidate 1-258,text,true,,261,225,508,508,http://localhost:8080/voteCandidate,2731,0,1
+1663638915545,2704,HTTP Request,200,OK,1000T voteCandidate 1-263,text,true,,261,225,507,507,http://localhost:8080/voteCandidate,2704,0,0
+1663638915551,2700,HTTP Request,200,OK,1000T voteCandidate 1-265,text,true,,261,225,507,507,http://localhost:8080/voteCandidate,2700,0,1
+1663638915556,2695,HTTP Request,200,OK,1000T voteCandidate 1-266,text,true,,261,225,506,506,http://localhost:8080/voteCandidate,2695,0,1
+1663638915561,2691,HTTP Request,200,OK,1000T voteCandidate 1-267,text,true,,261,225,505,505,http://localhost:8080/voteCandidate,2691,0,1
+1663638915566,2686,HTTP Request,200,OK,1000T voteCandidate 1-268,text,true,,261,225,504,504,http://localhost:8080/voteCandidate,2686,0,1
+1663638915591,2662,HTTP Request,200,OK,1000T voteCandidate 1-273,text,true,,261,225,503,503,http://localhost:8080/voteCandidate,2662,0,0
+1663638915596,2658,HTTP Request,200,OK,1000T voteCandidate 1-274,text,true,,261,225,502,502,http://localhost:8080/voteCandidate,2658,0,0
+1663638915646,2792,HTTP Request,200,OK,1000T voteCandidate 1-284,text,true,,261,225,538,538,http://localhost:8080/voteCandidate,2792,0,0
+1663638915642,2796,HTTP Request,200,OK,1000T voteCandidate 1-283,text,true,,261,225,537,537,http://localhost:8080/voteCandidate,2796,0,0
+1663638915602,2837,HTTP Request,200,OK,1000T voteCandidate 1-275,text,true,,261,225,536,536,http://localhost:8080/voteCandidate,2837,0,0
+1663638915702,2740,HTTP Request,200,OK,1000T voteCandidate 1-293,text,true,,261,225,536,536,http://localhost:8080/voteCandidate,2740,0,1
+1663638915723,2720,HTTP Request,200,OK,1000T voteCandidate 1-299,text,true,,261,225,535,535,http://localhost:8080/voteCandidate,2720,0,1
+1663638915741,2702,HTTP Request,200,OK,1000T voteCandidate 1-303,text,true,,261,225,534,534,http://localhost:8080/voteCandidate,2702,0,1
+1663638915751,2693,HTTP Request,200,OK,1000T voteCandidate 1-305,text,true,,261,225,533,533,http://localhost:8080/voteCandidate,2693,0,1
+1663638915747,2697,HTTP Request,200,OK,1000T voteCandidate 1-304,text,true,,261,225,532,532,http://localhost:8080/voteCandidate,2697,0,1
+1663638915621,2824,HTTP Request,200,OK,1000T voteCandidate 1-279,text,true,,261,225,531,531,http://localhost:8080/voteCandidate,2824,0,1
+1663638915736,2709,HTTP Request,200,OK,1000T voteCandidate 1-302,text,true,,261,225,531,531,http://localhost:8080/voteCandidate,2709,0,1
+1663638915626,2820,HTTP Request,200,OK,1000T voteCandidate 1-280,text,true,,261,225,530,530,http://localhost:8080/voteCandidate,2820,0,0
+1663638915611,2835,HTTP Request,200,OK,1000T voteCandidate 1-277,text,true,,261,225,529,529,http://localhost:8080/voteCandidate,2835,0,0
+1663638915727,2720,HTTP Request,200,OK,1000T voteCandidate 1-300,text,true,,261,225,528,528,http://localhost:8080/voteCandidate,2720,0,1
+1663638915631,2817,HTTP Request,200,OK,1000T voteCandidate 1-281,text,true,,261,225,527,527,http://localhost:8080/voteCandidate,2817,0,0
+1663638915586,2862,HTTP Request,200,OK,1000T voteCandidate 1-272,text,true,,261,225,526,526,http://localhost:8080/voteCandidate,2862,0,1
+1663638915577,2872,HTTP Request,200,OK,1000T voteCandidate 1-270,text,true,,261,225,525,525,http://localhost:8080/voteCandidate,2872,0,1
+1663638916092,2536,HTTP Request,200,OK,1000T voteCandidate 1-373,text,true,,261,225,560,560,http://localhost:8080/voteCandidate,2536,0,0
+1663638916087,2541,HTTP Request,200,OK,1000T voteCandidate 1-372,text,true,,261,225,559,559,http://localhost:8080/voteCandidate,2541,0,0
+1663638916082,2547,HTTP Request,200,OK,1000T voteCandidate 1-371,text,true,,261,225,558,558,http://localhost:8080/voteCandidate,2547,0,0
+1663638916102,2527,HTTP Request,200,OK,1000T voteCandidate 1-375,text,true,,261,225,557,557,http://localhost:8080/voteCandidate,2527,0,0
+1663638916112,2518,HTTP Request,200,OK,1000T voteCandidate 1-377,text,true,,261,225,556,556,http://localhost:8080/voteCandidate,2518,0,1
+1663638916117,2513,HTTP Request,200,OK,1000T voteCandidate 1-378,text,true,,261,225,556,556,http://localhost:8080/voteCandidate,2513,0,1
+1663638916128,2503,HTTP Request,200,OK,1000T voteCandidate 1-380,text,true,,261,225,555,555,http://localhost:8080/voteCandidate,2503,0,1
+1663638916097,2534,HTTP Request,200,OK,1000T voteCandidate 1-374,text,true,,261,225,554,554,http://localhost:8080/voteCandidate,2534,0,0
+1663638916128,2504,HTTP Request,200,OK,1000T voteCandidate 1-379,text,true,,261,225,553,553,http://localhost:8080/voteCandidate,2504,0,0
+1663638916133,2500,HTTP Request,200,OK,1000T voteCandidate 1-381,text,true,,261,225,552,552,http://localhost:8080/voteCandidate,2500,0,1
+1663638916138,2495,HTTP Request,200,OK,1000T voteCandidate 1-382,text,true,,261,225,551,551,http://localhost:8080/voteCandidate,2495,0,0
+1663638916143,2491,HTTP Request,200,OK,1000T voteCandidate 1-383,text,true,,261,225,550,550,http://localhost:8080/voteCandidate,2491,0,0
+1663638916107,2527,HTTP Request,200,OK,1000T voteCandidate 1-376,text,true,,261,225,549,549,http://localhost:8080/voteCandidate,2527,0,0
+1663638916147,2488,HTTP Request,200,OK,1000T voteCandidate 1-384,text,true,,261,225,549,549,http://localhost:8080/voteCandidate,2488,0,0
+1663638916158,2478,HTTP Request,200,OK,1000T voteCandidate 1-386,text,true,,261,225,548,548,http://localhost:8080/voteCandidate,2478,0,0
+1663638916163,2473,HTTP Request,200,OK,1000T voteCandidate 1-387,text,true,,261,225,547,547,http://localhost:8080/voteCandidate,2473,0,0
+1663638916167,2470,HTTP Request,200,OK,1000T voteCandidate 1-388,text,true,,261,225,546,546,http://localhost:8080/voteCandidate,2470,0,0
+1663638916172,2466,HTTP Request,200,OK,1000T voteCandidate 1-389,text,true,,261,225,545,545,http://localhost:8080/voteCandidate,2466,0,0
+1663638916182,2456,HTTP Request,200,OK,1000T voteCandidate 1-391,text,true,,261,225,544,544,http://localhost:8080/voteCandidate,2456,0,0
+1663638916177,2462,HTTP Request,200,OK,1000T voteCandidate 1-390,text,true,,261,225,543,543,http://localhost:8080/voteCandidate,2462,0,0
+1663638916192,2447,HTTP Request,200,OK,1000T voteCandidate 1-393,text,true,,261,225,542,542,http://localhost:8080/voteCandidate,2447,0,0
+1663638916187,2455,HTTP Request,200,OK,1000T voteCandidate 1-392,text,true,,261,225,542,542,http://localhost:8080/voteCandidate,2455,0,1
+1663638916153,2490,HTTP Request,200,OK,1000T voteCandidate 1-385,text,true,,261,225,541,541,http://localhost:8080/voteCandidate,2490,0,0
+1663638916198,2446,HTTP Request,200,OK,1000T voteCandidate 1-394,text,true,,261,225,540,540,http://localhost:8080/voteCandidate,2446,0,4
+1663638915872,2783,HTTP Request,200,OK,1000T voteCandidate 1-329,text,true,,261,225,541,541,http://localhost:8080/voteCandidate,2783,0,1
+1663638915876,2780,HTTP Request,200,OK,1000T voteCandidate 1-330,text,true,,261,225,541,541,http://localhost:8080/voteCandidate,2780,0,1
+1663638915891,2765,HTTP Request,200,OK,1000T voteCandidate 1-333,text,true,,261,225,540,540,http://localhost:8080/voteCandidate,2765,0,1
+1663638915896,2761,HTTP Request,200,OK,1000T voteCandidate 1-334,text,true,,261,225,539,539,http://localhost:8080/voteCandidate,2761,0,1
+1663638915887,2771,HTTP Request,200,OK,1000T voteCandidate 1-332,text,true,,261,225,538,538,http://localhost:8080/voteCandidate,2771,0,1
+1663638915881,2777,HTTP Request,200,OK,1000T voteCandidate 1-331,text,true,,261,225,537,537,http://localhost:8080/voteCandidate,2777,0,1
+1663638915901,2764,HTTP Request,200,OK,1000T voteCandidate 1-335,text,true,,261,225,538,538,http://localhost:8080/voteCandidate,2764,0,1
+1663638916211,2458,HTTP Request,200,OK,1000T voteCandidate 1-395,text,true,,261,225,537,537,http://localhost:8080/voteCandidate,2458,0,111
+1663638916318,2365,HTTP Request,200,OK,1000T voteCandidate 1-415,text,true,,261,225,539,539,http://localhost:8080/voteCandidate,2365,0,1
+1663638916319,2365,HTTP Request,200,OK,1000T voteCandidate 1-418,text,true,,261,225,538,538,http://localhost:8080/voteCandidate,2365,0,0
+1663638916320,2368,HTTP Request,200,OK,1000T voteCandidate 1-416,text,true,,261,225,538,538,http://localhost:8080/voteCandidate,2368,0,1
+1663638916319,2374,HTTP Request,200,OK,1000T voteCandidate 1-397,text,true,,261,225,538,538,http://localhost:8080/voteCandidate,2374,0,1
+1663638916320,2376,HTTP Request,200,OK,1000T voteCandidate 1-409,text,true,,261,225,538,538,http://localhost:8080/voteCandidate,2376,0,1
+1663638916321,2377,HTTP Request,200,OK,1000T voteCandidate 1-417,text,true,,261,225,537,537,http://localhost:8080/voteCandidate,2377,0,0
+1663638916322,2380,HTTP Request,200,OK,1000T voteCandidate 1-399,text,true,,261,225,537,537,http://localhost:8080/voteCandidate,2380,0,0
+1663638915907,2797,HTTP Request,200,OK,1000T voteCandidate 1-336,text,true,,261,225,536,536,http://localhost:8080/voteCandidate,2797,0,1
+1663638916322,2382,HTTP Request,200,OK,1000T voteCandidate 1-403,text,true,,261,225,535,535,http://localhost:8080/voteCandidate,2382,0,0
+1663638916321,2387,HTTP Request,200,OK,1000T voteCandidate 1-405,text,true,,261,225,535,535,http://localhost:8080/voteCandidate,2387,0,0
+1663638916321,2387,HTTP Request,200,OK,1000T voteCandidate 1-412,text,true,,261,225,534,534,http://localhost:8080/voteCandidate,2387,0,0
+1663638916321,2391,HTTP Request,200,OK,1000T voteCandidate 1-404,text,true,,261,225,534,534,http://localhost:8080/voteCandidate,2391,0,1
+1663638916321,2394,HTTP Request,200,OK,1000T voteCandidate 1-408,text,true,,261,225,533,533,http://localhost:8080/voteCandidate,2394,0,1
+1663638916211,2505,HTTP Request,200,OK,1000T voteCandidate 1-396,text,true,,261,225,533,533,http://localhost:8080/voteCandidate,2505,0,112
+1663638915912,2806,HTTP Request,200,OK,1000T voteCandidate 1-337,text,true,,261,225,532,532,http://localhost:8080/voteCandidate,2806,0,1
+1663638916322,2398,HTTP Request,200,OK,1000T voteCandidate 1-410,text,true,,261,225,531,531,http://localhost:8080/voteCandidate,2398,0,1
+1663638915936,2832,HTTP Request,200,OK,1000T voteCandidate 1-342,text,true,,261,225,540,540,http://localhost:8080/voteCandidate,2831,0,1
+1663638915656,3112,HTTP Request,200,OK,1000T voteCandidate 1-286,text,true,,261,225,539,539,http://localhost:8080/voteCandidate,3112,0,1
+1663638915661,3108,HTTP Request,200,OK,1000T voteCandidate 1-287,text,true,,261,225,538,538,http://localhost:8080/voteCandidate,3108,0,1
+1663638915651,3119,HTTP Request,200,OK,1000T voteCandidate 1-285,text,true,,261,225,537,537,http://localhost:8080/voteCandidate,3119,0,1
+1663638915666,3104,HTTP Request,200,OK,1000T voteCandidate 1-288,text,true,,261,225,536,536,http://localhost:8080/voteCandidate,3104,0,1
+1663638915682,3089,HTTP Request,200,OK,1000T voteCandidate 1-291,text,true,,261,225,535,535,http://localhost:8080/voteCandidate,3089,0,0
+1663638915927,2844,HTTP Request,200,OK,1000T voteCandidate 1-340,text,true,,261,225,534,534,http://localhost:8080/voteCandidate,2844,0,0
+1663638915676,3096,HTTP Request,200,OK,1000T voteCandidate 1-290,text,true,,261,225,534,534,http://localhost:8080/voteCandidate,3096,0,1
+1663638915947,2826,HTTP Request,200,OK,1000T voteCandidate 1-344,text,true,,261,225,533,533,http://localhost:8080/voteCandidate,2826,0,1
+1663638915671,3102,HTTP Request,200,OK,1000T voteCandidate 1-289,text,true,,261,225,532,532,http://localhost:8080/voteCandidate,3102,0,1
+1663638915931,2843,HTTP Request,200,OK,1000T voteCandidate 1-341,text,true,,261,225,531,531,http://localhost:8080/voteCandidate,2843,0,1
+1663638915956,2819,HTTP Request,200,OK,1000T voteCandidate 1-346,text,true,,261,225,530,530,http://localhost:8080/voteCandidate,2819,0,1
+1663638915688,3087,HTTP Request,200,OK,1000T voteCandidate 1-292,text,true,,261,225,529,529,http://localhost:8080/voteCandidate,3087,0,14
+1663638915702,3074,HTTP Request,200,OK,1000T voteCandidate 1-294,text,true,,261,225,528,528,http://localhost:8080/voteCandidate,3074,0,1
+1663638915962,2814,HTTP Request,200,OK,1000T voteCandidate 1-347,text,true,,261,225,527,527,http://localhost:8080/voteCandidate,2814,0,0
+1663638915953,2824,HTTP Request,200,OK,1000T voteCandidate 1-345,text,true,,261,225,527,527,http://localhost:8080/voteCandidate,2824,0,0
+1663638915941,2837,HTTP Request,200,OK,1000T voteCandidate 1-343,text,true,,261,225,526,526,http://localhost:8080/voteCandidate,2837,0,1
+1663638915922,2859,HTTP Request,200,OK,1000T voteCandidate 1-339,text,true,,261,225,526,526,http://localhost:8080/voteCandidate,2859,0,0
+1663638915916,2868,HTTP Request,200,OK,1000T voteCandidate 1-338,text,true,,261,225,525,525,http://localhost:8080/voteCandidate,2868,0,1
+1663638915992,2792,HTTP Request,200,OK,1000T voteCandidate 1-353,text,true,,261,225,524,524,http://localhost:8080/voteCandidate,2792,0,0
+1663638915997,2791,HTTP Request,200,OK,1000T voteCandidate 1-354,text,true,,261,225,524,524,http://localhost:8080/voteCandidate,2791,0,0
+1663638915988,2844,HTTP Request,200,OK,1000T voteCandidate 1-352,text,true,,261,225,532,532,http://localhost:8080/voteCandidate,2844,0,0
+1663638916002,2861,HTTP Request,200,OK,1000T voteCandidate 1-355,text,true,,261,225,537,537,http://localhost:8080/voteCandidate,2861,0,0
+1663638916007,2860,HTTP Request,200,OK,1000T voteCandidate 1-356,text,true,,261,225,537,537,http://localhost:8080/voteCandidate,2860,0,0
+1663638916012,2856,HTTP Request,200,OK,1000T voteCandidate 1-357,text,true,,261,225,536,536,http://localhost:8080/voteCandidate,2856,0,0
+1663638916018,2852,HTTP Request,200,OK,1000T voteCandidate 1-358,text,true,,261,225,535,535,http://localhost:8080/voteCandidate,2852,0,0
+1663638916023,2852,HTTP Request,200,OK,1000T voteCandidate 1-359,text,true,,261,225,535,535,http://localhost:8080/voteCandidate,2852,0,0
+1663638916027,2851,HTTP Request,200,OK,1000T voteCandidate 1-360,text,true,,261,225,535,535,http://localhost:8080/voteCandidate,2851,0,1
+1663638916032,2851,HTTP Request,200,OK,1000T voteCandidate 1-361,text,true,,261,225,535,535,http://localhost:8080/voteCandidate,2851,0,0
+1663638916037,2851,HTTP Request,200,OK,1000T voteCandidate 1-362,text,true,,261,225,535,535,http://localhost:8080/voteCandidate,2851,0,1
+1663638916042,2849,HTTP Request,200,OK,1000T voteCandidate 1-363,text,true,,261,225,535,535,http://localhost:8080/voteCandidate,2849,0,0
+1663638916047,2851,HTTP Request,200,OK,1000T voteCandidate 1-364,text,true,,261,225,535,535,http://localhost:8080/voteCandidate,2851,0,0
+1663638916052,2848,HTTP Request,200,OK,1000T voteCandidate 1-365,text,true,,261,225,534,534,http://localhost:8080/voteCandidate,2848,0,1
+1663638916058,2845,HTTP Request,200,OK,1000T voteCandidate 1-366,text,true,,261,225,534,534,http://localhost:8080/voteCandidate,2845,0,0
+1663638916063,2859,HTTP Request,200,OK,1000T voteCandidate 1-367,text,true,,261,225,537,537,http://localhost:8080/voteCandidate,2859,0,0
+1663638916073,2854,HTTP Request,200,OK,1000T voteCandidate 1-369,text,true,,261,225,537,537,http://localhost:8080/voteCandidate,2854,0,0
+1663638916067,2872,HTTP Request,200,OK,1000T voteCandidate 1-368,text,true,,261,225,538,538,http://localhost:8080/voteCandidate,2872,0,0
+1663638916078,2865,HTTP Request,200,OK,1000T voteCandidate 1-370,text,true,,261,225,538,538,http://localhost:8080/voteCandidate,2865,0,0
+1663638916602,2482,HTTP Request,200,OK,1000T voteCandidate 1-475,text,true,,261,225,565,565,http://localhost:8080/voteCandidate,2482,0,1
+1663638916607,2478,HTTP Request,200,OK,1000T voteCandidate 1-476,text,true,,261,225,565,565,http://localhost:8080/voteCandidate,2478,0,1
+1663638916611,2477,HTTP Request,200,OK,1000T voteCandidate 1-477,text,true,,261,225,564,564,http://localhost:8080/voteCandidate,2477,0,1
+1663638916616,2478,HTTP Request,200,OK,1000T voteCandidate 1-478,text,true,,261,225,564,564,http://localhost:8080/voteCandidate,2478,0,1
+1663638916596,2500,HTTP Request,200,OK,1000T voteCandidate 1-474,text,true,,261,225,563,563,http://localhost:8080/voteCandidate,2500,0,1
+1663638916576,2547,HTTP Request,200,OK,1000T voteCandidate 1-470,text,true,,261,225,568,568,http://localhost:8080/voteCandidate,2547,0,1
+1663638916581,2543,HTTP Request,200,OK,1000T voteCandidate 1-471,text,true,,261,225,567,567,http://localhost:8080/voteCandidate,2543,0,1
+1663638916572,2553,HTTP Request,200,OK,1000T voteCandidate 1-469,text,true,,261,225,566,566,http://localhost:8080/voteCandidate,2553,0,0
+1663638916566,2559,HTTP Request,200,OK,1000T voteCandidate 1-468,text,true,,261,225,565,565,http://localhost:8080/voteCandidate,2559,0,1
+1663638916591,2535,HTTP Request,200,OK,1000T voteCandidate 1-473,text,true,,261,225,564,564,http://localhost:8080/voteCandidate,2535,0,1
+1663638916561,2565,HTTP Request,200,OK,1000T voteCandidate 1-467,text,true,,261,225,564,564,http://localhost:8080/voteCandidate,2565,0,1
+1663638916586,2541,HTTP Request,200,OK,1000T voteCandidate 1-472,text,true,,261,225,563,563,http://localhost:8080/voteCandidate,2541,0,1
+1663638916557,2571,HTTP Request,200,OK,1000T voteCandidate 1-466,text,true,,261,225,562,562,http://localhost:8080/voteCandidate,2571,0,1
+1663638916621,2510,HTTP Request,200,OK,1000T voteCandidate 1-479,text,true,,261,225,561,561,http://localhost:8080/voteCandidate,2510,0,1
+1663638916626,2508,HTTP Request,200,OK,1000T voteCandidate 1-480,text,true,,261,225,561,561,http://localhost:8080/voteCandidate,2508,0,0
+1663638916631,2504,HTTP Request,200,OK,1000T voteCandidate 1-481,text,true,,261,225,561,561,http://localhost:8080/voteCandidate,2504,0,0
+1663638916637,2502,HTTP Request,200,OK,1000T voteCandidate 1-482,text,true,,261,225,560,560,http://localhost:8080/voteCandidate,2502,0,0
+1663638916642,2502,HTTP Request,200,OK,1000T voteCandidate 1-483,text,true,,261,225,560,560,http://localhost:8080/voteCandidate,2501,0,1
+1663638916646,2502,HTTP Request,200,OK,1000T voteCandidate 1-484,text,true,,261,225,560,560,http://localhost:8080/voteCandidate,2502,0,1
+1663638916651,2543,HTTP Request,200,OK,1000T voteCandidate 1-485,text,true,,261,225,568,568,http://localhost:8080/voteCandidate,2543,0,1
+1663638916657,2552,HTTP Request,200,OK,1000T voteCandidate 1-486,text,true,,261,225,570,570,http://localhost:8080/voteCandidate,2552,0,0
+1663638916662,2551,HTTP Request,200,OK,1000T voteCandidate 1-487,text,true,,261,225,570,570,http://localhost:8080/voteCandidate,2551,0,0
+1663638916668,2548,HTTP Request,200,OK,1000T voteCandidate 1-488,text,true,,261,225,570,570,http://localhost:8080/voteCandidate,2548,0,0
+1663638916672,2547,HTTP Request,200,OK,1000T voteCandidate 1-489,text,true,,261,225,569,569,http://localhost:8080/voteCandidate,2547,0,1
+1663638916677,2546,HTTP Request,200,OK,1000T voteCandidate 1-490,text,true,,261,225,569,569,http://localhost:8080/voteCandidate,2546,0,1
+1663638916681,2561,HTTP Request,200,OK,1000T voteCandidate 1-491,text,true,,261,225,569,569,http://localhost:8080/voteCandidate,2561,0,1
+1663638916686,2558,HTTP Request,200,OK,1000T voteCandidate 1-492,text,true,,261,225,568,568,http://localhost:8080/voteCandidate,2558,0,1
+1663638916697,2564,HTTP Request,200,OK,1000T voteCandidate 1-494,text,true,,261,225,567,567,http://localhost:8080/voteCandidate,2564,0,1
+1663638916701,2564,HTTP Request,200,OK,1000T voteCandidate 1-495,text,true,,261,225,566,566,http://localhost:8080/voteCandidate,2564,0,1
+1663638916691,2578,HTTP Request,200,OK,1000T voteCandidate 1-493,text,true,,261,225,565,565,http://localhost:8080/voteCandidate,2578,0,1
+1663638916707,2562,HTTP Request,200,OK,1000T voteCandidate 1-496,text,true,,261,225,564,564,http://localhost:8080/voteCandidate,2562,0,1
+1663638916323,2949,HTTP Request,200,OK,1000T voteCandidate 1-419,text,true,,261,225,563,563,http://localhost:8080/voteCandidate,2949,0,0
+1663638916319,2953,HTTP Request,200,OK,1000T voteCandidate 1-413,text,true,,261,225,562,562,http://localhost:8080/voteCandidate,2953,0,1
+1663638916331,2942,HTTP Request,200,OK,1000T voteCandidate 1-421,text,true,,261,225,561,561,http://localhost:8080/voteCandidate,2942,0,1
+1663638916322,2951,HTTP Request,200,OK,1000T voteCandidate 1-407,text,true,,261,225,560,560,http://localhost:8080/voteCandidate,2951,0,1
+1663638916322,2952,HTTP Request,200,OK,1000T voteCandidate 1-401,text,true,,261,225,559,559,http://localhost:8080/voteCandidate,2952,0,0
+1663638916320,2955,HTTP Request,200,OK,1000T voteCandidate 1-414,text,true,,261,225,558,558,http://localhost:8080/voteCandidate,2955,0,1
+1663638916326,2949,HTTP Request,200,OK,1000T voteCandidate 1-420,text,true,,261,225,557,557,http://localhost:8080/voteCandidate,2949,0,1
+1663638916342,2934,HTTP Request,200,OK,1000T voteCandidate 1-423,text,true,,261,225,556,556,http://localhost:8080/voteCandidate,2934,0,1
+1663638916319,2957,HTTP Request,200,OK,1000T voteCandidate 1-411,text,true,,261,225,555,555,http://localhost:8080/voteCandidate,2957,0,1
+1663638916351,2926,HTTP Request,200,OK,1000T voteCandidate 1-425,text,true,,261,225,554,554,http://localhost:8080/voteCandidate,2926,0,0
+1663638916712,2566,HTTP Request,200,OK,1000T voteCandidate 1-497,text,true,,261,225,553,553,http://localhost:8080/voteCandidate,2566,0,1
+1663638916336,2942,HTTP Request,200,OK,1000T voteCandidate 1-422,text,true,,261,225,552,552,http://localhost:8080/voteCandidate,2942,0,1
+1663638916362,2917,HTTP Request,200,OK,1000T voteCandidate 1-427,text,true,,261,225,551,551,http://localhost:8080/voteCandidate,2917,0,0
+1663638916322,2959,HTTP Request,200,OK,1000T voteCandidate 1-398,text,true,,261,225,550,550,http://localhost:8080/voteCandidate,2959,0,0
+1663638916727,2576,HTTP Request,200,OK,1000T voteCandidate 1-500,text,true,,261,225,549,549,http://localhost:8080/voteCandidate,2576,0,1
+1663638916347,2956,HTTP Request,200,OK,1000T voteCandidate 1-424,text,true,,261,225,549,549,http://localhost:8080/voteCandidate,2956,0,1
+1663638916732,2571,HTTP Request,200,OK,1000T voteCandidate 1-501,text,true,,261,225,549,549,http://localhost:8080/voteCandidate,2571,0,1
+1663638916737,2566,HTTP Request,200,OK,1000T voteCandidate 1-502,text,true,,261,225,549,549,http://localhost:8080/voteCandidate,2566,0,0
+1663638916372,2931,HTTP Request,200,OK,1000T voteCandidate 1-429,text,true,,261,225,549,549,http://localhost:8080/voteCandidate,2931,0,1
+1663638916356,2947,HTTP Request,200,OK,1000T voteCandidate 1-426,text,true,,261,225,549,549,http://localhost:8080/voteCandidate,2947,0,1
+1663638916322,2981,HTTP Request,200,OK,1000T voteCandidate 1-400,text,true,,261,225,549,549,http://localhost:8080/voteCandidate,2981,0,0
+1663638916728,2575,HTTP Request,200,OK,1000T voteCandidate 1-498,text,true,,261,225,549,549,http://localhost:8080/voteCandidate,2575,0,1
+1663638916322,2981,HTTP Request,200,OK,1000T voteCandidate 1-402,text,true,,261,225,549,549,http://localhost:8080/voteCandidate,2981,0,1
+1663638916370,2935,HTTP Request,200,OK,1000T voteCandidate 1-428,text,true,,261,225,540,540,http://localhost:8080/voteCandidate,2935,0,1
+1663638916742,2564,HTTP Request,200,OK,1000T voteCandidate 1-503,text,true,,261,225,539,539,http://localhost:8080/voteCandidate,2564,0,0
+1663638916321,2986,HTTP Request,200,OK,1000T voteCandidate 1-406,text,true,,261,225,538,538,http://localhost:8080/voteCandidate,2986,0,1
+1663638916735,2572,HTTP Request,200,OK,1000T voteCandidate 1-499,text,true,,261,225,537,537,http://localhost:8080/voteCandidate,2572,0,0
+1663638916751,2561,HTTP Request,200,OK,1000T voteCandidate 1-505,text,true,,261,225,536,536,http://localhost:8080/voteCandidate,2561,0,1
+1663638916747,2567,HTTP Request,200,OK,1000T voteCandidate 1-504,text,true,,261,225,535,535,http://localhost:8080/voteCandidate,2567,0,0
+1663638916376,2947,HTTP Request,200,OK,1000T voteCandidate 1-430,text,true,,261,225,534,534,http://localhost:8080/voteCandidate,2947,0,0
+1663638916381,2950,HTTP Request,200,OK,1000T voteCandidate 1-431,text,true,,261,225,533,533,http://localhost:8080/voteCandidate,2950,0,0
+1663638916391,2976,HTTP Request,200,OK,1000T voteCandidate 1-433,text,true,,261,225,532,532,http://localhost:8080/voteCandidate,2976,0,1
+1663638915983,3385,HTTP Request,200,OK,1000T voteCandidate 1-351,text,true,,261,225,531,531,http://localhost:8080/voteCandidate,3385,0,0
+1663638916386,2983,HTTP Request,200,OK,1000T voteCandidate 1-432,text,true,,261,225,530,530,http://localhost:8080/voteCandidate,2983,0,0
+1663638915966,3404,HTTP Request,200,OK,1000T voteCandidate 1-348,text,true,,261,225,529,529,http://localhost:8080/voteCandidate,3404,0,1
+1663638915971,3399,HTTP Request,200,OK,1000T voteCandidate 1-349,text,true,,261,225,528,528,http://localhost:8080/voteCandidate,3399,0,1
+1663638915976,3395,HTTP Request,200,OK,1000T voteCandidate 1-350,text,true,,261,225,527,527,http://localhost:8080/voteCandidate,3395,0,1
+1663638916407,2965,HTTP Request,200,OK,1000T voteCandidate 1-436,text,true,,261,225,526,526,http://localhost:8080/voteCandidate,2965,0,1
+1663638916412,2960,HTTP Request,200,OK,1000T voteCandidate 1-437,text,true,,261,225,525,525,http://localhost:8080/voteCandidate,2960,0,1
+1663638916401,2972,HTTP Request,200,OK,1000T voteCandidate 1-435,text,true,,261,225,524,524,http://localhost:8080/voteCandidate,2972,0,1
+1663638916396,2978,HTTP Request,200,OK,1000T voteCandidate 1-434,text,true,,261,225,523,523,http://localhost:8080/voteCandidate,2978,0,1
+1663638916421,2954,HTTP Request,200,OK,1000T voteCandidate 1-439,text,true,,261,225,522,522,http://localhost:8080/voteCandidate,2954,0,1
+1663638916416,2959,HTTP Request,200,OK,1000T voteCandidate 1-438,text,true,,261,225,521,521,http://localhost:8080/voteCandidate,2959,0,1
+1663638916426,2950,HTTP Request,200,OK,1000T voteCandidate 1-440,text,true,,261,225,520,520,http://localhost:8080/voteCandidate,2950,0,4
+1663638916436,2940,HTTP Request,200,OK,1000T voteCandidate 1-442,text,true,,261,225,519,519,http://localhost:8080/voteCandidate,2940,0,1
+1663638916431,2946,HTTP Request,200,OK,1000T voteCandidate 1-441,text,true,,261,225,518,518,http://localhost:8080/voteCandidate,2946,0,1
+1663638916442,2935,HTTP Request,200,OK,1000T voteCandidate 1-443,text,true,,261,225,517,517,http://localhost:8080/voteCandidate,2935,0,0
+1663638916447,2933,HTTP Request,200,OK,1000T voteCandidate 1-444,text,true,,261,225,516,516,http://localhost:8080/voteCandidate,2933,0,0
+1663638916451,2930,HTTP Request,200,OK,1000T voteCandidate 1-445,text,true,,261,225,515,515,http://localhost:8080/voteCandidate,2930,0,0
+1663638916456,2931,HTTP Request,200,OK,1000T voteCandidate 1-446,text,true,,261,225,514,514,http://localhost:8080/voteCandidate,2931,0,0
+1663638916461,2926,HTTP Request,200,OK,1000T voteCandidate 1-447,text,true,,261,225,513,513,http://localhost:8080/voteCandidate,2926,0,0
+1663638916466,2924,HTTP Request,200,OK,1000T voteCandidate 1-448,text,true,,261,225,512,512,http://localhost:8080/voteCandidate,2924,0,0
+1663638916471,2922,HTTP Request,200,OK,1000T voteCandidate 1-449,text,true,,261,225,511,511,http://localhost:8080/voteCandidate,2922,0,0
+1663638916526,2947,HTTP Request,200,OK,1000T voteCandidate 1-460,text,true,,261,225,510,510,http://localhost:8080/voteCandidate,2947,0,1
+1663638916531,2944,HTTP Request,200,OK,1000T voteCandidate 1-461,text,true,,261,225,509,509,http://localhost:8080/voteCandidate,2944,0,1
+1663638916536,2943,HTTP Request,200,OK,1000T voteCandidate 1-462,text,true,,261,225,508,508,http://localhost:8080/voteCandidate,2943,0,1
+1663638916541,2942,HTTP Request,200,OK,1000T voteCandidate 1-463,text,true,,261,225,507,507,http://localhost:8080/voteCandidate,2942,0,0
+1663638916546,2938,HTTP Request,200,OK,1000T voteCandidate 1-464,text,true,,261,225,506,506,http://localhost:8080/voteCandidate,2938,0,0
+1663638916552,2938,HTTP Request,200,OK,1000T voteCandidate 1-465,text,true,,261,225,505,505,http://localhost:8080/voteCandidate,2938,0,1
+1663638916486,3079,HTTP Request,200,OK,1000T voteCandidate 1-452,text,true,,261,225,504,504,http://localhost:8080/voteCandidate,3079,0,1
+1663638916482,3087,HTTP Request,200,OK,1000T voteCandidate 1-451,text,true,,261,225,503,503,http://localhost:8080/voteCandidate,3087,0,0
+1663638916476,3097,HTTP Request,200,OK,1000T voteCandidate 1-450,text,true,,261,225,502,502,http://localhost:8080/voteCandidate,3097,0,1
+1663638916491,3085,HTTP Request,200,OK,1000T voteCandidate 1-453,text,true,,261,225,501,501,http://localhost:8080/voteCandidate,3085,0,0
+1663638916496,3082,HTTP Request,200,OK,1000T voteCandidate 1-454,text,true,,261,225,500,500,http://localhost:8080/voteCandidate,3082,0,0
+1663638917077,2594,HTTP Request,200,OK,1000T voteCandidate 1-570,text,true,,261,225,499,499,http://localhost:8080/voteCandidate,2594,0,1
+1663638917072,2604,HTTP Request,200,OK,1000T voteCandidate 1-569,text,true,,261,225,498,498,http://localhost:8080/voteCandidate,2604,0,1
+1663638917106,2590,HTTP Request,200,OK,1000T voteCandidate 1-576,text,true,,261,225,497,497,http://localhost:8080/voteCandidate,2590,0,1
+1663638917112,2593,HTTP Request,200,OK,1000T voteCandidate 1-577,text,true,,261,225,496,496,http://localhost:8080/voteCandidate,2593,0,1
+1663638917117,2593,HTTP Request,200,OK,1000T voteCandidate 1-578,text,true,,261,225,495,495,http://localhost:8080/voteCandidate,2593,0,1
+1663638917122,2591,HTTP Request,200,OK,1000T voteCandidate 1-579,text,true,,261,225,494,494,http://localhost:8080/voteCandidate,2591,0,0
+1663638917126,2592,HTTP Request,200,OK,1000T voteCandidate 1-580,text,true,,261,225,493,493,http://localhost:8080/voteCandidate,2592,0,1
+1663638917131,2589,HTTP Request,200,OK,1000T voteCandidate 1-581,text,true,,261,225,492,492,http://localhost:8080/voteCandidate,2589,0,1
+1663638917136,2587,HTTP Request,200,OK,1000T voteCandidate 1-582,text,true,,261,225,491,491,http://localhost:8080/voteCandidate,2587,0,1
+1663638917141,2604,HTTP Request,200,OK,1000T voteCandidate 1-583,text,true,,261,225,490,490,http://localhost:8080/voteCandidate,2604,0,1
+1663638917146,2620,HTTP Request,200,OK,1000T voteCandidate 1-584,text,true,,261,225,489,489,http://localhost:8080/voteCandidate,2620,0,1
+1663638917152,2619,HTTP Request,200,OK,1000T voteCandidate 1-585,text,true,,261,225,488,488,http://localhost:8080/voteCandidate,2619,0,1
+1663638917161,2613,HTTP Request,200,OK,1000T voteCandidate 1-587,text,true,,261,225,487,487,http://localhost:8080/voteCandidate,2613,0,1
+1663638917156,2620,HTTP Request,200,OK,1000T voteCandidate 1-586,text,true,,261,225,486,486,http://localhost:8080/voteCandidate,2620,0,1
+1663638917166,2613,HTTP Request,200,OK,1000T voteCandidate 1-588,text,true,,261,225,485,485,http://localhost:8080/voteCandidate,2613,0,1
+1663638917171,2612,HTTP Request,200,OK,1000T voteCandidate 1-589,text,true,,261,225,484,484,http://localhost:8080/voteCandidate,2612,0,1
+1663638917176,2609,HTTP Request,200,OK,1000T voteCandidate 1-590,text,true,,261,225,483,483,http://localhost:8080/voteCandidate,2609,0,1
+1663638917182,2608,HTTP Request,200,OK,1000T voteCandidate 1-591,text,true,,261,225,482,482,http://localhost:8080/voteCandidate,2608,0,1
+1663638917187,2604,HTTP Request,200,OK,1000T voteCandidate 1-592,text,true,,261,225,481,481,http://localhost:8080/voteCandidate,2604,0,1
+1663638917191,2602,HTTP Request,200,OK,1000T voteCandidate 1-593,text,true,,261,225,480,480,http://localhost:8080/voteCandidate,2602,0,0
+1663638917196,2612,HTTP Request,200,OK,1000T voteCandidate 1-594,text,true,,261,225,479,479,http://localhost:8080/voteCandidate,2612,0,0
+1663638917201,2617,HTTP Request,200,OK,1000T voteCandidate 1-595,text,true,,261,225,478,478,http://localhost:8080/voteCandidate,2617,0,0
+1663638917206,2619,HTTP Request,200,OK,1000T voteCandidate 1-596,text,true,,261,225,477,477,http://localhost:8080/voteCandidate,2619,0,0
+1663638917211,2617,HTTP Request,200,OK,1000T voteCandidate 1-597,text,true,,261,225,476,476,http://localhost:8080/voteCandidate,2617,0,0
+1663638917217,2614,HTTP Request,200,OK,1000T voteCandidate 1-598,text,true,,261,225,475,475,http://localhost:8080/voteCandidate,2614,0,0
+1663638917222,2610,HTTP Request,200,OK,1000T voteCandidate 1-599,text,true,,261,225,474,474,http://localhost:8080/voteCandidate,2610,0,0
+1663638917226,2612,HTTP Request,200,OK,1000T voteCandidate 1-600,text,true,,261,225,473,473,http://localhost:8080/voteCandidate,2612,0,1
+1663638917231,2610,HTTP Request,200,OK,1000T voteCandidate 1-601,text,true,,261,225,472,472,http://localhost:8080/voteCandidate,2610,0,1
+1663638917236,2610,HTTP Request,200,OK,1000T voteCandidate 1-602,text,true,,261,225,471,471,http://localhost:8080/voteCandidate,2610,0,1
+1663638917241,2609,HTTP Request,200,OK,1000T voteCandidate 1-603,text,true,,261,225,470,470,http://localhost:8080/voteCandidate,2609,0,0
+1663638917247,2605,HTTP Request,200,OK,1000T voteCandidate 1-604,text,true,,261,225,469,469,http://localhost:8080/voteCandidate,2605,0,1
+1663638917252,2606,HTTP Request,200,OK,1000T voteCandidate 1-605,text,true,,261,225,468,468,http://localhost:8080/voteCandidate,2606,0,1
+1663638917256,2605,HTTP Request,200,OK,1000T voteCandidate 1-606,text,true,,261,225,467,467,http://localhost:8080/voteCandidate,2605,0,1
+1663638917263,2602,HTTP Request,200,OK,1000T voteCandidate 1-607,text,true,,261,225,466,466,http://localhost:8080/voteCandidate,2602,0,0
+1663638917267,2605,HTTP Request,200,OK,1000T voteCandidate 1-608,text,true,,261,225,465,465,http://localhost:8080/voteCandidate,2605,0,1
+1663638916777,3095,HTTP Request,200,OK,1000T voteCandidate 1-510,text,true,,261,225,464,464,http://localhost:8080/voteCandidate,3095,0,0
+1663638916782,3091,HTTP Request,200,OK,1000T voteCandidate 1-511,text,true,,261,225,463,463,http://localhost:8080/voteCandidate,3091,0,0
+1663638916773,3100,HTTP Request,200,OK,1000T voteCandidate 1-509,text,true,,261,225,462,462,http://localhost:8080/voteCandidate,3100,0,0
+1663638916757,3117,HTTP Request,200,OK,1000T voteCandidate 1-506,text,true,,261,225,461,461,http://localhost:8080/voteCandidate,3117,0,0
+1663638916762,3113,HTTP Request,200,OK,1000T voteCandidate 1-507,text,true,,261,225,460,460,http://localhost:8080/voteCandidate,3113,0,1
+1663638916787,3088,HTTP Request,200,OK,1000T voteCandidate 1-512,text,true,,261,225,459,459,http://localhost:8080/voteCandidate,3088,0,1
+1663638916792,3083,HTTP Request,200,OK,1000T voteCandidate 1-513,text,true,,261,225,458,458,http://localhost:8080/voteCandidate,3083,0,0
+1663638917271,2605,HTTP Request,200,OK,1000T voteCandidate 1-609,text,true,,261,225,457,457,http://localhost:8080/voteCandidate,2605,0,1
+1663638916767,3109,HTTP Request,200,OK,1000T voteCandidate 1-508,text,true,,261,225,456,456,http://localhost:8080/voteCandidate,3109,0,1
+1663638917276,2601,HTTP Request,200,OK,1000T voteCandidate 1-610,text,true,,261,225,455,455,http://localhost:8080/voteCandidate,2601,0,1
+1663638916797,3081,HTTP Request,200,OK,1000T voteCandidate 1-514,text,true,,261,225,454,454,http://localhost:8080/voteCandidate,3081,0,0
+1663638917281,2600,HTTP Request,200,OK,1000T voteCandidate 1-611,text,true,,261,225,453,453,http://localhost:8080/voteCandidate,2600,0,1
+1663638917286,2600,HTTP Request,200,OK,1000T voteCandidate 1-612,text,true,,261,225,452,452,http://localhost:8080/voteCandidate,2600,0,1
+1663638917291,2598,HTTP Request,200,OK,1000T voteCandidate 1-613,text,true,,261,225,451,451,http://localhost:8080/voteCandidate,2598,0,0
+1663638917296,2595,HTTP Request,200,OK,1000T voteCandidate 1-614,text,true,,261,225,450,450,http://localhost:8080/voteCandidate,2595,0,1
+1663638916803,3088,HTTP Request,200,OK,1000T voteCandidate 1-515,text,true,,261,225,449,449,http://localhost:8080/voteCandidate,3088,0,1
+1663638916817,3085,HTTP Request,200,OK,1000T voteCandidate 1-518,text,true,,261,225,448,448,http://localhost:8080/voteCandidate,3085,0,0
+1663638916811,3093,HTTP Request,200,OK,1000T voteCandidate 1-517,text,true,,261,225,447,447,http://localhost:8080/voteCandidate,3093,0,1
+1663638916808,3101,HTTP Request,200,OK,1000T voteCandidate 1-516,text,true,,261,225,446,446,http://localhost:8080/voteCandidate,3101,0,0
+1663638916821,3088,HTTP Request,200,OK,1000T voteCandidate 1-519,text,true,,261,225,445,445,http://localhost:8080/voteCandidate,3088,0,1
+1663638916827,3087,HTTP Request,200,OK,1000T voteCandidate 1-520,text,true,,261,225,444,444,http://localhost:8080/voteCandidate,3087,0,0
+1663638917302,2613,HTTP Request,200,OK,1000T voteCandidate 1-615,text,true,,261,225,443,443,http://localhost:8080/voteCandidate,2613,0,1
+1663638916831,3085,HTTP Request,200,OK,1000T voteCandidate 1-521,text,true,,261,225,442,442,http://localhost:8080/voteCandidate,3085,0,1
+1663638916837,3084,HTTP Request,200,OK,1000T voteCandidate 1-522,text,true,,261,225,441,441,http://localhost:8080/voteCandidate,3084,0,1
+1663638917308,2614,HTTP Request,200,OK,1000T voteCandidate 1-616,text,true,,261,225,440,440,http://localhost:8080/voteCandidate,2614,0,0
+1663638916842,3086,HTTP Request,200,OK,1000T voteCandidate 1-523,text,true,,261,225,439,439,http://localhost:8080/voteCandidate,3086,0,1
+1663638917316,2613,HTTP Request,200,OK,1000T voteCandidate 1-618,text,true,,261,225,438,438,http://localhost:8080/voteCandidate,2613,0,1
+1663638917321,2612,HTTP Request,200,OK,1000T voteCandidate 1-619,text,true,,261,225,437,437,http://localhost:8080/voteCandidate,2612,0,0
+1663638917311,2625,HTTP Request,200,OK,1000T voteCandidate 1-617,text,true,,261,225,436,436,http://localhost:8080/voteCandidate,2625,0,1
+1663638916846,3097,HTTP Request,200,OK,1000T voteCandidate 1-524,text,true,,261,225,435,435,http://localhost:8080/voteCandidate,3097,0,0
+1663638917326,2617,HTTP Request,200,OK,1000T voteCandidate 1-620,text,true,,261,225,434,434,http://localhost:8080/voteCandidate,2617,0,1
+1663638916866,3115,HTTP Request,200,OK,1000T voteCandidate 1-528,text,true,,261,225,433,433,http://localhost:8080/voteCandidate,3115,0,1
+1663638916852,3130,HTTP Request,200,OK,1000T voteCandidate 1-525,text,true,,261,225,432,432,http://localhost:8080/voteCandidate,3130,0,1
+1663638916861,3121,HTTP Request,200,OK,1000T voteCandidate 1-527,text,true,,261,225,431,431,http://localhost:8080/voteCandidate,3121,0,1
+1663638916516,3467,HTTP Request,200,OK,1000T voteCandidate 1-458,text,true,,261,225,430,430,http://localhost:8080/voteCandidate,3467,0,1
+1663638916507,3477,HTTP Request,200,OK,1000T voteCandidate 1-456,text,true,,261,225,429,429,http://localhost:8080/voteCandidate,3477,0,1
+1663638916512,3472,HTTP Request,200,OK,1000T voteCandidate 1-457,text,true,,261,225,428,428,http://localhost:8080/voteCandidate,3472,0,1
+1663638916856,3129,HTTP Request,200,OK,1000T voteCandidate 1-526,text,true,,261,225,427,427,http://localhost:8080/voteCandidate,3129,0,1
+1663638916872,3114,HTTP Request,200,OK,1000T voteCandidate 1-529,text,true,,261,225,426,426,http://localhost:8080/voteCandidate,3114,0,0
+1663638916882,3105,HTTP Request,200,OK,1000T voteCandidate 1-531,text,true,,261,225,425,425,http://localhost:8080/voteCandidate,3105,0,0
+1663638916893,3095,HTTP Request,200,OK,1000T voteCandidate 1-533,text,true,,261,225,424,424,http://localhost:8080/voteCandidate,3095,0,0
+1663638916898,3091,HTTP Request,200,OK,1000T voteCandidate 1-534,text,true,,261,225,423,423,http://localhost:8080/voteCandidate,3091,0,0
+1663638916501,3489,HTTP Request,200,OK,1000T voteCandidate 1-455,text,true,,261,225,422,422,http://localhost:8080/voteCandidate,3489,0,1
+1663638916521,3469,HTTP Request,200,OK,1000T voteCandidate 1-459,text,true,,261,225,421,421,http://localhost:8080/voteCandidate,3469,0,1
+1663638916912,3079,HTTP Request,200,OK,1000T voteCandidate 1-537,text,true,,261,225,420,420,http://localhost:8080/voteCandidate,3079,0,1
+1663638916877,3115,HTTP Request,200,OK,1000T voteCandidate 1-530,text,true,,261,225,419,419,http://localhost:8080/voteCandidate,3115,0,0
+1663638916903,3091,HTTP Request,200,OK,1000T voteCandidate 1-535,text,true,,261,225,418,418,http://localhost:8080/voteCandidate,3091,0,0
+1663638916907,3095,HTTP Request,200,OK,1000T voteCandidate 1-536,text,true,,261,225,417,417,http://localhost:8080/voteCandidate,3095,0,1
+1663638916917,3090,HTTP Request,200,OK,1000T voteCandidate 1-538,text,true,,261,225,416,416,http://localhost:8080/voteCandidate,3090,0,0
+1663638916887,3123,HTTP Request,200,OK,1000T voteCandidate 1-532,text,true,,261,225,415,415,http://localhost:8080/voteCandidate,3123,0,0
+1663638916922,3090,HTTP Request,200,OK,1000T voteCandidate 1-539,text,true,,261,225,414,414,http://localhost:8080/voteCandidate,3090,0,0
+1663638916928,3087,HTTP Request,200,OK,1000T voteCandidate 1-540,text,true,,261,225,413,413,http://localhost:8080/voteCandidate,3087,0,0
+1663638916936,3083,HTTP Request,200,OK,1000T voteCandidate 1-542,text,true,,261,225,412,412,http://localhost:8080/voteCandidate,3083,0,1
+1663638916932,3091,HTTP Request,200,OK,1000T voteCandidate 1-541,text,true,,261,225,411,411,http://localhost:8080/voteCandidate,3091,0,1
+1663638916941,3085,HTTP Request,200,OK,1000T voteCandidate 1-543,text,true,,261,225,410,410,http://localhost:8080/voteCandidate,3085,0,0
+1663638916946,3082,HTTP Request,200,OK,1000T voteCandidate 1-544,text,true,,261,225,409,409,http://localhost:8080/voteCandidate,3082,0,0
+1663638916951,3079,HTTP Request,200,OK,1000T voteCandidate 1-545,text,true,,261,225,408,408,http://localhost:8080/voteCandidate,3079,0,1
+1663638916956,3077,HTTP Request,200,OK,1000T voteCandidate 1-546,text,true,,261,225,407,407,http://localhost:8080/voteCandidate,3077,0,1
+1663638916962,3074,HTTP Request,200,OK,1000T voteCandidate 1-547,text,true,,261,225,406,406,http://localhost:8080/voteCandidate,3074,0,1
+1663638916967,3071,HTTP Request,200,OK,1000T voteCandidate 1-548,text,true,,261,225,405,405,http://localhost:8080/voteCandidate,3071,0,1
+1663638916971,3072,HTTP Request,200,OK,1000T voteCandidate 1-549,text,true,,261,225,404,404,http://localhost:8080/voteCandidate,3072,0,1
+1663638916976,3069,HTTP Request,200,OK,1000T voteCandidate 1-550,text,true,,261,225,403,403,http://localhost:8080/voteCandidate,3069,0,1
+1663638917006,3084,HTTP Request,200,OK,1000T voteCandidate 1-556,text,true,,261,225,402,402,http://localhost:8080/voteCandidate,3084,0,1
+1663638917011,3087,HTTP Request,200,OK,1000T voteCandidate 1-557,text,true,,261,225,401,401,http://localhost:8080/voteCandidate,3087,0,1
+1663638917016,3087,HTTP Request,200,OK,1000T voteCandidate 1-558,text,true,,261,225,400,400,http://localhost:8080/voteCandidate,3087,0,1
+1663638917021,3087,HTTP Request,200,OK,1000T voteCandidate 1-559,text,true,,261,225,399,399,http://localhost:8080/voteCandidate,3087,0,1
+1663638917081,3037,HTTP Request,200,OK,1000T voteCandidate 1-571,text,true,,261,225,398,398,http://localhost:8080/voteCandidate,3037,0,0
+1663638917086,3035,HTTP Request,200,OK,1000T voteCandidate 1-572,text,true,,261,225,397,397,http://localhost:8080/voteCandidate,3035,0,0
+1663638917091,3036,HTTP Request,200,OK,1000T voteCandidate 1-573,text,true,,261,225,396,396,http://localhost:8080/voteCandidate,3036,0,0
+1663638917096,3032,HTTP Request,200,OK,1000T voteCandidate 1-574,text,true,,261,225,395,395,http://localhost:8080/voteCandidate,3032,0,0
+1663638917101,3032,HTTP Request,200,OK,1000T voteCandidate 1-575,text,true,,261,225,394,394,http://localhost:8080/voteCandidate,3032,0,1
+1663638917032,3102,HTTP Request,200,OK,1000T voteCandidate 1-561,text,true,,261,225,393,393,http://localhost:8080/voteCandidate,3102,0,1
+1663638917068,3073,HTTP Request,200,OK,1000T voteCandidate 1-568,text,true,,261,225,392,392,http://localhost:8080/voteCandidate,3073,0,1
+1663638917068,3074,HTTP Request,200,OK,1000T voteCandidate 1-567,text,true,,261,225,391,391,http://localhost:8080/voteCandidate,3074,0,1
+1663638917041,3105,HTTP Request,200,OK,1000T voteCandidate 1-563,text,true,,261,225,390,390,http://localhost:8080/voteCandidate,3105,0,1
+1663638917046,3103,HTTP Request,200,OK,1000T voteCandidate 1-564,text,true,,261,225,389,389,http://localhost:8080/voteCandidate,3103,0,22
+1663638917037,3118,HTTP Request,200,OK,1000T voteCandidate 1-562,text,true,,261,225,388,388,http://localhost:8080/voteCandidate,3118,0,1
+1663638917068,3092,HTTP Request,200,OK,1000T voteCandidate 1-565,text,true,,261,225,387,387,http://localhost:8080/voteCandidate,3092,0,1
+1663638917027,3139,HTTP Request,200,OK,1000T voteCandidate 1-560,text,true,,261,225,386,386,http://localhost:8080/voteCandidate,3139,0,0
+1663638917068,3101,HTTP Request,200,OK,1000T voteCandidate 1-566,text,true,,261,225,385,385,http://localhost:8080/voteCandidate,3101,0,1
+1663638917336,3150,HTTP Request,200,OK,1000T voteCandidate 1-622,text,true,,261,225,384,384,http://localhost:8080/voteCandidate,3150,0,0
+1663638917347,3140,HTTP Request,200,OK,1000T voteCandidate 1-624,text,true,,261,225,383,383,http://localhost:8080/voteCandidate,3140,0,0
+1663638917362,3126,HTTP Request,200,OK,1000T voteCandidate 1-627,text,true,,261,225,382,382,http://localhost:8080/voteCandidate,3126,0,0
+1663638917371,3118,HTTP Request,200,OK,1000T voteCandidate 1-629,text,true,,261,225,381,381,http://localhost:8080/voteCandidate,3118,0,1
+1663638917331,3159,HTTP Request,200,OK,1000T voteCandidate 1-621,text,true,,261,225,380,380,http://localhost:8080/voteCandidate,3159,0,0
+1663638917356,3135,HTTP Request,200,OK,1000T voteCandidate 1-626,text,true,,261,225,379,379,http://localhost:8080/voteCandidate,3135,0,1
+1663638917376,3115,HTTP Request,200,OK,1000T voteCandidate 1-630,text,true,,261,225,378,378,http://localhost:8080/voteCandidate,3115,0,1
+1663638917341,3151,HTTP Request,200,OK,1000T voteCandidate 1-623,text,true,,261,225,377,377,http://localhost:8080/voteCandidate,3151,0,0
+1663638917366,3127,HTTP Request,200,OK,1000T voteCandidate 1-628,text,true,,261,225,376,376,http://localhost:8080/voteCandidate,3127,0,1
+1663638917353,3141,HTTP Request,200,OK,1000T voteCandidate 1-625,text,true,,261,225,375,375,http://localhost:8080/voteCandidate,3141,0,0
+1663638917383,3113,HTTP Request,200,OK,1000T voteCandidate 1-631,text,true,,261,225,375,375,http://localhost:8080/voteCandidate,3113,0,0
+1663638917387,3110,HTTP Request,200,OK,1000T voteCandidate 1-632,text,true,,261,225,374,374,http://localhost:8080/voteCandidate,3110,0,1
+1663638917397,3103,HTTP Request,200,OK,1000T voteCandidate 1-634,text,true,,261,225,372,372,http://localhost:8080/voteCandidate,3103,0,0
+1663638917393,3109,HTTP Request,200,OK,1000T voteCandidate 1-633,text,true,,261,225,371,371,http://localhost:8080/voteCandidate,3109,0,0
+1663638917402,3103,HTTP Request,200,OK,1000T voteCandidate 1-635,text,true,,261,225,370,370,http://localhost:8080/voteCandidate,3103,0,1
+1663638917407,3111,HTTP Request,200,OK,1000T voteCandidate 1-636,text,true,,261,225,369,369,http://localhost:8080/voteCandidate,3111,0,0
+1663638917417,3110,HTTP Request,200,OK,1000T voteCandidate 1-638,text,true,,261,225,368,368,http://localhost:8080/voteCandidate,3110,0,1
+1663638917412,3123,HTTP Request,200,OK,1000T voteCandidate 1-637,text,true,,261,225,367,367,http://localhost:8080/voteCandidate,3123,0,0
+1663638917423,3113,HTTP Request,200,OK,1000T voteCandidate 1-639,text,true,,261,225,366,366,http://localhost:8080/voteCandidate,3113,0,0
+1663638917427,3113,HTTP Request,200,OK,1000T voteCandidate 1-640,text,true,,261,225,365,365,http://localhost:8080/voteCandidate,3113,0,1
+1663638917437,3110,HTTP Request,200,OK,1000T voteCandidate 1-642,text,true,,261,225,364,364,http://localhost:8080/voteCandidate,3110,0,0
+1663638917432,3115,HTTP Request,200,OK,1000T voteCandidate 1-641,text,true,,261,225,363,363,http://localhost:8080/voteCandidate,3115,0,0
+1663638917442,3148,HTTP Request,200,OK,1000T voteCandidate 1-643,text,true,,261,225,362,362,http://localhost:8080/voteCandidate,3148,0,0
+1663638917457,3135,HTTP Request,200,OK,1000T voteCandidate 1-646,text,true,,261,225,361,361,http://localhost:8080/voteCandidate,3134,0,1
+1663638916981,3612,HTTP Request,200,OK,1000T voteCandidate 1-551,text,true,,261,225,360,360,http://localhost:8080/voteCandidate,3612,0,1
+1663638917446,3147,HTTP Request,200,OK,1000T voteCandidate 1-644,text,true,,261,225,359,359,http://localhost:8080/voteCandidate,3147,0,1
+1663638916986,3608,HTTP Request,200,OK,1000T voteCandidate 1-552,text,true,,261,225,358,358,http://localhost:8080/voteCandidate,3608,0,0
+1663638917451,3143,HTTP Request,200,OK,1000T voteCandidate 1-645,text,true,,261,225,357,357,http://localhost:8080/voteCandidate,3143,0,1
+1663638916997,3598,HTTP Request,200,OK,1000T voteCandidate 1-554,text,true,,261,225,356,356,http://localhost:8080/voteCandidate,3598,0,1
+1663638916992,3604,HTTP Request,200,OK,1000T voteCandidate 1-553,text,true,,261,225,355,355,http://localhost:8080/voteCandidate,3604,0,1
+1663638917462,3134,HTTP Request,200,OK,1000T voteCandidate 1-647,text,true,,261,225,354,354,http://localhost:8080/voteCandidate,3134,0,0
+1663638917471,3126,HTTP Request,200,OK,1000T voteCandidate 1-649,text,true,,261,225,353,353,http://localhost:8080/voteCandidate,3126,0,1
+1663638917466,3132,HTTP Request,200,OK,1000T voteCandidate 1-648,text,true,,261,225,352,352,http://localhost:8080/voteCandidate,3132,0,1
+1663638917486,3120,HTTP Request,200,OK,1000T voteCandidate 1-652,text,true,,261,225,351,351,http://localhost:8080/voteCandidate,3120,0,1
+1663638917511,3096,HTTP Request,200,OK,1000T voteCandidate 1-657,text,true,,261,225,351,351,http://localhost:8080/voteCandidate,3096,0,1
+1663638917492,3116,HTTP Request,200,OK,1000T voteCandidate 1-653,text,true,,261,225,351,351,http://localhost:8080/voteCandidate,3115,0,1
+1663638917001,3607,HTTP Request,200,OK,1000T voteCandidate 1-555,text,true,,261,225,351,351,http://localhost:8080/voteCandidate,3607,0,1
+1663638917481,3128,HTTP Request,200,OK,1000T voteCandidate 1-651,text,true,,261,225,351,351,http://localhost:8080/voteCandidate,3128,0,1
+1663638917496,3113,HTTP Request,200,OK,1000T voteCandidate 1-654,text,true,,261,225,351,351,http://localhost:8080/voteCandidate,3113,0,1
+1663638917476,3134,HTTP Request,200,OK,1000T voteCandidate 1-650,text,true,,261,225,351,351,http://localhost:8080/voteCandidate,3133,0,0
+1663638917501,3109,HTTP Request,200,OK,1000T voteCandidate 1-655,text,true,,261,225,346,346,http://localhost:8080/voteCandidate,3109,0,1
+1663638917506,3105,HTTP Request,200,OK,1000T voteCandidate 1-656,text,true,,261,225,346,346,http://localhost:8080/voteCandidate,3105,0,1
+1663638917517,3105,HTTP Request,200,OK,1000T voteCandidate 1-658,text,true,,261,225,342,342,http://localhost:8080/voteCandidate,3105,0,0
+1663638917522,3102,HTTP Request,200,OK,1000T voteCandidate 1-659,text,true,,261,225,341,341,http://localhost:8080/voteCandidate,3102,0,1
+1663638917528,3100,HTTP Request,200,OK,1000T voteCandidate 1-660,text,true,,261,225,340,340,http://localhost:8080/voteCandidate,3100,0,0
+1663638917532,3099,HTTP Request,200,OK,1000T voteCandidate 1-661,text,true,,261,225,339,339,http://localhost:8080/voteCandidate,3099,0,0
+1663638917537,3097,HTTP Request,200,OK,1000T voteCandidate 1-662,text,true,,261,225,338,338,http://localhost:8080/voteCandidate,3097,0,0
+1663638917547,15016,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-664,text,false,,2441,0,337,337,http://localhost:8080/voteCandidate,0,0,0
+1663638917552,15012,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-665,text,false,,2441,0,337,337,http://localhost:8080/voteCandidate,0,0,0
+1663638917557,15007,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-666,text,false,,2441,0,337,337,http://localhost:8080/voteCandidate,0,0,1
+1663638917571,15006,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-669,text,false,,2441,0,334,334,http://localhost:8080/voteCandidate,0,0,1
+1663638917576,15001,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-670,text,false,,2441,0,334,334,http://localhost:8080/voteCandidate,0,0,1
+1663638917567,15011,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-668,text,false,,2441,0,334,334,http://localhost:8080/voteCandidate,0,0,1
+1663638917563,15015,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-667,text,false,,2441,0,334,334,http://localhost:8080/voteCandidate,0,0,0
+1663638917586,15007,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-672,text,false,,2441,0,330,330,http://localhost:8080/voteCandidate,0,0,1
+1663638917591,15002,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-673,text,false,,2441,0,330,330,http://localhost:8080/voteCandidate,0,0,1
+1663638917581,15012,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-671,text,false,,2441,0,329,329,http://localhost:8080/voteCandidate,0,0,0
+1663638917606,15002,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-676,text,false,,2441,0,327,327,http://localhost:8080/voteCandidate,0,0,1
+1663638917602,15006,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-675,text,false,,2441,0,327,327,http://localhost:8080/voteCandidate,0,0,1
+1663638917597,15012,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-674,text,false,,2441,0,327,327,http://localhost:8080/voteCandidate,0,0,1
+1663638917617,15007,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-678,text,false,,2441,0,324,324,http://localhost:8080/voteCandidate,0,0,0
+1663638917611,15013,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-677,text,false,,2441,0,324,324,http://localhost:8080/voteCandidate,0,0,1
+1663638917622,15003,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-679,text,false,,2441,0,324,324,http://localhost:8080/voteCandidate,0,0,0
+1663638917638,15002,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-682,text,false,,2441,0,321,321,http://localhost:8080/voteCandidate,0,0,0
+1663638917627,15013,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-680,text,false,,2441,0,321,321,http://localhost:8080/voteCandidate,0,0,0
+1663638917633,15007,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-681,text,false,,2441,0,320,320,http://localhost:8080/voteCandidate,0,0,0
+1663638917652,15004,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-685,text,false,,2441,0,318,318,http://localhost:8080/voteCandidate,0,0,0
+1663638917647,15012,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-684,text,false,,2441,0,318,318,http://localhost:8080/voteCandidate,0,0,0
+1663638917642,15017,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-683,text,false,,2441,0,318,318,http://localhost:8080/voteCandidate,0,0,0
+1663638917662,15009,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-687,text,false,,2441,0,315,315,http://localhost:8080/voteCandidate,0,0,0
+1663638917667,15004,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-688,text,false,,2441,0,315,315,http://localhost:8080/voteCandidate,0,0,0
+1663638917657,15014,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-686,text,false,,2441,0,315,315,http://localhost:8080/voteCandidate,0,0,0
+1663638917673,15014,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-689,text,false,,2441,0,312,312,http://localhost:8080/voteCandidate,0,0,0
+1663638917676,15011,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-690,text,false,,2441,0,312,312,http://localhost:8080/voteCandidate,0,0,1
+1663638917681,15006,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-691,text,false,,2441,0,312,312,http://localhost:8080/voteCandidate,0,0,0
+1663638917701,15001,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-695,text,false,,2441,0,309,309,http://localhost:8080/voteCandidate,0,0,1
+1663638917696,15006,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-694,text,false,,2441,0,309,309,http://localhost:8080/voteCandidate,0,0,1
+1663638917686,15016,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-692,text,false,,2441,0,309,309,http://localhost:8080/voteCandidate,0,0,0
+1663638917691,15012,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-693,text,false,,2441,0,309,309,http://localhost:8080/voteCandidate,0,0,1
+1663638917712,15006,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-697,text,false,,2441,0,305,305,http://localhost:8080/voteCandidate,0,0,0
+1663638917716,15002,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-698,text,false,,2441,0,305,305,http://localhost:8080/voteCandidate,0,0,1
+1663638917707,15011,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-696,text,false,,2441,0,305,305,http://localhost:8080/voteCandidate,0,0,1
+1663638917726,15008,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-700,text,false,,2441,0,302,302,http://localhost:8080/voteCandidate,0,0,1
+1663638917721,15013,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-699,text,false,,2441,0,302,302,http://localhost:8080/voteCandidate,0,0,1
+1663638917731,15003,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-701,text,false,,2441,0,300,300,http://localhost:8080/voteCandidate,0,0,1
+1663638917747,15002,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-704,text,false,,2441,0,299,299,http://localhost:8080/voteCandidate,0,0,1
+1663638917742,15007,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-703,text,false,,2441,0,299,299,http://localhost:8080/voteCandidate,0,0,0
+1663638917736,15013,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-702,text,false,,2441,0,299,299,http://localhost:8080/voteCandidate,0,0,1
+1663638917756,15009,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-706,text,false,,2441,0,296,296,http://localhost:8080/voteCandidate,0,0,1
+1663638917751,15014,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-705,text,false,,2441,0,296,296,http://localhost:8080/voteCandidate,0,0,1
+1663638917761,15006,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-707,text,false,,2441,0,296,296,http://localhost:8080/voteCandidate,0,0,1
+1663638917776,15004,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-710,text,false,,2441,0,293,293,http://localhost:8080/voteCandidate,0,0,1
+1663638917771,15009,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-709,text,false,,2441,0,293,293,http://localhost:8080/voteCandidate,0,0,1
+1663638917766,15015,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-708,text,false,,2441,0,293,293,http://localhost:8080/voteCandidate,0,0,1
+1663638917781,15015,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-711,text,false,,2441,0,290,290,http://localhost:8080/voteCandidate,0,0,1
+1663638917792,15004,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-713,text,false,,2441,0,290,290,http://localhost:8080/voteCandidate,0,0,1
+1663638917787,15009,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-712,text,false,,2441,0,290,290,http://localhost:8080/voteCandidate,0,0,1
+1663638917796,15016,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-714,text,false,,2441,0,287,287,http://localhost:8080/voteCandidate,0,0,1
+1663638917825,15015,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-719,text,false,,2441,0,286,286,http://localhost:8080/voteCandidate,0,0,1
+1663638917825,15015,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-716,text,false,,2441,0,286,286,http://localhost:8080/voteCandidate,0,0,1
+1663638917825,15002,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-715,text,false,,2441,0,286,286,http://localhost:8080/voteCandidate,0,0,1
+1663638917825,15015,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-718,text,false,,2441,0,286,286,http://localhost:8080/voteCandidate,0,0,1
+1663638917825,15015,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-717,text,false,,2441,0,286,286,http://localhost:8080/voteCandidate,0,0,1
+1663638917841,15002,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-723,text,false,,2441,0,281,281,http://localhost:8080/voteCandidate,0,0,1
+1663638917831,15012,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-721,text,false,,2441,0,281,281,http://localhost:8080/voteCandidate,0,0,1
+1663638917827,15016,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-720,text,false,,2441,0,279,279,http://localhost:8080/voteCandidate,0,0,0
+1663638917836,15007,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-722,text,false,,2441,0,279,279,http://localhost:8080/voteCandidate,0,0,1
+1663638917846,15013,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-724,text,false,,2441,0,277,277,http://localhost:8080/voteCandidate,0,0,1
+1663638917851,15008,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-725,text,false,,2441,0,277,277,http://localhost:8080/voteCandidate,0,0,1
+1663638917856,15003,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-726,text,false,,2441,0,277,277,http://localhost:8080/voteCandidate,0,0,1
+1663638917872,15002,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-729,text,false,,2441,0,274,274,http://localhost:8080/voteCandidate,0,0,1
+1663638917861,15013,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-727,text,false,,2441,0,274,274,http://localhost:8080/voteCandidate,0,0,1
+1663638917867,15007,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-728,text,false,,2441,0,274,274,http://localhost:8080/voteCandidate,0,0,1
+1663638917881,15009,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-731,text,false,,2441,0,271,271,http://localhost:8080/voteCandidate,0,0,1
+1663638917886,15004,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-732,text,false,,2441,0,271,271,http://localhost:8080/voteCandidate,0,0,1
+1663638917876,15014,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-730,text,false,,2441,0,271,271,http://localhost:8080/voteCandidate,0,0,1
+1663638917901,15004,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-735,text,false,,2441,0,268,268,http://localhost:8080/voteCandidate,0,0,1
+1663638917896,15010,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-734,text,false,,2441,0,268,268,http://localhost:8080/voteCandidate,0,0,1
+1663638917891,15015,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-733,text,false,,2441,0,268,268,http://localhost:8080/voteCandidate,0,0,1
+1663638917917,15004,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-738,text,false,,2441,0,265,265,http://localhost:8080/voteCandidate,0,0,0
+1663638917906,15015,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-736,text,false,,2441,0,265,265,http://localhost:8080/voteCandidate,0,0,0
+1663638917912,15009,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-737,text,false,,2441,0,264,264,http://localhost:8080/voteCandidate,0,0,0
+1663638917921,15016,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-739,text,false,,2441,0,262,262,http://localhost:8080/voteCandidate,0,0,0
+1663638917935,15002,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-742,text,false,,2441,0,262,262,http://localhost:8080/voteCandidate,0,0,1
+1663638917926,15011,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-740,text,false,,2441,0,262,262,http://localhost:8080/voteCandidate,0,0,0
+1663638917930,15007,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-741,text,false,,2441,0,260,260,http://localhost:8080/voteCandidate,0,0,1
+1663638917951,15001,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-745,text,false,,2441,0,258,258,http://localhost:8080/voteCandidate,0,0,1
+1663638917941,15011,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-743,text,false,,2441,0,258,258,http://localhost:8080/voteCandidate,0,0,0
+1663638917946,15007,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-744,text,false,,2441,0,257,257,http://localhost:8080/voteCandidate,0,0,0
+1663638917962,15006,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-747,text,false,,2441,0,255,255,http://localhost:8080/voteCandidate,0,0,0
+1663638917956,15012,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-746,text,false,,2441,0,255,255,http://localhost:8080/voteCandidate,0,0,0
+1663638917967,15001,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-748,text,false,,2441,0,255,255,http://localhost:8080/voteCandidate,0,0,0
+1663638917981,15003,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-751,text,false,,2441,0,252,252,http://localhost:8080/voteCandidate,0,0,0
+1663638917971,15013,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-749,text,false,,2441,0,252,252,http://localhost:8080/voteCandidate,0,0,0
+1663638917976,15008,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-750,text,false,,2441,0,252,252,http://localhost:8080/voteCandidate,0,0,1
+1663638917986,15013,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-752,text,false,,2441,0,249,249,http://localhost:8080/voteCandidate,0,0,0
+1663638917991,15008,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-753,text,false,,2441,0,249,249,http://localhost:8080/voteCandidate,0,0,0
+1663638917996,15003,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-754,text,false,,2441,0,249,249,http://localhost:8080/voteCandidate,0,0,0
+1663638918001,15014,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-755,text,false,,2441,0,246,246,http://localhost:8080/voteCandidate,0,0,1
+1663638918007,15008,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-756,text,false,,2441,0,246,246,http://localhost:8080/voteCandidate,0,0,1
+1663638918012,15003,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-757,text,false,,2441,0,246,246,http://localhost:8080/voteCandidate,0,0,1
+1663638918021,15009,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-759,text,false,,2441,0,243,243,http://localhost:8080/voteCandidate,0,0,1
+1663638918027,15003,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-760,text,false,,2441,0,243,243,http://localhost:8080/voteCandidate,0,0,1
+1663638918016,15015,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-758,text,false,,2441,0,241,241,http://localhost:8080/voteCandidate,0,0,1
+1663638918036,15010,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-762,text,false,,2441,0,240,240,http://localhost:8080/voteCandidate,0,0,1
+1663638918031,15015,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-761,text,false,,2441,0,240,240,http://localhost:8080/voteCandidate,0,0,1
+1663638918041,15005,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-763,text,false,,2441,0,238,238,http://localhost:8080/voteCandidate,0,0,1
+1663638918051,15011,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-765,text,false,,2441,0,237,237,http://localhost:8080/voteCandidate,0,0,1
+1663638918046,15016,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-764,text,false,,2441,0,237,237,http://localhost:8080/voteCandidate,0,0,1
+1663638918056,15006,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-766,text,false,,2441,0,237,237,http://localhost:8080/voteCandidate,0,0,1
+1663638918066,15011,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-768,text,false,,2441,0,234,234,http://localhost:8080/voteCandidate,0,0,1
+1663638918076,15001,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-770,text,false,,2441,0,234,234,http://localhost:8080/voteCandidate,0,0,1
+1663638918061,15017,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-767,text,false,,2441,0,234,234,http://localhost:8080/voteCandidate,0,0,1
+1663638918071,15007,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-769,text,false,,2441,0,234,234,http://localhost:8080/voteCandidate,0,0,1
+1663638918091,15002,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-773,text,false,,2441,0,230,230,http://localhost:8080/voteCandidate,0,0,1
+1663638918087,15006,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-772,text,false,,2441,0,230,230,http://localhost:8080/voteCandidate,0,0,1
+1663638918082,15011,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-771,text,false,,2441,0,230,230,http://localhost:8080/voteCandidate,0,0,1
+1663638918106,15003,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-776,text,false,,2441,0,227,227,http://localhost:8080/voteCandidate,0,0,1
+1663638918101,15008,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-775,text,false,,2441,0,227,227,http://localhost:8080/voteCandidate,0,0,1
+1663638918096,15013,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-774,text,false,,2441,0,227,227,http://localhost:8080/voteCandidate,0,0,1
+1663638918122,15002,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-779,text,false,,2441,0,224,224,http://localhost:8080/voteCandidate,0,0,1
+1663638918116,15008,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-778,text,false,,2441,0,224,224,http://localhost:8080/voteCandidate,0,0,1
+1663638918111,15014,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-777,text,false,,2441,0,224,224,http://localhost:8080/voteCandidate,0,0,1
+1663638918127,15013,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-780,text,false,,2441,0,221,221,http://localhost:8080/voteCandidate,0,0,1
+1663638918136,15004,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-782,text,false,,2441,0,221,221,http://localhost:8080/voteCandidate,0,0,0
+1663638918131,15011,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-781,text,false,,2441,0,219,219,http://localhost:8080/voteCandidate,0,0,1
+1663638918141,15014,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-783,text,false,,2441,0,218,218,http://localhost:8080/voteCandidate,0,0,0
+1663638918150,15005,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-785,text,false,,2441,0,218,218,http://localhost:8080/voteCandidate,0,0,1
+1663638918145,15011,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-784,text,false,,2441,0,218,218,http://localhost:8080/voteCandidate,0,0,1
+1663638918167,15004,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-788,text,false,,2441,0,215,215,http://localhost:8080/voteCandidate,0,0,0
+1663638918162,15009,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-787,text,false,,2441,0,215,215,http://localhost:8080/voteCandidate,0,0,0
+1663638918156,15015,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-786,text,false,,2441,0,215,215,http://localhost:8080/voteCandidate,0,0,1
+1663638918181,15006,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-791,text,false,,2441,0,212,212,http://localhost:8080/voteCandidate,0,0,0
+1663638918176,15011,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-790,text,false,,2441,0,212,212,http://localhost:8080/voteCandidate,0,0,0
+1663638918171,15016,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-789,text,false,,2441,0,212,212,http://localhost:8080/voteCandidate,0,0,1
+1663638918191,15011,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-793,text,false,,2441,0,209,209,http://localhost:8080/voteCandidate,0,0,0
+1663638918196,15006,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-794,text,false,,2441,0,209,209,http://localhost:8080/voteCandidate,0,0,0
+1663638918186,15017,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-792,text,false,,2441,0,208,208,http://localhost:8080/voteCandidate,0,0,0
+1663638918202,15016,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-795,text,false,,2441,0,206,206,http://localhost:8080/voteCandidate,0,0,0
+1663638918207,15011,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-796,text,false,,2441,0,206,206,http://localhost:8080/voteCandidate,0,0,0
+1663638918210,15008,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-797,text,false,,2441,0,206,206,http://localhost:8080/voteCandidate,0,0,1
+1663638918216,15002,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-798,text,false,,2441,0,206,206,http://localhost:8080/voteCandidate,0,0,0
+1663638918221,15012,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-799,text,false,,2441,0,202,202,http://localhost:8080/voteCandidate,0,0,0
+1663638918230,15004,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-801,text,false,,2441,0,202,202,http://localhost:8080/voteCandidate,0,0,1
+1663638918225,15009,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-800,text,false,,2441,0,202,202,http://localhost:8080/voteCandidate,0,0,1
+1663638918236,15014,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-802,text,false,,2441,0,199,199,http://localhost:8080/voteCandidate,0,0,0
+1663638918242,15008,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-803,text,false,,2441,0,199,199,http://localhost:8080/voteCandidate,0,0,0
+1663638918246,15004,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-804,text,false,,2441,0,199,199,http://localhost:8080/voteCandidate,0,0,1
+1663638918261,15004,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-807,text,false,,2441,0,196,196,http://localhost:8080/voteCandidate,0,0,0
+1663638918255,15010,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-806,text,false,,2441,0,196,196,http://localhost:8080/voteCandidate,0,0,1
+1663638918251,15014,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-805,text,false,,2441,0,196,196,http://localhost:8080/voteCandidate,0,0,0
+1663638918266,15014,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-808,text,false,,2441,0,193,193,http://localhost:8080/voteCandidate,0,0,0
+1663638918271,15010,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-809,text,false,,2441,0,193,193,http://localhost:8080/voteCandidate,0,0,0
+1663638918276,15005,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-810,text,false,,2441,0,192,192,http://localhost:8080/voteCandidate,0,0,0
+1663638918281,15015,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-811,text,false,,2441,0,190,190,http://localhost:8080/voteCandidate,0,0,0
+1663638918291,15005,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-813,text,false,,2441,0,190,190,http://localhost:8080/voteCandidate,0,0,0
+1663638918286,15010,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-812,text,false,,2441,0,190,190,http://localhost:8080/voteCandidate,0,0,0
+1663638918307,15005,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-816,text,false,,2441,0,187,187,http://localhost:8080/voteCandidate,0,0,0
+1663638918298,15014,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-814,text,false,,2441,0,187,187,http://localhost:8080/voteCandidate,0,0,0
+1663638918303,15009,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-815,text,false,,2441,0,186,186,http://localhost:8080/voteCandidate,0,0,0
+1663638918318,15009,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-818,text,false,,2441,0,184,184,http://localhost:8080/voteCandidate,0,0,0
+1663638918322,15006,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-819,text,false,,2441,0,184,184,http://localhost:8080/voteCandidate,0,0,0
+1663638918312,15016,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-817,text,false,,2441,0,184,184,http://localhost:8080/voteCandidate,0,0,0
+1663638918336,15007,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-822,text,false,,2441,0,181,181,http://localhost:8080/voteCandidate,0,0,1
+1663638918341,15002,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-823,text,false,,2441,0,181,181,http://localhost:8080/voteCandidate,0,0,1
+1663638918332,15011,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-821,text,false,,2441,0,181,181,http://localhost:8080/voteCandidate,0,0,0
+1663638918327,15016,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-820,text,false,,2441,0,181,181,http://localhost:8080/voteCandidate,0,0,0
+1663638918351,15008,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-825,text,false,,2441,0,177,177,http://localhost:8080/voteCandidate,0,0,0
+1663638918346,15013,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-824,text,false,,2441,0,177,177,http://localhost:8080/voteCandidate,0,0,0
+1663638918356,15003,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-826,text,false,,2441,0,177,177,http://localhost:8080/voteCandidate,0,0,0
+1663638918361,15013,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-827,text,false,,2441,0,174,174,http://localhost:8080/voteCandidate,0,0,0
+1663638918376,15014,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-829,text,false,,2441,0,173,173,http://localhost:8080/voteCandidate,0,0,1
+1663638918381,15009,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-831,text,false,,2441,0,173,173,http://localhost:8080/voteCandidate,0,0,1
+1663638918387,15003,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-832,text,false,,2441,0,173,173,http://localhost:8080/voteCandidate,0,0,0
+1663638918376,15014,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-830,text,false,,2441,0,171,171,http://localhost:8080/voteCandidate,0,0,1
+1663638918375,15015,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-828,text,false,,2441,0,170,170,http://localhost:8080/voteCandidate,0,0,1
+1663638918391,15014,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-833,text,false,,2441,0,168,168,http://localhost:8080/voteCandidate,0,0,1
+1663638918400,15006,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-835,text,false,,2441,0,167,167,http://localhost:8080/voteCandidate,0,0,1
+1663638918396,15010,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-834,text,false,,2441,0,167,167,http://localhost:8080/voteCandidate,0,0,0
+1663638918405,15016,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-836,text,false,,2441,0,165,165,http://localhost:8080/voteCandidate,0,0,1
+1663638918412,15009,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-837,text,false,,2441,0,165,165,http://localhost:8080/voteCandidate,0,0,0
+1663638918416,15005,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-838,text,false,,2441,0,165,165,http://localhost:8080/voteCandidate,0,0,0
+1663638918432,15005,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-841,text,false,,2441,0,162,162,http://localhost:8080/voteCandidate,0,0,0
+1663638918425,15012,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-840,text,false,,2441,0,162,162,http://localhost:8080/voteCandidate,0,0,1
+1663638918421,15016,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-839,text,false,,2441,0,162,162,http://localhost:8080/voteCandidate,0,0,0
+1663638918450,15002,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-845,text,false,,2441,0,159,159,http://localhost:8080/voteCandidate,0,0,1
+1663638918445,15007,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-844,text,false,,2441,0,159,159,http://localhost:8080/voteCandidate,0,0,1
+1663638918442,15010,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-843,text,false,,2441,0,159,159,http://localhost:8080/voteCandidate,0,0,0
+1663638918437,15015,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-842,text,false,,2441,0,158,158,http://localhost:8080/voteCandidate,0,0,0
+1663638918460,15008,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-847,text,false,,2441,0,155,155,http://localhost:8080/voteCandidate,0,0,1
+1663638918455,15013,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-846,text,false,,2441,0,155,155,http://localhost:8080/voteCandidate,0,0,1
+1663638918465,15003,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-848,text,false,,2441,0,155,155,http://localhost:8080/voteCandidate,0,0,1
+1663638918470,15014,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-849,text,false,,2441,0,152,152,http://localhost:8080/voteCandidate,0,0,1
+1663638918476,15008,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-850,text,false,,2441,0,152,152,http://localhost:8080/voteCandidate,0,0,1
+1663638918481,15003,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-851,text,false,,2441,0,151,151,http://localhost:8080/voteCandidate,0,0,1
+1663638918495,15004,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-854,text,false,,2441,0,149,149,http://localhost:8080/voteCandidate,0,0,1
+1663638918485,15014,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-852,text,false,,2441,0,149,149,http://localhost:8080/voteCandidate,0,0,1
+1663638918490,15009,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-853,text,false,,2441,0,149,149,http://localhost:8080/voteCandidate,0,0,1
+1663638918510,15005,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-857,text,false,,2441,0,146,146,http://localhost:8080/voteCandidate,0,0,1
+1663638918505,15010,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-856,text,false,,2441,0,146,146,http://localhost:8080/voteCandidate,0,0,1
+1663638918501,15014,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-855,text,false,,2441,0,145,145,http://localhost:8080/voteCandidate,0,0,0
+1663638918516,15015,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-858,text,false,,2441,0,143,143,http://localhost:8080/voteCandidate,0,0,0
+1663638918520,15010,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-859,text,false,,2441,0,143,143,http://localhost:8080/voteCandidate,0,0,1
+1663638918527,15004,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-860,text,false,,2441,0,143,143,http://localhost:8080/voteCandidate,0,0,0
+1663638918540,15006,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-863,text,false,,2441,0,140,140,http://localhost:8080/voteCandidate,0,0,1
+1663638918535,15011,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-862,text,false,,2441,0,140,140,http://localhost:8080/voteCandidate,0,0,1
+1663638918531,15015,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-861,text,false,,2441,0,140,140,http://localhost:8080/voteCandidate,0,0,1
+1663638918555,15007,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-866,text,false,,2441,0,137,137,http://localhost:8080/voteCandidate,0,0,1
+1663638918545,15017,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-864,text,false,,2441,0,137,137,http://localhost:8080/voteCandidate,0,0,1
+1663638918550,15012,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-865,text,false,,2441,0,137,137,http://localhost:8080/voteCandidate,0,0,1
+1663638918561,15001,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-867,text,false,,2441,0,136,136,http://localhost:8080/voteCandidate,0,0,0
+1663638918571,15006,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-869,text,false,,2441,0,133,133,http://localhost:8080/voteCandidate,0,0,1
+1663638918566,15011,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-868,text,false,,2441,0,133,133,http://localhost:8080/voteCandidate,0,0,1
+1663638918606,15003,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-876,text,false,,2441,0,131,131,http://localhost:8080/voteCandidate,0,0,0
+1663638918595,15014,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-871,text,false,,2441,0,131,131,http://localhost:8080/voteCandidate,0,0,1
+1663638918601,15008,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-875,text,false,,2441,0,131,131,http://localhost:8080/voteCandidate,0,0,1
+1663638918595,15014,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-870,text,false,,2441,0,129,129,http://localhost:8080/voteCandidate,0,0,0
+1663638918595,15014,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-873,text,false,,2441,0,128,128,http://localhost:8080/voteCandidate,0,0,1
+1663638918595,15014,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-872,text,false,,2441,0,127,127,http://localhost:8080/voteCandidate,0,0,0
+1663638918595,15014,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-874,text,false,,2441,0,125,125,http://localhost:8080/voteCandidate,0,0,1
+1663638918621,15003,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-879,text,false,,2441,0,124,124,http://localhost:8080/voteCandidate,0,0,1
+1663638918611,15013,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-877,text,false,,2441,0,124,124,http://localhost:8080/voteCandidate,0,0,0
+1663638918616,15008,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-878,text,false,,2441,0,124,124,http://localhost:8080/voteCandidate,0,0,1
+1663638918625,15015,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-880,text,false,,2441,0,121,121,http://localhost:8080/voteCandidate,0,0,1
+1663638918635,15005,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-882,text,false,,2441,0,121,121,http://localhost:8080/voteCandidate,0,0,1
+1663638918630,15010,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-881,text,false,,2441,0,121,121,http://localhost:8080/voteCandidate,0,0,1
+1663638918640,15015,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-883,text,false,,2441,0,118,118,http://localhost:8080/voteCandidate,0,0,1
+1663638918646,15010,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-884,text,false,,2441,0,118,118,http://localhost:8080/voteCandidate,0,0,0
+1663638918650,15006,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-885,text,false,,2441,0,118,118,http://localhost:8080/voteCandidate,0,0,1
+1663638918656,15015,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-886,text,false,,2441,0,115,115,http://localhost:8080/voteCandidate,0,0,1
+1663638918665,15006,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-888,text,false,,2441,0,115,115,http://localhost:8080/voteCandidate,0,0,1
+1663638918661,15010,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-887,text,false,,2441,0,115,115,http://localhost:8080/voteCandidate,0,0,0
+1663638918676,15011,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-890,text,false,,2441,0,112,112,http://localhost:8080/voteCandidate,0,0,1
+1663638918670,15017,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-889,text,false,,2441,0,112,112,http://localhost:8080/voteCandidate,0,0,1
+1663638918685,15002,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-892,text,false,,2441,0,112,112,http://localhost:8080/voteCandidate,0,0,1
+1663638918681,15006,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-891,text,false,,2441,0,111,111,http://localhost:8080/voteCandidate,0,0,1
+1663638918690,15012,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-893,text,false,,2441,0,108,108,http://localhost:8080/voteCandidate,0,0,1
+1663638918700,15002,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-895,text,false,,2441,0,108,108,http://localhost:8080/voteCandidate,0,0,1
+1663638918695,15007,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-894,text,false,,2441,0,108,108,http://localhost:8080/voteCandidate,0,0,1
+1663638918715,15003,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-898,text,false,,2441,0,105,105,http://localhost:8080/voteCandidate,0,0,1
+1663638918705,15013,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-896,text,false,,2441,0,105,105,http://localhost:8080/voteCandidate,0,0,1
+1663638918710,15008,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-897,text,false,,2441,0,105,105,http://localhost:8080/voteCandidate,0,0,1
+1663638918721,15013,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-899,text,false,,2441,0,102,102,http://localhost:8080/voteCandidate,0,0,1
+1663638918730,15004,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-901,text,false,,2441,0,102,102,http://localhost:8080/voteCandidate,0,0,1
+1663638918726,15008,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-900,text,false,,2441,0,101,101,http://localhost:8080/voteCandidate,0,0,1
+1663638918735,15014,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-902,text,false,,2441,0,99,99,http://localhost:8080/voteCandidate,0,0,1
+1663638918745,15004,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-904,text,false,,2441,0,99,99,http://localhost:8080/voteCandidate,0,0,1
+1663638918740,15009,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-903,text,false,,2441,0,98,98,http://localhost:8080/voteCandidate,0,0,1
+1663638918755,15010,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-906,text,false,,2441,0,96,96,http://localhost:8080/voteCandidate,0,0,1
+1663638918761,15004,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-907,text,false,,2441,0,96,96,http://localhost:8080/voteCandidate,0,0,0
+1663638918751,15014,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-905,text,false,,2441,0,95,95,http://localhost:8080/voteCandidate,0,0,0
+1663638918777,15003,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-910,text,false,,2441,0,93,93,http://localhost:8080/voteCandidate,0,0,1
+1663638918767,15013,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-908,text,false,,2441,0,93,93,http://localhost:8080/voteCandidate,0,0,1
+1663638918772,15008,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-909,text,false,,2441,0,93,93,http://localhost:8080/voteCandidate,0,0,1
+1663638918791,15005,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-913,text,false,,2441,0,90,90,http://localhost:8080/voteCandidate,0,0,0
+1663638918786,15010,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-912,text,false,,2441,0,90,90,http://localhost:8080/voteCandidate,0,0,0
+1663638918781,15015,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-911,text,false,,2441,0,90,90,http://localhost:8080/voteCandidate,0,0,1
+1663638918796,15016,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-914,text,false,,2441,0,87,87,http://localhost:8080/voteCandidate,0,0,1
+1663638918801,15011,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-915,text,false,,2441,0,87,87,http://localhost:8080/voteCandidate,0,0,0
+1663638918806,15006,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-916,text,false,,2441,0,87,87,http://localhost:8080/voteCandidate,0,0,0
+1663638918817,15010,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-918,text,false,,2441,0,84,84,http://localhost:8080/voteCandidate,0,0,0
+1663638918826,15001,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-920,text,false,,2441,0,84,84,http://localhost:8080/voteCandidate,0,0,1
+1663638918822,15006,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-919,text,false,,2441,0,84,84,http://localhost:8080/voteCandidate,0,0,0
+1663638918811,15017,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-917,text,false,,2441,0,82,82,http://localhost:8080/voteCandidate,0,0,0
+1663638918831,15012,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-921,text,false,,2441,0,80,80,http://localhost:8080/voteCandidate,0,0,0
+1663638918841,15002,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-923,text,false,,2441,0,80,80,http://localhost:8080/voteCandidate,0,0,0
+1663638918836,15007,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-922,text,false,,2441,0,80,80,http://localhost:8080/voteCandidate,0,0,0
+1663638918851,15007,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-925,text,false,,2441,0,77,77,http://localhost:8080/voteCandidate,0,0,0
+1663638918856,15003,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-926,text,false,,2441,0,77,77,http://localhost:8080/voteCandidate,0,0,0
+1663638918846,15013,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-924,text,false,,2441,0,77,77,http://localhost:8080/voteCandidate,0,0,0
+1663638918861,15013,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-927,text,false,,2441,0,74,74,http://localhost:8080/voteCandidate,0,0,0
+1663638918866,15008,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-928,text,false,,2441,0,74,74,http://localhost:8080/voteCandidate,0,0,1
+1663638918872,15003,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-929,text,false,,2441,0,74,74,http://localhost:8080/voteCandidate,0,0,0
+1663638918886,15004,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-932,text,false,,2441,0,71,71,http://localhost:8080/voteCandidate,0,0,0
+1663638918881,15009,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-931,text,false,,2441,0,71,71,http://localhost:8080/voteCandidate,0,0,0
+1663638918877,15013,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-930,text,false,,2441,0,70,70,http://localhost:8080/voteCandidate,0,0,0
+1663638918896,15009,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-934,text,false,,2441,0,68,68,http://localhost:8080/voteCandidate,0,0,0
+1663638918901,15004,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-935,text,false,,2441,0,68,68,http://localhost:8080/voteCandidate,0,0,0
+1663638918891,15014,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-933,text,false,,2441,0,67,67,http://localhost:8080/voteCandidate,0,0,0
+1663638918912,15009,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-937,text,false,,2441,0,65,65,http://localhost:8080/voteCandidate,0,0,0
+1663638918917,15004,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-938,text,false,,2441,0,65,65,http://localhost:8080/voteCandidate,0,0,0
+1663638918906,15015,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-936,text,false,,2441,0,63,63,http://localhost:8080/voteCandidate,0,0,0
+1663638918926,15011,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-940,text,false,,2441,0,62,62,http://localhost:8080/voteCandidate,0,0,1
+1663638918921,15016,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-939,text,false,,2441,0,62,62,http://localhost:8080/voteCandidate,0,0,1
+1663638918931,15006,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-941,text,false,,2441,0,62,62,http://localhost:8080/voteCandidate,0,0,0
+1663638918936,15016,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-942,text,false,,2441,0,59,59,http://localhost:8080/voteCandidate,0,0,1
+1663638918946,15006,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-944,text,false,,2441,0,59,59,http://localhost:8080/voteCandidate,0,0,0
+1663638918951,15001,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-945,text,false,,2441,0,59,59,http://localhost:8080/voteCandidate,0,0,0
+1663638918941,15011,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-943,text,false,,2441,0,59,59,http://localhost:8080/voteCandidate,0,0,0
+1663638918962,15006,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-947,text,false,,2441,0,55,55,http://localhost:8080/voteCandidate,0,0,0
+1663638918956,15012,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-946,text,false,,2441,0,55,55,http://localhost:8080/voteCandidate,0,0,0
+1663638918981,15003,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-951,text,false,,2441,0,53,53,http://localhost:8080/voteCandidate,0,0,0
+1663638918971,15013,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-949,text,false,,2441,0,53,53,http://localhost:8080/voteCandidate,0,0,1
+1663638918967,15017,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-948,text,false,,2441,0,53,53,http://localhost:8080/voteCandidate,0,0,1
+1663638918976,15008,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-950,text,false,,2441,0,52,52,http://localhost:8080/voteCandidate,0,0,1
+1663638918987,15012,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-952,text,false,,2441,0,49,49,http://localhost:8080/voteCandidate,0,0,0
+1663638918996,15003,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-954,text,false,,2441,0,49,49,http://localhost:8080/voteCandidate,0,0,1
+1663638918991,15008,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-953,text,false,,2441,0,49,49,http://localhost:8080/voteCandidate,0,0,1
+1663638919007,15008,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-956,text,false,,2441,0,46,46,http://localhost:8080/voteCandidate,0,0,1
+1663638919012,15003,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-957,text,false,,2441,0,46,46,http://localhost:8080/voteCandidate,0,0,1
+1663638919001,15014,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-955,text,false,,2441,0,46,46,http://localhost:8080/voteCandidate,0,0,1
+1663638919021,15009,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-959,text,false,,2441,0,43,43,http://localhost:8080/voteCandidate,0,0,1
+1663638919026,15004,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-960,text,false,,2441,0,43,43,http://localhost:8080/voteCandidate,0,0,1
+1663638919016,15015,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-958,text,false,,2441,0,41,41,http://localhost:8080/voteCandidate,0,0,1
+1663638919036,15010,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-962,text,false,,2441,0,40,40,http://localhost:8080/voteCandidate,0,0,1
+1663638919041,15005,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-963,text,false,,2441,0,40,40,http://localhost:8080/voteCandidate,0,0,1
+1663638919031,15015,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-961,text,false,,2441,0,40,40,http://localhost:8080/voteCandidate,0,0,1
+1663638919057,15005,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-966,text,false,,2441,0,37,37,http://localhost:8080/voteCandidate,0,0,1
+1663638919052,15010,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-965,text,false,,2441,0,37,37,http://localhost:8080/voteCandidate,0,0,1
+1663638919046,15016,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-964,text,false,,2441,0,37,37,http://localhost:8080/voteCandidate,0,0,1
+1663638919061,15017,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-967,text,false,,2441,0,34,34,http://localhost:8080/voteCandidate,0,0,1
+1663638919066,15012,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-968,text,false,,2441,0,34,34,http://localhost:8080/voteCandidate,0,0,1
+1663638919071,15007,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-969,text,false,,2441,0,34,34,http://localhost:8080/voteCandidate,0,0,1
+1663638919077,15016,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-970,text,false,,2441,0,31,31,http://localhost:8080/voteCandidate,0,0,0
+1663638919085,15008,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-972,text,false,,2441,0,31,31,http://localhost:8080/voteCandidate,0,0,1
+1663638919081,15012,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-971,text,false,,2441,0,31,31,http://localhost:8080/voteCandidate,0,0,1
+1663638919101,15008,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-975,text,false,,2441,0,28,28,http://localhost:8080/voteCandidate,0,0,1
+1663638919106,15003,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-976,text,false,,2441,0,28,28,http://localhost:8080/voteCandidate,0,0,1
+1663638919092,15017,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-973,text,false,,2441,0,28,28,http://localhost:8080/voteCandidate,0,0,1
+1663638919097,15012,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-974,text,false,,2441,0,28,28,http://localhost:8080/voteCandidate,0,0,1
+1663638919121,15003,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-979,text,false,,2441,0,24,24,http://localhost:8080/voteCandidate,0,0,1
+1663638919116,15008,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-978,text,false,,2441,0,24,24,http://localhost:8080/voteCandidate,0,0,1
+1663638919111,15013,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-977,text,false,,2441,0,24,24,http://localhost:8080/voteCandidate,0,0,1
+1663638919126,15014,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-980,text,false,,2441,0,21,21,http://localhost:8080/voteCandidate,0,0,1
+1663638919136,15004,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-982,text,false,,2441,0,21,21,http://localhost:8080/voteCandidate,0,0,0
+1663638919131,15009,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-981,text,false,,2441,0,21,21,http://localhost:8080/voteCandidate,0,0,1
+1663638919151,15009,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-985,text,false,,2441,0,18,18,http://localhost:8080/voteCandidate,0,0,1
+1663638919147,15013,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-984,text,false,,2441,0,18,18,http://localhost:8080/voteCandidate,0,0,1
+1663638919141,15019,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-983,text,false,,2441,0,18,18,http://localhost:8080/voteCandidate,0,0,1
+1663638919157,15003,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-986,text,false,,2441,0,18,18,http://localhost:8080/voteCandidate,0,0,0
+1663638919167,15009,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-988,text,false,,2441,0,14,14,http://localhost:8080/voteCandidate,0,0,1
+1663638919162,15014,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-987,text,false,,2441,0,14,14,http://localhost:8080/voteCandidate,0,0,0
+1663638919172,15004,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-989,text,false,,2441,0,14,14,http://localhost:8080/voteCandidate,0,0,0
+1663638919181,15010,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-991,text,false,,2441,0,11,11,http://localhost:8080/voteCandidate,0,0,1
+1663638919186,15005,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-992,text,false,,2441,0,11,11,http://localhost:8080/voteCandidate,0,0,1
+1663638919177,15014,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-990,text,false,,2441,0,11,11,http://localhost:8080/voteCandidate,0,0,0
+1663638919190,15017,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-993,text,false,,2441,0,8,8,http://localhost:8080/voteCandidate,0,0,1
+1663638919196,15011,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-994,text,false,,2441,0,8,8,http://localhost:8080/voteCandidate,0,0,1
+1663638919201,15006,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-995,text,false,,2441,0,6,6,http://localhost:8080/voteCandidate,0,0,1
+1663638919207,15015,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-996,text,false,,2441,0,5,5,http://localhost:8080/voteCandidate,0,0,1
+1663638919216,15007,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-998,text,false,,2441,0,5,5,http://localhost:8080/voteCandidate,0,0,1
+1663638919211,15012,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-997,text,false,,2441,0,5,5,http://localhost:8080/voteCandidate,0,0,1
+1663638919221,15017,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-999,text,false,,2441,0,2,2,http://localhost:8080/voteCandidate,0,0,1
+1663638919226,15012,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T voteCandidate 1-1000,text,false,,2441,0,2,2,http://localhost:8080/voteCandidate,0,0,1
