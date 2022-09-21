@@ -64,7 +64,7 @@ export function getNumCandidates(): i8 {
 }
 
 // Public method - Reset to zero
-function reset(): void {
+export function reset(): void {
     storage.set<i8>("vote_counter", 0);
     logging.log("Reset counter to zero");
 }

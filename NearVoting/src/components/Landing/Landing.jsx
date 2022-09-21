@@ -90,6 +90,16 @@ function Landing() {
       )
       throw e
     } finally {
+      const newState = candidates.map((cand, index) => {
+        // 👇️ if id equals 2, update country property
+        if (index === idx) {
+          return {...cand, votes: cand.votes+1};
+        }
+  
+        // 👇️ otherwise return object as is
+        return cand;
+      });
+      setCandidates(newState)
       setShowNotification(true)
     }
   }
