@@ -61,8 +61,6 @@ function CandidateRegistration() {
       stateDistrict,
     }
 
-
-
     try {
       await validateInput(data)
       console.log('No errors occurred')
@@ -77,7 +75,7 @@ function CandidateRegistration() {
             // make an update call to the smart contract
             await window.contract.addCandidate({
               // pass the value that the user entered in the greeting field
-              text: fullName
+              text: response.data.id
             })
             seterrorOpen(false)
             setsuccessOpen(true)
