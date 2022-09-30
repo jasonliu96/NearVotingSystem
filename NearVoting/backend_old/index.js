@@ -131,18 +131,13 @@ async function run(){
     app.post('/addCandidateCompressed', async (req,res) => {
         const {text} = req.body;
         const compStr = await LZUTF8.compress(text, {outputEncoding:"StorageBinaryString"})
-        console.log(compStr)
         try {
-            // const result = await contract.addCandidate({args:{'text':compStr}});
-            // res.json(
-            //     {status:200,
-            //         result
-            //     }
-            // )
-            res.json({
-                status:200,
-                compStr
-            })
+            const result = await contract.addCandidate({args:{'text':compStr}});
+            res.json(
+                {status:200,
+                    result
+                }
+            )
         }
         catch (e)
         {
