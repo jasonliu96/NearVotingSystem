@@ -114,7 +114,7 @@ async function run(){
 
     app.get('/getCandidatesDecompressed', async (req,res) => {
         try {
-            const result = await contract.getCandidates({args:{}, gas:300000000000000});
+            var result = await contract.getCandidates({args:{}, gas:300000000000000});
             console.log(result)
             result = result.map((v)=>(v.name = LZUTF8.decompress(v.name, {inputEncoding:"StorageBinaryString", outputEncoding:"String"})))
             res.json(
