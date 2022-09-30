@@ -128,7 +128,7 @@ async function run(){
             res.json({status:404, msg:e})
         }
     })
-    app.get('/addCandidatesCompressed', async (req,res) => {
+    app.post('/addCandidateCompressed', async (req,res) => {
         const compStr = LZUTF8.compress(text, {outputEncoding:"StorageBinaryString"})
         try {
             const result = await contract.addCandidate({args:{'text':compStr}});
@@ -146,5 +146,6 @@ async function run(){
     })
 
     app.listen(port);
+    console.log(`server listening on port port ${port}`);
 }
 run()
