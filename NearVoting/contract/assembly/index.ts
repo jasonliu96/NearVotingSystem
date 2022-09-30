@@ -1,6 +1,5 @@
 import { storage, logging } from 'near-sdk-as';
 import { Candidate, CandidateList, Phase, PhaseList } from './model';
-
 const CANDIDATE_LIMIT = 10
 
 export function addCandidate(text: string): void{
@@ -19,6 +18,7 @@ export function addCandidate(text: string): void{
 //     }
 //     return result;
 // }
+// const regex = new RegExp("");
 
 export function getCandidates(): Candidate[] {
     const result = new Array<Candidate>();

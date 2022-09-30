@@ -1,5 +1,5 @@
 {
-  "name": "greeter",
+  "name": "nearvoting",
   "version": "0.0.1",
   "license": "UNLICENSED",
   "private": true,
@@ -9,9 +9,12 @@
     "test": "asp --nologo"
   },
   "dependencies": {
+    "lz-ts": "^1.1.2",
+    "lzutf8": "^0.6.3",
     "near-sdk-as": "3.1.0"
   },
   "devDependencies": {
+    "@types/node": "^18.7.23",
     "shelljs": "^0.8.4"
   }
 }

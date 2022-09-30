@@ -21,7 +21,7 @@ async function run(){
     const ACCOUNT_ID = "master.test.near";
     const credentialsPath = path.join(homedir, CREDENTIALS_DIR);
     const keyStore = new keyStores.UnencryptedFileSystemKeyStore(credentialsPath);
-
+    const LZUTF8 = require("lzutf8");
 
     const config = {
         keyStore,
@@ -111,7 +111,40 @@ async function run(){
             res.json({status:404, msg:e})
         }
     })
+
+    app.get('/getCandidatesDecompressed', async (req,res) => {
+        try {
+            const result = await contract.getCandidates({args:{}, gas:300000000000000});
+            result.map((k, v)=>{v.name = LZUTF8.decompress(v.name, {inputEncoding:"StorageBinaryString", outputEncoding:"String"})})
+            res.json(
+                {status:200,
+                 result
+                }
+            )
+        }
+        catch (e)
+        {
+            console.log(e)
+            res.json({status:404, msg:e})
+        }
+    })
+    app.get('/addCandidatesCompressed', async (req,res) => {
+        const compStr = LZUTF8.compress(text, {outputEncoding:"StorageBinaryString"})
+        try {
+            const result = await contract.addCandidate({args:{'text':compStr}});
+            res.json(
+                {status:200,
+                    result
+                }
+            )
+        }
+        catch (e)
+        {
+            console.log(e)
+            res.json({status:404, msg:e})
+        }
+    })
+
     app.listen(port);
-    console.log(`server listening on port port ${port}`)
 }
 run()
