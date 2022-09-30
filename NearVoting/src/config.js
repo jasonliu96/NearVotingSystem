@@ -1,5 +1,6 @@
-const CONTRACT_NAME = process.env.CONTRACT_NAME ||'ecdev-1648654095801-10029744734408'
-
+// const CONTRACT_NAME = process.env.CONTRACT_NAME ||'ecdev-1648654095801-10029744734408'
+// const CONTRACT_NAME='dev-1663119240654-28174144876560' <- shivani's contract
+const CONTRACT_NAME='dev-1663723562943-23921940996501'
 function getConfig(env) {
   switch (env) {
 

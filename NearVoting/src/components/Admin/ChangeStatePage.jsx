@@ -1,99 +1,32 @@
 import React, {useState,useEffect} from 'react';
-import { Card, CardActions, CardContent, Typography, Button, Box} from '@mui/material';
-import CloseIcon from '@mui/icons-material/Close';
-
-function ChangeStatePage() {
-  
-  const [phase, setCount] = useState(1);
-  const [phases,setphase] = useState([]);
-  const [selectValue,setselectvalue] = useState([]);
+import { Button, FormControl, InputLabel, Select, MenuItem} from '@mui/material';
 
 
-  async function handleChange(e){
-    setselectvalue(e.target.value);
-    console.log("this is the dropdown "+e.target.value)
-  }
-
-
-  
-  async function submitCandidate(e){
-
-    
-
-    e.preventDefault()
-    console.log("this is the dropdown "+selectValue)
-    try {
-      // make an update call to the smart contract
-       window.contract.addstate({
-        // pass the value that the user entered in the greeting field
-        text:selectValue
-      })
-    } catch (e) {
-      alert(
-        'Something went wrong! ' +
-        'Maybe you need to sign out and back in? ' +
-        'Check your browser console for more info.'
-      )
-      throw e
-    } finally {
-      console.log("PHASE added")
-    }
-    console.log("here is the phaselist")
-    console.log("this is phase length from submitcandidate"+phases.length)
-  }
-
-
-  React.useEffect(
-    () => {
-      // in this case, we only care to query the contract when signed in
-      if (window.walletConnection.isSignedIn()) {
-        
-        // window.contract is set by initContract in index.js
-        window.contract.getPhases({  })
-          .then(candidateFromContract => {
-            console.log(candidateFromContract)
-            setphase(candidateFromContract)
-            
-          })
-  
-          
-  
-      }
-    },
-  
-    // The second argument to useEffect tells React when to re-run the effect
-    // Use an empty array to specify "only run on first render"
-    // This works because signing into NEAR Wallet reloads the page
-    []
-  )
-  
-  
-  
-  
+function ChangeStatePage({phases, submit, selectValue, handleChange}) {
   
   
   return (
-    <div style={{ textAlign: 'center' }}>
+    <div style={{ width: '100%', textAlign: 'center' }}>
     
       <h1>Change State Page </h1>
 
-      <div style={{ width: '100%' }}>
+      <div style={{ width: '100%', textAlign: 'center', margin:10 }}>
       {phases?.length>0
       ?
       phases.slice(-1).map((value, index)=>(
-        <div>
+        <div key={index}>
         {(() => {
           if (value.phase == 1) {
             return (
-              <div>Registration Phase</div>
+              <div>Current Phase : Registration</div>
             )
           } else if (value.phase == 2) {
             return (
-              <div>Voting Phase</div>
+              <div>Current Phase : Voting</div>
             )
           } else if (value.phase == 3) {
             return (
-              <div>Results Phase</div>
+              <div>Current Phase : Results</div>
             )
           }
         })()}
@@ -103,27 +36,20 @@ function ChangeStatePage() {
       <p>The Voting process will start after selecting the Phase</p>}
       
       </div>
-
-
-
-      
-
-
-
-
-
-
-      <form name="phaseselect">
-      <select name="selectList" id="selectList"     value={selectValue} onChange={handleChange} >
-      <option value="0">Select the phase</option>
-      <option value="1">Registration Phase</option>
-      <option value="2">Voting Phase</option>
-      <option value="3">Result Phase</option>
+<div>
+      <FormControl sx={{ m: 1, minWidth: 200 }} size="small">
+      <InputLabel id="demo-simple-select-autowidth-label">Phase</InputLabel>
+      <Select name="selectList" id="selectList"     value={selectValue} onChange={handleChange} autoWidth
+          label="Phase" >
+      <MenuItem value="1">Registration Phase</MenuItem>
+      <MenuItem value="2">Voting Phase</MenuItem>
+      <MenuItem value="3">Result Phase</MenuItem>
     
-      </select>
-      <div><input type="submit" value="Submit" onClick={submitCandidate} style={{ textAlign: 'center', marginTop:15 }}></input></div>
+      </Select>
+      <div><Button variant="outlined" type="submit" value="Submit" onClick={submit} style={{ textAlign: 'center', marginTop:20 , width:200}}> Submit</Button></div>
       
-      </form>      
+      </FormControl>    
+      </div>  
     </div>
   );
 }

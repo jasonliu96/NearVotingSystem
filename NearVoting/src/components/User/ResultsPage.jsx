@@ -1,17 +1,20 @@
 import React from 'react';
+import axios from 'axios';
 import { PieChart } from 'react-minimal-pie-chart';
 import { Card,List, ListItemText} from '@mui/material';
 import { login, logout } from '../../utils'
 
 function ResultsPage() {
+  const serverUrl = 'http://localhost:9999'
   const [numVotes, setNumVotes] = React.useState(0)
   const [candidates, setCandidates] = React.useState([])
   const [selected, setSelected] = React.useState(0);
   const [data, setData] = React.useState([])
   const colors = ['#ebf5fb','#d6eaf8','#aed6f1','#85c1e9','#5dade2','#3498db','#b0bec5','#90a4ae','#78909c','#607d8b','#546e7a', '#455a64']
   function mapCandidates(candidates){
-    const temp = candidates.filter((value, index) => (value.votes>0)).map((value, index)=>({title:value.name, value:value.votes, color:colors[index%10]}))
+    const temp = candidates.filter((value, index) => (value.votes>0)).map((value, index)=>({title:value.fullName, value:value.votes, color:colors[index%10]}))
     setData(temp)
+    console.log("mapcandidates",temp)
   }
   if (!window.walletConnection.isSignedIn()) {
     return (
@@ -39,11 +42,23 @@ function ResultsPage() {
           .then(votesFromContract => {
             setNumVotes(votesFromContract)
           })
-        window.contract.getCandidates({  })
-        .then(candidatesFromContract => {
-          setCandidates(candidatesFromContract)
-          mapCandidates(candidatesFromContract)
-        })
+          var oids;
+          // window.contract is set by initContract in index.js
+          window.contract.getCandidates({  })
+            .then(candidateFromContract => {
+              // setCandidates(candidateFromContract)
+              oids = candidateFromContract
+              console.log(oids)
+              axios.post(`${serverUrl}/candidate/getCandidateInfo`,{oids}).then(
+                (res)=>{
+                  if(res.status==200){
+                    console.log(res)
+                    setCandidates(res.data)
+                    mapCandidates(res.data)
+                  }
+                }
+              )
+            })
       }
     },
 
@@ -72,7 +87,7 @@ function ResultsPage() {
       <Card sx={{border: 1, p: 1, m: 1, maxWidth: 'auto', maxHeight:'auto', borderColor:'#ebf5fb'}}>
       <List>
         <ListItemText>Total Votes: {numVotes}</ListItemText>
-        {data.map((value, index)=> <ListItemText>{value.title +': '+value.value}</ListItemText>)}
+        {data.map((value, index)=> <div key={index}><ListItemText>{value.title +': '+value.value}</ListItemText></div>)}
       </List>
       </Card>
       </div>

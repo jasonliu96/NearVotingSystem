@@ -1,4 +1,5 @@
 import React from 'react';
+import axios from 'axios'
 import { login, logout } from '../../utils'
 import getConfig from '../../config'
 import { Card, CardActions, CardContent, Typography, Button, Box} from '@mui/material';
@@ -6,6 +7,7 @@ import CloseIcon from '@mui/icons-material/Close';
 import  Notification  from '../Notification';
 import ConfirmationModal from '../ConfirmationModal';
 function Landing() {
+  const serverUrl = 'http://localhost:9999'
   const [candidates, setCandidates] = React.useState([])
   const [selectedCandidate, setSelCandidate] = React.useState(0)
   const [showNotification, setShowNotification] = React.useState(false)
@@ -46,11 +48,20 @@ function Landing() {
     () => {
       // in this case, we only care to query the contract when signed in
       if (window.walletConnection.isSignedIn()) {
-
+        var oids;
         // window.contract is set by initContract in index.js
         window.contract.getCandidates({  })
           .then(candidateFromContract => {
-            setCandidates(candidateFromContract)
+            // setCandidates(candidateFromContract)
+            oids = candidateFromContract
+            console.log(oids)
+            axios.post(`${serverUrl}/candidate/getCandidateInfo`,{oids}).then(
+              (res)=>{
+                if(res.status==200){
+                  setCandidates(res.data)
+                }
+              }
+            )
           })
       }
     },
@@ -125,7 +136,16 @@ function Landing() {
         <Card key={index} sx={{ border: 1, p: 1, m: 1, maxWidth: 150 }}>
           <CardContent>
             <Typography>
-              {value.name} id:{index}
+              {value.fullName}
+            </Typography>
+            <Typography>
+              Party Affiliation:  {value.partyAffiliation}
+            </Typography>
+            <Typography>
+              Office:  {value.office}
+            </Typography>
+            <Typography>
+              District:  {value.stateDistrict}
             </Typography>
             <Typography>
               # Votes:  {value.votes}

@@ -14,6 +14,20 @@ import {
 } from '@mui/material'
 import Notification from '../Notification'
 import axios from 'axios'
+import Select, { SelectChangeEvent } from '@mui/material/Select'
+import MenuItem from '@mui/material/MenuItem'
+import Form from 'react-bootstrap/Form'
+import Dialog from '@mui/material/Dialog'
+import DialogActions from '@mui/material/DialogActions'
+import DialogContent from '@mui/material/DialogContent'
+import DialogContentText from '@mui/material/DialogContentText'
+import DialogTitle from '@mui/material/DialogTitle'
+import Alert from '@mui/material/Alert'
+import IconButton from '@mui/material/IconButton'
+import Collapse from '@mui/material/Collapse'
+import CloseIcon from '@mui/icons-material/Close'
+import CheckIcon from '@mui/icons-material/Check'
+import Box from '@mui/material/Box'
 
 function CandidateRegistration() {
   // const [candidateName, setName] = React.useState("")
@@ -27,6 +41,10 @@ function CandidateRegistration() {
   const [stateDistrict, setStateDistrict] = React.useState('')
   const [showNotification, setShowNotification] = React.useState(false)
   const [msg, setMsg] = React.useState('Added a Candidate')
+  const [errors, setErrors] = React.useState([])
+  const [open, setOpen] = React.useState(false)
+  const [successOpen, setsuccessOpen] = React.useState(false)
+  const [errorOpen, seterrorOpen] = React.useState(false)
 
   async function submitCandidate(e) {
     e.preventDefault()
@@ -43,28 +61,37 @@ function CandidateRegistration() {
       stateDistrict,
     }
 
-    axios.defaults.withCredentials = false
-    console.log(`Add Candidate with axios and : ${data}`)
-    await axios.post(`${serverUrl}/candidate/addCandidate`, data).then(
-      (response) => {
-        console.log(response.data, response.status)
-        if (response.status == 200) {
-          console.log(`Add candidate was successfull: ${response.status}`)
-        } else {
-          console.log(`response for add candidate is: ${response.status}`)
-        }
-      },
-      (error) => {
-        console.log(`Error while adding candidate ${error}`)
-      },
-    )
-
     try {
-      // make an update call to the smart contract
-      await window.contract.addCandidate({
-        // pass the value that the user entered in the greeting field
-        text: fullName
-      })
+      await validateInput(data)
+      console.log('No errors occurred')
+
+      axios.defaults.withCredentials = false
+      console.log(`Add Candidate with axios and : ${data}`)
+      await axios.post(`${serverUrl}/candidate/addCandidate`, data).then(
+        async (response) => {
+          console.log(response.data, response.status)
+          if (response.status == 200) {
+            console.log(`Add candidate was successfull: ${response.status}`)
+            // make an update call to the smart contract
+            await window.contract.addCandidate({
+              // pass the value that the user entered in the greeting field
+              text: response.data.id
+            })
+            seterrorOpen(false)
+            setsuccessOpen(true)
+          } else {
+            console.log(`response for add candidate is: ${response.status}`)
+            setsuccessOpen(false)
+            seterrorOpen(true)
+          }
+        },
+        (error) => {
+          console.log(`Error while adding candidate ${error}`)
+          setsuccessOpen(false)
+          seterrorOpen(true)
+        },
+      )
+
     } catch (e) {
       alert(
         'Something went wrong! ' +
@@ -77,10 +104,143 @@ function CandidateRegistration() {
       setShowNotification(true)
     }
   }
+
+  async function validateInput(data) {
+    const {
+      fullName,
+      address,
+      cityStateZip,
+      candidateId,
+      partyAffiliation,
+      office,
+      stateDistrict,
+    } = data
+
+    if (!fullName.trim()) {
+      console.log('Name field missing')
+      setErrors((errors) => [...errors, 'Name should not be empty'])
+    }
+    if (!address.trim()) {
+      console.log('Address field missing')
+      setErrors((errors) => [...errors, 'Address should not be empty'])
+    }
+    if (!cityStateZip.trim()) {
+      console.log('City, State and Zip are missing')
+    }
+
+    if (!partyAffiliation.trim()) {
+      console.log('Party Affiliation info is missing')
+    }
+
+    if (!candidateId.trim()) {
+      console.log('Candidate Id field missing')
+      setErrors((errors) => [
+        ...errors,
+        'Candidate Id field should not be empty',
+      ])
+    } else {
+      const data = { candidateId }
+      axios.defaults.withCredentials = false
+      console.log(`Checking if candidateId is unique: ${data}`)
+      await axios
+        .post(`${serverUrl}/candidate/checkUniquecandidateId`, data)
+        .then(
+          (response) => {
+            console.log(response.status)
+            if (response.status == 200) {
+              console.log(`Candidate Id is unique: ${response.status}`)
+            } else {
+              console.log(`Candidate Id is not unique: ${response.status}`)
+              setErrors((errors) => [
+                ...errors,
+                'Candidate Id should be unique',
+              ])
+            }
+          },
+          (error) => {
+            console.log(`Error while checkUniquecandidateId ${error}`)
+          },
+        )
+    }
+
+    if (!office.trim()) {
+      console.log('Office info is missing')
+      setErrors((errors) => [...errors, 'Office field should not be empty'])
+    }
+    if (!stateDistrict.trim()) {
+      console.log('State and District info is missing')
+      setErrors((errors) => [...errors, 'State and District field should not be empty'])
+    }
+  }
+
+  const handleClose = () => {
+    setOpen(false)
+    setErrors((errors) => [])
+  }
+
   return (
     <div>
       <h1>Candidate Registration</h1>
       <div className="centeredText">
+        <Box
+          sx={{
+            width: '90%',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            marginLeft: '100px',
+          }}
+        >
+          <Collapse in={successOpen}>
+            <Alert
+              action={
+                <IconButton
+                  aria-label="close"
+                  color="inherit"
+                  size="small"
+                  onClick={() => {
+                    setsuccessOpen(false)
+                  }}
+                >
+                  <CloseIcon fontSize="inherit" />
+                </IconButton>
+              }
+              sx={{ mb: 2 }}
+            >
+              Add Candidate Successful!
+            </Alert>
+          </Collapse>
+        </Box>
+        <Box
+          sx={{
+            width: '90%',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            marginLeft: '100px',
+          }}
+        >
+          <Collapse in={errorOpen}>
+            <Alert
+              severity="error"
+              action={
+                <IconButton
+                  aria-label="close"
+                  color="error"
+                  size="small"
+                  onClick={() => {
+                    seterrorOpen(false)
+                  }}
+                >
+                  <CloseIcon fontSize="inherit" />
+                </IconButton>
+              }
+              sx={{ mb: 2 }}
+            >
+              Add Candidate Failed!
+            </Alert>
+          </Collapse>
+        </Box>
         <FormControl >
           <TextField
             id="fullName"
@@ -114,6 +274,7 @@ function CandidateRegistration() {
           />
           <TextField
             id="candidateId"
+            required
             label="FEC Candidate Identification Number"
             onChange={(e) => setIdnumber(e.target.value)}
             value={candidateId}
@@ -133,6 +294,7 @@ function CandidateRegistration() {
           <TextField
             id="partyAffiliation"
             required
+            label="Party Affiliation"
             onChange={(e) => setPartyAffiliation(e.target.value)}
             value={partyAffiliation}
             variant="filled"
@@ -165,7 +327,28 @@ function CandidateRegistration() {
           <Button size="small" onClick={submitCandidate}>Submit</Button>
         </FormControl>
       </div>
-      {showNotification && <Notification method={msg} />}
+
+      <Dialog
+        open={open}
+        onClose={handleClose}
+        aria-labelledby="alert-dialog-title"
+        aria-describedby="alert-dialog-description"
+      >
+        <DialogTitle id="alert-dialog-title">
+          {'Add Candidate Failed !'}
+        </DialogTitle>
+        <DialogContent>
+          <DialogContentText id="alert-dialog-description">
+            {errors.map((txt) => (
+              <p>{txt}</p>
+            ))}
+          </DialogContentText>
+        </DialogContent>
+        <DialogActions>
+          <Button onClick={handleClose}>Close</Button>
+        </DialogActions>
+      </Dialog>
+      {/* {showNotification && <Notification method={msg} />} */}
     </div>
   );
 }
