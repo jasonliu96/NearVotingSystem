@@ -1,0 +1,1001 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1664865556326,2037,HTTP Request,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:9999 failed to respond,100T getCandidates 1-510,text,false,,2080,0,917,917,http://localhost:9999/getCandidates,0,0,2035
+1664865553792,7097,HTTP Request,200,OK,100T getCandidates 1-3,text,true,,2653,211,999,999,http://localhost:9999/getCandidates,7097,0,2051
+1664865553790,7100,HTTP Request,200,OK,100T getCandidates 1-1,text,true,,2653,211,998,998,http://localhost:9999/getCandidates,7099,0,2053
+1664865553795,7099,HTTP Request,200,OK,100T getCandidates 1-2,text,true,,2653,211,998,998,http://localhost:9999/getCandidates,7099,0,2048
+1664865553797,7107,HTTP Request,200,OK,100T getCandidates 1-4,text,true,,2653,211,996,996,http://localhost:9999/getCandidates,7107,0,2046
+1664865554271,7027,HTTP Request,200,OK,100T getCandidates 1-99,text,true,,2653,211,995,995,http://localhost:9999/getCandidates,7027,0,2043
+1664865554251,7050,HTTP Request,200,OK,100T getCandidates 1-95,text,true,,2653,211,994,994,http://localhost:9999/getCandidates,7050,0,2033
+1664865554276,7025,HTTP Request,200,OK,100T getCandidates 1-100,text,true,,2653,211,993,993,http://localhost:9999/getCandidates,7025,0,2038
+1664865554256,7046,HTTP Request,200,OK,100T getCandidates 1-96,text,true,,2653,211,992,992,http://localhost:9999/getCandidates,7046,0,2043
+1664865554286,7017,HTTP Request,200,OK,100T getCandidates 1-102,text,true,,2653,211,991,991,http://localhost:9999/getCandidates,7017,0,2045
+1664865554281,7022,HTTP Request,200,OK,100T getCandidates 1-101,text,true,,2653,211,990,990,http://localhost:9999/getCandidates,7022,0,2033
+1664865554262,7042,HTTP Request,200,OK,100T getCandidates 1-97,text,true,,2653,211,989,989,http://localhost:9999/getCandidates,7042,0,2037
+1664865554301,7004,HTTP Request,200,OK,100T getCandidates 1-105,text,true,,2653,211,988,988,http://localhost:9999/getCandidates,7004,0,2030
+1664865554267,7039,HTTP Request,200,OK,100T getCandidates 1-98,text,true,,2653,211,987,987,http://localhost:9999/getCandidates,7039,0,2032
+1664865554093,7228,HTTP Request,200,OK,100T getCandidates 1-63,text,true,,2653,211,986,986,http://localhost:9999/getCandidates,7228,0,2033
+1664865554146,7179,HTTP Request,200,OK,100T getCandidates 1-74,text,true,,2653,211,985,985,http://localhost:9999/getCandidates,7179,0,2044
+1664865554171,7168,HTTP Request,200,OK,100T getCandidates 1-79,text,true,,2653,211,984,984,http://localhost:9999/getCandidates,7168,0,2035
+1664865554106,7233,HTTP Request,200,OK,100T getCandidates 1-66,text,true,,2653,211,983,983,http://localhost:9999/getCandidates,7233,0,2036
+1664865554081,7264,HTTP Request,200,OK,100T getCandidates 1-57,text,true,,2653,211,982,982,http://localhost:9999/getCandidates,7264,0,2045
+1664865554132,7213,HTTP Request,200,OK,100T getCandidates 1-71,text,true,,2653,211,981,981,http://localhost:9999/getCandidates,7213,0,2042
+1664865554082,7269,HTTP Request,200,OK,100T getCandidates 1-60,text,true,,2653,211,980,980,http://localhost:9999/getCandidates,7269,0,2044
+1664865554136,7216,HTTP Request,200,OK,100T getCandidates 1-72,text,true,,2653,211,979,979,http://localhost:9999/getCandidates,7216,0,2038
+1664865554176,7181,HTTP Request,200,OK,100T getCandidates 1-80,text,true,,2653,211,978,978,http://localhost:9999/getCandidates,7181,0,2047
+1664865554181,7184,HTTP Request,200,OK,100T getCandidates 1-81,text,true,,2653,211,977,977,http://localhost:9999/getCandidates,7184,0,2042
+1664865554162,7206,HTTP Request,200,OK,100T getCandidates 1-77,text,true,,2653,211,976,976,http://localhost:9999/getCandidates,7206,0,2044
+1664865553806,7634,HTTP Request,200,OK,100T getCandidates 1-6,text,true,,2653,211,975,975,http://localhost:9999/getCandidates,7634,0,2053
+1664865553823,7620,HTTP Request,200,OK,100T getCandidates 1-9,text,true,,2653,211,974,974,http://localhost:9999/getCandidates,7620,0,2036
+1664865553811,7637,HTTP Request,200,OK,100T getCandidates 1-7,text,true,,2653,211,973,973,http://localhost:9999/getCandidates,7637,0,2048
+1664865554496,6953,HTTP Request,200,OK,100T getCandidates 1-144,text,true,,2653,211,972,972,http://localhost:9999/getCandidates,6952,0,2026
+1664865553818,7633,HTTP Request,200,OK,100T getCandidates 1-8,text,true,,2653,211,971,971,http://localhost:9999/getCandidates,7633,0,2041
+1664865554411,7047,HTTP Request,200,OK,100T getCandidates 1-127,text,true,,2653,211,970,970,http://localhost:9999/getCandidates,7047,0,2062
+1664865553801,7659,HTTP Request,200,OK,100T getCandidates 1-5,text,true,,2653,211,969,969,http://localhost:9999/getCandidates,7659,0,2058
+1664865553826,7638,HTTP Request,200,OK,100T getCandidates 1-10,text,true,,2653,211,968,968,http://localhost:9999/getCandidates,7638,0,2033
+1664865553837,7639,HTTP Request,200,OK,100T getCandidates 1-12,text,true,,2653,211,967,967,http://localhost:9999/getCandidates,7639,0,2037
+1664865553832,7644,HTTP Request,200,OK,100T getCandidates 1-11,text,true,,2653,211,966,966,http://localhost:9999/getCandidates,7644,0,2042
+1664865553853,7627,HTTP Request,200,OK,100T getCandidates 1-15,text,true,,2653,211,965,965,http://localhost:9999/getCandidates,7627,0,2024
+1664865553850,7648,HTTP Request,200,OK,100T getCandidates 1-14,text,true,,2653,211,964,964,http://localhost:9999/getCandidates,7648,0,2040
+1664865553850,7650,HTTP Request,200,OK,100T getCandidates 1-13,text,true,,2653,211,963,963,http://localhost:9999/getCandidates,7650,0,2040
+1664865553857,7654,HTTP Request,200,OK,100T getCandidates 1-16,text,true,,2653,211,962,962,http://localhost:9999/getCandidates,7654,0,2033
+1664865553867,7678,HTTP Request,200,OK,100T getCandidates 1-18,text,true,,2653,211,961,961,http://localhost:9999/getCandidates,7678,0,2040
+1664865553887,7659,HTTP Request,200,OK,100T getCandidates 1-22,text,true,,2653,211,960,960,http://localhost:9999/getCandidates,7659,0,2020
+1664865553883,7663,HTTP Request,200,OK,100T getCandidates 1-21,text,true,,2653,211,959,959,http://localhost:9999/getCandidates,7663,0,2024
+1664865553892,7655,HTTP Request,200,OK,100T getCandidates 1-23,text,true,,2653,211,958,958,http://localhost:9999/getCandidates,7655,0,2015
+1664865553872,7676,HTTP Request,200,OK,100T getCandidates 1-19,text,true,,2653,211,957,957,http://localhost:9999/getCandidates,7676,0,2035
+1664865553878,7671,HTTP Request,200,OK,100T getCandidates 1-20,text,true,,2653,211,956,956,http://localhost:9999/getCandidates,7671,0,2029
+1664865554227,7322,HTTP Request,200,OK,100T getCandidates 1-90,text,true,,2653,211,955,955,http://localhost:9999/getCandidates,7322,0,2042
+1664865553862,7692,HTTP Request,200,OK,100T getCandidates 1-17,text,true,,2653,211,954,954,http://localhost:9999/getCandidates,7692,0,2045
+1664865554231,7330,HTTP Request,200,OK,100T getCandidates 1-91,text,true,,2653,211,953,953,http://localhost:9999/getCandidates,7330,0,2037
+1664865554236,7330,HTTP Request,200,OK,100T getCandidates 1-92,text,true,,2653,211,952,952,http://localhost:9999/getCandidates,7330,0,2032
+1664865554246,7330,HTTP Request,200,OK,100T getCandidates 1-94,text,true,,2653,211,951,951,http://localhost:9999/getCandidates,7330,0,2038
+1664865554241,7343,HTTP Request,200,OK,100T getCandidates 1-93,text,true,,2653,211,950,950,http://localhost:9999/getCandidates,7343,0,2043
+1664865553902,7683,HTTP Request,200,OK,100T getCandidates 1-25,text,true,,2653,211,949,949,http://localhost:9999/getCandidates,7683,0,2036
+1664865553916,7672,HTTP Request,200,OK,100T getCandidates 1-28,text,true,,2653,211,948,948,http://localhost:9999/getCandidates,7672,0,2038
+1664865553907,7683,HTTP Request,200,OK,100T getCandidates 1-26,text,true,,2653,211,947,947,http://localhost:9999/getCandidates,7683,0,2031
+1664865553911,7679,HTTP Request,200,OK,100T getCandidates 1-27,text,true,,2653,211,946,946,http://localhost:9999/getCandidates,7679,0,2043
+1664865553921,7670,HTTP Request,200,OK,100T getCandidates 1-29,text,true,,2653,211,945,945,http://localhost:9999/getCandidates,7670,0,2038
+1664865553897,7695,HTTP Request,200,OK,100T getCandidates 1-24,text,true,,2653,211,944,944,http://localhost:9999/getCandidates,7695,0,2057
+1664865554938,6664,HTTP Request,200,OK,100T getCandidates 1-232,text,true,,2653,211,943,943,http://localhost:9999/getCandidates,6664,0,2025
+1664865554959,6648,HTTP Request,200,OK,100T getCandidates 1-236,text,true,,2653,211,942,942,http://localhost:9999/getCandidates,6648,0,2020
+1664865553937,7675,HTTP Request,200,OK,100T getCandidates 1-32,text,true,,2653,211,941,941,http://localhost:9999/getCandidates,7675,0,2051
+1664865553942,7678,HTTP Request,200,OK,100T getCandidates 1-33,text,true,,2653,211,940,940,http://localhost:9999/getCandidates,7678,0,2046
+1664865553926,7696,HTTP Request,200,OK,100T getCandidates 1-30,text,true,,2653,211,939,939,http://localhost:9999/getCandidates,7696,0,2062
+1664865555028,6698,HTTP Request,200,OK,100T getCandidates 1-250,text,true,,2653,211,938,938,http://localhost:9999/getCandidates,6698,0,2031
+1664865555042,6687,HTTP Request,200,OK,100T getCandidates 1-253,text,true,,2653,211,937,937,http://localhost:9999/getCandidates,6687,0,2017
+1664865555135,6596,HTTP Request,200,OK,100T getCandidates 1-268,text,true,,2653,211,936,936,http://localhost:9999/getCandidates,6596,0,2019
+1664865555136,6598,HTTP Request,200,OK,100T getCandidates 1-263,text,true,,2653,211,935,935,http://localhost:9999/getCandidates,6598,0,2018
+1664865555477,6258,HTTP Request,200,OK,100T getCandidates 1-340,text,true,,2653,211,934,934,http://localhost:9999/getCandidates,6258,0,2025
+1664865555136,6602,HTTP Request,200,OK,100T getCandidates 1-257,text,true,,2653,211,933,933,http://localhost:9999/getCandidates,6602,0,2018
+1664865555466,6281,HTTP Request,200,OK,100T getCandidates 1-338,text,true,,2653,211,932,932,http://localhost:9999/getCandidates,6281,0,2035
+1664865555437,6311,HTTP Request,200,OK,100T getCandidates 1-332,text,true,,2653,211,931,931,http://localhost:9999/getCandidates,6311,0,2018
+1664865555442,6309,HTTP Request,200,OK,100T getCandidates 1-333,text,true,,2653,211,930,930,http://localhost:9999/getCandidates,6309,0,2031
+1664865555431,6321,HTTP Request,200,OK,100T getCandidates 1-331,text,true,,2653,211,929,929,http://localhost:9999/getCandidates,6321,0,2024
+1664865555446,6311,HTTP Request,200,OK,100T getCandidates 1-334,text,true,,2653,211,928,928,http://localhost:9999/getCandidates,6311,0,2025
+1664865555426,6332,HTTP Request,200,OK,100T getCandidates 1-330,text,true,,2653,211,927,927,http://localhost:9999/getCandidates,6332,0,2029
+1664865555451,6312,HTTP Request,200,OK,100T getCandidates 1-335,text,true,,2653,211,926,926,http://localhost:9999/getCandidates,6312,0,2020
+1664865555032,6736,HTTP Request,200,OK,100T getCandidates 1-251,text,true,,2653,211,925,925,http://localhost:9999/getCandidates,6736,0,2027
+1664865555017,6751,HTTP Request,200,OK,100T getCandidates 1-248,text,true,,2653,211,924,924,http://localhost:9999/getCandidates,6751,0,2042
+1664865555491,6291,HTTP Request,200,OK,100T getCandidates 1-343,text,true,,2653,211,923,923,http://localhost:9999/getCandidates,6291,0,2026
+1664865555486,6300,HTTP Request,200,OK,100T getCandidates 1-342,text,true,,2653,211,922,922,http://localhost:9999/getCandidates,6300,0,2031
+1664865555139,6649,HTTP Request,200,OK,100T getCandidates 1-270,text,true,,2653,211,921,921,http://localhost:9999/getCandidates,6649,0,2034
+1664865555496,6302,HTTP Request,200,OK,100T getCandidates 1-344,text,true,,2653,211,920,920,http://localhost:9999/getCandidates,6302,0,2021
+1664865555138,6660,HTTP Request,200,OK,100T getCandidates 1-261,text,true,,2653,211,920,920,http://localhost:9999/getCandidates,6660,0,2035
+1664865553931,7868,HTTP Request,200,OK,100T getCandidates 1-31,text,true,,2653,211,918,918,http://localhost:9999/getCandidates,7868,0,2058
+1664865553971,7829,HTTP Request,200,OK,100T getCandidates 1-39,text,true,,2653,211,917,917,http://localhost:9999/getCandidates,7829,0,2018
+1664865553962,7838,HTTP Request,200,OK,100T getCandidates 1-37,text,true,,2653,211,916,916,http://localhost:9999/getCandidates,7838,0,2027
+1664865555506,6295,HTTP Request,200,OK,100T getCandidates 1-346,text,true,,2653,211,915,915,http://localhost:9999/getCandidates,6295,0,2026
+1664865553946,7856,HTTP Request,200,OK,100T getCandidates 1-34,text,true,,2653,211,914,914,http://localhost:9999/getCandidates,7856,0,2043
+1664865553951,7851,HTTP Request,200,OK,100T getCandidates 1-35,text,true,,2653,211,913,913,http://localhost:9999/getCandidates,7851,0,2038
+1664865554011,7792,HTTP Request,200,OK,100T getCandidates 1-47,text,true,,2653,211,912,912,http://localhost:9999/getCandidates,7792,0,2036
+1664865553996,7807,HTTP Request,200,OK,100T getCandidates 1-44,text,true,,2653,211,911,911,http://localhost:9999/getCandidates,7807,0,2036
+1664865553977,7827,HTTP Request,200,OK,100T getCandidates 1-40,text,true,,2653,211,910,910,http://localhost:9999/getCandidates,7827,0,2040
+1664865555511,6294,HTTP Request,200,OK,100T getCandidates 1-347,text,true,,2653,211,909,909,http://localhost:9999/getCandidates,6294,0,2021
+1664865553957,7849,HTTP Request,200,OK,100T getCandidates 1-36,text,true,,2653,211,908,908,http://localhost:9999/getCandidates,7849,0,2049
+1664865553981,7826,HTTP Request,200,OK,100T getCandidates 1-41,text,true,,2653,211,907,907,http://localhost:9999/getCandidates,7826,0,2036
+1664865554007,7801,HTTP Request,200,OK,100T getCandidates 1-46,text,true,,2653,211,906,906,http://localhost:9999/getCandidates,7801,0,2040
+1664865554041,7768,HTTP Request,200,OK,100T getCandidates 1-53,text,true,,2653,211,905,905,http://localhost:9999/getCandidates,7768,0,2038
+1664865555501,6308,HTTP Request,200,OK,100T getCandidates 1-345,text,true,,2653,211,904,904,http://localhost:9999/getCandidates,6308,0,2034
+1664865554026,7784,HTTP Request,200,OK,100T getCandidates 1-50,text,true,,2653,211,903,903,http://localhost:9999/getCandidates,7784,0,2037
+1664865554016,7795,HTTP Request,200,OK,100T getCandidates 1-48,text,true,,2653,211,902,902,http://localhost:9999/getCandidates,7795,0,2031
+1664865553986,7825,HTTP Request,200,OK,100T getCandidates 1-42,text,true,,2653,211,901,901,http://localhost:9999/getCandidates,7825,0,2031
+1664865554021,7791,HTTP Request,200,OK,100T getCandidates 1-49,text,true,,2653,211,900,900,http://localhost:9999/getCandidates,7791,0,2042
+1664865554002,7812,HTTP Request,200,OK,100T getCandidates 1-45,text,true,,2653,211,899,899,http://localhost:9999/getCandidates,7812,0,2030
+1664865553991,7823,HTTP Request,200,OK,100T getCandidates 1-43,text,true,,2653,211,898,898,http://localhost:9999/getCandidates,7823,0,2056
+1664865554032,7783,HTTP Request,200,OK,100T getCandidates 1-51,text,true,,2653,211,897,897,http://localhost:9999/getCandidates,7783,0,2031
+1664865553967,7848,HTTP Request,200,OK,100T getCandidates 1-38,text,true,,2653,211,896,896,http://localhost:9999/getCandidates,7848,0,2035
+1664865554037,7779,HTTP Request,200,OK,100T getCandidates 1-52,text,true,,2653,211,895,895,http://localhost:9999/getCandidates,7779,0,2041
+1664865555522,6295,HTTP Request,200,OK,100T getCandidates 1-349,text,true,,2653,211,894,894,http://localhost:9999/getCandidates,6295,0,2026
+1664865554046,7772,HTTP Request,200,OK,100T getCandidates 1-54,text,true,,2653,211,893,893,http://localhost:9999/getCandidates,7772,0,2048
+1664865554086,7732,HTTP Request,200,OK,100T getCandidates 1-62,text,true,,2653,211,892,892,http://localhost:9999/getCandidates,7732,0,2040
+1664865554051,7768,HTTP Request,200,OK,100T getCandidates 1-55,text,true,,2653,211,891,891,http://localhost:9999/getCandidates,7768,0,2043
+1664865554056,7764,HTTP Request,200,OK,100T getCandidates 1-56,text,true,,2653,211,890,890,http://localhost:9999/getCandidates,7764,0,2038
+1664865555518,6302,HTTP Request,200,OK,100T getCandidates 1-348,text,true,,2653,211,889,889,http://localhost:9999/getCandidates,6302,0,2030
+1664865555526,6296,HTTP Request,200,OK,100T getCandidates 1-350,text,true,,2653,211,888,888,http://localhost:9999/getCandidates,6296,0,2022
+1664865555541,6283,HTTP Request,200,OK,100T getCandidates 1-353,text,true,,2653,211,887,887,http://localhost:9999/getCandidates,6283,0,2023
+1664865555576,6284,HTTP Request,200,OK,100T getCandidates 1-360,text,true,,2653,211,886,886,http://localhost:9999/getCandidates,6284,0,2031
+1664865555571,6293,HTTP Request,200,OK,100T getCandidates 1-359,text,true,,2653,211,885,885,http://localhost:9999/getCandidates,6293,0,2036
+1664865555616,6257,HTTP Request,200,OK,100T getCandidates 1-368,text,true,,2653,211,884,884,http://localhost:9999/getCandidates,6257,0,2028
+1664865554082,7791,HTTP Request,200,OK,100T getCandidates 1-58,text,true,,2653,211,883,883,http://localhost:9999/getCandidates,7791,0,2044
+1664865554121,7755,HTTP Request,200,OK,100T getCandidates 1-69,text,true,,2653,211,882,882,http://localhost:9999/getCandidates,7755,0,2037
+1664865554082,7797,HTTP Request,200,OK,100T getCandidates 1-59,text,true,,2653,211,881,881,http://localhost:9999/getCandidates,7797,0,2044
+1664865555621,6258,HTTP Request,200,OK,100T getCandidates 1-369,text,true,,2653,211,880,880,http://localhost:9999/getCandidates,6258,0,2023
+1664865555611,6270,HTTP Request,200,OK,100T getCandidates 1-367,text,true,,2653,211,879,879,http://localhost:9999/getCandidates,6270,0,2049
+1664865554196,7686,HTTP Request,200,OK,100T getCandidates 1-84,text,true,,2653,211,878,878,http://localhost:9999/getCandidates,7686,0,2042
+1664865555631,6255,HTTP Request,200,OK,100T getCandidates 1-371,text,true,,2653,211,877,877,http://localhost:9999/getCandidates,6255,0,2029
+1664865555931,5956,HTTP Request,200,OK,100T getCandidates 1-431,text,true,,2653,211,876,876,http://localhost:9999/getCandidates,5956,0,2027
+1664865555626,6262,HTTP Request,200,OK,100T getCandidates 1-370,text,true,,2653,211,875,875,http://localhost:9999/getCandidates,6262,0,2038
+1664865554157,7731,HTTP Request,200,OK,100T getCandidates 1-76,text,true,,2653,211,874,874,http://localhost:9999/getCandidates,7731,0,2033
+1664865555642,6248,HTTP Request,200,OK,100T getCandidates 1-373,text,true,,2653,211,873,873,http://localhost:9999/getCandidates,6248,0,2022
+1664865554101,7793,HTTP Request,200,OK,100T getCandidates 1-65,text,true,,2653,211,872,872,http://localhost:9999/getCandidates,7793,0,2041
+1664865554206,7688,HTTP Request,200,OK,100T getCandidates 1-86,text,true,,2653,211,871,871,http://localhost:9999/getCandidates,7688,0,2032
+1664865555636,6259,HTTP Request,200,OK,100T getCandidates 1-372,text,true,,2653,211,870,870,http://localhost:9999/getCandidates,6259,0,2028
+1664865555647,6248,HTTP Request,200,OK,100T getCandidates 1-374,text,true,,2653,211,869,869,http://localhost:9999/getCandidates,6248,0,2029
+1664865555656,6241,HTTP Request,200,OK,100T getCandidates 1-376,text,true,,2653,211,868,868,http://localhost:9999/getCandidates,6241,0,2020
+1664865554116,7782,HTTP Request,200,OK,100T getCandidates 1-68,text,true,,2653,211,867,867,http://localhost:9999/getCandidates,7782,0,2042
+1664865555936,5964,HTTP Request,200,OK,100T getCandidates 1-432,text,true,,2653,211,866,866,http://localhost:9999/getCandidates,5964,0,2022
+1664865555651,6249,HTTP Request,200,OK,100T getCandidates 1-375,text,true,,2653,211,865,865,http://localhost:9999/getCandidates,6249,0,2025
+1664865554222,7680,HTTP Request,200,OK,100T getCandidates 1-89,text,true,,2653,211,864,864,http://localhost:9999/getCandidates,7680,0,2031
+1664865555552,6353,HTTP Request,200,OK,100T getCandidates 1-355,text,true,,2653,211,863,863,http://localhost:9999/getCandidates,6353,0,2029
+1664865555927,5979,HTTP Request,200,OK,100T getCandidates 1-430,text,true,,2653,211,862,862,http://localhost:9999/getCandidates,5979,0,2031
+1664865555562,6348,HTTP Request,200,OK,100T getCandidates 1-357,text,true,,2653,211,861,861,http://localhost:9999/getCandidates,6348,0,2018
+1664865555942,5968,HTTP Request,200,OK,100T getCandidates 1-433,text,true,,2653,211,860,860,http://localhost:9999/getCandidates,5968,0,2031
+1664865555586,6325,HTTP Request,200,OK,100T getCandidates 1-362,text,true,,2653,211,859,859,http://localhost:9999/getCandidates,6325,0,2026
+1664865554097,7814,HTTP Request,200,OK,100T getCandidates 1-64,text,true,,2653,211,858,858,http://localhost:9999/getCandidates,7814,0,2029
+1664865555547,6365,HTTP Request,200,OK,100T getCandidates 1-354,text,true,,2653,211,857,857,http://localhost:9999/getCandidates,6365,0,2033
+1664865555946,5967,HTTP Request,200,OK,100T getCandidates 1-434,text,true,,2653,211,856,856,http://localhost:9999/getCandidates,5967,0,2027
+1664865555952,5963,HTTP Request,200,OK,100T getCandidates 1-435,text,true,,2653,211,855,855,http://localhost:9999/getCandidates,5963,0,2021
+1664865554082,7834,HTTP Request,200,OK,100T getCandidates 1-61,text,true,,2653,211,854,854,http://localhost:9999/getCandidates,7834,0,2044
+1664865555543,6373,HTTP Request,200,OK,100T getCandidates 1-351,text,true,,2653,211,853,853,http://localhost:9999/getCandidates,6373,0,2021
+1664865555592,6326,HTTP Request,200,OK,100T getCandidates 1-363,text,true,,2653,211,852,852,http://localhost:9999/getCandidates,6326,0,2024
+1664865554201,7718,HTTP Request,200,OK,100T getCandidates 1-85,text,true,,2653,211,851,851,http://localhost:9999/getCandidates,7718,0,2037
+1664865554187,7734,HTTP Request,200,OK,100T getCandidates 1-82,text,true,,2653,211,850,850,http://localhost:9999/getCandidates,7734,0,2035
+1664865555820,6101,HTTP Request,200,OK,100T getCandidates 1-409,text,true,,2653,211,849,849,http://localhost:9999/getCandidates,6101,0,2028
+1664865555831,6091,HTTP Request,200,OK,100T getCandidates 1-411,text,true,,2653,211,848,848,http://localhost:9999/getCandidates,6091,0,2033
+1664865555836,6087,HTTP Request,200,OK,100T getCandidates 1-412,text,true,,2653,211,847,847,http://localhost:9999/getCandidates,6087,0,2029
+1664865555841,6082,HTTP Request,200,OK,100T getCandidates 1-413,text,true,,2653,211,846,846,http://localhost:9999/getCandidates,6082,0,2024
+1664865555825,6099,HTTP Request,200,OK,100T getCandidates 1-410,text,true,,2653,211,845,845,http://localhost:9999/getCandidates,6099,0,2023
+1664865554151,7774,HTTP Request,200,OK,100T getCandidates 1-75,text,true,,2653,211,844,844,http://localhost:9999/getCandidates,7774,0,2039
+1664865555816,6110,HTTP Request,200,OK,100T getCandidates 1-408,text,true,,2653,211,843,843,http://localhost:9999/getCandidates,6110,0,2048
+1664865555548,6379,HTTP Request,200,OK,100T getCandidates 1-352,text,true,,2653,211,842,842,http://localhost:9999/getCandidates,6379,0,2033
+1664865555811,6116,HTTP Request,200,OK,100T getCandidates 1-407,text,true,,2653,211,841,841,http://localhost:9999/getCandidates,6116,0,2022
+1664865554141,7787,HTTP Request,200,OK,100T getCandidates 1-73,text,true,,2653,211,840,840,http://localhost:9999/getCandidates,7787,0,2033
+1664865555961,5968,HTTP Request,200,OK,100T getCandidates 1-437,text,true,,2653,211,839,839,http://localhost:9999/getCandidates,5968,0,2027
+1664865555597,6333,HTTP Request,200,OK,100T getCandidates 1-364,text,true,,2653,211,838,838,http://localhost:9999/getCandidates,6333,0,2035
+1664865555557,6374,HTTP Request,200,OK,100T getCandidates 1-356,text,true,,2653,211,837,837,http://localhost:9999/getCandidates,6374,0,2024
+1664865555988,5944,HTTP Request,200,OK,100T getCandidates 1-442,text,true,,2653,211,836,836,http://localhost:9999/getCandidates,5944,0,2016
+1664865555957,5977,HTTP Request,200,OK,100T getCandidates 1-436,text,true,,2653,211,835,835,http://localhost:9999/getCandidates,5977,0,2031
+1664865554111,7824,HTTP Request,200,OK,100T getCandidates 1-67,text,true,,2653,211,834,834,http://localhost:9999/getCandidates,7824,0,2031
+1664865555988,5952,HTTP Request,200,OK,100T getCandidates 1-439,text,true,,2653,211,833,833,http://localhost:9999/getCandidates,5952,0,2016
+1664865554211,7730,HTTP Request,200,OK,100T getCandidates 1-87,text,true,,2653,211,832,832,http://localhost:9999/getCandidates,7730,0,2027
+1664865554127,7817,HTTP Request,200,OK,100T getCandidates 1-70,text,true,,2653,211,831,831,http://localhost:9999/getCandidates,7817,0,2031
+1664865554166,7779,HTTP Request,200,OK,100T getCandidates 1-78,text,true,,2653,211,830,830,http://localhost:9999/getCandidates,7779,0,2040
+1664865555581,6368,HTTP Request,200,OK,100T getCandidates 1-361,text,true,,2653,211,829,829,http://localhost:9999/getCandidates,6368,0,2031
+1664865554192,7757,HTTP Request,200,OK,100T getCandidates 1-83,text,true,,2653,211,828,828,http://localhost:9999/getCandidates,7757,0,2046
+1664865555601,6352,HTTP Request,200,OK,100T getCandidates 1-365,text,true,,2653,211,827,827,http://localhost:9999/getCandidates,6352,0,2028
+1664865554311,7644,HTTP Request,200,OK,100T getCandidates 1-107,text,true,,2653,211,826,826,http://localhost:9999/getCandidates,7644,0,2036
+1664865554327,7630,HTTP Request,200,OK,100T getCandidates 1-110,text,true,,2653,211,825,825,http://localhost:9999/getCandidates,7630,0,2036
+1664865554297,7660,HTTP Request,200,OK,100T getCandidates 1-104,text,true,,2653,211,824,824,http://localhost:9999/getCandidates,7660,0,2033
+1664865554401,7557,HTTP Request,200,OK,100T getCandidates 1-125,text,true,,2653,211,823,823,http://localhost:9999/getCandidates,7557,0,2041
+1664865554292,7667,HTTP Request,200,OK,100T getCandidates 1-103,text,true,,2653,211,822,822,http://localhost:9999/getCandidates,7667,0,2039
+1664865554331,7629,HTTP Request,200,OK,100T getCandidates 1-111,text,true,,2653,211,821,821,http://localhost:9999/getCandidates,7629,0,2032
+1664865554417,7543,HTTP Request,200,OK,100T getCandidates 1-128,text,true,,2653,211,820,820,http://localhost:9999/getCandidates,7543,0,2041
+1664865554431,7530,HTTP Request,200,OK,100T getCandidates 1-131,text,true,,2653,211,819,819,http://localhost:9999/getCandidates,7530,0,2027
+1664865554341,7621,HTTP Request,200,OK,100T getCandidates 1-113,text,true,,2653,211,818,818,http://localhost:9999/getCandidates,7621,0,2037
+1664865554351,7611,HTTP Request,200,OK,100T getCandidates 1-115,text,true,,2653,211,817,817,http://localhost:9999/getCandidates,7611,0,2043
+1664865554361,7602,HTTP Request,200,OK,100T getCandidates 1-117,text,true,,2653,211,816,816,http://localhost:9999/getCandidates,7602,0,2034
+1664865554371,7592,HTTP Request,200,OK,100T getCandidates 1-119,text,true,,2653,211,815,815,http://localhost:9999/getCandidates,7592,0,2040
+1664865554306,7658,HTTP Request,200,OK,100T getCandidates 1-106,text,true,,2653,211,814,814,http://localhost:9999/getCandidates,7658,0,2041
+1664865554406,7559,HTTP Request,200,OK,100T getCandidates 1-126,text,true,,2653,211,813,813,http://localhost:9999/getCandidates,7559,0,2036
+1664865554316,7650,HTTP Request,200,OK,100T getCandidates 1-108,text,true,,2653,211,812,812,http://localhost:9999/getCandidates,7650,0,2047
+1664865554376,7591,HTTP Request,200,OK,100T getCandidates 1-120,text,true,,2653,211,811,811,http://localhost:9999/getCandidates,7591,0,2035
+1664865554366,7602,HTTP Request,200,OK,100T getCandidates 1-118,text,true,,2653,211,810,810,http://localhost:9999/getCandidates,7602,0,2045
+1664865554427,7541,HTTP Request,200,OK,100T getCandidates 1-130,text,true,,2653,211,809,809,http://localhost:9999/getCandidates,7541,0,2031
+1664865554392,7577,HTTP Request,200,OK,100T getCandidates 1-123,text,true,,2653,211,808,808,http://localhost:9999/getCandidates,7577,0,2019
+1664865554481,7488,HTTP Request,200,OK,100T getCandidates 1-141,text,true,,2653,211,807,807,http://localhost:9999/getCandidates,7488,0,2009
+1664865554357,7613,HTTP Request,200,OK,100T getCandidates 1-116,text,true,,2653,211,806,806,http://localhost:9999/getCandidates,7613,0,2037
+1664865554422,7549,HTTP Request,200,OK,100T getCandidates 1-129,text,true,,2653,211,805,805,http://localhost:9999/getCandidates,7549,0,2036
+1664865554386,7585,HTTP Request,200,OK,100T getCandidates 1-122,text,true,,2653,211,804,804,http://localhost:9999/getCandidates,7585,0,2025
+1664865554451,7521,HTTP Request,200,OK,100T getCandidates 1-135,text,true,,2653,211,803,803,http://localhost:9999/getCandidates,7521,0,2023
+1664865554336,7637,HTTP Request,200,OK,100T getCandidates 1-112,text,true,,2653,211,802,802,http://localhost:9999/getCandidates,7637,0,2042
+1664865554216,7757,HTTP Request,200,OK,100T getCandidates 1-88,text,true,,2653,211,801,801,http://localhost:9999/getCandidates,7757,0,2037
+1664865554322,7652,HTTP Request,200,OK,100T getCandidates 1-109,text,true,,2653,211,800,800,http://localhost:9999/getCandidates,7652,0,2041
+1664865554346,7628,HTTP Request,200,OK,100T getCandidates 1-114,text,true,,2653,211,799,799,http://localhost:9999/getCandidates,7628,0,2035
+1664865554532,7443,HTTP Request,200,OK,100T getCandidates 1-151,text,true,,2653,211,798,798,http://localhost:9999/getCandidates,7443,0,2021
+1664865554462,7514,HTTP Request,200,OK,100T getCandidates 1-137,text,true,,2653,211,797,797,http://localhost:9999/getCandidates,7514,0,2028
+1664865554501,7477,HTTP Request,200,OK,100T getCandidates 1-145,text,true,,2653,211,796,796,http://localhost:9999/getCandidates,7477,0,2021
+1664865554506,7472,HTTP Request,200,OK,100T getCandidates 1-146,text,true,,2653,211,795,795,http://localhost:9999/getCandidates,7472,0,2031
+1664865554511,7468,HTTP Request,200,OK,100T getCandidates 1-147,text,true,,2653,211,794,794,http://localhost:9999/getCandidates,7468,0,2042
+1664865554436,7543,HTTP Request,200,OK,100T getCandidates 1-132,text,true,,2653,211,793,793,http://localhost:9999/getCandidates,7543,0,2022
+1664865554516,7464,HTTP Request,200,OK,100T getCandidates 1-148,text,true,,2653,211,792,792,http://localhost:9999/getCandidates,7464,0,2037
+1664865554492,7489,HTTP Request,200,OK,100T getCandidates 1-143,text,true,,2653,211,792,792,http://localhost:9999/getCandidates,7488,0,2030
+1664865554521,7460,HTTP Request,200,OK,100T getCandidates 1-149,text,true,,2653,211,792,792,http://localhost:9999/getCandidates,7460,0,2032
+1664865554466,7516,HTTP Request,200,OK,100T getCandidates 1-138,text,true,,2653,211,792,792,http://localhost:9999/getCandidates,7516,0,2023
+1664865554381,7601,HTTP Request,200,OK,100T getCandidates 1-121,text,true,,2653,211,788,788,http://localhost:9999/getCandidates,7601,0,2030
+1664865554527,7456,HTTP Request,200,OK,100T getCandidates 1-150,text,true,,2653,211,787,787,http://localhost:9999/getCandidates,7456,0,2030
+1664865554396,7588,HTTP Request,200,OK,100T getCandidates 1-124,text,true,,2653,211,786,786,http://localhost:9999/getCandidates,7588,0,2046
+1664865554536,7449,HTTP Request,200,OK,100T getCandidates 1-152,text,true,,2653,211,785,785,http://localhost:9999/getCandidates,7448,0,2034
+1664865554546,7439,HTTP Request,200,OK,100T getCandidates 1-154,text,true,,2653,211,784,784,http://localhost:9999/getCandidates,7439,0,2024
+1664865554551,7435,HTTP Request,200,OK,100T getCandidates 1-155,text,true,,2653,211,783,783,http://localhost:9999/getCandidates,7435,0,2033
+1664865554446,7541,HTTP Request,200,OK,100T getCandidates 1-134,text,true,,2653,211,782,782,http://localhost:9999/getCandidates,7541,0,2027
+1664865554441,7546,HTTP Request,200,OK,100T getCandidates 1-133,text,true,,2653,211,781,781,http://localhost:9999/getCandidates,7546,0,2033
+1664865554486,7502,HTTP Request,200,OK,100T getCandidates 1-142,text,true,,2653,211,780,780,http://localhost:9999/getCandidates,7502,0,2036
+1664865554541,7448,HTTP Request,200,OK,100T getCandidates 1-153,text,true,,2653,211,779,779,http://localhost:9999/getCandidates,7448,0,2029
+1664865554471,7518,HTTP Request,200,OK,100T getCandidates 1-139,text,true,,2653,211,778,778,http://localhost:9999/getCandidates,7518,0,2019
+1664865554457,7533,HTTP Request,200,OK,100T getCandidates 1-136,text,true,,2653,211,777,777,http://localhost:9999/getCandidates,7533,0,2033
+1664865554476,7514,HTTP Request,200,OK,100T getCandidates 1-140,text,true,,2653,211,776,776,http://localhost:9999/getCandidates,7514,0,2014
+1664865554572,7419,HTTP Request,200,OK,100T getCandidates 1-159,text,true,,2653,211,775,775,http://localhost:9999/getCandidates,7419,0,2028
+1664865554567,7426,HTTP Request,200,OK,100T getCandidates 1-158,text,true,,2653,211,774,774,http://localhost:9999/getCandidates,7426,0,2033
+1664865554566,7428,HTTP Request,200,OK,100T getCandidates 1-156,text,true,,2653,211,773,773,http://localhost:9999/getCandidates,7428,0,2034
+1664865554576,7419,HTTP Request,200,OK,100T getCandidates 1-160,text,true,,2653,211,772,772,http://localhost:9999/getCandidates,7419,0,2024
+1664865554567,7428,HTTP Request,200,OK,100T getCandidates 1-157,text,true,,2653,211,772,772,http://localhost:9999/getCandidates,7428,0,2033
+1664865554581,7417,HTTP Request,200,OK,100T getCandidates 1-161,text,true,,2653,211,770,770,http://localhost:9999/getCandidates,7417,0,2035
+1664865554591,7418,HTTP Request,200,OK,100T getCandidates 1-163,text,true,,2653,211,769,769,http://localhost:9999/getCandidates,7418,0,2025
+1664865554586,7431,HTTP Request,200,OK,100T getCandidates 1-162,text,true,,2653,211,768,768,http://localhost:9999/getCandidates,7431,0,2045
+1664865554601,7420,HTTP Request,200,OK,100T getCandidates 1-165,text,true,,2653,211,767,767,http://localhost:9999/getCandidates,7420,0,2030
+1664865554596,7429,HTTP Request,200,OK,100T getCandidates 1-164,text,true,,2653,211,766,766,http://localhost:9999/getCandidates,7429,0,2035
+1664865554612,7459,HTTP Request,200,OK,100T getCandidates 1-167,text,true,,2653,211,765,765,http://localhost:9999/getCandidates,7459,0,2020
+1664865554621,7450,HTTP Request,200,OK,100T getCandidates 1-169,text,true,,2653,211,764,764,http://localhost:9999/getCandidates,7450,0,2026
+1664865554617,7456,HTTP Request,200,OK,100T getCandidates 1-168,text,true,,2653,211,763,763,http://localhost:9999/getCandidates,7456,0,2030
+1664865554607,7466,HTTP Request,200,OK,100T getCandidates 1-166,text,true,,2653,211,762,762,http://localhost:9999/getCandidates,7466,0,2025
+1664865554636,7438,HTTP Request,200,OK,100T getCandidates 1-172,text,true,,2653,211,761,761,http://localhost:9999/getCandidates,7438,0,2027
+1664865554626,7448,HTTP Request,200,OK,100T getCandidates 1-170,text,true,,2653,211,760,760,http://localhost:9999/getCandidates,7448,0,2021
+1664865554641,7435,HTTP Request,200,OK,100T getCandidates 1-173,text,true,,2653,211,759,759,http://localhost:9999/getCandidates,7435,0,2022
+1664865554662,7448,HTTP Request,200,OK,100T getCandidates 1-177,text,true,,2653,211,758,758,http://localhost:9999/getCandidates,7448,0,2033
+1664865554631,7480,HTTP Request,200,OK,100T getCandidates 1-171,text,true,,2653,211,757,757,http://localhost:9999/getCandidates,7480,0,2032
+1664865555566,6545,HTTP Request,200,OK,100T getCandidates 1-358,text,true,,2653,211,756,756,http://localhost:9999/getCandidates,6545,0,2041
+1664865554944,7168,HTTP Request,200,OK,100T getCandidates 1-233,text,true,,2653,211,755,755,http://localhost:9999/getCandidates,7168,0,2019
+1664865554646,7468,HTTP Request,200,OK,100T getCandidates 1-174,text,true,,2653,211,754,754,http://localhost:9999/getCandidates,7468,0,2033
+1664865554651,7463,HTTP Request,200,OK,100T getCandidates 1-175,text,true,,2653,211,754,754,http://localhost:9999/getCandidates,7463,0,2028
+1664865554747,7367,HTTP Request,200,OK,100T getCandidates 1-194,text,true,,2653,211,754,754,http://localhost:9999/getCandidates,7367,0,2039
+1664865554667,7450,HTTP Request,200,OK,100T getCandidates 1-178,text,true,,2653,211,751,751,http://localhost:9999/getCandidates,7449,0,2028
+1664865554696,7425,HTTP Request,200,OK,100T getCandidates 1-184,text,true,,2653,211,750,750,http://localhost:9999/getCandidates,7425,0,2030
+1664865554736,7385,HTTP Request,200,OK,100T getCandidates 1-192,text,true,,2653,211,749,749,http://localhost:9999/getCandidates,7385,0,2050
+1664865554766,7356,HTTP Request,200,OK,100T getCandidates 1-198,text,true,,2653,211,748,748,http://localhost:9999/getCandidates,7356,0,2023
+1664865554656,7466,HTTP Request,200,OK,100T getCandidates 1-176,text,true,,2653,211,747,747,http://localhost:9999/getCandidates,7466,0,2026
+1664865554691,7432,HTTP Request,200,OK,100T getCandidates 1-183,text,true,,2653,211,746,746,http://localhost:9999/getCandidates,7432,0,2035
+1664865554742,7383,HTTP Request,200,OK,100T getCandidates 1-193,text,true,,2653,211,745,745,http://localhost:9999/getCandidates,7383,0,2044
+1664865554671,7454,HTTP Request,200,OK,100T getCandidates 1-179,text,true,,2653,211,745,745,http://localhost:9999/getCandidates,7454,0,2024
+1664865554676,7450,HTTP Request,200,OK,100T getCandidates 1-180,text,true,,2653,211,745,745,http://localhost:9999/getCandidates,7450,0,2034
+1664865554681,7446,HTTP Request,200,OK,100T getCandidates 1-181,text,true,,2653,211,742,742,http://localhost:9999/getCandidates,7446,0,2029
+1664865554731,7397,HTTP Request,200,OK,100T getCandidates 1-191,text,true,,2653,211,741,741,http://localhost:9999/getCandidates,7397,0,2026
+1664865554701,7428,HTTP Request,200,OK,100T getCandidates 1-185,text,true,,2653,211,740,740,http://localhost:9999/getCandidates,7428,0,2025
+1664865554761,7368,HTTP Request,200,OK,100T getCandidates 1-197,text,true,,2653,211,739,739,http://localhost:9999/getCandidates,7368,0,2028
+1664865554752,7378,HTTP Request,200,OK,100T getCandidates 1-195,text,true,,2653,211,738,738,http://localhost:9999/getCandidates,7378,0,2037
+1664865554756,7375,HTTP Request,200,OK,100T getCandidates 1-196,text,true,,2653,211,737,737,http://localhost:9999/getCandidates,7375,0,2033
+1664865554967,7166,HTTP Request,200,OK,100T getCandidates 1-238,text,true,,2653,211,736,736,http://localhost:9999/getCandidates,7166,0,2012
+1664865554686,7447,HTTP Request,200,OK,100T getCandidates 1-182,text,true,,2653,211,736,736,http://localhost:9999/getCandidates,7447,0,2024
+1664865554721,7412,HTTP Request,200,OK,100T getCandidates 1-189,text,true,,2653,211,736,736,http://localhost:9999/getCandidates,7412,0,2020
+1664865554777,7357,HTTP Request,200,OK,100T getCandidates 1-200,text,true,,2653,211,733,733,http://localhost:9999/getCandidates,7357,0,2027
+1664865554797,7338,HTTP Request,200,OK,100T getCandidates 1-204,text,true,,2653,211,732,732,http://localhost:9999/getCandidates,7338,0,2022
+1664865554712,7424,HTTP Request,200,OK,100T getCandidates 1-187,text,true,,2653,211,731,731,http://localhost:9999/getCandidates,7423,0,2036
+1664865554726,7410,HTTP Request,200,OK,100T getCandidates 1-190,text,true,,2653,211,730,730,http://localhost:9999/getCandidates,7410,0,2031
+1664865554716,7421,HTTP Request,200,OK,100T getCandidates 1-188,text,true,,2653,211,729,729,http://localhost:9999/getCandidates,7421,0,2025
+1664865554771,7367,HTTP Request,200,OK,100T getCandidates 1-199,text,true,,2653,211,728,728,http://localhost:9999/getCandidates,7367,0,2033
+1664865554707,7431,HTTP Request,200,OK,100T getCandidates 1-186,text,true,,2653,211,727,727,http://localhost:9999/getCandidates,7431,0,2041
+1664865554806,7333,HTTP Request,200,OK,100T getCandidates 1-206,text,true,,2653,211,726,726,http://localhost:9999/getCandidates,7333,0,2029
+1664865554788,7352,HTTP Request,200,OK,100T getCandidates 1-202,text,true,,2653,211,725,725,http://localhost:9999/getCandidates,7352,0,2031
+1664865554782,7358,HTTP Request,200,OK,100T getCandidates 1-201,text,true,,2653,211,724,724,http://localhost:9999/getCandidates,7358,0,2037
+1664865554833,7308,HTTP Request,200,OK,100T getCandidates 1-210,text,true,,2653,211,723,723,http://localhost:9999/getCandidates,7308,0,2034
+1664865554983,7159,HTTP Request,200,OK,100T getCandidates 1-241,text,true,,2653,211,722,722,http://localhost:9999/getCandidates,7159,0,2012
+1664865554811,7333,HTTP Request,200,OK,100T getCandidates 1-207,text,true,,2653,211,721,721,http://localhost:9999/getCandidates,7333,0,2024
+1664865554833,7311,HTTP Request,200,OK,100T getCandidates 1-209,text,true,,2653,211,720,720,http://localhost:9999/getCandidates,7311,0,2034
+1664865554833,7312,HTTP Request,200,OK,100T getCandidates 1-211,text,true,,2653,211,719,719,http://localhost:9999/getCandidates,7312,0,2035
+1664865554792,7354,HTTP Request,200,OK,100T getCandidates 1-203,text,true,,2653,211,718,718,http://localhost:9999/getCandidates,7354,0,2027
+1664865554841,7305,HTTP Request,200,OK,100T getCandidates 1-213,text,true,,2653,211,717,717,http://localhost:9999/getCandidates,7305,0,2026
+1664865554801,7346,HTTP Request,200,OK,100T getCandidates 1-205,text,true,,2653,211,716,716,http://localhost:9999/getCandidates,7346,0,2036
+1664865554838,7310,HTTP Request,200,OK,100T getCandidates 1-212,text,true,,2653,211,715,715,http://localhost:9999/getCandidates,7310,0,2029
+1664865554817,7332,HTTP Request,200,OK,100T getCandidates 1-208,text,true,,2653,211,714,714,http://localhost:9999/getCandidates,7332,0,2034
+1664865554962,7187,HTTP Request,200,OK,100T getCandidates 1-237,text,true,,2653,211,713,713,http://localhost:9999/getCandidates,7187,0,2018
+1664865554857,7293,HTTP Request,200,OK,100T getCandidates 1-216,text,true,,2653,211,712,712,http://localhost:9999/getCandidates,7293,0,2026
+1664865554852,7299,HTTP Request,200,OK,100T getCandidates 1-215,text,true,,2653,211,711,711,http://localhost:9999/getCandidates,7299,0,2031
+1664865554881,7270,HTTP Request,200,OK,100T getCandidates 1-221,text,true,,2653,211,710,710,http://localhost:9999/getCandidates,7270,0,2035
+1664865554902,7250,HTTP Request,200,OK,100T getCandidates 1-225,text,true,,2653,211,709,709,http://localhost:9999/getCandidates,7250,0,2029
+1664865554877,7276,HTTP Request,200,OK,100T getCandidates 1-220,text,true,,2653,211,708,708,http://localhost:9999/getCandidates,7276,0,2038
+1664865554892,7261,HTTP Request,200,OK,100T getCandidates 1-223,text,true,,2653,211,707,707,http://localhost:9999/getCandidates,7261,0,2024
+1664865554897,7258,HTTP Request,200,OK,100T getCandidates 1-224,text,true,,2653,211,706,706,http://localhost:9999/getCandidates,7258,0,2034
+1664865554908,7247,HTTP Request,200,OK,100T getCandidates 1-226,text,true,,2653,211,706,706,http://localhost:9999/getCandidates,7247,0,2023
+1664865554977,7178,HTTP Request,200,OK,100T getCandidates 1-240,text,true,,2653,211,706,706,http://localhost:9999/getCandidates,7178,0,2018
+1664865554888,7269,HTTP Request,200,OK,100T getCandidates 1-222,text,true,,2653,211,704,704,http://localhost:9999/getCandidates,7268,0,2028
+1664865554972,7185,HTTP Request,200,OK,100T getCandidates 1-239,text,true,,2653,211,703,703,http://localhost:9999/getCandidates,7185,0,2023
+1664865554861,7297,HTTP Request,200,OK,100T getCandidates 1-217,text,true,,2653,211,701,701,http://localhost:9999/getCandidates,7297,0,2023
+1664865554873,7285,HTTP Request,200,OK,100T getCandidates 1-219,text,true,,2653,211,700,700,http://localhost:9999/getCandidates,7285,0,2026
+1664865554913,7246,HTTP Request,200,OK,100T getCandidates 1-227,text,true,,2653,211,699,699,http://localhost:9999/getCandidates,7246,0,2034
+1664865554847,7313,HTTP Request,200,OK,100T getCandidates 1-214,text,true,,2653,211,698,698,http://localhost:9999/getCandidates,7313,0,2037
+1664865554919,7241,HTTP Request,200,OK,100T getCandidates 1-228,text,true,,2653,211,697,697,http://localhost:9999/getCandidates,7241,0,2028
+1664865554922,7239,HTTP Request,200,OK,100T getCandidates 1-229,text,true,,2653,211,696,696,http://localhost:9999/getCandidates,7239,0,2025
+1664865554953,7209,HTTP Request,200,OK,100T getCandidates 1-235,text,true,,2653,211,695,695,http://localhost:9999/getCandidates,7209,0,2010
+1664865554928,7234,HTTP Request,200,OK,100T getCandidates 1-230,text,true,,2653,211,694,694,http://localhost:9999/getCandidates,7234,0,2035
+1664865554868,7295,HTTP Request,200,OK,100T getCandidates 1-218,text,true,,2653,211,693,693,http://localhost:9999/getCandidates,7295,0,2031
+1664865554947,7217,HTTP Request,200,OK,100T getCandidates 1-234,text,true,,2653,211,692,692,http://localhost:9999/getCandidates,7217,0,2016
+1664865554931,7233,HTTP Request,200,OK,100T getCandidates 1-231,text,true,,2653,211,691,691,http://localhost:9999/getCandidates,7233,0,2032
+1664865554992,7173,HTTP Request,200,OK,100T getCandidates 1-243,text,true,,2653,211,690,690,http://localhost:9999/getCandidates,7173,0,2019
+1664865554988,7178,HTTP Request,200,OK,100T getCandidates 1-242,text,true,,2653,211,689,689,http://localhost:9999/getCandidates,7178,0,2023
+1664865555007,7161,HTTP Request,200,OK,100T getCandidates 1-246,text,true,,2653,211,688,688,http://localhost:9999/getCandidates,7161,0,2020
+1664865554997,7172,HTTP Request,200,OK,100T getCandidates 1-244,text,true,,2653,211,687,687,http://localhost:9999/getCandidates,7172,0,2014
+1664865555002,7168,HTTP Request,200,OK,100T getCandidates 1-245,text,true,,2653,211,686,686,http://localhost:9999/getCandidates,7168,0,2025
+1664865555037,7146,HTTP Request,200,OK,100T getCandidates 1-252,text,true,,2653,211,685,685,http://localhost:9999/getCandidates,7146,0,2022
+1664865555012,7185,HTTP Request,200,OK,100T getCandidates 1-247,text,true,,2653,211,684,684,http://localhost:9999/getCandidates,7185,0,2015
+1664865555022,7199,HTTP Request,200,OK,100T getCandidates 1-249,text,true,,2653,211,683,683,http://localhost:9999/getCandidates,7199,0,2037
+1664865555139,7096,HTTP Request,200,OK,100T getCandidates 1-269,text,true,,2653,211,682,682,http://localhost:9999/getCandidates,7096,0,2034
+1664865555158,7078,HTTP Request,200,OK,100T getCandidates 1-276,text,true,,2653,211,681,681,http://localhost:9999/getCandidates,7078,0,2028
+1664865555139,7097,HTTP Request,200,OK,100T getCandidates 1-262,text,true,,2653,211,680,680,http://localhost:9999/getCandidates,7097,0,2034
+1664865555163,7074,HTTP Request,200,OK,100T getCandidates 1-277,text,true,,2653,211,679,679,http://localhost:9999/getCandidates,7074,0,2023
+1664865555287,6951,HTTP Request,200,OK,100T getCandidates 1-302,text,true,,2653,211,678,678,http://localhost:9999/getCandidates,6951,0,2025
+1664865555171,7068,HTTP Request,200,OK,100T getCandidates 1-279,text,true,,2653,211,678,678,http://localhost:9999/getCandidates,7068,0,2031
+1664865555278,6961,HTTP Request,200,OK,100T getCandidates 1-300,text,true,,2653,211,676,676,http://localhost:9999/getCandidates,6961,0,2020
+1664865555292,6948,HTTP Request,200,OK,100T getCandidates 1-303,text,true,,2653,211,675,675,http://localhost:9999/getCandidates,6948,0,2020
+1664865555139,7102,HTTP Request,200,OK,100T getCandidates 1-258,text,true,,2653,211,674,674,http://localhost:9999/getCandidates,7102,0,2033
+1664865555139,7102,HTTP Request,200,OK,100T getCandidates 1-254,text,true,,2653,211,673,673,http://localhost:9999/getCandidates,7102,0,2035
+1664865555272,6971,HTTP Request,200,OK,100T getCandidates 1-299,text,true,,2653,211,672,672,http://localhost:9999/getCandidates,6971,0,2026
+1664865555317,6926,HTTP Request,200,OK,100T getCandidates 1-308,text,true,,2653,211,672,672,http://localhost:9999/getCandidates,6926,0,2027
+1664865555141,7103,HTTP Request,200,OK,100T getCandidates 1-273,text,true,,2653,211,670,670,http://localhost:9999/getCandidates,7103,0,2032
+1664865555139,7105,HTTP Request,200,OK,100T getCandidates 1-259,text,true,,2653,211,669,669,http://localhost:9999/getCandidates,7105,0,2034
+1664865555154,7091,HTTP Request,200,OK,100T getCandidates 1-275,text,true,,2653,211,668,668,http://localhost:9999/getCandidates,7091,0,2031
+1664865555168,7079,HTTP Request,200,OK,100T getCandidates 1-278,text,true,,2653,211,667,667,http://localhost:9999/getCandidates,7079,0,2019
+1664865555283,6964,HTTP Request,200,OK,100T getCandidates 1-301,text,true,,2653,211,666,666,http://localhost:9999/getCandidates,6964,0,2029
+1664865555147,7101,HTTP Request,200,OK,100T getCandidates 1-274,text,true,,2653,211,665,665,http://localhost:9999/getCandidates,7101,0,2026
+1664865555268,6981,HTTP Request,200,OK,100T getCandidates 1-298,text,true,,2653,211,664,664,http://localhost:9999/getCandidates,6981,0,2029
+1664865555182,7068,HTTP Request,200,OK,100T getCandidates 1-281,text,true,,2653,211,663,663,http://localhost:9999/getCandidates,7068,0,2019
+1664865555322,6929,HTTP Request,200,OK,100T getCandidates 1-309,text,true,,2653,211,662,662,http://localhost:9999/getCandidates,6929,0,2022
+1664865555139,7113,HTTP Request,200,OK,100T getCandidates 1-272,text,true,,2653,211,661,661,http://localhost:9999/getCandidates,7113,0,2034
+1664865555209,7044,HTTP Request,200,OK,100T getCandidates 1-286,text,true,,2653,211,660,660,http://localhost:9999/getCandidates,7044,0,2024
+1664865555193,7061,HTTP Request,200,OK,100T getCandidates 1-283,text,true,,2653,211,659,659,http://localhost:9999/getCandidates,7061,0,2025
+1664865555312,6942,HTTP Request,200,OK,100T getCandidates 1-307,text,true,,2653,211,658,658,http://localhost:9999/getCandidates,6942,0,2032
+1664865555217,7038,HTTP Request,200,OK,100T getCandidates 1-288,text,true,,2653,211,657,657,http://localhost:9999/getCandidates,7038,0,2032
+1664865555212,7044,HTTP Request,200,OK,100T getCandidates 1-287,text,true,,2653,211,656,656,http://localhost:9999/getCandidates,7044,0,2021
+1664865555201,7055,HTTP Request,200,OK,100T getCandidates 1-285,text,true,,2653,211,655,655,http://localhost:9999/getCandidates,7055,0,2032
+1664865555331,6926,HTTP Request,200,OK,100T getCandidates 1-311,text,true,,2653,211,654,654,http://localhost:9999/getCandidates,6926,0,2020
+1664865555177,7081,HTTP Request,200,OK,100T getCandidates 1-280,text,true,,2653,211,653,653,http://localhost:9999/getCandidates,7081,0,2024
+1664865555198,7060,HTTP Request,200,OK,100T getCandidates 1-284,text,true,,2653,211,652,652,http://localhost:9999/getCandidates,7060,0,2019
+1664865555247,7012,HTTP Request,200,OK,100T getCandidates 1-294,text,true,,2653,211,651,651,http://localhost:9999/getCandidates,7012,0,2018
+1664865555222,7038,HTTP Request,200,OK,100T getCandidates 1-289,text,true,,2653,211,650,650,http://localhost:9999/getCandidates,7038,0,2027
+1664865555239,7021,HTTP Request,200,OK,100T getCandidates 1-292,text,true,,2653,211,649,649,http://localhost:9999/getCandidates,7021,0,2026
+1664865555341,6920,HTTP Request,200,OK,100T getCandidates 1-313,text,true,,2653,211,648,648,http://localhost:9999/getCandidates,6920,0,2010
+1664865555326,6936,HTTP Request,200,OK,100T getCandidates 1-310,text,true,,2653,211,647,647,http://localhost:9999/getCandidates,6936,0,2034
+1664865555297,6966,HTTP Request,200,OK,100T getCandidates 1-304,text,true,,2653,211,646,646,http://localhost:9999/getCandidates,6966,0,2031
+1664865555257,7007,HTTP Request,200,OK,100T getCandidates 1-296,text,true,,2653,211,645,645,http://localhost:9999/getCandidates,7007,0,2024
+1664865555242,7022,HTTP Request,200,OK,100T getCandidates 1-293,text,true,,2653,211,644,644,http://localhost:9999/getCandidates,7022,0,2023
+1664865555227,7039,HTTP Request,200,OK,100T getCandidates 1-290,text,true,,2653,211,643,643,http://localhost:9999/getCandidates,7039,0,2022
+1664865555366,6901,HTTP Request,200,OK,100T getCandidates 1-318,text,true,,2653,211,642,642,http://localhost:9999/getCandidates,6901,0,2026
+1664865555351,6917,HTTP Request,200,OK,100T getCandidates 1-315,text,true,,2653,211,641,641,http://localhost:9999/getCandidates,6917,0,2025
+1664865555336,6933,HTTP Request,200,OK,100T getCandidates 1-312,text,true,,2653,211,640,640,http://localhost:9999/getCandidates,6933,0,2024
+1664865555187,7082,HTTP Request,200,OK,100T getCandidates 1-282,text,true,,2653,211,639,639,http://localhost:9999/getCandidates,7082,0,2030
+1664865555302,6968,HTTP Request,200,OK,100T getCandidates 1-305,text,true,,2653,211,638,638,http://localhost:9999/getCandidates,6968,0,2026
+1664865555346,6925,HTTP Request,200,OK,100T getCandidates 1-314,text,true,,2653,211,637,637,http://localhost:9999/getCandidates,6925,0,2030
+1664865555233,7039,HTTP Request,200,OK,100T getCandidates 1-291,text,true,,2653,211,636,636,http://localhost:9999/getCandidates,7039,0,2033
+1664865555252,7021,HTTP Request,200,OK,100T getCandidates 1-295,text,true,,2653,211,635,635,http://localhost:9999/getCandidates,7021,0,2029
+1664865555357,6916,HTTP Request,200,OK,100T getCandidates 1-316,text,true,,2653,211,634,634,http://localhost:9999/getCandidates,6916,0,2019
+1664865555362,6913,HTTP Request,200,OK,100T getCandidates 1-317,text,true,,2653,211,633,633,http://localhost:9999/getCandidates,6913,0,2030
+1664865555263,7012,HTTP Request,200,OK,100T getCandidates 1-297,text,true,,2653,211,633,633,http://localhost:9999/getCandidates,7012,0,2018
+1664865555307,6968,HTTP Request,200,OK,100T getCandidates 1-306,text,true,,2653,211,631,631,http://localhost:9999/getCandidates,6968,0,2021
+1664865555391,6885,HTTP Request,200,OK,100T getCandidates 1-323,text,true,,2653,211,630,630,http://localhost:9999/getCandidates,6885,0,2033
+1664865555411,6866,HTTP Request,200,OK,100T getCandidates 1-327,text,true,,2653,211,629,629,http://localhost:9999/getCandidates,6866,0,2029
+1664865555386,6892,HTTP Request,200,OK,100T getCandidates 1-322,text,true,,2653,211,628,628,http://localhost:9999/getCandidates,6892,0,2022
+1664865555397,6882,HTTP Request,200,OK,100T getCandidates 1-324,text,true,,2653,211,627,627,http://localhost:9999/getCandidates,6882,0,2027
+1664865555402,6878,HTTP Request,200,OK,100T getCandidates 1-325,text,true,,2653,211,626,626,http://localhost:9999/getCandidates,6877,0,2022
+1664865555406,6874,HTTP Request,200,OK,100T getCandidates 1-326,text,true,,2653,211,625,625,http://localhost:9999/getCandidates,6874,0,2020
+1664865555381,6900,HTTP Request,200,OK,100T getCandidates 1-321,text,true,,2653,211,624,624,http://localhost:9999/getCandidates,6900,0,2027
+1664865555421,6861,HTTP Request,200,OK,100T getCandidates 1-329,text,true,,2653,211,623,623,http://localhost:9999/getCandidates,6861,0,2019
+1664865555371,6912,HTTP Request,200,OK,100T getCandidates 1-319,text,true,,2653,211,622,622,http://localhost:9999/getCandidates,6912,0,2022
+1664865555376,6907,HTTP Request,200,OK,100T getCandidates 1-320,text,true,,2653,211,621,621,http://localhost:9999/getCandidates,6907,0,2032
+1664865555416,6869,HTTP Request,200,OK,100T getCandidates 1-328,text,true,,2653,211,620,620,http://localhost:9999/getCandidates,6869,0,2024
+1664865555482,6803,HTTP Request,200,OK,100T getCandidates 1-341,text,true,,2653,211,619,619,http://localhost:9999/getCandidates,6803,0,2019
+1664865555461,6825,HTTP Request,200,OK,100T getCandidates 1-337,text,true,,2653,211,618,618,http://localhost:9999/getCandidates,6825,0,2025
+1664865555471,6822,HTTP Request,200,OK,100T getCandidates 1-339,text,true,,2653,211,617,617,http://localhost:9999/getCandidates,6822,0,2030
+1664865555456,6838,HTTP Request,200,OK,100T getCandidates 1-336,text,true,,2653,211,616,616,http://localhost:9999/getCandidates,6838,0,2030
+1664865555721,6647,HTTP Request,200,OK,100T getCandidates 1-389,text,true,,2653,211,615,615,http://localhost:9999/getCandidates,6647,0,2017
+1664865555681,6688,HTTP Request,200,OK,100T getCandidates 1-381,text,true,,2653,211,614,614,http://localhost:9999/getCandidates,6688,0,2025
+1664865555666,6704,HTTP Request,200,OK,100T getCandidates 1-378,text,true,,2653,211,613,613,http://localhost:9999/getCandidates,6704,0,2025
+1664865555605,6766,HTTP Request,200,OK,100T getCandidates 1-366,text,true,,2653,211,612,612,http://localhost:9999/getCandidates,6766,0,2023
+1664865555797,6575,HTTP Request,200,OK,100T getCandidates 1-404,text,true,,2653,211,611,611,http://localhost:9999/getCandidates,6574,0,2019
+1664865555686,6686,HTTP Request,200,OK,100T getCandidates 1-382,text,true,,2653,211,610,610,http://localhost:9999/getCandidates,6686,0,2020
+1664865555697,6677,HTTP Request,200,OK,100T getCandidates 1-384,text,true,,2653,211,609,609,http://localhost:9999/getCandidates,6677,0,2025
+1664865555706,6669,HTTP Request,200,OK,100T getCandidates 1-386,text,true,,2653,211,608,608,http://localhost:9999/getCandidates,6669,0,2032
+1664865555726,6651,HTTP Request,200,OK,100T getCandidates 1-390,text,true,,2653,211,607,607,http://localhost:9999/getCandidates,6651,0,2027
+1664865555671,6706,HTTP Request,200,OK,100T getCandidates 1-379,text,true,,2653,211,607,607,http://localhost:9999/getCandidates,6706,0,2020
+1664865555716,6662,HTTP Request,200,OK,100T getCandidates 1-388,text,true,,2653,211,605,605,http://localhost:9999/getCandidates,6662,0,2022
+1664865555661,6718,HTTP Request,200,OK,100T getCandidates 1-377,text,true,,2653,211,604,604,http://localhost:9999/getCandidates,6718,0,2030
+1664865555761,6620,HTTP Request,200,OK,100T getCandidates 1-397,text,true,,2653,211,603,603,http://localhost:9999/getCandidates,6620,0,2023
+1664865555676,6706,HTTP Request,200,OK,100T getCandidates 1-380,text,true,,2653,211,602,602,http://localhost:9999/getCandidates,6705,0,2030
+1664865555691,6691,HTTP Request,200,OK,100T getCandidates 1-383,text,true,,2653,211,601,601,http://localhost:9999/getCandidates,6691,0,2033
+1664865555736,6647,HTTP Request,200,OK,100T getCandidates 1-392,text,true,,2653,211,600,600,http://localhost:9999/getCandidates,6647,0,2017
+1664865555702,6682,HTTP Request,200,OK,100T getCandidates 1-385,text,true,,2653,211,599,599,http://localhost:9999/getCandidates,6682,0,2020
+1664865555711,6674,HTTP Request,200,OK,100T getCandidates 1-387,text,true,,2653,211,598,598,http://localhost:9999/getCandidates,6674,0,2027
+1664865555766,6620,HTTP Request,200,OK,100T getCandidates 1-398,text,true,,2653,211,597,597,http://localhost:9999/getCandidates,6620,0,2018
+1664865555792,6595,HTTP Request,200,OK,100T getCandidates 1-403,text,true,,2653,211,596,596,http://localhost:9999/getCandidates,6595,0,2025
+1664865555781,6607,HTTP Request,200,OK,100T getCandidates 1-401,text,true,,2653,211,595,595,http://localhost:9999/getCandidates,6607,0,2019
+1664865555747,6642,HTTP Request,200,OK,100T getCandidates 1-394,text,true,,2653,211,594,594,http://localhost:9999/getCandidates,6642,0,2022
+1664865555750,6639,HTTP Request,200,OK,100T getCandidates 1-395,text,true,,2653,211,593,593,http://localhost:9999/getCandidates,6639,0,2019
+1664865555771,6619,HTTP Request,200,OK,100T getCandidates 1-399,text,true,,2653,211,592,592,http://localhost:9999/getCandidates,6619,0,2030
+1664865555786,6642,HTTP Request,200,OK,100T getCandidates 1-402,text,true,,2653,211,591,591,http://localhost:9999/getCandidates,6642,0,2030
+1664865555877,6551,HTTP Request,200,OK,100T getCandidates 1-420,text,true,,2653,211,591,591,http://localhost:9999/getCandidates,6551,0,2020
+1664865555917,6511,HTTP Request,200,OK,100T getCandidates 1-428,text,true,,2653,211,591,591,http://localhost:9999/getCandidates,6511,0,2026
+1664865555921,6507,HTTP Request,200,OK,100T getCandidates 1-429,text,true,,2653,211,591,591,http://localhost:9999/getCandidates,6507,0,2022
+1664865555856,6572,HTTP Request,200,OK,100T getCandidates 1-416,text,true,,2653,211,591,591,http://localhost:9999/getCandidates,6572,0,2025
+1664865555893,6535,HTTP Request,200,OK,100T getCandidates 1-423,text,true,,2653,211,591,591,http://localhost:9999/getCandidates,6535,0,2019
+1664865555902,6526,HTTP Request,200,OK,100T getCandidates 1-425,text,true,,2653,211,591,591,http://localhost:9999/getCandidates,6526,0,2025
+1664865555912,6516,HTTP Request,200,OK,100T getCandidates 1-427,text,true,,2653,211,591,591,http://localhost:9999/getCandidates,6516,0,2031
+1664865555882,6546,HTTP Request,200,OK,100T getCandidates 1-421,text,true,,2653,211,591,591,http://localhost:9999/getCandidates,6546,0,2030
+1664865555862,6566,HTTP Request,200,OK,100T getCandidates 1-417,text,true,,2653,211,591,591,http://localhost:9999/getCandidates,6566,0,2019
+1664865555872,6556,HTTP Request,200,OK,100T getCandidates 1-419,text,true,,2653,211,591,591,http://localhost:9999/getCandidates,6556,0,2024
+1664865555898,6530,HTTP Request,200,OK,100T getCandidates 1-424,text,true,,2653,211,591,591,http://localhost:9999/getCandidates,6530,0,2029
+1664865555847,6581,HTTP Request,200,OK,100T getCandidates 1-414,text,true,,2653,211,591,591,http://localhost:9999/getCandidates,6581,0,2033
+1664865555887,6541,HTTP Request,200,OK,100T getCandidates 1-422,text,true,,2653,211,591,591,http://localhost:9999/getCandidates,6541,0,2025
+1664865555907,6521,HTTP Request,200,OK,100T getCandidates 1-426,text,true,,2653,211,591,591,http://localhost:9999/getCandidates,6521,0,2020
+1664865555852,6576,HTTP Request,200,OK,100T getCandidates 1-415,text,true,,2653,211,591,591,http://localhost:9999/getCandidates,6576,0,2028
+1664865555867,6561,HTTP Request,200,OK,100T getCandidates 1-418,text,true,,2653,211,591,591,http://localhost:9999/getCandidates,6561,0,2029
+1664865555742,6686,HTTP Request,200,OK,100T getCandidates 1-393,text,true,,2653,211,590,590,http://localhost:9999/getCandidates,6686,0,2031
+1664865555776,6652,HTTP Request,200,OK,100T getCandidates 1-400,text,true,,2653,211,588,588,http://localhost:9999/getCandidates,6652,0,2024
+1664865555731,6697,HTTP Request,200,OK,100T getCandidates 1-391,text,true,,2653,211,584,584,http://localhost:9999/getCandidates,6697,0,2022
+1664865555806,6622,HTTP Request,200,OK,100T getCandidates 1-406,text,true,,2653,211,584,584,http://localhost:9999/getCandidates,6622,0,2026
+1664865555756,6673,HTTP Request,200,OK,100T getCandidates 1-396,text,true,,2653,211,581,581,http://localhost:9999/getCandidates,6673,0,2028
+1664865555801,6628,HTTP Request,200,OK,100T getCandidates 1-405,text,true,,2653,211,581,581,http://localhost:9999/getCandidates,6628,0,2031
+1664865555989,6454,HTTP Request,200,OK,100T getCandidates 1-441,text,true,,2653,211,568,568,http://localhost:9999/getCandidates,6454,0,2016
+1664865555989,6456,HTTP Request,200,OK,100T getCandidates 1-438,text,true,,2653,211,567,567,http://localhost:9999/getCandidates,6456,0,2016
+1664865555989,6462,HTTP Request,200,OK,100T getCandidates 1-440,text,true,,2653,211,566,566,http://localhost:9999/getCandidates,6462,0,2016
+1664865556002,6456,HTTP Request,200,OK,100T getCandidates 1-445,text,true,,2653,211,565,565,http://localhost:9999/getCandidates,6455,0,2018
+1664865555997,6461,HTTP Request,200,OK,100T getCandidates 1-444,text,true,,2653,211,564,564,http://localhost:9999/getCandidates,6461,0,2024
+1664865555992,6470,HTTP Request,200,OK,100T getCandidates 1-443,text,true,,2653,211,563,563,http://localhost:9999/getCandidates,6470,0,2029
+1664865556013,6454,HTTP Request,200,OK,100T getCandidates 1-447,text,true,,2653,211,562,562,http://localhost:9999/getCandidates,6454,0,2023
+1664865556018,6453,HTTP Request,200,OK,100T getCandidates 1-448,text,true,,2653,211,561,561,http://localhost:9999/getCandidates,6453,0,2018
+1664865556007,6467,HTTP Request,200,OK,100T getCandidates 1-446,text,true,,2653,211,560,560,http://localhost:9999/getCandidates,6467,0,2029
+1664865556027,6454,HTTP Request,200,OK,100T getCandidates 1-450,text,true,,2653,211,559,559,http://localhost:9999/getCandidates,6454,0,2025
+1664865556022,6476,HTTP Request,200,OK,100T getCandidates 1-449,text,true,,2653,211,558,558,http://localhost:9999/getCandidates,6476,0,2030
+1664865556152,6353,HTTP Request,200,OK,100T getCandidates 1-475,text,true,,2653,211,557,557,http://localhost:9999/getCandidates,6353,0,2039
+1664865556182,6324,HTTP Request,200,OK,100T getCandidates 1-481,text,true,,2653,211,556,556,http://localhost:9999/getCandidates,6324,0,2025
+1664865556168,6339,HTTP Request,200,OK,100T getCandidates 1-478,text,true,,2653,211,555,555,http://localhost:9999/getCandidates,6339,0,2023
+1664865556208,6300,HTTP Request,200,OK,100T getCandidates 1-486,text,true,,2653,211,554,554,http://localhost:9999/getCandidates,6300,0,2014
+1664865556172,6337,HTTP Request,200,OK,100T getCandidates 1-479,text,true,,2653,211,553,553,http://localhost:9999/getCandidates,6337,0,2034
+1664865556177,6333,HTTP Request,200,OK,100T getCandidates 1-480,text,true,,2653,211,552,552,http://localhost:9999/getCandidates,6333,0,2030
+1664865556247,6263,HTTP Request,200,OK,100T getCandidates 1-494,text,true,,2653,211,551,551,http://localhost:9999/getCandidates,6263,0,2038
+1664865556158,6353,HTTP Request,200,OK,100T getCandidates 1-476,text,true,,2653,211,550,550,http://localhost:9999/getCandidates,6353,0,2033
+1664865556277,6235,HTTP Request,200,OK,100T getCandidates 1-500,text,true,,2653,211,549,549,http://localhost:9999/getCandidates,6235,0,2038
+1664865556163,6350,HTTP Request,200,OK,100T getCandidates 1-477,text,true,,2653,211,548,548,http://localhost:9999/getCandidates,6349,0,2028
+1664865556187,6326,HTTP Request,200,OK,100T getCandidates 1-482,text,true,,2653,211,547,547,http://localhost:9999/getCandidates,6326,0,2020
+1664865556032,6482,HTTP Request,200,OK,100T getCandidates 1-451,text,true,,2653,211,546,546,http://localhost:9999/getCandidates,6482,0,2022
+1664865556281,6234,HTTP Request,200,OK,100T getCandidates 1-501,text,true,,2653,211,545,545,http://localhost:9999/getCandidates,6234,0,2034
+1664865556142,6374,HTTP Request,200,OK,100T getCandidates 1-473,text,true,,2653,211,544,544,http://localhost:9999/getCandidates,6374,0,2018
+1664865556243,6273,HTTP Request,200,OK,100T getCandidates 1-493,text,true,,2653,211,543,543,http://localhost:9999/getCandidates,6273,0,2042
+1664865556225,6292,HTTP Request,200,OK,100T getCandidates 1-489,text,true,,2653,211,542,542,http://localhost:9999/getCandidates,6292,0,2028
+1664865556232,6286,HTTP Request,200,OK,100T getCandidates 1-491,text,true,,2653,211,541,541,http://localhost:9999/getCandidates,6286,0,2021
+1664865556197,6322,HTTP Request,200,OK,100T getCandidates 1-484,text,true,,2653,211,540,540,http://localhost:9999/getCandidates,6322,0,2025
+1664865556227,6293,HTTP Request,200,OK,100T getCandidates 1-490,text,true,,2653,211,539,539,http://localhost:9999/getCandidates,6293,0,2026
+1664865556312,6209,HTTP Request,200,OK,100T getCandidates 1-507,text,true,,2653,211,538,538,http://localhost:9999/getCandidates,6209,0,2021
+1664865556258,6264,HTTP Request,200,OK,100T getCandidates 1-496,text,true,,2653,211,537,537,http://localhost:9999/getCandidates,6264,0,2041
+1664865556192,6331,HTTP Request,200,OK,100T getCandidates 1-483,text,true,,2653,211,536,536,http://localhost:9999/getCandidates,6331,0,2015
+1664865556147,6377,HTTP Request,200,OK,100T getCandidates 1-474,text,true,,2653,211,535,535,http://localhost:9999/getCandidates,6377,0,2043
+1664865556213,6312,HTTP Request,200,OK,100T getCandidates 1-487,text,true,,2653,211,534,534,http://localhost:9999/getCandidates,6312,0,2040
+1664865556202,6323,HTTP Request,200,OK,100T getCandidates 1-485,text,true,,2653,211,533,533,http://localhost:9999/getCandidates,6323,0,2034
+1664865556291,6235,HTTP Request,200,OK,100T getCandidates 1-503,text,true,,2653,211,532,532,http://localhost:9999/getCandidates,6235,0,2024
+1664865556237,6290,HTTP Request,200,OK,100T getCandidates 1-492,text,true,,2653,211,531,531,http://localhost:9999/getCandidates,6290,0,2016
+1664865556218,6310,HTTP Request,200,OK,100T getCandidates 1-488,text,true,,2653,211,530,530,http://localhost:9999/getCandidates,6310,0,2035
+1664865556252,6277,HTTP Request,200,OK,100T getCandidates 1-495,text,true,,2653,211,529,529,http://localhost:9999/getCandidates,6277,0,2018
+1664865556266,6263,HTTP Request,200,OK,100T getCandidates 1-498,text,true,,2653,211,528,528,http://localhost:9999/getCandidates,6263,0,2034
+1664865556272,6258,HTTP Request,200,OK,100T getCandidates 1-499,text,true,,2653,211,527,527,http://localhost:9999/getCandidates,6258,0,2012
+1664865556302,6229,HTTP Request,200,OK,100T getCandidates 1-505,text,true,,2653,211,526,526,http://localhost:9999/getCandidates,6229,0,2030
+1664865556296,6236,HTTP Request,200,OK,100T getCandidates 1-504,text,true,,2653,211,525,525,http://localhost:9999/getCandidates,6236,0,2035
+1664865556263,6269,HTTP Request,200,OK,100T getCandidates 1-497,text,true,,2653,211,524,524,http://localhost:9999/getCandidates,6269,0,2036
+1664865556287,6246,HTTP Request,200,OK,100T getCandidates 1-502,text,true,,2653,211,524,524,http://localhost:9999/getCandidates,6246,0,2028
+1664865556052,6488,HTTP Request,200,OK,100T getCandidates 1-455,text,true,,2653,211,522,522,http://localhost:9999/getCandidates,6488,0,2016
+1664865556047,6493,HTTP Request,200,OK,100T getCandidates 1-454,text,true,,2653,211,521,521,http://localhost:9999/getCandidates,6493,0,2021
+1664865556067,6474,HTTP Request,200,OK,100T getCandidates 1-458,text,true,,2653,211,520,520,http://localhost:9999/getCandidates,6474,0,2016
+1664865556042,6499,HTTP Request,200,OK,100T getCandidates 1-453,text,true,,2653,211,519,519,http://localhost:9999/getCandidates,6499,0,2026
+1664865556063,6479,HTTP Request,200,OK,100T getCandidates 1-457,text,true,,2653,211,518,518,http://localhost:9999/getCandidates,6479,0,2020
+1664865556037,6506,HTTP Request,200,OK,100T getCandidates 1-452,text,true,,2653,211,517,517,http://localhost:9999/getCandidates,6506,0,2031
+1664865556058,6485,HTTP Request,200,OK,100T getCandidates 1-456,text,true,,2653,211,516,516,http://localhost:9999/getCandidates,6485,0,2025
+1664865556077,6467,HTTP Request,200,OK,100T getCandidates 1-460,text,true,,2653,211,515,515,http://localhost:9999/getCandidates,6467,0,2022
+1664865556092,6455,HTTP Request,200,OK,100T getCandidates 1-463,text,true,,2653,211,514,514,http://localhost:9999/getCandidates,6455,0,2024
+1664865556087,6515,HTTP Request,200,OK,100T getCandidates 1-462,text,true,,2653,211,513,513,http://localhost:9999/getCandidates,6515,0,2027
+1664865556083,6519,HTTP Request,200,OK,100T getCandidates 1-461,text,true,,2653,211,512,512,http://localhost:9999/getCandidates,6519,0,2016
+1664865556102,6501,HTTP Request,200,OK,100T getCandidates 1-465,text,true,,2653,211,511,511,http://localhost:9999/getCandidates,6501,0,2027
+1664865556097,6507,HTTP Request,200,OK,100T getCandidates 1-464,text,true,,2653,211,510,510,http://localhost:9999/getCandidates,6507,0,2018
+1664865556072,6533,HTTP Request,200,OK,100T getCandidates 1-459,text,true,,2653,211,509,509,http://localhost:9999/getCandidates,6533,0,2027
+1664865556122,6487,HTTP Request,200,OK,100T getCandidates 1-469,text,true,,2653,211,508,508,http://localhost:9999/getCandidates,6487,0,2022
+1664865556113,6496,HTTP Request,200,OK,100T getCandidates 1-467,text,true,,2653,211,508,508,http://localhost:9999/getCandidates,6496,0,2031
+1664865556137,6472,HTTP Request,200,OK,100T getCandidates 1-472,text,true,,2653,211,508,508,http://localhost:9999/getCandidates,6472,0,2023
+1664865556118,6491,HTTP Request,200,OK,100T getCandidates 1-468,text,true,,2653,211,508,508,http://localhost:9999/getCandidates,6491,0,2026
+1664865556107,6502,HTTP Request,200,OK,100T getCandidates 1-466,text,true,,2653,211,508,508,http://localhost:9999/getCandidates,6502,0,2022
+1664865556127,6482,HTTP Request,200,OK,100T getCandidates 1-470,text,true,,2653,211,508,508,http://localhost:9999/getCandidates,6482,0,2017
+1664865556132,6477,HTTP Request,200,OK,100T getCandidates 1-471,text,true,,2653,211,508,508,http://localhost:9999/getCandidates,6477,0,2028
+1664865556317,6326,HTTP Request,200,OK,100T getCandidates 1-508,text,true,,2653,211,501,501,http://localhost:9999/getCandidates,6326,0,2029
+1664865556307,6338,HTTP Request,200,OK,100T getCandidates 1-506,text,true,,2653,211,500,500,http://localhost:9999/getCandidates,6338,0,2039
+1664865556332,6313,HTTP Request,200,OK,100T getCandidates 1-511,text,true,,2653,211,499,499,http://localhost:9999/getCandidates,6313,0,2029
+1664865555135,8092,HTTP Request,200,OK,100T getCandidates 1-266,text,true,,2653,211,498,498,http://localhost:9999/getCandidates,8092,0,2019
+1664865555136,8091,HTTP Request,200,OK,100T getCandidates 1-260,text,true,,2653,211,497,497,http://localhost:9999/getCandidates,8091,0,2018
+1664865555139,8089,HTTP Request,200,OK,100T getCandidates 1-264,text,true,,2653,211,496,496,http://localhost:9999/getCandidates,8089,0,2033
+1664865555135,8094,HTTP Request,200,OK,100T getCandidates 1-256,text,true,,2653,211,495,495,http://localhost:9999/getCandidates,8094,0,2022
+1664865555135,8095,HTTP Request,200,OK,100T getCandidates 1-265,text,true,,2653,211,494,494,http://localhost:9999/getCandidates,8095,0,2022
+1664865555135,8096,HTTP Request,200,OK,100T getCandidates 1-271,text,true,,2653,211,493,493,http://localhost:9999/getCandidates,8095,0,2020
+1664865555136,8095,HTTP Request,200,OK,100T getCandidates 1-267,text,true,,2653,211,492,492,http://localhost:9999/getCandidates,8095,0,2018
+1664865555139,8093,HTTP Request,200,OK,100T getCandidates 1-255,text,true,,2653,211,491,491,http://localhost:9999/getCandidates,8093,0,2033
+1664865556321,17073,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-509,text,false,,2441,0,490,490,http://localhost:9999/getCandidates,0,0,2056
+1664865556336,17058,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-512,text,false,,2441,0,490,490,http://localhost:9999/getCandidates,0,0,2041
+1664865556346,17048,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-514,text,false,,2441,0,490,490,http://localhost:9999/getCandidates,0,0,2031
+1664865556341,17053,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-513,text,false,,2441,0,490,490,http://localhost:9999/getCandidates,0,0,2036
+1664865556357,17052,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-516,text,false,,2441,0,486,486,http://localhost:9999/getCandidates,0,0,2035
+1664865556362,17047,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-517,text,false,,2441,0,486,486,http://localhost:9999/getCandidates,0,0,2031
+1664865556367,17042,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-518,text,false,,2441,0,486,486,http://localhost:9999/getCandidates,0,0,2025
+1664865556352,17057,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-515,text,false,,2441,0,484,484,http://localhost:9999/getCandidates,0,0,2041
+1664865556372,17052,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-519,text,false,,2441,0,482,482,http://localhost:9999/getCandidates,0,0,2036
+1664865556376,17049,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-520,text,false,,2441,0,482,482,http://localhost:9999/getCandidates,0,0,2032
+1664865556382,17043,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-521,text,false,,2441,0,482,482,http://localhost:9999/getCandidates,0,0,2026
+1664865556412,17028,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-527,text,false,,2441,0,479,479,http://localhost:9999/getCandidates,0,0,2027
+1664865556392,17048,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-523,text,false,,2441,0,478,478,http://localhost:9999/getCandidates,0,0,2031
+1664865556407,17033,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-526,text,false,,2441,0,478,478,http://localhost:9999/getCandidates,0,0,2031
+1664865556387,17053,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-522,text,false,,2441,0,477,477,http://localhost:9999/getCandidates,0,0,2036
+1664865556403,17037,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-525,text,false,,2441,0,476,476,http://localhost:9999/getCandidates,0,0,2035
+1664865556397,17043,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-524,text,false,,2441,0,476,476,http://localhost:9999/getCandidates,0,0,2026
+1664865556422,17206,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-529,text,false,,2441,0,473,473,http://localhost:9999/getCandidates,0,0,2197
+1664865556567,17066,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-558,text,false,,2441,0,473,473,http://localhost:9999/getCandidates,0,0,2045
+1664865556427,17207,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-530,text,false,,2441,0,472,471,http://localhost:9999/getCandidates,0,0,2192
+1664865556491,17142,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-543,text,false,,2441,0,470,470,http://localhost:9999/getCandidates,0,0,2128
+1664865556508,17126,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-546,text,false,,2441,0,469,469,http://localhost:9999/getCandidates,0,0,2110
+1664865556496,17138,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-544,text,false,,2441,0,469,469,http://localhost:9999/getCandidates,0,0,2122
+1664865556533,17101,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-551,text,false,,2441,0,468,468,http://localhost:9999/getCandidates,0,0,2081
+1664865556592,17042,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-563,text,false,,2441,0,468,468,http://localhost:9999/getCandidates,0,0,2034
+1664865556485,17149,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-542,text,false,,2441,0,466,466,http://localhost:9999/getCandidates,0,0,2133
+1664865556536,17098,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-552,text,false,,2441,0,465,465,http://localhost:9999/getCandidates,0,0,2080
+1664865556461,17173,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-537,text,false,,2441,0,464,464,http://localhost:9999/getCandidates,0,0,2158
+1664865556582,17052,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-561,text,false,,2441,0,462,462,http://localhost:9999/getCandidates,0,0,2030
+1664865556452,17182,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-535,text,false,,2441,0,462,462,http://localhost:9999/getCandidates,0,0,2167
+1664865556476,17159,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-540,text,false,,2441,0,461,461,http://localhost:9999/getCandidates,0,0,2143
+1664865556553,17082,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-555,text,false,,2441,0,459,459,http://localhost:9999/getCandidates,0,0,2059
+1664865556541,17094,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-553,text,false,,2441,0,459,459,http://localhost:9999/getCandidates,0,0,2075
+1664865556558,17077,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-556,text,false,,2441,0,457,457,http://localhost:9999/getCandidates,0,0,2054
+1664865556447,17188,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-534,text,false,,2441,0,456,456,http://localhost:9999/getCandidates,0,0,2172
+1664865556517,17118,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-548,text,false,,2441,0,455,455,http://localhost:9999/getCandidates,0,0,2101
+1664865556547,17088,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-554,text,false,,2441,0,455,455,http://localhost:9999/getCandidates,0,0,2065
+1664865556572,17063,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-559,text,false,,2441,0,454,454,http://localhost:9999/getCandidates,0,0,2040
+1664865556516,17119,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-547,text,false,,2441,0,452,452,http://localhost:9999/getCandidates,0,0,2102
+1664865556502,17134,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-545,text,false,,2441,0,452,452,http://localhost:9999/getCandidates,0,0,2116
+1664865556437,17199,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-532,text,false,,2441,0,451,451,http://localhost:9999/getCandidates,0,0,2182
+1664865556522,17114,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-549,text,false,,2441,0,449,449,http://localhost:9999/getCandidates,0,0,2095
+1664865556527,17101,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-550,text,false,,2441,0,448,448,http://localhost:9999/getCandidates,0,0,2087
+1664865556598,17038,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-564,text,false,,2441,0,448,448,http://localhost:9999/getCandidates,0,0,2028
+1664865556457,17181,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-536,text,false,,2441,0,447,447,http://localhost:9999/getCandidates,0,0,2162
+1664865556443,17193,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-533,text,false,,2441,0,447,447,http://localhost:9999/getCandidates,0,0,2176
+1664865556577,17059,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-560,text,false,,2441,0,447,447,http://localhost:9999/getCandidates,0,0,2035
+1664865556466,17173,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-538,text,false,,2441,0,447,447,http://localhost:9999/getCandidates,0,0,2153
+1664865556562,17077,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-557,text,false,,2441,0,447,447,http://localhost:9999/getCandidates,0,0,2050
+1664865556417,17222,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-528,text,false,,2441,0,447,447,http://localhost:9999/getCandidates,0,0,2202
+1664865556587,17041,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-562,text,false,,2441,0,449,449,http://localhost:9999/getCandidates,0,0,2026
+1664865556470,17169,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-539,text,false,,2441,0,444,444,http://localhost:9999/getCandidates,0,0,2148
+1664865556480,17159,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-541,text,false,,2441,0,442,442,http://localhost:9999/getCandidates,0,0,2139
+1664865556432,17207,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-531,text,false,,2441,0,438,438,http://localhost:9999/getCandidates,0,0,2187
+1664865556604,17035,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-565,text,false,,2441,0,436,436,http://localhost:9999/getCandidates,0,0,2022
+1664865556612,17031,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-567,text,false,,2441,0,435,435,http://localhost:9999/getCandidates,0,0,2030
+1664865556618,17025,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-568,text,false,,2441,0,435,435,http://localhost:9999/getCandidates,0,0,2024
+1664865556607,17036,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-566,text,false,,2441,0,435,435,http://localhost:9999/getCandidates,0,0,2035
+1664865556622,17052,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-569,text,false,,2441,0,432,432,http://localhost:9999/getCandidates,0,0,2036
+1664865556627,17047,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-570,text,false,,2441,0,432,432,http://localhost:9999/getCandidates,0,0,2031
+1664865556633,17041,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-571,text,false,,2441,0,431,431,http://localhost:9999/getCandidates,0,0,2025
+1664865556652,17023,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-575,text,false,,2441,0,429,429,http://localhost:9999/getCandidates,0,0,2022
+1664865556644,17046,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-573,text,false,,2441,0,428,428,http://localhost:9999/getCandidates,0,0,2030
+1664865556639,17051,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-572,text,false,,2441,0,428,428,http://localhost:9999/getCandidates,0,0,2035
+1664865556662,17043,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-577,text,false,,2441,0,426,426,http://localhost:9999/getCandidates,0,0,2028
+1664865556667,17039,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-578,text,false,,2441,0,426,426,http://localhost:9999/getCandidates,0,0,2023
+1664865556648,17058,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-574,text,false,,2441,0,425,425,http://localhost:9999/getCandidates,0,0,2042
+1664865556672,17049,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-579,text,false,,2441,0,423,423,http://localhost:9999/getCandidates,0,0,2034
+1664865556657,17064,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-576,text,false,,2441,0,423,423,http://localhost:9999/getCandidates,0,0,2049
+1664865556707,17030,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-586,text,false,,2441,0,421,421,http://localhost:9999/getCandidates,0,0,2016
+1664865556712,17025,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-587,text,false,,2441,0,421,421,http://localhost:9999/getCandidates,0,0,2010
+1664865556683,17054,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-581,text,false,,2441,0,421,421,http://localhost:9999/getCandidates,0,0,2040
+1664865556697,17040,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-584,text,false,,2441,0,419,419,http://localhost:9999/getCandidates,0,0,2026
+1664865556702,17035,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-585,text,false,,2441,0,417,417,http://localhost:9999/getCandidates,0,0,2021
+1664865556692,17045,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-583,text,false,,2441,0,417,417,http://localhost:9999/getCandidates,0,0,2031
+1664865556688,17049,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-582,text,false,,2441,0,415,415,http://localhost:9999/getCandidates,0,0,2035
+1664865556678,17060,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-580,text,false,,2441,0,414,414,http://localhost:9999/getCandidates,0,0,2045
+1664865556737,17031,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-592,text,false,,2441,0,413,413,http://localhost:9999/getCandidates,0,0,2018
+1664865556747,17021,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-594,text,false,,2441,0,413,413,http://localhost:9999/getCandidates,0,0,2008
+1664865556718,17050,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-588,text,false,,2441,0,413,413,http://localhost:9999/getCandidates,0,0,2036
+1664865556723,17045,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-589,text,false,,2441,0,412,412,http://localhost:9999/getCandidates,0,0,2032
+1664865556743,17025,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-593,text,false,,2441,0,410,410,http://localhost:9999/getCandidates,0,0,2011
+1664865556732,17037,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-591,text,false,,2441,0,409,409,http://localhost:9999/getCandidates,0,0,2023
+1664865556727,17042,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-590,text,false,,2441,0,407,407,http://localhost:9999/getCandidates,0,0,2028
+1664865556759,17040,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-596,text,false,,2441,0,406,406,http://localhost:9999/getCandidates,0,0,2027
+1664865556752,17047,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-595,text,false,,2441,0,406,406,http://localhost:9999/getCandidates,0,0,2034
+1664865556786,17044,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-598,text,false,,2441,0,404,404,http://localhost:9999/getCandidates,0,0,2031
+1664865556787,17044,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-602,text,false,,2441,0,404,404,http://localhost:9999/getCandidates,0,0,2031
+1664865556786,17045,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-601,text,false,,2441,0,404,404,http://localhost:9999/getCandidates,0,0,2032
+1664865556785,17046,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-597,text,false,,2441,0,401,401,http://localhost:9999/getCandidates,0,0,2033
+1664865556786,17045,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-600,text,false,,2441,0,401,401,http://localhost:9999/getCandidates,0,0,2033
+1664865556793,17038,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-603,text,false,,2441,0,399,399,http://localhost:9999/getCandidates,0,0,2025
+1664865556786,17045,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-599,text,false,,2441,0,398,398,http://localhost:9999/getCandidates,0,0,2031
+1664865556803,17044,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-605,text,false,,2441,0,397,397,http://localhost:9999/getCandidates,0,0,2029
+1664865556822,17025,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-609,text,false,,2441,0,397,397,http://localhost:9999/getCandidates,0,0,2010
+1664865556808,17039,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-606,text,false,,2441,0,397,397,http://localhost:9999/getCandidates,0,0,2024
+1664865556797,17050,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-604,text,false,,2441,0,396,396,http://localhost:9999/getCandidates,0,0,2035
+1664865556827,17035,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-610,text,false,,2441,0,393,393,http://localhost:9999/getCandidates,0,0,2020
+1664865556813,17049,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-607,text,false,,2441,0,393,393,http://localhost:9999/getCandidates,0,0,2034
+1664865556817,17045,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-608,text,false,,2441,0,391,391,http://localhost:9999/getCandidates,0,0,2030
+1664865556832,17046,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-611,text,false,,2441,0,390,390,http://localhost:9999/getCandidates,0,0,2031
+1664865556843,17035,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-613,text,false,,2441,0,390,390,http://localhost:9999/getCandidates,0,0,2020
+1664865556838,17040,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-612,text,false,,2441,0,388,388,http://localhost:9999/getCandidates,0,0,2025
+1664865556851,17043,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-615,text,false,,2441,0,387,387,http://localhost:9999/getCandidates,0,0,2028
+1664865556856,17038,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-616,text,false,,2441,0,387,387,http://localhost:9999/getCandidates,0,0,2023
+1664865556847,17047,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-614,text,false,,2441,0,387,387,http://localhost:9999/getCandidates,0,0,2032
+1664865556861,17048,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-617,text,false,,2441,0,384,384,http://localhost:9999/getCandidates,0,0,2033
+1664865556866,17044,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-618,text,false,,2441,0,384,384,http://localhost:9999/getCandidates,0,0,2029
+1664865556872,17038,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-619,text,false,,2441,0,384,384,http://localhost:9999/getCandidates,0,0,2023
+1664865556877,17048,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-620,text,false,,2441,0,381,381,http://localhost:9999/getCandidates,0,0,2034
+1664865556884,17041,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-621,text,false,,2441,0,381,381,http://localhost:9999/getCandidates,0,0,2027
+1664865556889,17036,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-622,text,false,,2441,0,379,379,http://localhost:9999/getCandidates,0,0,2021
+1664865556898,17043,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-624,text,false,,2441,0,378,378,http://localhost:9999/getCandidates,0,0,2030
+1664865556903,17038,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-625,text,false,,2441,0,378,378,http://localhost:9999/getCandidates,0,0,2023
+1664865556893,17048,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-623,text,false,,2441,0,377,377,http://localhost:9999/getCandidates,0,0,2034
+1664865556908,17048,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-626,text,false,,2441,0,375,375,http://localhost:9999/getCandidates,0,0,2035
+1664865556918,17039,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-628,text,false,,2441,0,375,375,http://localhost:9999/getCandidates,0,0,2025
+1664865556923,17034,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-629,text,false,,2441,0,374,374,http://localhost:9999/getCandidates,0,0,2020
+1664865556913,17044,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-627,text,false,,2441,0,372,372,http://localhost:9999/getCandidates,0,0,2030
+1664865556933,17039,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-631,text,false,,2441,0,371,371,http://localhost:9999/getCandidates,0,0,2025
+1664865556938,17034,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-632,text,false,,2441,0,371,371,http://localhost:9999/getCandidates,0,0,2020
+1664865556928,17045,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-630,text,false,,2441,0,369,369,http://localhost:9999/getCandidates,0,0,2030
+1664865556947,17041,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-634,text,false,,2441,0,368,368,http://localhost:9999/getCandidates,0,0,2027
+1664865556958,17045,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-636,text,false,,2441,0,367,367,http://localhost:9999/getCandidates,0,0,2032
+1664865556968,17035,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-638,text,false,,2441,0,367,367,http://localhost:9999/getCandidates,0,0,2022
+1664865556942,17062,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-633,text,false,,2441,0,367,367,http://localhost:9999/getCandidates,0,0,2048
+1664865556953,17051,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-635,text,false,,2441,0,365,365,http://localhost:9999/getCandidates,0,0,2037
+1664865556972,17047,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-639,text,false,,2441,0,363,363,http://localhost:9999/getCandidates,0,0,2034
+1664865556983,17036,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-641,text,false,,2441,0,363,363,http://localhost:9999/getCandidates,0,0,2022
+1664865556962,17057,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-637,text,false,,2441,0,363,363,http://localhost:9999/getCandidates,0,0,2044
+1664865556997,17037,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-644,text,false,,2441,0,360,360,http://localhost:9999/getCandidates,0,0,2025
+1664865556978,17057,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-640,text,false,,2441,0,360,360,http://localhost:9999/getCandidates,0,0,2044
+1664865556987,17048,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-642,text,false,,2441,0,359,359,http://localhost:9999/getCandidates,0,0,2035
+1664865556992,17043,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-643,text,false,,2441,0,357,357,http://localhost:9999/getCandidates,0,0,2030
+1664865557002,17048,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-645,text,false,,2441,0,356,356,http://localhost:9999/getCandidates,0,0,2035
+1664865557007,17043,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-646,text,false,,2441,0,356,356,http://localhost:9999/getCandidates,0,0,2030
+1664865557012,17038,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-647,text,false,,2441,0,356,356,http://localhost:9999/getCandidates,0,0,2025
+1664865557023,17043,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-649,text,false,,2441,0,353,353,http://localhost:9999/getCandidates,0,0,2032
+1664865557028,17038,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-650,text,false,,2441,0,353,353,http://localhost:9999/getCandidates,0,0,2025
+1664865557032,17034,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-651,text,false,,2441,0,353,353,http://localhost:9999/getCandidates,0,0,2021
+1664865557017,17049,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-648,text,false,,2441,0,350,350,http://localhost:9999/getCandidates,0,0,2038
+1664865557047,17034,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-654,text,false,,2441,0,349,349,http://localhost:9999/getCandidates,0,0,2022
+1664865557037,17045,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-652,text,false,,2441,0,349,349,http://localhost:9999/getCandidates,0,0,2032
+1664865557042,17040,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-653,text,false,,2441,0,347,347,http://localhost:9999/getCandidates,0,0,2027
+1664865557057,17040,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-656,text,false,,2441,0,346,346,http://localhost:9999/getCandidates,0,0,2028
+1664865557052,17045,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-655,text,false,,2441,0,346,346,http://localhost:9999/getCandidates,0,0,2033
+1664865557062,17035,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-657,text,false,,2441,0,345,345,http://localhost:9999/getCandidates,0,0,2023
+1664865557078,17035,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-660,text,false,,2441,0,343,343,http://localhost:9999/getCandidates,0,0,2023
+1664865557067,17046,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-658,text,false,,2441,0,343,343,http://localhost:9999/getCandidates,0,0,2034
+1664865557072,17041,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-659,text,false,,2441,0,343,343,http://localhost:9999/getCandidates,0,0,2029
+1664865557087,17041,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-662,text,false,,2441,0,340,340,http://localhost:9999/getCandidates,0,0,2030
+1664865557092,17036,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-663,text,false,,2441,0,340,340,http://localhost:9999/getCandidates,0,0,2025
+1664865557083,17045,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-661,text,false,,2441,0,340,340,http://localhost:9999/getCandidates,0,0,2034
+1664865557097,17047,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-664,text,false,,2441,0,337,337,http://localhost:9999/getCandidates,0,0,2036
+1664865557102,17042,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-665,text,false,,2441,0,337,337,http://localhost:9999/getCandidates,0,0,2034
+1664865557107,17037,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-666,text,false,,2441,0,337,337,http://localhost:9999/getCandidates,0,0,2026
+1664865557112,17032,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-667,text,false,,2441,0,336,336,http://localhost:9999/getCandidates,0,0,2021
+1664865557127,17032,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-670,text,false,,2441,0,333,333,http://localhost:9999/getCandidates,0,0,2022
+1664865557118,17042,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-668,text,false,,2441,0,333,333,http://localhost:9999/getCandidates,0,0,2031
+1664865557123,17037,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-669,text,false,,2441,0,331,331,http://localhost:9999/getCandidates,0,0,2026
+1664865557137,17038,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-672,text,false,,2441,0,330,330,http://localhost:9999/getCandidates,0,0,2028
+1664865557142,17033,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-673,text,false,,2441,0,330,330,http://localhost:9999/getCandidates,0,0,2023
+1664865557157,17034,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-676,text,false,,2441,0,328,328,http://localhost:9999/getCandidates,0,0,2024
+1664865557147,17044,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-674,text,false,,2441,0,328,328,http://localhost:9999/getCandidates,0,0,2034
+1664865557132,17059,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-671,text,false,,2441,0,328,328,http://localhost:9999/getCandidates,0,0,2049
+1664865557173,17033,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-678,text,false,,2441,0,325,325,http://localhost:9999/getCandidates,0,0,2025
+1664865557152,17055,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-675,text,false,,2441,0,325,325,http://localhost:9999/getCandidates,0,0,2045
+1664865557182,17025,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-681,text,false,,2441,0,324,324,http://localhost:9999/getCandidates,0,0,2025
+1664865557165,17042,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-677,text,false,,2441,0,323,323,http://localhost:9999/getCandidates,0,0,2032
+1664865557173,17049,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-679,text,false,,2441,0,321,321,http://localhost:9999/getCandidates,0,0,2040
+1664865557188,17050,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-682,text,false,,2441,0,320,320,http://localhost:9999/getCandidates,0,0,2043
+1664865557202,17036,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-685,text,false,,2441,0,320,320,http://localhost:9999/getCandidates,0,0,2028
+1664865557177,17061,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-680,text,false,,2441,0,320,320,http://localhost:9999/getCandidates,0,0,2053
+1664865557197,17041,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-684,text,false,,2441,0,317,317,http://localhost:9999/getCandidates,0,0,2033
+1664865557207,17031,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-686,text,false,,2441,0,317,317,http://localhost:9999/getCandidates,0,0,2024
+1664865557192,17046,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-683,text,false,,2441,0,315,315,http://localhost:9999/getCandidates,0,0,2039
+1664865557212,17026,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-687,text,false,,2441,0,314,314,http://localhost:9999/getCandidates,0,0,2018
+1664865557217,17021,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-688,text,false,,2441,0,313,313,http://localhost:9999/getCandidates,0,0,2014
+1664865557247,17022,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-694,text,false,,2441,0,312,312,http://localhost:9999/getCandidates,0,0,2014
+1664865557232,17037,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-691,text,false,,2441,0,312,312,http://localhost:9999/getCandidates,0,0,2029
+1664865557241,17028,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-693,text,false,,2441,0,310,310,http://localhost:9999/getCandidates,0,0,2020
+1664865557227,17042,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-690,text,false,,2441,0,310,310,http://localhost:9999/getCandidates,0,0,2034
+1664865557237,17032,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-692,text,false,,2441,0,308,308,http://localhost:9999/getCandidates,0,0,2024
+1664865557222,17047,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-689,text,false,,2441,0,308,308,http://localhost:9999/getCandidates,0,0,2039
+1664865557262,17023,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-697,text,false,,2441,0,306,306,http://localhost:9999/getCandidates,0,0,2017
+1664865557272,17028,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-699,text,false,,2441,0,305,305,http://localhost:9999/getCandidates,0,0,2022
+1664865557258,17042,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-696,text,false,,2441,0,305,305,http://localhost:9999/getCandidates,0,0,2037
+1664865557277,17023,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-700,text,false,,2441,0,305,305,http://localhost:9999/getCandidates,0,0,2018
+1664865557267,17034,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-698,text,false,,2441,0,304,304,http://localhost:9999/getCandidates,0,0,2028
+1664865557253,17048,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-695,text,false,,2441,0,301,301,http://localhost:9999/getCandidates,0,0,2041
+1664865557282,17034,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-701,text,false,,2441,0,300,300,http://localhost:9999/getCandidates,0,0,2028
+1664865557292,17039,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-703,text,false,,2441,0,299,299,http://localhost:9999/getCandidates,0,0,2036
+1664865557287,17044,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-702,text,false,,2441,0,299,299,http://localhost:9999/getCandidates,0,0,2039
+1664865557297,17035,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-704,text,false,,2441,0,299,299,http://localhost:9999/getCandidates,0,0,2029
+1664865557308,17039,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-706,text,false,,2441,0,296,296,http://localhost:9999/getCandidates,0,0,2033
+1664865557312,17035,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-707,text,false,,2441,0,296,296,http://localhost:9999/getCandidates,0,0,2029
+1664865557302,17045,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-705,text,false,,2441,0,296,296,http://localhost:9999/getCandidates,0,0,2039
+1664865557331,17016,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-711,text,false,,2441,0,294,294,http://localhost:9999/getCandidates,0,0,2010
+1664865557326,17037,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-710,text,false,,2441,0,292,292,http://localhost:9999/getCandidates,0,0,2030
+1664865557316,17047,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-708,text,false,,2441,0,292,292,http://localhost:9999/getCandidates,0,0,2040
+1664865557321,17042,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-709,text,false,,2441,0,292,292,http://localhost:9999/getCandidates,0,0,2028
+1664865557362,17032,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-717,text,false,,2441,0,289,289,http://localhost:9999/getCandidates,0,0,2021
+1664865557341,17053,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-713,text,false,,2441,0,289,289,http://localhost:9999/getCandidates,0,0,2042
+1664865557351,17044,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-715,text,false,,2441,0,288,288,http://localhost:9999/getCandidates,0,0,2033
+1664865557346,17049,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-714,text,false,,2441,0,289,289,http://localhost:9999/getCandidates,0,0,2037
+1664865557336,17059,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-712,text,false,,2441,0,287,287,http://localhost:9999/getCandidates,0,0,2047
+1664865557357,17038,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-716,text,false,,2441,0,284,284,http://localhost:9999/getCandidates,0,0,2026
+1664865557371,17039,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-719,text,false,,2441,0,283,283,http://localhost:9999/getCandidates,0,0,2028
+1664865557376,17034,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-720,text,false,,2441,0,283,283,http://localhost:9999/getCandidates,0,0,2023
+1664865557366,17044,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-718,text,false,,2441,0,283,283,http://localhost:9999/getCandidates,0,0,2033
+1664865557391,17035,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-723,text,false,,2441,0,280,280,http://localhost:9999/getCandidates,0,0,2024
+1664865557381,17046,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-721,text,false,,2441,0,280,280,http://localhost:9999/getCandidates,0,0,2034
+1664865557386,17041,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-722,text,false,,2441,0,279,279,http://localhost:9999/getCandidates,0,0,2029
+1664865557396,17045,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-724,text,false,,2441,0,277,277,http://localhost:9999/getCandidates,0,0,2035
+1664865557401,17041,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-725,text,false,,2441,0,277,277,http://localhost:9999/getCandidates,0,0,2030
+1664865557406,17036,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-726,text,false,,2441,0,275,275,http://localhost:9999/getCandidates,0,0,2025
+1664865557426,17031,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-730,text,false,,2441,0,274,274,http://localhost:9999/getCandidates,0,0,2021
+1664865557421,17036,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-729,text,false,,2441,0,274,274,http://localhost:9999/getCandidates,0,0,2026
+1664865557417,17040,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-728,text,false,,2441,0,272,272,http://localhost:9999/getCandidates,0,0,2030
+1664865557412,17045,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-727,text,false,,2441,0,272,272,http://localhost:9999/getCandidates,0,0,2035
+1664865557437,17035,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-732,text,false,,2441,0,270,270,http://localhost:9999/getCandidates,0,0,2025
+1664865557432,17040,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-731,text,false,,2441,0,270,270,http://localhost:9999/getCandidates,0,0,2030
+1664865557447,17041,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-734,text,false,,2441,0,268,268,http://localhost:9999/getCandidates,0,0,2031
+1664865557451,17052,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-735,text,false,,2441,0,267,267,http://localhost:9999/getCandidates,0,0,2043
+1664865557456,17047,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-736,text,false,,2441,0,267,267,http://localhost:9999/getCandidates,0,0,2038
+1664865557461,17042,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-737,text,false,,2441,0,267,267,http://localhost:9999/getCandidates,0,0,2033
+1664865557442,17061,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-733,text,false,,2441,0,267,267,http://localhost:9999/getCandidates,0,0,2052
+1664865557468,17036,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-738,text,false,,2441,0,263,263,http://localhost:9999/getCandidates,0,0,2026
+1664865557472,17047,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-739,text,false,,2441,0,262,262,http://localhost:9999/getCandidates,0,0,2038
+1664865557476,17043,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-740,text,false,,2441,0,262,262,http://localhost:9999/getCandidates,0,0,2034
+1664865557481,17038,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-741,text,false,,2441,0,262,262,http://localhost:9999/getCandidates,0,0,2029
+1664865557486,17033,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-742,text,false,,2441,0,259,259,http://localhost:9999/getCandidates,0,0,2024
+1664865557502,17033,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-745,text,false,,2441,0,258,258,http://localhost:9999/getCandidates,0,0,2024
+1664865557491,17044,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-743,text,false,,2441,0,258,258,http://localhost:9999/getCandidates,0,0,2035
+1664865557496,17041,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-744,text,false,,2441,0,256,256,http://localhost:9999/getCandidates,0,0,2030
+1664865557506,17044,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-746,text,false,,2441,0,255,255,http://localhost:9999/getCandidates,0,0,2036
+1664865557512,17038,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-747,text,false,,2441,0,255,255,http://localhost:9999/getCandidates,0,0,2030
+1664865557517,17033,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-748,text,false,,2441,0,254,254,http://localhost:9999/getCandidates,0,0,2025
+1664865557526,17040,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-750,text,false,,2441,0,252,252,http://localhost:9999/getCandidates,0,0,2032
+1664865557531,17035,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-751,text,false,,2441,0,252,252,http://localhost:9999/getCandidates,0,0,2027
+1664865557522,17044,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-749,text,false,,2441,0,251,251,http://localhost:9999/getCandidates,0,0,2036
+1664865557541,17040,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-753,text,false,,2441,0,249,249,http://localhost:9999/getCandidates,0,0,2033
+1664865557536,17045,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-752,text,false,,2441,0,249,249,http://localhost:9999/getCandidates,0,0,2038
+1664865557546,17036,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-754,text,false,,2441,0,249,249,http://localhost:9999/getCandidates,0,0,2028
+1664865557561,17036,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-757,text,false,,2441,0,246,246,http://localhost:9999/getCandidates,0,0,2029
+1664865557551,17046,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-755,text,false,,2441,0,246,246,http://localhost:9999/getCandidates,0,0,2039
+1664865557557,17040,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-756,text,false,,2441,0,246,246,http://localhost:9999/getCandidates,0,0,2033
+1664865557567,17046,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-758,text,false,,2441,0,243,243,http://localhost:9999/getCandidates,0,0,2038
+1664865557577,17036,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-760,text,false,,2441,0,243,243,http://localhost:9999/getCandidates,0,0,2028
+1664865557581,17032,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-761,text,false,,2441,0,243,243,http://localhost:9999/getCandidates,0,0,2024
+1664865557572,17041,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-759,text,false,,2441,0,243,242,http://localhost:9999/getCandidates,0,0,2033
+1664865557607,17037,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-766,text,false,,2441,0,239,239,http://localhost:9999/getCandidates,0,0,2030
+1664865557607,17037,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-763,text,false,,2441,0,239,239,http://localhost:9999/getCandidates,0,0,2030
+1664865557607,17037,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-764,text,false,,2441,0,238,238,http://localhost:9999/getCandidates,0,0,2030
+1664865557611,17033,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-767,text,false,,2441,0,237,237,http://localhost:9999/getCandidates,0,0,2026
+1664865557607,17037,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-762,text,false,,2441,0,235,235,http://localhost:9999/getCandidates,0,0,2030
+1664865557607,17037,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-765,text,false,,2441,0,235,235,http://localhost:9999/getCandidates,0,0,2030
+1664865557622,17037,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-769,text,false,,2441,0,233,233,http://localhost:9999/getCandidates,0,0,2031
+1664865557627,17033,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-770,text,false,,2441,0,233,233,http://localhost:9999/getCandidates,0,0,2026
+1664865557616,17044,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-768,text,false,,2441,0,231,231,http://localhost:9999/getCandidates,0,0,2037
+1664865557632,17043,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-771,text,false,,2441,0,230,230,http://localhost:9999/getCandidates,0,0,2037
+1664865557657,17034,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-776,text,false,,2441,0,229,229,http://localhost:9999/getCandidates,0,0,2028
+1664865557637,17054,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-772,text,false,,2441,0,229,229,http://localhost:9999/getCandidates,0,0,2048
+1664865557647,17044,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-774,text,false,,2441,0,228,228,http://localhost:9999/getCandidates,0,0,2038
+1664865557652,17039,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-775,text,false,,2441,0,227,227,http://localhost:9999/getCandidates,0,0,2033
+1664865557642,17049,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-773,text,false,,2441,0,227,227,http://localhost:9999/getCandidates,0,0,2043
+1664865557667,17039,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-778,text,false,,2441,0,224,224,http://localhost:9999/getCandidates,0,0,2038
+1664865557662,17045,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-777,text,false,,2441,0,224,224,http://localhost:9999/getCandidates,0,0,2038
+1664865557672,17035,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-779,text,false,,2441,0,224,224,http://localhost:9999/getCandidates,0,0,2028
+1664865557687,17035,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-782,text,false,,2441,0,221,221,http://localhost:9999/getCandidates,0,0,2029
+1664865557678,17044,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-780,text,false,,2441,0,221,221,http://localhost:9999/getCandidates,0,0,2038
+1664865557683,17039,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-781,text,false,,2441,0,220,220,http://localhost:9999/getCandidates,0,0,2033
+1664865557697,17041,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-784,text,false,,2441,0,218,218,http://localhost:9999/getCandidates,0,0,2036
+1664865557692,17046,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-783,text,false,,2441,0,218,218,http://localhost:9999/getCandidates,0,0,2041
+1664865557707,17031,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-786,text,false,,2441,0,218,218,http://localhost:9999/getCandidates,0,0,2025
+1664865557702,17036,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-785,text,false,,2441,0,216,216,http://localhost:9999/getCandidates,0,0,2030
+1664865557712,17026,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-787,text,false,,2441,0,214,214,http://localhost:9999/getCandidates,0,0,2020
+1664865557732,17021,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-791,text,false,,2441,0,213,213,http://localhost:9999/getCandidates,0,0,2016
+1664865557727,17026,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-790,text,false,,2441,0,213,213,http://localhost:9999/getCandidates,0,0,2021
+1664865557717,17036,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-788,text,false,,2441,0,213,213,http://localhost:9999/getCandidates,0,0,2031
+1664865557722,17032,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-789,text,false,,2441,0,210,210,http://localhost:9999/getCandidates,0,0,2026
+1664865557752,17017,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-795,text,false,,2441,0,209,209,http://localhost:9999/getCandidates,0,0,2012
+1664865557738,17031,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-792,text,false,,2441,0,209,209,http://localhost:9999/getCandidates,0,0,2031
+1664865557746,17023,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-794,text,false,,2441,0,208,208,http://localhost:9999/getCandidates,0,0,2018
+1664865557743,17026,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-793,text,false,,2441,0,206,206,http://localhost:9999/getCandidates,0,0,2021
+1664865557762,17023,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-797,text,false,,2441,0,205,205,http://localhost:9999/getCandidates,0,0,2018
+1664865557767,17017,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-798,text,false,,2441,0,205,205,http://localhost:9999/getCandidates,0,0,2013
+1664865557757,17028,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-796,text,false,,2441,0,205,205,http://localhost:9999/getCandidates,0,0,2023
+1664865557777,17023,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-800,text,false,,2441,0,202,202,http://localhost:9999/getCandidates,0,0,2018
+1664865557782,17018,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-801,text,false,,2441,0,202,202,http://localhost:9999/getCandidates,0,0,2013
+1664865557772,17028,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-799,text,false,,2441,0,202,202,http://localhost:9999/getCandidates,0,0,2023
+1664865557797,17019,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-804,text,false,,2441,0,199,199,http://localhost:9999/getCandidates,0,0,2014
+1664865557792,17024,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-803,text,false,,2441,0,199,199,http://localhost:9999/getCandidates,0,0,2019
+1664865557811,17020,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-807,text,false,,2441,0,197,197,http://localhost:9999/getCandidates,0,0,2016
+1664865557786,17045,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-802,text,false,,2441,0,197,197,http://localhost:9999/getCandidates,0,0,2042
+1664865557816,17031,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-808,text,false,,2441,0,195,195,http://localhost:9999/getCandidates,0,0,2027
+1664865557806,17041,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-806,text,false,,2441,0,195,195,http://localhost:9999/getCandidates,0,0,2033
+1664865557821,17026,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-809,text,false,,2441,0,195,195,http://localhost:9999/getCandidates,0,0,2023
+1664865557826,17021,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-810,text,false,,2441,0,192,192,http://localhost:9999/getCandidates,0,0,2018
+1664865557801,17046,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-805,text,false,,2441,0,192,192,http://localhost:9999/getCandidates,0,0,2038
+1664865557842,17021,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-813,text,false,,2441,0,190,190,http://localhost:9999/getCandidates,0,0,2020
+1664865557836,17027,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-812,text,false,,2441,0,190,190,http://localhost:9999/getCandidates,0,0,2025
+1664865557831,17032,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-811,text,false,,2441,0,190,190,http://localhost:9999/getCandidates,0,0,2028
+1664865557861,17033,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-817,text,false,,2441,0,187,187,http://localhost:9999/getCandidates,0,0,2029
+1664865557851,17043,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-815,text,false,,2441,0,187,187,http://localhost:9999/getCandidates,0,0,2039
+1664865557847,17047,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-814,text,false,,2441,0,187,187,http://localhost:9999/getCandidates,0,0,2043
+1664865557866,17028,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-818,text,false,,2441,0,187,187,http://localhost:9999/getCandidates,0,0,2024
+1664865557872,17022,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-819,text,false,,2441,0,183,183,http://localhost:9999/getCandidates,0,0,2018
+1664865557856,17038,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-816,text,false,,2441,0,182,182,http://localhost:9999/getCandidates,0,0,2034
+1664865557891,17018,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-823,text,false,,2441,0,181,181,http://localhost:9999/getCandidates,0,0,2015
+1664865557881,17028,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-821,text,false,,2441,0,181,181,http://localhost:9999/getCandidates,0,0,2025
+1664865557886,17024,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-822,text,false,,2441,0,179,179,http://localhost:9999/getCandidates,0,0,2020
+1664865557876,17053,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-820,text,false,,2441,0,179,179,http://localhost:9999/getCandidates,0,0,2030
+1664865557897,17033,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-824,text,false,,2441,0,177,177,http://localhost:9999/getCandidates,0,0,2025
+1664865557921,17020,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-829,text,false,,2441,0,176,176,http://localhost:9999/getCandidates,0,0,2017
+1664865557912,17029,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-825,text,false,,2441,0,176,176,http://localhost:9999/getCandidates,0,0,2026
+1664865557912,17029,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-827,text,false,,2441,0,176,176,http://localhost:9999/getCandidates,0,0,2026
+1664865557912,17030,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-826,text,false,,2441,0,176,176,http://localhost:9999/getCandidates,0,0,2026
+1664865557917,17025,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-828,text,false,,2441,0,172,172,http://localhost:9999/getCandidates,0,0,2021
+1664865557926,17031,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-830,text,false,,2441,0,171,171,http://localhost:9999/getCandidates,0,0,2028
+1664865557932,17025,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-831,text,false,,2441,0,171,171,http://localhost:9999/getCandidates,0,0,2022
+1664865557937,17020,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-832,text,false,,2441,0,171,171,http://localhost:9999/getCandidates,0,0,2017
+1664865557941,17032,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-833,text,false,,2441,0,168,168,http://localhost:9999/getCandidates,0,0,2029
+1664865557951,17022,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-835,text,false,,2441,0,168,168,http://localhost:9999/getCandidates,0,0,2019
+1664865557946,17027,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-834,text,false,,2441,0,167,167,http://localhost:9999/getCandidates,0,0,2024
+1664865557966,17023,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-838,text,false,,2441,0,165,165,http://localhost:9999/getCandidates,0,0,2019
+1664865557956,17033,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-836,text,false,,2441,0,165,165,http://localhost:9999/getCandidates,0,0,2029
+1664865557961,17028,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-837,text,false,,2441,0,165,165,http://localhost:9999/getCandidates,0,0,2025
+1664865557977,17027,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-840,text,false,,2441,0,162,162,http://localhost:9999/getCandidates,0,0,2024
+1664865557972,17032,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-839,text,false,,2441,0,162,162,http://localhost:9999/getCandidates,0,0,2029
+1664865557982,17022,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-841,text,false,,2441,0,162,162,http://localhost:9999/getCandidates,0,0,2019
+1664865557996,17024,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-844,text,false,,2441,0,159,159,http://localhost:9999/getCandidates,0,0,2021
+1664865557986,17034,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-842,text,false,,2441,0,159,159,http://localhost:9999/getCandidates,0,0,2031
+1664865557991,17029,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-843,text,false,,2441,0,159,159,http://localhost:9999/getCandidates,0,0,2026
+1664865558011,17024,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-847,text,false,,2441,0,156,156,http://localhost:9999/getCandidates,0,0,2020
+1664865558001,17035,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-845,text,false,,2441,0,156,156,http://localhost:9999/getCandidates,0,0,2030
+1664865558006,17030,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-846,text,false,,2441,0,156,156,http://localhost:9999/getCandidates,0,0,2025
+1664865558027,17024,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-850,text,false,,2441,0,153,153,http://localhost:9999/getCandidates,0,0,2020
+1664865558022,17029,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-849,text,false,,2441,0,153,153,http://localhost:9999/getCandidates,0,0,2025
+1664865558016,17035,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-848,text,false,,2441,0,153,153,http://localhost:9999/getCandidates,0,0,2031
+1664865558031,17020,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-851,text,false,,2441,0,150,150,http://localhost:9999/getCandidates,0,0,2016
+1664865558036,17031,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-852,text,false,,2441,0,149,149,http://localhost:9999/getCandidates,0,0,2028
+1664865558046,17021,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-854,text,false,,2441,0,149,149,http://localhost:9999/getCandidates,0,0,2016
+1664865558041,17026,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-853,text,false,,2441,0,148,148,http://localhost:9999/getCandidates,0,0,2021
+1664865558061,17022,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-857,text,false,,2441,0,146,146,http://localhost:9999/getCandidates,0,0,2017
+1664865558051,17032,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-855,text,false,,2441,0,146,146,http://localhost:9999/getCandidates,0,0,2028
+1664865558056,17027,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-856,text,false,,2441,0,146,146,http://localhost:9999/getCandidates,0,0,2023
+1664865558077,17021,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-860,text,false,,2441,0,143,143,http://localhost:9999/getCandidates,0,0,2017
+1664865558066,17032,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-858,text,false,,2441,0,143,143,http://localhost:9999/getCandidates,0,0,2032
+1664865558072,17026,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-859,text,false,,2441,0,143,143,http://localhost:9999/getCandidates,0,0,2022
+1664865558081,17033,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-861,text,false,,2441,0,140,140,http://localhost:9999/getCandidates,0,0,2029
+1664865558091,17023,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-863,text,false,,2441,0,140,140,http://localhost:9999/getCandidates,0,0,2019
+1664865558086,17028,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-862,text,false,,2441,0,139,139,http://localhost:9999/getCandidates,0,0,2024
+1664865558096,17033,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-864,text,false,,2441,0,137,137,http://localhost:9999/getCandidates,0,0,2030
+1664865558106,17023,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-866,text,false,,2441,0,137,137,http://localhost:9999/getCandidates,0,0,2020
+1664865558101,17028,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-865,text,false,,2441,0,137,137,http://localhost:9999/getCandidates,0,0,2025
+1664865558111,17034,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-867,text,false,,2441,0,134,134,http://localhost:9999/getCandidates,0,0,2031
+1664865558117,17028,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-868,text,false,,2441,0,134,134,http://localhost:9999/getCandidates,0,0,2025
+1664865558122,17023,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-869,text,false,,2441,0,132,132,http://localhost:9999/getCandidates,0,0,2026
+1664865558136,17024,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-872,text,false,,2441,0,131,131,http://localhost:9999/getCandidates,0,0,2022
+1664865558126,17035,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-870,text,false,,2441,0,131,131,http://localhost:9999/getCandidates,0,0,2032
+1664865558146,17030,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-874,text,false,,2441,0,129,129,http://localhost:9999/getCandidates,0,0,2028
+1664865558141,17035,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-873,text,false,,2441,0,129,129,http://localhost:9999/getCandidates,0,0,2033
+1664865558151,17025,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-875,text,false,,2441,0,129,129,http://localhost:9999/getCandidates,0,0,2023
+1664865558156,17020,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-876,text,false,,2441,0,126,126,http://localhost:9999/getCandidates,0,0,2018
+1664865558131,17045,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-871,text,false,,2441,0,126,126,http://localhost:9999/getCandidates,0,0,2043
+1664865558172,17020,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-879,text,false,,2441,0,124,124,http://localhost:9999/getCandidates,0,0,2018
+1664865558166,17026,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-878,text,false,,2441,0,124,124,http://localhost:9999/getCandidates,0,0,2024
+1664865558161,17031,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-877,text,false,,2441,0,123,123,http://localhost:9999/getCandidates,0,0,2029
+1664865558186,17021,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-882,text,false,,2441,0,121,121,http://localhost:9999/getCandidates,0,0,2019
+1664865558177,17031,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-880,text,false,,2441,0,121,121,http://localhost:9999/getCandidates,0,0,2028
+1664865558181,17027,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-881,text,false,,2441,0,121,121,http://localhost:9999/getCandidates,0,0,2024
+1664865558201,17022,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-885,text,false,,2441,0,118,118,http://localhost:9999/getCandidates,0,0,2020
+1664865558192,17031,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-883,text,false,,2441,0,118,118,http://localhost:9999/getCandidates,0,0,2029
+1664865558196,17027,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-884,text,false,,2441,0,118,118,http://localhost:9999/getCandidates,0,0,2025
+1664865558206,17033,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-886,text,false,,2441,0,115,115,http://localhost:9999/getCandidates,0,0,2031
+1664865558212,17028,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-887,text,false,,2441,0,115,115,http://localhost:9999/getCandidates,0,0,2025
+1664865558217,17023,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-888,text,false,,2441,0,114,114,http://localhost:9999/getCandidates,0,0,2020
+1664865558226,17029,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-890,text,false,,2441,0,112,112,http://localhost:9999/getCandidates,0,0,2027
+1664865558233,17023,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-891,text,false,,2441,0,111,111,http://localhost:9999/getCandidates,0,0,2020
+1664865558222,17034,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-889,text,false,,2441,0,110,110,http://localhost:9999/getCandidates,0,0,2031
+1664865558241,17029,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-893,text,false,,2441,0,109,109,http://localhost:9999/getCandidates,0,0,2028
+1664865558237,17033,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-892,text,false,,2441,0,109,109,http://localhost:9999/getCandidates,0,0,2032
+1664865558246,17024,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-894,text,false,,2441,0,108,108,http://localhost:9999/getCandidates,0,0,2023
+1664865558267,17019,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-898,text,false,,2441,0,106,106,http://localhost:9999/getCandidates,0,0,2018
+1664865558256,17030,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-896,text,false,,2441,0,106,106,http://localhost:9999/getCandidates,0,0,2029
+1664865558252,17034,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-895,text,false,,2441,0,105,105,http://localhost:9999/getCandidates,0,0,2033
+1664865558262,17024,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-897,text,false,,2441,0,103,103,http://localhost:9999/getCandidates,0,0,2023
+1664865558282,17019,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-901,text,false,,2441,0,102,102,http://localhost:9999/getCandidates,0,0,2019
+1664865558272,17029,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-899,text,false,,2441,0,102,102,http://localhost:9999/getCandidates,0,0,2028
+1664865558277,17024,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-900,text,false,,2441,0,102,102,http://localhost:9999/getCandidates,0,0,2023
+1664865558296,17021,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-904,text,false,,2441,0,99,99,http://localhost:9999/getCandidates,0,0,2020
+1664865558287,17030,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-902,text,false,,2441,0,99,99,http://localhost:9999/getCandidates,0,0,2029
+1664865558291,17026,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-903,text,false,,2441,0,99,99,http://localhost:9999/getCandidates,0,0,2025
+1664865558307,17025,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-906,text,false,,2441,0,96,96,http://localhost:9999/getCandidates,0,0,2025
+1664865558302,17031,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-905,text,false,,2441,0,96,96,http://localhost:9999/getCandidates,0,0,2030
+1664865558312,17021,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-907,text,false,,2441,0,96,96,http://localhost:9999/getCandidates,0,0,2020
+1664865558317,17047,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-908,text,false,,2441,0,93,93,http://localhost:9999/getCandidates,0,0,2035
+1664865558322,17042,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-909,text,false,,2441,0,92,92,http://localhost:9999/getCandidates,0,0,2030
+1664865558336,17043,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-912,text,false,,2441,0,91,91,http://localhost:9999/getCandidates,0,0,2028
+1664865558327,17052,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-910,text,false,,2441,0,91,91,http://localhost:9999/getCandidates,0,0,2037
+1664865558332,17047,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-911,text,false,,2441,0,91,91,http://localhost:9999/getCandidates,0,0,2032
+1664865558342,17037,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-913,text,false,,2441,0,91,91,http://localhost:9999/getCandidates,0,0,2022
+1664865558371,17039,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-919,text,false,,2441,0,87,87,http://localhost:9999/getCandidates,0,0,2025
+1664865558356,17055,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-916,text,false,,2441,0,87,87,http://localhost:9999/getCandidates,0,0,2041
+1664865558351,17060,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-915,text,false,,2441,0,87,87,http://localhost:9999/getCandidates,0,0,2045
+1664865558367,17044,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-918,text,false,,2441,0,87,87,http://localhost:9999/getCandidates,0,0,2030
+1664865558347,17064,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-914,text,false,,2441,0,85,85,http://localhost:9999/getCandidates,0,0,2050
+1664865558377,17034,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-920,text,false,,2441,0,83,83,http://localhost:9999/getCandidates,0,0,2020
+1664865558361,17050,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-917,text,false,,2441,0,82,82,http://localhost:9999/getCandidates,0,0,2035
+1664865558391,17035,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-923,text,false,,2441,0,80,80,http://localhost:9999/getCandidates,0,0,2021
+1664865558386,17040,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-922,text,false,,2441,0,80,80,http://localhost:9999/getCandidates,0,0,2027
+1664865558382,17044,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-921,text,false,,2441,0,80,80,http://localhost:9999/getCandidates,0,0,2030
+1664865558406,17036,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-926,text,false,,2441,0,77,77,http://localhost:9999/getCandidates,0,0,2022
+1664865558396,17046,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-924,text,false,,2441,0,77,77,http://localhost:9999/getCandidates,0,0,2032
+1664865558401,17041,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-925,text,false,,2441,0,75,75,http://localhost:9999/getCandidates,0,0,2027
+1664865558416,17041,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-928,text,false,,2441,0,74,74,http://localhost:9999/getCandidates,0,0,2027
+1664865558411,17046,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-927,text,false,,2441,0,74,74,http://localhost:9999/getCandidates,0,0,2032
+1664865558421,17036,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-929,text,false,,2441,0,74,74,http://localhost:9999/getCandidates,0,0,2022
+1664865558441,17032,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-933,text,false,,2441,0,71,71,http://localhost:9999/getCandidates,0,0,2018
+1664865558436,17037,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-932,text,false,,2441,0,71,71,http://localhost:9999/getCandidates,0,0,2023
+1664865558427,17046,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-930,text,false,,2441,0,70,70,http://localhost:9999/getCandidates,0,0,2032
+1664865558432,17041,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-931,text,false,,2441,0,68,68,http://localhost:9999/getCandidates,0,0,2027
+1664865558446,17043,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-934,text,false,,2441,0,67,67,http://localhost:9999/getCandidates,0,0,2029
+1664865558615,17030,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-944,text,false,,2441,0,66,66,http://localhost:9999/getCandidates,0,0,2026
+1664865558614,17031,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-948,text,false,,2441,0,66,66,http://localhost:9999/getCandidates,0,0,2026
+1664865558451,17194,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-935,text,false,,2441,0,66,66,http://localhost:9999/getCandidates,0,0,2186
+1664865558612,17033,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-961,text,false,,2441,0,64,64,http://localhost:9999/getCandidates,0,0,2028
+1664865558614,17031,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-955,text,false,,2441,0,64,64,http://localhost:9999/getCandidates,0,0,2027
+1664865558616,17029,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-938,text,false,,2441,0,62,62,http://localhost:9999/getCandidates,0,0,2024
+1664865558615,17030,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-947,text,false,,2441,0,60,60,http://localhost:9999/getCandidates,0,0,2025
+1664865558613,17033,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-964,text,false,,2441,0,59,59,http://localhost:9999/getCandidates,0,0,2027
+1664865558611,17035,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-962,text,false,,2441,0,59,59,http://localhost:9999/getCandidates,0,0,2029
+1664865558612,17034,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-959,text,false,,2441,0,58,58,http://localhost:9999/getCandidates,0,0,2029
+1664865558617,17029,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-953,text,false,,2441,0,56,56,http://localhost:9999/getCandidates,0,0,2022
+1664865558613,17033,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-963,text,false,,2441,0,56,56,http://localhost:9999/getCandidates,0,0,2024
+1664865558614,17032,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-952,text,false,,2441,0,55,55,http://localhost:9999/getCandidates,0,0,2026
+1664865558611,17035,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-960,text,false,,2441,0,53,53,http://localhost:9999/getCandidates,0,0,2028
+1664865558611,17035,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-965,text,false,,2441,0,53,53,http://localhost:9999/getCandidates,0,0,2029
+1664865558617,17029,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-950,text,false,,2441,0,52,52,http://localhost:9999/getCandidates,0,0,2023
+1664865558612,17034,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-967,text,false,,2441,0,51,51,http://localhost:9999/getCandidates,0,0,2028
+1664865558616,17030,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-958,text,false,,2441,0,50,50,http://localhost:9999/getCandidates,0,0,2024
+1664865558615,17032,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-946,text,false,,2441,0,48,48,http://localhost:9999/getCandidates,0,0,2024
+1664865558613,17034,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-954,text,false,,2441,0,48,48,http://localhost:9999/getCandidates,0,0,2028
+1664865558611,17036,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-966,text,false,,2441,0,47,47,http://localhost:9999/getCandidates,0,0,2029
+1664865558615,17032,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-939,text,false,,2441,0,45,45,http://localhost:9999/getCandidates,0,0,2025
+1664865558617,17043,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-936,text,false,,2441,0,44,44,http://localhost:9999/getCandidates,0,0,2035
+1664865558617,17043,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-949,text,false,,2441,0,44,44,http://localhost:9999/getCandidates,0,0,2035
+1664865558616,17045,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-937,text,false,,2441,0,44,44,http://localhost:9999/getCandidates,0,0,2036
+1664865558616,17045,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-940,text,false,,2441,0,42,41,http://localhost:9999/getCandidates,0,0,2036
+1664865558627,17034,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-970,text,false,,2441,0,40,40,http://localhost:9999/getCandidates,0,0,2025
+1664865558616,17045,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-951,text,false,,2441,0,40,40,http://localhost:9999/getCandidates,0,0,2036
+1664865558617,17044,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-941,text,false,,2441,0,39,39,http://localhost:9999/getCandidates,0,0,2035
+1664865558615,17046,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-942,text,false,,2441,0,37,37,http://localhost:9999/getCandidates,0,0,2036
+1664865558617,17044,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-968,text,false,,2441,0,37,37,http://localhost:9999/getCandidates,0,0,2035
+1664865558616,17045,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-945,text,false,,2441,0,36,36,http://localhost:9999/getCandidates,0,0,2036
+1664865558616,17045,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-957,text,false,,2441,0,35,35,http://localhost:9999/getCandidates,0,0,2036
+1664865558622,17039,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-969,text,false,,2441,0,34,34,http://localhost:9999/getCandidates,0,0,2030
+1664865558617,17045,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-956,text,false,,2441,0,32,32,http://localhost:9999/getCandidates,0,0,2035
+1664865558617,17045,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-943,text,false,,2441,0,31,31,http://localhost:9999/getCandidates,0,0,2034
+1664865558637,17039,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-972,text,false,,2441,0,30,30,http://localhost:9999/getCandidates,0,0,2029
+1664865558642,17034,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-973,text,false,,2441,0,30,30,http://localhost:9999/getCandidates,0,0,2024
+1664865558647,17029,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-974,text,false,,2441,0,29,29,http://localhost:9999/getCandidates,0,0,2019
+1664865558632,17060,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-971,text,false,,2441,0,27,27,http://localhost:9999/getCandidates,0,0,2050
+1664865558652,17040,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-975,text,false,,2441,0,27,27,http://localhost:9999/getCandidates,0,0,2030
+1664865558657,17035,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-976,text,false,,2441,0,27,27,http://localhost:9999/getCandidates,0,0,2025
+1664865558663,17029,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-977,text,false,,2441,0,24,24,http://localhost:9999/getCandidates,0,0,2020
+1664865558677,17030,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-980,text,false,,2441,0,23,23,http://localhost:9999/getCandidates,0,0,2021
+1664865558672,17036,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-979,text,false,,2441,0,23,23,http://localhost:9999/getCandidates,0,0,2026
+1664865558668,17040,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-978,text,false,,2441,0,22,22,http://localhost:9999/getCandidates,0,0,2030
+1664865558682,17041,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-981,text,false,,2441,0,20,20,http://localhost:9999/getCandidates,0,0,2032
+1664865558687,17036,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-982,text,false,,2441,0,20,20,http://localhost:9999/getCandidates,0,0,2027
+1664865558697,17026,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-984,text,false,,2441,0,20,20,http://localhost:9999/getCandidates,0,0,2022
+1664865558712,17027,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-987,text,false,,2441,0,17,17,http://localhost:9999/getCandidates,0,0,2017
+1664865558702,17037,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-985,text,false,,2441,0,17,17,http://localhost:9999/getCandidates,0,0,2028
+1664865558707,17032,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-986,text,false,,2441,0,17,17,http://localhost:9999/getCandidates,0,0,2023
+1664865558692,17047,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-983,text,false,,2441,0,15,15,http://localhost:9999/getCandidates,0,0,2038
+1664865558718,17036,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-988,text,false,,2441,0,13,13,http://localhost:9999/getCandidates,0,0,2028
+1664865558723,17031,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-989,text,false,,2441,0,13,13,http://localhost:9999/getCandidates,0,0,2023
+1664865558727,17027,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-990,text,false,,2441,0,13,13,http://localhost:9999/getCandidates,0,0,2019
+1664865558732,17038,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-991,text,false,,2441,0,10,10,http://localhost:9999/getCandidates,0,0,2029
+1664865558742,17028,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-993,text,false,,2441,0,10,10,http://localhost:9999/getCandidates,0,0,2020
+1664865558737,17033,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-992,text,false,,2441,0,10,10,http://localhost:9999/getCandidates,0,0,2025
+1664865558747,17038,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-994,text,false,,2441,0,7,7,http://localhost:9999/getCandidates,0,0,2031
+1664865558752,17033,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-995,text,false,,2441,0,7,7,http://localhost:9999/getCandidates,0,0,2026
+1664865558757,17029,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-996,text,false,,2441,0,7,7,http://localhost:9999/getCandidates,0,0,2021
+1664865558778,17023,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-1000,text,false,,2441,0,4,4,http://localhost:9999/getCandidates,0,0,2016
+1664865558772,17029,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-999,text,false,,2441,0,4,4,http://localhost:9999/getCandidates,0,0,2022
+1664865558762,17039,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-997,text,false,,2441,0,4,4,http://localhost:9999/getCandidates,0,0,2032
+1664865558767,17034,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,100T getCandidates 1-998,text,false,,2441,0,4,4,http://localhost:9999/getCandidates,0,0,2027
