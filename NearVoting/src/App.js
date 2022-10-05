@@ -15,12 +15,14 @@ function App() {
 
   const [phases, setphase] = useState([]);
   const [selectValue, setselectvalue] = useState('');
-
+  const [successOpen, setsuccessOpen] = React.useState(false)  
   async function handleChange(e) {
     setselectvalue(e.target.value);
     console.log("this is the dropdown " + e.target.value)
   }
-
+  async function handleModalChange(e) {
+    setsuccessOpen(false);
+  }
   async function submitPhase(e) {
     e.preventDefault()
     console.log("this is the dropdown " + selectValue)
@@ -40,11 +42,12 @@ function App() {
     } finally {
       var temp = { 'phase': selectValue, 'phasenumber': 0 }
       setphase([...phases, temp])
-      console.log(phases)
-      console.log("PHASE added")
+      // console.log(phases)
+      // console.log("PHASE added")
+      setsuccessOpen(true)
     }
-    console.log("here is the phaselist")
-    console.log("this is phase length from submitcandidate" + phases.length)
+    // console.log("here is the phaselist")
+    // console.log("this is phase length from submitcandidate" + phases.length)
   }
 
   React.useEffect(
@@ -78,7 +81,10 @@ function App() {
             <Routes>
               <Route path="" element={value.phase == 2 ? <Landing /> : <NoLanding />} />
               <Route path="admin/register" element={value.phase == 1 ? <CandidateRegistration /> : <NoVoterRegistration />} />
-              <Route path="admin/change" element={<ChangeStatePage phases={phases} setphase={setphase.bind(this)} selectValue={selectValue} submit={submitPhase.bind(this)} handleChange={handleChange.bind(this)} />} />
+              <Route path="admin/change" element={<ChangeStatePage phases={phases} 
+               selectValue={selectValue} 
+              submit={submitPhase.bind(this)} handleChange={handleChange.bind(this)} 
+              successOpen={successOpen} handleModalChange={handleModalChange.bind(this)}/>} />
               <Route path="register" element={value.phase == 1 ? <VoterRegistration /> : <NoVoterRegistration />} />
               <Route path="results" element={value.phase == 3 ? <ResultsPage /> : <NoResultsPage />} />
 
@@ -92,7 +98,7 @@ function App() {
           <Routes>
             <Route path="" element={<NoLanding />} />
             <Route path="admin/register" element={<NoVoterRegistration />} />
-            <Route path="admin/change" element={<ChangeStatePage phases={phases} setphase={setphase.bind(this)} selectValue={selectValue} submit={submitPhase.bind(this)} handleChange={handleChange.bind(this)} />} />
+            <Route path="admin/change" element={<ChangeStatePage phases={phases} setphase={setphase.bind(this)} selectValue={selectValue} submit={submitPhase.bind(this)} handleChange={handleChange.bind(this)} successOpen={successOpen} setssucessOpen={()=>setsuccessOpen(false)}/>} />
             <Route path="register" element={<NoVoterRegistration />} />
             <Route path="results" element={<NoResultsPage />} />
 
