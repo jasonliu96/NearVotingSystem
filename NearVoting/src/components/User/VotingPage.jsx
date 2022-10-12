@@ -1,76 +1,55 @@
 import React from 'react';
 import axios from 'axios'
-import { login, logout } from '../../utils'
 import getConfig from '../../config'
 import { Card, CardActions, CardContent, Typography, Button, Box} from '@mui/material';
-import CloseIcon from '@mui/icons-material/Close';
 import  Notification  from '../Notification';
-import ConfirmationModal from '../ConfirmationModal';
-function Landing() {
+
+function VotingPage() {
   const serverUrl = 'http://localhost:9999'
   const [candidates, setCandidates] = React.useState([])
-  const [selectedCandidate, setSelCandidate] = React.useState(0)
   const [showNotification, setShowNotification] = React.useState(false)
-  const [showModal, setShowModal] = React.useState(false)
   const [msg, setMsg ] = React.useState('Submitted a Vote')
-  const closeModal = () => {
-    setShowModal(false);
-  };
-  const openModal = () => {
-    setShowModal(true);
-  };
+  const oids = [{"name":"632b3bd151339158d5cfdac3","votes":8},{"name":"632b3e1b51339158d5cfdad5","votes":5},{"name":"632b4d26f700a18815fcd898","votes":5}]
 
-  async function confirmDelete (e){
-    e.preventDefault();
-    if(e.target.value==="Delete"){
-      const idx = parseInt(selectedCandidate)
-      try {
-        // make an update call to the smart contract
-        await window.contract.removeCandidate({
-          // pass the value that the user entered in the greeting field
-          index: idx
-        })
-      } catch (e) {
-        alert(
-          'Something went wrong! ' +
-          'Maybe you need to sign out and back in? ' +
-          'Check your browser console for more info.'
+//   React.useEffect(
+//     () => {
+//       // in this case, we only care to query the contract when signed in
+//       if (window.walletConnection.isSignedIn()) {
+//         var oids;
+//         // window.contract is set by initContract in index.js
+//         window.contract.getCandidates({  })
+//           .then(candidateFromContract => {
+//             // setCandidates(candidateFromContract)
+//             oids = candidateFromContract
+//             // console.log(oids)
+//             axios.post(`${serverUrl}/candidate/getCandidateInfo`,{oids}).then(
+//               (res)=>{
+//                 if(res.status==200){
+//                   setCandidates(res.data)
+//                 }
+//               }
+//             )
+//           })
+//       }
+//     },
+//     // The second argument to useEffect tells React when to re-run the effect
+//     // Use an empty array to specify "only run on first render"
+//     // This works because signing into NEAR Wallet reloads the page
+//     []
+//   )
+
+React.useEffect(
+    () =>{
+        axios.post(`${serverUrl}/candidate/getCandidateInfo`,{oids}).then(
+        (res)=>{
+            if(res.status==200){
+            setCandidates(res.data)
+            }
+        }
         )
-        throw e
-      } finally {
-        setShowNotification(true)
-      }
-    }
-    else {}
-    closeModal()
-  }
-  React.useEffect(
-    () => {
-      // in this case, we only care to query the contract when signed in
-      if (window.walletConnection.isSignedIn()) {
-        var oids;
-        // window.contract is set by initContract in index.js
-        window.contract.getCandidates({  })
-          .then(candidateFromContract => {
-            // setCandidates(candidateFromContract)
-            oids = candidateFromContract
-            console.log(oids)
-            axios.post(`${serverUrl}/candidate/getCandidateInfo`,{oids}).then(
-              (res)=>{
-                if(res.status==200){
-                  setCandidates(res.data)
-                }
-              }
-            )
-          })
-      }
     },
-
-    // The second argument to useEffect tells React when to re-run the effect
-    // Use an empty array to specify "only run on first render"
-    // This works because signing into NEAR Wallet reloads the page
     []
-  )
+)
   async function submitVote(e){
     e.preventDefault()
     console.log(e.target.value)
@@ -95,7 +74,6 @@ function Landing() {
         if (index === idx) {
           return {...cand, votes: cand.votes+1};
         }
-  
         // 👇️ otherwise return object as is
         return cand;
       });
@@ -103,13 +81,6 @@ function Landing() {
       setShowNotification(true)
     }
   }
-  const  removeCandidate = (e) =>{
-    e.preventDefault()
-    setMsg('Removed Candidate')
-    setSelCandidate(e.currentTarget.value)
-    openModal()
-  }
-
   return (
     <>
     <main>
@@ -147,7 +118,6 @@ function Landing() {
           </CardContent>
           <CardActions>
             <Button onClick={submitVote} value={index} size="small">Vote</Button>
-            <Button onClick={removeCandidate} value={index}><CloseIcon/></Button>
           </CardActions>
         </Card>
       ))
@@ -156,14 +126,9 @@ function Landing() {
       </Box>
       </div>
     </main>
-    {showModal && <ConfirmationModal 
-        onSubmit={confirmDelete}
-        open={showModal}
-        closeModal={closeModal}
-        selectedCandidate={candidates[selectedCandidate].name}/>}
     {showNotification && <Notification method={msg}/>}
     </>
   );
 }
 
-export default Landing;
+export default VotingPage;

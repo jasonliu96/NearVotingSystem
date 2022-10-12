@@ -10,6 +10,9 @@ import ResultsPage from './components/User/ResultsPage';
 import NoResultsPage from './components/User/NoResultsPage';
 import VoterRegistration from './components/User/VoterRegistration';
 import NoVoterRegistration from './components/User/NoVoterRegistration';
+import VotingPage from './components/User/VotingPage';
+import ConnectionCheck from './components/ConnectionCheck';
+import AdminPage from './components/Admin/AdminPage';
 
 function App() {
 
@@ -49,7 +52,16 @@ function App() {
     // console.log("here is the phaselist")
     // console.log("this is phase length from submitcandidate" + phases.length)
   }
-
+  if (!window.walletConnection.isSignedIn()) {
+    return (
+        <>
+        <Router>
+        <Navbar/>
+        <ConnectionCheck/>
+        </Router>
+        </>
+    )
+  }
   React.useEffect(
     () => {
       // in this case, we only care to query the contract when signed in
@@ -70,7 +82,6 @@ function App() {
     // This works because signing into NEAR Wallet reloads the page
     []
   )
-
   return (
     <div className="App">
       {phases?.length > 0
@@ -80,11 +91,15 @@ function App() {
             <Navbar />
             <Routes>
               <Route path="" element={value.phase == 2 ? <Landing /> : <NoLanding />} />
+              <Route path="admin" element ={<AdminPage/>}/>
               <Route path="admin/register" element={value.phase == 1 ? <CandidateRegistration /> : <NoVoterRegistration />} />
               <Route path="admin/change" element={<ChangeStatePage phases={phases} 
                selectValue={selectValue} 
               submit={submitPhase.bind(this)} handleChange={handleChange.bind(this)} 
               successOpen={successOpen} handleModalChange={handleModalChange.bind(this)}/>} />
+              {/* <Route path="vote" element={value.phase == 2 ?<VotingPage />:<NoLanding/>} /> */}
+
+              <Route path="vote" element={<VotingPage />} />
               <Route path="register" element={value.phase == 1 ? <VoterRegistration /> : <NoVoterRegistration />} />
               <Route path="results" element={value.phase == 3 ? <ResultsPage /> : <NoResultsPage />} />
 
@@ -97,11 +112,13 @@ function App() {
           <Navbar />
           <Routes>
             <Route path="" element={<NoLanding />} />
+            <Route path="admin" element ={<AdminPage/>}/>
             <Route path="admin/register" element={<NoVoterRegistration />} />
             <Route path="admin/change" element={<ChangeStatePage phases={phases} setphase={setphase.bind(this)} selectValue={selectValue} submit={submitPhase.bind(this)} handleChange={handleChange.bind(this)} successOpen={successOpen} setssucessOpen={()=>setsuccessOpen(false)}/>} />
             <Route path="register" element={<NoVoterRegistration />} />
             <Route path="results" element={<NoResultsPage />} />
-
+            {/* <Route path="vote" element={<NoLanding/>} /> */}
+            <Route path="vote" element={<VotingPage/>}/>
           </Routes>
         </Router>
       }

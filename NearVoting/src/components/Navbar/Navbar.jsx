@@ -39,6 +39,9 @@ const Navbar = () => {
               <Link  style={{ color: 'red' }} to="/register">Voter Registration</Link>
             </li>
             <li>
+              <Link  to="/vote">Vote</Link>
+            </li>
+            <li>
               <Link to="/results">Results</Link>
             </li>
           </ul>
