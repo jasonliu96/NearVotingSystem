@@ -97,7 +97,9 @@ function App() {
                selectValue={selectValue} 
               submit={submitPhase.bind(this)} handleChange={handleChange.bind(this)} 
               successOpen={successOpen} handleModalChange={handleModalChange.bind(this)}/>} />
-              <Route path="vote" element={value.phase == 2 ?<VotingPage />:<NoLanding/>} />
+              {/* <Route path="vote" element={value.phase == 2 ?<VotingPage />:<NoLanding/>} /> */}
+
+              <Route path="vote" element={<VotingPage />} />
               <Route path="register" element={value.phase == 1 ? <VoterRegistration /> : <NoVoterRegistration />} />
               <Route path="results" element={value.phase == 3 ? <ResultsPage /> : <NoResultsPage />} />
 
@@ -115,7 +117,8 @@ function App() {
             <Route path="admin/change" element={<ChangeStatePage phases={phases} setphase={setphase.bind(this)} selectValue={selectValue} submit={submitPhase.bind(this)} handleChange={handleChange.bind(this)} successOpen={successOpen} setssucessOpen={()=>setsuccessOpen(false)}/>} />
             <Route path="register" element={<NoVoterRegistration />} />
             <Route path="results" element={<NoResultsPage />} />
-            <Route path="vote" element={<NoLanding/>} />
+            {/* <Route path="vote" element={<NoLanding/>} /> */}
+            <Route path="vote" element={<VotingPage/>}/>
           </Routes>
         </Router>
       }

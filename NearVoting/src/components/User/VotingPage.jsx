@@ -9,34 +9,47 @@ function VotingPage() {
   const [candidates, setCandidates] = React.useState([])
   const [showNotification, setShowNotification] = React.useState(false)
   const [msg, setMsg ] = React.useState('Submitted a Vote')
+  const oids = [{"name":"632b3bd151339158d5cfdac3","votes":8},{"name":"632b3e1b51339158d5cfdad5","votes":5},{"name":"632b4d26f700a18815fcd898","votes":5}]
 
-  React.useEffect(
-    () => {
-      // in this case, we only care to query the contract when signed in
-      if (window.walletConnection.isSignedIn()) {
-        var oids;
-        // window.contract is set by initContract in index.js
-        window.contract.getCandidates({  })
-          .then(candidateFromContract => {
-            // setCandidates(candidateFromContract)
-            oids = candidateFromContract
-            // console.log(oids)
-            axios.post(`${serverUrl}/candidate/getCandidateInfo`,{oids}).then(
-              (res)=>{
-                if(res.status==200){
-                  setCandidates(res.data)
-                }
-              }
-            )
-          })
-      }
+//   React.useEffect(
+//     () => {
+//       // in this case, we only care to query the contract when signed in
+//       if (window.walletConnection.isSignedIn()) {
+//         var oids;
+//         // window.contract is set by initContract in index.js
+//         window.contract.getCandidates({  })
+//           .then(candidateFromContract => {
+//             // setCandidates(candidateFromContract)
+//             oids = candidateFromContract
+//             // console.log(oids)
+//             axios.post(`${serverUrl}/candidate/getCandidateInfo`,{oids}).then(
+//               (res)=>{
+//                 if(res.status==200){
+//                   setCandidates(res.data)
+//                 }
+//               }
+//             )
+//           })
+//       }
+//     },
+//     // The second argument to useEffect tells React when to re-run the effect
+//     // Use an empty array to specify "only run on first render"
+//     // This works because signing into NEAR Wallet reloads the page
+//     []
+//   )
+
+React.useEffect(
+    () =>{
+        axios.post(`${serverUrl}/candidate/getCandidateInfo`,{oids}).then(
+        (res)=>{
+            if(res.status==200){
+            setCandidates(res.data)
+            }
+        }
+        )
     },
-    // The second argument to useEffect tells React when to re-run the effect
-    // Use an empty array to specify "only run on first render"
-    // This works because signing into NEAR Wallet reloads the page
     []
-  )
-
+)
   async function submitVote(e){
     e.preventDefault()
     console.log(e.target.value)
