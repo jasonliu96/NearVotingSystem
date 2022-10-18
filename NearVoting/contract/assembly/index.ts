@@ -13,14 +13,9 @@ export function addCandidate(text: string): void{
     storage.set<i8>("candidate_counter", new_value);
 }
 
-export function addCandidateString(compressed_candidates: string, new_candidate:string): void{
+export function addCandidateCompressed(compressed_candidate: string): void{
     logging.log(`called by ${context.predecessor}`)
-    storage.set<string>("candidate_string", compressed_candidates);
-    ballot.addCandidate(new_candidate);
-}
-
-export function getCandidateString(): string {
-    return storage.getPrimitive<string>("candidate_string", "No Candidates")
+    ballot.addCandidate(compressed_candidate);
 }
 
 export function voteCandidateMap(candidate_oid: string): void{

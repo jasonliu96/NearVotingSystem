@@ -21,8 +21,8 @@ async function run(){
     const ACCOUNT_ID = "master.test.near";
     const credentialsPath = path.join(homedir, CREDENTIALS_DIR);
     const keyStore = new keyStores.UnencryptedFileSystemKeyStore(credentialsPath);
-    const LZUTF8 = require('lzutf8');
 
+    const {compress, decompress} = require('lz-string');
     const config = {
         keyStore,
         networkId,
@@ -58,7 +58,7 @@ async function run(){
         {
         // name of contract you're connecting to
         viewMethods:['getCandidateString','getCandidateMap','getCandidates'],
-        changeMethods: [ 'addCandidate', 'voteCandidate', 'addCandidateString', 
+        changeMethods: [ 'addCandidate', 'voteCandidate', 'addCandidateCompressed', 
         'voteCandidateMap' ], // change methods modify state
         sender: account, // account object to initialize and sign transactions.
         }
@@ -116,18 +116,11 @@ async function run(){
 
     app.get('/getCandidatesDecompressed', async (req,res) => {
         try {
-            var result = await contract.getCandidateString({args:{}, gas:300000000000000});
-            var decompressedString = ""
-            if(result == "No Candidates"){
-                decompressedString = result
-            }
-            else {
-                decompressedString = await LZUTF8.decompress(result, {inputEncoding:"StorageBinaryString", outputEncoding:"String"})
-            }
-            let candidates = decompressedString.split("|");
+            var result = await contract.getCandidateMap({args:{}, gas:300000000000000});
+            
             res.json(
                 {status:200,
-                 decompressedString
+                    result
                 }
             )
         }
@@ -137,47 +130,22 @@ async function run(){
             res.json({status:404, msg:e})
         }
     })
-    async function createCompressedString(text){
-        text = text.concat(counter);
-        console.log(`oid going in ${text}`);
-        return new Promise(async (resolve, reject)=>{
-            try{
-                await contract.getCandidateString({args:{}, gas:300000000000000})
-                .then(async (stringFromContract)=>{
-                    if(stringFromContract=="NoCandidates"){
-                        let compressedString = await LZUTF8.compress(text, {outputEncoding:"StorageBinaryString"})
-                        counter++;
-                        resolve(compressedString)
-                    }
-                    else {
-                        let decompressedString = await LZUTF8.decompress(stringFromContract, {inputEncoding:"StorageBinaryString", outputEncoding:"String"})
-                        decompressedString = decompressedString.concat("|", text)
-                        let compressedString = await LZUTF8.compress(decompressedString, {outputEncoding:"StorageBinaryString"})
-                        counter++;
-                        resolve(compressedString)
-                    }
-                })
-                
-            }
-            catch(e){
-                reject(e)
-            }
-        });
-    }
+
     app.post('/addCandidateCompressed', async (req,res) => {
         ({text} = req.body);
-        try{
-            createCompressedString(text)
-            .then(async (compressedString)=>{
-                const result = await contract.addCandidateString({args:{'compressed_candidates':compressedString, 'new_candidate':text}});
-                res.json(
-                    {status:200,
-                        result
-                    }
-                )
-            });
+        text = text.concat(counter);
+        counter++;
+        try {
+            text = compress(text)
+            const result = await contract.addCandidateCompressed({args:{'text':text}});
+            res.json(
+                {status:200,
+                    result
+                }
+            )
         }
-        catch (e){
+        catch (e)
+        {
             console.log(e)
             res.json({status:404, msg:e})
         }
@@ -198,15 +166,6 @@ async function run(){
             console.log(e)
             res.json({status:404, msg:e})
         }
-    })
-
-    app.get('/resetString', async (req, res) => {
-        var compressedString= LZUTF8.compress("631e503ffb94012e3030dca",{outputEncoding:"StorageBinaryString"})
-        var result = await contract.addCandidateString({args:{'compressed_candidates':compressedString, 'new_candidate':"631e503ffb94012e3030dca0"}})
-        res.json({
-            status:200,
-            result
-        })
     })
     app.listen(port);
     console.log(`server listening on port port ${port}`);
