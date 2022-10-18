@@ -118,7 +118,7 @@ async function run(){
     app.get('/getCandidatesDecompressed', async (req,res) => {
         try {
             var result = await contract.getCandidateString({args:{}, gas:300000000000000});
-            var decompressedString = LZString.decompress(result)
+            var decompressedString = LZString.decompressFromUTF16(result)
             let candidates = decompressedString.split("|");
             res.json(
                 {status:200,
