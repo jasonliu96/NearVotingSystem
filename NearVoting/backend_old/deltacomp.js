@@ -50,11 +50,10 @@ async function testCompressedString(newCand){
 
 
 async function run(){
-    console.log(`0: ${compressedString}`)
     testCompressedString(elon)
-    console.log(`1: ${compressedString}`)
     testCompressedString(elon2)
-    console.log(`2: ${compressedString}`)
+    testCompressedString(elon)
+    testCompressedString(elon2)
     const finaldecomp = LZString.decompress(compressedString)
     console.log(`final decompressed sequence ${finaldecomp}`)
 }

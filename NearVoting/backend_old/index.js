@@ -1,3 +1,5 @@
+const { compress } = require('lz-string');
+
 async function run(){
     const express = require('express');
     const app = express();
@@ -21,7 +23,7 @@ async function run(){
     const ACCOUNT_ID = "master.test.near";
     const credentialsPath = path.join(homedir, CREDENTIALS_DIR);
     const keyStore = new keyStores.UnencryptedFileSystemKeyStore(credentialsPath);
-    const LZUTF8 = require("lzutf8");
+    const LZString = require('lz-string');
 
     const config = {
         keyStore,
@@ -114,12 +116,12 @@ async function run(){
 
     app.get('/getCandidatesDecompressed', async (req,res) => {
         try {
-            var result = await contract.getCandidates({args:{}, gas:300000000000000});
-            console.log(result)
-            result = result.map((v)=>(v.name = LZUTF8.decompress(v.name, {inputEncoding:"StorageBinaryString", outputEncoding:"String"})))
+            var result = await contract.getCandidateString({args:{}, gas:300000000000000});
+            var decompressedString = LZString.decompress(result)
+            let candidates = decompressedString.split("|");
             res.json(
                 {status:200,
-                 result
+                 candidates
                 }
             )
         }
@@ -129,20 +131,27 @@ async function run(){
             res.json({status:404, msg:e})
         }
     })
+
     app.post('/addCandidateCompressed', async (req,res) => {
         const {text} = req.body;
         try{
-            const compStr = await LZUTF8.compress(text, {outputEncoding:"StorageBinaryString"})
-            let counter =0;
             if(counter>0){
-                text.concat(counter)
-                counter+=1
+                text = text.concat(counter)
             }
             const compressedString = await contract.getCandidateString();
-            const result = await contract.addCandidate({args:{'text':compStr}});
+            let compStr = "";
+            if(compressedString=="No Candidates"){
+                compressedString = LZString.compress(text)
+            }
+            else{
+                compStr = LZString.decompress(compressedString)
+                compStr = compStr.concat("|", text)
+                compressedString = LZString.compress(compStr)
+            }
+            const result = await contract.addCandidateString({args:{'compressed_candidates':compressedString, 'new_candidate':text}});
             res.json(
                 {status:200,
-                    result
+                    compressedString
                 }
             )
         }
