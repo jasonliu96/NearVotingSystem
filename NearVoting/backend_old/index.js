@@ -119,7 +119,7 @@ async function run(){
             var result = await contract.getCandidateMap({args:{}, gas:300000000000000});
             console.log(result);
             const resultMap = new Map();
-            for(let [key, value] in result){
+            for(let [key, value] of result){
                 console.log(`pre decompression ${key}`)
                 key = decompressFromBase64(key)
                 console.log(`post decompression ${key}`)
