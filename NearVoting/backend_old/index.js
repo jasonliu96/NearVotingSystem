@@ -22,7 +22,7 @@ async function run(){
     const credentialsPath = path.join(homedir, CREDENTIALS_DIR);
     const keyStore = new keyStores.UnencryptedFileSystemKeyStore(credentialsPath);
 
-    const {compressToUTF16, decompressFromUTF16} = require('lz-string');
+    const {compress, decompress} = require('LZUTF8');
     const config = {
         keyStore,
         networkId,
@@ -118,7 +118,7 @@ async function run(){
         try {
             var result = await contract.getCandidateMap({args:{}, gas:300000000000000});
             console.log(result);
-            result = result.map((v)=>(v.name = decompressFromUTF16(v.name)))
+            result = result.map((v)=>(v.name = decompress(v.name, {inputEncoding:"BinaryString", outputEncoding:"String"})))
             res.json(
                 {status:200,
                     result
@@ -137,7 +137,7 @@ async function run(){
         text = text.concat(counter);
         counter++;
         try {
-            text = compressToUTF16(text)
+            text = compress(text)
             const result = await contract.addCandidateCompressed({args:{'compressed_candidate':text}});
             res.json(
                 {status:200,

@@ -38,12 +38,12 @@ async function testCompressedString(newCand){
     }
     let compStr = "";
     if(compressedString=="No Candidates"){
-        compressedString= await LZUTF8.compress(newCand, {outputEncoding:"StorageBinaryString"})
+        compressedString= await LZUTF8.compress(newCand)
     }
     else{
-        compStr =  await LZUTF8.decompress(compressedString, {inputEncoding:"StorageBinaryString", outputEncoding:"String"})
+        compStr =  await LZUTF8.decompress(compressedString, {outputEncoding:"String"})
         compStr = compStr.concat("|", newCand)
-        compressedString= await LZUTF8.compress(compStr, {outputEncoding:"StorageBinaryString"})
+        compressedString= await LZUTF8.compress(compStr)
     }
     counter++;
 }
@@ -58,7 +58,7 @@ async function run(){
     console.log(`2: ${compressedString}`)
     await testCompressedString(elon2)
     console.log(`3: ${compressedString}`)
-    const finaldecomp = await LZUTF8.decompress(compressedString, {inputEncoding:"StorageBinaryString", outputEncoding:"String"})
+    const finaldecomp = await LZUTF8.decompress(compressedString, {outputEncoding:"String"})
     console.log(`final decompressed sequence ${finaldecomp}`)
 }
 

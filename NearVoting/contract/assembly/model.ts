@@ -26,7 +26,8 @@ export class Ballot
         }
         return candidates
     }
-    addCandidate(new_candidate:string):void{
+    addCandidate(cab:ArrayBuffer):void{
+        const new_candidate = String.UTF8.decode(cab)
         this.keys.push(new_candidate);
         this.candidateMap.set(new_candidate, 0);
     }
