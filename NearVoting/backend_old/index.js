@@ -139,7 +139,7 @@ async function run(){
             if(counter>0){
                 text = text.concat(counter)
             }
-            const compressedString = await contract.getCandidateString({args:{}, gas:300000000000000});
+            let compressedString = await contract.getCandidateString({args:{}, gas:300000000000000});
             let compStr = "";
             if(compressedString=="No Candidates"){
                 compressedString = LZString.compress(text)
