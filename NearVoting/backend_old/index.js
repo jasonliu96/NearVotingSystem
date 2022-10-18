@@ -117,12 +117,14 @@ async function run(){
     app.get('/getCandidatesDecompressed', async (req,res) => {
         try {
             var result = await contract.getCandidateMap({args:{}, gas:300000000000000});
+            const resultMap = new Map();
             for([key, value] in result){
                 key = decompress(key)
+                resultMap.set(key, value)
             }
             res.json(
                 {status:200,
-                    result
+                    resultMap
                 }
             )
         }
