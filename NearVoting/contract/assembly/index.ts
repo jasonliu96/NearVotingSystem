@@ -1,10 +1,10 @@
 import { context, storage, logging, PersistentMap,  PersistentVector } from 'near-sdk-as';
 import { Candidate, CandidateList, Phase, PhaseList, Ballot } from './model';
 const CANDIDATE_LIMIT = 10
-const candidateMap = new PersistentMap<string, i16>("pm");
-const candidateVector = new PersistentVector<string>("pv");
 
-const ballot = new Ballot(candidateVector, candidateMap);
+var candidateMap = new PersistentMap<string, i16>("pm");
+var candidateVector = new PersistentVector<string>("pv");
+var ballot = new Ballot(candidateVector, candidateMap);
 
 export function addCandidate(text: string): void{
     const candidate = new Candidate(text, 0)
@@ -29,6 +29,11 @@ export function getCandidateVote(candidate_oid:string):i16{
     return ballot.getCandidateVotes(candidate_oid);
 }
 
+export function resetBallot():void{
+    candidateMap = new PersistentMap<string, i16>("pm");
+    candidateVector = new PersistentVector<string>("pv");
+    ballot = new Ballot(candidateVector, candidateMap);
+}
 // export function getCandidates(): Candidate[] {
 //     const numCand = min(CANDIDATE_LIMIT, CandidateList.length);
 //     const startIndex = CandidateList.length - numCand;
