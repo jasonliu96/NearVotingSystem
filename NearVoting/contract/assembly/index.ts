@@ -22,7 +22,7 @@ export function voteCandidateMap(candidate_oid: string): void{
     ballot.voteCandidate(candidate_oid);
 }
 
-export function getCandidateMap():Map<string, i16>{
+export function getCandidateMap():Candidate[]{
     return ballot.getAllValues();
 }
 
