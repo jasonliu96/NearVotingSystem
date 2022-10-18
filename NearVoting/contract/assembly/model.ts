@@ -35,6 +35,9 @@ export class Ballot
         vote_count+=1;
         this.candidateMap.set(candidate_oid, vote_count);
     }
+    getCandidateVotes(candidate_oid:string):i16{
+        return this.candidateMap.getSome(candidate_oid)
+    }
 }
 
 export const CandidateList = new PersistentVector<Candidate>("c")

@@ -26,7 +26,7 @@ export function getCandidateMap():Candidate[]{
 }
 
 export function getCandidateVote(candidate_oid:string):i16{
-    return candidateMap.getSome(candidate_oid);
+    return ballot.getCandidateVotes(candidate_oid);
 }
 
 // export function getCandidates(): Candidate[] {
