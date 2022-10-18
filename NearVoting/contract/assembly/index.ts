@@ -1,12 +1,38 @@
-import { storage, logging } from 'near-sdk-as';
-import { Candidate, CandidateList, Phase, PhaseList } from './model';
+import { context, storage, logging, PersistentMap,  PersistentVector } from 'near-sdk-as';
+import { Candidate, CandidateList, Phase, PhaseList, Ballot } from './model';
 const CANDIDATE_LIMIT = 10
+const candidateMap = new PersistentMap<string, i16>("pm");
+const candidateVector = new PersistentVector<string>("pv");
+
+const ballot = new Ballot(candidateVector, candidateMap);
 
 export function addCandidate(text: string): void{
     const candidate = new Candidate(text, 0)
     CandidateList.push(candidate)
     const new_value = getNumCandidates() + 1;
     storage.set<i8>("candidate_counter", new_value);
+}
+
+export function addCandidateString(compressed_candidates: string, new_candidate:string): void{
+    logging.log(`called by ${context.predecessor}`)
+    storage.set<string>("candidate_string", compressed_candidates);
+    ballot.addCandidate(new_candidate);
+}
+
+export function getCandidateString(): string {
+    return storage.getPrimitive<string>("candidate_string", "No Candidates")
+}
+
+export function voteCandidateMap(candidate_oid: string): void{
+    ballot.voteCandidate(candidate_oid);
+}
+
+export function getCandidateMap():Map<string, i16>{
+    return ballot.getAllValues();
+}
+
+export function getCandidateVote(candidate_oid:string):i16{
+    return candidateMap.getSome(candidate_oid);
 }
 
 // export function getCandidates(): Candidate[] {
