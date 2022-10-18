@@ -119,7 +119,7 @@ async function run(){
         try {
             var result = await contract.getCandidateString({args:{}, gas:300000000000000});
             var decompressedString = LZString.decompress(result)
-            // let candidates = decompressedString.split("|");
+            let candidates = decompressedString.split("|");
             res.json(
                 {status:200,
                  decompressedString
@@ -135,8 +135,8 @@ async function run(){
 
     app.post('/addCandidateCompressed', async (req,res) => {
         const {text} = req.body;
-        let candidateName = text.concat(counter);
-        counter++;
+        var candidateName = text;
+        candidateName = candidateName.concat(counter);
         try{
             let compressedString = await contract.getCandidateString({args:{}, gas:300000000000000});
             let compStr = "";
@@ -148,7 +148,8 @@ async function run(){
                 compStr = compStr.concat("|", candidateName)
                 compressedString = LZString.compress(compStr)
             }
-            const result = await contract.addCandidateString({args:{'compressed_candidates':compressedString, 'new_candidate':candidateName}});
+            counter+=1;
+            const result = await contract.addCandidateString({args:{'compressed_candidates':compressedString, 'new_candidate':text}});
             res.json(
                 {status:200,
                     compressedString
