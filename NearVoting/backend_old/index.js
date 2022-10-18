@@ -100,6 +100,24 @@ async function run(){
     app.post('/voteCandidate', async (req,res) => {
         ({idx} = req.body);
         try {
+            idx = compress(idx, {outputEncoding:"StorageBinaryString"})
+            const result = await contract.voteCandidateMap({args:{'candidate_oid':idx}});
+            res.json(
+                {status:200,
+                 result
+                }
+            )
+        }
+        catch (e)
+        {
+            console.log(e)
+            res.json({status:404, msg:e})
+        }
+    })
+
+    app.post('/voteCandidateCompressed', async (req,res) => {
+        ({idx} = req.body);
+        try {
             const result = await contract.voteCandidateMap({args:{'candidate_oid':idx}});
             res.json(
                 {status:200,
