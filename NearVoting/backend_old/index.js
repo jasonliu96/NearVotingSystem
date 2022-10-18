@@ -118,7 +118,7 @@ async function run(){
         try {
             var result = await contract.getCandidateMap({args:{}, gas:300000000000000});
             console.log(result);
-            result = result.map((v)=>(v.name = decompress(v.name, {inputEncoding:"BinaryString", outputEncoding:"String"})))
+            result = result.map((v)=>(v.name = decompress(v.name, {inputEncoding:"StorageBinaryString", outputEncoding:"String"})))
             res.json(
                 {status:200,
                     result
@@ -137,7 +137,7 @@ async function run(){
         text = text.concat(counter);
         counter++;
         try {
-            text = compress(text)
+            text = compress(text, {outputEncoding:"StorageBinaryString"})
             const result = await contract.addCandidateCompressed({args:{'compressed_candidate':text}});
             res.json(
                 {status:200,
