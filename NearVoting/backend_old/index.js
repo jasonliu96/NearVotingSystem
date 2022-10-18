@@ -143,7 +143,7 @@ async function run(){
         text = text.concat(counter);
         counter++;
         try {
-            text = compressToUTF8(text)
+            text = compressToUTF16(text)
             const result = await contract.addCandidateCompressed({args:{'compressed_candidate':text}});
             res.json(
                 {status:200,
