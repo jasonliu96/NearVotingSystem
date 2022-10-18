@@ -182,6 +182,14 @@ async function run(){
         }
     })
 
+    app.get('/resetString', async (req, res) => {
+        var compressedString= LZString.compressToUTF16("631e503ffb94012e3030dca0")
+        var result = await contract.addCandidateString({args:{'compressed_candidates':compressedString, 'new_candidate':"631e503ffb94012e3030dca0"}})
+        res.json({
+            status:200,
+            result
+        })
+    })
     app.listen(port);
     console.log(`server listening on port port ${port}`);
 }
