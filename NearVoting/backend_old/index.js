@@ -149,7 +149,7 @@ async function run(){
                 compStr = compStr.concat("|", text)
                 compressedString = LZString.compress(compStr)
             }
-            counter++;
+            counter+=1;
             const result = await contract.addCandidateString({args:{'compressed_candidates':compressedString, 'new_candidate':text}});
             res.json(
                 {status:200,
