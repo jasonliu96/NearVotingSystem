@@ -160,7 +160,7 @@ async function run(){
             const result = await contract.addCandidateString({args:{'compressed_candidates':compressedString, 'new_candidate':text}});
             res.json(
                 {status:200,
-                    compressedString
+                    result
                 }
             )
         }
