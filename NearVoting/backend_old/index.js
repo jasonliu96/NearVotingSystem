@@ -137,7 +137,7 @@ async function run(){
         counter++;
         try {
             text = compress(text)
-            const result = await contract.addCandidateCompressed({args:{'text':text}});
+            const result = await contract.addCandidateCompressed({args:{'compressed_candidate':text}});
             res.json(
                 {status:200,
                     result
