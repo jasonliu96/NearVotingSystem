@@ -59,7 +59,8 @@ async function run(){
         "master.test.near",
         {
         // name of contract you're connecting to
-        changeMethods: ['getCandidates', 'addCandidate', 'voteCandidate'], // change methods modify state
+        changeMethods: ['getCandidates', 'addCandidate', 'voteCandidate', 'addCandidateString', 
+    'getCandidateMap', 'voteCandidateMap' ], // change methods modify state
         sender: account, // account object to initialize and sign transactions.
         }
     );
