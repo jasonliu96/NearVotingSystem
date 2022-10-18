@@ -3,6 +3,8 @@ import './global.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Landing from './components/Landing/Landing';
 import NoLanding from './components/Landing/NoLanding';
+import Landing1 from './components/Landing/Landing1';
+import NoLanding1 from './components/Landing/NoLanding1';
 import Navbar from './components/Navbar/Navbar';
 import CandidateRegistration from './components/Admin/CandidateRegistration';
 import ChangeStatePage from './components/Admin/ChangeStatePage';
@@ -79,7 +81,7 @@ function App() {
           <Router key={index}>
             <Navbar />
             <Routes>
-              <Route path="" element={value.phase == 2 ? <Landing /> : <NoLanding />} />
+              <Route path="" element={value.phase == 2 ? <Landing1 /> : <NoLanding1 />} />
               <Route path="admin/register" element={value.phase == 1 ? <CandidateRegistration /> : <NoVoterRegistration />} />
               <Route path="admin/change" element={<ChangeStatePage phases={phases} 
                selectValue={selectValue} 
@@ -96,7 +98,7 @@ function App() {
         <Router>
           <Navbar />
           <Routes>
-            <Route path="" element={<NoLanding />} />
+            <Route path="" element={<NoLanding1 />} />
             <Route path="admin/register" element={<NoVoterRegistration />} />
             <Route path="admin/change" element={<ChangeStatePage phases={phases} setphase={setphase.bind(this)} selectValue={selectValue} submit={submitPhase.bind(this)} handleChange={handleChange.bind(this)} successOpen={successOpen} setssucessOpen={()=>setsuccessOpen(false)}/>} />
             <Route path="register" element={<NoVoterRegistration />} />
