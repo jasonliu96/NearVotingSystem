@@ -1,5 +1,3 @@
-const { compress } = require('lz-string');
-
 async function run(){
     const express = require('express');
     const app = express();
@@ -23,7 +21,7 @@ async function run(){
     const ACCOUNT_ID = "master.test.near";
     const credentialsPath = path.join(homedir, CREDENTIALS_DIR);
     const keyStore = new keyStores.UnencryptedFileSystemKeyStore(credentialsPath);
-    const LZString = require('lz-string');
+    const LZUTF8 = require('lzutf8');
 
     const config = {
         keyStore,
@@ -118,7 +116,7 @@ async function run(){
     app.get('/getCandidatesDecompressed', async (req,res) => {
         try {
             var result = await contract.getCandidateString({args:{}, gas:300000000000000});
-            var decompressedString = LZString.decompressFromUTF16(result)
+            var decompressedString = await LZUTF8.decompress(result, {inputEncoding:"StorageBinaryString", outputEncoding:"String"})
             let candidates = decompressedString.split("|");
             res.json(
                 {status:200,
@@ -143,13 +141,13 @@ async function run(){
             console.log(compressedString)
             let compStr = "";
             if(compressedString=="No Candidates"){
-                compressedString = LZString.compressToUTF16(text)
+                compressedString = await LZUTF8.compress(text, {outputEncoding:"StorageBinaryString"})
             }
             else{
-                compStr = LZString.decompressFromUTF16(compressedString)
+                compStr = await LZUTF8.decompress(compressedString, {inputEncoding:"StorageBinaryString", outputEncoding:"String"})
                 console.log(compStr)
                 compStr = compStr.concat("|", text)
-                compressedString = LZString.compressToUTF16(compStr)
+                compressedString = await LZUTF8.compress(text, {outputEncoding:"StorageBinaryString"})
             }
             counter+=1;
             const result = await contract.addCandidateString({args:{'compressed_candidates':compressedString, 'new_candidate':text}});
@@ -183,7 +181,7 @@ async function run(){
     })
 
     app.get('/resetString', async (req, res) => {
-        var compressedString= LZString.compressToUTF16("631e503ffb94012e3030dca0")
+        var compressedString= LZUTF8.compress("631e503ffb94012e3030dca",{outputEncoding:"StorageBinaryString"})
         var result = await contract.addCandidateString({args:{'compressed_candidates':compressedString, 'new_candidate':"631e503ffb94012e3030dca0"}})
         res.json({
             status:200,
