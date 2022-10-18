@@ -149,6 +149,7 @@ async function run(){
                 compStr = compStr.concat("|", text)
                 compressedString = LZString.compress(compStr)
             }
+            counter++;
             const result = await contract.addCandidateString({args:{'compressed_candidates':compressedString, 'new_candidate':text}});
             res.json(
                 {status:200,
@@ -157,6 +158,23 @@ async function run(){
             )
         }
         catch (e){
+            console.log(e)
+            res.json({status:404, msg:e})
+        }
+    })
+
+
+    app.get('/getCandidatesMap', async (req,res) => {
+        try {
+            var result = await contract.getCandidateMap({args:{}, gas:300000000000000});
+            res.json(
+                {status:200,
+                result
+                }
+            )
+        }
+        catch (e)
+        {
             console.log(e)
             res.json({status:404, msg:e})
         }
