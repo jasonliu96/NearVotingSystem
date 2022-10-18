@@ -22,7 +22,7 @@ async function run(){
     const credentialsPath = path.join(homedir, CREDENTIALS_DIR);
     const keyStore = new keyStores.UnencryptedFileSystemKeyStore(credentialsPath);
 
-    const {compressToBase64, decompressFromBase64} = require('lz-string');
+    const {compressToUTF16, decompressFromUTF16} = require('lz-string');
     const config = {
         keyStore,
         networkId,
@@ -118,12 +118,10 @@ async function run(){
         try {
             var result = await contract.getCandidateMap({args:{}, gas:300000000000000});
             console.log(result);
-            const resultMap = result.map((key,value)=>{
-                result.key = decompressFromBase64(key)
-            });
+            result = result.map((v)=>(v.name = decompressFromUTF16(v.name)))
             res.json(
                 {status:200,
-                    resultMap
+                    result
                 }
             )
         }
@@ -139,7 +137,7 @@ async function run(){
         text = text.concat(counter);
         counter++;
         try {
-            text = compressToBase64(text)
+            text = compressToUTF16(text)
             const result = await contract.addCandidateCompressed({args:{'compressed_candidate':text}});
             res.json(
                 {status:200,
