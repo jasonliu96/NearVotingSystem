@@ -137,14 +137,14 @@ async function run(){
         }
     })
     async function createCompressedString(text){
-        return new Promise((resolve, reject)=>{
-            let stringFromContract = contract.getCandidateString({args:{}, gas:300000000000000});
+        return new Promise(async (resolve, reject)=>{
+            let stringFromContract = await contract.getCandidateString({args:{}, gas:300000000000000});
             if(stringFromContract=="NoCandidates"){
                 let compressedString = LZUTF8.compress(text, {outputEncoding:"StorageBinaryString"})
                 resolve(compressedString)
             }
             else {
-                let decompressedString = LZUTF8.decompress(stringFromContract, {inputEncoding:"StorageBinaryString", outputEncoding:"String"})
+                let decompressedString = await LZUTF8.decompress(stringFromContract, {inputEncoding:"StorageBinaryString", outputEncoding:"String"})
                 decompressedString = decompressedString.concat("|", text)
                 let compressedString = LZUTF8.compress(decompressedString, {outputEncoding:"StorageBinaryString"})
                 resolve(compressedString)
