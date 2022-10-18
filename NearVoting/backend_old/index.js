@@ -140,18 +140,19 @@ async function run(){
     async function createCompressedString(text){
         text = text.concat(counter);
         console.log(`oid going in ${text}`);
-        counter++;
         return new Promise(async (resolve, reject)=>{
             try{
                 let stringFromContract = await contract.getCandidateString({args:{}, gas:300000000000000});
                 if(stringFromContract=="NoCandidates"){
-                    let compressedString = LZUTF8.compress(text, {outputEncoding:"StorageBinaryString"})
+                    let compressedString = await LZUTF8.compress(text, {outputEncoding:"StorageBinaryString"})
+                    counter++;
                     resolve(compressedString)
                 }
                 else {
                     let decompressedString = await LZUTF8.decompress(stringFromContract, {inputEncoding:"StorageBinaryString", outputEncoding:"String"})
                     decompressedString = decompressedString.concat("|", text)
-                    let compressedString = LZUTF8.compress(decompressedString, {outputEncoding:"StorageBinaryString"})
+                    let compressedString = await LZUTF8.compress(decompressedString, {outputEncoding:"StorageBinaryString"})
+                    counter++;
                     resolve(compressedString)
                 }
             }
