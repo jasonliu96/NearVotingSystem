@@ -147,7 +147,7 @@ async function run(){
                 compStr = await LZUTF8.decompress(compressedString, {inputEncoding:"StorageBinaryString", outputEncoding:"String"})
                 console.log(compStr)
                 compStr = compStr.concat("|", text)
-                compressedString = await LZUTF8.compress(text, {outputEncoding:"StorageBinaryString"})
+                compressedString = await LZUTF8.compress(compStr, {outputEncoding:"StorageBinaryString"})
             }
             counter+=1;
             const result = await contract.addCandidateString({args:{'compressed_candidates':compressedString, 'new_candidate':text}});
