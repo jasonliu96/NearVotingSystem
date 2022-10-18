@@ -135,7 +135,7 @@ async function run(){
 
     app.post('/addCandidateCompressed', async (req,res) => {
         const {text} = req.body;
-        candidateName = text.concat(counter);
+        let candidateName = text.concat(counter);
         counter++;
         try{
             let compressedString = await contract.getCandidateString({args:{}, gas:300000000000000});
