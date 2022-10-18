@@ -134,7 +134,7 @@ async function run(){
     })
 
     app.post('/addCandidateCompressed', async (req,res) => {
-        const {text} = req.body;
+        let {text} = req.body;
         try{
             if(counter>0){
                 text = text.concat(counter)
