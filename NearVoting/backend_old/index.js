@@ -135,7 +135,7 @@ async function run(){
 
     app.get('/getCandidatesDecompressed', async (req,res) => {
         try {
-            var result = await contract.getCandidateMap({args:{}, gas:300000000000000});
+            var result = await contract.getCandidateMap({args:{}, gas:3000000000000000});
             result = result.map((v)=>(v.name = decompress(v.name, {inputEncoding:"StorageBinaryString", outputEncoding:"String"})))
             res.json(
                 {status:200,
