@@ -138,6 +138,9 @@ async function run(){
         }
     })
     async function createCompressedString(text){
+        text = text.concat(counter);
+        console.log(`oid going in ${text}`);
+        counter++;
         return new Promise(async (resolve, reject)=>{
             try{
                 let stringFromContract = await contract.getCandidateString({args:{}, gas:300000000000000});
@@ -159,9 +162,6 @@ async function run(){
     }
     app.post('/addCandidateCompressed', async (req,res) => {
         ({text} = req.body);
-        text = text.concat(counter);
-        console.log(`oid going in ${text}`);
-        counter++;
         try{
             createCompressedString(text)
             .then(async (compressedString)=>{
