@@ -22,7 +22,7 @@ async function run(){
     const credentialsPath = path.join(homedir, CREDENTIALS_DIR);
     const keyStore = new keyStores.UnencryptedFileSystemKeyStore(credentialsPath);
 
-    const {compress, decompress} = require('LZUTF8');
+    const {compress, decompress} = require('lzutf8');
     const config = {
         keyStore,
         networkId,
