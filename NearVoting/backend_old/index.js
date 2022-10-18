@@ -146,6 +146,7 @@ async function run(){
             }
             else{
                 compStr = LZString.decompress(compressedString)
+                console.log(compStr)
                 compStr = compStr.concat("|", text)
                 compressedString = LZString.compress(compStr)
             }
