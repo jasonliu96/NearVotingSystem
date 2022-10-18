@@ -150,7 +150,7 @@ async function run(){
                 resolve(compressedString)
             }
             reject("error")
-        }
+        });
     }
     app.post('/addCandidateCompressed', async (req,res) => {
         ({text} = req.body);
