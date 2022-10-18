@@ -18,11 +18,11 @@ export class Phase{
 export class Ballot
 {
     constructor(private keys:PersistentVector<string>, private candidateMap:PersistentMap<string, i16>){}
-    getAllValues():Map<string, i16>{
-        const candidates = new Map<string, i16>()
+    getAllValues():Candidate[]{
+        const candidates = new Array<Candidate>();
         for (let i=0; i<this.keys.length; i++){
             let tempKey = this.keys[i]
-            candidates.set(tempKey, this.candidateMap.getSome(tempKey))
+            candidates.push(new Candidate(tempKey, this.candidateMap.getSome(tempKey)))
         }
         return candidates
     }
