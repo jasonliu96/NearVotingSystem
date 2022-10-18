@@ -136,27 +136,29 @@ async function run(){
             res.json({status:404, msg:e})
         }
     })
-    async function createCompressedString(text, stringToCompress){
-        let compressedString = "";
-        if(stringToCompress=="No Candidates"){
-            compressedString = await LZUTF8.compress(text, {outputEncoding:"StorageBinaryString"})
+    async function createCompressedString(text){
+        return new Promise((resolve, reject)=>{
+            let stringFromContract = contract.getCandidateString({args:{}, gas:300000000000000});
+            if(stringFromContract=="NoCandidates"){
+                let compressedString = LZUTF8.compress(text, {outputEncoding:"StorageBinaryString"})
+                resolve(compressedString)
+            }
+            else {
+                let decompressedString = LZUTF8.decompress(stringToCompress, {inputEncoding:"StorageBinaryString", outputEncoding:"String"})
+                decompressedString = decompressedString.concat("|", text)
+                let compressedString = LZUTF8.compress(decompressedString, {outputEncoding:"StorageBinaryString"})
+                resolve(compressedString)
+            }
+            reject("error")
         }
-        else{
-            let decompressedString = await LZUTF8.decompress(stringToCompress, {inputEncoding:"StorageBinaryString", outputEncoding:"String"})
-            decompressedString = decompressedString.concat("|", text)
-            compressedString = await LZUTF8.compress(decompressedString, {outputEncoding:"StorageBinaryString"})
-        }
-        return compressedString
     }
     app.post('/addCandidateCompressed', async (req,res) => {
         ({text} = req.body);
-        console.log(`oid going in ${text}`);
         text = text.concat(counter);
+        console.log(`oid going in ${text}`);
         counter++;
         try{
-            let stringFromContract = await contract.getCandidateString({args:{}, gas:300000000000000});
-            console.log(stringFromContract)
-            let compressedString = await createCompressedString(text, stringFromContract);
+            let compressedString = await createCompressedString(text);
             const result = await contract.addCandidateString({args:{'compressed_candidates':compressedString, 'new_candidate':text}});
             res.json(
                 {status:200,
