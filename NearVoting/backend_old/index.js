@@ -173,7 +173,7 @@ async function run(){
     app.post('/checkCandidateVotes', async (req,res) => {
         ({idx} = req.body);
         try {
-            idx = compress(idx, {outputEncoding:"StorageBinaryString"})
+            idx = await compress(idx, {outputEncoding:"StorageBinaryString"})
             const result = await contract.getCandidateVote({args:{'candidate_oid':idx}});
             res.json(
                 {status:200,
