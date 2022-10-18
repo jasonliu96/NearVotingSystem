@@ -140,12 +140,13 @@ async function run(){
         counter++;
         try{
             let compressedString = await contract.getCandidateString({args:{}, gas:300000000000000});
+            console.log(compressedString)
             let compStr = "";
             if(compressedString=="No Candidates"){
-                compressedString = LZString.compress(text)
+                compressedString = LZString.compressToUTF16(text)
             }
             else{
-                compStr = LZString.decompress(compressedString)
+                compStr = LZString.decompressFromUTF16(compressedString)
                 console.log(compStr)
                 compStr = compStr.concat("|", text)
                 compressedString = LZString.compress(compStr)
