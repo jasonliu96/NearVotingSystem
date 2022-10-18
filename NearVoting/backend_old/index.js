@@ -65,7 +65,7 @@ async function run(){
     );
     app.get('/getCandidates', async (req,res) => {
         try {
-            const result = await contract.getCandidates({args:{}, gas:300000000000000});
+            const result = await contract.getCandidateMap({args:{}, gas:300000000000000});
             res.json(
                 {status:200,
                  result
@@ -84,7 +84,7 @@ async function run(){
         text = text.concat(counter);
         counter++;
         try {
-            const result = await contract.addCandidate({args:{'text':text}});
+            const result = await contract.addCandidateCompressed({args:{'compressed_candidate':text}});
             res.json(
                 {status:200,
                  result
@@ -117,7 +117,6 @@ async function run(){
     app.get('/getCandidatesDecompressed', async (req,res) => {
         try {
             var result = await contract.getCandidateMap({args:{}, gas:300000000000000});
-            console.log(result);
             result = result.map((v)=>(v.name = decompress(v.name, {inputEncoding:"StorageBinaryString", outputEncoding:"String"})))
             res.json(
                 {status:200,
@@ -152,22 +151,6 @@ async function run(){
         }
     })
 
-
-    app.get('/getCandidatesMap', async (req,res) => {
-        try {
-            var result = await contract.getCandidateMap({args:{}, gas:300000000000000});
-            res.json(
-                {status:200,
-                result
-                }
-            )
-        }
-        catch (e)
-        {
-            console.log(e)
-            res.json({status:404, msg:e})
-        }
-    })
     app.listen(port);
     console.log(`server listening on port port ${port}`);
 }

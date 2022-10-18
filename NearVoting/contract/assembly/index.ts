@@ -14,7 +14,6 @@ export function addCandidate(text: string): void{
 }
 
 export function addCandidateCompressed(compressed_candidate: string): void{
-    logging.log(`called by ${context.predecessor}`)
     ballot.addCandidate(compressed_candidate);
 }
 
