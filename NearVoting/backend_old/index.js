@@ -119,10 +119,10 @@ async function run(){
         try {
             var result = await contract.getCandidateString({args:{}, gas:300000000000000});
             var decompressedString = LZString.decompress(result)
-            let candidates = decompressedString.split("|");
+            // let candidates = decompressedString.split("|");
             res.json(
                 {status:200,
-                 candidates
+                 decompressedString
                 }
             )
         }
