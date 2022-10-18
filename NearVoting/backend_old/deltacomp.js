@@ -38,12 +38,12 @@ async function testCompressedString(newCand){
     }
     let compStr = "";
     if(compressedString=="No Candidates"){
-        compressedString= LZString.compress(newCand)
+        compressedString= LZString.compressToUTF16(newCand)
     }
     else{
-        compStr =  LZString.decompress(compressedString)
+        compStr =  LZString.decompressFromUTF16(compressedString)
         compStr = compStr.concat("|", newCand)
-        compressedString= LZString.compress(compStr)
+        compressedString= LZString.compressToUTF16(compStr)
     }
     counter++;
 }
@@ -54,7 +54,7 @@ async function run(){
     testCompressedString(elon2)
     testCompressedString(elon)
     testCompressedString(elon2)
-    const finaldecomp = LZString.decompress(compressedString)
+    const finaldecomp = LZString.decompressFromUTF16(compressedString)
     console.log(`final decompressed sequence ${finaldecomp}`)
 }
 

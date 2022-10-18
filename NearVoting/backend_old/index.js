@@ -149,7 +149,7 @@ async function run(){
                 compStr = LZString.decompressFromUTF16(compressedString)
                 console.log(compStr)
                 compStr = compStr.concat("|", text)
-                compressedString = LZString.compress(compStr)
+                compressedString = LZString.compressToUTF16(compStr)
             }
             counter+=1;
             const result = await contract.addCandidateString({args:{'compressed_candidates':compressedString, 'new_candidate':text}});
