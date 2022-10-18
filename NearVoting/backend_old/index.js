@@ -57,8 +57,9 @@ async function run(){
         "master.test.near",
         {
         // name of contract you're connecting to
-        changeMethods: ['getCandidates', 'addCandidate', 'voteCandidate', 'addCandidateString', 
-    'getCandidateString','getCandidateMap', 'voteCandidateMap' ], // change methods modify state
+        viewMethods:['getCandidateString','getCandidateMap','getCandidates'],
+        changeMethods: [ 'addCandidate', 'voteCandidate', 'addCandidateString', 
+        'voteCandidateMap' ], // change methods modify state
         sender: account, // account object to initialize and sign transactions.
         }
     );
@@ -138,18 +139,22 @@ async function run(){
     })
     async function createCompressedString(text){
         return new Promise(async (resolve, reject)=>{
-            let stringFromContract = await contract.getCandidateString({args:{}, gas:300000000000000});
-            if(stringFromContract=="NoCandidates"){
-                let compressedString = LZUTF8.compress(text, {outputEncoding:"StorageBinaryString"})
-                resolve(compressedString)
+            try{
+                let stringFromContract = await contract.getCandidateString({args:{}, gas:300000000000000});
+                if(stringFromContract=="NoCandidates"){
+                    let compressedString = LZUTF8.compress(text, {outputEncoding:"StorageBinaryString"})
+                    resolve(compressedString)
+                }
+                else {
+                    let decompressedString = await LZUTF8.decompress(stringFromContract, {inputEncoding:"StorageBinaryString", outputEncoding:"String"})
+                    decompressedString = decompressedString.concat("|", text)
+                    let compressedString = LZUTF8.compress(decompressedString, {outputEncoding:"StorageBinaryString"})
+                    resolve(compressedString)
+                }
             }
-            else {
-                let decompressedString = await LZUTF8.decompress(stringFromContract, {inputEncoding:"StorageBinaryString", outputEncoding:"String"})
-                decompressedString = decompressedString.concat("|", text)
-                let compressedString = LZUTF8.compress(decompressedString, {outputEncoding:"StorageBinaryString"})
-                resolve(compressedString)
+            catch(e){
+                reject(e)
             }
-            reject("error")
         });
     }
     app.post('/addCandidateCompressed', async (req,res) => {
@@ -158,13 +163,15 @@ async function run(){
         console.log(`oid going in ${text}`);
         counter++;
         try{
-            let compressedString = await createCompressedString(text);
-            const result = await contract.addCandidateString({args:{'compressed_candidates':compressedString, 'new_candidate':text}});
-            res.json(
-                {status:200,
-                    result
-                }
-            )
+            createCompressedString(text)
+            .then(async (compressedString)=>{
+                const result = await contract.addCandidateString({args:{'compressed_candidates':compressedString, 'new_candidate':text}});
+                res.json(
+                    {status:200,
+                        result
+                    }
+                )
+            });
         }
         catch (e){
             console.log(e)
