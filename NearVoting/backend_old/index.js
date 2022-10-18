@@ -100,7 +100,7 @@ async function run(){
     app.post('/voteCandidate', async (req,res) => {
         ({idx} = req.body);
         try {
-            const result = await contract.voteCandidate({args:{'index':idx}});
+            const result = await contract.voteCandidateMap({args:{'candidate_oid':idx}});
             res.json(
                 {status:200,
                  result
