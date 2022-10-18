@@ -97,10 +97,10 @@ async function run(){
             res.json({status:404, msg:e})
         }
     })
+
     app.post('/voteCandidate', async (req,res) => {
         ({idx} = req.body);
         try {
-            idx = compress(idx, {outputEncoding:"StorageBinaryString"})
             const result = await contract.voteCandidateMap({args:{'candidate_oid':idx}});
             res.json(
                 {status:200,
@@ -118,6 +118,7 @@ async function run(){
     app.post('/voteCandidateCompressed', async (req,res) => {
         ({idx} = req.body);
         try {
+            idx = compress(idx, {outputEncoding:"StorageBinaryString"})
             const result = await contract.voteCandidateMap({args:{'candidate_oid':idx}});
             res.json(
                 {status:200,
@@ -169,6 +170,23 @@ async function run(){
         }
     })
 
+    app.post('/checkCandidateVotes', async (req,res) => {
+        ({idx} = req.body);
+        try {
+            idx = compress(idx, {outputEncoding:"StorageBinaryString"})
+            const result = await contract.getCandidateVote({args:{'candidate_oid':idx}});
+            res.json(
+                {status:200,
+                 result
+                }
+            )
+        }
+        catch (e)
+        {
+            console.log(e)
+            res.json({status:404, msg:e})
+        }
+    })
     app.listen(port);
     console.log(`server listening on port port ${port}`);
 }
