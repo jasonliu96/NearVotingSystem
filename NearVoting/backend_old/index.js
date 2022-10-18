@@ -60,7 +60,7 @@ async function run(){
         {
         // name of contract you're connecting to
         changeMethods: ['getCandidates', 'addCandidate', 'voteCandidate', 'addCandidateString', 
-    'getCandidateMap', 'voteCandidateMap' ], // change methods modify state
+    'getCandidateString','getCandidateMap', 'voteCandidateMap' ], // change methods modify state
         sender: account, // account object to initialize and sign transactions.
         }
     );
