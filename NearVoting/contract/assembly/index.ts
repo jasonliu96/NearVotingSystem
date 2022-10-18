@@ -13,7 +13,7 @@ export function addCandidate(text: string): void{
     storage.set<i8>("candidate_counter", new_value);
 }
 
-export function addCandidateCompressed(compressed_candidate: string): void{
+export function addCandidateCompressed(compressed_candidate: ArrayBuffer): void{
     logging.log(`called by ${context.predecessor}`)
     ballot.addCandidate(compressed_candidate);
 }
