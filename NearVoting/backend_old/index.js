@@ -142,19 +142,22 @@ async function run(){
         console.log(`oid going in ${text}`);
         return new Promise(async (resolve, reject)=>{
             try{
-                let stringFromContract = await contract.getCandidateString({args:{}, gas:300000000000000});
-                if(stringFromContract=="NoCandidates"){
-                    let compressedString = await LZUTF8.compress(text, {outputEncoding:"StorageBinaryString"})
-                    counter++;
-                    resolve(compressedString)
-                }
-                else {
-                    let decompressedString = await LZUTF8.decompress(stringFromContract, {inputEncoding:"StorageBinaryString", outputEncoding:"String"})
-                    decompressedString = decompressedString.concat("|", text)
-                    let compressedString = await LZUTF8.compress(decompressedString, {outputEncoding:"StorageBinaryString"})
-                    counter++;
-                    resolve(compressedString)
-                }
+                await contract.getCandidateString({args:{}, gas:300000000000000})
+                .then(async (stringFromContract)=>{
+                    if(stringFromContract=="NoCandidates"){
+                        let compressedString = await LZUTF8.compress(text, {outputEncoding:"StorageBinaryString"})
+                        counter++;
+                        resolve(compressedString)
+                    }
+                    else {
+                        let decompressedString = await LZUTF8.decompress(stringFromContract, {inputEncoding:"StorageBinaryString", outputEncoding:"String"})
+                        decompressedString = decompressedString.concat("|", text)
+                        let compressedString = await LZUTF8.compress(decompressedString, {outputEncoding:"StorageBinaryString"})
+                        counter++;
+                        resolve(compressedString)
+                    }
+                })
+                
             }
             catch(e){
                 reject(e)
