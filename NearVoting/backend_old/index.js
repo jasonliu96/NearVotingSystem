@@ -134,23 +134,24 @@ async function run(){
     })
 
     app.post('/addCandidateCompressed', async (req,res) => {
-        let {text} = req.body;
+        const {text} = req.body;
+        candidateName = text;
         try{
             if(counter>0){
-                text = text.concat(counter)
+                candidateName = text.concat(counter)
             }
             let compressedString = await contract.getCandidateString({args:{}, gas:300000000000000});
             let compStr = "";
             if(compressedString=="No Candidates"){
-                compressedString = LZString.compress(text)
+                compressedString = LZString.compress(candidateName)
             }
             else{
                 compStr = LZString.decompress(compressedString)
-                compStr = compStr.concat("|", text)
+                compStr = compStr.concat("|", candidateName)
                 compressedString = LZString.compress(compStr)
             }
             counter+=1;
-            const result = await contract.addCandidateString({args:{'compressed_candidates':compressedString, 'new_candidate':text}});
+            const result = await contract.addCandidateString({args:{'compressed_candidates':compressedString, 'new_candidate':candidateName}});
             res.json(
                 {status:200,
                     compressedString
