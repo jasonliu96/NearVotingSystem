@@ -57,7 +57,7 @@ async function run(){
         "master.test.near",
         {
         // name of contract you're connecting to
-        viewMethods:['getCandidateString','getCandidateMap','getCandidates'],
+        viewMethods:['getCandidateVote','getCandidateMap','getCandidates'],
         changeMethods: [ 'addCandidate', 'voteCandidate', 'addCandidateCompressed', 
         'voteCandidateMap' ], // change methods modify state
         sender: account, // account object to initialize and sign transactions.
