@@ -144,7 +144,7 @@ async function run(){
                 resolve(compressedString)
             }
             else {
-                let decompressedString = LZUTF8.decompress(stringToCompress, {inputEncoding:"StorageBinaryString", outputEncoding:"String"})
+                let decompressedString = LZUTF8.decompress(stringFromContract, {inputEncoding:"StorageBinaryString", outputEncoding:"String"})
                 decompressedString = decompressedString.concat("|", text)
                 let compressedString = LZUTF8.compress(decompressedString, {outputEncoding:"StorageBinaryString"})
                 resolve(compressedString)
