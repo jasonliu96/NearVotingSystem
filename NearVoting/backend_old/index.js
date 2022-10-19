@@ -145,7 +145,7 @@ async function run(){
             }
             res.json(
                 {status:200,
-                    result
+                    candidates
                 }
             )
         }
