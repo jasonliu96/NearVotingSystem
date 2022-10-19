@@ -170,6 +170,21 @@ async function run(){
         }
     })
 
+    app.get('/getCandidatesMap', async(req, res)=>{
+        try {
+            var result = await contract.getCandidateMap({args:{}, gas:3000000000000000});
+            res.json(
+                {status:200,
+                    result
+                }
+            )
+        }
+        catch (e)
+        {
+            console.log(e)
+            res.json({status:404, msg:e})
+        }
+    })
     app.post('/checkCandidateVotes', async (req,res) => {
         ({idx} = req.body);
         try {
