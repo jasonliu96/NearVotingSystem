@@ -2,14 +2,14 @@ import { context, u128, PersistentVector, PersistentMap } from "near-sdk-as"
 
 @nearBindgen
 export class Candidate{
-    constructor(public name: string, public votes: number){
+    constructor(public name: string, public votes: i16){
 
     }
 }
 
 @nearBindgen
 export class Phase{
-    constructor(public phase: string, public phasenumber: number){
+    constructor(public phase: string, public phasenumber: i16){
 
     }
 }
@@ -25,6 +25,14 @@ export class Ballot
             candidates.push(new Candidate(tempKey, this.candidateMap.getSome(tempKey)))
         }
         return candidates
+    }
+    getMap():Map<string,number>{
+        const map = new Map<string, number>();
+        for (let i=0; i<this.keys.length; i++){
+            let tempKey = this.keys[i]
+            map.set(tempKey, this.candidateMap.getSome(tempKey))
+        }
+        return map
     }
     addCandidate(new_candidate:string):void{
         this.keys.push(new_candidate);
