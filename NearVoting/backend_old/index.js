@@ -1,3 +1,5 @@
+const { deployContract } = require('near-api-js/lib/transaction');
+
 async function run(){
     const express = require('express');
     const app = express();
@@ -138,7 +140,8 @@ async function run(){
             var candidates = [];
             var result = await contract.getCandidateMap({args:{}, gas:3000000000000000});
             for(const[key, value] of Object.entries(result)) {     
-                candidates.push({name:decompress(key, {inputEncoding:"StorageBinaryString", outputEncoding:"String"}), vote:value})
+                var decompressed = await decompress(key, {inputEncoding:"StorageBinaryString", outputEncoding:"String"})
+                candidates.push({name:decompressed, vote:value})
             }
             res.json(
                 {status:200,
