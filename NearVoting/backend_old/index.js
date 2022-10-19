@@ -174,7 +174,7 @@ async function run(){
         try {
             var candidates = [];
             var result = await contract.getCandidateMap({args:{}, gas:3000000000000000});
-            for(const[key, value] of result) {
+            for(const[key, value] of Object.entries(result)) {
                 candidates.push({name:key, vote:value})
             }
             res.json(
