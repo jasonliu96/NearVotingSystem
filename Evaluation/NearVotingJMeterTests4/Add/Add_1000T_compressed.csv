@@ -1,0 +1,1001 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1666134336580,3582,HTTP Request,200,OK,1000T addCandidate 1-20,text,true,,261,260,378,378,http://localhost:9999/addCandidateCompressed,3582,0,2053
+1666134336598,3568,HTTP Request,200,OK,1000T addCandidate 1-22,text,true,,261,260,377,377,http://localhost:9999/addCandidateCompressed,3568,0,2035
+1666134336589,3580,HTTP Request,200,OK,1000T addCandidate 1-21,text,true,,261,260,377,377,http://localhost:9999/addCandidateCompressed,3580,0,2044
+1666134336610,3573,HTTP Request,200,OK,1000T addCandidate 1-23,text,true,,261,260,377,377,http://localhost:9999/addCandidateCompressed,3573,0,2039
+1666134336629,3555,HTTP Request,200,OK,1000T addCandidate 1-25,text,true,,261,260,376,376,http://localhost:9999/addCandidateCompressed,3555,0,2020
+1666134336619,3572,HTTP Request,200,OK,1000T addCandidate 1-24,text,true,,261,260,376,376,http://localhost:9999/addCandidateCompressed,3572,0,2031
+1666134336640,3559,HTTP Request,200,OK,1000T addCandidate 1-26,text,true,,261,260,376,376,http://localhost:9999/addCandidateCompressed,3559,0,2025
+1666134336650,3553,HTTP Request,200,OK,1000T addCandidate 1-27,text,true,,261,260,375,375,http://localhost:9999/addCandidateCompressed,3553,0,2031
+1666134336659,3560,HTTP Request,200,OK,1000T addCandidate 1-28,text,true,,261,260,375,375,http://localhost:9999/addCandidateCompressed,3560,0,2037
+1666134336669,3556,HTTP Request,200,OK,1000T addCandidate 1-29,text,true,,261,260,375,375,http://localhost:9999/addCandidateCompressed,3556,0,2027
+1666134336680,3554,HTTP Request,200,OK,1000T addCandidate 1-30,text,true,,261,260,375,375,http://localhost:9999/addCandidateCompressed,3554,0,2032
+1666134336689,3563,HTTP Request,200,OK,1000T addCandidate 1-31,text,true,,261,260,376,376,http://localhost:9999/addCandidateCompressed,3563,0,2039
+1666134336699,3556,HTTP Request,200,OK,1000T addCandidate 1-32,text,true,,261,260,375,375,http://localhost:9999/addCandidateCompressed,3556,0,2029
+1666134336709,3558,HTTP Request,200,OK,1000T addCandidate 1-33,text,true,,261,260,375,375,http://localhost:9999/addCandidateCompressed,3558,0,2035
+1666134336749,3531,HTTP Request,200,OK,1000T addCandidate 1-37,text,true,,261,260,376,376,http://localhost:9999/addCandidateCompressed,3531,0,2011
+1666134336739,3554,HTTP Request,200,OK,1000T addCandidate 1-36,text,true,,261,260,376,376,http://localhost:9999/addCandidateCompressed,3554,0,2021
+1666134336730,3570,HTTP Request,200,OK,1000T addCandidate 1-35,text,true,,261,260,376,376,http://localhost:9999/addCandidateCompressed,3570,0,2030
+1666134336720,3583,HTTP Request,200,OK,1000T addCandidate 1-34,text,true,,261,260,375,375,http://localhost:9999/addCandidateCompressed,3583,0,2040
+1666134336759,3552,HTTP Request,200,OK,1000T addCandidate 1-38,text,true,,261,260,375,375,http://localhost:9999/addCandidateCompressed,3552,0,2016
+1666134336780,3537,HTTP Request,200,OK,1000T addCandidate 1-40,text,true,,261,260,374,374,http://localhost:9999/addCandidateCompressed,3537,0,2011
+1666134336769,3551,HTTP Request,200,OK,1000T addCandidate 1-39,text,true,,261,260,374,374,http://localhost:9999/addCandidateCompressed,3551,0,2022
+1666134336790,3535,HTTP Request,200,OK,1000T addCandidate 1-41,text,true,,261,260,373,373,http://localhost:9999/addCandidateCompressed,3535,0,2017
+1666134336809,3539,HTTP Request,200,OK,1000T addCandidate 1-43,text,true,,261,260,374,374,http://localhost:9999/addCandidateCompressed,3539,0,2014
+1666134336799,3552,HTTP Request,200,OK,1000T addCandidate 1-42,text,true,,261,260,374,374,http://localhost:9999/addCandidateCompressed,3552,0,2024
+1666134336829,3557,HTTP Request,200,OK,1000T addCandidate 1-45,text,true,,261,260,376,376,http://localhost:9999/addCandidateCompressed,3557,0,2031
+1666134336819,3584,HTTP Request,200,OK,1000T addCandidate 1-44,text,true,,261,260,377,377,http://localhost:9999/addCandidateCompressed,3584,0,2041
+1666134336840,3564,HTTP Request,200,OK,1000T addCandidate 1-46,text,true,,261,260,376,376,http://localhost:9999/addCandidateCompressed,3564,0,2031
+1666134336860,3551,HTTP Request,200,OK,1000T addCandidate 1-48,text,true,,261,260,376,376,http://localhost:9999/addCandidateCompressed,3551,0,2026
+1666134336404,4056,HTTP Request,200,OK,1000T addCandidate 1-2,text,true,,261,260,380,380,http://localhost:9999/addCandidateCompressed,4055,0,2025
+1666134336404,4058,HTTP Request,200,OK,1000T addCandidate 1-1,text,true,,261,260,379,379,http://localhost:9999/addCandidateCompressed,4058,0,2025
+1666134336420,4053,HTTP Request,200,OK,1000T addCandidate 1-3,text,true,,261,260,379,379,http://localhost:9999/addCandidateCompressed,4053,0,2025
+1666134336420,4055,HTTP Request,200,OK,1000T addCandidate 1-4,text,true,,261,260,378,378,http://localhost:9999/addCandidateCompressed,4055,0,2025
+1666134336450,4066,HTTP Request,200,OK,1000T addCandidate 1-7,text,true,,261,260,381,381,http://localhost:9999/addCandidateCompressed,4066,0,2025
+1666134336451,4066,HTTP Request,200,OK,1000T addCandidate 1-5,text,true,,261,260,380,380,http://localhost:9999/addCandidateCompressed,4066,0,2024
+1666134336478,4059,HTTP Request,200,OK,1000T addCandidate 1-10,text,true,,261,260,381,381,http://localhost:9999/addCandidateCompressed,4059,0,2028
+1666134336469,4077,HTTP Request,200,OK,1000T addCandidate 1-9,text,true,,261,260,381,381,http://localhost:9999/addCandidateCompressed,4077,0,2037
+1666134336490,4063,HTTP Request,200,OK,1000T addCandidate 1-11,text,true,,261,260,381,381,http://localhost:9999/addCandidateCompressed,4063,0,2032
+1666134336500,4064,HTTP Request,200,OK,1000T addCandidate 1-12,text,true,,261,260,381,381,http://localhost:9999/addCandidateCompressed,4063,0,2038
+1666134336509,4058,HTTP Request,200,OK,1000T addCandidate 1-13,text,true,,261,260,380,380,http://localhost:9999/addCandidateCompressed,4058,0,2029
+1666134336518,4065,HTTP Request,200,OK,1000T addCandidate 1-14,text,true,,261,260,381,381,http://localhost:9999/addCandidateCompressed,4065,0,2036
+1666134336530,4057,HTTP Request,200,OK,1000T addCandidate 1-15,text,true,,261,260,380,380,http://localhost:9999/addCandidateCompressed,4057,0,2024
+1666134336538,4055,HTTP Request,200,OK,1000T addCandidate 1-16,text,true,,261,260,380,380,http://localhost:9999/addCandidateCompressed,4055,0,2032
+1666134336559,4054,HTTP Request,200,OK,1000T addCandidate 1-18,text,true,,261,260,381,381,http://localhost:9999/addCandidateCompressed,4054,0,2027
+1666134336550,4068,HTTP Request,200,OK,1000T addCandidate 1-17,text,true,,261,260,380,380,http://localhost:9999/addCandidateCompressed,4068,0,2036
+1666134336571,4057,HTTP Request,200,OK,1000T addCandidate 1-19,text,true,,261,260,380,380,http://localhost:9999/addCandidateCompressed,4056,0,2031
+1666134337190,3552,HTTP Request,200,OK,1000T addCandidate 1-81,text,true,,261,260,391,391,http://localhost:9999/addCandidateCompressed,3552,0,2027
+1666134337200,3552,HTTP Request,200,OK,1000T addCandidate 1-82,text,true,,261,260,391,391,http://localhost:9999/addCandidateCompressed,3552,0,2017
+1666134337209,3545,HTTP Request,200,OK,1000T addCandidate 1-83,text,true,,261,260,390,390,http://localhost:9999/addCandidateCompressed,3545,0,2024
+1666134337229,3541,HTTP Request,200,OK,1000T addCandidate 1-85,text,true,,261,260,391,391,http://localhost:9999/addCandidateCompressed,3541,0,2021
+1666134337219,3554,HTTP Request,200,OK,1000T addCandidate 1-84,text,true,,261,260,390,390,http://localhost:9999/addCandidateCompressed,3554,0,2031
+1666134337250,3545,HTTP Request,200,OK,1000T addCandidate 1-87,text,true,,261,260,391,391,http://localhost:9999/addCandidateCompressed,3545,0,2015
+1666134337240,3557,HTTP Request,200,OK,1000T addCandidate 1-86,text,true,,261,260,390,390,http://localhost:9999/addCandidateCompressed,3557,0,2025
+1666134337261,3550,HTTP Request,200,OK,1000T addCandidate 1-88,text,true,,261,260,391,391,http://localhost:9999/addCandidateCompressed,3550,0,2020
+1666134337271,3551,HTTP Request,200,OK,1000T addCandidate 1-89,text,true,,261,260,391,391,http://localhost:9999/addCandidateCompressed,3551,0,2026
+1666134337280,3545,HTTP Request,200,OK,1000T addCandidate 1-90,text,true,,261,260,390,390,http://localhost:9999/addCandidateCompressed,3545,0,2017
+1666134337289,3549,HTTP Request,200,OK,1000T addCandidate 1-91,text,true,,261,260,390,390,http://localhost:9999/addCandidateCompressed,3549,0,2024
+1666134337299,3553,HTTP Request,200,OK,1000T addCandidate 1-92,text,true,,261,260,391,391,http://localhost:9999/addCandidateCompressed,3553,0,2029
+1666134337309,3552,HTTP Request,200,OK,1000T addCandidate 1-93,text,true,,261,260,391,391,http://localhost:9999/addCandidateCompressed,3552,0,2019
+1666134337320,3549,HTTP Request,200,OK,1000T addCandidate 1-94,text,true,,261,260,391,391,http://localhost:9999/addCandidateCompressed,3549,0,2024
+1666134337329,3558,HTTP Request,200,OK,1000T addCandidate 1-95,text,true,,261,260,391,391,http://localhost:9999/addCandidateCompressed,3558,0,2015
+1666134337339,3551,HTTP Request,200,OK,1000T addCandidate 1-96,text,true,,261,260,391,391,http://localhost:9999/addCandidateCompressed,3551,0,2021
+1666134337360,3545,HTTP Request,200,OK,1000T addCandidate 1-98,text,true,,261,260,391,391,http://localhost:9999/addCandidateCompressed,3544,0,2015
+1666134337349,3556,HTTP Request,200,OK,1000T addCandidate 1-97,text,true,,261,260,390,390,http://localhost:9999/addCandidateCompressed,3556,0,2026
+1666134336869,4060,HTTP Request,200,OK,1000T addCandidate 1-49,text,true,,261,260,390,390,http://localhost:9999/addCandidateCompressed,4060,0,2032
+1666134337370,3559,HTTP Request,200,OK,1000T addCandidate 1-99,text,true,,261,260,390,390,http://localhost:9999/addCandidateCompressed,3559,0,2022
+1666134337379,3563,HTTP Request,200,OK,1000T addCandidate 1-100,text,true,,261,260,391,391,http://localhost:9999/addCandidateCompressed,3563,0,2028
+1666134336889,4055,HTTP Request,200,OK,1000T addCandidate 1-51,text,true,,261,260,390,390,http://localhost:9999/addCandidateCompressed,4055,0,2028
+1666134337388,3557,HTTP Request,200,OK,1000T addCandidate 1-101,text,true,,261,260,389,389,http://localhost:9999/addCandidateCompressed,3556,0,2019
+1666134337399,3547,HTTP Request,200,OK,1000T addCandidate 1-102,text,true,,261,260,388,388,http://localhost:9999/addCandidateCompressed,3547,0,2024
+1666134336879,4072,HTTP Request,200,OK,1000T addCandidate 1-50,text,true,,261,260,388,388,http://localhost:9999/addCandidateCompressed,4072,0,2038
+1666134336900,4057,HTTP Request,200,OK,1000T addCandidate 1-52,text,true,,261,260,387,387,http://localhost:9999/addCandidateCompressed,4057,0,2033
+1666134337409,3552,HTTP Request,200,OK,1000T addCandidate 1-103,text,true,,261,260,387,387,http://localhost:9999/addCandidateCompressed,3552,0,2030
+1666134337420,3543,HTTP Request,200,OK,1000T addCandidate 1-104,text,true,,261,260,386,386,http://localhost:9999/addCandidateCompressed,3543,0,2019
+1666134336910,4074,HTTP Request,200,OK,1000T addCandidate 1-53,text,true,,261,260,387,387,http://localhost:9999/addCandidateCompressed,4074,0,2039
+1666134336919,4065,HTTP Request,200,OK,1000T addCandidate 1-54,text,true,,261,260,387,387,http://localhost:9999/addCandidateCompressed,4065,0,2030
+1666134337436,3550,HTTP Request,200,OK,1000T addCandidate 1-105,text,true,,261,260,385,385,http://localhost:9999/addCandidateCompressed,3550,0,2019
+1666134336929,4061,HTTP Request,200,OK,1000T addCandidate 1-55,text,true,,261,260,385,385,http://localhost:9999/addCandidateCompressed,4061,0,2020
+1666134337439,3552,HTTP Request,200,OK,1000T addCandidate 1-106,text,true,,261,260,384,384,http://localhost:9999/addCandidateCompressed,3552,0,2031
+1666134337449,3565,HTTP Request,200,OK,1000T addCandidate 1-107,text,true,,261,260,385,385,http://localhost:9999/addCandidateCompressed,3565,0,2021
+1666134336949,4069,HTTP Request,200,OK,1000T addCandidate 1-57,text,true,,261,260,384,384,http://localhost:9999/addCandidateCompressed,4069,0,2015
+1666134336939,4080,HTTP Request,200,OK,1000T addCandidate 1-56,text,true,,261,260,384,385,http://localhost:9999/addCandidateCompressed,4080,0,2025
+1666134337469,3550,HTTP Request,200,OK,1000T addCandidate 1-109,text,true,,261,260,383,383,http://localhost:9999/addCandidateCompressed,3550,0,2016
+1666134336960,4060,HTTP Request,200,OK,1000T addCandidate 1-58,text,true,,261,260,382,382,http://localhost:9999/addCandidateCompressed,4060,0,2020
+1666134337458,3563,HTTP Request,200,OK,1000T addCandidate 1-108,text,true,,261,260,381,381,http://localhost:9999/addCandidateCompressed,3563,0,2027
+1666134336970,4094,HTTP Request,200,OK,1000T addCandidate 1-59,text,true,,261,260,384,384,http://localhost:9999/addCandidateCompressed,4094,0,2026
+1666134336466,4598,HTTP Request,200,OK,1000T addCandidate 1-6,text,true,,261,260,384,384,http://localhost:9999/addCandidateCompressed,4598,0,2025
+1666134336979,4086,HTTP Request,200,OK,1000T addCandidate 1-60,text,true,,261,260,382,382,http://localhost:9999/addCandidateCompressed,4086,0,2017
+1666134336460,4606,HTTP Request,200,OK,1000T addCandidate 1-8,text,true,,261,260,381,381,http://localhost:9999/addCandidateCompressed,4606,0,2031
+1666134336989,4077,HTTP Request,200,OK,1000T addCandidate 1-61,text,true,,261,260,380,380,http://localhost:9999/addCandidateCompressed,4077,0,2031
+1666134337009,4058,HTTP Request,200,OK,1000T addCandidate 1-63,text,true,,261,260,379,379,http://localhost:9999/addCandidateCompressed,4058,0,2019
+1666134336999,4069,HTTP Request,200,OK,1000T addCandidate 1-62,text,true,,261,260,378,378,http://localhost:9999/addCandidateCompressed,4069,0,2029
+1666134337019,4050,HTTP Request,200,OK,1000T addCandidate 1-64,text,true,,261,260,377,377,http://localhost:9999/addCandidateCompressed,4050,0,2025
+1666134337030,4060,HTTP Request,200,OK,1000T addCandidate 1-65,text,true,,261,260,379,379,http://localhost:9999/addCandidateCompressed,4060,0,2030
+1666134337060,4043,HTTP Request,200,OK,1000T addCandidate 1-68,text,true,,261,260,379,379,http://localhost:9999/addCandidateCompressed,4043,0,2016
+1666134337060,4048,HTTP Request,200,OK,1000T addCandidate 1-67,text,true,,261,260,378,378,http://localhost:9999/addCandidateCompressed,4048,0,2016
+1666134337040,4093,HTTP Request,200,OK,1000T addCandidate 1-66,text,true,,261,260,380,380,http://localhost:9999/addCandidateCompressed,4093,0,2036
+1666134337069,4065,HTTP Request,200,OK,1000T addCandidate 1-69,text,true,,261,260,379,379,http://localhost:9999/addCandidateCompressed,4065,0,2027
+1666134337099,4085,HTTP Request,200,OK,1000T addCandidate 1-72,text,true,,261,260,383,383,http://localhost:9999/addCandidateCompressed,4085,0,2024
+1666134337120,4070,HTTP Request,200,OK,1000T addCandidate 1-74,text,true,,261,260,383,383,http://localhost:9999/addCandidateCompressed,4070,0,2019
+1666134337111,4080,HTTP Request,200,OK,1000T addCandidate 1-73,text,true,,261,260,382,382,http://localhost:9999/addCandidateCompressed,4080,0,2047
+1666134337139,4052,HTTP Request,200,OK,1000T addCandidate 1-76,text,true,,261,260,381,381,http://localhost:9999/addCandidateCompressed,4052,0,2020
+1666134337129,4064,HTTP Request,200,OK,1000T addCandidate 1-75,text,true,,261,260,380,380,http://localhost:9999/addCandidateCompressed,4064,0,2030
+1666134337149,4064,HTTP Request,200,OK,1000T addCandidate 1-77,text,true,,261,260,381,381,http://localhost:9999/addCandidateCompressed,4064,0,2020
+1666134337169,4047,HTTP Request,200,OK,1000T addCandidate 1-79,text,true,,261,260,380,380,http://localhost:9999/addCandidateCompressed,4047,0,2016
+1666134337159,4073,HTTP Request,200,OK,1000T addCandidate 1-78,text,true,,261,260,381,381,http://localhost:9999/addCandidateCompressed,4073,0,2026
+1666134337179,4084,HTTP Request,200,OK,1000T addCandidate 1-80,text,true,,261,260,383,383,http://localhost:9999/addCandidateCompressed,4084,0,2022
+1666134337799,3607,HTTP Request,200,OK,1000T addCandidate 1-142,text,true,,261,260,396,396,http://localhost:9999/addCandidateCompressed,3607,0,2016
+1666134337788,3618,HTTP Request,200,OK,1000T addCandidate 1-141,text,true,,261,260,395,395,http://localhost:9999/addCandidateCompressed,3618,0,2027
+1666134337808,3601,HTTP Request,200,OK,1000T addCandidate 1-143,text,true,,261,260,394,394,http://localhost:9999/addCandidateCompressed,3601,0,2022
+1666134337819,3591,HTTP Request,200,OK,1000T addCandidate 1-144,text,true,,261,260,394,394,http://localhost:9999/addCandidateCompressed,3591,0,2027
+1666134337830,3581,HTTP Request,200,OK,1000T addCandidate 1-145,text,true,,261,260,394,394,http://localhost:9999/addCandidateCompressed,3581,0,2016
+1666134337849,3562,HTTP Request,200,OK,1000T addCandidate 1-147,text,true,,261,260,394,394,http://localhost:9999/addCandidateCompressed,3562,0,2013
+1666134337839,3572,HTTP Request,200,OK,1000T addCandidate 1-146,text,true,,261,260,394,394,http://localhost:9999/addCandidateCompressed,3572,0,2023
+1666134337859,3552,HTTP Request,200,OK,1000T addCandidate 1-148,text,true,,261,260,394,394,http://localhost:9999/addCandidateCompressed,3552,0,2021
+1666134337869,3558,HTTP Request,200,OK,1000T addCandidate 1-149,text,true,,261,260,390,390,http://localhost:9999/addCandidateCompressed,3558,0,2024
+1666134337879,3575,HTTP Request,200,OK,1000T addCandidate 1-150,text,true,,261,260,392,392,http://localhost:9999/addCandidateCompressed,3575,0,2014
+1666134337490,4080,HTTP Request,200,OK,1000T addCandidate 1-111,text,true,,261,260,403,403,http://localhost:9999/addCandidateCompressed,4080,0,2027
+1666134337480,4090,HTTP Request,200,OK,1000T addCandidate 1-110,text,true,,261,260,403,403,http://localhost:9999/addCandidateCompressed,4090,0,2021
+1666134337499,4072,HTTP Request,200,OK,1000T addCandidate 1-112,text,true,,261,260,401,401,http://localhost:9999/addCandidateCompressed,4072,0,2018
+1666134337509,4092,HTTP Request,200,OK,1000T addCandidate 1-113,text,true,,261,260,403,403,http://localhost:9999/addCandidateCompressed,4091,0,2024
+1666134337519,4113,HTTP Request,200,OK,1000T addCandidate 1-114,text,true,,261,260,405,405,http://localhost:9999/addCandidateCompressed,4113,0,2030
+1666134337529,4103,HTTP Request,200,OK,1000T addCandidate 1-115,text,true,,261,260,405,405,http://localhost:9999/addCandidateCompressed,4103,0,2020
+1666134337539,4094,HTTP Request,200,OK,1000T addCandidate 1-116,text,true,,261,260,403,403,http://localhost:9999/addCandidateCompressed,4094,0,2026
+1666134337560,4073,HTTP Request,200,OK,1000T addCandidate 1-118,text,true,,261,260,402,402,http://localhost:9999/addCandidateCompressed,4073,0,2021
+1666134337550,4086,HTTP Request,200,OK,1000T addCandidate 1-117,text,true,,261,260,401,401,http://localhost:9999/addCandidateCompressed,4086,0,2030
+1666134337089,4600,HTTP Request,200,OK,1000T addCandidate 1-71,text,true,,261,260,405,405,http://localhost:9999/addCandidateCompressed,4600,0,2019
+1666134337580,4109,HTTP Request,200,OK,1000T addCandidate 1-120,text,true,,261,260,405,405,http://localhost:9999/addCandidateCompressed,4109,0,2019
+1666134337079,4611,HTTP Request,200,OK,1000T addCandidate 1-70,text,true,,261,260,404,404,http://localhost:9999/addCandidateCompressed,4611,0,2028
+1666134337569,4121,HTTP Request,200,OK,1000T addCandidate 1-119,text,true,,261,260,403,403,http://localhost:9999/addCandidateCompressed,4121,0,2030
+1666134337599,4092,HTTP Request,200,OK,1000T addCandidate 1-122,text,true,,261,260,402,402,http://localhost:9999/addCandidateCompressed,4092,0,2029
+1666134337589,4102,HTTP Request,200,OK,1000T addCandidate 1-121,text,true,,261,260,401,401,http://localhost:9999/addCandidateCompressed,4102,0,2023
+1666134337610,4082,HTTP Request,200,OK,1000T addCandidate 1-123,text,true,,261,260,400,400,http://localhost:9999/addCandidateCompressed,4082,0,2018
+1666134337620,4073,HTTP Request,200,OK,1000T addCandidate 1-124,text,true,,261,260,399,399,http://localhost:9999/addCandidateCompressed,4073,0,2023
+1666134337629,4072,HTTP Request,200,OK,1000T addCandidate 1-125,text,true,,261,260,399,399,http://localhost:9999/addCandidateCompressed,4071,0,2031
+1666134337659,4059,HTTP Request,200,OK,1000T addCandidate 1-128,text,true,,261,260,399,399,http://localhost:9999/addCandidateCompressed,4059,0,2016
+1666134337640,4080,HTTP Request,200,OK,1000T addCandidate 1-126,text,true,,261,260,399,399,http://localhost:9999/addCandidateCompressed,4080,0,2035
+1666134337649,4105,HTTP Request,200,OK,1000T addCandidate 1-127,text,true,,261,260,401,401,http://localhost:9999/addCandidateCompressed,4105,0,2026
+1666134337668,4094,HTTP Request,200,OK,1000T addCandidate 1-129,text,true,,261,260,401,401,http://localhost:9999/addCandidateCompressed,4094,0,2023
+1666134337689,4074,HTTP Request,200,OK,1000T addCandidate 1-131,text,true,,261,260,400,400,http://localhost:9999/addCandidateCompressed,4074,0,2017
+1666134337699,4066,HTTP Request,200,OK,1000T addCandidate 1-132,text,true,,261,260,399,399,http://localhost:9999/addCandidateCompressed,4066,0,2023
+1666134337680,4085,HTTP Request,200,OK,1000T addCandidate 1-130,text,true,,261,260,399,399,http://localhost:9999/addCandidateCompressed,4085,0,2026
+1666134337709,4069,HTTP Request,200,OK,1000T addCandidate 1-133,text,true,,261,260,398,398,http://localhost:9999/addCandidateCompressed,4069,0,2029
+1666134337718,4061,HTTP Request,200,OK,1000T addCandidate 1-134,text,true,,261,260,398,398,http://localhost:9999/addCandidateCompressed,4061,0,2020
+1666134337729,4066,HTTP Request,200,OK,1000T addCandidate 1-135,text,true,,261,260,398,398,http://localhost:9999/addCandidateCompressed,4066,0,2024
+1666134337738,4070,HTTP Request,200,OK,1000T addCandidate 1-136,text,true,,261,260,398,398,http://localhost:9999/addCandidateCompressed,4070,0,2017
+1666134337749,4071,HTTP Request,200,OK,1000T addCandidate 1-137,text,true,,261,260,398,398,http://localhost:9999/addCandidateCompressed,4071,0,2021
+1666134337760,4060,HTTP Request,200,OK,1000T addCandidate 1-138,text,true,,261,260,398,398,http://localhost:9999/addCandidateCompressed,4060,0,2024
+1666134337770,4051,HTTP Request,200,OK,1000T addCandidate 1-139,text,true,,261,260,397,397,http://localhost:9999/addCandidateCompressed,4051,0,2014
+1666134337778,4048,HTTP Request,200,OK,1000T addCandidate 1-140,text,true,,261,260,396,396,http://localhost:9999/addCandidateCompressed,4048,0,2021
+1666134339020,3745,HTTP Request,200,OK,1000T addCandidate 1-264,text,true,,261,260,489,489,http://localhost:9999/addCandidateCompressed,3744,0,2037
+1666134339030,3735,HTTP Request,200,OK,1000T addCandidate 1-265,text,true,,261,260,488,488,http://localhost:9999/addCandidateCompressed,3735,0,2027
+1666134337999,4768,HTTP Request,200,OK,1000T addCandidate 1-162,text,true,,261,260,487,487,http://localhost:9999/addCandidateCompressed,4767,0,2033
+1666134339049,3772,HTTP Request,200,OK,1000T addCandidate 1-267,text,true,,261,260,492,492,http://localhost:9999/addCandidateCompressed,3772,0,2039
+1666134338039,4788,HTTP Request,200,OK,1000T addCandidate 1-166,text,true,,261,260,491,491,http://localhost:9999/addCandidateCompressed,4788,0,2041
+1666134339100,3743,HTTP Request,200,OK,1000T addCandidate 1-272,text,true,,261,260,492,492,http://localhost:9999/addCandidateCompressed,3743,0,2034
+1666134339119,3725,HTTP Request,200,OK,1000T addCandidate 1-274,text,true,,261,260,491,491,http://localhost:9999/addCandidateCompressed,3725,0,2016
+1666134339128,3717,HTTP Request,200,OK,1000T addCandidate 1-275,text,true,,261,260,490,490,http://localhost:9999/addCandidateCompressed,3717,0,2022
+1666134339392,3946,HTTP Request,200,OK,1000T addCandidate 1-300,text,true,,261,260,538,538,http://localhost:9999/addCandidateCompressed,3946,0,2041
+1666134339424,3916,HTTP Request,200,OK,1000T addCandidate 1-304,text,true,,261,260,538,538,http://localhost:9999/addCandidateCompressed,3916,0,2025
+1666134339408,3933,HTTP Request,200,OK,1000T addCandidate 1-302,text,true,,261,260,537,537,http://localhost:9999/addCandidateCompressed,3933,0,2025
+1666134339424,3919,HTTP Request,200,OK,1000T addCandidate 1-303,text,true,,261,260,536,536,http://localhost:9999/addCandidateCompressed,3919,0,2025
+1666134338409,4936,HTTP Request,200,OK,1000T addCandidate 1-203,text,true,,261,260,535,535,http://localhost:9999/addCandidateCompressed,4936,0,2015
+1666134339439,3908,HTTP Request,200,OK,1000T addCandidate 1-305,text,true,,261,260,534,534,http://localhost:9999/addCandidateCompressed,3908,0,2026
+1666134339439,3910,HTTP Request,200,OK,1000T addCandidate 1-306,text,true,,261,260,533,533,http://localhost:9999/addCandidateCompressed,3910,0,2026
+1666134338419,4931,HTTP Request,200,OK,1000T addCandidate 1-204,text,true,,261,260,533,533,http://localhost:9999/addCandidateCompressed,4931,0,2037
+1666134338429,4921,HTTP Request,200,OK,1000T addCandidate 1-205,text,true,,261,260,532,532,http://localhost:9999/addCandidateCompressed,4921,0,2031
+1666134339456,3895,HTTP Request,200,OK,1000T addCandidate 1-307,text,true,,261,260,531,531,http://localhost:9999/addCandidateCompressed,3895,0,2025
+1666134339469,3883,HTTP Request,200,OK,1000T addCandidate 1-309,text,true,,261,260,530,530,http://localhost:9999/addCandidateCompressed,3883,0,2027
+1666134339458,3895,HTTP Request,200,OK,1000T addCandidate 1-308,text,true,,261,260,529,529,http://localhost:9999/addCandidateCompressed,3895,0,2023
+1666134339478,3876,HTTP Request,200,OK,1000T addCandidate 1-310,text,true,,261,260,528,528,http://localhost:9999/addCandidateCompressed,3876,0,2018
+1666134338445,4910,HTTP Request,200,OK,1000T addCandidate 1-206,text,true,,261,260,527,527,http://localhost:9999/addCandidateCompressed,4910,0,2027
+1666134339488,3869,HTTP Request,200,OK,1000T addCandidate 1-311,text,true,,261,260,526,526,http://localhost:9999/addCandidateCompressed,3869,0,2024
+1666134338459,4899,HTTP Request,200,OK,1000T addCandidate 1-208,text,true,,261,260,525,525,http://localhost:9999/addCandidateCompressed,4899,0,2028
+1666134339500,3859,HTTP Request,200,OK,1000T addCandidate 1-312,text,true,,261,260,525,525,http://localhost:9999/addCandidateCompressed,3859,0,2012
+1666134338449,4911,HTTP Request,200,OK,1000T addCandidate 1-207,text,true,,261,260,524,524,http://localhost:9999/addCandidateCompressed,4911,0,2038
+1666134339510,3882,HTTP Request,200,OK,1000T addCandidate 1-313,text,true,,261,260,526,526,http://localhost:9999/addCandidateCompressed,3882,0,2018
+1666134338479,4913,HTTP Request,200,OK,1000T addCandidate 1-210,text,true,,261,260,525,525,http://localhost:9999/addCandidateCompressed,4913,0,2039
+1666134338489,4904,HTTP Request,200,OK,1000T addCandidate 1-211,text,true,,261,260,524,524,http://localhost:9999/addCandidateCompressed,4904,0,2029
+1666134338468,4925,HTTP Request,200,OK,1000T addCandidate 1-209,text,true,,261,260,523,523,http://localhost:9999/addCandidateCompressed,4925,0,2035
+1666134339541,3854,HTTP Request,200,OK,1000T addCandidate 1-316,text,true,,261,260,522,522,http://localhost:9999/addCandidateCompressed,3854,0,2019
+1666134339529,3867,HTTP Request,200,OK,1000T addCandidate 1-315,text,true,,261,260,521,521,http://localhost:9999/addCandidateCompressed,3867,0,2015
+1666134338509,4888,HTTP Request,200,OK,1000T addCandidate 1-213,text,true,,261,260,520,520,http://localhost:9999/addCandidateCompressed,4888,0,2042
+1666134338518,4880,HTTP Request,200,OK,1000T addCandidate 1-214,text,true,,261,260,519,519,http://localhost:9999/addCandidateCompressed,4880,0,2033
+1666134339519,3880,HTTP Request,200,OK,1000T addCandidate 1-314,text,true,,261,260,519,519,http://localhost:9999/addCandidateCompressed,3880,0,2041
+1666134338498,4901,HTTP Request,200,OK,1000T addCandidate 1-212,text,true,,261,260,518,518,http://localhost:9999/addCandidateCompressed,4901,0,2053
+1666134338681,4758,HTTP Request,200,OK,1000T addCandidate 1-230,text,true,,261,260,521,521,http://localhost:9999/addCandidateCompressed,4758,0,2029
+1666134338179,5260,HTTP Request,200,OK,1000T addCandidate 1-180,text,true,,261,260,521,521,http://localhost:9999/addCandidateCompressed,5260,0,2027
+1666134338540,4900,HTTP Request,200,OK,1000T addCandidate 1-216,text,true,,261,260,519,519,http://localhost:9999/addCandidateCompressed,4900,0,2026
+1666134338189,5251,HTTP Request,200,OK,1000T addCandidate 1-181,text,true,,261,260,518,518,http://localhost:9999/addCandidateCompressed,5251,0,2033
+1666134338691,4750,HTTP Request,200,OK,1000T addCandidate 1-231,text,true,,261,260,517,517,http://localhost:9999/addCandidateCompressed,4750,0,2034
+1666134338700,4741,HTTP Request,200,OK,1000T addCandidate 1-232,text,true,,261,260,516,516,http://localhost:9999/addCandidateCompressed,4741,0,2025
+1666134338558,4883,HTTP Request,200,OK,1000T addCandidate 1-218,text,true,,261,260,515,515,http://localhost:9999/addCandidateCompressed,4883,0,2025
+1666134338209,5233,HTTP Request,200,OK,1000T addCandidate 1-183,text,true,,261,260,514,514,http://localhost:9999/addCandidateCompressed,5233,0,2027
+1666134338199,5317,HTTP Request,200,OK,1000T addCandidate 1-182,text,true,,261,260,520,520,http://localhost:9999/addCandidateCompressed,5317,0,2037
+1666134338550,4967,HTTP Request,200,OK,1000T addCandidate 1-217,text,true,,261,260,519,519,http://localhost:9999/addCandidateCompressed,4967,0,2033
+1666134338530,4988,HTTP Request,200,OK,1000T addCandidate 1-215,text,true,,261,260,518,518,http://localhost:9999/addCandidateCompressed,4988,0,2036
+1666134339198,4322,HTTP Request,200,OK,1000T addCandidate 1-282,text,true,,261,260,517,517,http://localhost:9999/addCandidateCompressed,4322,0,2032
+1666134339560,3961,HTTP Request,200,OK,1000T addCandidate 1-318,text,true,,261,260,517,517,http://localhost:9999/addCandidateCompressed,3961,0,2016
+1666134339219,4302,HTTP Request,200,OK,1000T addCandidate 1-284,text,true,,261,260,516,516,http://localhost:9999/addCandidateCompressed,4302,0,2026
+1666134339568,3954,HTTP Request,200,OK,1000T addCandidate 1-319,text,true,,261,260,515,515,http://localhost:9999/addCandidateCompressed,3954,0,2024
+1666134339548,3975,HTTP Request,200,OK,1000T addCandidate 1-317,text,true,,261,260,514,514,http://localhost:9999/addCandidateCompressed,3975,0,2028
+1666134339208,4316,HTTP Request,200,OK,1000T addCandidate 1-283,text,true,,261,260,513,513,http://localhost:9999/addCandidateCompressed,4316,0,2037
+1666134339588,3937,HTTP Request,200,OK,1000T addCandidate 1-321,text,true,,261,260,512,512,http://localhost:9999/addCandidateCompressed,3937,0,2019
+1666134339579,3947,HTTP Request,200,OK,1000T addCandidate 1-320,text,true,,261,260,511,511,http://localhost:9999/addCandidateCompressed,3946,0,2028
+1666134339610,3942,HTTP Request,200,OK,1000T addCandidate 1-323,text,true,,261,260,513,513,http://localhost:9999/addCandidateCompressed,3942,0,2012
+1666134339228,4325,HTTP Request,200,OK,1000T addCandidate 1-285,text,true,,261,260,513,513,http://localhost:9999/addCandidateCompressed,4325,0,2032
+1666134339238,4315,HTTP Request,200,OK,1000T addCandidate 1-286,text,true,,261,260,511,511,http://localhost:9999/addCandidateCompressed,4315,0,2022
+1666134338219,5336,HTTP Request,200,OK,1000T addCandidate 1-184,text,true,,261,260,510,510,http://localhost:9999/addCandidateCompressed,5336,0,2033
+1666134339248,4308,HTTP Request,200,OK,1000T addCandidate 1-287,text,true,,261,260,509,509,http://localhost:9999/addCandidateCompressed,4308,0,2028
+1666134339259,4298,HTTP Request,200,OK,1000T addCandidate 1-288,text,true,,261,260,508,508,http://localhost:9999/addCandidateCompressed,4298,0,2017
+1666134338240,5320,HTTP Request,200,OK,1000T addCandidate 1-186,text,true,,261,260,508,508,http://localhost:9999/addCandidateCompressed,5320,0,2030
+1666134338230,5341,HTTP Request,200,OK,1000T addCandidate 1-185,text,true,,261,260,508,508,http://localhost:9999/addCandidateCompressed,5341,0,2040
+1666134339269,4309,HTTP Request,200,OK,1000T addCandidate 1-289,text,true,,261,260,508,508,http://localhost:9999/addCandidateCompressed,4309,0,2030
+1666134338249,5330,HTTP Request,200,OK,1000T addCandidate 1-187,text,true,,261,260,507,507,http://localhost:9999/addCandidateCompressed,5330,0,2021
+1666134339279,4302,HTTP Request,200,OK,1000T addCandidate 1-290,text,true,,261,260,506,506,http://localhost:9999/addCandidateCompressed,4302,0,2020
+1666134338259,5324,HTTP Request,200,OK,1000T addCandidate 1-188,text,true,,261,260,505,505,http://localhost:9999/addCandidateCompressed,5324,0,2011
+1666134338269,5315,HTTP Request,200,OK,1000T addCandidate 1-189,text,true,,261,260,504,504,http://localhost:9999/addCandidateCompressed,5315,0,2020
+1666134338289,5296,HTTP Request,200,OK,1000T addCandidate 1-191,text,true,,261,260,503,503,http://localhost:9999/addCandidateCompressed,5296,0,2011
+1666134339309,4311,HTTP Request,200,OK,1000T addCandidate 1-293,text,true,,261,260,506,506,http://localhost:9999/addCandidateCompressed,4311,0,2015
+1666134339288,4333,HTTP Request,200,OK,1000T addCandidate 1-291,text,true,,261,260,505,505,http://localhost:9999/addCandidateCompressed,4333,0,2036
+1666134339376,4271,HTTP Request,200,OK,1000T addCandidate 1-299,text,true,,261,260,506,506,http://localhost:9999/addCandidateCompressed,4271,0,2027
+1666134339318,4330,HTTP Request,200,OK,1000T addCandidate 1-294,text,true,,261,260,506,506,http://localhost:9999/addCandidateCompressed,4330,0,2038
+1666134339359,4297,HTTP Request,200,OK,1000T addCandidate 1-298,text,true,,261,260,505,505,http://localhost:9999/addCandidateCompressed,4297,0,2028
+1666134339350,4306,HTTP Request,200,OK,1000T addCandidate 1-297,text,true,,261,260,504,504,http://localhost:9999/addCandidateCompressed,4306,0,2037
+1666134339338,4320,HTTP Request,200,OK,1000T addCandidate 1-296,text,true,,261,260,503,503,http://localhost:9999/addCandidateCompressed,4320,0,2033
+1666134338340,5319,HTTP Request,200,OK,1000T addCandidate 1-196,text,true,,261,260,503,503,http://localhost:9999/addCandidateCompressed,5319,0,2037
+1666134338350,5309,HTTP Request,200,OK,1000T addCandidate 1-197,text,true,,261,260,502,502,http://localhost:9999/addCandidateCompressed,5309,0,2027
+1666134338359,5313,HTTP Request,200,OK,1000T addCandidate 1-198,text,true,,261,260,502,502,http://localhost:9999/addCandidateCompressed,5313,0,2039
+1666134338369,5304,HTTP Request,200,OK,1000T addCandidate 1-199,text,true,,261,260,501,501,http://localhost:9999/addCandidateCompressed,5304,0,2029
+1666134338379,5341,HTTP Request,200,OK,1000T addCandidate 1-200,text,true,,261,260,505,505,http://localhost:9999/addCandidateCompressed,5341,0,2029
+1666134338400,5322,HTTP Request,200,OK,1000T addCandidate 1-202,text,true,,261,260,504,504,http://localhost:9999/addCandidateCompressed,5322,0,2024
+1666134338390,5333,HTTP Request,200,OK,1000T addCandidate 1-201,text,true,,261,260,504,504,http://localhost:9999/addCandidateCompressed,5333,0,2034
+1666134339392,4343,HTTP Request,200,OK,1000T addCandidate 1-301,text,true,,261,260,503,503,http://localhost:9999/addCandidateCompressed,4343,0,2041
+1666134338568,5422,HTTP Request,200,OK,1000T addCandidate 1-219,text,true,,261,260,528,528,http://localhost:9999/addCandidateCompressed,5422,0,2031
+1666134339598,4392,HTTP Request,200,OK,1000T addCandidate 1-322,text,true,,261,260,527,527,http://localhost:9999/addCandidateCompressed,4392,0,2024
+1666134338579,5412,HTTP Request,200,OK,1000T addCandidate 1-220,text,true,,261,260,526,526,http://localhost:9999/addCandidateCompressed,5412,0,2036
+1666134339620,4373,HTTP Request,200,OK,1000T addCandidate 1-324,text,true,,261,260,525,525,http://localhost:9999/addCandidateCompressed,4372,0,2017
+1666134338589,5648,HTTP Request,200,OK,1000T addCandidate 1-221,text,true,,261,260,548,548,http://localhost:9999/addCandidateCompressed,5648,0,2026
+1666134338600,5637,HTTP Request,200,OK,1000T addCandidate 1-222,text,true,,261,260,547,547,http://localhost:9999/addCandidateCompressed,5637,0,2031
+1666134338611,5627,HTTP Request,200,OK,1000T addCandidate 1-223,text,true,,261,260,547,547,http://localhost:9999/addCandidateCompressed,5627,0,2035
+1666134338619,5619,HTTP Request,200,OK,1000T addCandidate 1-224,text,true,,261,260,546,546,http://localhost:9999/addCandidateCompressed,5619,0,2027
+1666134338129,6110,HTTP Request,200,OK,1000T addCandidate 1-175,text,true,,261,260,545,545,http://localhost:9999/addCandidateCompressed,6110,0,2014
+1666134336850,7390,HTTP Request,200,OK,1000T addCandidate 1-47,text,true,,261,260,544,544,http://localhost:9999/addCandidateCompressed,7390,0,2036
+1666134339639,4602,HTTP Request,200,OK,1000T addCandidate 1-326,text,true,,261,260,543,543,http://localhost:9999/addCandidateCompressed,4602,0,2014
+1666134339629,4612,HTTP Request,200,OK,1000T addCandidate 1-325,text,true,,261,260,542,542,http://localhost:9999/addCandidateCompressed,4612,0,2024
+1666134339649,4593,HTTP Request,200,OK,1000T addCandidate 1-327,text,true,,261,260,541,541,http://localhost:9999/addCandidateCompressed,4593,0,2020
+1666134339661,4581,HTTP Request,200,OK,1000T addCandidate 1-328,text,true,,261,260,540,540,http://localhost:9999/addCandidateCompressed,4581,0,2024
+1666134338119,6124,HTTP Request,200,OK,1000T addCandidate 1-174,text,true,,261,260,539,539,http://localhost:9999/addCandidateCompressed,6124,0,2024
+1666134339669,4575,HTTP Request,200,OK,1000T addCandidate 1-329,text,true,,261,260,538,538,http://localhost:9999/addCandidateCompressed,4575,0,2016
+1666134338629,5616,HTTP Request,200,OK,1000T addCandidate 1-225,text,true,,261,260,537,537,http://localhost:9999/addCandidateCompressed,5616,0,2032
+1666134338109,6136,HTTP Request,200,OK,1000T addCandidate 1-173,text,true,,261,260,536,536,http://localhost:9999/addCandidateCompressed,6136,0,2034
+1666134338279,5967,HTTP Request,200,OK,1000T addCandidate 1-190,text,true,,261,260,535,535,http://localhost:9999/addCandidateCompressed,5967,0,2036
+1666134338319,5929,HTTP Request,200,OK,1000T addCandidate 1-194,text,true,,261,260,534,534,http://localhost:9999/addCandidateCompressed,5929,0,2011
+1666134338301,5947,HTTP Request,200,OK,1000T addCandidate 1-192,text,true,,261,260,534,534,http://localhost:9999/addCandidateCompressed,5947,0,2029
+1666134339299,4949,HTTP Request,200,OK,1000T addCandidate 1-292,text,true,,261,260,534,534,http://localhost:9999/addCandidateCompressed,4949,0,2041
+1666134338310,5938,HTTP Request,200,OK,1000T addCandidate 1-193,text,true,,261,260,534,534,http://localhost:9999/addCandidateCompressed,5938,0,2021
+1666134338330,5918,HTTP Request,200,OK,1000T addCandidate 1-195,text,true,,261,260,535,535,http://localhost:9999/addCandidateCompressed,5918,0,2031
+1666134338140,6110,HTTP Request,200,OK,1000T addCandidate 1-176,text,true,,261,260,531,531,http://localhost:9999/addCandidateCompressed,6110,0,2035
+1666134338650,5600,HTTP Request,200,OK,1000T addCandidate 1-227,text,true,,261,260,531,531,http://localhost:9999/addCandidateCompressed,5600,0,2030
+1666134338150,6102,HTTP Request,200,OK,1000T addCandidate 1-177,text,true,,261,260,531,531,http://localhost:9999/addCandidateCompressed,6102,0,2039
+1666134338160,6092,HTTP Request,200,OK,1000T addCandidate 1-178,text,true,,261,260,531,531,http://localhost:9999/addCandidateCompressed,6092,0,2029
+1666134339700,4552,HTTP Request,200,OK,1000T addCandidate 1-332,text,true,,261,260,531,531,http://localhost:9999/addCandidateCompressed,4552,0,2018
+1666134339329,4923,HTTP Request,200,OK,1000T addCandidate 1-295,text,true,,261,260,530,530,http://localhost:9999/addCandidateCompressed,4923,0,2027
+1666134338640,5612,HTTP Request,200,OK,1000T addCandidate 1-226,text,true,,261,260,530,530,http://localhost:9999/addCandidateCompressed,5610,0,2040
+1666134338660,5592,HTTP Request,200,OK,1000T addCandidate 1-228,text,true,,261,260,528,528,http://localhost:9999/addCandidateCompressed,5592,0,2033
+1666134339680,4573,HTTP Request,200,OK,1000T addCandidate 1-330,text,true,,261,260,522,522,http://localhost:9999/addCandidateCompressed,4573,0,2021
+1666134339690,4564,HTTP Request,200,OK,1000T addCandidate 1-331,text,true,,261,260,521,521,http://localhost:9999/addCandidateCompressed,4564,0,2028
+1666134339719,4535,HTTP Request,200,OK,1000T addCandidate 1-334,text,true,,261,260,520,520,http://localhost:9999/addCandidateCompressed,4535,0,2014
+1666134339709,4546,HTTP Request,200,OK,1000T addCandidate 1-333,text,true,,261,260,519,519,http://localhost:9999/addCandidateCompressed,4546,0,2024
+1666134339729,4528,HTTP Request,200,OK,1000T addCandidate 1-335,text,true,,261,260,518,518,http://localhost:9999/addCandidateCompressed,4528,0,2020
+1666134339770,4567,HTTP Request,200,OK,1000T addCandidate 1-339,text,true,,261,260,525,525,http://localhost:9999/addCandidateCompressed,4567,0,2025
+1666134339789,4549,HTTP Request,200,OK,1000T addCandidate 1-341,text,true,,261,260,524,524,http://localhost:9999/addCandidateCompressed,4549,0,2022
+1666134339779,4559,HTTP Request,200,OK,1000T addCandidate 1-340,text,true,,261,260,523,523,http://localhost:9999/addCandidateCompressed,4559,0,2016
+1666134339759,5022,HTTP Request,200,OK,1000T addCandidate 1-338,text,true,,261,260,567,567,http://localhost:9999/addCandidateCompressed,5022,0,2020
+1666134339739,5042,HTTP Request,200,OK,1000T addCandidate 1-336,text,true,,261,260,566,566,http://localhost:9999/addCandidateCompressed,5042,0,2027
+1666134339749,5033,HTTP Request,200,OK,1000T addCandidate 1-337,text,true,,261,260,565,565,http://localhost:9999/addCandidateCompressed,5033,0,2017
+1666134337889,7587,HTTP Request,200,OK,1000T addCandidate 1-151,text,true,,261,260,633,633,http://localhost:9999/addCandidateCompressed,7587,0,2034
+1666134337899,7581,HTTP Request,200,OK,1000T addCandidate 1-152,text,true,,261,260,633,633,http://localhost:9999/addCandidateCompressed,7581,0,2024
+1666134338999,6510,HTTP Request,200,OK,1000T addCandidate 1-262,text,true,,261,260,634,634,http://localhost:9999/addCandidateCompressed,6510,0,2026
+1666134339009,6501,HTTP Request,200,OK,1000T addCandidate 1-263,text,true,,261,260,634,634,http://localhost:9999/addCandidateCompressed,6501,0,2032
+1666134339040,6473,HTTP Request,200,OK,1000T addCandidate 1-266,text,true,,261,260,633,633,http://localhost:9999/addCandidateCompressed,6473,0,2033
+1666134340730,4785,HTTP Request,200,OK,1000T addCandidate 1-435,text,true,,261,260,632,632,http://localhost:9999/addCandidateCompressed,4785,0,2024
+1666134338709,6807,HTTP Request,200,OK,1000T addCandidate 1-233,text,true,,261,260,631,631,http://localhost:9999/addCandidateCompressed,6807,0,2032
+1666134339059,6458,HTTP Request,200,OK,1000T addCandidate 1-268,text,true,,261,260,630,630,http://localhost:9999/addCandidateCompressed,6458,0,2030
+1666134338719,6798,HTTP Request,200,OK,1000T addCandidate 1-234,text,true,,261,260,629,629,http://localhost:9999/addCandidateCompressed,6798,0,2037
+1666134337920,7598,HTTP Request,200,OK,1000T addCandidate 1-154,text,true,,261,260,628,628,http://localhost:9999/addCandidateCompressed,7598,0,2033
+1666134339909,5906,HTTP Request,200,OK,1000T addCandidate 1-353,text,true,,261,260,657,657,http://localhost:9999/addCandidateCompressed,5906,0,2027
+1666134339919,5899,HTTP Request,200,OK,1000T addCandidate 1-354,text,true,,261,260,656,656,http://localhost:9999/addCandidateCompressed,5899,0,2017
+1666134339880,5938,HTTP Request,200,OK,1000T addCandidate 1-350,text,true,,261,260,656,656,http://localhost:9999/addCandidateCompressed,5938,0,2026
+1666134339860,5958,HTTP Request,200,OK,1000T addCandidate 1-348,text,true,,261,260,654,654,http://localhost:9999/addCandidateCompressed,5958,0,2030
+1666134339871,5949,HTTP Request,200,OK,1000T addCandidate 1-349,text,true,,261,260,654,654,http://localhost:9999/addCandidateCompressed,5949,0,2019
+1666134339929,5892,HTTP Request,200,OK,1000T addCandidate 1-355,text,true,,261,260,653,653,http://localhost:9999/addCandidateCompressed,5892,0,2023
+1666134339961,5861,HTTP Request,200,OK,1000T addCandidate 1-358,text,true,,261,260,652,652,http://localhost:9999/addCandidateCompressed,5861,0,2021
+1666134340410,5413,HTTP Request,200,OK,1000T addCandidate 1-403,text,true,,261,260,651,651,http://localhost:9999/addCandidateCompressed,5413,0,2012
+1666134339950,5896,HTTP Request,200,OK,1000T addCandidate 1-357,text,true,,261,260,652,652,http://localhost:9999/addCandidateCompressed,5896,0,2017
+1666134339969,5877,HTTP Request,200,OK,1000T addCandidate 1-359,text,true,,261,260,652,652,http://localhost:9999/addCandidateCompressed,5877,0,2013
+1666134339940,5906,HTTP Request,200,OK,1000T addCandidate 1-356,text,true,,261,260,652,652,http://localhost:9999/addCandidateCompressed,5906,0,2027
+1666134340030,5913,HTTP Request,200,OK,1000T addCandidate 1-365,text,true,,261,260,659,659,http://localhost:9999/addCandidateCompressed,5913,0,2016
+1666134340149,6181,HTTP Request,200,OK,1000T addCandidate 1-377,text,true,,261,260,697,697,http://localhost:9999/addCandidateCompressed,6181,0,2024
+1666134340161,6171,HTTP Request,200,OK,1000T addCandidate 1-378,text,true,,261,260,696,696,http://localhost:9999/addCandidateCompressed,6171,0,2027
+1666134340189,6143,HTTP Request,200,OK,1000T addCandidate 1-381,text,true,,261,260,695,695,http://localhost:9999/addCandidateCompressed,6143,0,2015
+1666134340180,6152,HTTP Request,200,OK,1000T addCandidate 1-380,text,true,,261,260,694,694,http://localhost:9999/addCandidateCompressed,6152,0,2024
+1666134340175,6231,HTTP Request,200,OK,1000T addCandidate 1-379,text,true,,261,260,698,698,http://localhost:9999/addCandidateCompressed,6231,0,2013
+1666134341690,4721,HTTP Request,200,OK,1000T addCandidate 1-531,text,true,,261,260,697,697,http://localhost:9999/addCandidateCompressed,4721,0,2035
+1666134341700,4712,HTTP Request,200,OK,1000T addCandidate 1-532,text,true,,261,260,696,696,http://localhost:9999/addCandidateCompressed,4712,0,2025
+1666134341710,4704,HTTP Request,200,OK,1000T addCandidate 1-533,text,true,,261,260,695,695,http://localhost:9999/addCandidateCompressed,4704,0,2031
+1666134341730,4685,HTTP Request,200,OK,1000T addCandidate 1-535,text,true,,261,260,694,694,http://localhost:9999/addCandidateCompressed,4685,0,2028
+1666134341719,4698,HTTP Request,200,OK,1000T addCandidate 1-534,text,true,,261,260,693,693,http://localhost:9999/addCandidateCompressed,4698,0,2038
+1666134341740,4681,HTTP Request,200,OK,1000T addCandidate 1-536,text,true,,261,260,692,692,http://localhost:9999/addCandidateCompressed,4681,0,2018
+1666134341760,4760,HTTP Request,200,OK,1000T addCandidate 1-538,text,true,,261,260,691,691,http://localhost:9999/addCandidateCompressed,4760,0,2030
+1666134341749,4772,HTTP Request,200,OK,1000T addCandidate 1-537,text,true,,261,260,690,690,http://localhost:9999/addCandidateCompressed,4772,0,2025
+1666134341790,4740,HTTP Request,200,OK,1000T addCandidate 1-541,text,true,,261,260,689,689,http://localhost:9999/addCandidateCompressed,4740,0,2015
+1666134341769,4763,HTTP Request,200,OK,1000T addCandidate 1-539,text,true,,261,260,688,688,http://localhost:9999/addCandidateCompressed,4762,0,2037
+1666134340620,5913,HTTP Request,200,OK,1000T addCandidate 1-424,text,true,,261,260,687,687,http://localhost:9999/addCandidateCompressed,5913,0,2026
+1666134341779,4754,HTTP Request,200,OK,1000T addCandidate 1-540,text,true,,261,260,686,686,http://localhost:9999/addCandidateCompressed,4754,0,2026
+1666134340610,5924,HTTP Request,200,OK,1000T addCandidate 1-423,text,true,,261,260,685,685,http://localhost:9999/addCandidateCompressed,5924,0,2022
+1666134340600,5934,HTTP Request,200,OK,1000T addCandidate 1-422,text,true,,261,260,684,684,http://localhost:9999/addCandidateCompressed,5934,0,2016
+1666134340629,5905,HTTP Request,200,OK,1000T addCandidate 1-425,text,true,,261,260,683,683,http://localhost:9999/addCandidateCompressed,5905,0,2018
+1666134340640,5930,HTTP Request,200,OK,1000T addCandidate 1-426,text,true,,261,260,682,682,http://localhost:9999/addCandidateCompressed,5930,0,2024
+1666134340590,5980,HTTP Request,200,OK,1000T addCandidate 1-421,text,true,,261,260,681,681,http://localhost:9999/addCandidateCompressed,5980,0,2025
+1666134340680,5893,HTTP Request,200,OK,1000T addCandidate 1-430,text,true,,261,260,680,680,http://localhost:9999/addCandidateCompressed,5893,0,2011
+1666134340650,5923,HTTP Request,200,OK,1000T addCandidate 1-427,text,true,,261,260,679,679,http://localhost:9999/addCandidateCompressed,5923,0,2014
+1666134340660,5914,HTTP Request,200,OK,1000T addCandidate 1-428,text,true,,261,260,678,678,http://localhost:9999/addCandidateCompressed,5914,0,2031
+1666134340669,5906,HTTP Request,200,OK,1000T addCandidate 1-429,text,true,,261,260,677,677,http://localhost:9999/addCandidateCompressed,5906,0,2022
+1666134340711,5865,HTTP Request,200,OK,1000T addCandidate 1-433,text,true,,261,260,676,676,http://localhost:9999/addCandidateCompressed,5865,0,2011
+1666134340691,5885,HTTP Request,200,OK,1000T addCandidate 1-431,text,true,,261,260,675,675,http://localhost:9999/addCandidateCompressed,5885,0,2016
+1666134340701,5876,HTTP Request,200,OK,1000T addCandidate 1-432,text,true,,261,260,674,674,http://localhost:9999/addCandidateCompressed,5876,0,2037
+1666134344791,2038,HTTP Request,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:9999 failed to respond,1000T addCandidate 1-841,text,false,,2080,0,673,673,http://localhost:9999/addCandidateCompressed,0,0,2034
+1666134338950,8176,HTTP Request,200,OK,1000T addCandidate 1-257,text,true,,261,260,672,672,http://localhost:9999/addCandidateCompressed,8176,0,2030
+1666134338940,8187,HTTP Request,200,OK,1000T addCandidate 1-256,text,true,,261,260,671,671,http://localhost:9999/addCandidateCompressed,8187,0,2039
+1666134339089,8038,HTTP Request,200,OK,1000T addCandidate 1-271,text,true,,261,260,670,670,http://localhost:9999/addCandidateCompressed,8038,0,2029
+1666134338969,8159,HTTP Request,200,OK,1000T addCandidate 1-259,text,true,,261,260,669,669,http://localhost:9999/addCandidateCompressed,8159,0,2025
+1666134338919,8210,HTTP Request,200,OK,1000T addCandidate 1-254,text,true,,261,260,668,668,http://localhost:9999/addCandidateCompressed,8209,0,2031
+1666134338730,8399,HTTP Request,200,OK,1000T addCandidate 1-235,text,true,,261,260,667,667,http://localhost:9999/addCandidateCompressed,8399,0,2043
+1666134341839,5293,HTTP Request,200,OK,1000T addCandidate 1-546,text,true,,261,260,666,666,http://localhost:9999/addCandidateCompressed,5293,0,2029
+1666134341870,5361,HTTP Request,200,OK,1000T addCandidate 1-549,text,true,,261,260,665,665,http://localhost:9999/addCandidateCompressed,5361,0,2013
+1666134341850,5381,HTTP Request,200,OK,1000T addCandidate 1-547,text,true,,261,260,664,664,http://localhost:9999/addCandidateCompressed,5381,0,2018
+1666134341860,5372,HTTP Request,200,OK,1000T addCandidate 1-548,text,true,,261,260,663,663,http://localhost:9999/addCandidateCompressed,5372,0,2023
+1666134341889,5345,HTTP Request,200,OK,1000T addCandidate 1-551,text,true,,261,260,662,662,http://localhost:9999/addCandidateCompressed,5345,0,2009
+1666134341879,5355,HTTP Request,200,OK,1000T addCandidate 1-550,text,true,,261,260,661,661,http://localhost:9999/addCandidateCompressed,5355,0,2019
+1666134338089,9146,HTTP Request,200,OK,1000T addCandidate 1-171,text,true,,261,260,660,660,http://localhost:9999/addCandidateCompressed,9146,0,2038
+1666134338099,9136,HTTP Request,200,OK,1000T addCandidate 1-172,text,true,,261,260,659,659,http://localhost:9999/addCandidateCompressed,9136,0,2028
+1666134341529,6729,HTTP Request,200,OK,1000T addCandidate 1-515,text,true,,261,260,658,658,http://localhost:9999/addCandidateCompressed,6729,0,2011
+1666134343639,5247,HTTP Request,200,OK,1000T addCandidate 1-726,text,true,,261,260,657,657,http://localhost:9999/addCandidateCompressed,5247,0,2053
+1666134343660,5226,HTTP Request,200,OK,1000T addCandidate 1-728,text,true,,261,260,657,657,http://localhost:9999/addCandidateCompressed,5226,0,2047
+1666134343699,5306,HTTP Request,200,OK,1000T addCandidate 1-732,text,true,,261,260,655,655,http://localhost:9999/addCandidateCompressed,5305,0,2023
+1666134343650,5355,HTTP Request,200,OK,1000T addCandidate 1-727,text,true,,261,260,654,654,http://localhost:9999/addCandidateCompressed,5355,0,2061
+1666134343690,5315,HTTP Request,200,OK,1000T addCandidate 1-731,text,true,,261,260,653,653,http://localhost:9999/addCandidateCompressed,5315,0,2032
+1666134343720,5286,HTTP Request,200,OK,1000T addCandidate 1-734,text,true,,261,260,652,652,http://localhost:9999/addCandidateCompressed,5286,0,2033
+1666134343739,5267,HTTP Request,200,OK,1000T addCandidate 1-736,text,true,,261,260,651,651,http://localhost:9999/addCandidateCompressed,5267,0,2046
+1666134343730,5277,HTTP Request,200,OK,1000T addCandidate 1-735,text,true,,261,260,650,650,http://localhost:9999/addCandidateCompressed,5277,0,2055
+1666134340320,8687,HTTP Request,200,OK,1000T addCandidate 1-394,text,true,,261,260,649,649,http://localhost:9999/addCandidateCompressed,8687,0,2024
+1666134339809,9198,HTTP Request,200,OK,1000T addCandidate 1-343,text,true,,261,260,648,648,http://localhost:9999/addCandidateCompressed,9198,0,2018
+1666134338909,10098,HTTP Request,200,OK,1000T addCandidate 1-253,text,true,,261,260,647,647,http://localhost:9999/addCandidateCompressed,10098,0,2024
+1666134343681,5329,HTTP Request,200,OK,1000T addCandidate 1-730,text,true,,261,260,646,646,http://localhost:9999/addCandidateCompressed,5329,0,2042
+1666134343749,5261,HTTP Request,200,OK,1000T addCandidate 1-737,text,true,,261,260,646,646,http://localhost:9999/addCandidateCompressed,5261,0,2036
+1666134343709,5301,HTTP Request,200,OK,1000T addCandidate 1-733,text,true,,261,260,646,646,http://localhost:9999/addCandidateCompressed,5301,0,2014
+1666134343769,5252,HTTP Request,200,OK,1000T addCandidate 1-739,text,true,,261,260,643,643,http://localhost:9999/addCandidateCompressed,5252,0,2047
+1666134343800,5222,HTTP Request,200,OK,1000T addCandidate 1-742,text,true,,261,260,642,642,http://localhost:9999/addCandidateCompressed,5222,0,2048
+1666134343791,5231,HTTP Request,200,OK,1000T addCandidate 1-741,text,true,,261,260,641,641,http://localhost:9999/addCandidateCompressed,5231,0,2057
+1666134343780,5242,HTTP Request,200,OK,1000T addCandidate 1-740,text,true,,261,260,640,640,http://localhost:9999/addCandidateCompressed,5242,0,2068
+1666134343849,5174,HTTP Request,200,OK,1000T addCandidate 1-747,text,true,,261,260,639,639,http://localhost:9999/addCandidateCompressed,5174,0,2030
+1666134340379,8728,HTTP Request,200,OK,1000T addCandidate 1-400,text,true,,261,260,638,638,http://localhost:9999/addCandidateCompressed,8728,0,2012
+1666134339830,9300,HTTP Request,200,OK,1000T addCandidate 1-345,text,true,,261,260,637,637,http://localhost:9999/addCandidateCompressed,9300,0,2028
+1666134342199,7183,HTTP Request,200,OK,1000T addCandidate 1-582,text,true,,261,260,636,636,http://localhost:9999/addCandidateCompressed,7183,0,2027
+1666134338670,10712,HTTP Request,200,OK,1000T addCandidate 1-229,text,true,,261,260,635,635,http://localhost:9999/addCandidateCompressed,10712,0,2040
+1666134340800,8583,HTTP Request,200,OK,1000T addCandidate 1-442,text,true,,261,260,634,634,http://localhost:9999/addCandidateCompressed,8583,0,2019
+1666134344221,5165,HTTP Request,200,OK,1000T addCandidate 1-784,text,true,,261,260,633,633,http://localhost:9999/addCandidateCompressed,5165,0,2019
+1666134344180,5206,HTTP Request,200,OK,1000T addCandidate 1-780,text,true,,261,260,632,632,http://localhost:9999/addCandidateCompressed,5206,0,2044
+1666134344209,5178,HTTP Request,200,OK,1000T addCandidate 1-783,text,true,,261,260,631,631,http://localhost:9999/addCandidateCompressed,5178,0,2047
+1666134344199,5189,HTTP Request,200,OK,1000T addCandidate 1-782,text,true,,261,260,630,630,http://localhost:9999/addCandidateCompressed,5189,0,2042
+1666134344253,5135,HTTP Request,200,OK,1000T addCandidate 1-787,text,true,,261,260,629,629,http://localhost:9999/addCandidateCompressed,5135,0,2035
+1666134344230,5159,HTTP Request,200,OK,1000T addCandidate 1-785,text,true,,261,260,628,628,http://localhost:9999/addCandidateCompressed,5159,0,2042
+1666134342419,6971,HTTP Request,200,OK,1000T addCandidate 1-604,text,true,,261,260,627,627,http://localhost:9999/addCandidateCompressed,6970,0,2040
+1666134344189,5202,HTTP Request,200,OK,1000T addCandidate 1-781,text,true,,261,260,626,626,http://localhost:9999/addCandidateCompressed,5202,0,2035
+1666134344259,5135,HTTP Request,200,OK,1000T addCandidate 1-788,text,true,,261,260,625,625,http://localhost:9999/addCandidateCompressed,5135,0,2045
+1666134344269,5126,HTTP Request,200,OK,1000T addCandidate 1-789,text,true,,261,260,624,624,http://localhost:9999/addCandidateCompressed,5126,0,2035
+1666134344280,5115,HTTP Request,200,OK,1000T addCandidate 1-790,text,true,,261,260,623,623,http://localhost:9999/addCandidateCompressed,5115,0,2040
+1666134342429,6966,HTTP Request,200,OK,1000T addCandidate 1-605,text,true,,261,260,622,622,http://localhost:9999/addCandidateCompressed,6966,0,2046
+1666134342440,6957,HTTP Request,200,OK,1000T addCandidate 1-606,text,true,,261,260,621,621,http://localhost:9999/addCandidateCompressed,6957,0,2035
+1666134344169,5229,HTTP Request,200,OK,1000T addCandidate 1-779,text,true,,261,260,620,620,http://localhost:9999/addCandidateCompressed,5229,0,2039
+1666134344239,5161,HTTP Request,200,OK,1000T addCandidate 1-786,text,true,,261,260,619,619,http://localhost:9999/addCandidateCompressed,5161,0,2049
+1666134342220,7180,HTTP Request,200,OK,1000T addCandidate 1-584,text,true,,261,260,618,618,http://localhost:9999/addCandidateCompressed,7180,0,2035
+1666134342179,7222,HTTP Request,200,OK,1000T addCandidate 1-580,text,true,,261,260,617,617,http://localhost:9999/addCandidateCompressed,7222,0,2047
+1666134342210,7192,HTTP Request,200,OK,1000T addCandidate 1-583,text,true,,261,260,616,616,http://localhost:9999/addCandidateCompressed,7192,0,2046
+1666134342240,7163,HTTP Request,200,OK,1000T addCandidate 1-586,text,true,,261,260,615,615,http://localhost:9999/addCandidateCompressed,7163,0,2048
+1666134342229,7176,HTTP Request,200,OK,1000T addCandidate 1-585,text,true,,261,260,614,614,http://localhost:9999/addCandidateCompressed,7176,0,2042
+1666134342270,7317,HTTP Request,200,OK,1000T addCandidate 1-589,text,true,,261,260,613,613,http://localhost:9999/addCandidateCompressed,7317,0,2033
+1666134342260,7328,HTTP Request,200,OK,1000T addCandidate 1-588,text,true,,261,260,612,612,http://localhost:9999/addCandidateCompressed,7328,0,2045
+1666134342450,7138,HTTP Request,200,OK,1000T addCandidate 1-607,text,true,,261,260,611,611,http://localhost:9999/addCandidateCompressed,7138,0,2040
+1666134342289,7301,HTTP Request,200,OK,1000T addCandidate 1-591,text,true,,261,260,610,610,http://localhost:9999/addCandidateCompressed,7301,0,2030
+1666134342300,7290,HTTP Request,200,OK,1000T addCandidate 1-592,text,true,,261,260,609,609,http://localhost:9999/addCandidateCompressed,7290,0,2019
+1666134342320,7270,HTTP Request,200,OK,1000T addCandidate 1-594,text,true,,261,260,608,608,http://localhost:9999/addCandidateCompressed,7270,0,2015
+1666134342280,7311,HTTP Request,200,OK,1000T addCandidate 1-590,text,true,,261,260,607,607,http://localhost:9999/addCandidateCompressed,7311,0,2039
+1666134342309,7283,HTTP Request,200,OK,1000T addCandidate 1-593,text,true,,261,260,606,606,http://localhost:9999/addCandidateCompressed,7283,0,2026
+1666134342330,7265,HTTP Request,200,OK,1000T addCandidate 1-595,text,true,,261,260,605,605,http://localhost:9999/addCandidateCompressed,7265,0,2021
+1666134342351,7259,HTTP Request,200,OK,1000T addCandidate 1-597,text,true,,261,260,604,604,http://localhost:9999/addCandidateCompressed,7259,0,2031
+1666134342380,7231,HTTP Request,200,OK,1000T addCandidate 1-600,text,true,,261,260,603,603,http://localhost:9999/addCandidateCompressed,7231,0,2018
+1666134342360,7252,HTTP Request,200,OK,1000T addCandidate 1-598,text,true,,261,260,602,602,http://localhost:9999/addCandidateCompressed,7252,0,2038
+1666134342370,7255,HTTP Request,200,OK,1000T addCandidate 1-599,text,true,,261,260,601,601,http://localhost:9999/addCandidateCompressed,7255,0,2028
+1666134342409,7217,HTTP Request,200,OK,1000T addCandidate 1-603,text,true,,261,260,600,600,http://localhost:9999/addCandidateCompressed,7217,0,2020
+1666134342400,7228,HTTP Request,200,OK,1000T addCandidate 1-602,text,true,,261,260,599,599,http://localhost:9999/addCandidateCompressed,7228,0,2029
+1666134342341,7288,HTTP Request,200,OK,1000T addCandidate 1-596,text,true,,261,260,598,598,http://localhost:9999/addCandidateCompressed,7288,0,2041
+1666134342389,7241,HTTP Request,200,OK,1000T addCandidate 1-601,text,true,,261,260,597,597,http://localhost:9999/addCandidateCompressed,7241,0,2009
+1666134340041,9591,HTTP Request,200,OK,1000T addCandidate 1-366,text,true,,261,260,596,596,http://localhost:9999/addCandidateCompressed,9591,0,2022
+1666134342040,7596,HTTP Request,200,OK,1000T addCandidate 1-566,text,true,,261,260,595,595,http://localhost:9999/addCandidateCompressed,7596,0,2046
+1666134340020,9619,HTTP Request,200,OK,1000T addCandidate 1-364,text,true,,261,260,594,594,http://localhost:9999/addCandidateCompressed,9619,0,2026
+1666134340010,9629,HTTP Request,200,OK,1000T addCandidate 1-363,text,true,,261,260,593,593,http://localhost:9999/addCandidateCompressed,9629,0,2036
+1666134340079,9562,HTTP Request,200,OK,1000T addCandidate 1-370,text,true,,261,260,592,592,http://localhost:9999/addCandidateCompressed,9562,0,2020
+1666134342079,7563,HTTP Request,200,OK,1000T addCandidate 1-570,text,true,,261,260,591,591,http://localhost:9999/addCandidateCompressed,7563,0,2007
+1666134340069,9574,HTTP Request,200,OK,1000T addCandidate 1-369,text,true,,261,260,590,590,http://localhost:9999/addCandidateCompressed,9574,0,2030
+1666134340059,9585,HTTP Request,200,OK,1000T addCandidate 1-368,text,true,,261,260,589,589,http://localhost:9999/addCandidateCompressed,9585,0,2019
+1666134340089,9556,HTTP Request,200,OK,1000T addCandidate 1-371,text,true,,261,260,588,588,http://localhost:9999/addCandidateCompressed,9556,0,2021
+1666134340209,9437,HTTP Request,200,OK,1000T addCandidate 1-383,text,true,,261,260,587,587,http://localhost:9999/addCandidateCompressed,9437,0,2027
+1666134340230,9417,HTTP Request,200,OK,1000T addCandidate 1-385,text,true,,261,260,586,586,http://localhost:9999/addCandidateCompressed,9417,0,2021
+1666134340199,9449,HTTP Request,200,OK,1000T addCandidate 1-382,text,true,,261,260,585,585,http://localhost:9999/addCandidateCompressed,9449,0,2037
+1666134340239,9410,HTTP Request,200,OK,1000T addCandidate 1-386,text,true,,261,260,584,584,http://localhost:9999/addCandidateCompressed,9410,0,2012
+1666134340259,9796,HTTP Request,200,OK,1000T addCandidate 1-388,text,true,,261,260,583,583,http://localhost:9999/addCandidateCompressed,9796,0,2022
+1666134340270,9786,HTTP Request,200,OK,1000T addCandidate 1-389,text,true,,261,260,582,582,http://localhost:9999/addCandidateCompressed,9786,0,2011
+1666134340051,10006,HTTP Request,200,OK,1000T addCandidate 1-367,text,true,,261,260,581,581,http://localhost:9999/addCandidateCompressed,10006,0,2028
+1666134340279,9802,HTTP Request,200,OK,1000T addCandidate 1-390,text,true,,261,260,580,580,http://localhost:9999/addCandidateCompressed,9802,0,2033
+1666134340289,9793,HTTP Request,200,OK,1000T addCandidate 1-391,text,true,,261,260,579,579,http://localhost:9999/addCandidateCompressed,9793,0,2023
+1666134342459,7638,HTTP Request,200,OK,1000T addCandidate 1-608,text,true,,261,260,578,578,http://localhost:9999/addCandidateCompressed,7638,0,2031
+1666134342469,7629,HTTP Request,200,OK,1000T addCandidate 1-609,text,true,,261,260,577,577,http://localhost:9999/addCandidateCompressed,7629,0,2039
+1666134342109,7989,HTTP Request,200,OK,1000T addCandidate 1-573,text,true,,261,260,576,576,http://localhost:9999/addCandidateCompressed,7989,0,2022
+1666134342479,7620,HTTP Request,200,OK,1000T addCandidate 1-610,text,true,,261,260,575,575,http://localhost:9999/addCandidateCompressed,7620,0,2058
+1666134342069,8031,HTTP Request,200,OK,1000T addCandidate 1-569,text,true,,261,260,574,574,http://localhost:9999/addCandidateCompressed,8031,0,2063
+1666134342089,8011,HTTP Request,200,OK,1000T addCandidate 1-571,text,true,,261,260,573,573,http://localhost:9999/addCandidateCompressed,8011,0,2043
+1666134342489,7613,HTTP Request,200,OK,1000T addCandidate 1-611,text,true,,261,260,572,572,http://localhost:9999/addCandidateCompressed,7613,0,2048
+1666134342119,7989,HTTP Request,200,OK,1000T addCandidate 1-574,text,true,,261,260,571,571,http://localhost:9999/addCandidateCompressed,7989,0,2028
+1666134342099,8009,HTTP Request,200,OK,1000T addCandidate 1-572,text,true,,261,260,570,570,http://localhost:9999/addCandidateCompressed,8009,0,2033
+1666134342141,7969,HTTP Request,200,OK,1000T addCandidate 1-576,text,true,,261,260,569,569,http://localhost:9999/addCandidateCompressed,7969,0,2021
+1666134342149,7963,HTTP Request,200,OK,1000T addCandidate 1-577,text,true,,261,260,568,568,http://localhost:9999/addCandidateCompressed,7963,0,2043
+1666134342159,7958,HTTP Request,200,OK,1000T addCandidate 1-578,text,true,,261,260,567,567,http://localhost:9999/addCandidateCompressed,7958,0,2033
+1666134342130,7988,HTTP Request,200,OK,1000T addCandidate 1-575,text,true,,261,260,566,566,http://localhost:9999/addCandidateCompressed,7987,0,2032
+1666134342189,7931,HTTP Request,200,OK,1000T addCandidate 1-581,text,true,,261,260,565,565,http://localhost:9999/addCandidateCompressed,7931,0,2037
+1666134340909,9494,HTTP Request,200,OK,1000T addCandidate 1-453,text,true,,261,260,564,564,http://localhost:9999/addCandidateCompressed,9494,0,2036
+1666134340930,9474,HTTP Request,200,OK,1000T addCandidate 1-455,text,true,,261,260,563,563,http://localhost:9999/addCandidateCompressed,9474,0,2015
+1666134340930,9475,HTTP Request,200,OK,1000T addCandidate 1-454,text,true,,261,260,562,562,http://localhost:9999/addCandidateCompressed,9475,0,2015
+1666134343070,7435,HTTP Request,200,OK,1000T addCandidate 1-669,text,true,,261,260,561,561,http://localhost:9999/addCandidateCompressed,7435,0,2045
+1666134341820,8685,HTTP Request,200,OK,1000T addCandidate 1-544,text,true,,261,260,560,560,http://localhost:9999/addCandidateCompressed,8685,0,2032
+1666134343060,7447,HTTP Request,200,OK,1000T addCandidate 1-668,text,true,,261,260,559,559,http://localhost:9999/addCandidateCompressed,7447,0,2055
+1666134340951,9555,HTTP Request,200,OK,1000T addCandidate 1-457,text,true,,261,260,558,558,http://localhost:9999/addCandidateCompressed,9555,0,2025
+1666134340940,9568,HTTP Request,200,OK,1000T addCandidate 1-456,text,true,,261,260,557,557,http://localhost:9999/addCandidateCompressed,9567,0,2021
+1666134341319,9189,HTTP Request,200,OK,1000T addCandidate 1-494,text,true,,261,260,556,556,http://localhost:9999/addCandidateCompressed,9189,0,2016
+1666134340959,9550,HTTP Request,200,OK,1000T addCandidate 1-458,text,true,,261,260,555,555,http://localhost:9999/addCandidateCompressed,9550,0,2018
+1666134341310,9200,HTTP Request,200,OK,1000T addCandidate 1-493,text,true,,261,260,554,554,http://localhost:9999/addCandidateCompressed,9200,0,2025
+1666134340969,9541,HTTP Request,200,OK,1000T addCandidate 1-459,text,true,,261,260,553,553,http://localhost:9999/addCandidateCompressed,9541,0,2023
+1666134341350,9162,HTTP Request,200,OK,1000T addCandidate 1-497,text,true,,261,260,552,552,http://localhost:9999/addCandidateCompressed,9162,0,2016
+1666134343081,7433,HTTP Request,200,OK,1000T addCandidate 1-670,text,true,,261,260,551,551,http://localhost:9999/addCandidateCompressed,7433,0,2050
+1666134339069,11445,HTTP Request,200,OK,1000T addCandidate 1-269,text,true,,261,260,550,550,http://localhost:9999/addCandidateCompressed,11445,0,2034
+1666134341328,9187,HTTP Request,200,OK,1000T addCandidate 1-495,text,true,,261,260,549,549,http://localhost:9999/addCandidateCompressed,9187,0,2022
+1666134338761,11755,HTTP Request,200,OK,1000T addCandidate 1-238,text,true,,261,260,548,548,http://localhost:9999/addCandidateCompressed,11755,0,2012
+1666134338929,11588,HTTP Request,200,OK,1000T addCandidate 1-255,text,true,,261,260,547,547,http://localhost:9999/addCandidateCompressed,11588,0,2039
+1666134339110,11407,HTTP Request,200,OK,1000T addCandidate 1-273,text,true,,261,260,546,546,http://localhost:9999/addCandidateCompressed,11407,0,2024
+1666134338740,11779,HTTP Request,200,OK,1000T addCandidate 1-236,text,true,,261,260,545,545,http://localhost:9999/addCandidateCompressed,11779,0,2033
+1666134344721,6096,HTTP Request,200,OK,1000T addCandidate 1-834,text,true,,261,260,544,544,http://localhost:9999/addCandidateCompressed,6096,0,2024
+1666134344711,6122,HTTP Request,200,OK,1000T addCandidate 1-833,text,true,,261,260,543,543,http://localhost:9999/addCandidateCompressed,6122,0,2034
+1666134344730,6118,HTTP Request,200,OK,1000T addCandidate 1-835,text,true,,261,260,542,542,http://localhost:9999/addCandidateCompressed,6118,0,2031
+1666134344740,6109,HTTP Request,200,OK,1000T addCandidate 1-836,text,true,,261,260,541,541,http://localhost:9999/addCandidateCompressed,6109,0,2037
+1666134344750,6100,HTTP Request,200,OK,1000T addCandidate 1-837,text,true,,261,260,540,540,http://localhost:9999/addCandidateCompressed,6100,0,2027
+1666134341810,9054,HTTP Request,200,OK,1000T addCandidate 1-543,text,true,,261,260,539,539,http://localhost:9999/addCandidateCompressed,9054,0,2011
+1666134344800,6065,HTTP Request,200,OK,1000T addCandidate 1-842,text,true,,261,260,538,538,http://localhost:9999/addCandidateCompressed,6065,0,2025
+1666134341799,9074,HTTP Request,200,OK,1000T addCandidate 1-542,text,true,,261,260,537,537,http://localhost:9999/addCandidateCompressed,9074,0,2022
+1666134339079,11795,HTTP Request,200,OK,1000T addCandidate 1-270,text,true,,261,260,536,536,http://localhost:9999/addCandidateCompressed,11795,0,2039
+1666134344781,6154,HTTP Request,200,OK,1000T addCandidate 1-840,text,true,,261,260,535,535,http://localhost:9999/addCandidateCompressed,6154,0,2028
+1666134343000,8203,HTTP Request,200,OK,1000T addCandidate 1-662,text,true,,261,260,534,534,http://localhost:9999/addCandidateCompressed,8203,0,2037
+1666134342982,8222,HTTP Request,200,OK,1000T addCandidate 1-660,text,true,,261,260,533,533,http://localhost:9999/addCandidateCompressed,8222,0,2055
+1666134343010,8194,HTTP Request,200,OK,1000T addCandidate 1-663,text,true,,261,260,532,532,http://localhost:9999/addCandidateCompressed,8194,0,2058
+1666134343020,8184,HTTP Request,200,OK,1000T addCandidate 1-664,text,true,,261,260,531,531,http://localhost:9999/addCandidateCompressed,8184,0,2048
+1666134343050,8155,HTTP Request,200,OK,1000T addCandidate 1-667,text,true,,261,260,530,530,http://localhost:9999/addCandidateCompressed,8155,0,2034
+1666134343031,8174,HTTP Request,200,OK,1000T addCandidate 1-665,text,true,,261,260,529,529,http://localhost:9999/addCandidateCompressed,8174,0,2053
+1666134342991,8215,HTTP Request,200,OK,1000T addCandidate 1-661,text,true,,261,260,528,528,http://localhost:9999/addCandidateCompressed,8215,0,2046
+1666134343040,8166,HTTP Request,200,OK,1000T addCandidate 1-666,text,true,,261,260,527,527,http://localhost:9999/addCandidateCompressed,8166,0,2044
+1666134341830,9376,HTTP Request,200,OK,1000T addCandidate 1-545,text,true,,261,260,526,526,http://localhost:9999/addCandidateCompressed,9376,0,2038
+1666134344770,6844,HTTP Request,200,OK,1000T addCandidate 1-839,text,true,,261,260,525,525,http://localhost:9999/addCandidateCompressed,6844,0,2039
+1666134344760,6855,HTTP Request,200,OK,1000T addCandidate 1-838,text,true,,261,260,524,524,http://localhost:9999/addCandidateCompressed,6855,0,2033
+1666134340720,11311,HTTP Request,200,OK,1000T addCandidate 1-434,text,true,,261,260,523,523,http://localhost:9999/addCandidateCompressed,11311,0,2034
+1666134340299,11733,HTTP Request,200,OK,1000T addCandidate 1-392,text,true,,261,260,522,522,http://localhost:9999/addCandidateCompressed,11733,0,2013
+1666134340810,11223,HTTP Request,200,OK,1000T addCandidate 1-443,text,true,,261,260,521,521,http://localhost:9999/addCandidateCompressed,11223,0,2025
+1666134340830,11203,HTTP Request,200,OK,1000T addCandidate 1-445,text,true,,261,260,520,520,http://localhost:9999/addCandidateCompressed,11203,0,2020
+1666134340130,11904,HTTP Request,200,OK,1000T addCandidate 1-375,text,true,,261,260,519,519,http://localhost:9999/addCandidateCompressed,11904,0,2027
+1666134340821,11213,HTTP Request,200,OK,1000T addCandidate 1-444,text,true,,261,260,518,518,http://localhost:9999/addCandidateCompressed,11213,0,2014
+1666134340770,11265,HTTP Request,200,OK,1000T addCandidate 1-439,text,true,,261,260,517,517,http://localhost:9999/addCandidateCompressed,11265,0,2016
+1666134340749,11286,HTTP Request,200,OK,1000T addCandidate 1-437,text,true,,261,260,517,517,http://localhost:9999/addCandidateCompressed,11286,0,2021
+1666134340790,11245,HTTP Request,200,OK,1000T addCandidate 1-441,text,true,,261,260,517,517,http://localhost:9999/addCandidateCompressed,11245,0,2012
+1666134340780,11256,HTTP Request,200,OK,1000T addCandidate 1-440,text,true,,261,260,514,514,http://localhost:9999/addCandidateCompressed,11256,0,2022
+1666134340760,11276,HTTP Request,200,OK,1000T addCandidate 1-438,text,true,,261,260,513,513,http://localhost:9999/addCandidateCompressed,11276,0,2026
+1666134340140,11896,HTTP Request,200,OK,1000T addCandidate 1-376,text,true,,261,260,512,512,http://localhost:9999/addCandidateCompressed,11896,0,2017
+1666134339890,12147,HTTP Request,200,OK,1000T addCandidate 1-351,text,true,,261,260,511,511,http://localhost:9999/addCandidateCompressed,12147,0,2016
+1666134340472,11839,HTTP Request,200,OK,1000T addCandidate 1-409,text,true,,261,260,510,510,http://localhost:9999/addCandidateCompressed,11839,0,2048
+1666134343431,9013,HTTP Request,200,OK,1000T addCandidate 1-705,text,true,,261,260,509,509,http://localhost:9999/addCandidateCompressed,9013,0,2042
+1666134340540,11904,HTTP Request,200,OK,1000T addCandidate 1-416,text,true,,261,260,508,508,http://localhost:9999/addCandidateCompressed,11904,0,2012
+1666134343440,9022,HTTP Request,200,OK,1000T addCandidate 1-706,text,true,,261,260,507,507,http://localhost:9999/addCandidateCompressed,9022,0,2033
+1666134343450,9018,HTTP Request,200,OK,1000T addCandidate 1-707,text,true,,261,260,506,506,http://localhost:9999/addCandidateCompressed,9018,0,2023
+1666134340879,11588,HTTP Request,200,OK,1000T addCandidate 1-450,text,true,,261,260,505,505,http://localhost:9999/addCandidateCompressed,11588,0,2018
+1666134340870,11610,HTTP Request,200,OK,1000T addCandidate 1-449,text,true,,261,260,504,504,http://localhost:9999/addCandidateCompressed,11610,0,2012
+1666134340889,11591,HTTP Request,200,OK,1000T addCandidate 1-451,text,true,,261,260,503,503,http://localhost:9999/addCandidateCompressed,11591,0,2024
+1666134340249,12235,HTTP Request,200,OK,1000T addCandidate 1-387,text,true,,261,260,502,502,http://localhost:9999/addCandidateCompressed,12234,0,2019
+1666134341411,11082,HTTP Request,200,OK,1000T addCandidate 1-503,text,true,,261,260,501,501,http://localhost:9999/addCandidateCompressed,11082,0,2032
+1666134340900,11594,HTTP Request,200,OK,1000T addCandidate 1-452,text,true,,261,260,500,500,http://localhost:9999/addCandidateCompressed,11594,0,2013
+1666134340980,11514,HTTP Request,200,OK,1000T addCandidate 1-460,text,true,,261,260,499,499,http://localhost:9999/addCandidateCompressed,11514,0,2028
+1666134340989,11514,HTTP Request,200,OK,1000T addCandidate 1-461,text,true,,261,260,498,498,http://localhost:9999/addCandidateCompressed,11514,0,2021
+1666134341420,11084,HTTP Request,200,OK,1000T addCandidate 1-504,text,true,,261,260,498,498,http://localhost:9999/addCandidateCompressed,11083,0,2023
+1666134341440,11064,HTTP Request,200,OK,1000T addCandidate 1-506,text,true,,261,260,496,496,http://localhost:9999/addCandidateCompressed,11064,0,2035
+1666134341009,11498,HTTP Request,200,OK,1000T addCandidate 1-463,text,true,,261,260,495,495,http://localhost:9999/addCandidateCompressed,11498,0,2015
+1666134340999,11512,HTTP Request,200,OK,1000T addCandidate 1-462,text,true,,261,260,494,494,http://localhost:9999/addCandidateCompressed,11512,0,2025
+1666134341039,11475,HTTP Request,200,OK,1000T addCandidate 1-466,text,true,,261,260,493,493,http://localhost:9999/addCandidateCompressed,11475,0,2016
+1666134341029,11487,HTTP Request,200,OK,1000T addCandidate 1-465,text,true,,261,260,492,492,http://localhost:9999/addCandidateCompressed,11487,0,2026
+1666134341090,11430,HTTP Request,200,OK,1000T addCandidate 1-471,text,true,,261,260,491,491,http://localhost:9999/addCandidateCompressed,11430,0,2012
+1666134341049,11474,HTTP Request,200,OK,1000T addCandidate 1-467,text,true,,261,260,490,490,http://localhost:9999/addCandidateCompressed,11474,0,2021
+1666134341070,11462,HTTP Request,200,OK,1000T addCandidate 1-469,text,true,,261,260,489,489,http://localhost:9999/addCandidateCompressed,11462,0,2016
+1666134341019,11514,HTTP Request,200,OK,1000T addCandidate 1-464,text,true,,261,260,488,488,http://localhost:9999/addCandidateCompressed,11514,0,2020
+1666134341080,11454,HTTP Request,200,OK,1000T addCandidate 1-470,text,true,,261,260,487,487,http://localhost:9999/addCandidateCompressed,11454,0,2022
+1666134340449,12086,HTTP Request,200,OK,1000T addCandidate 1-407,text,true,,261,260,486,486,http://localhost:9999/addCandidateCompressed,12086,0,2021
+1666134343160,9567,HTTP Request,200,OK,1000T addCandidate 1-678,text,true,,261,260,485,485,http://localhost:9999/addCandidateCompressed,9567,0,2033
+1666134343141,9589,HTTP Request,200,OK,1000T addCandidate 1-676,text,true,,261,260,484,484,http://localhost:9999/addCandidateCompressed,9589,0,2022
+1666134343151,9583,HTTP Request,200,OK,1000T addCandidate 1-677,text,true,,261,260,483,483,http://localhost:9999/addCandidateCompressed,9582,0,2042
+1666134343170,9576,HTTP Request,200,OK,1000T addCandidate 1-679,text,true,,261,260,482,482,http://localhost:9999/addCandidateCompressed,9576,0,2040
+1666134343220,9537,HTTP Request,200,OK,1000T addCandidate 1-684,text,true,,261,260,481,481,http://localhost:9999/addCandidateCompressed,9537,0,2051
+1666134343210,9554,HTTP Request,200,OK,1000T addCandidate 1-683,text,true,,261,260,480,480,http://localhost:9999/addCandidateCompressed,9554,0,2045
+1666134343201,9568,HTTP Request,200,OK,1000T addCandidate 1-682,text,true,,261,260,479,479,http://localhost:9999/addCandidateCompressed,9568,0,2024
+1666134343230,9542,HTTP Request,200,OK,1000T addCandidate 1-685,text,true,,261,260,478,478,http://localhost:9999/addCandidateCompressed,9542,0,2041
+1666134343120,9656,HTTP Request,200,OK,1000T addCandidate 1-674,text,true,,261,260,477,477,http://localhost:9999/addCandidateCompressed,9656,0,2042
+1666134343180,9596,HTTP Request,200,OK,1000T addCandidate 1-680,text,true,,261,260,476,476,http://localhost:9999/addCandidateCompressed,9596,0,2045
+1666134343091,9688,HTTP Request,200,OK,1000T addCandidate 1-671,text,true,,261,260,475,475,http://localhost:9999/addCandidateCompressed,9688,0,2040
+1666134343110,9672,HTTP Request,200,OK,1000T addCandidate 1-673,text,true,,261,260,474,474,http://localhost:9999/addCandidateCompressed,9672,0,2036
+1666134343192,9592,HTTP Request,200,OK,1000T addCandidate 1-681,text,true,,261,260,473,473,http://localhost:9999/addCandidateCompressed,9592,0,2047
+1666134339189,13691,HTTP Request,200,OK,1000T addCandidate 1-281,text,true,,261,260,472,472,http://localhost:9999/addCandidateCompressed,13691,0,2025
+1666134339159,13722,HTTP Request,200,OK,1000T addCandidate 1-276,text,true,,261,260,471,471,http://localhost:9999/addCandidateCompressed,13722,0,2039
+1666134339180,13703,HTTP Request,200,OK,1000T addCandidate 1-280,text,true,,261,260,470,470,http://localhost:9999/addCandidateCompressed,13703,0,2034
+1666134338809,14075,HTTP Request,200,OK,1000T addCandidate 1-243,text,true,,261,260,469,469,http://localhost:9999/addCandidateCompressed,14075,0,2012
+1666134338779,14110,HTTP Request,200,OK,1000T addCandidate 1-240,text,true,,261,260,468,468,http://localhost:9999/addCandidateCompressed,14110,0,2025
+1666134338840,14050,HTTP Request,200,OK,1000T addCandidate 1-246,text,true,,261,260,467,467,http://localhost:9999/addCandidateCompressed,14050,0,2027
+1666134338819,14073,HTTP Request,200,OK,1000T addCandidate 1-244,text,true,,261,260,466,466,http://localhost:9999/addCandidateCompressed,14073,0,2033
+1666134338829,14069,HTTP Request,200,OK,1000T addCandidate 1-245,text,true,,261,260,465,465,http://localhost:9999/addCandidateCompressed,14069,0,2038
+1666134339159,13753,HTTP Request,200,OK,1000T addCandidate 1-278,text,true,,261,260,464,464,http://localhost:9999/addCandidateCompressed,13753,0,2039
+1666134338850,14068,HTTP Request,200,OK,1000T addCandidate 1-247,text,true,,261,260,463,463,http://localhost:9999/addCandidateCompressed,14068,0,2033
+1666134338799,14127,HTTP Request,200,OK,1000T addCandidate 1-242,text,true,,261,260,462,462,http://localhost:9999/addCandidateCompressed,14127,0,2040
+1666134341450,11489,HTTP Request,200,OK,1000T addCandidate 1-507,text,true,,261,260,461,461,http://localhost:9999/addCandidateCompressed,11489,0,2041
+1666134338750,14194,HTTP Request,200,OK,1000T addCandidate 1-237,text,true,,261,260,460,460,http://localhost:9999/addCandidateCompressed,14194,0,2039
+1666134341430,11516,HTTP Request,200,OK,1000T addCandidate 1-505,text,true,,261,260,459,459,http://localhost:9999/addCandidateCompressed,11516,0,2029
+1666134341481,11468,HTTP Request,200,OK,1000T addCandidate 1-510,text,true,,261,260,458,458,http://localhost:9999/addCandidateCompressed,11468,0,2010
+1666134341110,11841,HTTP Request,200,OK,1000T addCandidate 1-473,text,true,,261,260,457,457,http://localhost:9999/addCandidateCompressed,11841,0,2023
+1666134341460,11494,HTTP Request,200,OK,1000T addCandidate 1-508,text,true,,261,260,456,456,http://localhost:9999/addCandidateCompressed,11494,0,2031
+1666134341130,11827,HTTP Request,200,OK,1000T addCandidate 1-475,text,true,,261,260,455,455,http://localhost:9999/addCandidateCompressed,11827,0,2019
+1666134341569,11389,HTTP Request,200,OK,1000T addCandidate 1-519,text,true,,261,260,454,454,http://localhost:9999/addCandidateCompressed,11389,0,2018
+1666134341150,11811,HTTP Request,200,OK,1000T addCandidate 1-477,text,true,,261,260,453,453,http://localhost:9999/addCandidateCompressed,11811,0,2014
+1666134341470,11495,HTTP Request,200,OK,1000T addCandidate 1-509,text,true,,261,260,452,452,http://localhost:9999/addCandidateCompressed,11495,0,2037
+1666134341579,11387,HTTP Request,200,OK,1000T addCandidate 1-520,text,true,,261,260,451,451,http://localhost:9999/addCandidateCompressed,11387,0,2023
+1666134343380,9590,HTTP Request,200,OK,1000T addCandidate 1-700,text,true,,261,260,450,450,http://localhost:9999/addCandidateCompressed,9590,0,2047
+1666134344079,8894,HTTP Request,200,OK,1000T addCandidate 1-770,text,true,,261,260,449,449,http://localhost:9999/addCandidateCompressed,8894,0,2050
+1666134343760,9216,HTTP Request,200,OK,1000T addCandidate 1-738,text,true,,261,260,448,448,http://localhost:9999/addCandidateCompressed,9216,0,2056
+1666134343411,9568,HTTP Request,200,OK,1000T addCandidate 1-703,text,true,,261,260,447,447,http://localhost:9999/addCandidateCompressed,9568,0,2047
+1666134341099,11883,HTTP Request,200,OK,1000T addCandidate 1-472,text,true,,261,260,446,446,http://localhost:9999/addCandidateCompressed,11883,0,2018
+1666134343370,9613,HTTP Request,200,OK,1000T addCandidate 1-699,text,true,,261,260,445,445,http://localhost:9999/addCandidateCompressed,9613,0,2057
+1666134343390,9596,HTTP Request,200,OK,1000T addCandidate 1-701,text,true,,261,260,444,444,http://localhost:9999/addCandidateCompressed,9596,0,2053
+1666134343400,9612,HTTP Request,200,OK,1000T addCandidate 1-702,text,true,,261,260,443,443,http://localhost:9999/addCandidateCompressed,9612,0,2042
+1666134343251,9769,HTTP Request,200,OK,1000T addCandidate 1-687,text,true,,261,260,442,442,http://localhost:9999/addCandidateCompressed,9769,0,2051
+1666134343611,9413,HTTP Request,200,OK,1000T addCandidate 1-723,text,true,,261,260,441,441,http://localhost:9999/addCandidateCompressed,9413,0,2035
+1666134343421,9607,HTTP Request,200,OK,1000T addCandidate 1-704,text,true,,261,260,440,440,http://localhost:9999/addCandidateCompressed,9607,0,2037
+1666134343360,9669,HTTP Request,200,OK,1000T addCandidate 1-698,text,true,,261,260,439,439,http://localhost:9999/addCandidateCompressed,9669,0,2051
+1666134344369,8665,HTTP Request,200,OK,1000T addCandidate 1-799,text,true,,261,260,438,438,http://localhost:9999/addCandidateCompressed,8665,0,2028
+1666134344299,8737,HTTP Request,200,OK,1000T addCandidate 1-792,text,true,,261,260,437,437,http://localhost:9999/addCandidateCompressed,8737,0,2037
+1666134344359,8680,HTTP Request,200,OK,1000T addCandidate 1-798,text,true,,261,260,436,436,http://localhost:9999/addCandidateCompressed,8680,0,2024
+1666134344379,8664,HTTP Request,200,OK,1000T addCandidate 1-800,text,true,,261,260,435,435,http://localhost:9999/addCandidateCompressed,8664,0,2018
+1666134344320,8725,HTTP Request,200,OK,1000T addCandidate 1-794,text,true,,261,260,434,434,http://localhost:9999/addCandidateCompressed,8725,0,2031
+1666134344069,8978,HTTP Request,200,OK,1000T addCandidate 1-769,text,true,,261,260,433,433,http://localhost:9999/addCandidateCompressed,8978,0,2060
+1666134344309,8742,HTTP Request,200,OK,1000T addCandidate 1-793,text,true,,261,260,432,432,http://localhost:9999/addCandidateCompressed,8742,0,2042
+1666134344389,8665,HTTP Request,200,OK,1000T addCandidate 1-801,text,true,,261,260,431,431,http://localhost:9999/addCandidateCompressed,8665,0,2024
+1666134344400,8654,HTTP Request,200,OK,1000T addCandidate 1-802,text,true,,261,260,430,430,http://localhost:9999/addCandidateCompressed,8654,0,2028
+1666134344059,8999,HTTP Request,200,OK,1000T addCandidate 1-768,text,true,,261,260,429,429,http://localhost:9999/addCandidateCompressed,8999,0,2055
+1666134344089,8972,HTTP Request,200,OK,1000T addCandidate 1-771,text,true,,261,260,428,428,http://localhost:9999/addCandidateCompressed,8972,0,2056
+1666134344340,8723,HTTP Request,200,OK,1000T addCandidate 1-796,text,true,,261,260,427,427,http://localhost:9999/addCandidateCompressed,8723,0,2044
+1666134344131,8935,HTTP Request,200,OK,1000T addCandidate 1-775,text,true,,261,260,426,426,http://localhost:9999/addCandidateCompressed,8935,0,2047
+1666134344110,8958,HTTP Request,200,OK,1000T addCandidate 1-773,text,true,,261,260,425,425,http://localhost:9999/addCandidateCompressed,8958,0,2051
+1666134344100,8971,HTTP Request,200,OK,1000T addCandidate 1-772,text,true,,261,260,424,424,http://localhost:9999/addCandidateCompressed,8971,0,2045
+1666134344159,8917,HTTP Request,200,OK,1000T addCandidate 1-778,text,true,,261,260,423,423,http://localhost:9999/addCandidateCompressed,8917,0,2035
+1666134344150,8943,HTTP Request,200,OK,1000T addCandidate 1-777,text,true,,261,260,422,422,http://localhost:9999/addCandidateCompressed,8943,0,2043
+1666134344410,8691,HTTP Request,200,OK,1000T addCandidate 1-803,text,true,,261,260,421,421,http://localhost:9999/addCandidateCompressed,8691,0,2034
+1666134344421,8685,HTTP Request,200,OK,1000T addCandidate 1-804,text,true,,261,260,420,420,http://localhost:9999/addCandidateCompressed,8685,0,2055
+1666134344139,8969,HTTP Request,200,OK,1000T addCandidate 1-776,text,true,,261,260,419,419,http://localhost:9999/addCandidateCompressed,8969,0,2039
+1666134344431,8680,HTTP Request,200,OK,1000T addCandidate 1-805,text,true,,261,260,418,418,http://localhost:9999/addCandidateCompressed,8679,0,2045
+1666134344131,8983,HTTP Request,200,OK,1000T addCandidate 1-774,text,true,,261,260,417,417,http://localhost:9999/addCandidateCompressed,8983,0,2047
+1666134342840,10276,HTTP Request,200,OK,1000T addCandidate 1-646,text,true,,261,260,417,417,http://localhost:9999/addCandidateCompressed,10276,0,2040
+1666134342960,10157,HTTP Request,200,OK,1000T addCandidate 1-658,text,true,,261,260,417,417,http://localhost:9999/addCandidateCompressed,10157,0,2030
+1666134342861,10260,HTTP Request,200,OK,1000T addCandidate 1-648,text,true,,261,260,414,414,http://localhost:9999/addCandidateCompressed,10260,0,2036
+1666134342880,10244,HTTP Request,200,OK,1000T addCandidate 1-650,text,true,,261,260,413,413,http://localhost:9999/addCandidateCompressed,10244,0,2032
+1666134342931,10194,HTTP Request,200,OK,1000T addCandidate 1-655,text,true,,261,260,412,412,http://localhost:9999/addCandidateCompressed,10194,0,2044
+1666134344470,8665,HTTP Request,200,OK,1000T addCandidate 1-809,text,true,,261,260,411,411,http://localhost:9999/addCandidateCompressed,8665,0,2038
+1666134343499,9637,HTTP Request,200,OK,1000T addCandidate 1-712,text,true,,261,260,410,410,http://localhost:9999/addCandidateCompressed,9637,0,2053
+1666134342852,10284,HTTP Request,200,OK,1000T addCandidate 1-647,text,true,,261,260,409,409,http://localhost:9999/addCandidateCompressed,10284,0,2045
+1666134343240,9897,HTTP Request,200,OK,1000T addCandidate 1-686,text,true,,261,260,408,408,http://localhost:9999/addCandidateCompressed,9897,0,2031
+1666134343600,9540,HTTP Request,200,OK,1000T addCandidate 1-722,text,true,,261,260,407,407,http://localhost:9999/addCandidateCompressed,9540,0,2046
+1666134343869,9297,HTTP Request,200,OK,1000T addCandidate 1-749,text,true,,261,260,406,406,http://localhost:9999/addCandidateCompressed,9297,0,2042
+1666134343480,9687,HTTP Request,200,OK,1000T addCandidate 1-710,text,true,,261,260,405,405,http://localhost:9999/addCandidateCompressed,9687,0,2041
+1666134343511,9661,HTTP Request,200,OK,1000T addCandidate 1-713,text,true,,261,260,404,404,http://localhost:9999/addCandidateCompressed,9661,0,2041
+1666134343521,9655,HTTP Request,200,OK,1000T addCandidate 1-714,text,true,,261,260,403,403,http://localhost:9999/addCandidateCompressed,9655,0,2031
+1666134343470,9708,HTTP Request,200,OK,1000T addCandidate 1-709,text,true,,261,260,402,402,http://localhost:9999/addCandidateCompressed,9708,0,2051
+1666134343541,9642,HTTP Request,200,OK,1000T addCandidate 1-716,text,true,,261,260,401,401,http://localhost:9999/addCandidateCompressed,9642,0,2058
+1666134343550,9633,HTTP Request,200,OK,1000T addCandidate 1-717,text,true,,261,260,400,400,http://localhost:9999/addCandidateCompressed,9633,0,2037
+1666134343460,9728,HTTP Request,200,OK,1000T addCandidate 1-708,text,true,,261,260,399,399,http://localhost:9999/addCandidateCompressed,9728,0,2044
+1666134343560,9631,HTTP Request,200,OK,1000T addCandidate 1-718,text,true,,261,260,398,398,http://localhost:9999/addCandidateCompressed,9631,0,2054
+1666134343579,9615,HTTP Request,200,OK,1000T addCandidate 1-720,text,true,,261,260,397,397,http://localhost:9999/addCandidateCompressed,9615,0,2051
+1666134343531,9668,HTTP Request,200,OK,1000T addCandidate 1-715,text,true,,261,260,396,396,http://localhost:9999/addCandidateCompressed,9668,0,2052
+1666134343589,9612,HTTP Request,200,OK,1000T addCandidate 1-721,text,true,,261,260,395,395,http://localhost:9999/addCandidateCompressed,9612,0,2057
+1666134343490,9717,HTTP Request,200,OK,1000T addCandidate 1-711,text,true,,261,260,394,394,http://localhost:9999/addCandidateCompressed,9717,0,2062
+1666134343570,9641,HTTP Request,200,OK,1000T addCandidate 1-719,text,true,,261,260,393,393,http://localhost:9999/addCandidateCompressed,9641,0,2060
+1666134341280,11950,HTTP Request,200,OK,1000T addCandidate 1-490,text,true,,261,260,392,392,http://localhost:9999/addCandidateCompressed,11950,0,2025
+1666134341250,11980,HTTP Request,200,OK,1000T addCandidate 1-487,text,true,,261,260,391,391,http://localhost:9999/addCandidateCompressed,11980,0,2024
+1666134341370,11865,HTTP Request,200,OK,1000T addCandidate 1-499,text,true,,261,260,390,390,http://localhost:9999/addCandidateCompressed,11865,0,2012
+1666134341210,12035,HTTP Request,200,OK,1000T addCandidate 1-483,text,true,,261,260,389,389,http://localhost:9999/addCandidateCompressed,12035,0,2017
+1666134341268,11977,HTTP Request,200,OK,1000T addCandidate 1-489,text,true,,261,260,389,389,http://localhost:9999/addCandidateCompressed,11977,0,2023
+1666134341290,11955,HTTP Request,200,OK,1000T addCandidate 1-491,text,true,,261,260,389,389,http://localhost:9999/addCandidateCompressed,11955,0,2015
+1666134341379,11866,HTTP Request,200,OK,1000T addCandidate 1-500,text,true,,261,260,389,389,http://localhost:9999/addCandidateCompressed,11866,0,2018
+1666134341301,11983,HTTP Request,200,OK,1000T addCandidate 1-492,text,true,,261,260,385,385,http://localhost:9999/addCandidateCompressed,11983,0,2019
+1666134341559,11744,HTTP Request,200,OK,1000T addCandidate 1-518,text,true,,261,260,384,384,http://localhost:9999/addCandidateCompressed,11744,0,2027
+1666134341600,11704,HTTP Request,200,OK,1000T addCandidate 1-522,text,true,,261,260,383,383,http://localhost:9999/addCandidateCompressed,11704,0,2016
+1666134341590,11734,HTTP Request,200,OK,1000T addCandidate 1-521,text,true,,261,260,382,382,http://localhost:9999/addCandidateCompressed,11734,0,2011
+1666134341519,11894,HTTP Request,200,OK,1000T addCandidate 1-514,text,true,,261,260,381,381,http://localhost:9999/addCandidateCompressed,11894,0,2036
+1666134338899,14515,HTTP Request,200,OK,1000T addCandidate 1-252,text,true,,261,260,380,380,http://localhost:9999/addCandidateCompressed,14515,0,2032
+1666134338889,14525,HTTP Request,200,OK,1000T addCandidate 1-251,text,true,,261,260,379,379,http://localhost:9999/addCandidateCompressed,14525,0,2041
+1666134338879,14536,HTTP Request,200,OK,1000T addCandidate 1-250,text,true,,261,260,378,378,http://localhost:9999/addCandidateCompressed,14536,0,2051
+1666134338979,14436,HTTP Request,200,OK,1000T addCandidate 1-260,text,true,,261,260,377,377,http://localhost:9999/addCandidateCompressed,14436,0,2031
+1666134338869,14547,HTTP Request,200,OK,1000T addCandidate 1-249,text,true,,261,260,376,376,http://localhost:9999/addCandidateCompressed,14547,0,2031
+1666134338989,14427,HTTP Request,200,OK,1000T addCandidate 1-261,text,true,,261,260,375,375,http://localhost:9999/addCandidateCompressed,14427,0,2036
+1666134338771,14646,HTTP Request,200,OK,1000T addCandidate 1-239,text,true,,261,260,374,374,http://localhost:9999/addCandidateCompressed,14646,0,2033
+1666134338959,14458,HTTP Request,200,OK,1000T addCandidate 1-258,text,true,,261,260,373,373,http://localhost:9999/addCandidateCompressed,14458,0,2040
+1666134339159,14259,HTTP Request,200,OK,1000T addCandidate 1-277,text,true,,261,260,372,372,http://localhost:9999/addCandidateCompressed,14259,0,2039
+1666134339169,14250,HTTP Request,200,OK,1000T addCandidate 1-279,text,true,,261,260,371,371,http://localhost:9999/addCandidateCompressed,14250,0,2029
+1666134338789,14631,HTTP Request,200,OK,1000T addCandidate 1-241,text,true,,261,260,370,370,http://localhost:9999/addCandidateCompressed,14631,0,2015
+1666134344440,9230,HTTP Request,200,OK,1000T addCandidate 1-806,text,true,,261,260,369,369,http://localhost:9999/addCandidateCompressed,9230,0,2036
+1666134344450,9221,HTTP Request,200,OK,1000T addCandidate 1-807,text,true,,261,260,369,369,http://localhost:9999/addCandidateCompressed,9221,0,2041
+1666134343819,9853,HTTP Request,200,OK,1000T addCandidate 1-744,text,true,,261,260,367,367,http://localhost:9999/addCandidateCompressed,9853,0,2060
+1666134343619,10055,HTTP Request,200,OK,1000T addCandidate 1-724,text,true,,261,260,366,366,http://localhost:9999/addCandidateCompressed,10055,0,2057
+1666134343670,10016,HTTP Request,200,OK,1000T addCandidate 1-729,text,true,,261,260,365,365,http://localhost:9999/addCandidateCompressed,10016,0,2037
+1666134343859,9829,HTTP Request,200,OK,1000T addCandidate 1-748,text,true,,261,260,364,364,http://localhost:9999/addCandidateCompressed,9829,0,2036
+1666134343829,9874,HTTP Request,200,OK,1000T addCandidate 1-745,text,true,,261,260,363,363,http://localhost:9999/addCandidateCompressed,9874,0,2050
+1666134343810,9903,HTTP Request,200,OK,1000T addCandidate 1-743,text,true,,261,260,362,362,http://localhost:9999/addCandidateCompressed,9903,0,2038
+1666134343630,10087,HTTP Request,200,OK,1000T addCandidate 1-725,text,true,,261,260,361,361,http://localhost:9999/addCandidateCompressed,10087,0,2046
+1666134343839,9886,HTTP Request,200,OK,1000T addCandidate 1-746,text,true,,261,260,360,360,http://localhost:9999/addCandidateCompressed,9886,0,2040
+1666134338009,15735,HTTP Request,200,OK,1000T addCandidate 1-163,text,true,,261,260,359,359,http://localhost:9999/addCandidateCompressed,15735,0,2039
+1666134341401,12406,HTTP Request,200,OK,1000T addCandidate 1-502,text,true,,261,260,358,358,http://localhost:9999/addCandidateCompressed,12406,0,2011
+1666134341539,12269,HTTP Request,200,OK,1000T addCandidate 1-516,text,true,,261,260,358,358,http://localhost:9999/addCandidateCompressed,12269,0,2031
+1666134341360,12448,HTTP Request,200,OK,1000T addCandidate 1-498,text,true,,261,260,356,356,http://localhost:9999/addCandidateCompressed,12448,0,2023
+1666134341259,12550,HTTP Request,200,OK,1000T addCandidate 1-488,text,true,,261,260,355,355,http://localhost:9999/addCandidateCompressed,12550,0,2015
+1666134341549,12260,HTTP Request,200,OK,1000T addCandidate 1-517,text,true,,261,260,354,354,http://localhost:9999/addCandidateCompressed,12260,0,2021
+1666134341619,12191,HTTP Request,200,OK,1000T addCandidate 1-524,text,true,,261,260,353,353,http://localhost:9999/addCandidateCompressed,12191,0,2027
+1666134341610,12201,HTTP Request,200,OK,1000T addCandidate 1-523,text,true,,261,260,352,352,http://localhost:9999/addCandidateCompressed,12201,0,2036
+1666134342809,11663,HTTP Request,200,OK,1000T addCandidate 1-643,text,true,,261,260,351,351,http://localhost:9999/addCandidateCompressed,11663,0,2041
+1666134342831,11644,HTTP Request,200,OK,1000T addCandidate 1-645,text,true,,261,260,350,350,http://localhost:9999/addCandidateCompressed,11644,0,2019
+1666134344650,9835,HTTP Request,200,OK,1000T addCandidate 1-827,text,true,,261,260,349,349,http://localhost:9999/addCandidateCompressed,9835,0,2032
+1666134344660,9829,HTTP Request,200,OK,1000T addCandidate 1-828,text,true,,261,260,348,348,http://localhost:9999/addCandidateCompressed,9829,0,2022
+1666134344701,9796,HTTP Request,200,OK,1000T addCandidate 1-832,text,true,,261,260,347,347,http://localhost:9999/addCandidateCompressed,9796,0,2028
+1666134344690,9811,HTTP Request,200,OK,1000T addCandidate 1-831,text,true,,261,260,346,346,http://localhost:9999/addCandidateCompressed,9811,0,2023
+1666134344680,9829,HTTP Request,200,OK,1000T addCandidate 1-830,text,true,,261,260,345,345,http://localhost:9999/addCandidateCompressed,9829,0,2049
+1666134344670,9842,HTTP Request,200,OK,1000T addCandidate 1-829,text,true,,261,260,344,344,http://localhost:9999/addCandidateCompressed,9842,0,2028
+1666134338049,16487,HTTP Request,200,OK,1000T addCandidate 1-167,text,true,,261,260,343,343,http://localhost:9999/addCandidateCompressed,16487,0,2015
+1666134338019,16519,HTTP Request,200,OK,1000T addCandidate 1-164,text,true,,261,260,342,342,http://localhost:9999/addCandidateCompressed,16519,0,2029
+1666134338029,16519,HTTP Request,200,OK,1000T addCandidate 1-165,text,true,,261,260,341,341,http://localhost:9999/addCandidateCompressed,16519,0,2035
+1666134344551,10237,HTTP Request,200,OK,1000T addCandidate 1-817,text,true,,261,260,340,340,http://localhost:9999/addCandidateCompressed,10237,0,2019
+1666134344521,10272,HTTP Request,200,OK,1000T addCandidate 1-814,text,true,,261,260,339,339,http://localhost:9999/addCandidateCompressed,10272,0,2033
+1666134344480,10318,HTTP Request,200,OK,1000T addCandidate 1-810,text,true,,261,260,338,338,http://localhost:9999/addCandidateCompressed,10318,0,2042
+1666134344560,10367,HTTP Request,200,OK,1000T addCandidate 1-818,text,true,,261,260,337,337,http://localhost:9999/addCandidateCompressed,10367,0,2042
+1666134343909,11018,HTTP Request,200,OK,1000T addCandidate 1-753,text,true,,261,260,337,337,http://localhost:9999/addCandidateCompressed,11018,0,2049
+1666134343312,11615,HTTP Request,200,OK,1000T addCandidate 1-693,text,true,,261,260,337,337,http://localhost:9999/addCandidateCompressed,11615,0,2053
+1666134343341,11586,HTTP Request,200,OK,1000T addCandidate 1-696,text,true,,261,260,337,337,http://localhost:9999/addCandidateCompressed,11586,0,2055
+1666134343879,11048,HTTP Request,200,OK,1000T addCandidate 1-750,text,true,,261,260,337,337,http://localhost:9999/addCandidateCompressed,11048,0,2032
+1666134343919,11008,HTTP Request,200,OK,1000T addCandidate 1-754,text,true,,261,260,337,337,http://localhost:9999/addCandidateCompressed,11008,0,2039
+1666134343939,10988,HTTP Request,200,OK,1000T addCandidate 1-756,text,true,,261,260,337,337,http://localhost:9999/addCandidateCompressed,10988,0,2020
+1666134343959,10968,HTTP Request,200,OK,1000T addCandidate 1-758,text,true,,261,260,337,337,http://localhost:9999/addCandidateCompressed,10968,0,2045
+1666134343270,11657,HTTP Request,200,OK,1000T addCandidate 1-689,text,true,,261,260,337,337,http://localhost:9999/addCandidateCompressed,11657,0,2032
+1666134343281,11646,HTTP Request,200,OK,1000T addCandidate 1-690,text,true,,261,260,337,337,http://localhost:9999/addCandidateCompressed,11646,0,2036
+1666134343301,11626,HTTP Request,200,OK,1000T addCandidate 1-692,text,true,,261,260,337,337,http://localhost:9999/addCandidateCompressed,11626,0,2033
+1666134343260,11668,HTTP Request,200,OK,1000T addCandidate 1-688,text,true,,261,260,335,335,http://localhost:9999/addCandidateCompressed,11668,0,2057
+1666134343930,10998,HTTP Request,200,OK,1000T addCandidate 1-755,text,true,,261,260,335,335,http://localhost:9999/addCandidateCompressed,10997,0,2029
+1666134343949,10979,HTTP Request,200,OK,1000T addCandidate 1-757,text,true,,261,260,330,330,http://localhost:9999/addCandidateCompressed,10979,0,2055
+1666134343900,11028,HTTP Request,200,OK,1000T addCandidate 1-752,text,true,,261,260,329,329,http://localhost:9999/addCandidateCompressed,11028,0,2058
+1666134344591,10337,HTTP Request,200,OK,1000T addCandidate 1-821,text,true,,261,260,328,328,http://localhost:9999/addCandidateCompressed,10337,0,2043
+1666134344460,10468,HTTP Request,200,OK,1000T addCandidate 1-808,text,true,,261,260,327,327,http://localhost:9999/addCandidateCompressed,10468,0,2031
+1666134344039,10889,HTTP Request,200,OK,1000T addCandidate 1-766,text,true,,261,260,327,327,http://localhost:9999/addCandidateCompressed,10889,0,2044
+1666134344049,10879,HTTP Request,200,OK,1000T addCandidate 1-767,text,true,,261,260,323,323,http://localhost:9999/addCandidateCompressed,10879,0,2049
+1666134344010,10918,HTTP Request,200,OK,1000T addCandidate 1-763,text,true,,261,260,323,323,http://localhost:9999/addCandidateCompressed,10918,0,2057
+1666134344490,10439,HTTP Request,200,OK,1000T addCandidate 1-811,text,true,,261,260,318,318,http://localhost:9999/addCandidateCompressed,10439,0,2048
+1666134344541,10388,HTTP Request,200,OK,1000T addCandidate 1-816,text,true,,261,260,318,318,http://localhost:9999/addCandidateCompressed,10388,0,2014
+1666134344029,10900,HTTP Request,200,OK,1000T addCandidate 1-765,text,true,,261,260,317,317,http://localhost:9999/addCandidateCompressed,10900,0,2038
+1666134344019,10910,HTTP Request,200,OK,1000T addCandidate 1-764,text,true,,261,260,315,315,http://localhost:9999/addCandidateCompressed,10910,0,2048
+1666134344500,10430,HTTP Request,200,OK,1000T addCandidate 1-812,text,true,,261,260,313,313,http://localhost:9999/addCandidateCompressed,10430,0,2038
+1666134344571,10359,HTTP Request,200,OK,1000T addCandidate 1-819,text,true,,261,260,313,313,http://localhost:9999/addCandidateCompressed,10359,0,2047
+1666134343890,11041,HTTP Request,200,OK,1000T addCandidate 1-751,text,true,,261,260,311,311,http://localhost:9999/addCandidateCompressed,11041,0,2037
+1666134343290,11645,HTTP Request,200,OK,1000T addCandidate 1-691,text,true,,261,260,310,310,http://localhost:9999/addCandidateCompressed,11645,0,2043
+1666134343979,10959,HTTP Request,200,OK,1000T addCandidate 1-760,text,true,,261,260,309,309,http://localhost:9999/addCandidateCompressed,10959,0,2057
+1666134343320,11619,HTTP Request,200,OK,1000T addCandidate 1-694,text,true,,261,260,308,308,http://localhost:9999/addCandidateCompressed,11619,0,2045
+1666134343350,11595,HTTP Request,200,OK,1000T addCandidate 1-697,text,true,,261,260,307,307,http://localhost:9999/addCandidateCompressed,11595,0,2046
+1666134344601,10345,HTTP Request,200,OK,1000T addCandidate 1-822,text,true,,261,260,306,306,http://localhost:9999/addCandidateCompressed,10345,0,2049
+1666134342920,12057,HTTP Request,200,OK,1000T addCandidate 1-654,text,true,,261,260,305,305,http://localhost:9999/addCandidateCompressed,12057,0,2040
+1666134342821,12671,HTTP Request,200,OK,1000T addCandidate 1-644,text,true,,261,260,304,304,http://localhost:9999/addCandidateCompressed,12671,0,2059
+1666134342900,12593,HTTP Request,200,OK,1000T addCandidate 1-652,text,true,,261,260,304,304,http://localhost:9999/addCandidateCompressed,12593,0,2044
+1666134342910,12583,HTTP Request,200,OK,1000T addCandidate 1-653,text,true,,261,260,302,302,http://localhost:9999/addCandidateCompressed,12583,0,2052
+1666134342871,12623,HTTP Request,200,OK,1000T addCandidate 1-649,text,true,,261,260,301,301,http://localhost:9999/addCandidateCompressed,12623,0,2044
+1666134342940,12558,HTTP Request,200,OK,1000T addCandidate 1-656,text,true,,261,260,300,300,http://localhost:9999/addCandidateCompressed,12558,0,2035
+1666134342890,12612,HTTP Request,200,OK,1000T addCandidate 1-651,text,true,,261,260,299,299,http://localhost:9999/addCandidateCompressed,12612,0,2038
+1666134342971,12533,HTTP Request,200,OK,1000T addCandidate 1-659,text,true,,261,260,298,298,http://localhost:9999/addCandidateCompressed,12533,0,2035
+1666134342740,12767,HTTP Request,200,OK,1000T addCandidate 1-636,text,true,,261,260,297,297,http://localhost:9999/addCandidateCompressed,12767,0,2035
+1666134342770,12739,HTTP Request,200,OK,1000T addCandidate 1-639,text,true,,261,260,296,296,http://localhost:9999/addCandidateCompressed,12739,0,2048
+1666134342049,13467,HTTP Request,200,OK,1000T addCandidate 1-567,text,true,,261,260,295,295,http://localhost:9999/addCandidateCompressed,13467,0,2037
+1666134342531,13426,HTTP Request,200,OK,1000T addCandidate 1-615,text,true,,261,260,294,294,http://localhost:9999/addCandidateCompressed,13426,0,2053
+1666134342600,13360,HTTP Request,200,OK,1000T addCandidate 1-622,text,true,,261,260,293,293,http://localhost:9999/addCandidateCompressed,13360,0,2031
+1666134342519,13442,HTTP Request,200,OK,1000T addCandidate 1-613,text,true,,261,260,292,292,http://localhost:9999/addCandidateCompressed,13442,0,2048
+1666134342560,13404,HTTP Request,200,OK,1000T addCandidate 1-618,text,true,,261,260,291,291,http://localhost:9999/addCandidateCompressed,13404,0,2040
+1666134342519,13446,HTTP Request,200,OK,1000T addCandidate 1-614,text,true,,261,260,290,290,http://localhost:9999/addCandidateCompressed,13446,0,2035
+1666134342709,13481,HTTP Request,200,OK,1000T addCandidate 1-633,text,true,,261,260,289,289,http://localhost:9999/addCandidateCompressed,13481,0,2047
+1666134342781,13409,HTTP Request,200,OK,1000T addCandidate 1-640,text,true,,261,260,289,289,http://localhost:9999/addCandidateCompressed,13409,0,2053
+1666134339999,16709,HTTP Request,200,OK,1000T addCandidate 1-362,text,true,,261,260,287,287,http://localhost:9999/addCandidateCompressed,16709,0,2016
+1666134340221,16490,HTTP Request,200,OK,1000T addCandidate 1-384,text,true,,261,260,286,286,http://localhost:9999/addCandidateCompressed,16490,0,2015
+1666134340310,16403,HTTP Request,200,OK,1000T addCandidate 1-393,text,true,,261,260,285,285,http://localhost:9999/addCandidateCompressed,16403,0,2018
+1666134339819,16895,HTTP Request,200,OK,1000T addCandidate 1-344,text,true,,261,260,284,284,http://localhost:9999/addCandidateCompressed,16895,0,2024
+1666134340369,16348,HTTP Request,200,OK,1000T addCandidate 1-399,text,true,,261,260,283,283,http://localhost:9999/addCandidateCompressed,16348,0,2023
+1666134340109,16612,HTTP Request,200,OK,1000T addCandidate 1-373,text,true,,261,260,282,282,http://localhost:9999/addCandidateCompressed,16612,0,2021
+1666134339800,16922,HTTP Request,200,OK,1000T addCandidate 1-342,text,true,,261,260,281,281,http://localhost:9999/addCandidateCompressed,16922,0,2027
+1666134342950,14824,HTTP Request,200,OK,1000T addCandidate 1-657,text,true,,261,260,280,280,http://localhost:9999/addCandidateCompressed,14824,0,2058
+1666134342800,14975,HTTP Request,200,OK,1000T addCandidate 1-642,text,true,,261,260,279,279,http://localhost:9999/addCandidateCompressed,14975,0,2034
+1666134340550,17589,HTTP Request,200,OK,1000T addCandidate 1-417,text,true,,261,260,278,278,http://localhost:9999/addCandidateCompressed,17588,0,2018
+1666134340850,17289,HTTP Request,200,OK,1000T addCandidate 1-447,text,true,,261,260,277,277,http://localhost:9999/addCandidateCompressed,17289,0,2016
+1666134340479,17689,HTTP Request,200,OK,1000T addCandidate 1-410,text,true,,261,260,276,276,http://localhost:9999/addCandidateCompressed,17689,0,2041
+1666134340520,17650,HTTP Request,200,OK,1000T addCandidate 1-414,text,true,,261,260,275,275,http://localhost:9999/addCandidateCompressed,17650,0,2016
+1666134337910,20262,HTTP Request,200,OK,1000T addCandidate 1-153,text,true,,261,260,274,274,http://localhost:9999/addCandidateCompressed,20262,0,2013
+1666134337929,20244,HTTP Request,200,OK,1000T addCandidate 1-155,text,true,,261,260,273,273,http://localhost:9999/addCandidateCompressed,20244,0,2040
+1666134340501,17674,HTTP Request,200,OK,1000T addCandidate 1-412,text,true,,261,260,272,272,http://localhost:9999/addCandidateCompressed,17674,0,2019
+1666134337980,20197,HTTP Request,200,OK,1000T addCandidate 1-160,text,true,,261,260,271,271,http://localhost:9999/addCandidateCompressed,20197,0,2036
+1666134337949,20230,HTTP Request,200,OK,1000T addCandidate 1-157,text,true,,261,260,270,270,http://localhost:9999/addCandidateCompressed,20230,0,2036
+1666134337939,20243,HTTP Request,200,OK,1000T addCandidate 1-156,text,true,,261,260,269,269,http://localhost:9999/addCandidateCompressed,20243,0,2030
+1666134337990,20197,HTTP Request,200,OK,1000T addCandidate 1-161,text,true,,261,260,268,268,http://localhost:9999/addCandidateCompressed,20197,0,2042
+1666134337969,20218,HTTP Request,200,OK,1000T addCandidate 1-159,text,true,,261,260,268,268,http://localhost:9999/addCandidateCompressed,20218,0,2032
+1666134337959,20229,HTTP Request,200,OK,1000T addCandidate 1-158,text,true,,261,260,266,266,http://localhost:9999/addCandidateCompressed,20229,0,2042
+1666134338070,20125,HTTP Request,200,OK,1000T addCandidate 1-169,text,true,,261,260,265,265,http://localhost:9999/addCandidateCompressed,20125,0,2047
+1666134338079,20117,HTTP Request,200,OK,1000T addCandidate 1-170,text,true,,261,260,264,264,http://localhost:9999/addCandidateCompressed,20117,0,2038
+1666134344532,13672,HTTP Request,200,OK,1000T addCandidate 1-815,text,true,,261,260,263,263,http://localhost:9999/addCandidateCompressed,13672,0,2038
+1666134341200,17018,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-482,text,false,,2441,0,262,262,http://localhost:9999/addCandidateCompressed,0,0,2012
+1666134341231,17017,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-485,text,false,,2441,0,261,261,http://localhost:9999/addCandidateCompressed,0,0,2012
+1666134341221,17027,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-484,text,false,,2441,0,261,261,http://localhost:9999/addCandidateCompressed,0,0,2022
+1666134341240,17024,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-486,text,false,,2441,0,259,259,http://localhost:9999/addCandidateCompressed,0,0,2018
+1666134341649,16705,HTTP Request,200,OK,1000T addCandidate 1-527,text,true,,261,260,258,258,http://localhost:9999/addCandidateCompressed,16705,0,2028
+1666134341339,17019,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-496,text,false,,2441,0,257,257,http://localhost:9999/addCandidateCompressed,0,0,2011
+1666134341979,16380,HTTP Request,200,OK,1000T addCandidate 1-560,text,true,,261,260,256,256,http://localhost:9999/addCandidateCompressed,16380,0,2043
+1666134342059,16304,HTTP Request,200,OK,1000T addCandidate 1-568,text,true,,261,260,255,255,http://localhost:9999/addCandidateCompressed,16304,0,2027
+1666134341999,16368,HTTP Request,200,OK,1000T addCandidate 1-562,text,true,,261,260,254,254,http://localhost:9999/addCandidateCompressed,16368,0,2039
+1666134341989,16381,HTTP Request,200,OK,1000T addCandidate 1-561,text,true,,261,260,253,253,http://localhost:9999/addCandidateCompressed,16381,0,2049
+1666134342030,16358,HTTP Request,200,OK,1000T addCandidate 1-565,text,true,,261,260,252,252,http://localhost:9999/addCandidateCompressed,16358,0,2040
+1666134341060,17338,HTTP Request,200,OK,1000T addCandidate 1-468,text,true,,261,260,251,251,http://localhost:9999/addCandidateCompressed,17338,0,2042
+1666134341120,17281,HTTP Request,200,OK,1000T addCandidate 1-474,text,true,,261,260,250,250,http://localhost:9999/addCandidateCompressed,17281,0,2012
+1666134341490,16918,HTTP Request,200,OK,1000T addCandidate 1-511,text,true,,261,260,249,249,http://localhost:9999/addCandidateCompressed,16918,0,2033
+1666134341499,16917,HTTP Request,200,OK,1000T addCandidate 1-512,text,true,,261,260,248,248,http://localhost:9999/addCandidateCompressed,16917,0,2040
+1666134341509,16909,HTTP Request,200,OK,1000T addCandidate 1-513,text,true,,261,260,247,247,http://localhost:9999/addCandidateCompressed,16909,0,2030
+1666134342641,16314,HTTP Request,200,OK,1000T addCandidate 1-626,text,true,,261,260,246,246,http://localhost:9999/addCandidateCompressed,16314,0,2038
+1666134342620,16344,HTTP Request,200,OK,1000T addCandidate 1-624,text,true,,261,260,245,245,http://localhost:9999/addCandidateCompressed,16344,0,2043
+1666134342550,16417,HTTP Request,200,OK,1000T addCandidate 1-617,text,true,,261,260,244,244,http://localhost:9999/addCandidateCompressed,16417,0,2050
+1666134342499,16475,HTTP Request,200,OK,1000T addCandidate 1-612,text,true,,261,260,243,243,http://localhost:9999/addCandidateCompressed,16475,0,2068
+1666134342630,16350,HTTP Request,200,OK,1000T addCandidate 1-625,text,true,,261,260,242,242,http://localhost:9999/addCandidateCompressed,16350,0,2033
+1666134342610,16375,HTTP Request,200,OK,1000T addCandidate 1-623,text,true,,261,260,241,241,http://localhost:9999/addCandidateCompressed,16375,0,2037
+1666134342590,16399,HTTP Request,200,OK,1000T addCandidate 1-621,text,true,,261,260,240,240,http://localhost:9999/addCandidateCompressed,16399,0,2026
+1666134342751,17591,HTTP Request,200,OK,1000T addCandidate 1-637,text,true,,261,260,239,239,http://localhost:9999/addCandidateCompressed,17591,0,2052
+1666134342730,17615,HTTP Request,200,OK,1000T addCandidate 1-635,text,true,,261,260,238,238,http://localhost:9999/addCandidateCompressed,17615,0,2058
+1666134342720,17631,HTTP Request,200,OK,1000T addCandidate 1-634,text,true,,261,260,237,237,http://localhost:9999/addCandidateCompressed,17631,0,2052
+1666134343969,16447,HTTP Request,200,OK,1000T addCandidate 1-759,text,true,,261,260,236,236,http://localhost:9999/addCandidateCompressed,16447,0,2051
+1666134343331,17103,HTTP Request,200,OK,1000T addCandidate 1-695,text,true,,261,260,235,235,http://localhost:9999/addCandidateCompressed,17103,0,2034
+1666134338859,22101,HTTP Request,200,OK,1000T addCandidate 1-248,text,true,,261,260,234,234,http://localhost:9999/addCandidateCompressed,22101,0,2024
+1666134340120,20851,HTTP Request,200,OK,1000T addCandidate 1-374,text,true,,261,260,233,233,http://localhost:9999/addCandidateCompressed,20851,0,2022
+1666134338169,22803,HTTP Request,200,OK,1000T addCandidate 1-179,text,true,,261,260,232,232,http://localhost:9999/addCandidateCompressed,22803,0,2037
+1666134339899,21074,HTTP Request,200,OK,1000T addCandidate 1-352,text,true,,261,260,231,231,http://localhost:9999/addCandidateCompressed,21074,0,2038
+1666134339850,21129,HTTP Request,200,OK,1000T addCandidate 1-347,text,true,,261,260,230,230,http://localhost:9999/addCandidateCompressed,21129,0,2027
+1666134340099,20886,HTTP Request,200,OK,1000T addCandidate 1-372,text,true,,261,260,229,229,http://localhost:9999/addCandidateCompressed,20886,0,2028
+1666134339839,21154,HTTP Request,200,OK,1000T addCandidate 1-346,text,true,,261,260,228,228,http://localhost:9999/addCandidateCompressed,21154,0,2019
+1666134340329,20679,HTTP Request,200,OK,1000T addCandidate 1-395,text,true,,261,260,227,227,http://localhost:9999/addCandidateCompressed,20679,0,2015
+1666134339990,21022,HTTP Request,200,OK,1000T addCandidate 1-361,text,true,,261,260,226,226,http://localhost:9999/addCandidateCompressed,21022,0,2024
+1666134339980,21034,HTTP Request,200,OK,1000T addCandidate 1-360,text,true,,261,260,225,225,http://localhost:9999/addCandidateCompressed,21034,0,2018
+1666134340339,20679,HTTP Request,200,OK,1000T addCandidate 1-396,text,true,,261,260,224,224,http://localhost:9999/addCandidateCompressed,20679,0,2021
+1666134340351,20672,HTTP Request,200,OK,1000T addCandidate 1-397,text,true,,261,260,223,223,http://localhost:9999/addCandidateCompressed,20672,0,2009
+1666134340359,20823,HTTP Request,200,OK,1000T addCandidate 1-398,text,true,,261,260,222,222,http://localhost:9999/addCandidateCompressed,20823,0,2017
+1666134340740,20470,HTTP Request,200,OK,1000T addCandidate 1-436,text,true,,261,260,221,221,http://localhost:9999/addCandidateCompressed,20470,0,2014
+1666134344510,17061,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-813,text,false,,2441,0,220,220,http://localhost:9999/addCandidateCompressed,0,0,2045
+1666134344810,17042,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-843,text,false,,2441,0,219,219,http://localhost:9999/addCandidateCompressed,0,0,2031
+1666134344821,17047,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-844,text,false,,2441,0,218,218,http://localhost:9999/addCandidateCompressed,0,0,2037
+1666134344832,17036,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-845,text,false,,2441,0,218,218,http://localhost:9999/addCandidateCompressed,0,0,2026
+1666134344841,17042,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-846,text,false,,2441,0,216,216,http://localhost:9999/addCandidateCompressed,0,0,2032
+1666134344860,17039,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-848,text,false,,2441,0,215,215,http://localhost:9999/addCandidateCompressed,0,0,2028
+1666134344851,17048,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-847,text,false,,2441,0,215,215,http://localhost:9999/addCandidateCompressed,0,0,2037
+1666134344871,17043,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-849,text,false,,2441,0,213,213,http://localhost:9999/addCandidateCompressed,0,0,2033
+1666134344880,17050,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-850,text,false,,2441,0,212,212,http://localhost:9999/addCandidateCompressed,0,0,2040
+1666134344890,17040,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-851,text,false,,2441,0,212,212,http://localhost:9999/addCandidateCompressed,0,0,2030
+1666134344900,17030,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-852,text,false,,2441,0,212,212,http://localhost:9999/addCandidateCompressed,0,0,2020
+1666134344910,17036,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-853,text,false,,2441,0,209,209,http://localhost:9999/addCandidateCompressed,0,0,2026
+1666134344920,17041,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-854,text,false,,2441,0,208,208,http://localhost:9999/addCandidateCompressed,0,0,2032
+1666134344941,17051,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-856,text,false,,2441,0,207,207,http://localhost:9999/addCandidateCompressed,0,0,2043
+1666134344931,17062,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-855,text,false,,2441,0,207,207,http://localhost:9999/addCandidateCompressed,0,0,2053
+1666134344950,17043,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-857,text,false,,2441,0,205,205,http://localhost:9999/addCandidateCompressed,0,0,2034
+1666134344970,17039,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-859,text,false,,2441,0,204,204,http://localhost:9999/addCandidateCompressed,0,0,2030
+1666134344961,17048,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-858,text,false,,2441,0,203,203,http://localhost:9999/addCandidateCompressed,0,0,2039
+1666134344980,17044,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-860,text,false,,2441,0,202,202,http://localhost:9999/addCandidateCompressed,0,0,2036
+1666134344990,17050,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-861,text,false,,2441,0,201,201,http://localhost:9999/addCandidateCompressed,0,0,2042
+1666134345000,17041,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-862,text,false,,2441,0,200,200,http://localhost:9999/addCandidateCompressed,0,0,2032
+1666134345031,17040,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-865,text,false,,2441,0,199,199,http://localhost:9999/addCandidateCompressed,0,0,2033
+1666134345021,17051,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-864,text,false,,2441,0,199,199,http://localhost:9999/addCandidateCompressed,0,0,2043
+1666134345011,17061,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-863,text,false,,2441,0,197,197,http://localhost:9999/addCandidateCompressed,0,0,2053
+1666134345041,17031,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-866,text,false,,2441,0,196,196,http://localhost:9999/addCandidateCompressed,0,0,2023
+1666134345072,17031,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-869,text,false,,2441,0,195,195,http://localhost:9999/addCandidateCompressed,0,0,2023
+1666134345061,17042,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-868,text,false,,2441,0,195,195,http://localhost:9999/addCandidateCompressed,0,0,2033
+1666134345051,17052,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-867,text,false,,2441,0,195,195,http://localhost:9999/addCandidateCompressed,0,0,2044
+1666134345081,17038,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-870,text,false,,2441,0,192,192,http://localhost:9999/addCandidateCompressed,0,0,2029
+1666134345110,17024,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-873,text,false,,2441,0,191,191,http://localhost:9999/addCandidateCompressed,0,0,2016
+1666134345090,17045,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-871,text,false,,2441,0,191,191,http://localhost:9999/addCandidateCompressed,0,0,2036
+1666134345100,17035,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-872,text,false,,2441,0,189,189,http://localhost:9999/addCandidateCompressed,0,0,2026
+1666134345120,17046,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-874,text,false,,2441,0,188,188,http://localhost:9999/addCandidateCompressed,0,0,2038
+1666134345160,17022,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-878,text,false,,2441,0,187,187,http://localhost:9999/addCandidateCompressed,0,0,2014
+1666134345140,17042,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-876,text,false,,2441,0,187,187,http://localhost:9999/addCandidateCompressed,0,0,2034
+1666134345150,17032,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-877,text,false,,2441,0,185,185,http://localhost:9999/addCandidateCompressed,0,0,2024
+1666134345131,17051,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-875,text,false,,2441,0,184,184,http://localhost:9999/addCandidateCompressed,0,0,2043
+1666134345171,17027,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-879,text,false,,2441,0,183,183,http://localhost:9999/addCandidateCompressed,0,0,2018
+1666134345181,17033,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-880,text,false,,2441,0,182,182,http://localhost:9999/addCandidateCompressed,0,0,2024
+1666134345190,17039,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-881,text,false,,2441,0,181,181,http://localhost:9999/addCandidateCompressed,0,0,2031
+1666134345220,17028,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-884,text,false,,2441,0,180,180,http://localhost:9999/addCandidateCompressed,0,0,2017
+1666134345211,17037,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-883,text,false,,2441,0,179,179,http://localhost:9999/addCandidateCompressed,0,0,2026
+1666134345201,17047,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-882,text,false,,2441,0,178,178,http://localhost:9999/addCandidateCompressed,0,0,2036
+1666134345230,17031,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-885,text,false,,2441,0,177,177,http://localhost:9999/addCandidateCompressed,0,0,2023
+1666134345241,17036,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-886,text,false,,2441,0,176,176,http://localhost:9999/addCandidateCompressed,0,0,2028
+1666134345250,17027,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-887,text,false,,2441,0,176,176,http://localhost:9999/addCandidateCompressed,0,0,2019
+1666134345260,17032,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-888,text,false,,2441,0,174,174,http://localhost:9999/addCandidateCompressed,0,0,2025
+1666134345281,17027,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-890,text,false,,2441,0,173,173,http://localhost:9999/addCandidateCompressed,0,0,2020
+1666134345271,17037,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-889,text,false,,2441,0,173,173,http://localhost:9999/addCandidateCompressed,0,0,2029
+1666134345292,17032,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-891,text,false,,2441,0,171,171,http://localhost:9999/addCandidateCompressed,0,0,2024
+1666134345301,17038,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-892,text,false,,2441,0,170,170,http://localhost:9999/addCandidateCompressed,0,0,2031
+1666134345310,17030,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-893,text,false,,2441,0,170,170,http://localhost:9999/addCandidateCompressed,0,0,2022
+1666134345331,17024,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-895,text,false,,2441,0,168,168,http://localhost:9999/addCandidateCompressed,0,0,2017
+1666134345320,17035,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-894,text,false,,2441,0,168,168,http://localhost:9999/addCandidateCompressed,0,0,2028
+1666134345341,17030,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-896,text,false,,2441,0,166,166,http://localhost:9999/addCandidateCompressed,0,0,2023
+1666134345351,17035,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-897,text,false,,2441,0,165,165,http://localhost:9999/addCandidateCompressed,0,0,2029
+1666134345361,17025,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-898,text,false,,2441,0,165,165,http://localhost:9999/addCandidateCompressed,0,0,2019
+1666134345370,17032,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-899,text,false,,2441,0,163,163,http://localhost:9999/addCandidateCompressed,0,0,2026
+1666134345381,17037,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-900,text,false,,2441,0,162,162,http://localhost:9999/addCandidateCompressed,0,0,2031
+1666134345390,17028,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-901,text,false,,2441,0,161,161,http://localhost:9999/addCandidateCompressed,0,0,2022
+1666134345402,17031,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-902,text,false,,2441,0,160,160,http://localhost:9999/addCandidateCompressed,0,0,2027
+1666134345421,17028,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-904,text,false,,2441,0,159,159,http://localhost:9999/addCandidateCompressed,0,0,2023
+1666134345411,17038,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-903,text,false,,2441,0,159,159,http://localhost:9999/addCandidateCompressed,0,0,2033
+1666134345431,17034,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-905,text,false,,2441,0,157,157,http://localhost:9999/addCandidateCompressed,0,0,2028
+1666134345440,17025,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-906,text,false,,2441,0,157,157,http://localhost:9999/addCandidateCompressed,0,0,2019
+1666134345450,17030,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-907,text,false,,2441,0,155,155,http://localhost:9999/addCandidateCompressed,0,0,2025
+1666134345470,17026,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-909,text,false,,2441,0,154,154,http://localhost:9999/addCandidateCompressed,0,0,2022
+1666134345460,17036,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-908,text,false,,2441,0,154,154,http://localhost:9999/addCandidateCompressed,0,0,2032
+1666134345481,17016,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-910,text,false,,2441,0,152,152,http://localhost:9999/addCandidateCompressed,0,0,2011
+1666134345501,17026,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-912,text,false,,2441,0,151,151,http://localhost:9999/addCandidateCompressed,0,0,2023
+1666134345490,17037,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-911,text,false,,2441,0,151,151,http://localhost:9999/addCandidateCompressed,0,0,2033
+1666134345511,17032,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-913,text,false,,2441,0,149,149,http://localhost:9999/addCandidateCompressed,0,0,2028
+1666134345520,17038,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-914,text,false,,2441,0,148,148,http://localhost:9999/addCandidateCompressed,0,0,2035
+1666134345536,17038,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-915,text,false,,2441,0,147,147,http://localhost:9999/addCandidateCompressed,0,0,2035
+1666134345540,17034,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-916,text,false,,2441,0,146,146,http://localhost:9999/addCandidateCompressed,0,0,2032
+1666134345550,17024,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-917,text,false,,2441,0,145,145,http://localhost:9999/addCandidateCompressed,0,0,2022
+1666134345559,17031,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-918,text,false,,2441,0,144,144,http://localhost:9999/addCandidateCompressed,0,0,2029
+1666134345580,17025,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-920,text,false,,2441,0,143,143,http://localhost:9999/addCandidateCompressed,0,0,2023
+1666134345569,17036,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-919,text,false,,2441,0,143,143,http://localhost:9999/addCandidateCompressed,0,0,2034
+1666134341940,20674,HTTP Request,200,OK,1000T addCandidate 1-556,text,true,,261,260,141,141,http://localhost:9999/addCandidateCompressed,20674,0,2050
+1666134341670,20950,HTTP Request,200,OK,1000T addCandidate 1-529,text,true,,261,260,140,140,http://localhost:9999/addCandidateCompressed,20950,0,2023
+1666134345590,17031,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-921,text,false,,2441,0,140,140,http://localhost:9999/addCandidateCompressed,0,0,2030
+1666134341168,21458,HTTP Request,200,OK,1000T addCandidate 1-479,text,true,,261,260,138,138,http://localhost:9999/addCandidateCompressed,21458,0,2012
+1666134341639,20991,HTTP Request,200,OK,1000T addCandidate 1-526,text,true,,261,260,137,137,http://localhost:9999/addCandidateCompressed,20991,0,2024
+1666134345601,17035,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-922,text,false,,2441,0,136,136,http://localhost:9999/addCandidateCompressed,0,0,2034
+1666134345610,17027,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-923,text,false,,2441,0,136,136,http://localhost:9999/addCandidateCompressed,0,0,2025
+1666134341949,20688,HTTP Request,200,OK,1000T addCandidate 1-557,text,true,,261,260,134,134,http://localhost:9999/addCandidateCompressed,20688,0,2041
+1666134341679,20961,HTTP Request,200,OK,1000T addCandidate 1-530,text,true,,261,260,133,133,http://localhost:9999/addCandidateCompressed,20961,0,2016
+1666134341959,20686,HTTP Request,200,OK,1000T addCandidate 1-558,text,true,,261,260,132,132,http://localhost:9999/addCandidateCompressed,20686,0,2047
+1666134342010,20638,HTTP Request,200,OK,1000T addCandidate 1-563,text,true,,261,260,131,131,http://localhost:9999/addCandidateCompressed,20638,0,2028
+1666134341969,20682,HTTP Request,200,OK,1000T addCandidate 1-559,text,true,,261,260,130,130,http://localhost:9999/addCandidateCompressed,20682,0,2039
+1666134345619,17034,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-924,text,false,,2441,0,129,129,http://localhost:9999/addCandidateCompressed,0,0,2032
+1666134341659,20997,HTTP Request,200,OK,1000T addCandidate 1-528,text,true,,261,260,128,128,http://localhost:9999/addCandidateCompressed,20997,0,2034
+1666134342020,20639,HTTP Request,200,OK,1000T addCandidate 1-564,text,true,,261,260,127,127,http://localhost:9999/addCandidateCompressed,20639,0,2050
+1666134345640,17028,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-926,text,false,,2441,0,126,126,http://localhost:9999/addCandidateCompressed,0,0,2027
+1666134345629,17039,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-925,text,false,,2441,0,126,126,http://localhost:9999/addCandidateCompressed,0,0,2038
+1666134345661,17023,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-928,text,false,,2441,0,124,124,http://localhost:9999/addCandidateCompressed,0,0,2022
+1666134345650,17034,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-927,text,false,,2441,0,124,124,http://localhost:9999/addCandidateCompressed,0,0,2033
+1666134345670,17029,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-929,text,false,,2441,0,122,122,http://localhost:9999/addCandidateCompressed,0,0,2029
+1666134345681,17034,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-930,text,false,,2441,0,121,121,http://localhost:9999/addCandidateCompressed,0,0,2034
+1666134345691,17024,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-931,text,false,,2441,0,120,120,http://localhost:9999/addCandidateCompressed,0,0,2024
+1666134345701,17030,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-932,text,false,,2441,0,119,119,http://localhost:9999/addCandidateCompressed,0,0,2029
+1666134345719,17043,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-934,text,false,,2441,0,118,118,http://localhost:9999/addCandidateCompressed,0,0,2029
+1666134345709,17053,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-933,text,false,,2441,0,118,118,http://localhost:9999/addCandidateCompressed,0,0,2039
+1666134345730,17048,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-935,text,false,,2441,0,116,116,http://localhost:9999/addCandidateCompressed,0,0,2033
+1666134345749,17044,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-937,text,false,,2441,0,115,115,http://localhost:9999/addCandidateCompressed,0,0,2029
+1666134345740,17053,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-936,text,false,,2441,0,115,115,http://localhost:9999/addCandidateCompressed,0,0,2043
+1666134345759,17050,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-938,text,false,,2441,0,113,113,http://localhost:9999/addCandidateCompressed,0,0,2035
+1666134345770,17039,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-939,text,false,,2441,0,113,113,http://localhost:9999/addCandidateCompressed,0,0,2024
+1666134345779,17045,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-940,text,false,,2441,0,111,111,http://localhost:9999/addCandidateCompressed,0,0,2031
+1666134345791,17049,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-941,text,false,,2441,0,110,110,http://localhost:9999/addCandidateCompressed,0,0,2035
+1666134345801,17039,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-942,text,false,,2441,0,110,110,http://localhost:9999/addCandidateCompressed,0,0,2025
+1666134345812,17043,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-943,text,false,,2441,0,108,108,http://localhost:9999/addCandidateCompressed,0,0,2031
+1666134345821,17050,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-944,text,false,,2441,0,107,107,http://localhost:9999/addCandidateCompressed,0,0,2039
+1666134345848,17039,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-945,text,false,,2441,0,106,106,http://localhost:9999/addCandidateCompressed,0,0,2026
+1666134345850,17037,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-947,text,false,,2441,0,106,106,http://localhost:9999/addCandidateCompressed,0,0,2031
+1666134345848,17039,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-946,text,false,,2441,0,105,105,http://localhost:9999/addCandidateCompressed,0,0,2033
+1666134345861,17042,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-948,text,false,,2441,0,103,103,http://localhost:9999/addCandidateCompressed,0,0,2029
+1666134345870,17048,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-949,text,false,,2441,0,102,102,http://localhost:9999/addCandidateCompressed,0,0,2036
+1666134345881,17037,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-950,text,false,,2441,0,102,102,http://localhost:9999/addCandidateCompressed,0,0,2026
+1666134345891,17043,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-951,text,false,,2441,0,100,100,http://localhost:9999/addCandidateCompressed,0,0,2032
+1666134340530,22409,HTTP Request,200,OK,1000T addCandidate 1-415,text,true,,261,260,99,99,http://localhost:9999/addCandidateCompressed,22409,0,2022
+1666134340560,22382,HTTP Request,200,OK,1000T addCandidate 1-418,text,true,,261,260,98,98,http://localhost:9999/addCandidateCompressed,22382,0,2023
+1666134345901,17049,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-952,text,false,,2441,0,97,97,http://localhost:9999/addCandidateCompressed,0,0,2037
+1666134340459,22493,HTTP Request,200,OK,1000T addCandidate 1-408,text,true,,261,260,96,96,http://localhost:9999/addCandidateCompressed,22493,0,2011
+1666134345912,17053,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-953,text,false,,2441,0,95,95,http://localhost:9999/addCandidateCompressed,0,0,2042
+1666134345921,17044,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-954,text,false,,2441,0,94,94,http://localhost:9999/addCandidateCompressed,0,0,2033
+1666134340429,22541,HTTP Request,200,OK,1000T addCandidate 1-405,text,true,,261,260,93,93,http://localhost:9999/addCandidateCompressed,22541,0,2009
+1666134345940,17041,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-956,text,false,,2441,0,92,92,http://localhost:9999/addCandidateCompressed,0,0,2030
+1666134345931,17050,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-955,text,false,,2441,0,91,91,http://localhost:9999/addCandidateCompressed,0,0,2039
+1666134340400,22587,HTTP Request,200,OK,1000T addCandidate 1-402,text,true,,261,260,90,90,http://localhost:9999/addCandidateCompressed,22587,0,2023
+1666134340420,22572,HTTP Request,200,OK,1000T addCandidate 1-404,text,true,,261,260,89,89,http://localhost:9999/addCandidateCompressed,22572,0,2018
+1666134345951,17045,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-957,text,false,,2441,0,88,88,http://localhost:9999/addCandidateCompressed,0,0,2035
+1666134340489,22510,HTTP Request,200,OK,1000T addCandidate 1-411,text,true,,261,260,87,87,http://localhost:9999/addCandidateCompressed,22510,0,2031
+1666134340439,22562,HTTP Request,200,OK,1000T addCandidate 1-406,text,true,,261,260,86,86,http://localhost:9999/addCandidateCompressed,22562,0,2015
+1666134345970,17042,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-959,text,false,,2441,0,85,85,http://localhost:9999/addCandidateCompressed,0,0,2032
+1666134345961,17051,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-958,text,false,,2441,0,85,85,http://localhost:9999/addCandidateCompressed,0,0,2041
+1666134345989,17039,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-961,text,false,,2441,0,83,83,http://localhost:9999/addCandidateCompressed,0,0,2029
+1666134345979,17049,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-960,text,false,,2441,0,83,83,http://localhost:9999/addCandidateCompressed,0,0,2039
+1666134346010,17033,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-963,text,false,,2441,0,81,81,http://localhost:9999/addCandidateCompressed,0,0,2031
+1666134346020,17023,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-964,text,false,,2441,0,81,81,http://localhost:9999/addCandidateCompressed,0,0,2021
+1666134345999,17044,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-962,text,false,,2441,0,79,79,http://localhost:9999/addCandidateCompressed,0,0,2040
+1666134346030,17044,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-965,text,false,,2441,0,78,78,http://localhost:9999/addCandidateCompressed,0,0,2035
+1666134346050,17040,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-967,text,false,,2441,0,77,77,http://localhost:9999/addCandidateCompressed,0,0,2031
+1666134346040,17050,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-966,text,false,,2441,0,76,76,http://localhost:9999/addCandidateCompressed,0,0,2041
+1666134346059,17047,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-968,text,false,,2441,0,75,75,http://localhost:9999/addCandidateCompressed,0,0,2037
+1666134346070,17052,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-969,text,false,,2441,0,74,74,http://localhost:9999/addCandidateCompressed,0,0,2043
+1666134346080,17042,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-970,text,false,,2441,0,74,74,http://localhost:9999/addCandidateCompressed,0,0,2033
+1666134346090,17047,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-971,text,false,,2441,0,72,72,http://localhost:9999/addCandidateCompressed,0,0,2038
+1666134346099,17038,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-972,text,false,,2441,0,72,72,http://localhost:9999/addCandidateCompressed,0,0,2029
+1666134346119,17034,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-974,text,false,,2441,0,70,70,http://localhost:9999/addCandidateCompressed,0,0,2026
+1666134346109,17044,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-973,text,false,,2441,0,70,70,http://localhost:9999/addCandidateCompressed,0,0,2036
+1666134346129,17039,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-975,text,false,,2441,0,68,68,http://localhost:9999/addCandidateCompressed,0,0,2032
+1666134346140,17044,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-976,text,false,,2441,0,67,67,http://localhost:9999/addCandidateCompressed,0,0,2036
+1666134346150,17050,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-977,text,false,,2441,0,66,66,http://localhost:9999/addCandidateCompressed,0,0,2043
+1666134346160,17040,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-978,text,false,,2441,0,66,66,http://localhost:9999/addCandidateCompressed,0,0,2033
+1666134341189,22011,HTTP Request,200,OK,1000T addCandidate 1-481,text,true,,261,260,64,64,http://localhost:9999/addCandidateCompressed,22011,0,2023
+1666134341180,22025,HTTP Request,200,OK,1000T addCandidate 1-480,text,true,,261,260,63,63,http://localhost:9999/addCandidateCompressed,22025,0,2016
+1666134341910,21300,HTTP Request,200,OK,1000T addCandidate 1-553,text,true,,261,260,62,62,http://localhost:9999/addCandidateCompressed,21300,0,2033
+1666134346179,17036,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-980,text,false,,2441,0,61,61,http://localhost:9999/addCandidateCompressed,0,0,2030
+1666134346169,17047,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-979,text,false,,2441,0,60,60,http://localhost:9999/addCandidateCompressed,0,0,2040
+1666134341900,21316,HTTP Request,200,OK,1000T addCandidate 1-552,text,true,,261,260,59,59,http://localhost:9999/addCandidateCompressed,21316,0,2043
+1666134346189,17042,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-981,text,false,,2441,0,58,58,http://localhost:9999/addCandidateCompressed,0,0,2036
+1666134341919,21314,HTTP Request,200,OK,1000T addCandidate 1-554,text,true,,261,260,57,57,http://localhost:9999/addCandidateCompressed,21313,0,2024
+1666134341930,21308,HTTP Request,200,OK,1000T addCandidate 1-555,text,true,,261,260,56,56,http://localhost:9999/addCandidateCompressed,21308,0,2044
+1666134341630,21612,HTTP Request,200,OK,1000T addCandidate 1-525,text,true,,261,260,55,55,http://localhost:9999/addCandidateCompressed,21612,0,2033
+1666134346209,17038,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-983,text,false,,2441,0,54,54,http://localhost:9999/addCandidateCompressed,0,0,2031
+1666134346200,17047,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-982,text,false,,2441,0,53,53,http://localhost:9999/addCandidateCompressed,0,0,2041
+1666134342541,20709,HTTP Request,200,OK,1000T addCandidate 1-616,text,true,,261,260,52,52,http://localhost:9999/addCandidateCompressed,20709,0,2059
+1666134346219,17043,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-984,text,false,,2441,0,51,51,http://localhost:9999/addCandidateCompressed,0,0,2037
+1666134346230,17048,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-985,text,false,,2441,0,50,50,http://localhost:9999/addCandidateCompressed,0,0,2043
+1666134346239,17039,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-986,text,false,,2441,0,50,50,http://localhost:9999/addCandidateCompressed,0,0,2034
+1666134346249,17044,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-987,text,false,,2441,0,48,48,http://localhost:9999/addCandidateCompressed,0,0,2040
+1666134346270,17039,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-989,text,false,,2441,0,47,47,http://localhost:9999/addCandidateCompressed,0,0,2034
+1666134346260,17049,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-988,text,false,,2441,0,46,46,http://localhost:9999/addCandidateCompressed,0,0,2044
+1666134346289,17036,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-991,text,false,,2441,0,45,45,http://localhost:9999/addCandidateCompressed,0,0,2032
+1666134346279,17046,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-990,text,false,,2441,0,45,45,http://localhost:9999/addCandidateCompressed,0,0,2041
+1666134346299,17042,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-992,text,false,,2441,0,43,43,http://localhost:9999/addCandidateCompressed,0,0,2037
+1666134346319,17038,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-994,text,false,,2441,0,42,42,http://localhost:9999/addCandidateCompressed,0,0,2034
+1666134346309,17048,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-993,text,false,,2441,0,42,42,http://localhost:9999/addCandidateCompressed,0,0,2043
+1666134346329,17043,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-995,text,false,,2441,0,40,40,http://localhost:9999/addCandidateCompressed,0,0,2039
+1666134346339,17033,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-996,text,false,,2441,0,40,40,http://localhost:9999/addCandidateCompressed,0,0,2029
+1666134346349,17038,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-997,text,false,,2441,0,38,38,http://localhost:9999/addCandidateCompressed,0,0,2034
+1666134346359,17044,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-998,text,false,,2441,0,37,37,http://localhost:9999/addCandidateCompressed,0,0,2041
+1666134346370,17033,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-999,text,false,,2441,0,36,36,http://localhost:9999/addCandidateCompressed,0,0,2030
+1666134346380,17039,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,1000T addCandidate 1-1000,text,false,,2441,0,35,35,http://localhost:9999/addCandidateCompressed,0,0,2035
+1666134340581,22841,HTTP Request,200,OK,1000T addCandidate 1-420,text,true,,261,260,34,34,http://localhost:9999/addCandidateCompressed,22841,0,2018
+1666134340570,22855,HTTP Request,200,OK,1000T addCandidate 1-419,text,true,,261,260,33,33,http://localhost:9999/addCandidateCompressed,22855,0,2014
+1666134343101,20336,HTTP Request,200,OK,1000T addCandidate 1-672,text,true,,261,260,32,32,http://localhost:9999/addCandidateCompressed,20336,0,2045
+1666134340839,22607,HTTP Request,200,OK,1000T addCandidate 1-446,text,true,,261,260,31,31,http://localhost:9999/addCandidateCompressed,22607,0,2027
+1666134340510,22944,HTTP Request,200,OK,1000T addCandidate 1-413,text,true,,261,260,30,30,http://localhost:9999/addCandidateCompressed,22944,0,2028
+1666134340398,23088,HTTP Request,200,OK,1000T addCandidate 1-401,text,true,,261,260,29,29,http://localhost:9999/addCandidateCompressed,23088,0,2027
+1666134342680,20859,HTTP Request,200,OK,1000T addCandidate 1-630,text,true,,261,260,28,28,http://localhost:9999/addCandidateCompressed,20859,0,2031
+1666134341139,22550,HTTP Request,200,OK,1000T addCandidate 1-476,text,true,,261,260,27,27,http://localhost:9999/addCandidateCompressed,22550,0,2026
+1666134341159,22533,HTTP Request,200,OK,1000T addCandidate 1-478,text,true,,261,260,26,26,http://localhost:9999/addCandidateCompressed,22533,0,2022
+1666134342571,21232,HTTP Request,200,OK,1000T addCandidate 1-619,text,true,,261,260,25,25,http://localhost:9999/addCandidateCompressed,21232,0,2045
+1666134342579,21227,HTTP Request,200,OK,1000T addCandidate 1-620,text,true,,261,260,24,24,http://localhost:9999/addCandidateCompressed,21227,0,2021
+1666134340859,23079,HTTP Request,200,OK,1000T addCandidate 1-448,text,true,,261,260,23,23,http://localhost:9999/addCandidateCompressed,23079,0,2023
+1666134342762,21221,HTTP Request,200,OK,1000T addCandidate 1-638,text,true,,261,260,22,22,http://localhost:9999/addCandidateCompressed,21221,0,2056
+1666134342651,21339,HTTP Request,200,OK,1000T addCandidate 1-627,text,true,,261,260,21,21,http://localhost:9999/addCandidateCompressed,21339,0,2044
+1666134342170,21819,HTTP Request,200,OK,1000T addCandidate 1-579,text,true,,261,260,20,20,http://localhost:9999/addCandidateCompressed,21819,0,2039
+1666134342690,21301,HTTP Request,200,OK,1000T addCandidate 1-631,text,true,,261,260,19,19,http://localhost:9999/addCandidateCompressed,21301,0,2050
+1666134342790,21207,HTTP Request,200,OK,1000T addCandidate 1-641,text,true,,261,260,18,18,http://localhost:9999/addCandidateCompressed,21207,0,2044
+1666134342660,21340,HTTP Request,200,OK,1000T addCandidate 1-628,text,true,,261,260,17,17,http://localhost:9999/addCandidateCompressed,21340,0,2035
+1666134341391,22611,HTTP Request,200,OK,1000T addCandidate 1-501,text,true,,261,260,16,16,http://localhost:9999/addCandidateCompressed,22611,0,2037
+1666134342250,21772,HTTP Request,200,OK,1000T addCandidate 1-587,text,true,,261,260,15,15,http://localhost:9999/addCandidateCompressed,21772,0,2038
+1666134342670,21365,HTTP Request,200,OK,1000T addCandidate 1-629,text,true,,261,260,14,14,http://localhost:9999/addCandidateCompressed,21365,0,2041
+1666134342701,21340,HTTP Request,200,OK,1000T addCandidate 1-632,text,true,,261,260,13,13,http://localhost:9999/addCandidateCompressed,21340,0,2055
+1666134338061,27012,HTTP Request,200,OK,1000T addCandidate 1-168,text,true,,261,260,12,12,http://localhost:9999/addCandidateCompressed,27012,0,2035
+1666134344611,20667,HTTP Request,200,OK,1000T addCandidate 1-823,text,true,,261,260,11,11,http://localhost:9999/addCandidateCompressed,20667,0,2039
+1666134344622,20663,HTTP Request,200,OK,1000T addCandidate 1-824,text,true,,261,260,10,10,http://localhost:9999/addCandidateCompressed,20663,0,2028
+1666134344640,20649,HTTP Request,200,OK,1000T addCandidate 1-826,text,true,,261,260,9,9,http://localhost:9999/addCandidateCompressed,20649,0,2026
+1666134344630,20666,HTTP Request,200,OK,1000T addCandidate 1-825,text,true,,261,260,8,8,http://localhost:9999/addCandidateCompressed,20666,0,2036
+1666134343130,22338,HTTP Request,200,OK,1000T addCandidate 1-675,text,true,,261,260,7,7,http://localhost:9999/addCandidateCompressed,22338,0,2032
+1666134344290,21517,HTTP Request,200,OK,1000T addCandidate 1-791,text,true,,261,260,6,6,http://localhost:9999/addCandidateCompressed,21517,0,2046
+1666134343990,21830,HTTP Request,200,OK,1000T addCandidate 1-761,text,true,,261,260,5,5,http://localhost:9999/addCandidateCompressed,21830,0,2062
+1666134344330,21501,HTTP Request,200,OK,1000T addCandidate 1-795,text,true,,261,260,4,4,http://localhost:9999/addCandidateCompressed,21501,0,2021
+1666134344349,21486,HTTP Request,200,OK,1000T addCandidate 1-797,text,true,,261,260,3,3,http://localhost:9999/addCandidateCompressed,21486,0,2034
+1666134344000,21858,HTTP Request,200,OK,1000T addCandidate 1-762,text,true,,261,260,2,2,http://localhost:9999/addCandidateCompressed,21858,0,2052
+1666134344581,21281,HTTP Request,200,OK,1000T addCandidate 1-820,text,true,,261,260,1,1,http://localhost:9999/addCandidateCompressed,21281,0,2037
