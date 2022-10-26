@@ -1,22 +1,32 @@
 import React from 'react';
 import { login, logout } from '../../utils'
+import {
+  Container,
+  Header,
+} from '@mui/material';
+import { Fragment } from 'react';
+import { Card } from 'react-bootstrap';
+import Slider from './Slider'
+import Footer from './Footer';
 
-function NoLanding() {
+
+function NoLanding1() {
 
   if (!window.walletConnection.isSignedIn()) {
     return (
-      <main>
-        <h1>Welcome to NearVoting!</h1>
-        <p>
-          To Make use of this voting application you first need to login!
-        </p>
-        <p>
-          Go ahead and click the button below to try it out:
-        </p>
-        <p style={{ textAlign: 'center', marginTop: '2.5em' }}>
-          <button onClick={login}>Sign in</button>
-        </p>
-      </main>
+      <Fragment>
+        <Card style={{ margin: 0, padding: 0 }}>
+          <Slider />
+          <p style={{ textAlign: 'center', marginTop: '2.5em' }}>
+            <button onClick={login}>Sign in</button>
+          </p>
+          <Card.Footer style={{ backgroundColor: "#1a125c", color: 'white' }}>
+            <Footer />
+          </Card.Footer>
+          <footer style={{ textAlign: 'center', padding: 3, position: "fixed", left: 0, bottom: 0, width: "100%" }}>
+          </footer>
+        </Card>
+      </Fragment>
     )
   }
 
@@ -44,4 +54,4 @@ function NoLanding() {
   );
 }
 
-export default NoLanding;
+export default NoLanding1;
