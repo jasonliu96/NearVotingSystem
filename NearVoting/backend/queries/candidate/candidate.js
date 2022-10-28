@@ -81,6 +81,7 @@ const getCandidateInfo = async (request, response) => {
     console.log(data)
     const {fullName, partyAffiliation, office, stateDistrict} = data;
     cand={}
+    cand.oid = oids[i].name
     cand.fullName=fullName
     cand.partyAffiliation=partyAffiliation
     cand.office=office

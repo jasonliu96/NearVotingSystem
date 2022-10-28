@@ -28,6 +28,7 @@ import Collapse from '@mui/material/Collapse'
 import CloseIcon from '@mui/icons-material/Close'
 import CheckIcon from '@mui/icons-material/Check'
 import Box from '@mui/material/Box'
+import {compressOid} from '../../utils'
 
 function CandidateRegistration() {
   // const [candidateName, setName] = React.useState("")
@@ -73,9 +74,10 @@ function CandidateRegistration() {
           if (response.status == 200) {
             console.log(`Add candidate was successfull: ${response.status}`)
             // make an update call to the smart contract
-            await window.contract.addCandidate({
+            const compressedOid = compressOid(response.data.id)
+            await window.contract.addCandidateCompressed({
               // pass the value that the user entered in the greeting field
-              text: response.data.id
+              compressed_candidate: compressedOid
             })
             seterrorOpen(false)
             setsuccessOpen(true)

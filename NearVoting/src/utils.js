@@ -1,5 +1,6 @@
 import { connect, Contract, keyStores, WalletConnection } from 'near-api-js'
 import getConfig from './config'
+import { compress, decompress } from 'lzutf8'
 
 const nearConfig = getConfig(process.env.NODE_ENV || 'testnet')
 console.log(process.env.NODE_ENV)
@@ -18,9 +19,9 @@ export async function initContract() {
   // Initializing our contract APIs by contract name and configuration
   window.contract = await new Contract(window.walletConnection.account(), nearConfig.contractName, {
     // View methods are read only. They don't modify the state, but usually return some value.
-    viewMethods: ['getGreeting', 'getCandidates', 'get_num','getPhases', 'getPhase'],
+    viewMethods: ['getGreeting', 'getCandidates', 'get_num','getPhases', 'getPhase', 'getCandidateMap'],
     // Change methods can modify the state. But you don't receive the returned value when called.
-    changeMethods: ['setGreeting', 'addCandidate', 'voteCandidate', 'removeCandidate', 'addstate', 'setPhase'],
+    changeMethods: ['setGreeting', 'addCandidateCompressed', 'voteCandidateMap', 'removeCandidate', 'addstate', 'setPhase'],
   })
 }
 
@@ -36,4 +37,12 @@ export function login() {
   // This works by creating a new access key for the user's account and storing
   // the private key in localStorage.
   window.walletConnection.requestSignIn(nearConfig.contractName)
+}
+
+export function compressOid(oid){
+  return compress(oid, {inputEncoding:"String", outputEncoding:"StorageBinaryString"})
+}
+
+export function decompressOids(oid){
+  return decompress(oid, {inputEncoding:"StorageBinaryString", outputEncoding:"String"})
 }

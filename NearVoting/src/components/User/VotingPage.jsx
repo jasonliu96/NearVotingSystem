@@ -3,63 +3,52 @@ import axios from 'axios'
 import getConfig from '../../config'
 import { Card, CardActions, CardContent, Typography, Button, Box} from '@mui/material';
 import  Notification  from '../Notification';
+import {compressOid, decompressOids} from '../../utils';
 
 function VotingPage() {
   const serverUrl = 'http://localhost:9999'
   const [candidates, setCandidates] = React.useState([])
   const [showNotification, setShowNotification] = React.useState(false)
   const [msg, setMsg ] = React.useState('Submitted a Vote')
-  const oids = [{"name":"632b3bd151339158d5cfdac3","votes":8},{"name":"632b3e1b51339158d5cfdad5","votes":5},{"name":"632b4d26f700a18815fcd898","votes":5}]
-  
-//   React.useEffect(
-//     () => {
-//       // in this case, we only care to query the contract when signed in
-//       if (window.walletConnection.isSignedIn()) {
-//         var oids;
-//         // window.contract is set by initContract in index.js
-//         window.contract.getCandidates({  })
-//           .then(candidateFromContract => {
-//             // setCandidates(candidateFromContract)
-//             oids = candidateFromContract
-//             // console.log(oids)
-//             axios.post(`${serverUrl}/candidate/getCandidateInfo`,{oids}).then(
-//               (res)=>{
-//                 if(res.status==200){
-//                   setCandidates(res.data)
-//                 }
-//               }
-//             )
-//           })
-//       }
-//     },
-//     // The second argument to useEffect tells React when to re-run the effect
-//     // Use an empty array to specify "only run on first render"
-//     // This works because signing into NEAR Wallet reloads the page
-//     []
-//   )
 
-React.useEffect(
-    () =>{
-        axios.post(`${serverUrl}/candidate/getCandidateInfo`,{oids}).then(
-        (res)=>{
-            if(res.status==200){
-            setCandidates(res.data)
-            }
-        }
-        )
+  React.useEffect(
+    () => {
+      // in this case, we only care to query the contract when signed in
+      if (window.walletConnection.isSignedIn()) {
+        var oids= [];
+        // window.contract is set by initContract in index.js
+        window.contract.getCandidateMap({  })
+          .then(candidateFromContract => {
+            // setCandidates(candidateFromContract)
+            for(const[key, value] of Object.entries(candidateFromContract)) {
+              oids.push({name:decompressOids(key), votes:value})
+          }
+            axios.post(`${serverUrl}/candidate/getCandidateInfo`,{oids}).then(
+              (res)=>{
+                if(res.status==200){
+                  setCandidates(res.data)
+                }
+              }
+            )
+          })
+      }
     },
+    // The second argument to useEffect tells React when to re-run the effect
+    // Use an empty array to specify "only run on first render"
+    // This works because signing into NEAR Wallet reloads the page
     []
-)
+  )
+
   async function submitVote(e){
     e.preventDefault()
-    console.log(e.target.value)
-    const idx = parseInt(e.target.value)
+    var target_oid = e.target.value
+    console.log(target_oid)
     setMsg('Submitted a Vote')
     try {
       // make an update call to the smart contract
-      await window.contract.voteCandidate({
+      await window.contract.voteCandidateMap({
         // pass the value that the user entered in the greeting field
-        index: idx
+        candidate_oid: compressOid(target_oid)
       })
     } catch (e) {
       alert(
@@ -69,9 +58,9 @@ React.useEffect(
       )
       throw e
     } finally {
-      const newState = candidates.map((cand, index) => {
+      const newState = candidates.map((cand) => {
         // 👇️ if id equals 2, update country property
-        if (index === idx) {
+        if (cand.oid === target_oid) {
           return {...cand, votes: cand.votes+1};
         }
         // 👇️ otherwise return object as is
@@ -117,7 +106,7 @@ React.useEffect(
             </Typography>
           </CardContent>
           <CardActions>
-            <Button onClick={submitVote} value={index} size="small">Vote</Button>
+            <Button onClick={submitVote} value={value.oid} size="small">Vote</Button>
           </CardActions>
         </Card>
       ))
