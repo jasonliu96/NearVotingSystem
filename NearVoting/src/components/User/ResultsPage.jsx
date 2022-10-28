@@ -3,6 +3,8 @@ import axios from 'axios';
 import { PieChart } from 'react-minimal-pie-chart';
 import { Card,List, ListItemText} from '@mui/material';
 import { login, logout } from '../../utils'
+import {compressOid, decompressOids} from '../../utils';
+
 
 function ResultsPage() {
   const serverUrl = 'http://localhost:9999'
@@ -42,12 +44,14 @@ function ResultsPage() {
           .then(votesFromContract => {
             setNumVotes(votesFromContract)
           })
-          var oids;
+          var oids= [];
           // window.contract is set by initContract in index.js
-          window.contract.getCandidates({  })
+          window.contract.getCandidateMap({  })
             .then(candidateFromContract => {
               // setCandidates(candidateFromContract)
-              oids = candidateFromContract
+              for(const[key, value] of Object.entries(candidateFromContract)) {
+                oids.push({name:decompressOids(key), votes:value})
+            }
               console.log(oids)
               axios.post(`${serverUrl}/candidate/getCandidateInfo`,{oids}).then(
                 (res)=>{
