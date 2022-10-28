@@ -47,9 +47,12 @@ function VoterRegistration() {
 
   async function submitVoter(e) {
     e.preventDefault()
+    console.log(`Account ID: ${window.walletConnection.getAccountId()}`)
+    const accountId = window.walletConnection.getAccountId()
     const name = firstName + ' ' + lastName
     console.log(name)
     console.log(
+      accountId,
       firstName,
       lastName,
       name,
@@ -62,6 +65,7 @@ function VoterRegistration() {
     )
 
     const data = {
+      accountId,
       firstName,
       lastName,
       name,
