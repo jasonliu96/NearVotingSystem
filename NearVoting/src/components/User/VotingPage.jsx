@@ -1,9 +1,10 @@
-import React from 'react';
+import React from 'react'
 import axios from 'axios'
 import getConfig from '../../config'
 import { Card, CardActions, CardContent, Typography, Button, Box} from '@mui/material';
 import  Notification  from '../Notification';
 import {compressOid, decompressOids} from '../../utils';
+import { json } from 'body-parser'
 
 function VotingPage() {
   const serverUrl = 'http://localhost:9999'
@@ -23,6 +24,17 @@ function VotingPage() {
             for(const[key, value] of Object.entries(candidateFromContract)) {
               oids.push({name:decompressOids(key), votes:value})
           }
+          const accountId = window.walletConnection.getAccountId()
+      const data = {
+        accountId,
+      }
+      await axios.post(`${serverUrl}/voter/getHasVoted`, data).then((res) => {
+        if (res.data.status == 201) {
+          const voted = res.data.data[0].hasVoted
+          console.log('Voting Status ' + voted)
+          setHasVoted(voted)
+        }
+      })
             axios.post(`${serverUrl}/candidate/getCandidateInfo`,{oids}).then(
               (res)=>{
                 if(res.status==200){
@@ -39,7 +51,7 @@ function VotingPage() {
     []
   )
 
-  async function submitVote(e){
+  async function submitVote(e) {
     e.preventDefault()
     var target_oid = e.target.value
     console.log(target_oid)
@@ -53,8 +65,8 @@ function VotingPage() {
     } catch (e) {
       alert(
         'Something went wrong! ' +
-        'Maybe you need to sign out and back in? ' +
-        'Check your browser console for more info.'
+          'Maybe you need to sign out and back in? ' +
+          'Check your browser console for more info.',
       )
       throw e
     } finally {
@@ -64,14 +76,15 @@ function VotingPage() {
           return {...cand, votes: cand.votes+1};
         }
         // 👇️ otherwise return object as is
-        return cand;
-      });
+        return cand
+      })
       setCandidates(newState)
       setShowNotification(true)
     }
   }
   return (
     <>
+
     <main>
       <h1>Candidates</h1>
       <p> Below are the candidates you can vote for </p>
@@ -116,8 +129,9 @@ function VotingPage() {
       </div>
     </main>
     {showNotification && <Notification method={msg}/>}
+
     </>
-  );
+  )
 }
 
-export default VotingPage;
+export default VotingPage
