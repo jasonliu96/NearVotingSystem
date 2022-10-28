@@ -11,6 +11,7 @@ function VotingPage() {
   const [candidates, setCandidates] = React.useState([])
   const [showNotification, setShowNotification] = React.useState(false)
   const [msg, setMsg ] = React.useState('Submitted a Vote')
+  const [hasVoted, setHasVoted] = React.useState(false)
 
   React.useEffect(
     () => {
@@ -28,7 +29,7 @@ function VotingPage() {
       const data = {
         accountId,
       }
-      await axios.post(`${serverUrl}/voter/getHasVoted`, data).then((res) => {
+      axios.post(`${serverUrl}/voter/getHasVoted`, data).then((res) => {
         if (res.data.status == 201) {
           const voted = res.data.data[0].hasVoted
           console.log('Voting Status ' + voted)
@@ -119,7 +120,7 @@ function VotingPage() {
             </Typography>
           </CardContent>
           <CardActions>
-            <Button onClick={submitVote} value={value.oid} size="small">Vote</Button>
+            <Button onClick={submitVote} value={value.oid} size="small" disabled={hasVoted}>Vote</Button>
           </CardActions>
         </Card>
       ))
