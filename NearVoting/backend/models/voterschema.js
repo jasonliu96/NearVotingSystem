@@ -3,6 +3,8 @@ var uniqueValidator = require('mongoose-unique-validator')
 const { Schema } = mongoose
 
 const voterSchema = new Schema({
+  accountId: { type: String, required: true, unique: true, dropDups: true },
+  hasVoted: { type: Boolean, default: false },
   firstName: { type: String, required: true },
   lastName: { type: String, required: true },
   name: { type: String, required: true },
