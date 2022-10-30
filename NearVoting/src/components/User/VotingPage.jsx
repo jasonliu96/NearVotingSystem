@@ -20,7 +20,10 @@ function VotingPage() {
   const serverUrl = 'http://localhost:9999'
   const [candidates, setCandidates] = React.useState([])
   const [showNotification, setShowNotification] = React.useState(false)
-  const [msg, setMsg ] = React.useState('Submitted a Vote')
+  const [hasVoted, setHasVoted] = React.useState(false)
+  const [msg, setMsg] = React.useState('Submitted a Vote')
+  const [errorOpen, seterrorOpen] = React.useState(false)
+  const [errormsg, seterrormsg] = React.useState('')
 
   React.useEffect(
     () => {
@@ -34,24 +37,34 @@ function VotingPage() {
             oids.push({ name: decompressOids(key), votes: value })
           }
           const accountId = window.walletConnection.getAccountId()
-      const data = {
-        accountId,
-      }
-      await axios.post(`${serverUrl}/voter/getHasVoted`, data).then((res) => {
-        if (res.data.status == 201) {
-          const voted = res.data.data[0].hasVoted
-          console.log('Voting Status ' + voted)
-          setHasVoted(voted)
-        }
-      })
-            axios.post(`${serverUrl}/candidate/getCandidateInfo`,{oids}).then(
-              (res)=>{
-                if(res.status==200){
-                  setCandidates(res.data)
-                }
+          const data = {
+            accountId,
+          }
+          axios.post(`${serverUrl}/voter/getHasVoted`, data).then((res) => {
+            // status = 201, voter is registered in db
+            if (res.data.status == 201) {
+              const voted = res.data.data[0].hasVoted
+              console.log('Voting Status ' + voted)
+              setHasVoted(voted)
+              if (voted) {
+                seterrormsg('You can only vote once!')
+                seterrorOpen(true)
               }
-            )
+            } else {
+              // disable if the user is not registered
+              setHasVoted(true)
+              seterrormsg('You cannot vote untill you register!')
+              seterrorOpen(true)
+            }
           })
+          axios
+            .post(`${serverUrl}/candidate/getCandidateInfo`, { oids })
+            .then((res) => {
+              if (res.status == 200) {
+                setCandidates(res.data)
+              }
+            })
+        })
       }
     },
     // The second argument to useEffect tells React when to re-run the effect
@@ -107,52 +120,68 @@ function VotingPage() {
   }
   return (
     <>
-
-    <main>
-      <h1>Candidates</h1>
-      <p> Below are the candidates you can vote for </p>
-      <div style={{ width: '100%' }}>
-      <Box sx={{ display: 'flex',
-          flexWrap: 'wrap',
-          p: 1,
-          m: 1,
-          bgcolor: 'background.paper',
-          alignItems: 'flex-start',
-          maxWidth: 1500,
-          borderRadius: 1,}}>
-      {candidates?.length>0
-      ?
-      candidates.map((value, index)=>(
-        <Card key={index} sx={{ border: 1, p: 1, m: 1, maxWidth: 150 }}>
-          <CardContent>
-            <Typography>
-              {value.fullName}
-            </Typography>
-            <Typography>
-              Party Affiliation:  {value.partyAffiliation}
-            </Typography>
-            <Typography>
-              Office:  {value.office}
-            </Typography>
-            <Typography>
-              District:  {value.stateDistrict}
-            </Typography>
-            <Typography>
-              # Votes:  {value.votes}
-            </Typography>
-          </CardContent>
-          <CardActions>
-            <Button onClick={submitVote} value={value.oid} size="small">Vote</Button>
-          </CardActions>
-        </Card>
-      ))
-      :
-      <p>No Candidates Added Yet</p>}
-      </Box>
-      </div>
-    </main>
-    {showNotification && <Notification method={msg}/>}
-
+      <main>
+        <h1>Candidates</h1>
+        <Box
+          sx={{
+            width: '90%',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            marginLeft: '50px',
+          }}
+        >
+          <Collapse in={errorOpen}>
+            <Alert severity="error" sx={{ mb: 2 }}>
+              {errormsg}
+            </Alert>
+          </Collapse>
+        </Box>
+        <p> Below are the candidates you can vote for </p>
+        <div style={{ width: '100%' }}>
+          <Box
+            sx={{
+              display: 'flex',
+              flexWrap: 'wrap',
+              p: 1,
+              m: 1,
+              bgcolor: 'background.paper',
+              alignItems: 'flex-start',
+              maxWidth: 1500,
+              borderRadius: 1,
+            }}
+          >
+            {candidates?.length > 0 ? (
+              candidates.map((value, index) => (
+                <Card key={index} sx={{ border: 1, p: 1, m: 1, maxWidth: 150 }}>
+                  <CardContent>
+                    <Typography>{value.fullName}</Typography>
+                    <Typography>
+                      Party Affiliation: {value.partyAffiliation}
+                    </Typography>
+                    <Typography>Office: {value.office}</Typography>
+                    <Typography>District: {value.stateDistrict}</Typography>
+                    <Typography># Votes: {value.votes}</Typography>
+                  </CardContent>
+                  <CardActions>
+                    <Button
+                      onClick={submitVote}
+                      value={value.oid}
+                      disabled={hasVoted}
+                      size="small"
+                    >
+                      Vote
+                    </Button>
+                  </CardActions>
+                </Card>
+              ))
+            ) : (
+              <p>No Candidates Added Yet</p>
+            )}
+          </Box>
+        </div>
+      </main>
+      {showNotification && <Notification method={msg} />}
     </>
   )
 }
