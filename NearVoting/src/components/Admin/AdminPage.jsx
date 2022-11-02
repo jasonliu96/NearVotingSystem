@@ -1,6 +1,6 @@
 import React, {useState,useEffect} from 'react';
 import axios from 'axios';
-import { Button, List, ListItem, Divider, Card, Typography} from '@mui/material';
+import { Button, List, ListItem, Divider, Card, Typography, FormControl, InputLabel, Select, MenuItem} from '@mui/material';
 import Alert from '@mui/material/Alert'
 import IconButton from '@mui/material/IconButton'
 import Collapse from '@mui/material/Collapse'
@@ -11,7 +11,7 @@ const style = {
     bgcolor: 'background.paper',
   };
   
-function AdminPage() {
+function AdminPage({ phases, submit, selectValue, handleChange, successOpen, handleModalChange}) {
     const serverUrl = 'http://localhost:9999'
     const [candidates, setCandidates] = useState([])
     const [selectedCandidate, setSelCandidate] = useState(0)
@@ -100,42 +100,87 @@ function AdminPage() {
         
   return (
     <>
-    <div style={{ width: '100%', textAlign: 'center'}}>
-      <h1>Admin Page </h1>
-      <div className="AdminPage" style={{ width: '100%', align:'center', textAlign: 'center', display:'flex', flexDirection:'row', justifyContent:'center'}}>
-        <div className="PhaseChange" style={{ width: '40%' }}>
-        <Card sx={{ display: 'flex' }}>
-            <p>phasechange component</p>
-        </Card>
-        </div>
-        <div className="CandidateList" style={{ width: '40%' }}>
-        <Card sx={{ display: 'flex' }}>
-            {candidates?.length>0
-            ?
-            <List sx={style}>
-                <Typography sx={{ mt: 4, mb: 2 }} variant="h6" component="div">
+      <div style={{ width: "100%", textAlign: "center" }}>
+        <h1>Admin Page </h1>
+        <div
+          className="AdminPage"
+          style={{
+            width: "100%",
+            align: "center",
+            textAlign: "center",
+            display: "flex",
+            flexDirection: "row",
+            justifyContent: "center",
+          }}
+        >
+          <div className="PhaseChange" style={{ width: "20%" }}>
+            <Card sx={{ display: "flex" }}>
+              
+              
+              <div style={{ width: "100%", textAlign: "center" }}> 
+                <FormControl sx={{ m: 1, minWidth: 200 }} size="small">
+                  <InputLabel id="demo-simple-select-autowidth-label">
+                    Phase
+                  </InputLabel>
+                  <Select
+                    name="selectList"
+                    id="selectList"
+                    value={selectValue}
+                    onChange={handleChange}
+                    autoWidth
+                    label="Phase">
+                    <MenuItem value="1">Registration Phase</MenuItem>
+                    <MenuItem value="2">Voting Phase</MenuItem>
+                    <MenuItem value="3">Result Phase</MenuItem>
+                  </Select>
+                  <div><Button variant="outlined" type="submit" value="Submit" onClick={submit} style={{ textAlign: 'center', marginTop:20 , width:200}}> Submit</Button></div>
+                </FormControl>
+              </div>
+
+
+
+            </Card>
+          </div>
+          <div className="CandidateList" style={{ width: "40%" }}>
+            <Card sx={{ display: "flex" }}>
+              {candidates?.length > 0 ? (
+                <List sx={style}>
+                  <Typography
+                    sx={{ mt: 4, mb: 2 }}
+                    variant="h6"
+                    component="div"
+                  >
                     Candidates List
-                </Typography>
-                {candidates.map((value, index)=>(
-                    <div  key={index}> 
-                        <div style={{display:'flex', flexDirection:'row'}}>
+                  </Typography>
+                  {candidates.map((value, index) => (
+                    <div key={index}>
+                      <div style={{ display: "flex", flexDirection: "row" }}>
                         <ListItem>{value.fullName}</ListItem>
-                        <Button onClick={removeCandidate} value={index}><CloseIcon/></Button>
-                        </div>
-                    <Divider/>
+                        <Button onClick={removeCandidate} value={index}>
+                          <CloseIcon />
+                        </Button>
+                      </div>
+                      <Divider />
                     </div>
-                ))}
-            </List>
-            :<div><p>No Candidates Added Yet</p></div>}
-        </Card>
+                  ))}
+                </List>
+              ) : (
+                <div>
+                  <p>No Candidates Added Yet</p>
+                </div>
+              )}
+            </Card>
+          </div>
         </div>
-        </div>
-    </div>
-    {showModal && <ConfirmationModal 
-        onSubmit={confirmDelete}
-        open={showModal}
-        closeModal={closeModal}
-        selectedCandidate={candidates[selectedCandidate].fullName}/>}
+      </div>
+      {showModal && (
+        <ConfirmationModal
+          onSubmit={confirmDelete}
+          open={showModal}
+          closeModal={closeModal}
+          selectedCandidate={candidates[selectedCandidate].fullName}
+        />
+      )}
     </>
   );
 }

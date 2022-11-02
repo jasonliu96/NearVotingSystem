@@ -113,9 +113,9 @@ export function getPhases(): Phase[] {
 }
 
 export function setPhase(phase: i8): void{
-    storage.set<i8>("current_phase", phase);
+    storage.set<i8>("current_phase", phase)
 }
 
 export function getPhase(): i8 {
-    return storage.getPrimitive<i8>("current_phase", 0)
+    return storage.getPrimitive<i8>("current_phase", 1)
 }

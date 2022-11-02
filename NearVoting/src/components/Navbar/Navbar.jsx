@@ -64,13 +64,6 @@ const Navbar = () => {
             <li>
               <Link to="/admin/register">Add Candidate</Link>
             </li>
-            {isrestricted ? null : (
-              <li>
-                <Link style={{ color: 'red' }} to="/admin/change">
-                  Change State
-                </Link>
-              </li>
-            )}
             {hasRegistered ? null : (
               <li>
                 <Link style={{ color: 'red' }} to="/register">
