@@ -12,7 +12,7 @@ const getTransactions = async (request, response) => {
     }
   catch(e){
     response.status=400
-    // console.log(e)
+    console.log(e)
   }
   return response
 }
@@ -32,7 +32,7 @@ const addTransaction = async (request, response) => {
     //   console.log(`Response: ${response.status} and ${response.data}`)
     })
     .catch((err) => {
-    //   console.log(err)
+      console.log(err)
       response.status = 400
       response.data = 'Error while registering voter in mongoDB'
     })

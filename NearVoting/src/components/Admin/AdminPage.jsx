@@ -6,6 +6,7 @@ import IconButton from '@mui/material/IconButton'
 import Collapse from '@mui/material/Collapse'
 import CloseIcon from '@mui/icons-material/Close'
 import ConfirmationModal from '../ConfirmationModal';
+import {decompressOids} from '../../utils';
 const style = {
     width: '100%',
     bgcolor: 'background.paper',
@@ -18,7 +19,6 @@ function AdminPage({ phases, submit, selectValue, handleChange, successOpen, han
     const [showNotification, setShowNotification] = useState(false)
     const [showModal, setShowModal] = useState(false)
     const [msg, setMsg ] = React.useState('Submitted a Vote')
-    const oids = [{"name":"632b3bd151339158d5cfdac3","votes":8},{"name":"632b3e1b51339158d5cfdad5","votes":5},{"name":"632b4d26f700a18815fcd898","votes":5}]
     const closeModal = () => {
       setShowModal(false);
     };
@@ -57,46 +57,28 @@ function AdminPage({ phases, submit, selectValue, handleChange, successOpen, han
         closeModal()
       }
     
-    // useEffect(
-    //     () => {
-    //         // in this case, we only care to query the contract when signed in
-    //         if (window.walletConnection.isSignedIn()) {
-    //           var oids;
-    //           // window.contract is set by initContract in index.js
-    //           window.contract.getCandidates({  })
-    //             .then(candidateFromContract => {
-    //               // setCandidates(candidateFromContract)
-    //               oids = candidateFromContract
-    //               console.log(oids)
-    //               axios.post(`${serverUrl}/candidate/getCandidateInfo`,{oids}).then(
-    //                 (res)=>{
-    //                   if(res.status==200){
-    //                     setCandidates(res.data)
-    //                   }
-    //                 }
-    //               )
-    //             })
-    //         }
-    //       },
-      
-    //       // The second argument to useEffect tells React when to re-run the effect
-    //       // Use an empty array to specify "only run on first render"
-    //       // This works because signing into NEAR Wallet reloads the page
-    //       [] 
-    // )
     useEffect(
-        () =>{
-            axios.post(`${serverUrl}/candidate/getCandidateInfo`,{oids}).then(
-            (res)=>{
-                if(res.status==200){
-                setCandidates(res.data)
+        () => {
+            // in this case, we only care to query the contract when signed in
+            if (window.walletConnection.isSignedIn()) {
+              var oids = []
+              // window.contract is set by initContract in index.js
+              window.contract.getCandidateMap({}).then((candidateFromContract) => {
+                // setCandidates(candidateFromContract)
+                console.log(candidateFromContract)
+                for (const [key, value] of Object.entries(candidateFromContract)) {
+                  oids.push({ name: decompressOids(key), votes: value })
                 }
-            }
-            )
-        },
-        []
+                setCandidates(oids)
+                })
+                }
+          },
+      
+          // The second argument to useEffect tells React when to re-run the effect
+          // Use an empty array to specify "only run on first render"
+          // This works because signing into NEAR Wallet reloads the page
+          [] 
     )
-
         
   return (
     <>
@@ -155,7 +137,7 @@ function AdminPage({ phases, submit, selectValue, handleChange, successOpen, han
                   {candidates.map((value, index) => (
                     <div key={index}>
                       <div style={{ display: "flex", flexDirection: "row" }}>
-                        <ListItem>{value.fullName}</ListItem>
+                        <ListItem>{value.name}</ListItem>
                         <Button onClick={removeCandidate} value={index}>
                           <CloseIcon />
                         </Button>
