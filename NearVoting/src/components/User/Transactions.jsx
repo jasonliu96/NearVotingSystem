@@ -5,35 +5,11 @@ import {Typography, Button, Card, Box, List, ListItem, ListItemText, Divider} fr
 const { networkId } = getConfig(process.env.NODE_ENV || 'development')
 const nearConfig = getConfig(process.env.NODE_ENV || 'testnet')
 import axios from 'axios'
-import {addTransaction, executeTransaction} from '../../utils'
-import constants from '../../constants'
+
 function Transactions() {
     const urlPrefix = `https://explorer.${networkId}.near.org/accounts`
     const serverUrl = 'http://localhost:9999'
 
-    async function buttonClick (){
-        // const response = await window.walletConnection.account().functionCall({
-        //     contractId: nearConfig.contractName,
-        //     methodName: constants.SET_PHASE,
-        //     args:{'phase':1}
-        // })
-        // const { transaction_outcome: txo, status } = response;
-        // axios.defaults.withCredentials = false
-        // const accountId = window.walletConnection.getAccountId()
-        // const data ={
-        //     userId:accountId,
-        //     actionType:"Phase Change",
-        //     receiptHash:txo.outcome.receipt_ids[0]
-        // }
-        // console.log(`Register voter with axios and : ${data}`)
-        // await addTransaction("Phase Change", txo.outcome.receipt_ids[0]).then(
-        //     (response)=>{console.log(response)}
-        // )
-        const args = {
-            phase: 1
-        }
-        await executeTransaction(constants.SET_CONSTANT, args)
-    }
     const [transactions, setTransactions]= useState([])
     useEffect(()=>{
         if (window.walletConnection.isSignedIn()) {
@@ -92,7 +68,6 @@ function Transactions() {
         and search for your receipt hash.
         </Typography>
         </div>
-        <Button onClick={buttonClick}>click</Button>
         </Box>
     </div>
   );

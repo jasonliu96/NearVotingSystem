@@ -48,24 +48,6 @@ export function decompressOids(oid){
   return decompress(oid, {inputEncoding:"StorageBinaryString", outputEncoding:"String"})
 }
 
-export async function addTransaction(actionType, receiptHash){
-  const accountId = window.walletConnection.getAccountId()
-  const data ={
-      userId:accountId,
-      actionType,
-      receiptHash
-  }
-  console.log(`console log from utils file ${data.receiptHash}`)
-  await axios.post(`${nearConfig.serverUrl}/transaction/addTransaction`, data).then(
-    (response) => {
-        return response;
-    },
-    (error) => {
-        return error;
-    },
-    )
-}
-
 export async function executeTransaction(methodType, args){
   const accountId = window.walletConnection.getAccountId()
   console.log(methodType)

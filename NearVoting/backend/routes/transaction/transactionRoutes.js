@@ -5,7 +5,7 @@ const { getTransactions, addTransaction } = require('../../queries/transaction/t
 
 router.get('/getTransactions', async (req, res) => {
   try {
-    console.log(`Get Transaction request body: ${JSON.stringify(req.query)}`)
+    // console.log(`Get Transaction request body: ${JSON.stringify(req.query)}`)
 
     let results = null
     results = await getTransactions(req.query, res)
@@ -19,7 +19,7 @@ router.get('/getTransactions', async (req, res) => {
 
 router.post('/addTransaction', async(req, res) => {
     try{
-        console.log(`Get Transaction request body: ${JSON.stringify(req.body)}`)
+        // console.log(`Get Transaction request body: ${JSON.stringify(req.body)}`)
 
         let results = null
         results = await addTransaction(req.body, res)
