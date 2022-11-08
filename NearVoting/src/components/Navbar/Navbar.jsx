@@ -3,7 +3,8 @@ import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { login, logout } from '../../utils'
 import axios from 'axios'
-
+import SettingsIcon from '@mui/icons-material/Settings';
+import {Button} from '@mui/material'
 const Navbar = () => {
   const serverUrl = 'http://localhost:9999'
 
@@ -45,7 +46,7 @@ const Navbar = () => {
               <Link to="/admin/register">Add Candidate</Link>
             </li>
             <li>
-              <Link style={{ color: 'red' }} to="/register">
+              <Link  to="/register">
                 Voter Registration
               </Link>
             </li>
@@ -57,6 +58,11 @@ const Navbar = () => {
             </li>
           </ul>
           <div className="LoginNav">
+            <Button>
+            <Link to="/settings">
+            <SettingsIcon style={{ color: 'white' }} fontSize="medium" />
+            </Link>
+            </Button>
             <button
               className="link LoginButton"
               style={{ float: 'right' }}

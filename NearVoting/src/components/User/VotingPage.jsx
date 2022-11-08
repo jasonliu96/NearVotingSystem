@@ -10,11 +10,12 @@ import {
   Box,
 } from '@mui/material'
 import Notification from '../Notification'
-import { compressOid, decompressOids } from '../../utils'
+import { compressOid, decompressOids, executeTransaction } from '../../utils'
 import Alert from '@mui/material/Alert'
 import IconButton from '@mui/material/IconButton'
 import Collapse from '@mui/material/Collapse'
 import CloseIcon from '@mui/icons-material/Close'
+import constants from '../../constants'
 
 function VotingPage() {
   const serverUrl = 'http://localhost:9999'
@@ -93,10 +94,11 @@ function VotingPage() {
     })
 
     try {
-      // make an update call to the smart contract
-      await window.contract.voteCandidateMap({
-        // pass the value that the user entered in the greeting field
-        candidate_oid: compressOid(target_oid),
+      const args = {
+        candidate_oid: compressOid(target_oid)
+      }
+      await executeTransaction(constants.VOTE_CONSTANT, args).then(()=>{
+        setHasVoted(true)
       })
     } catch (e) {
       alert(

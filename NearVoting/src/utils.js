@@ -1,7 +1,8 @@
 import { connect, Contract, keyStores, WalletConnection } from 'near-api-js'
 import getConfig from './config'
 import { compress, decompress } from 'lzutf8'
-
+import axios from 'axios'
+import constants from './constants'
 const nearConfig = getConfig(process.env.NODE_ENV || 'testnet')
 console.log(process.env.NODE_ENV)
 // Initialize contract & set global variables
@@ -45,4 +46,52 @@ export function compressOid(oid){
 
 export function decompressOids(oid){
   return decompress(oid, {inputEncoding:"StorageBinaryString", outputEncoding:"String"})
+}
+
+export async function addTransaction(actionType, receiptHash){
+  const accountId = window.walletConnection.getAccountId()
+  const data ={
+      userId:accountId,
+      actionType,
+      receiptHash
+  }
+  console.log(`console log from utils file ${data.receiptHash}`)
+  await axios.post(`${nearConfig.serverUrl}/transaction/addTransaction`, data).then(
+    (response) => {
+        return response;
+    },
+    (error) => {
+        return error;
+    },
+    )
+}
+
+export async function executeTransaction(methodType, args){
+  const accountId = window.walletConnection.getAccountId()
+  console.log(methodType)
+  const response = await window.walletConnection.account().functionCall({
+    contractId: nearConfig.contractName,
+    methodName: constants[methodType],
+    args
+  })
+  const { transaction_outcome: txo, status } = response;
+  const data ={
+    userId:accountId,
+    actionType: methodDictionary[methodType],
+    receiptHash: txo.outcome.receipt_ids[0]
+  }
+  await axios.post(`${nearConfig.serverUrl}/transaction/addTransaction`, data).then(
+    (response) => {
+        return response;
+    },
+    (error) => {
+        return error;
+    },
+  )
+}
+
+const methodDictionary = {
+  "ADD_CANDIDATE":"Candidate Registration",
+  "VOTE":"Vote",
+  "SET_PHASE":"Phase Change", 
 }
