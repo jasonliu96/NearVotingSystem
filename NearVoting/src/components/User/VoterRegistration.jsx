@@ -22,7 +22,7 @@ import Collapse from '@mui/material/Collapse'
 import CloseIcon from '@mui/icons-material/Close'
 import CheckIcon from '@mui/icons-material/Check'
 import Box from '@mui/material/Box'
-import { Redirect, Navigate } from 'react-router-dom'
+import { Navigate } from 'react-router-dom'
 
 function VoterRegistration() {
   const serverUrl = 'http://localhost:9999'

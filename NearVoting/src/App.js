@@ -2,15 +2,14 @@ import React, { useState, useEffect } from 'react'
 import './global.css'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Landing from './components/Landing/Landing'
-import NoLanding from './components/Landing/NoLanding'
 import Navbar from './components/Navbar/Navbar'
 import CandidateRegistration from './components/Admin/CandidateRegistration'
-import ChangeStatePage from './components/Admin/ChangeStatePage'
 import ResultsPage from './components/User/ResultsPage'
 import NoResultsPage from './components/User/NoResultsPage'
 import VoterRegistration from './components/User/VoterRegistration'
 import NoVoterRegistration from './components/User/NoVoterRegistration'
 import VotingPage from './components/User/VotingPage'
+import NoVotingPage from './components/User/NoVotingPage'
 import ConnectionCheck from './components/ConnectionCheck'
 import AdminPage from './components/Admin/AdminPage'
 import VoterProfile from './components/User/VoterProfile'
@@ -83,94 +82,47 @@ function App() {
   )
   return (
     <div className="App">
-      {phases?.length > 0 ? (
-        phases.slice(-1).map((value, index) => (
-          <Router key={index}>
-            <Navbar />
-            <Routes>
-              <Route
-                path=""
-                element={value.phase == 2 ? <Landing /> : <NoLanding />}
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route path="" element={<Landing />} />
+          <Route path="/profile" element={<VoterProfile />} />
+          <Route
+            path="admin/register"
+            element={
+              phases == 1 ? <CandidateRegistration /> : <NoVoterRegistration />
+            }
+          />
+          <Route
+            path="register"
+            element={
+              phases == 1 ? <VoterRegistration /> : <NoVoterRegistration />
+            }
+          />
+          <Route
+            path="results"
+            element={phases == 3 ? <ResultsPage /> : <NoResultsPage />}
+          />
+          <Route
+            path="vote"
+            element={phases == 2 ? <VotingPage /> : <NoVotingPage />}
+          />
+          <Route
+            path="admin"
+            element={
+              <AdminPage
+                phases={phases}
+                setphase={setphase.bind(this)}
+                selectValue={selectValue}
+                submit={submitPhase.bind(this)}
+                handleChange={handleChange.bind(this)}
+                successOpen={successOpen}
+                setssucessOpen={() => setsuccessOpen(false)}
               />
-              <Route path="admin" element={<AdminPage />} />
-              <Route
-                path="admin/register"
-                element={
-                  value.phase == 1 ? (
-                    <CandidateRegistration />
-                  ) : (
-                    <NoVoterRegistration />
-                  )
-                }
-              />
-              <Route
-                path="admin/change"
-                element={
-                  <ChangeStatePage
-                    phases={phases}
-                    selectValue={selectValue}
-                    submit={submitPhase.bind(this)}
-                    handleChange={handleChange.bind(this)}
-                    successOpen={successOpen}
-                    handleModalChange={handleModalChange.bind(this)}
-                  />
-                }
-              />
-              {/* <Route path="vote" element={value.phase == 2 ?<VotingPage />:<NoLanding/>} /> */}
-
-              <Route path="vote" element={<VotingPage />} />
-              <Route
-                path="register"
-                element={
-                  value.phase == 1 ? (
-                    <VoterRegistration />
-                  ) : (
-                    <NoVoterRegistration />
-                  )
-                }
-              />
-              <Route
-                path="profile"
-                element={
-                  value.phase == 1 ? <VoterProfile /> : <NoVoterRegistration />
-                }
-              />
-              <Route
-                path="results"
-                element={value.phase == 3 ? <ResultsPage /> : <NoResultsPage />}
-              />
-            </Routes>
-          </Router>
-        ))
-      ) : (
-        <Router>
-          <Navbar />
-          <Routes>
-            <Route path="" element={<NoLanding />} />
-            <Route path="admin" element={<AdminPage />} />
-            <Route path="admin/register" element={<NoVoterRegistration />} />
-            <Route
-              path="admin/change"
-              element={
-                <ChangeStatePage
-                  phases={phases}
-                  setphase={setphase.bind(this)}
-                  selectValue={selectValue}
-                  submit={submitPhase.bind(this)}
-                  handleChange={handleChange.bind(this)}
-                  successOpen={successOpen}
-                  setssucessOpen={() => setsuccessOpen(false)}
-                />
-              }
-            />
-            <Route path="register" element={<NoVoterRegistration />} />
-            <Route path="profile" element={<VoterProfile />} />
-            <Route path="results" element={<NoResultsPage />} />
-            {/* <Route path="vote" element={<NoLanding/>} /> */}
-            <Route path="vote" element={<VotingPage />} />
-          </Routes>
-        </Router>
-      )}
+            }
+          />
+        </Routes>
+      </Router>
     </div>
   )
 }

@@ -4,6 +4,7 @@ import Grid from '@mui/material/Grid'
 import Paper from '@mui/material/Paper'
 import Box from '@mui/material/Box'
 import axios from 'axios'
+import { Navigate } from 'react-router-dom'
 
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
@@ -22,6 +23,7 @@ function VoterProfile() {
   const [identification, setIdentification] = React.useState('')
   const [email, setEmail] = React.useState('')
   const [address, setAddress] = React.useState('')
+  const [hasRegistered, sethasRegistered] = React.useState(true)
 
   useEffect(() => {
     if (window.walletConnection.isSignedIn()) {
@@ -44,6 +46,7 @@ function VoterProfile() {
           setAddress(res.data.data[0].address)
         } else {
           console.log('Voter Not found')
+          sethasRegistered(false)
         }
       })
     }
@@ -51,6 +54,7 @@ function VoterProfile() {
 
   return (
     <div>
+      {hasRegistered && <Navigate replace to="/register" />}
       <h1>Voter Profile</h1>
       <div className="centeredText">
         <Box
