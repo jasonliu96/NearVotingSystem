@@ -32,7 +32,7 @@ import { compressOid, executeTransaction } from '../../utils';
 import constants from '../../constants';
 function CandidateRegistration() {
   // const [candidateName, setName] = React.useState("")
-  const serverUrl = 'http://localhost:9999';
+  const serverUrl = constants.SERVER_URL;
   const [fullName, setName] = React.useState('');
   const [address, setAddress] = React.useState('');
   const [cityStateZip, setCityStateZip] = React.useState('');

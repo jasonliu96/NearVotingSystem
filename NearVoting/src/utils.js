@@ -92,7 +92,7 @@ export async function executeTransaction(methodType, args) {
     receiptHash: txo.outcome.receipt_ids[0],
   };
   await axios
-    .post(`${nearConfig.serverUrl}/transaction/addTransaction`, data)
+    .post(`${constants.SERVER_URL}/transaction/addTransaction`, data)
     .then(
       (response) => {
         return response;

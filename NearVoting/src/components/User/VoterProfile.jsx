@@ -5,7 +5,7 @@ import Paper from '@mui/material/Paper';
 import Box from '@mui/material/Box';
 import axios from 'axios';
 import { Navigate } from 'react-router-dom';
-
+import constants from '../../constants';
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
   ...theme.typography.body2,
@@ -15,7 +15,7 @@ const Item = styled(Paper)(({ theme }) => ({
 }));
 
 function VoterProfile() {
-  const serverUrl = 'http://localhost:9999';
+  const serverUrl = constants.SERVER_URL;
   const [name, setName] = React.useState('');
   const [citizen, setCitizen] = React.useState('');
   const [assistance, setAssistance] = React.useState('');

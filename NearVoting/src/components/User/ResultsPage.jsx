@@ -4,9 +4,9 @@ import { PieChart } from 'react-minimal-pie-chart';
 import { Card, List, ListItemText } from '@mui/material';
 import { login, logout } from '../../utils';
 import { compressOid, decompressOids } from '../../utils';
-
+import constants from '../../constants';
 function ResultsPage() {
-  const serverUrl = 'http://localhost:9999';
+  const serverUrl = constants.SERVER_URL;
   const [numVotes, setNumVotes] = React.useState(0);
   const [candidates, setCandidates] = React.useState([]);
   const [selected, setSelected] = React.useState(0);

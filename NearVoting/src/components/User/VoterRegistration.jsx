@@ -23,9 +23,9 @@ import CloseIcon from '@mui/icons-material/Close';
 import CheckIcon from '@mui/icons-material/Check';
 import Box from '@mui/material/Box';
 import { Navigate } from 'react-router-dom';
-
+import constants from '../../constants';
 function VoterRegistration() {
-  const serverUrl = 'http://localhost:9999';
+  const serverUrl = constants.SERVER_URL;
   const [firstName, setFirstName] = React.useState('');
   const [lastName, setLastName] = React.useState('');
   const [citizen, setCitizen] = React.useState('');

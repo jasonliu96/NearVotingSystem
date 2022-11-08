@@ -18,7 +18,7 @@ import Collapse from '@mui/material/Collapse';
 import CloseIcon from '@mui/icons-material/Close';
 import ConfirmationModal from '../ConfirmationModal';
 import Notification from '../Notification';
-
+import constants from '../../constants';
 import { decompressOids } from '../../utils';
 const style = {
   width: '100%',
@@ -33,7 +33,7 @@ function AdminPage({
   successOpen,
   handleModalChange,
 }) {
-  const serverUrl = 'http://localhost:9999';
+  const serverUrl = constants.SERVER_URL;
   const [candidates, setCandidates] = useState([]);
   const [selectedCandidate, setSelCandidate] = useState('');
   const [showNotification, setShowNotification] = useState(false);

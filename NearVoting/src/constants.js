@@ -7,6 +7,7 @@ const constants = {
   ADD_CANDIDATE: 'addCandidateCompressed',
   VOTE: 'voteCandidateMap',
   SET_PHASE: 'setPhase',
+  SERVER_URL: 'http://localhost:9999',
 };
 
 export default constants;

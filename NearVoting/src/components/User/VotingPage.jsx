@@ -18,7 +18,7 @@ import CloseIcon from '@mui/icons-material/Close';
 import constants from '../../constants';
 
 function VotingPage() {
-  const serverUrl = 'http://localhost:9999';
+  const serverUrl = constants.SERVER_URL;
   const [candidates, setCandidates] = React.useState([]);
   const [showNotification, setShowNotification] = React.useState(false);
   const [hasVoted, setHasVoted] = React.useState(false);

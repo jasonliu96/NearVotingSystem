@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import getConfig from '../../config';
 import { login, logout } from '../../utils';
+import constants from '../../constants';
 import {
   Typography,
   Button,
@@ -12,13 +13,10 @@ import {
   Divider,
 } from '@mui/material';
 const { networkId } = getConfig(process.env.NODE_ENV || 'development');
-const nearConfig = getConfig(process.env.NODE_ENV || 'testnet');
 import axios from 'axios';
 
 function Transactions() {
   const urlPrefix = `https://explorer.${networkId}.near.org/accounts`;
-  const serverUrl = 'http://localhost:9999';
-
   const [transactions, setTransactions] = useState([]);
 
   const style = {
@@ -36,7 +34,7 @@ function Transactions() {
         userId: accountId,
       };
       axios
-        .get(`${serverUrl}/transaction/getTransactions`, { params })
+        .get(`${constants.SERVER_URL}/transaction/getTransactions`, { params })
         .then((res) => {
           console.log('Getting Transactions');
           console.log(res);
