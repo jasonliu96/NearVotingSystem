@@ -15,7 +15,7 @@ import AdminPage from './components/Admin/AdminPage'
 import VoterProfile from './components/User/VoterProfile'
 
 function App() {
-  const [phases, setphase] = useState([])
+  const [phases, setphase] = useState(-1)
   const [selectValue, setselectvalue] = useState('')
   const [successOpen, setsuccessOpen] = React.useState(false)
 
@@ -29,12 +29,13 @@ function App() {
 
   async function submitPhase(e) {
     e.preventDefault()
+    var phaseNumber = parseInt(selectValue)
     console.log('this is the dropdown ' + selectValue)
     try {
       // make an update call to the smart contract
-      window.contract.addstate({
+      window.contract.setPhase({
         // pass the value that the user entered in the greeting field
-        text: selectValue,
+        phase: phaseNumber,
       })
     } catch (e) {
       alert(
@@ -45,7 +46,7 @@ function App() {
       throw e
     } finally {
       var temp = { phase: selectValue, phasenumber: 0 }
-      setphase([...phases, temp])
+      setphase(selectValue)
       // console.log(phases)
       // console.log("PHASE added")
       setsuccessOpen(true)
@@ -68,7 +69,7 @@ function App() {
       // in this case, we only care to query the contract when signed in
       if (window.walletConnection.isSignedIn()) {
         // window.contract is set by initContract in index.js
-        window.contract.getPhases({}).then((candidateFromContract) => {
+        window.contract.getPhase({}).then((candidateFromContract) => {
           console.log(candidateFromContract)
           setphase(candidateFromContract)
         })

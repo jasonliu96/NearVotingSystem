@@ -200,7 +200,7 @@ function VoterRegistration() {
 
   return (
     <>
-      {hasRegistered && <Navigate replace to="/profile" />}
+    {hasRegistered && <Navigate to="/profile" replace={true} />}
       <div>
         <h1>Voter Registration</h1>
         <div className="centeredText">
