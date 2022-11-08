@@ -1,29 +1,31 @@
-import React from 'react'
-import { useState, useEffect } from 'react'
-import { Link } from 'react-router-dom'
-import { login, logout } from '../../utils'
-import axios from 'axios'
-
+import React from 'react';
+import { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
+import { login, logout } from '../../utils';
+import axios from 'axios';
+import SettingsIcon from '@mui/icons-material/Settings';
+import { Button } from '@mui/material';
+import constants from '../../constants';
 const Navbar = () => {
-  const serverUrl = 'http://localhost:9999'
+  const serverUrl = constants.SERVER_URL;
 
   React.useEffect(() => {
     if (window.walletConnection.isSignedIn()) {
     }
-  }, [])
+  }, []);
 
   if (!window.walletConnection.isSignedIn()) {
     return (
       <>
-        <div className="Navbar">
+        <div className='Navbar'>
           <ul>
             <li>
-              <Link to="/">Home</Link>
+              <Link to='/'>Home</Link>
             </li>
           </ul>
-          <div className="LoginNav">
+          <div className='LoginNav'>
             <button
-              className="link LoginButton"
+              className='link LoginButton'
               style={{ float: 'right' }}
               onClick={login}
             >
@@ -32,33 +34,36 @@ const Navbar = () => {
           </div>
         </div>
       </>
-    )
+    );
   } else {
     return (
       <>
-        <div className="Navbar">
+        <div className='Navbar'>
           <ul>
             <li>
-              <Link to="/">Home</Link>
+              <Link to='/'>Home</Link>
             </li>
             <li>
-              <Link to="/admin/register">Add Candidate</Link>
+              <Link to='/admin/register'>Add Candidate</Link>
             </li>
             <li>
-              <Link style={{ color: 'red' }} to="/register">
-                Voter Registration
-              </Link>
+              <Link to='/register'>Voter Registration</Link>
             </li>
             <li>
-              <Link to="/vote">Vote</Link>
+              <Link to='/vote'>Vote</Link>
             </li>
             <li>
-              <Link to="/results">Results</Link>
+              <Link to='/results'>Results</Link>
             </li>
           </ul>
-          <div className="LoginNav">
+          <div className='LoginNav'>
+            <Button>
+              <Link to='/settings'>
+                <SettingsIcon style={{ color: 'white' }} fontSize='medium' />
+              </Link>
+            </Button>
             <button
-              className="link LoginButton"
+              className='link LoginButton'
               style={{ float: 'right' }}
               onClick={logout}
             >
@@ -67,7 +72,7 @@ const Navbar = () => {
           </div>
         </div>
       </>
-    )
+    );
   }
-}
-export default Navbar
+};
+export default Navbar;
