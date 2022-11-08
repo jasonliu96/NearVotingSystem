@@ -1,10 +1,10 @@
-import React, { useEffect } from 'react'
-import { styled } from '@mui/material/styles'
-import Grid from '@mui/material/Grid'
-import Paper from '@mui/material/Paper'
-import Box from '@mui/material/Box'
-import axios from 'axios'
-import { Navigate } from 'react-router-dom'
+import React, { useEffect } from 'react';
+import { styled } from '@mui/material/styles';
+import Grid from '@mui/material/Grid';
+import Paper from '@mui/material/Paper';
+import Box from '@mui/material/Box';
+import axios from 'axios';
+import { Navigate } from 'react-router-dom';
 
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
@@ -12,51 +12,51 @@ const Item = styled(Paper)(({ theme }) => ({
   padding: theme.spacing(1),
   textAlign: 'center',
   color: theme.palette.text.secondary,
-}))
+}));
 
 function VoterProfile() {
-  const serverUrl = 'http://localhost:9999'
-  const [name, setName] = React.useState('')
-  const [citizen, setCitizen] = React.useState('')
-  const [assistance, setAssistance] = React.useState('')
-  const [phone, setPhone] = React.useState('')
-  const [identification, setIdentification] = React.useState('')
-  const [email, setEmail] = React.useState('')
-  const [address, setAddress] = React.useState('')
-  const [hasRegistered, sethasRegistered] = React.useState(true)
+  const serverUrl = 'http://localhost:9999';
+  const [name, setName] = React.useState('');
+  const [citizen, setCitizen] = React.useState('');
+  const [assistance, setAssistance] = React.useState('');
+  const [phone, setPhone] = React.useState('');
+  const [identification, setIdentification] = React.useState('');
+  const [email, setEmail] = React.useState('');
+  const [address, setAddress] = React.useState('');
+  const [hasRegistered, sethasRegistered] = React.useState(true);
 
   useEffect(() => {
     if (window.walletConnection.isSignedIn()) {
-      const accountId = window.walletConnection.getAccountId()
+      const accountId = window.walletConnection.getAccountId();
       const data = {
         accountId,
-      }
+      };
 
       axios.post(`${serverUrl}/voter/getVoterProfile`, data).then((res) => {
-        console.log('Getting profile info')
-        console.log(res)
+        console.log('Getting profile info');
+        console.log(res);
         if (res.data.status == 201) {
-          console.log('Voter Info retreived')
-          setName(res.data.data[0].name)
-          setCitizen(res.data.data[0].citizen)
-          setAssistance(res.data.data[0].assistance)
-          setPhone(res.data.data[0].phone)
-          setIdentification(res.data.data[0].identification)
-          setEmail(res.data.data[0].email)
-          setAddress(res.data.data[0].address)
+          console.log('Voter Info retreived');
+          setName(res.data.data[0].name);
+          setCitizen(res.data.data[0].citizen);
+          setAssistance(res.data.data[0].assistance);
+          setPhone(res.data.data[0].phone);
+          setIdentification(res.data.data[0].identification);
+          setEmail(res.data.data[0].email);
+          setAddress(res.data.data[0].address);
         } else {
-          console.log('Voter Not found')
-          sethasRegistered(false)
+          console.log('Voter Not found');
+          sethasRegistered(false);
         }
-      })
+      });
     }
-  }, [])
+  }, []);
 
   return (
     <div>
-      {!hasRegistered && <Navigate replace to="/register" />}
+      {!hasRegistered && <Navigate replace to='/register' />}
       <h1>Voter Profile</h1>
-      <div className="centeredText">
+      <div className='centeredText'>
         <Box
           sx={{
             width: '90%',
@@ -119,7 +119,7 @@ function VoterProfile() {
         </Box>
       </div>
     </div>
-  )
+  );
 }
 
-export default VoterProfile
+export default VoterProfile;
