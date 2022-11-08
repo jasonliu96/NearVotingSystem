@@ -13,6 +13,7 @@ import NoVoterRegistration from './components/User/NoVoterRegistration'
 import VotingPage from './components/User/VotingPage'
 import ConnectionCheck from './components/ConnectionCheck'
 import AdminPage from './components/Admin/AdminPage'
+import VoterProfile from './components/User/VoterProfile'
 
 function App() {
   const [phases, setphase] = useState([])
@@ -129,6 +130,12 @@ function App() {
                 }
               />
               <Route
+                path="profile"
+                element={
+                  value.phase == 1 ? <VoterProfile /> : <NoVoterRegistration />
+                }
+              />
+              <Route
                 path="results"
                 element={value.phase == 3 ? <ResultsPage /> : <NoResultsPage />}
               />
@@ -157,6 +164,7 @@ function App() {
               }
             />
             <Route path="register" element={<NoVoterRegistration />} />
+            <Route path="profile" element={<VoterProfile />} />
             <Route path="results" element={<NoResultsPage />} />
             {/* <Route path="vote" element={<NoLanding/>} /> */}
             <Route path="vote" element={<VotingPage />} />

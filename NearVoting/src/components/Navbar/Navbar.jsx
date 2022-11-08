@@ -8,7 +8,7 @@ import axios from 'axios'
 const Navbar = () => {
   const serverUrl = 'http://localhost:9999'
   const [isrestricted, setisrestricted] = useState(true)
-  const [hasRegistered, sethasRegistered] = useState(false)
+  // const [hasRegistered, sethasRegistered] = useState(false)
 
   React.useEffect(() => {
     if (window.walletConnection.isSignedIn()) {
@@ -16,19 +16,19 @@ const Navbar = () => {
         setisrestricted(false)
       else setisrestricted(true)
 
-      const accountId = window.walletConnection.getAccountId()
-      const data = {
-        accountId,
-      }
-      axios.post(`${serverUrl}/voter/getHasRegistered`, data).then((res) => {
-        if (res.status == 201) {
-          console.log('Voter has already registered successfully')
-          sethasRegistered(true)
-        } else {
-          console.log('Voter hasnt registered yet')
-          sethasRegistered(false)
-        }
-      })
+      // const accountId = window.walletConnection.getAccountId()
+      // const data = {
+      //   accountId,
+      // }
+      // axios.post(`${serverUrl}/voter/getHasRegistered`, data).then((res) => {
+      //   if (res.status == 201) {
+      //     console.log('Voter has already registered successfully')
+      //     sethasRegistered(true)
+      //   } else {
+      //     console.log('Voter hasnt registered yet')
+      //     sethasRegistered(false)
+      //   }
+      // })
     }
   }, [])
 
@@ -71,13 +71,13 @@ const Navbar = () => {
                 </Link>
               </li>
             )}
-            {hasRegistered ? null : (
-              <li>
-                <Link style={{ color: 'red' }} to="/register">
-                  Voter Registration
-                </Link>
-              </li>
-            )}
+            {/* {hasRegistered ? null : ( */}
+            <li>
+              <Link style={{ color: 'red' }} to="/register">
+                Voter Registration
+              </Link>
+            </li>
+            {/* )} */}
             <li>
               <Link to="/vote">Vote</Link>
             </li>

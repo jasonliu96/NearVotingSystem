@@ -7,6 +7,7 @@ const {
   getHasVoted,
   updateHasVoted,
   getHasRegistered,
+  getVoterProfile,
 } = require('../../queries/voter/register')
 
 router.post('/registerVoter', async (req, res) => {
@@ -87,6 +88,26 @@ router.post('/getHasRegistered', async (req, res) => {
     results = await getHasRegistered(req.body, res)
     console.log(`getHasRegistered results ${results.status}`)
     res.sendStatus(results.status)
+  } catch (err) {
+    console.log(`Catch error: ${err}`)
+    return err
+  }
+})
+
+router.post('/getVoterProfile', async (req, res) => {
+  try {
+    console.log(`Retreive voter profile: ${JSON.stringify(req.body)}`)
+
+    let results = null
+    results = await getVoterProfile(req.body, res)
+    console.log(`getVoterProfile results ${results.status}`)
+
+    let respData = {
+      status: results.status,
+      data: results.data,
+    }
+    console.log(`getVoterProfile results ${JSON.stringify(respData)}`)
+    res.send(JSON.stringify(respData))
   } catch (err) {
     console.log(`Catch error: ${err}`)
     return err
