@@ -1,50 +1,32 @@
-import React from 'react'
-import { useState, useEffect } from 'react'
-import { Link } from 'react-router-dom'
-import { login, logout } from '../../utils'
-import users from './NonRestrictedUsers'
-import axios from 'axios'
-import { NavLink } from 'react-router-dom';
+import React from 'react';
+import { useState, useEffect } from 'react';
+import { Link, NavLink } from 'react-router-dom';
+import { login, logout } from '../../utils';
+import axios from 'axios';
+import SettingsIcon from '@mui/icons-material/Settings';
+import { Button } from '@mui/material';
+import constants from '../../constants';
 
 const Navbar = () => {
-  const serverUrl = 'http://localhost:9999'
-  const [isrestricted, setisrestricted] = useState(true)
-  const [hasRegistered, sethasRegistered] = useState(false)
+  const serverUrl = constants.SERVER_URL;
 
   React.useEffect(() => {
     if (window.walletConnection.isSignedIn()) {
-      if (users.indexOf(window.walletConnection.getAccountId()) > -1)
-        setisrestricted(false)
-      else setisrestricted(true)
-
-      const accountId = window.walletConnection.getAccountId()
-      const data = {
-        accountId,
-      }
-      axios.post(`${serverUrl}/voter/getHasRegistered`, data).then((res) => {
-        if (res.status == 201) {
-          console.log('Voter has already registered successfully')
-          sethasRegistered(true)
-        } else {
-          console.log('Voter hasnt registered yet')
-          sethasRegistered(false)
-        }
-      })
     }
-  }, [])
+  }, []);
 
   if (!window.walletConnection.isSignedIn()) {
     return (
       <>
-        <div className="Navbar">
+        <div className='Navbar'>
           <ul>
             <li>
               <NavLink to="/" className={({ isActive }) => (isActive ? 'active' : 'inactive')} >Home</NavLink>
             </li>
           </ul>
-          <div className="LoginNav">
+          <div className='LoginNav'>
             <button
-              className="link LoginButton"
+              className='link LoginButton'
               style={{ float: 'right' }}
               onClick={login}
             >
@@ -53,7 +35,7 @@ const Navbar = () => {
           </div>
         </div>
       </>
-    )
+    );
   } else {
     return (
       <>
@@ -67,10 +49,16 @@ const Navbar = () => {
           )}
             <li> <NavLink to="/vote" className={({ isActive }) => (isActive ? 'active' : 'inactive')}>Vote</NavLink> </li>
             <li> <NavLink to="/results" className={({ isActive }) => (isActive ? 'active' : 'inactive')}>Results</NavLink> </li>
+
           </ul>
-          <div className="LoginNav">
+          <div className='LoginNav'>
+            <Button>
+              <Link to='/settings'>
+                <SettingsIcon style={{ color: 'white' }} fontSize='medium' />
+              </Link>
+            </Button>
             <button
-              className="link LoginButton"
+              className='link LoginButton'
               style={{ float: 'right' }}
               onClick={logout}>
               Sign out
@@ -78,7 +66,7 @@ const Navbar = () => {
           </div>
         </div>
       </>
-    )
+    );
   }
-}
-export default Navbar
+};
+export default Navbar;
