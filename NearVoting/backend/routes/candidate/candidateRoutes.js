@@ -5,7 +5,7 @@ const { addCandidate, checkUniquecandidateId, getCandidateInfo } = require('../.
 
 router.post('/addCandidate', async (req, res) => {
   try {
-    // console.log(`Add Candidate request body: ${JSON.stringify(req.body)}`)
+    console.log(`Add Candidate request body: ${JSON.stringify(req.body)}`)
 
     let results = null
     results = await addCandidate(req.body, res)
@@ -25,7 +25,7 @@ router.post('/checkUniquecandidateId', async (req, res) => {
 
     let results = null
     results = await checkUniquecandidateId(req.body, res)
-    // console.log(`checkUniquecandidateId results ${results.status}`)
+    console.log(`checkUniquecandidateId results ${results.status}`)
     res.sendStatus(results.status)
   } catch (err) {
     console.log(`Catch error: ${err}`)
@@ -35,9 +35,9 @@ router.post('/checkUniquecandidateId', async (req, res) => {
 
 router.post('/getCandidateInfo', async (req, res) => {
   try{
-    // console.log(`getCandidateInfo req body: ${JSON.stringify(req.body)}`)
+    console.log(`getCandidateInfo req body: ${JSON.stringify(req.body)}`)
     results = await getCandidateInfo(req.body, res)
-    // console.log(results.data)
+    console.log(results.data)
     res.send(200, results.data)
   } catch(err) {
     console.log(`error from getCandidateInfo: ${err}`)

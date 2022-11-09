@@ -1,3 +1,3 @@
-const users = ['shivanitest.testnet', 'vishalgadhvi.testnet'];
+const users = ['shivanitest.testnet','vishalgadhvi.testnet']
 
-export default users;
+export default users

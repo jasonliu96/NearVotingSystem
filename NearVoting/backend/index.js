@@ -9,19 +9,14 @@ app.use(cors())
 app.use(bodyParser.json())
 
 const port = 9999
-
 require('./models/voterschema')
+require('./models/testschema')
 const voter = require('./routes/voter/voterRoutes')
 app.use('/voter', voter)
 
 require('./models/candidateschema')
 const candidate = require('./routes/candidate/candidateRoutes')
 app.use('/candidate', candidate)
-
-require('./models/testschema')
-require('./models/transactionschema')
-const transaction = require('./routes/transaction/transactionRoutes')
-app.use('/transaction', transaction )
 
 async function run() {
   app.get('/', async (req, res) => {
