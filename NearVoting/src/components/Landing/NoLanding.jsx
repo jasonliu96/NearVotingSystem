@@ -12,10 +12,10 @@ function NoLanding1() {
       <Fragment>
         <Card style={{ margin: 0, padding: 0 }}>
           <Slider />
-          <p style={{ textAlign: 'center', marginTop: '2.5em' }}>
+          {/* <p style={{ textAlign: 'center', marginTop: '2.5em' }}>
             <button onClick={login}>Sign in</button>
-          </p>
-          <Card.Footer style={{ backgroundColor: '#1a125c', color: 'white' }}>
+          </p> */}
+          <Card.Footer style={{ backgroundColor: "#1a125c", color: 'white' }}>
             <Footer />
           </Card.Footer>
           <footer
@@ -65,4 +65,4 @@ function NoLanding1() {
   );
 }
 
-export default NoLanding1;
+export default NoLanding;
