@@ -47,9 +47,7 @@ const Navbar = () => {
               <Link to='/admin/register'>Add Candidate</Link>
             </li>
             <li>
-              <Link style={{ color: 'red' }} to='/register'>
-                Voter Registration
-              </Link>
+              <Link to='/register'>Voter Registration</Link>
             </li>
             <li>
               <Link to='/vote'>Vote</Link>
