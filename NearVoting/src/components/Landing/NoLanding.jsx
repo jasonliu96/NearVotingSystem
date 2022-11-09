@@ -10,16 +10,16 @@ import Slider from './Slider'
 import Footer from './Footer';
 
 
-function NoLanding1() {
+function NoLanding() {
 
   if (!window.walletConnection.isSignedIn()) {
     return (
       <Fragment>
         <Card style={{ margin: 0, padding: 0 }}>
           <Slider />
-          <p style={{ textAlign: 'center', marginTop: '2.5em' }}>
+          {/* <p style={{ textAlign: 'center', marginTop: '2.5em' }}>
             <button onClick={login}>Sign in</button>
-          </p>
+          </p> */}
           <Card.Footer style={{ backgroundColor: "#1a125c", color: 'white' }}>
             <Footer />
           </Card.Footer>
@@ -54,4 +54,4 @@ function NoLanding1() {
   );
 }
 
-export default NoLanding1;
+export default NoLanding;
