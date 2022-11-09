@@ -3,6 +3,8 @@ import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { login, logout } from '../../utils';
 import axios from 'axios';
+import { Button } from '@mui/material';
+import SettingsIcon from '@mui/icons-material/Settings';
 
 const Navbar = () => {
   const serverUrl = 'http://localhost:9999';

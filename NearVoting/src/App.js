@@ -13,6 +13,7 @@ import NoVotingPage from './components/User/NoVotingPage';
 import ConnectionCheck from './components/ConnectionCheck';
 import AdminPage from './components/Admin/AdminPage';
 import VoterProfile from './components/User/VoterProfile';
+import Settings from './components/User/Settings';
 
 function App() {
   const [phases, setphase] = useState(-1);
@@ -122,6 +123,7 @@ function App() {
               />
             }
           />
+          <Route path='settings' element={<Settings />} />
         </Routes>
       </Router>
     </div>
