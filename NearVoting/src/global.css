@@ -236,3 +236,8 @@ aside footer *:last-child {
 .active {
   background-color:red;
 }
+
+.center {
+  padding-top: 6%;
+  justify-content: center;
+  }

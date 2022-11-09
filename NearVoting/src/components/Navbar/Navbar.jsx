@@ -6,11 +6,19 @@ import axios from 'axios';
 import SettingsIcon from '@mui/icons-material/Settings';
 import { Button } from '@mui/material';
 import constants from '../../constants';
+import { alignProperty } from '@mui/material/styles/cssUtils';
 const Navbar = () => {
   const serverUrl = constants.SERVER_URL;
+  const [phases, setphase] = useState(-1);
 
   React.useEffect(() => {
     if (window.walletConnection.isSignedIn()) {
+
+      window.contract.getPhase({}).then((candidateFromContract) => {
+        console.log(candidateFromContract);
+        setphase(candidateFromContract);
+      });
+
     }
   }, []);
 
@@ -38,33 +46,75 @@ const Navbar = () => {
   } else {
     return (
       <>
-        <div className='Navbar'>
+        <div className="Navbar">
           <ul>
             <li>
-              <NavLink to='/' className={({ isActive }) => (isActive ? 'active' : 'inactive')} >Home</NavLink>
+              <NavLink
+                to="/"
+                className={({ isActive }) => (isActive ? "active" : "inactive")}
+              >
+                Home
+              </NavLink>
             </li>
             <li>
-              <NavLink to='/admin/register' className={({ isActive }) => (isActive ? 'active' : 'inactive')} >Add Candidate</NavLink>
+              <NavLink
+                to="/admin/register"
+                className={({ isActive }) => (isActive ? "active" : "inactive")}
+              >
+                Add Candidate
+              </NavLink>
             </li>
             <li>
-              <NavLink to='/register'className={({ isActive }) => (isActive ? 'active' : 'inactive')} >Voter Registration</NavLink>
+              <NavLink
+                to="/register"
+                className={({ isActive }) => (isActive ? "active" : "inactive")}
+              >
+                Voter Registration
+              </NavLink>
             </li>
             <li>
-              <NavLink to='/vote' className={({ isActive }) => (isActive ? 'active' : 'inactive')} >Vote</NavLink>
+              <NavLink
+                to="/vote"
+                className={({ isActive }) => (isActive ? "active" : "inactive")}
+              >
+                Vote
+              </NavLink>
             </li>
             <li>
-              <NavLink to='/results'className={({ isActive }) => (isActive ? 'active' : 'inactive')} >Results</NavLink>
+              <NavLink
+                to="/results"
+                className={({ isActive }) => (isActive ? "active" : "inactive")}
+              >
+                Results
+              </NavLink>
             </li>
           </ul>
-          <div className='LoginNav'>
+          <div>
+              {phases != -1 ? (
+                <div class="center" >
+                  {(() => {
+                    if (phases == 1) {
+                      return <div>Current Phase : Registration</div>;
+                    } else if (phases == 2) {
+                      return <div>Current Phase : Voting</div>;
+                    } else if (phases == 3) {
+                      return <div>Current Phase : Results</div>;
+                    }
+                  })()}
+                </div>
+              ) : (
+                <p>The Voting process will start after selecting the Phase</p>
+              )}
+            </div>
+          <div className="LoginNav">
             <Button>
-              <NavLink to='/settings'>
-                <SettingsIcon style={{ color: 'white' }} fontSize='medium' />
+              <NavLink to="/settings">
+                <SettingsIcon style={{ color: "white" }} fontSize="medium" />
               </NavLink>
             </Button>
             <button
-              className='link LoginButton'
-              style={{ float: 'right' }}
+              className="link LoginButton"
+              style={{ float: "right" }}
               onClick={logout}
             >
               Sign out

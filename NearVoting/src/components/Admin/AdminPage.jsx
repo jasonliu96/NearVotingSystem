@@ -90,6 +90,12 @@ function AdminPage({
           }
           setCandidates(oids);
         });
+
+        window.contract.getPhase({}).then((candidateFromContract) => {
+          console.log(candidateFromContract);
+          setphase(candidateFromContract);
+        });
+
       }
     },
 
@@ -101,47 +107,47 @@ function AdminPage({
 
   return (
     <>
-      <div style={{ width: '100%', textAlign: 'center' }}>
+      <div style={{ width: "100%", textAlign: "center" }}>
         <h1>Admin Page </h1>
         <div
-          className='AdminPage'
+          className="AdminPage"
           style={{
-            width: '100%',
-            align: 'center',
-            textAlign: 'center',
-            display: 'flex',
-            flexDirection: 'row',
-            justifyContent: 'center',
+            width: "100%",
+            align: "center",
+            textAlign: "center",
+            display: "flex",
+            flexDirection: "row",
+            justifyContent: "center",
           }}
         >
-          <div className='PhaseChange' style={{ width: '20%' }}>
-            <Card sx={{ display: 'flex' }}>
-              <div style={{ width: '100%', textAlign: 'center' }}>
-                <FormControl sx={{ m: 1, minWidth: 200 }} size='small'>
-                  <InputLabel id='demo-simple-select-autowidth-label'>
+          <div className="PhaseChange" style={{ width: "20%" }}>
+            <Card sx={{ display: "flex" }}>
+              <div style={{ width: "100%", textAlign: "center" }}>
+                <FormControl sx={{ m: 1, minWidth: 200 }} size="small">
+                  <InputLabel id="demo-simple-select-autowidth-label">
                     Phase
                   </InputLabel>
                   <Select
-                    name='selectList'
-                    id='selectList'
+                    name="selectList"
+                    id="selectList"
                     value={selectValue}
                     onChange={handleChange}
                     autoWidth
-                    label='Phase'
+                    label="Phase"
                   >
-                    <MenuItem value='1'>Registration Phase</MenuItem>
-                    <MenuItem value='2'>Voting Phase</MenuItem>
-                    <MenuItem value='3'>Result Phase</MenuItem>
+                    <MenuItem value="1">Registration Phase</MenuItem>
+                    <MenuItem value="2">Voting Phase</MenuItem>
+                    <MenuItem value="3">Result Phase</MenuItem>
                   </Select>
                   <div>
                     <Button
-                      variant='outlined'
-                      type='submit'
-                      value='Submit'
+                      variant="outlined"
+                      type="submit"
+                      value="Submit"
                       onClick={submit}
-                      style={{ textAlign: 'center', marginTop: 20, width: 200 }}
+                      style={{ textAlign: "center", marginTop: 20, width: 200 }}
                     >
-                      {' '}
+                      {" "}
                       Submit
                     </Button>
                   </div>
@@ -149,20 +155,20 @@ function AdminPage({
               </div>
             </Card>
           </div>
-          <div className='CandidateList' style={{ width: '40%' }}>
-            <Card sx={{ display: 'flex' }}>
+          <div className="CandidateList" style={{ width: "40%" }}>
+            <Card sx={{ display: "flex" }}>
               {candidates?.length > 0 ? (
                 <List sx={style}>
                   <Typography
                     sx={{ mt: 4, mb: 2 }}
-                    variant='h6'
-                    component='div'
+                    variant="h6"
+                    component="div"
                   >
                     Candidates List
                   </Typography>
                   {candidates.map((value, index) => (
                     <div key={index}>
-                      <div style={{ display: 'flex', flexDirection: 'row' }}>
+                      <div style={{ display: "flex", flexDirection: "row" }}>
                         <ListItem>{value.name}</ListItem>
                         <Button onClick={removeCandidate} value={value.name}>
                           <CloseIcon />
@@ -181,7 +187,7 @@ function AdminPage({
           </div>
         </div>
       </div>
-      {showNotification && <Notification method={'phase changed'} />}
+      {showNotification && <Notification method={"phase changed"} />}
       {showModal && (
         <ConfirmationModal
           onSubmit={confirmDelete}
