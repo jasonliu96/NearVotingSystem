@@ -14,7 +14,8 @@ import ConnectionCheck from './components/ConnectionCheck';
 import AdminPage from './components/Admin/AdminPage';
 import VoterProfile from './components/User/VoterProfile';
 import Settings from './components/User/Settings';
-
+import constants from './constants';
+import { executeTransaction } from './utils';
 function App() {
   const [phases, setphase] = useState(-1);
   const [selectValue, setselectvalue] = useState('');
@@ -33,11 +34,10 @@ function App() {
     var phaseNumber = parseInt(selectValue);
     console.log('this is the dropdown ' + selectValue);
     try {
-      // make an update call to the smart contract
-      window.contract.setPhase({
-        // pass the value that the user entered in the greeting field
+      const args = {
         phase: phaseNumber,
-      });
+      };
+      await executeTransaction(constants.SET_CONSTANT, args);
     } catch (e) {
       alert(
         'Something went wrong! ' +
