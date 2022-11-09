@@ -57,6 +57,11 @@ const Navbar = () => {
             </li>
           </ul>
           <div className='LoginNav'>
+            <Button>
+              <Link to='/settings'>
+                <SettingsIcon style={{ color: 'white' }} fontSize='medium' />
+              </Link>
+            </Button>
             <button
               className='link LoginButton'
               style={{ float: 'right' }}
