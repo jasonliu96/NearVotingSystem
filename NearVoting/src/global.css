@@ -225,10 +225,20 @@ aside footer *:last-child {
 }
 
 .Navbar li a:hover{
-  background-color:#111111;
+  background-color:red;
 }
 
 
 .centeredText {
   text-align: center;
 }
+
+.active {
+  background-color:red;
+}
+
+.center {
+  padding-top: 6%;
+  justify-content: center;
+  color: white;
+  }

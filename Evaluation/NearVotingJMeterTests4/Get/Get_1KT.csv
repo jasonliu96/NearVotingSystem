@@ -1,0 +1,1001 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1666141124370,2155,HTTP Request,200,OK,500T getCandidates 1-3,text,true,,8154,216,218,218,http://localhost:9999/getCandidatesMap,2155,0,2024
+1666141124367,2160,HTTP Request,200,OK,500T getCandidates 1-2,text,true,,8154,216,218,218,http://localhost:9999/getCandidatesMap,2160,0,2027
+1666141124365,2167,HTTP Request,200,OK,500T getCandidates 1-1,text,true,,8154,216,218,218,http://localhost:9999/getCandidatesMap,2167,0,2029
+1666141124379,2178,HTTP Request,200,OK,500T getCandidates 1-4,text,true,,8154,216,218,218,http://localhost:9999/getCandidatesMap,2178,0,2031
+1666141124389,2245,HTTP Request,200,OK,500T getCandidates 1-5,text,true,,8154,216,225,225,http://localhost:9999/getCandidatesMap,2245,0,2036
+1666141124398,2241,HTTP Request,200,OK,500T getCandidates 1-6,text,true,,8154,216,225,225,http://localhost:9999/getCandidatesMap,2241,0,2027
+1666141124408,2235,HTTP Request,200,OK,500T getCandidates 1-7,text,true,,8154,216,224,224,http://localhost:9999/getCandidatesMap,2234,0,2033
+1666141124429,2236,HTTP Request,200,OK,500T getCandidates 1-9,text,true,,8154,216,225,225,http://localhost:9999/getCandidatesMap,2236,0,2027
+1666141124418,2328,HTTP Request,200,OK,500T getCandidates 1-8,text,true,,8154,216,232,232,http://localhost:9999/getCandidatesMap,2328,0,2038
+1666141124462,2290,HTTP Request,200,OK,500T getCandidates 1-12,text,true,,8154,216,232,232,http://localhost:9999/getCandidatesMap,2290,0,2026
+1666141124440,2315,HTTP Request,200,OK,500T getCandidates 1-10,text,true,,8154,216,231,231,http://localhost:9999/getCandidatesMap,2315,0,2035
+1666141124462,2313,HTTP Request,200,OK,500T getCandidates 1-11,text,true,,8154,216,232,232,http://localhost:9999/getCandidatesMap,2313,0,2026
+1666141124479,2376,HTTP Request,200,OK,500T getCandidates 1-14,text,true,,8154,216,239,239,http://localhost:9999/getCandidatesMap,2376,0,2029
+1666141124489,2368,HTTP Request,200,OK,500T getCandidates 1-15,text,true,,8154,216,238,238,http://localhost:9999/getCandidatesMap,2368,0,2031
+1666141124468,2395,HTTP Request,200,OK,500T getCandidates 1-13,text,true,,8154,216,238,238,http://localhost:9999/getCandidatesMap,2395,0,2040
+1666141124510,2372,HTTP Request,200,OK,500T getCandidates 1-17,text,true,,8154,216,239,239,http://localhost:9999/getCandidatesMap,2372,0,2026
+1666141124500,2463,HTTP Request,200,OK,500T getCandidates 1-16,text,true,,8154,216,246,246,http://localhost:9999/getCandidatesMap,2463,0,2039
+1666141124519,2446,HTTP Request,200,OK,500T getCandidates 1-18,text,true,,8154,216,245,245,http://localhost:9999/getCandidatesMap,2446,0,2032
+1666141124538,2433,HTTP Request,200,OK,500T getCandidates 1-20,text,true,,8154,216,245,245,http://localhost:9999/getCandidatesMap,2433,0,2029
+1666141124529,2460,HTTP Request,200,OK,500T getCandidates 1-19,text,true,,8154,216,245,245,http://localhost:9999/getCandidatesMap,2460,0,2041
+1666141124559,2509,HTTP Request,200,OK,500T getCandidates 1-22,text,true,,8154,216,252,252,http://localhost:9999/getCandidatesMap,2509,0,2024
+1666141124549,2521,HTTP Request,200,OK,500T getCandidates 1-21,text,true,,8154,216,251,251,http://localhost:9999/getCandidatesMap,2521,0,2036
+1666141124588,2488,HTTP Request,200,OK,500T getCandidates 1-25,text,true,,8154,216,251,251,http://localhost:9999/getCandidatesMap,2488,0,2027
+1666141124579,2514,HTTP Request,200,OK,500T getCandidates 1-24,text,true,,8154,216,252,252,http://localhost:9999/getCandidatesMap,2514,0,2039
+1666141124568,2607,HTTP Request,200,OK,500T getCandidates 1-23,text,true,,8154,216,259,259,http://localhost:9999/getCandidatesMap,2607,0,2051
+1666141124598,2582,HTTP Request,200,OK,500T getCandidates 1-26,text,true,,8154,216,258,258,http://localhost:9999/getCandidatesMap,2582,0,2032
+1666141124608,2577,HTTP Request,200,OK,500T getCandidates 1-27,text,true,,8154,216,258,258,http://localhost:9999/getCandidatesMap,2577,0,2037
+1666141124620,2584,HTTP Request,200,OK,500T getCandidates 1-28,text,true,,8154,216,259,259,http://localhost:9999/getCandidatesMap,2584,0,2025
+1666141124638,2646,HTTP Request,200,OK,500T getCandidates 1-30,text,true,,8154,216,266,266,http://localhost:9999/getCandidatesMap,2646,0,2038
+1666141124629,2657,HTTP Request,200,OK,500T getCandidates 1-29,text,true,,8154,216,265,265,http://localhost:9999/getCandidatesMap,2657,0,2032
+1666141124649,2647,HTTP Request,200,OK,500T getCandidates 1-31,text,true,,8154,216,265,265,http://localhost:9999/getCandidatesMap,2647,0,2027
+1666141124659,2653,HTTP Request,200,OK,500T getCandidates 1-32,text,true,,8154,216,266,266,http://localhost:9999/getCandidatesMap,2653,0,2033
+1666141124679,2709,HTTP Request,200,OK,500T getCandidates 1-34,text,true,,8154,216,273,273,http://localhost:9999/getCandidatesMap,2709,0,2029
+1666141124669,2722,HTTP Request,200,OK,500T getCandidates 1-33,text,true,,8154,216,272,272,http://localhost:9999/getCandidatesMap,2722,0,2023
+1666141124700,2698,HTTP Request,200,OK,500T getCandidates 1-36,text,true,,8154,216,271,271,http://localhost:9999/getCandidatesMap,2698,0,2023
+1666141124690,2729,HTTP Request,200,OK,500T getCandidates 1-35,text,true,,8154,216,273,273,http://localhost:9999/getCandidatesMap,2729,0,2033
+1666141124729,2767,HTTP Request,200,OK,500T getCandidates 1-39,text,true,,8154,216,279,279,http://localhost:9999/getCandidatesMap,2767,0,2026
+1666141124709,2789,HTTP Request,200,OK,500T getCandidates 1-37,text,true,,8154,216,278,278,http://localhost:9999/getCandidatesMap,2789,0,2030
+1666141124719,2787,HTTP Request,200,OK,500T getCandidates 1-38,text,true,,8154,216,278,278,http://localhost:9999/getCandidatesMap,2787,0,2036
+1666141124749,2776,HTTP Request,200,OK,500T getCandidates 1-41,text,true,,8154,216,279,279,http://localhost:9999/getCandidatesMap,2776,0,2025
+1666141124739,2864,HTTP Request,200,OK,500T getCandidates 1-40,text,true,,8154,216,286,286,http://localhost:9999/getCandidatesMap,2864,0,2035
+1666141124760,2844,HTTP Request,200,OK,500T getCandidates 1-42,text,true,,8154,216,285,285,http://localhost:9999/getCandidatesMap,2844,0,2026
+1666141124780,2833,HTTP Request,200,OK,500T getCandidates 1-44,text,true,,8154,216,285,285,http://localhost:9999/getCandidatesMap,2833,0,2021
+1666141124770,2859,HTTP Request,200,OK,500T getCandidates 1-43,text,true,,8154,216,286,286,http://localhost:9999/getCandidatesMap,2859,0,2031
+1666141124789,2922,HTTP Request,200,OK,500T getCandidates 1-45,text,true,,8154,216,293,293,http://localhost:9999/getCandidatesMap,2922,0,2028
+1666141124799,2913,HTTP Request,200,OK,500T getCandidates 1-46,text,true,,8154,216,292,292,http://localhost:9999/getCandidatesMap,2913,0,2032
+1666141124809,2914,HTTP Request,200,OK,500T getCandidates 1-47,text,true,,8154,216,292,292,http://localhost:9999/getCandidatesMap,2913,0,2022
+1666141124818,2918,HTTP Request,200,OK,500T getCandidates 1-48,text,true,,8154,216,292,292,http://localhost:9999/getCandidatesMap,2918,0,2029
+1666141124830,2985,HTTP Request,200,OK,500T getCandidates 1-49,text,true,,8154,216,299,299,http://localhost:9999/getCandidatesMap,2985,0,2032
+1666141124840,2976,HTTP Request,200,OK,500T getCandidates 1-50,text,true,,8154,216,298,298,http://localhost:9999/getCandidatesMap,2976,0,2027
+1666141124848,2991,HTTP Request,200,OK,500T getCandidates 1-51,text,true,,8154,216,300,300,http://localhost:9999/getCandidatesMap,2991,0,2030
+1666141124858,3005,HTTP Request,200,OK,500T getCandidates 1-52,text,true,,8154,216,301,301,http://localhost:9999/getCandidatesMap,3005,0,2020
+1666141124879,3038,HTTP Request,200,OK,500T getCandidates 1-54,text,true,,8154,216,305,305,http://localhost:9999/getCandidatesMap,3037,0,2030
+1666141124869,3051,HTTP Request,200,OK,500T getCandidates 1-53,text,true,,8154,216,305,305,http://localhost:9999/getCandidatesMap,3051,0,2040
+1666141124889,3052,HTTP Request,200,OK,500T getCandidates 1-55,text,true,,8154,216,306,306,http://localhost:9999/getCandidatesMap,3052,0,2040
+1666141124898,3069,HTTP Request,200,OK,500T getCandidates 1-56,text,true,,8154,216,307,307,http://localhost:9999/getCandidatesMap,3069,0,2031
+1666141124910,3115,HTTP Request,200,OK,500T getCandidates 1-57,text,true,,8154,216,312,312,http://localhost:9999/getCandidatesMap,3115,0,2031
+1666141124920,3109,HTTP Request,200,OK,500T getCandidates 1-58,text,true,,8154,216,311,311,http://localhost:9999/getCandidatesMap,3109,0,2036
+1666141124929,3123,HTTP Request,200,OK,500T getCandidates 1-59,text,true,,8154,216,313,313,http://localhost:9999/getCandidatesMap,3123,0,2027
+1666141124958,3115,HTTP Request,200,OK,500T getCandidates 1-62,text,true,,8154,216,314,314,http://localhost:9999/getCandidatesMap,3115,0,2015
+1666141124939,3189,HTTP Request,200,OK,500T getCandidates 1-60,text,true,,8154,216,318,318,http://localhost:9999/getCandidatesMap,3189,0,2034
+1666141124969,3163,HTTP Request,200,OK,500T getCandidates 1-63,text,true,,8154,216,318,318,http://localhost:9999/getCandidatesMap,3163,0,2034
+1666141124948,3208,HTTP Request,200,OK,500T getCandidates 1-61,text,true,,8154,216,319,319,http://localhost:9999/getCandidatesMap,3208,0,2055
+1666141124989,3286,HTTP Request,200,OK,500T getCandidates 1-65,text,true,,8154,216,330,330,http://localhost:9999/getCandidatesMap,3286,0,2030
+1666141124999,3277,HTTP Request,200,OK,500T getCandidates 1-66,text,true,,8154,216,329,329,http://localhost:9999/getCandidatesMap,3277,0,2035
+1666141124979,3298,HTTP Request,200,OK,500T getCandidates 1-64,text,true,,8154,216,328,328,http://localhost:9999/getCandidatesMap,3298,0,2055
+1666141125018,3260,HTTP Request,200,OK,500T getCandidates 1-68,text,true,,8154,216,327,327,http://localhost:9999/getCandidatesMap,3260,0,2032
+1666141125009,3313,HTTP Request,200,OK,500T getCandidates 1-67,text,true,,8154,216,331,331,http://localhost:9999/getCandidatesMap,3313,0,2041
+1666141125029,3316,HTTP Request,200,OK,500T getCandidates 1-69,text,true,,8154,216,332,332,http://localhost:9999/getCandidatesMap,3316,0,2037
+1666141125048,3303,HTTP Request,200,OK,500T getCandidates 1-71,text,true,,8154,216,332,332,http://localhost:9999/getCandidatesMap,3303,0,2034
+1666141125038,3335,HTTP Request,200,OK,500T getCandidates 1-70,text,true,,8154,216,333,333,http://localhost:9999/getCandidatesMap,3335,0,2044
+1666141125068,3366,HTTP Request,200,OK,500T getCandidates 1-73,text,true,,8154,216,338,338,http://localhost:9999/getCandidatesMap,3366,0,2030
+1666141125059,3400,HTTP Request,200,OK,500T getCandidates 1-72,text,true,,8154,216,340,340,http://localhost:9999/getCandidatesMap,3400,0,2039
+1666141125090,3474,HTTP Request,200,OK,500T getCandidates 1-75,text,true,,8154,216,339,339,http://localhost:9999/getCandidatesMap,3373,0,2024
+1666141125080,3487,HTTP Request,200,OK,500T getCandidates 1-74,text,true,,8154,216,344,344,http://localhost:9999/getCandidatesMap,3487,0,2034
+1666141125109,3463,HTTP Request,200,OK,500T getCandidates 1-77,text,true,,8154,216,348,348,http://localhost:9999/getCandidatesMap,3463,0,2036
+1666141125118,3455,HTTP Request,200,OK,500T getCandidates 1-78,text,true,,8154,216,347,347,http://localhost:9999/getCandidatesMap,3455,0,2027
+1666141125098,3484,HTTP Request,200,OK,500T getCandidates 1-76,text,true,,8154,216,347,347,http://localhost:9999/getCandidatesMap,3483,0,2047
+1666141125149,3444,HTTP Request,200,OK,500T getCandidates 1-81,text,true,,8154,216,347,347,http://localhost:9999/getCandidatesMap,3444,0,2032
+1666141125180,3509,HTTP Request,200,OK,500T getCandidates 1-84,text,true,,8154,216,356,356,http://localhost:9999/getCandidatesMap,3509,0,2026
+1666141125158,3532,HTTP Request,200,OK,500T getCandidates 1-82,text,true,,8154,216,355,355,http://localhost:9999/getCandidatesMap,3532,0,2022
+1666141125139,3552,HTTP Request,200,OK,500T getCandidates 1-80,text,true,,8154,216,354,354,http://localhost:9999/getCandidatesMap,3552,0,2041
+1666141125128,3574,HTTP Request,200,OK,500T getCandidates 1-79,text,true,,8154,216,354,354,http://localhost:9999/getCandidatesMap,3574,0,2017
+1666141125188,3602,HTTP Request,200,OK,500T getCandidates 1-85,text,true,,8154,216,362,362,http://localhost:9999/getCandidatesMap,3602,0,2034
+1666141125208,3583,HTTP Request,200,OK,500T getCandidates 1-87,text,true,,8154,216,361,361,http://localhost:9999/getCandidatesMap,3583,0,2030
+1666141125169,3626,HTTP Request,200,OK,500T getCandidates 1-83,text,true,,8154,216,360,360,http://localhost:9999/getCandidatesMap,3626,0,2037
+1666141125199,3603,HTTP Request,200,OK,500T getCandidates 1-86,text,true,,8154,216,360,360,http://localhost:9999/getCandidatesMap,3603,0,2039
+1666141125219,3680,HTTP Request,200,OK,500T getCandidates 1-88,text,true,,8154,216,369,369,http://localhost:9999/getCandidatesMap,3679,0,2035
+1666141125239,3661,HTTP Request,200,OK,500T getCandidates 1-90,text,true,,8154,216,368,368,http://localhost:9999/getCandidatesMap,3661,0,2019
+1666141125290,3613,HTTP Request,200,OK,500T getCandidates 1-95,text,true,,8154,216,367,367,http://localhost:9999/getCandidatesMap,3613,0,2025
+1666141125258,3654,HTTP Request,200,OK,500T getCandidates 1-92,text,true,,8154,216,367,367,http://localhost:9999/getCandidatesMap,3654,0,2027
+1666141125229,3779,HTTP Request,200,OK,500T getCandidates 1-89,text,true,,8154,216,375,375,http://localhost:9999/getCandidatesMap,3778,0,2040
+1666141125248,3762,HTTP Request,200,OK,500T getCandidates 1-91,text,true,,8154,216,375,375,http://localhost:9999/getCandidatesMap,3762,0,2037
+1666141125299,3713,HTTP Request,200,OK,500T getCandidates 1-96,text,true,,8154,216,374,374,http://localhost:9999/getCandidatesMap,3713,0,2031
+1666141125269,3754,HTTP Request,200,OK,500T getCandidates 1-93,text,true,,8154,216,374,374,http://localhost:9999/getCandidatesMap,3754,0,2031
+1666141125308,3807,HTTP Request,200,OK,500T getCandidates 1-97,text,true,,8154,216,382,382,http://localhost:9999/getCandidatesMap,3807,0,2039
+1666141125280,3838,HTTP Request,200,OK,500T getCandidates 1-94,text,true,,8154,216,382,382,http://localhost:9999/getCandidatesMap,3838,0,2035
+1666141125318,3802,HTTP Request,200,OK,500T getCandidates 1-98,text,true,,8154,216,381,381,http://localhost:9999/getCandidatesMap,3802,0,2029
+1666141125328,3806,HTTP Request,200,OK,500T getCandidates 1-99,text,true,,8154,216,381,381,http://localhost:9999/getCandidatesMap,3806,0,2019
+1666141125348,3873,HTTP Request,200,OK,500T getCandidates 1-101,text,true,,8154,216,389,389,http://localhost:9999/getCandidatesMap,3873,0,2014
+1666141125338,3886,HTTP Request,200,OK,500T getCandidates 1-100,text,true,,8154,216,388,388,http://localhost:9999/getCandidatesMap,3886,0,2024
+1666141125368,3856,HTTP Request,200,OK,500T getCandidates 1-103,text,true,,8154,216,387,387,http://localhost:9999/getCandidatesMap,3856,0,2010
+1666141125358,3880,HTTP Request,200,OK,500T getCandidates 1-102,text,true,,8154,216,387,387,http://localhost:9999/getCandidatesMap,3880,0,2020
+1666141125398,3931,HTTP Request,200,OK,500T getCandidates 1-106,text,true,,8154,216,396,396,http://localhost:9999/getCandidatesMap,3931,0,2038
+1666141125389,3942,HTTP Request,200,OK,500T getCandidates 1-105,text,true,,8154,216,395,395,http://localhost:9999/getCandidatesMap,3942,0,2047
+1666141125384,3948,HTTP Request,200,OK,500T getCandidates 1-104,text,true,,8154,216,394,394,http://localhost:9999/getCandidatesMap,3948,0,2036
+1666141125409,3938,HTTP Request,200,OK,500T getCandidates 1-107,text,true,,8154,216,394,394,http://localhost:9999/getCandidatesMap,3938,0,2042
+1666141125428,4011,HTTP Request,200,OK,500T getCandidates 1-109,text,true,,8154,216,403,403,http://localhost:9999/getCandidatesMap,4011,0,2040
+1666141125438,4002,HTTP Request,200,OK,500T getCandidates 1-110,text,true,,8154,216,402,402,http://localhost:9999/getCandidatesMap,4002,0,2046
+1666141125418,4024,HTTP Request,200,OK,500T getCandidates 1-108,text,true,,8154,216,401,401,http://localhost:9999/getCandidatesMap,4024,0,2050
+1666141125459,3998,HTTP Request,200,OK,500T getCandidates 1-112,text,true,,8154,216,401,401,http://localhost:9999/getCandidatesMap,3998,0,2040
+1666141125449,4102,HTTP Request,200,OK,500T getCandidates 1-111,text,true,,8154,216,410,410,http://localhost:9999/getCandidatesMap,4101,0,2051
+1666141125478,4074,HTTP Request,200,OK,500T getCandidates 1-114,text,true,,8154,216,409,409,http://localhost:9999/getCandidatesMap,4074,0,2038
+1666141125468,4085,HTTP Request,200,OK,500T getCandidates 1-113,text,true,,8154,216,408,408,http://localhost:9999/getCandidatesMap,4085,0,2048
+1666141125490,4077,HTTP Request,200,OK,500T getCandidates 1-115,text,true,,8154,216,408,408,http://localhost:9999/getCandidatesMap,4077,0,2042
+1666141125498,4156,HTTP Request,200,OK,500T getCandidates 1-116,text,true,,8154,216,416,416,http://localhost:9999/getCandidatesMap,4156,0,2063
+1666141125528,4132,HTTP Request,200,OK,500T getCandidates 1-119,text,true,,8154,216,416,416,http://localhost:9999/getCandidatesMap,4132,0,2035
+1666141125523,4139,HTTP Request,200,OK,500T getCandidates 1-117,text,true,,8154,216,415,415,http://localhost:9999/getCandidatesMap,4139,0,2040
+1666141125523,4150,HTTP Request,200,OK,500T getCandidates 1-118,text,true,,8154,216,415,415,http://localhost:9999/getCandidatesMap,4150,0,2040
+1666141125538,4226,HTTP Request,200,OK,500T getCandidates 1-120,text,true,,8154,216,423,423,http://localhost:9999/getCandidatesMap,4225,0,2041
+1666141125559,4207,HTTP Request,200,OK,500T getCandidates 1-122,text,true,,8154,216,422,422,http://localhost:9999/getCandidatesMap,4207,0,2036
+1666141125549,4222,HTTP Request,200,OK,500T getCandidates 1-121,text,true,,8154,216,422,422,http://localhost:9999/getCandidatesMap,4222,0,2046
+1666141125590,4189,HTTP Request,200,OK,500T getCandidates 1-125,text,true,,8154,216,422,422,http://localhost:9999/getCandidatesMap,4189,0,2021
+1666141125569,4299,HTTP Request,200,OK,500T getCandidates 1-123,text,true,,8154,216,429,429,http://localhost:9999/getCandidatesMap,4299,0,2042
+1666141125579,4292,HTTP Request,200,OK,500T getCandidates 1-124,text,true,,8154,216,429,429,http://localhost:9999/getCandidatesMap,4292,0,2047
+1666141125600,4275,HTTP Request,200,OK,500T getCandidates 1-126,text,true,,8154,216,428,428,http://localhost:9999/getCandidatesMap,4275,0,2042
+1666141125609,4274,HTTP Request,200,OK,500T getCandidates 1-127,text,true,,8154,216,428,428,http://localhost:9999/getCandidatesMap,4274,0,2049
+1666141125639,4350,HTTP Request,200,OK,500T getCandidates 1-130,text,true,,8154,216,436,436,http://localhost:9999/getCandidatesMap,4349,0,2019
+1666141125619,4370,HTTP Request,200,OK,500T getCandidates 1-128,text,true,,8154,216,436,436,http://localhost:9999/getCandidatesMap,4370,0,2040
+1666141125649,4340,HTTP Request,200,OK,500T getCandidates 1-131,text,true,,8154,216,436,436,http://localhost:9999/getCandidatesMap,4340,0,2024
+1666141125629,4360,HTTP Request,200,OK,500T getCandidates 1-129,text,true,,8154,216,437,437,http://localhost:9999/getCandidatesMap,4360,0,2029
+1666141125669,4413,HTTP Request,200,OK,500T getCandidates 1-133,text,true,,8154,216,443,443,http://localhost:9999/getCandidatesMap,4413,0,2019
+1666141125659,4424,HTTP Request,200,OK,500T getCandidates 1-132,text,true,,8154,216,442,442,http://localhost:9999/getCandidatesMap,4424,0,2029
+1666141125680,4408,HTTP Request,200,OK,500T getCandidates 1-134,text,true,,8154,216,441,441,http://localhost:9999/getCandidatesMap,4408,0,2040
+1666141125690,4408,HTTP Request,200,OK,500T getCandidates 1-135,text,true,,8154,216,442,442,http://localhost:9999/getCandidatesMap,4408,0,2048
+1666141125699,4556,HTTP Request,200,OK,500T getCandidates 1-136,text,true,,8154,216,456,456,http://localhost:9999/getCandidatesMap,4556,0,2039
+1666141125709,4547,HTTP Request,200,OK,500T getCandidates 1-137,text,true,,8154,216,455,455,http://localhost:9999/getCandidatesMap,4547,0,2043
+1666141125719,4538,HTTP Request,200,OK,500T getCandidates 1-138,text,true,,8154,216,454,454,http://localhost:9999/getCandidatesMap,4538,0,2049
+1666141125749,4510,HTTP Request,200,OK,500T getCandidates 1-141,text,true,,8154,216,454,454,http://localhost:9999/getCandidatesMap,4510,0,2019
+1666141125739,4554,HTTP Request,200,OK,500T getCandidates 1-140,text,true,,8154,216,456,456,http://localhost:9999/getCandidatesMap,4554,0,2029
+1666141125728,4566,HTTP Request,200,OK,500T getCandidates 1-139,text,true,,8154,216,455,455,http://localhost:9999/getCandidatesMap,4566,0,2045
+1666141125759,4545,HTTP Request,200,OK,500T getCandidates 1-142,text,true,,8154,216,455,455,http://localhost:9999/getCandidatesMap,4545,0,2040
+1666141125779,4537,HTTP Request,200,OK,500T getCandidates 1-144,text,true,,8154,216,455,455,http://localhost:9999/getCandidatesMap,4537,0,2036
+1666141125769,4632,HTTP Request,200,OK,500T getCandidates 1-143,text,true,,8154,216,463,463,http://localhost:9999/getCandidatesMap,4632,0,2049
+1666141125790,4612,HTTP Request,200,OK,500T getCandidates 1-145,text,true,,8154,216,462,462,http://localhost:9999/getCandidatesMap,4612,0,2040
+1666141125800,4615,HTTP Request,200,OK,500T getCandidates 1-146,text,true,,8154,216,462,462,http://localhost:9999/getCandidatesMap,4615,0,2046
+1666141125809,4614,HTTP Request,200,OK,500T getCandidates 1-147,text,true,,8154,216,461,461,http://localhost:9999/getCandidatesMap,4614,0,2037
+1666141125839,4672,HTTP Request,200,OK,500T getCandidates 1-150,text,true,,8154,216,470,470,http://localhost:9999/getCandidatesMap,4672,0,2037
+1666141125819,4693,HTTP Request,200,OK,500T getCandidates 1-148,text,true,,8154,216,469,469,http://localhost:9999/getCandidatesMap,4693,0,2043
+1666141125849,4674,HTTP Request,200,OK,500T getCandidates 1-151,text,true,,8154,216,469,469,http://localhost:9999/getCandidatesMap,4674,0,2033
+1666141125829,4705,HTTP Request,200,OK,500T getCandidates 1-149,text,true,,8154,216,469,469,http://localhost:9999/getCandidatesMap,4705,0,2054
+1666141125859,4769,HTTP Request,200,OK,500T getCandidates 1-152,text,true,,8154,216,477,477,http://localhost:9999/getCandidatesMap,4769,0,2034
+1666141125869,4762,HTTP Request,200,OK,500T getCandidates 1-153,text,true,,8154,216,477,477,http://localhost:9999/getCandidatesMap,4762,0,2014
+1666141125890,4753,HTTP Request,200,OK,500T getCandidates 1-155,text,true,,8154,216,477,477,http://localhost:9999/getCandidatesMap,4753,0,2038
+1666141125879,4788,HTTP Request,200,OK,500T getCandidates 1-154,text,true,,8154,216,478,478,http://localhost:9999/getCandidatesMap,4788,0,2049
+1666141125909,4827,HTTP Request,200,OK,500T getCandidates 1-157,text,true,,8154,216,484,484,http://localhost:9999/getCandidatesMap,4827,0,2032
+1666141125899,4838,HTTP Request,200,OK,500T getCandidates 1-156,text,true,,8154,216,483,483,http://localhost:9999/getCandidatesMap,4838,0,2042
+1666141125919,4832,HTTP Request,200,OK,500T getCandidates 1-158,text,true,,8154,216,484,484,http://localhost:9999/getCandidatesMap,4832,0,2022
+1666141125949,4826,HTTP Request,200,OK,500T getCandidates 1-161,text,true,,8154,216,485,485,http://localhost:9999/getCandidatesMap,4826,0,2023
+1666141125939,4902,HTTP Request,200,OK,500T getCandidates 1-160,text,true,,8154,216,491,491,http://localhost:9999/getCandidatesMap,4902,0,2033
+1666141125928,4914,HTTP Request,200,OK,500T getCandidates 1-159,text,true,,8154,216,490,490,http://localhost:9999/getCandidatesMap,4914,0,2048
+1666141125959,4898,HTTP Request,200,OK,500T getCandidates 1-162,text,true,,8154,216,490,490,http://localhost:9999/getCandidatesMap,4898,0,2043
+1666141125969,4914,HTTP Request,200,OK,500T getCandidates 1-163,text,true,,8154,216,492,492,http://localhost:9999/getCandidatesMap,4914,0,2033
+1666141125999,4950,HTTP Request,200,OK,500T getCandidates 1-166,text,true,,8154,216,498,498,http://localhost:9999/getCandidatesMap,4950,0,2019
+1666141125979,4972,HTTP Request,200,OK,500T getCandidates 1-164,text,true,,8154,216,497,497,http://localhost:9999/getCandidatesMap,4972,0,2040
+1666141125990,4974,HTTP Request,200,OK,500T getCandidates 1-165,text,true,,8154,216,497,497,http://localhost:9999/getCandidatesMap,4974,0,2044
+1666141126019,4971,HTTP Request,200,OK,500T getCandidates 1-168,text,true,,8154,216,499,499,http://localhost:9999/getCandidatesMap,4971,0,2031
+1666141126008,5052,HTTP Request,200,OK,500T getCandidates 1-167,text,true,,8154,216,505,505,http://localhost:9999/getCandidatesMap,5051,0,2042
+1666141126029,5034,HTTP Request,200,OK,500T getCandidates 1-169,text,true,,8154,216,504,504,http://localhost:9999/getCandidatesMap,5034,0,2036
+1666141126049,5027,HTTP Request,200,OK,500T getCandidates 1-171,text,true,,8154,216,504,504,http://localhost:9999/getCandidatesMap,5027,0,2022
+1666141126039,5064,HTTP Request,200,OK,500T getCandidates 1-170,text,true,,8154,216,506,506,http://localhost:9999/getCandidatesMap,5064,0,2041
+1666141126059,5112,HTTP Request,200,OK,500T getCandidates 1-172,text,true,,8154,216,512,512,http://localhost:9999/getCandidatesMap,5112,0,2051
+1666141126079,5096,HTTP Request,200,OK,500T getCandidates 1-174,text,true,,8154,216,511,511,http://localhost:9999/getCandidatesMap,5096,0,2023
+1666141126069,5111,HTTP Request,200,OK,500T getCandidates 1-173,text,true,,8154,216,511,511,http://localhost:9999/getCandidatesMap,5111,0,2056
+1666141126119,5101,HTTP Request,200,OK,500T getCandidates 1-178,text,true,,8154,216,514,514,http://localhost:9999/getCandidatesMap,5101,0,2023
+1666141126100,5176,HTTP Request,200,OK,500T getCandidates 1-176,text,true,,8154,216,518,518,http://localhost:9999/getCandidatesMap,5176,0,2041
+1666141126110,5172,HTTP Request,200,OK,500T getCandidates 1-177,text,true,,8154,216,518,518,http://localhost:9999/getCandidatesMap,5172,0,2031
+1666141126088,5198,HTTP Request,200,OK,500T getCandidates 1-175,text,true,,8154,216,517,517,http://localhost:9999/getCandidatesMap,5198,0,2054
+1666141126129,5196,HTTP Request,200,OK,500T getCandidates 1-179,text,true,,8154,216,520,520,http://localhost:9999/getCandidatesMap,5196,0,2044
+1666141126139,5243,HTTP Request,200,OK,500T getCandidates 1-180,text,true,,8154,216,525,525,http://localhost:9999/getCandidatesMap,5243,0,2034
+1666141126149,5245,HTTP Request,200,OK,500T getCandidates 1-181,text,true,,8154,216,525,525,http://localhost:9999/getCandidatesMap,5245,0,2024
+1666141126169,5226,HTTP Request,200,OK,500T getCandidates 1-183,text,true,,8154,216,524,524,http://localhost:9999/getCandidatesMap,5226,0,2020
+1666141126159,5276,HTTP Request,200,OK,500T getCandidates 1-182,text,true,,8154,216,527,527,http://localhost:9999/getCandidatesMap,5276,0,2030
+1666141126179,5310,HTTP Request,200,OK,500T getCandidates 1-184,text,true,,8154,216,532,532,http://localhost:9999/getCandidatesMap,5310,0,2025
+1666141126189,5311,HTTP Request,200,OK,500T getCandidates 1-185,text,true,,8154,216,532,532,http://localhost:9999/getCandidatesMap,5311,0,2031
+1666141126209,5313,HTTP Request,200,OK,500T getCandidates 1-187,text,true,,8154,216,533,533,http://localhost:9999/getCandidatesMap,5313,0,2058
+1666141126199,5343,HTTP Request,200,OK,500T getCandidates 1-186,text,true,,8154,216,534,534,http://localhost:9999/getCandidatesMap,5343,0,2052
+1666141126230,5370,HTTP Request,200,OK,500T getCandidates 1-189,text,true,,8154,216,539,539,http://localhost:9999/getCandidatesMap,5370,0,2037
+1666141126220,5392,HTTP Request,200,OK,500T getCandidates 1-188,text,true,,8154,216,539,539,http://localhost:9999/getCandidatesMap,5392,0,2047
+1666141126259,5377,HTTP Request,200,OK,500T getCandidates 1-192,text,true,,8154,216,540,540,http://localhost:9999/getCandidatesMap,5377,0,2039
+1666141126268,5387,HTTP Request,200,OK,500T getCandidates 1-193,text,true,,8154,216,541,541,http://localhost:9999/getCandidatesMap,5387,0,2031
+1666141126339,5369,HTTP Request,200,OK,500T getCandidates 1-200,text,true,,8154,216,546,546,http://localhost:9999/getCandidatesMap,5369,0,2022
+1666141126378,5343,HTTP Request,200,OK,500T getCandidates 1-204,text,true,,8154,216,546,546,http://localhost:9999/getCandidatesMap,5343,0,2045
+1666141126418,5327,HTTP Request,200,OK,500T getCandidates 1-208,text,true,,8154,216,547,547,http://localhost:9999/getCandidatesMap,5327,0,2035
+1666141126278,5485,HTTP Request,200,OK,500T getCandidates 1-194,text,true,,8154,216,548,548,http://localhost:9999/getCandidatesMap,5485,0,2052
+1666141126248,5568,HTTP Request,200,OK,500T getCandidates 1-191,text,true,,8154,216,552,552,http://localhost:9999/getCandidatesMap,5568,0,2051
+1666141126298,5528,HTTP Request,200,OK,500T getCandidates 1-196,text,true,,8154,216,552,552,http://localhost:9999/getCandidatesMap,5528,0,2047
+1666141126238,5610,HTTP Request,200,OK,500T getCandidates 1-190,text,true,,8154,216,553,553,http://localhost:9999/getCandidatesMap,5610,0,2060
+1666141126318,5585,HTTP Request,200,OK,500T getCandidates 1-198,text,true,,8154,216,558,558,http://localhost:9999/getCandidatesMap,5585,0,2043
+1666141126288,5636,HTTP Request,200,OK,500T getCandidates 1-195,text,true,,8154,216,559,559,http://localhost:9999/getCandidatesMap,5636,0,2057
+1666141126308,5629,HTTP Request,200,OK,500T getCandidates 1-197,text,true,,8154,216,559,559,http://localhost:9999/getCandidatesMap,5629,0,2053
+1666141126348,5608,HTTP Request,200,OK,500T getCandidates 1-201,text,true,,8154,216,560,560,http://localhost:9999/getCandidatesMap,5608,0,2043
+1666141126368,5643,HTTP Request,200,OK,500T getCandidates 1-203,text,true,,8154,216,565,565,http://localhost:9999/getCandidatesMap,5643,0,2040
+1666141126358,5671,HTTP Request,200,OK,500T getCandidates 1-202,text,true,,8154,216,565,565,http://localhost:9999/getCandidatesMap,5670,0,2033
+1666141126329,5717,HTTP Request,200,OK,500T getCandidates 1-199,text,true,,8154,216,566,566,http://localhost:9999/getCandidatesMap,5717,0,2047
+1666141126395,5670,HTTP Request,200,OK,500T getCandidates 1-205,text,true,,8154,216,567,567,http://localhost:9999/getCandidatesMap,5670,0,2043
+1666141126399,5720,HTTP Request,200,OK,500T getCandidates 1-206,text,true,,8154,216,572,572,http://localhost:9999/getCandidatesMap,5720,0,2039
+1666141126408,5729,HTTP Request,200,OK,500T getCandidates 1-207,text,true,,8154,216,572,572,http://localhost:9999/getCandidatesMap,5729,0,2053
+1666141126449,5706,HTTP Request,200,OK,500T getCandidates 1-211,text,true,,8154,216,573,573,http://localhost:9999/getCandidatesMap,5706,0,2119
+1666141126478,5699,HTTP Request,200,OK,500T getCandidates 1-214,text,true,,8154,216,574,574,http://localhost:9999/getCandidatesMap,5699,0,2089
+1666141126488,5744,HTTP Request,200,OK,500T getCandidates 1-215,text,true,,8154,216,579,579,http://localhost:9999/getCandidatesMap,5744,0,2078
+1666141126468,5786,HTTP Request,200,OK,500T getCandidates 1-213,text,true,,8154,216,580,580,http://localhost:9999/getCandidatesMap,5786,0,2099
+1666141126430,5838,HTTP Request,200,OK,500T getCandidates 1-209,text,true,,8154,216,580,580,http://localhost:9999/getCandidatesMap,5838,0,2140
+1666141126518,5773,HTTP Request,200,OK,500T getCandidates 1-218,text,true,,8154,216,582,582,http://localhost:9999/getCandidatesMap,5773,0,2060
+1666141126509,5834,HTTP Request,200,OK,500T getCandidates 1-217,text,true,,8154,216,586,586,http://localhost:9999/getCandidatesMap,5834,0,2056
+1666141126535,5825,HTTP Request,200,OK,500T getCandidates 1-219,text,true,,8154,216,587,587,http://localhost:9999/getCandidatesMap,5825,0,2043
+1666141126458,5918,HTTP Request,200,OK,500T getCandidates 1-212,text,true,,8154,216,587,587,http://localhost:9999/getCandidatesMap,5918,0,2110
+1666141126439,5957,HTTP Request,200,OK,500T getCandidates 1-210,text,true,,8154,216,588,588,http://localhost:9999/getCandidatesMap,5957,0,2131
+1666141126498,5955,HTTP Request,200,OK,500T getCandidates 1-216,text,true,,8154,216,593,593,http://localhost:9999/getCandidatesMap,5955,0,2067
+1666141126538,5932,HTTP Request,200,OK,500T getCandidates 1-220,text,true,,8154,216,594,594,http://localhost:9999/getCandidatesMap,5932,0,2040
+1666141126550,5932,HTTP Request,200,OK,500T getCandidates 1-221,text,true,,8154,216,594,594,http://localhost:9999/getCandidatesMap,5932,0,2044
+1666141126569,5934,HTTP Request,200,OK,500T getCandidates 1-223,text,true,,8154,216,595,595,http://localhost:9999/getCandidatesMap,5934,0,2040
+1666141126560,6002,HTTP Request,200,OK,500T getCandidates 1-222,text,true,,8154,216,600,600,http://localhost:9999/getCandidatesMap,6002,0,2049
+1666141126589,5992,HTTP Request,200,OK,500T getCandidates 1-225,text,true,,8154,216,601,601,http://localhost:9999/getCandidatesMap,5992,0,2037
+1666141126579,6009,HTTP Request,200,OK,500T getCandidates 1-224,text,true,,8154,216,601,601,http://localhost:9999/getCandidatesMap,6009,0,2047
+1666141126599,6014,HTTP Request,200,OK,500T getCandidates 1-226,text,true,,8154,216,602,602,http://localhost:9999/getCandidatesMap,6014,0,2058
+1666141126619,6056,HTTP Request,200,OK,500T getCandidates 1-228,text,true,,8154,216,607,607,http://localhost:9999/getCandidatesMap,6056,0,2038
+1666141126615,6075,HTTP Request,200,OK,500T getCandidates 1-227,text,true,,8154,216,608,608,http://localhost:9999/getCandidatesMap,6075,0,2042
+1666141126629,6069,HTTP Request,200,OK,500T getCandidates 1-229,text,true,,8154,216,607,607,http://localhost:9999/getCandidatesMap,6069,0,2044
+1666141126649,6075,HTTP Request,200,OK,500T getCandidates 1-231,text,true,,8154,216,609,609,http://localhost:9999/getCandidatesMap,6075,0,2024
+1666141126639,6143,HTTP Request,200,OK,500T getCandidates 1-230,text,true,,8154,216,614,614,http://localhost:9999/getCandidatesMap,6143,0,2034
+1666141126659,6141,HTTP Request,200,OK,500T getCandidates 1-232,text,true,,8154,216,615,615,http://localhost:9999/getCandidatesMap,6141,0,2014
+1666141126679,6129,HTTP Request,200,OK,500T getCandidates 1-234,text,true,,8154,216,614,614,http://localhost:9999/getCandidatesMap,6129,0,2025
+1666141126670,6170,HTTP Request,200,OK,500T getCandidates 1-233,text,true,,8154,216,617,617,http://localhost:9999/getCandidatesMap,6170,0,2034
+1666141126699,6192,HTTP Request,200,OK,500T getCandidates 1-236,text,true,,8154,216,620,620,http://localhost:9999/getCandidatesMap,6192,0,2036
+1666141126689,6220,HTTP Request,200,OK,500T getCandidates 1-235,text,true,,8154,216,620,620,http://localhost:9999/getCandidatesMap,6220,0,2046
+1666141126709,6213,HTTP Request,200,OK,500T getCandidates 1-237,text,true,,8154,216,621,621,http://localhost:9999/getCandidatesMap,6213,0,2057
+1666141126718,6226,HTTP Request,200,OK,500T getCandidates 1-238,text,true,,8154,216,623,623,http://localhost:9999/getCandidatesMap,6226,0,2048
+1666141126728,6273,HTTP Request,200,OK,500T getCandidates 1-239,text,true,,8154,216,628,628,http://localhost:9999/getCandidatesMap,6273,0,2061
+1666141126739,6276,HTTP Request,200,OK,500T getCandidates 1-240,text,true,,8154,216,628,628,http://localhost:9999/getCandidatesMap,6276,0,2050
+1666141126759,6272,HTTP Request,200,OK,500T getCandidates 1-242,text,true,,8154,216,629,629,http://localhost:9999/getCandidatesMap,6272,0,2030
+1666141126750,6301,HTTP Request,200,OK,500T getCandidates 1-241,text,true,,8154,216,630,630,http://localhost:9999/getCandidatesMap,6301,0,2048
+1666141126769,6341,HTTP Request,200,OK,500T getCandidates 1-243,text,true,,8154,216,635,635,http://localhost:9999/getCandidatesMap,6341,0,2045
+1666141126790,6332,HTTP Request,200,OK,500T getCandidates 1-245,text,true,,8154,216,635,635,http://localhost:9999/getCandidatesMap,6332,0,2040
+1666141126780,6359,HTTP Request,200,OK,500T getCandidates 1-244,text,true,,8154,216,636,636,http://localhost:9999/getCandidatesMap,6359,0,2050
+1666141126809,6352,HTTP Request,200,OK,500T getCandidates 1-247,text,true,,8154,216,637,637,http://localhost:9999/getCandidatesMap,6352,0,2021
+1666141126799,6420,HTTP Request,200,OK,500T getCandidates 1-246,text,true,,8154,216,642,642,http://localhost:9999/getCandidatesMap,6420,0,2031
+1666141126819,6411,HTTP Request,200,OK,500T getCandidates 1-248,text,true,,8154,216,642,642,http://localhost:9999/getCandidatesMap,6411,0,2030
+1666141126829,6422,HTTP Request,200,OK,500T getCandidates 1-249,text,true,,8154,216,643,643,http://localhost:9999/getCandidatesMap,6422,0,2017
+1666141126839,6427,HTTP Request,200,OK,500T getCandidates 1-250,text,true,,8154,216,643,643,http://localhost:9999/getCandidatesMap,6427,0,2038
+1666141126849,6483,HTTP Request,200,OK,500T getCandidates 1-251,text,true,,8154,216,649,649,http://localhost:9999/getCandidatesMap,6483,0,2043
+1666141126860,6487,HTTP Request,200,OK,500T getCandidates 1-252,text,true,,8154,216,649,649,http://localhost:9999/getCandidatesMap,6487,0,2032
+1666141126869,6502,HTTP Request,200,OK,500T getCandidates 1-253,text,true,,8154,216,651,651,http://localhost:9999/getCandidatesMap,6502,0,2038
+1666141126880,6505,HTTP Request,200,OK,500T getCandidates 1-254,text,true,,8154,216,651,651,http://localhost:9999/getCandidatesMap,6505,0,2042
+1666141126909,6537,HTTP Request,200,OK,500T getCandidates 1-257,text,true,,8154,216,656,656,http://localhost:9999/getCandidatesMap,6537,0,2030
+1666141126890,6565,HTTP Request,200,OK,500T getCandidates 1-255,text,true,,8154,216,656,656,http://localhost:9999/getCandidatesMap,6564,0,2049
+1666141126899,6583,HTTP Request,200,OK,500T getCandidates 1-256,text,true,,8154,216,658,658,http://localhost:9999/getCandidatesMap,6583,0,2040
+1666141126919,6571,HTTP Request,200,OK,500T getCandidates 1-258,text,true,,8154,216,658,658,http://localhost:9999/getCandidatesMap,6571,0,2042
+1666141126949,6610,HTTP Request,200,OK,500T getCandidates 1-261,text,true,,8154,216,664,664,http://localhost:9999/getCandidatesMap,6610,0,2021
+1666141126939,6628,HTTP Request,200,OK,500T getCandidates 1-260,text,true,,8154,216,663,663,http://localhost:9999/getCandidatesMap,6628,0,2031
+1666141126929,6665,HTTP Request,200,OK,500T getCandidates 1-259,text,true,,8154,216,665,665,http://localhost:9999/getCandidatesMap,6665,0,2041
+1666141126959,6641,HTTP Request,200,OK,500T getCandidates 1-262,text,true,,8154,216,665,665,http://localhost:9999/getCandidatesMap,6641,0,2027
+1666141126979,6687,HTTP Request,200,OK,500T getCandidates 1-264,text,true,,8154,216,670,670,http://localhost:9999/getCandidatesMap,6687,0,2023
+1666141126971,6703,HTTP Request,200,OK,500T getCandidates 1-263,text,true,,8154,216,670,670,http://localhost:9999/getCandidatesMap,6703,0,2047
+1666141126991,6711,HTTP Request,200,OK,500T getCandidates 1-265,text,true,,8154,216,672,672,http://localhost:9999/getCandidatesMap,6711,0,2027
+1666141127000,6711,HTTP Request,200,OK,500T getCandidates 1-266,text,true,,8154,216,672,672,http://localhost:9999/getCandidatesMap,6711,0,2049
+1666141127009,6767,HTTP Request,200,OK,500T getCandidates 1-267,text,true,,8154,216,677,677,http://localhost:9999/getCandidatesMap,6767,0,2040
+1666141127019,6764,HTTP Request,200,OK,500T getCandidates 1-268,text,true,,8154,216,677,677,http://localhost:9999/getCandidatesMap,6764,0,2046
+1666141127029,6782,HTTP Request,200,OK,500T getCandidates 1-269,text,true,,8154,216,679,679,http://localhost:9999/getCandidatesMap,6782,0,2036
+1666141127039,6782,HTTP Request,200,OK,500T getCandidates 1-270,text,true,,8154,216,679,679,http://localhost:9999/getCandidatesMap,6782,0,2041
+1666141127049,6836,HTTP Request,200,OK,500T getCandidates 1-271,text,true,,8154,216,684,684,http://localhost:9999/getCandidatesMap,6836,0,2031
+1666141127059,6834,HTTP Request,200,OK,500T getCandidates 1-272,text,true,,8154,216,684,684,http://localhost:9999/getCandidatesMap,6834,0,2022
+1666141127072,6854,HTTP Request,200,OK,500T getCandidates 1-273,text,true,,8154,216,686,686,http://localhost:9999/getCandidatesMap,6854,0,2024
+1666141127079,6853,HTTP Request,200,OK,500T getCandidates 1-274,text,true,,8154,216,686,686,http://localhost:9999/getCandidatesMap,6853,0,2032
+1666141127089,6910,HTTP Request,200,OK,500T getCandidates 1-275,text,true,,8154,216,692,692,http://localhost:9999/getCandidatesMap,6910,0,2022
+1666141127099,6901,HTTP Request,200,OK,500T getCandidates 1-276,text,true,,8154,216,691,691,http://localhost:9999/getCandidatesMap,6901,0,2049
+1666141127110,6925,HTTP Request,200,OK,500T getCandidates 1-277,text,true,,8154,216,693,693,http://localhost:9999/getCandidatesMap,6925,0,2038
+1666141127129,6911,HTTP Request,200,OK,500T getCandidates 1-279,text,true,,8154,216,693,693,http://localhost:9999/getCandidatesMap,6911,0,2030
+1666141127139,6972,HTTP Request,200,OK,500T getCandidates 1-280,text,true,,8154,216,699,699,http://localhost:9999/getCandidatesMap,6972,0,2020
+1666141127120,6992,HTTP Request,200,OK,500T getCandidates 1-278,text,true,,8154,216,698,698,http://localhost:9999/getCandidatesMap,6992,0,2039
+1666141127149,6991,HTTP Request,200,OK,500T getCandidates 1-281,text,true,,8154,216,700,700,http://localhost:9999/getCandidatesMap,6991,0,2026
+1666141127159,6992,HTTP Request,200,OK,500T getCandidates 1-282,text,true,,8154,216,700,700,http://localhost:9999/getCandidatesMap,6992,0,2047
+1666141127199,7085,HTTP Request,200,OK,500T getCandidates 1-286,text,true,,8154,216,710,710,http://localhost:9999/getCandidatesMap,7085,0,2039
+1666141127189,7095,HTTP Request,200,OK,500T getCandidates 1-285,text,true,,8154,216,710,710,http://localhost:9999/getCandidatesMap,7095,0,2018
+1666141127169,7115,HTTP Request,200,OK,500T getCandidates 1-283,text,true,,8154,216,710,710,http://localhost:9999/getCandidatesMap,7115,0,2038
+1666141127181,7103,HTTP Request,200,OK,500T getCandidates 1-284,text,true,,8154,216,711,711,http://localhost:9999/getCandidatesMap,7103,0,2025
+1666141132299,2029,HTTP Request,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:9999 failed to respond,500T getCandidates 1-796,text,false,,2080,0,712,712,http://localhost:9999/getCandidatesMap,0,0,2026
+1666141132290,2038,HTTP Request,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:9999 failed to respond,500T getCandidates 1-795,text,false,,2080,0,712,712,http://localhost:9999/getCandidatesMap,0,0,2035
+1666141127209,7122,HTTP Request,200,OK,500T getCandidates 1-287,text,true,,8154,216,711,711,http://localhost:9999/getCandidatesMap,7122,0,2029
+1666141127219,7115,HTTP Request,200,OK,500T getCandidates 1-288,text,true,,8154,216,710,710,http://localhost:9999/getCandidatesMap,7115,0,2035
+1666141127240,7126,HTTP Request,200,OK,500T getCandidates 1-290,text,true,,8154,216,710,710,http://localhost:9999/getCandidatesMap,7126,0,2030
+1666141127231,7136,HTTP Request,200,OK,500T getCandidates 1-289,text,true,,8154,216,709,709,http://localhost:9999/getCandidatesMap,7136,0,2039
+1666141127249,7184,HTTP Request,200,OK,500T getCandidates 1-291,text,true,,8154,216,708,708,http://localhost:9999/getCandidatesMap,7184,0,2037
+1666141127259,7184,HTTP Request,200,OK,500T getCandidates 1-292,text,true,,8154,216,707,707,http://localhost:9999/getCandidatesMap,7184,0,2027
+1666141127279,7193,HTTP Request,200,OK,500T getCandidates 1-294,text,true,,8154,216,706,706,http://localhost:9999/getCandidatesMap,7193,0,2041
+1666141127269,7205,HTTP Request,200,OK,500T getCandidates 1-293,text,true,,8154,216,705,705,http://localhost:9999/getCandidatesMap,7205,0,2033
+1666141127288,7255,HTTP Request,200,OK,500T getCandidates 1-295,text,true,,8154,216,704,704,http://localhost:9999/getCandidatesMap,7255,0,2045
+1666141127329,7223,HTTP Request,200,OK,500T getCandidates 1-299,text,true,,8154,216,703,703,http://localhost:9999/getCandidatesMap,7223,0,2004
+1666141127319,7258,HTTP Request,200,OK,500T getCandidates 1-298,text,true,,8154,216,702,702,http://localhost:9999/getCandidatesMap,7258,0,2014
+1666141127299,7279,HTTP Request,200,OK,500T getCandidates 1-296,text,true,,8154,216,701,701,http://localhost:9999/getCandidatesMap,7279,0,2034
+1666141127309,7342,HTTP Request,200,OK,500T getCandidates 1-297,text,true,,8154,216,700,700,http://localhost:9999/getCandidatesMap,7342,0,2024
+1666141127340,7314,HTTP Request,200,OK,500T getCandidates 1-300,text,true,,8154,216,699,699,http://localhost:9999/getCandidatesMap,7314,0,2025
+1666141127359,7320,HTTP Request,200,OK,500T getCandidates 1-302,text,true,,8154,216,698,698,http://localhost:9999/getCandidatesMap,7320,0,2021
+1666141127350,7330,HTTP Request,200,OK,500T getCandidates 1-301,text,true,,8154,216,697,697,http://localhost:9999/getCandidatesMap,7330,0,2031
+1666141127369,7385,HTTP Request,200,OK,500T getCandidates 1-303,text,true,,8154,216,696,696,http://localhost:9999/getCandidatesMap,7384,0,2027
+1666141127405,7355,HTTP Request,200,OK,500T getCandidates 1-306,text,true,,8154,216,695,695,http://localhost:9999/getCandidatesMap,7355,0,2020
+1666141127389,7393,HTTP Request,200,OK,500T getCandidates 1-305,text,true,,8154,216,694,694,http://localhost:9999/getCandidatesMap,7393,0,2036
+1666141127409,7377,HTTP Request,200,OK,500T getCandidates 1-307,text,true,,8154,216,693,693,http://localhost:9999/getCandidatesMap,7377,0,2016
+1666141127379,7474,HTTP Request,200,OK,500T getCandidates 1-304,text,true,,8154,216,692,692,http://localhost:9999/getCandidatesMap,7474,0,2046
+1666141127419,7444,HTTP Request,200,OK,500T getCandidates 1-308,text,true,,8154,216,691,691,http://localhost:9999/getCandidatesMap,7444,0,2021
+1666141127429,7451,HTTP Request,200,OK,500T getCandidates 1-309,text,true,,8154,216,690,690,http://localhost:9999/getCandidatesMap,7451,0,2026
+1666141127439,7442,HTTP Request,200,OK,500T getCandidates 1-310,text,true,,8154,216,689,689,http://localhost:9999/getCandidatesMap,7442,0,2016
+1666141127449,7513,HTTP Request,200,OK,500T getCandidates 1-311,text,true,,8154,216,688,688,http://localhost:9999/getCandidatesMap,7513,0,2022
+1666141127470,7501,HTTP Request,200,OK,500T getCandidates 1-313,text,true,,8154,216,687,687,http://localhost:9999/getCandidatesMap,7501,0,2017
+1666141127479,7506,HTTP Request,200,OK,500T getCandidates 1-314,text,true,,8154,216,686,686,http://localhost:9999/getCandidatesMap,7506,0,2023
+1666141127460,7530,HTTP Request,200,OK,500T getCandidates 1-312,text,true,,8154,216,685,685,http://localhost:9999/getCandidatesMap,7530,0,2027
+1666141127499,7568,HTTP Request,200,OK,500T getCandidates 1-316,text,true,,8154,216,684,684,http://localhost:9999/getCandidatesMap,7568,0,2019
+1666141127489,7585,HTTP Request,200,OK,500T getCandidates 1-315,text,true,,8154,216,683,683,http://localhost:9999/getCandidatesMap,7585,0,2045
+1666141127529,7559,HTTP Request,200,OK,500T getCandidates 1-319,text,true,,8154,216,682,682,http://localhost:9999/getCandidatesMap,7559,0,2022
+1666141127509,7585,HTTP Request,200,OK,500T getCandidates 1-317,text,true,,8154,216,681,681,http://localhost:9999/getCandidatesMap,7585,0,2042
+1666141127539,7633,HTTP Request,200,OK,500T getCandidates 1-320,text,true,,8154,216,680,680,http://localhost:9999/getCandidatesMap,7633,0,2028
+1666141127519,7660,HTTP Request,200,OK,500T getCandidates 1-318,text,true,,8154,216,679,679,http://localhost:9999/getCandidatesMap,7660,0,2048
+1666141127561,7629,HTTP Request,200,OK,500T getCandidates 1-322,text,true,,8154,216,678,678,http://localhost:9999/getCandidatesMap,7629,0,2056
+1666141127561,7631,HTTP Request,200,OK,500T getCandidates 1-321,text,true,,8154,216,677,677,http://localhost:9999/getCandidatesMap,7631,0,2056
+1666141127599,7676,HTTP Request,200,OK,500T getCandidates 1-326,text,true,,8154,216,676,676,http://localhost:9999/getCandidatesMap,7676,0,2029
+1666141127590,7692,HTTP Request,200,OK,500T getCandidates 1-325,text,true,,8154,216,675,675,http://localhost:9999/getCandidatesMap,7692,0,2038
+1666141127580,7710,HTTP Request,200,OK,500T getCandidates 1-324,text,true,,8154,216,674,674,http://localhost:9999/getCandidatesMap,7710,0,2048
+1666141127609,7688,HTTP Request,200,OK,500T getCandidates 1-327,text,true,,8154,216,673,673,http://localhost:9999/getCandidatesMap,7688,0,2019
+1666141127569,7808,HTTP Request,200,OK,500T getCandidates 1-323,text,true,,8154,216,672,672,http://localhost:9999/getCandidatesMap,7808,0,2059
+1666141127619,7775,HTTP Request,200,OK,500T getCandidates 1-328,text,true,,8154,216,671,671,http://localhost:9999/getCandidatesMap,7774,0,2040
+1666141127649,7748,HTTP Request,200,OK,500T getCandidates 1-331,text,true,,8154,216,670,670,http://localhost:9999/getCandidatesMap,7748,0,2025
+1666141127639,7764,HTTP Request,200,OK,500T getCandidates 1-330,text,true,,8154,216,669,669,http://localhost:9999/getCandidatesMap,7764,0,2040
+1666141127630,7846,HTTP Request,200,OK,500T getCandidates 1-329,text,true,,8154,216,668,668,http://localhost:9999/getCandidatesMap,7846,0,2049
+1666141127659,7837,HTTP Request,200,OK,500T getCandidates 1-332,text,true,,8154,216,667,667,http://localhost:9999/getCandidatesMap,7837,0,2047
+1666141127669,7828,HTTP Request,200,OK,500T getCandidates 1-333,text,true,,8154,216,666,666,http://localhost:9999/getCandidatesMap,7828,0,2037
+1666141127679,7825,HTTP Request,200,OK,500T getCandidates 1-334,text,true,,8154,216,665,665,http://localhost:9999/getCandidatesMap,7825,0,2042
+1666141127689,7887,HTTP Request,200,OK,500T getCandidates 1-335,text,true,,8154,216,664,664,http://localhost:9999/getCandidatesMap,7887,0,2033
+1666141127709,7887,HTTP Request,200,OK,500T getCandidates 1-337,text,true,,8154,216,663,663,http://localhost:9999/getCandidatesMap,7887,0,2031
+1666141127700,7897,HTTP Request,200,OK,500T getCandidates 1-336,text,true,,8154,216,662,662,http://localhost:9999/getCandidatesMap,7897,0,2038
+1666141127719,7885,HTTP Request,200,OK,500T getCandidates 1-338,text,true,,8154,216,661,661,http://localhost:9999/getCandidatesMap,7885,0,2034
+1666141127749,7926,HTTP Request,200,OK,500T getCandidates 1-341,text,true,,8154,216,660,660,http://localhost:9999/getCandidatesMap,7926,0,2020
+1666141127739,7958,HTTP Request,200,OK,500T getCandidates 1-340,text,true,,8154,216,659,659,http://localhost:9999/getCandidatesMap,7958,0,2030
+1666141127729,7977,HTTP Request,200,OK,500T getCandidates 1-339,text,true,,8154,216,658,658,http://localhost:9999/getCandidatesMap,7977,0,2040
+1666141127779,7932,HTTP Request,200,OK,500T getCandidates 1-344,text,true,,8154,216,657,657,http://localhost:9999/getCandidatesMap,7932,0,2036
+1666141127769,8018,HTTP Request,200,OK,500T getCandidates 1-343,text,true,,8154,216,656,656,http://localhost:9999/getCandidatesMap,8018,0,2046
+1666141127759,8042,HTTP Request,200,OK,500T getCandidates 1-342,text,true,,8154,216,655,655,http://localhost:9999/getCandidatesMap,8042,0,2056
+1666141127789,8022,HTTP Request,200,OK,500T getCandidates 1-345,text,true,,8154,216,654,654,http://localhost:9999/getCandidatesMap,8022,0,2042
+1666141127800,8015,HTTP Request,200,OK,500T getCandidates 1-346,text,true,,8154,216,653,653,http://localhost:9999/getCandidatesMap,8015,0,2031
+1666141127810,8078,HTTP Request,200,OK,500T getCandidates 1-347,text,true,,8154,216,652,652,http://localhost:9999/getCandidatesMap,8078,0,2026
+1666141127829,8086,HTTP Request,200,OK,500T getCandidates 1-349,text,true,,8154,216,651,651,http://localhost:9999/getCandidatesMap,8085,0,2017
+1666141127839,8079,HTTP Request,200,OK,500T getCandidates 1-350,text,true,,8154,216,650,650,http://localhost:9999/getCandidatesMap,8078,0,2023
+1666141127819,8109,HTTP Request,200,OK,500T getCandidates 1-348,text,true,,8154,216,649,649,http://localhost:9999/getCandidatesMap,8109,0,2043
+1666141127849,8142,HTTP Request,200,OK,500T getCandidates 1-351,text,true,,8154,216,648,648,http://localhost:9999/getCandidatesMap,8142,0,2029
+1666141127870,8149,HTTP Request,200,OK,500T getCandidates 1-353,text,true,,8154,216,647,647,http://localhost:9999/getCandidatesMap,8149,0,2024
+1666141127860,8164,HTTP Request,200,OK,500T getCandidates 1-352,text,true,,8154,216,646,646,http://localhost:9999/getCandidatesMap,8164,0,2034
+1666141127880,8157,HTTP Request,200,OK,500T getCandidates 1-354,text,true,,8154,216,645,645,http://localhost:9999/getCandidatesMap,8157,0,2044
+1666141127890,8206,HTTP Request,200,OK,500T getCandidates 1-355,text,true,,8154,216,644,644,http://localhost:9999/getCandidatesMap,8206,0,2034
+1666141127959,8167,HTTP Request,200,OK,500T getCandidates 1-362,text,true,,8154,216,643,643,http://localhost:9999/getCandidatesMap,8167,0,2013
+1666141127910,8217,HTTP Request,200,OK,500T getCandidates 1-357,text,true,,8154,216,642,642,http://localhost:9999/getCandidatesMap,8217,0,2030
+1666141127939,8206,HTTP Request,200,OK,500T getCandidates 1-360,text,true,,8154,216,641,641,http://localhost:9999/getCandidatesMap,8206,0,2050
+1666141127901,8300,HTTP Request,200,OK,500T getCandidates 1-356,text,true,,8154,216,640,640,http://localhost:9999/getCandidatesMap,8300,0,2039
+1666141127929,8301,HTTP Request,200,OK,500T getCandidates 1-359,text,true,,8154,216,639,639,http://localhost:9999/getCandidatesMap,8301,0,2011
+1666141127919,8312,HTTP Request,200,OK,500T getCandidates 1-358,text,true,,8154,216,638,638,http://localhost:9999/getCandidatesMap,8311,0,2026
+1666141127969,8285,HTTP Request,200,OK,500T getCandidates 1-363,text,true,,8154,216,637,637,http://localhost:9999/getCandidatesMap,8285,0,2021
+1666141127979,8335,HTTP Request,200,OK,500T getCandidates 1-364,text,true,,8154,216,636,636,http://localhost:9999/getCandidatesMap,8335,0,2010
+1666141127949,8395,HTTP Request,200,OK,500T getCandidates 1-361,text,true,,8154,216,635,635,http://localhost:9999/getCandidatesMap,8395,0,2041
+1666141127989,8356,HTTP Request,200,OK,500T getCandidates 1-365,text,true,,8154,216,634,634,http://localhost:9999/getCandidatesMap,8356,0,2029
+1666141128010,8354,HTTP Request,200,OK,500T getCandidates 1-367,text,true,,8154,216,633,633,http://localhost:9999/getCandidatesMap,8354,0,2023
+1666141127999,8422,HTTP Request,200,OK,500T getCandidates 1-366,text,true,,8154,216,632,632,http://localhost:9999/getCandidatesMap,8422,0,2035
+1666141128030,8417,HTTP Request,200,OK,500T getCandidates 1-369,text,true,,8154,216,631,631,http://localhost:9999/getCandidatesMap,8417,0,2019
+1666141128020,8432,HTTP Request,200,OK,500T getCandidates 1-368,text,true,,8154,216,630,630,http://localhost:9999/getCandidatesMap,8432,0,2029
+1666141128039,8428,HTTP Request,200,OK,500T getCandidates 1-370,text,true,,8154,216,629,629,http://localhost:9999/getCandidatesMap,8428,0,2026
+1666141128069,8455,HTTP Request,200,OK,500T getCandidates 1-373,text,true,,8154,216,628,628,http://localhost:9999/getCandidatesMap,8455,0,2012
+1666141128049,8500,HTTP Request,200,OK,500T getCandidates 1-371,text,true,,8154,216,627,627,http://localhost:9999/getCandidatesMap,8500,0,2032
+1666141128059,8493,HTTP Request,200,OK,500T getCandidates 1-372,text,true,,8154,216,626,626,http://localhost:9999/getCandidatesMap,8493,0,2022
+1666141128079,8489,HTTP Request,200,OK,500T getCandidates 1-374,text,true,,8154,216,625,625,http://localhost:9999/getCandidatesMap,8489,0,2034
+1666141128109,8517,HTTP Request,200,OK,500T getCandidates 1-377,text,true,,8154,216,624,624,http://localhost:9999/getCandidatesMap,8517,0,2019
+1666141128099,8556,HTTP Request,200,OK,500T getCandidates 1-376,text,true,,8154,216,623,623,http://localhost:9999/getCandidatesMap,8555,0,2029
+1666141128089,8578,HTTP Request,200,OK,500T getCandidates 1-375,text,true,,8154,216,622,622,http://localhost:9999/getCandidatesMap,8578,0,2039
+1666141128119,8561,HTTP Request,200,OK,500T getCandidates 1-378,text,true,,8154,216,621,621,http://localhost:9999/getCandidatesMap,8561,0,2024
+1666141128130,8606,HTTP Request,200,OK,500T getCandidates 1-379,text,true,,8154,216,620,620,http://localhost:9999/getCandidatesMap,8606,0,2034
+1666141128150,8610,HTTP Request,200,OK,500T getCandidates 1-381,text,true,,8154,216,619,619,http://localhost:9999/getCandidatesMap,8610,0,2024
+1666141128140,8642,HTTP Request,200,OK,500T getCandidates 1-380,text,true,,8154,216,618,618,http://localhost:9999/getCandidatesMap,8642,0,2034
+1666141128159,8630,HTTP Request,200,OK,500T getCandidates 1-382,text,true,,8154,216,617,617,http://localhost:9999/getCandidatesMap,8630,0,2046
+1666141128179,8658,HTTP Request,200,OK,500T getCandidates 1-384,text,true,,8154,216,616,616,http://localhost:9999/getCandidatesMap,8658,0,2026
+1666141128169,8698,HTTP Request,200,OK,500T getCandidates 1-383,text,true,,8154,216,615,615,http://localhost:9999/getCandidatesMap,8698,0,2039
+1666141128199,8687,HTTP Request,200,OK,500T getCandidates 1-386,text,true,,8154,216,614,614,http://localhost:9999/getCandidatesMap,8687,0,2038
+1666141128189,8706,HTTP Request,200,OK,500T getCandidates 1-385,text,true,,8154,216,613,613,http://localhost:9999/getCandidatesMap,8706,0,2048
+1666141128209,8734,HTTP Request,200,OK,500T getCandidates 1-387,text,true,,8154,216,612,612,http://localhost:9999/getCandidatesMap,8734,0,2029
+1666141128269,8714,HTTP Request,200,OK,500T getCandidates 1-393,text,true,,8154,216,611,611,http://localhost:9999/getCandidatesMap,8714,0,2032
+1666141128250,8741,HTTP Request,200,OK,500T getCandidates 1-391,text,true,,8154,216,610,610,http://localhost:9999/getCandidatesMap,8741,0,2019
+1666141128219,8793,HTTP Request,200,OK,500T getCandidates 1-388,text,true,,8154,216,609,609,http://localhost:9999/getCandidatesMap,8793,0,2034
+1666141128239,8810,HTTP Request,200,OK,500T getCandidates 1-390,text,true,,8154,216,608,608,http://localhost:9999/getCandidatesMap,8810,0,2030
+1666141128280,8807,HTTP Request,200,OK,500T getCandidates 1-394,text,true,,8154,216,607,607,http://localhost:9999/getCandidatesMap,8807,0,2021
+1666141128260,8834,HTTP Request,200,OK,500T getCandidates 1-392,text,true,,8154,216,606,606,http://localhost:9999/getCandidatesMap,8834,0,2025
+1666141128229,8890,HTTP Request,200,OK,500T getCandidates 1-389,text,true,,8154,216,605,605,http://localhost:9999/getCandidatesMap,8890,0,2024
+1666141128289,8861,HTTP Request,200,OK,500T getCandidates 1-395,text,true,,8154,216,604,604,http://localhost:9999/getCandidatesMap,8861,0,2028
+1666141128309,8879,HTTP Request,200,OK,500T getCandidates 1-397,text,true,,8154,216,603,603,http://localhost:9999/getCandidatesMap,8879,0,2023
+1666141128299,8898,HTTP Request,200,OK,500T getCandidates 1-396,text,true,,8154,216,602,602,http://localhost:9999/getCandidatesMap,8898,0,2033
+1666141128319,8909,HTTP Request,200,OK,500T getCandidates 1-398,text,true,,8154,216,601,601,http://localhost:9999/getCandidatesMap,8909,0,2029
+1666141128329,8932,HTTP Request,200,OK,500T getCandidates 1-399,text,true,,8154,216,600,600,http://localhost:9999/getCandidatesMap,8932,0,2035
+1666141128339,8959,HTTP Request,200,OK,500T getCandidates 1-400,text,true,,8154,216,599,599,http://localhost:9999/getCandidatesMap,8959,0,2025
+1666141128349,8955,HTTP Request,200,OK,500T getCandidates 1-401,text,true,,8154,216,598,598,http://localhost:9999/getCandidatesMap,8955,0,2031
+1666141128359,8978,HTTP Request,200,OK,500T getCandidates 1-402,text,true,,8154,216,597,597,http://localhost:9999/getCandidatesMap,8978,0,2024
+1666141128370,8995,HTTP Request,200,OK,500T getCandidates 1-403,text,true,,8154,216,596,596,http://localhost:9999/getCandidatesMap,8995,0,2025
+1666141128380,9022,HTTP Request,200,OK,500T getCandidates 1-404,text,true,,8154,216,595,595,http://localhost:9999/getCandidatesMap,9022,0,2030
+1666141128389,9028,HTTP Request,200,OK,500T getCandidates 1-405,text,true,,8154,216,594,594,http://localhost:9999/getCandidatesMap,9028,0,2022
+1666141128400,9043,HTTP Request,200,OK,500T getCandidates 1-406,text,true,,8154,216,593,593,http://localhost:9999/getCandidatesMap,9043,0,2026
+1666141128420,9053,HTTP Request,200,OK,500T getCandidates 1-408,text,true,,8154,216,592,592,http://localhost:9999/getCandidatesMap,9053,0,2022
+1666141128409,9098,HTTP Request,200,OK,500T getCandidates 1-407,text,true,,8154,216,591,591,http://localhost:9999/getCandidatesMap,9098,0,2033
+1666141128430,9091,HTTP Request,200,OK,500T getCandidates 1-409,text,true,,8154,216,590,590,http://localhost:9999/getCandidatesMap,9091,0,2012
+1666141128449,9102,HTTP Request,200,OK,500T getCandidates 1-411,text,true,,8154,216,589,589,http://localhost:9999/getCandidatesMap,9102,0,2025
+1666141128439,9143,HTTP Request,200,OK,500T getCandidates 1-410,text,true,,8154,216,588,588,http://localhost:9999/getCandidatesMap,9143,0,2035
+1666141128459,9151,HTTP Request,200,OK,500T getCandidates 1-412,text,true,,8154,216,587,587,http://localhost:9999/getCandidatesMap,9151,0,2030
+1666141128567,9063,HTTP Request,200,OK,500T getCandidates 1-418,text,true,,8154,216,586,586,http://localhost:9999/getCandidatesMap,9063,0,2017
+1666141128567,9089,HTTP Request,200,OK,500T getCandidates 1-417,text,true,,8154,216,585,585,http://localhost:9999/getCandidatesMap,9089,0,2017
+1666141128569,9125,HTTP Request,200,OK,500T getCandidates 1-423,text,true,,8154,216,584,584,http://localhost:9999/getCandidatesMap,9125,0,2015
+1666141128570,9142,HTTP Request,200,OK,500T getCandidates 1-413,text,true,,8154,216,583,583,http://localhost:9999/getCandidatesMap,9142,0,2013
+1666141128567,9174,HTTP Request,200,OK,500T getCandidates 1-419,text,true,,8154,216,582,582,http://localhost:9999/getCandidatesMap,9174,0,2016
+1666141128568,9199,HTTP Request,200,OK,500T getCandidates 1-414,text,true,,8154,216,581,581,http://localhost:9999/getCandidatesMap,9199,0,2015
+1666141128569,9229,HTTP Request,200,OK,500T getCandidates 1-416,text,true,,8154,216,580,580,http://localhost:9999/getCandidatesMap,9229,0,2015
+1666141128569,9244,HTTP Request,200,OK,500T getCandidates 1-415,text,true,,8154,216,579,579,http://localhost:9999/getCandidatesMap,9244,0,2015
+1666141128567,9277,HTTP Request,200,OK,500T getCandidates 1-422,text,true,,8154,216,578,578,http://localhost:9999/getCandidatesMap,9277,0,2032
+1666141128566,9303,HTTP Request,200,OK,500T getCandidates 1-420,text,true,,8154,216,577,577,http://localhost:9999/getCandidatesMap,9303,0,2033
+1666141128565,9340,HTTP Request,200,OK,500T getCandidates 1-421,text,true,,8154,216,576,576,http://localhost:9999/getCandidatesMap,9340,0,2034
+1666141128599,9323,HTTP Request,200,OK,500T getCandidates 1-426,text,true,,8154,216,575,575,http://localhost:9999/getCandidatesMap,9323,0,2016
+1666141128609,9336,HTTP Request,200,OK,500T getCandidates 1-427,text,true,,8154,216,574,574,http://localhost:9999/getCandidatesMap,9336,0,2006
+1666141128590,9380,HTTP Request,200,OK,500T getCandidates 1-425,text,true,,8154,216,573,573,http://localhost:9999/getCandidatesMap,9380,0,2025
+1666141128579,9437,HTTP Request,200,OK,500T getCandidates 1-424,text,true,,8154,216,572,572,http://localhost:9999/getCandidatesMap,9437,0,2052
+1666141128619,9413,HTTP Request,200,OK,500T getCandidates 1-428,text,true,,8154,216,571,571,http://localhost:9999/getCandidatesMap,9413,0,2026
+1666141128639,9420,HTTP Request,200,OK,500T getCandidates 1-430,text,true,,8154,216,570,570,http://localhost:9999/getCandidatesMap,9420,0,2022
+1666141128628,9444,HTTP Request,200,OK,500T getCandidates 1-429,text,true,,8154,216,569,569,http://localhost:9999/getCandidatesMap,9444,0,2033
+1666141128659,9457,HTTP Request,200,OK,500T getCandidates 1-432,text,true,,8154,216,568,568,http://localhost:9999/getCandidatesMap,9457,0,2018
+1666141128648,9488,HTTP Request,200,OK,500T getCandidates 1-431,text,true,,8154,216,567,567,http://localhost:9999/getCandidatesMap,9488,0,2045
+1666141128679,9482,HTTP Request,200,OK,500T getCandidates 1-434,text,true,,8154,216,566,566,http://localhost:9999/getCandidatesMap,9482,0,2029
+1666141128689,9485,HTTP Request,200,OK,500T getCandidates 1-435,text,true,,8154,216,565,565,http://localhost:9999/getCandidatesMap,9485,0,2019
+1666141128669,9545,HTTP Request,200,OK,500T getCandidates 1-433,text,true,,8154,216,564,564,http://localhost:9999/getCandidatesMap,9545,0,2040
+1666141128720,9518,HTTP Request,200,OK,500T getCandidates 1-438,text,true,,8154,216,563,563,http://localhost:9999/getCandidatesMap,9518,0,2022
+1666141128709,9550,HTTP Request,200,OK,500T getCandidates 1-437,text,true,,8154,216,562,562,http://localhost:9999/getCandidatesMap,9550,0,2033
+1666141128699,9573,HTTP Request,200,OK,500T getCandidates 1-436,text,true,,8154,216,561,561,http://localhost:9999/getCandidatesMap,9573,0,2043
+1666141128730,9587,HTTP Request,200,OK,500T getCandidates 1-439,text,true,,8154,216,560,560,http://localhost:9999/getCandidatesMap,9587,0,2025
+1666141128740,9606,HTTP Request,200,OK,500T getCandidates 1-440,text,true,,8154,216,559,559,http://localhost:9999/getCandidatesMap,9606,0,2030
+1666141128749,9617,HTTP Request,200,OK,500T getCandidates 1-441,text,true,,8154,216,558,558,http://localhost:9999/getCandidatesMap,9617,0,2021
+1666141128759,9624,HTTP Request,200,OK,500T getCandidates 1-442,text,true,,8154,216,557,557,http://localhost:9999/getCandidatesMap,9624,0,2028
+1666141128768,9654,HTTP Request,200,OK,500T getCandidates 1-443,text,true,,8154,216,556,556,http://localhost:9999/getCandidatesMap,9654,0,2034
+1666141128778,9669,HTTP Request,200,OK,500T getCandidates 1-444,text,true,,8154,216,555,555,http://localhost:9999/getCandidatesMap,9669,0,2025
+1666141128798,9682,HTTP Request,200,OK,500T getCandidates 1-446,text,true,,8154,216,554,554,http://localhost:9999/getCandidatesMap,9682,0,2021
+1666141128788,9705,HTTP Request,200,OK,500T getCandidates 1-445,text,true,,8154,216,553,553,http://localhost:9999/getCandidatesMap,9705,0,2046
+1666141128828,9704,HTTP Request,200,OK,500T getCandidates 1-449,text,true,,8154,216,552,552,http://localhost:9999/getCandidatesMap,9704,0,2023
+1666141128808,9743,HTTP Request,200,OK,500T getCandidates 1-447,text,true,,8154,216,551,551,http://localhost:9999/getCandidatesMap,9743,0,2042
+1666141128818,9771,HTTP Request,200,OK,500T getCandidates 1-448,text,true,,8154,216,550,550,http://localhost:9999/getCandidatesMap,9771,0,2032
+1666141128879,9847,HTTP Request,200,OK,500T getCandidates 1-454,text,true,,8154,216,549,549,http://localhost:9999/getCandidatesMap,9847,0,2020
+1666141128869,9857,HTTP Request,200,OK,500T getCandidates 1-453,text,true,,8154,216,549,549,http://localhost:9999/getCandidatesMap,9857,0,2030
+1666141128849,9877,HTTP Request,200,OK,500T getCandidates 1-451,text,true,,8154,216,549,549,http://localhost:9999/getCandidatesMap,9877,0,2033
+1666141128839,9887,HTTP Request,200,OK,500T getCandidates 1-450,text,true,,8154,216,549,549,http://localhost:9999/getCandidatesMap,9887,0,2028
+1666141128859,9867,HTTP Request,200,OK,500T getCandidates 1-452,text,true,,8154,216,549,549,http://localhost:9999/getCandidatesMap,9867,0,2023
+1666141128889,9859,HTTP Request,200,OK,500T getCandidates 1-455,text,true,,8154,216,544,544,http://localhost:9999/getCandidatesMap,9859,0,2026
+1666141128908,9856,HTTP Request,200,OK,500T getCandidates 1-457,text,true,,8154,216,543,543,http://localhost:9999/getCandidatesMap,9856,0,2022
+1666141128899,9913,HTTP Request,200,OK,500T getCandidates 1-456,text,true,,8154,216,542,542,http://localhost:9999/getCandidatesMap,9913,0,2032
+1666141128919,9896,HTTP Request,200,OK,500T getCandidates 1-458,text,true,,8154,216,541,541,http://localhost:9999/getCandidatesMap,9896,0,2028
+1666141128929,9921,HTTP Request,200,OK,500T getCandidates 1-459,text,true,,8154,216,540,540,http://localhost:9999/getCandidatesMap,9921,0,2037
+1666141128940,9936,HTTP Request,200,OK,500T getCandidates 1-460,text,true,,8154,216,539,539,http://localhost:9999/getCandidatesMap,9936,0,2038
+1666141128959,9959,HTTP Request,200,OK,500T getCandidates 1-462,text,true,,8154,216,538,538,http://localhost:9999/getCandidatesMap,9959,0,2034
+1666141128949,9970,HTTP Request,200,OK,500T getCandidates 1-461,text,true,,8154,216,537,537,http://localhost:9999/getCandidatesMap,9970,0,2039
+1666141128969,9988,HTTP Request,200,OK,500T getCandidates 1-463,text,true,,8154,216,536,536,http://localhost:9999/getCandidatesMap,9988,0,2024
+1666141128979,10002,HTTP Request,200,OK,500T getCandidates 1-464,text,true,,8154,216,535,535,http://localhost:9999/getCandidatesMap,10002,0,2029
+1666141128998,10018,HTTP Request,200,OK,500T getCandidates 1-466,text,true,,8154,216,534,534,http://localhost:9999/getCandidatesMap,10018,0,2025
+1666141128988,10029,HTTP Request,200,OK,500T getCandidates 1-465,text,true,,8154,216,533,533,http://localhost:9999/getCandidatesMap,10029,0,2035
+1666141129008,10048,HTTP Request,200,OK,500T getCandidates 1-467,text,true,,8154,216,532,532,http://localhost:9999/getCandidatesMap,10048,0,2031
+1666141129029,10057,HTTP Request,200,OK,500T getCandidates 1-469,text,true,,8154,216,531,531,http://localhost:9999/getCandidatesMap,10057,0,2025
+1666141129018,10102,HTTP Request,200,OK,500T getCandidates 1-468,text,true,,8154,216,530,530,http://localhost:9999/getCandidatesMap,10102,0,2036
+1666141129050,10076,HTTP Request,200,OK,500T getCandidates 1-471,text,true,,8154,216,529,529,http://localhost:9999/getCandidatesMap,10076,0,2020
+1666141129040,10119,HTTP Request,200,OK,500T getCandidates 1-470,text,true,,8154,216,528,528,http://localhost:9999/getCandidatesMap,10119,0,2030
+1666141129058,10130,HTTP Request,200,OK,500T getCandidates 1-472,text,true,,8154,216,527,527,http://localhost:9999/getCandidatesMap,10130,0,2027
+1666141129078,10143,HTTP Request,200,OK,500T getCandidates 1-474,text,true,,8154,216,526,526,http://localhost:9999/getCandidatesMap,10143,0,2007
+1666141129069,10158,HTTP Request,200,OK,500T getCandidates 1-473,text,true,,8154,216,525,525,http://localhost:9999/getCandidatesMap,10158,0,2016
+1666141129088,10181,HTTP Request,200,OK,500T getCandidates 1-475,text,true,,8154,216,524,524,http://localhost:9999/getCandidatesMap,10181,0,2014
+1666141129108,10197,HTTP Request,200,OK,500T getCandidates 1-477,text,true,,8154,216,523,523,http://localhost:9999/getCandidatesMap,10197,0,2008
+1666141129099,10227,HTTP Request,200,OK,500T getCandidates 1-476,text,true,,8154,216,522,522,http://localhost:9999/getCandidatesMap,10227,0,2032
+1666141129118,10226,HTTP Request,200,OK,500T getCandidates 1-478,text,true,,8154,216,521,521,http://localhost:9999/getCandidatesMap,10225,0,2028
+1666141129139,10235,HTTP Request,200,OK,500T getCandidates 1-480,text,true,,8154,216,520,520,http://localhost:9999/getCandidatesMap,10235,0,2039
+1666141129168,10240,HTTP Request,200,OK,500T getCandidates 1-483,text,true,,8154,216,519,519,http://localhost:9999/getCandidatesMap,10240,0,2010
+1666141129158,10274,HTTP Request,200,OK,500T getCandidates 1-482,text,true,,8154,216,518,518,http://localhost:9999/getCandidatesMap,10274,0,2020
+1666141129148,10297,HTTP Request,200,OK,500T getCandidates 1-481,text,true,,8154,216,517,517,http://localhost:9999/getCandidatesMap,10297,0,2030
+1666141129129,10356,HTTP Request,200,OK,500T getCandidates 1-479,text,true,,8154,216,516,516,http://localhost:9999/getCandidatesMap,10356,0,2050
+1666141129178,10332,HTTP Request,200,OK,500T getCandidates 1-484,text,true,,8154,216,515,515,http://localhost:9999/getCandidatesMap,10332,0,2031
+1666141129188,10350,HTTP Request,200,OK,500T getCandidates 1-485,text,true,,8154,216,514,514,http://localhost:9999/getCandidatesMap,10350,0,2021
+1666141129198,10351,HTTP Request,200,OK,500T getCandidates 1-486,text,true,,8154,216,513,513,http://localhost:9999/getCandidatesMap,10351,0,2026
+1666141129219,10372,HTTP Request,200,OK,500T getCandidates 1-488,text,true,,8154,216,512,512,http://localhost:9999/getCandidatesMap,10372,0,2021
+1666141129208,10418,HTTP Request,200,OK,500T getCandidates 1-487,text,true,,8154,216,511,511,http://localhost:9999/getCandidatesMap,10418,0,2034
+1666141129229,10414,HTTP Request,200,OK,500T getCandidates 1-489,text,true,,8154,216,510,510,http://localhost:9999/getCandidatesMap,10414,0,2027
+1666141129240,10425,HTTP Request,200,OK,500T getCandidates 1-490,text,true,,8154,216,509,509,http://localhost:9999/getCandidatesMap,10425,0,2016
+1666141129249,10444,HTTP Request,200,OK,500T getCandidates 1-491,text,true,,8154,216,508,508,http://localhost:9999/getCandidatesMap,10444,0,2007
+1666141129259,10473,HTTP Request,200,OK,500T getCandidates 1-492,text,true,,8154,216,507,507,http://localhost:9999/getCandidatesMap,10473,0,2012
+1666141129269,10479,HTTP Request,200,OK,500T getCandidates 1-493,text,true,,8154,216,506,506,http://localhost:9999/getCandidatesMap,10479,0,2050
+1666141129279,10493,HTTP Request,200,OK,500T getCandidates 1-494,text,true,,8154,216,505,505,http://localhost:9999/getCandidatesMap,10493,0,2040
+1666141129289,10512,HTTP Request,200,OK,500T getCandidates 1-495,text,true,,8154,216,504,504,http://localhost:9999/getCandidatesMap,10512,0,2030
+1666141129299,10541,HTTP Request,200,OK,500T getCandidates 1-496,text,true,,8154,216,503,503,http://localhost:9999/getCandidatesMap,10541,0,2035
+1666141129309,10548,HTTP Request,200,OK,500T getCandidates 1-497,text,true,,8154,216,502,502,http://localhost:9999/getCandidatesMap,10548,0,2025
+1666141129319,10557,HTTP Request,200,OK,500T getCandidates 1-498,text,true,,8154,216,501,501,http://localhost:9999/getCandidatesMap,10557,0,2031
+1666141129329,10576,HTTP Request,200,OK,500T getCandidates 1-499,text,true,,8154,216,500,500,http://localhost:9999/getCandidatesMap,10576,0,2022
+1666141129340,10610,HTTP Request,200,OK,500T getCandidates 1-500,text,true,,8154,216,499,499,http://localhost:9999/getCandidatesMap,10610,0,2026
+1666141129350,10614,HTTP Request,200,OK,500T getCandidates 1-501,text,true,,8154,216,498,498,http://localhost:9999/getCandidatesMap,10614,0,2032
+1666141129359,10620,HTTP Request,200,OK,500T getCandidates 1-502,text,true,,8154,216,497,497,http://localhost:9999/getCandidatesMap,10620,0,2038
+1666141129368,10644,HTTP Request,200,OK,500T getCandidates 1-503,text,true,,8154,216,496,496,http://localhost:9999/getCandidatesMap,10644,0,2029
+1666141129388,10672,HTTP Request,200,OK,500T getCandidates 1-505,text,true,,8154,216,495,495,http://localhost:9999/getCandidatesMap,10671,0,2033
+1666141129378,10696,HTTP Request,200,OK,500T getCandidates 1-504,text,true,,8154,216,494,494,http://localhost:9999/getCandidatesMap,10696,0,2043
+1666141129398,10693,HTTP Request,200,OK,500T getCandidates 1-506,text,true,,8154,216,493,493,http://localhost:9999/getCandidatesMap,10693,0,2031
+1666141129408,10711,HTTP Request,200,OK,500T getCandidates 1-507,text,true,,8154,216,492,492,http://localhost:9999/getCandidatesMap,10711,0,2037
+1666141129429,10740,HTTP Request,200,OK,500T getCandidates 1-509,text,true,,8154,216,491,491,http://localhost:9999/getCandidatesMap,10740,0,2031
+1666141129425,10756,HTTP Request,200,OK,500T getCandidates 1-508,text,true,,8154,216,490,490,http://localhost:9999/getCandidatesMap,10756,0,2035
+1666141129439,10761,HTTP Request,200,OK,500T getCandidates 1-510,text,true,,8154,216,489,489,http://localhost:9999/getCandidatesMap,10761,0,2037
+1666141129450,10772,HTTP Request,200,OK,500T getCandidates 1-511,text,true,,8154,216,488,488,http://localhost:9999/getCandidatesMap,10772,0,2041
+1666141129479,10791,HTTP Request,200,OK,500T getCandidates 1-514,text,true,,8154,216,487,487,http://localhost:9999/getCandidatesMap,10791,0,2028
+1666141129469,10817,HTTP Request,200,OK,500T getCandidates 1-513,text,true,,8154,216,486,486,http://localhost:9999/getCandidatesMap,10817,0,2038
+1666141129460,10843,HTTP Request,200,OK,500T getCandidates 1-512,text,true,,8154,216,485,485,http://localhost:9999/getCandidatesMap,10843,0,2047
+1666141129489,10839,HTTP Request,200,OK,500T getCandidates 1-515,text,true,,8154,216,484,484,http://localhost:9999/getCandidatesMap,10839,0,2033
+1666141129499,10882,HTTP Request,200,OK,500T getCandidates 1-516,text,true,,8154,216,483,483,http://localhost:9999/getCandidatesMap,10882,0,2023
+1666141129509,10882,HTTP Request,200,OK,500T getCandidates 1-517,text,true,,8154,216,482,482,http://localhost:9999/getCandidatesMap,10882,0,2029
+1666141129529,10885,HTTP Request,200,OK,500T getCandidates 1-519,text,true,,8154,216,481,481,http://localhost:9999/getCandidatesMap,10885,0,2025
+1666141129540,10890,HTTP Request,200,OK,500T getCandidates 1-520,text,true,,8154,216,480,480,http://localhost:9999/getCandidatesMap,10890,0,2013
+1666141129519,10964,HTTP Request,200,OK,500T getCandidates 1-518,text,true,,8154,216,479,479,http://localhost:9999/getCandidatesMap,10964,0,2035
+1666141129559,10943,HTTP Request,200,OK,500T getCandidates 1-522,text,true,,8154,216,478,478,http://localhost:9999/getCandidatesMap,10943,0,2010
+1666141129551,10971,HTTP Request,200,OK,500T getCandidates 1-521,text,true,,8154,216,477,477,http://localhost:9999/getCandidatesMap,10971,0,2018
+1666141129579,10956,HTTP Request,200,OK,500T getCandidates 1-524,text,true,,8154,216,476,476,http://localhost:9999/getCandidatesMap,10956,0,2006
+1666141129569,11020,HTTP Request,200,OK,500T getCandidates 1-523,text,true,,8154,216,475,475,http://localhost:9999/getCandidatesMap,11020,0,2015
+1666141129589,11023,HTTP Request,200,OK,500T getCandidates 1-525,text,true,,8154,216,474,474,http://localhost:9999/getCandidatesMap,11023,0,2011
+1666141129599,11040,HTTP Request,200,OK,500T getCandidates 1-526,text,true,,8154,216,473,473,http://localhost:9999/getCandidatesMap,11040,0,2017
+1666141129610,11037,HTTP Request,200,OK,500T getCandidates 1-527,text,true,,8154,216,472,472,http://localhost:9999/getCandidatesMap,11037,0,2006
+1666141129620,11078,HTTP Request,200,OK,500T getCandidates 1-528,text,true,,8154,216,471,471,http://localhost:9999/getCandidatesMap,11078,0,2012
+1666141129629,11084,HTTP Request,200,OK,500T getCandidates 1-529,text,true,,8154,216,470,470,http://localhost:9999/getCandidatesMap,11084,0,2019
+1666141129640,11105,HTTP Request,200,OK,500T getCandidates 1-530,text,true,,8154,216,469,469,http://localhost:9999/getCandidatesMap,11105,0,2023
+1666141129650,11099,HTTP Request,200,OK,500T getCandidates 1-531,text,true,,8154,216,468,468,http://localhost:9999/getCandidatesMap,11099,0,2013
+1666141129659,11142,HTTP Request,200,OK,500T getCandidates 1-532,text,true,,8154,216,467,467,http://localhost:9999/getCandidatesMap,11142,0,2021
+1666141129669,11155,HTTP Request,200,OK,500T getCandidates 1-533,text,true,,8154,216,466,466,http://localhost:9999/getCandidatesMap,11155,0,2011
+1666141129679,11172,HTTP Request,200,OK,500T getCandidates 1-534,text,true,,8154,216,465,465,http://localhost:9999/getCandidatesMap,11172,0,2017
+1666141129699,11165,HTTP Request,200,OK,500T getCandidates 1-536,text,true,,8154,216,464,464,http://localhost:9999/getCandidatesMap,11165,0,2013
+1666141129689,11215,HTTP Request,200,OK,500T getCandidates 1-535,text,true,,8154,216,463,463,http://localhost:9999/getCandidatesMap,11215,0,2023
+1666141129710,11224,HTTP Request,200,OK,500T getCandidates 1-537,text,true,,8154,216,462,462,http://localhost:9999/getCandidatesMap,11224,0,2018
+1666141129719,11245,HTTP Request,200,OK,500T getCandidates 1-538,text,true,,8154,216,461,461,http://localhost:9999/getCandidatesMap,11245,0,2008
+1666141129740,11242,HTTP Request,200,OK,500T getCandidates 1-540,text,true,,8154,216,460,460,http://localhost:9999/getCandidatesMap,11242,0,2019
+1666141129730,11281,HTTP Request,200,OK,500T getCandidates 1-539,text,true,,8154,216,459,459,http://localhost:9999/getCandidatesMap,11281,0,2030
+1666141129750,11292,HTTP Request,200,OK,500T getCandidates 1-541,text,true,,8154,216,458,458,http://localhost:9999/getCandidatesMap,11292,0,2010
+1666141129759,11307,HTTP Request,200,OK,500T getCandidates 1-542,text,true,,8154,216,457,457,http://localhost:9999/getCandidatesMap,11307,0,2021
+1666141129779,11311,HTTP Request,200,OK,500T getCandidates 1-544,text,true,,8154,216,456,456,http://localhost:9999/getCandidatesMap,11311,0,2012
+1666141129769,11349,HTTP Request,200,OK,500T getCandidates 1-543,text,true,,8154,216,455,455,http://localhost:9999/getCandidatesMap,11349,0,2022
+1666141129799,11347,HTTP Request,200,OK,500T getCandidates 1-546,text,true,,8154,216,454,454,http://localhost:9999/getCandidatesMap,11347,0,2024
+1666141129789,11383,HTTP Request,200,OK,500T getCandidates 1-545,text,true,,8154,216,453,453,http://localhost:9999/getCandidatesMap,11383,0,2034
+1666141129809,11391,HTTP Request,200,OK,500T getCandidates 1-547,text,true,,8154,216,452,452,http://localhost:9999/getCandidatesMap,11391,0,2030
+1666141129819,11401,HTTP Request,200,OK,500T getCandidates 1-548,text,true,,8154,216,451,451,http://localhost:9999/getCandidatesMap,11401,0,2035
+1666141129840,11406,HTTP Request,200,OK,500T getCandidates 1-550,text,true,,8154,216,450,450,http://localhost:9999/getCandidatesMap,11406,0,2014
+1666141129830,11447,HTTP Request,200,OK,500T getCandidates 1-549,text,true,,8154,216,449,449,http://localhost:9999/getCandidatesMap,11447,0,2039
+1666141129869,11437,HTTP Request,200,OK,500T getCandidates 1-553,text,true,,8154,216,448,448,http://localhost:9999/getCandidatesMap,11437,0,2016
+1666141129859,11473,HTTP Request,200,OK,500T getCandidates 1-552,text,true,,8154,216,447,447,http://localhost:9999/getCandidatesMap,11473,0,2026
+1666141129849,11504,HTTP Request,200,OK,500T getCandidates 1-551,text,true,,8154,216,446,446,http://localhost:9999/getCandidatesMap,11504,0,2036
+1666141129879,11504,HTTP Request,200,OK,500T getCandidates 1-554,text,true,,8154,216,445,445,http://localhost:9999/getCandidatesMap,11504,0,2037
+1666141129889,11526,HTTP Request,200,OK,500T getCandidates 1-555,text,true,,8154,216,444,444,http://localhost:9999/getCandidatesMap,11526,0,2028
+1666141129909,11526,HTTP Request,200,OK,500T getCandidates 1-557,text,true,,8154,216,443,443,http://localhost:9999/getCandidatesMap,11526,0,2023
+1666141129899,11563,HTTP Request,200,OK,500T getCandidates 1-556,text,true,,8154,216,442,442,http://localhost:9999/getCandidatesMap,11563,0,2044
+1666141129919,11576,HTTP Request,200,OK,500T getCandidates 1-558,text,true,,8154,216,441,441,http://localhost:9999/getCandidatesMap,11576,0,2029
+1666141129940,11586,HTTP Request,200,OK,500T getCandidates 1-560,text,true,,8154,216,440,440,http://localhost:9999/getCandidatesMap,11586,0,2024
+1666141129929,11615,HTTP Request,200,OK,500T getCandidates 1-559,text,true,,8154,216,439,439,http://localhost:9999/getCandidatesMap,11615,0,2035
+1666141129950,11617,HTTP Request,200,OK,500T getCandidates 1-561,text,true,,8154,216,438,438,http://localhost:9999/getCandidatesMap,11617,0,2030
+1666141129959,11643,HTTP Request,200,OK,500T getCandidates 1-562,text,true,,8154,216,437,437,http://localhost:9999/getCandidatesMap,11643,0,2037
+1666141129969,11665,HTTP Request,200,OK,500T getCandidates 1-563,text,true,,8154,216,436,436,http://localhost:9999/getCandidatesMap,11665,0,2027
+1666141129990,11656,HTTP Request,200,OK,500T getCandidates 1-565,text,true,,8154,216,435,435,http://localhost:9999/getCandidatesMap,11656,0,2038
+1666141129990,11686,HTTP Request,200,OK,500T getCandidates 1-564,text,true,,8154,216,434,434,http://localhost:9999/getCandidatesMap,11686,0,2038
+1666141130009,11698,HTTP Request,200,OK,500T getCandidates 1-567,text,true,,8154,216,433,433,http://localhost:9999/getCandidatesMap,11698,0,2034
+1666141129999,11741,HTTP Request,200,OK,500T getCandidates 1-566,text,true,,8154,216,432,432,http://localhost:9999/getCandidatesMap,11741,0,2044
+1666141130019,11734,HTTP Request,200,OK,500T getCandidates 1-568,text,true,,8154,216,431,431,http://localhost:9999/getCandidatesMap,11734,0,2024
+1666141130050,11728,HTTP Request,200,OK,500T getCandidates 1-571,text,true,,8154,216,430,430,http://localhost:9999/getCandidatesMap,11728,0,2008
+1666141130039,11773,HTTP Request,200,OK,500T getCandidates 1-570,text,true,,8154,216,429,429,http://localhost:9999/getCandidatesMap,11773,0,2019
+1666141130029,11816,HTTP Request,200,OK,500T getCandidates 1-569,text,true,,8154,216,428,428,http://localhost:9999/getCandidatesMap,11816,0,2029
+1666141130069,11790,HTTP Request,200,OK,500T getCandidates 1-573,text,true,,8154,216,427,427,http://localhost:9999/getCandidatesMap,11790,0,2021
+1666141130079,11802,HTTP Request,200,OK,500T getCandidates 1-574,text,true,,8154,216,426,426,http://localhost:9999/getCandidatesMap,11802,0,2011
+1666141130060,11864,HTTP Request,200,OK,500T getCandidates 1-572,text,true,,8154,216,425,425,http://localhost:9999/getCandidatesMap,11864,0,2037
+1666141130089,11860,HTTP Request,200,OK,500T getCandidates 1-575,text,true,,8154,216,424,424,http://localhost:9999/getCandidatesMap,11860,0,2017
+1666141130109,11862,HTTP Request,200,OK,500T getCandidates 1-577,text,true,,8154,216,423,423,http://localhost:9999/getCandidatesMap,11862,0,2013
+1666141130099,11894,HTTP Request,200,OK,500T getCandidates 1-576,text,true,,8154,216,422,422,http://localhost:9999/getCandidatesMap,11894,0,2023
+1666141130119,11911,HTTP Request,200,OK,500T getCandidates 1-578,text,true,,8154,216,421,421,http://localhost:9999/getCandidatesMap,11911,0,2019
+1666141130129,11931,HTTP Request,200,OK,500T getCandidates 1-579,text,true,,8154,216,420,420,http://localhost:9999/getCandidatesMap,11931,0,2009
+1666141130139,11945,HTTP Request,200,OK,500T getCandidates 1-580,text,true,,8154,216,419,419,http://localhost:9999/getCandidatesMap,11945,0,2014
+1666141130159,11935,HTTP Request,200,OK,500T getCandidates 1-582,text,true,,8154,216,418,418,http://localhost:9999/getCandidatesMap,11935,0,2014
+1666141130149,11985,HTTP Request,200,OK,500T getCandidates 1-581,text,true,,8154,216,417,417,http://localhost:9999/getCandidatesMap,11985,0,2024
+1666141130170,11998,HTTP Request,200,OK,500T getCandidates 1-583,text,true,,8154,216,416,416,http://localhost:9999/getCandidatesMap,11998,0,2014
+1666141130189,12006,HTTP Request,200,OK,500T getCandidates 1-585,text,true,,8154,216,415,415,http://localhost:9999/getCandidatesMap,12006,0,2014
+1666141130199,12002,HTTP Request,200,OK,500T getCandidates 1-586,text,true,,8154,216,414,414,http://localhost:9999/getCandidatesMap,12002,0,2017
+1666141130180,12063,HTTP Request,200,OK,500T getCandidates 1-584,text,true,,8154,216,413,413,http://localhost:9999/getCandidatesMap,12063,0,2036
+1666141130219,12062,HTTP Request,200,OK,500T getCandidates 1-588,text,true,,8154,216,412,412,http://localhost:9999/getCandidatesMap,12062,0,2013
+1666141130209,12103,HTTP Request,200,OK,500T getCandidates 1-587,text,true,,8154,216,411,411,http://localhost:9999/getCandidatesMap,12103,0,2023
+1666141130229,12087,HTTP Request,200,OK,500T getCandidates 1-589,text,true,,8154,216,410,410,http://localhost:9999/getCandidatesMap,12087,0,2034
+1666141130239,12112,HTTP Request,200,OK,500T getCandidates 1-590,text,true,,8154,216,409,409,http://localhost:9999/getCandidatesMap,12112,0,2024
+1666141130270,12114,HTTP Request,200,OK,500T getCandidates 1-593,text,true,,8154,216,408,408,http://localhost:9999/getCandidatesMap,12114,0,2012
+1666141130249,12168,HTTP Request,200,OK,500T getCandidates 1-591,text,true,,8154,216,407,407,http://localhost:9999/getCandidatesMap,12168,0,2014
+1666141130280,12146,HTTP Request,200,OK,500T getCandidates 1-594,text,true,,8154,216,406,406,http://localhost:9999/getCandidatesMap,12146,0,2015
+1666141130259,12200,HTTP Request,200,OK,500T getCandidates 1-592,text,true,,8154,216,405,405,http://localhost:9999/getCandidatesMap,12200,0,2036
+1666141130299,12189,HTTP Request,200,OK,500T getCandidates 1-596,text,true,,8154,216,404,404,http://localhost:9999/getCandidatesMap,12189,0,2028
+1666141130289,12235,HTTP Request,200,OK,500T getCandidates 1-595,text,true,,8154,216,403,403,http://localhost:9999/getCandidatesMap,12235,0,2038
+1666141130311,12221,HTTP Request,200,OK,500T getCandidates 1-597,text,true,,8154,216,402,402,http://localhost:9999/getCandidatesMap,12221,0,2033
+1666141130349,12218,HTTP Request,200,OK,500T getCandidates 1-601,text,true,,8154,216,401,401,http://localhost:9999/getCandidatesMap,12218,0,2008
+1666141130329,12263,HTTP Request,200,OK,500T getCandidates 1-599,text,true,,8154,216,400,400,http://localhost:9999/getCandidatesMap,12263,0,2028
+1666141130319,12313,HTTP Request,200,OK,500T getCandidates 1-598,text,true,,8154,216,399,399,http://localhost:9999/getCandidatesMap,12313,0,2038
+1666141130339,12309,HTTP Request,200,OK,500T getCandidates 1-600,text,true,,8154,216,398,398,http://localhost:9999/getCandidatesMap,12309,0,2034
+1666141130359,12322,HTTP Request,200,OK,500T getCandidates 1-602,text,true,,8154,216,397,397,http://localhost:9999/getCandidatesMap,12322,0,2030
+1666141130379,12318,HTTP Request,200,OK,500T getCandidates 1-604,text,true,,8154,216,396,396,http://localhost:9999/getCandidatesMap,12318,0,2025
+1666141130369,12369,HTTP Request,200,OK,500T getCandidates 1-603,text,true,,8154,216,395,395,http://localhost:9999/getCandidatesMap,12369,0,2035
+1666141130390,12359,HTTP Request,200,OK,500T getCandidates 1-605,text,true,,8154,216,394,394,http://localhost:9999/getCandidatesMap,12359,0,2037
+1666141130409,12390,HTTP Request,200,OK,500T getCandidates 1-607,text,true,,8154,216,393,393,http://localhost:9999/getCandidatesMap,12389,0,2027
+1666141130400,12400,HTTP Request,200,OK,500T getCandidates 1-606,text,true,,8154,216,392,392,http://localhost:9999/getCandidatesMap,12400,0,2038
+1666141130426,12421,HTTP Request,200,OK,500T getCandidates 1-608,text,true,,8154,216,391,391,http://localhost:9999/getCandidatesMap,12421,0,2026
+1666141130442,12410,HTTP Request,200,OK,500T getCandidates 1-609,text,true,,8154,216,390,390,http://localhost:9999/getCandidatesMap,12410,0,2026
+1666141130442,12462,HTTP Request,200,OK,500T getCandidates 1-610,text,true,,8154,216,389,389,http://localhost:9999/getCandidatesMap,12462,0,2026
+1666141130449,12461,HTTP Request,200,OK,500T getCandidates 1-611,text,true,,8154,216,388,388,http://localhost:9999/getCandidatesMap,12461,0,2035
+1666141130459,12490,HTTP Request,200,OK,500T getCandidates 1-612,text,true,,8154,216,387,387,http://localhost:9999/getCandidatesMap,12490,0,2029
+1666141130469,12487,HTTP Request,200,OK,500T getCandidates 1-613,text,true,,8154,216,386,386,http://localhost:9999/getCandidatesMap,12487,0,2046
+1666141130489,12520,HTTP Request,200,OK,500T getCandidates 1-615,text,true,,8154,216,385,385,http://localhost:9999/getCandidatesMap,12520,0,2026
+1666141130479,12540,HTTP Request,200,OK,500T getCandidates 1-614,text,true,,8154,216,384,384,http://localhost:9999/getCandidatesMap,12539,0,2039
+1666141130499,12555,HTTP Request,200,OK,500T getCandidates 1-616,text,true,,8154,216,383,383,http://localhost:9999/getCandidatesMap,12555,0,2032
+1666141130520,12550,HTTP Request,200,OK,500T getCandidates 1-618,text,true,,8154,216,382,382,http://localhost:9999/getCandidatesMap,12550,0,2028
+1666141130510,12610,HTTP Request,200,OK,500T getCandidates 1-617,text,true,,8154,216,381,381,http://localhost:9999/getCandidatesMap,12609,0,2038
+1666141130549,12580,HTTP Request,200,OK,500T getCandidates 1-621,text,true,,8154,216,380,380,http://localhost:9999/getCandidatesMap,12580,0,2014
+1666141130539,12621,HTTP Request,200,OK,500T getCandidates 1-620,text,true,,8154,216,379,379,http://localhost:9999/getCandidatesMap,12621,0,2024
+1666141130529,12651,HTTP Request,200,OK,500T getCandidates 1-619,text,true,,8154,216,378,378,http://localhost:9999/getCandidatesMap,12651,0,2034
+1666141130580,12644,HTTP Request,200,OK,500T getCandidates 1-624,text,true,,8154,216,377,377,http://localhost:9999/getCandidatesMap,12644,0,2022
+1666141130559,12671,HTTP Request,200,OK,500T getCandidates 1-622,text,true,,8154,216,376,376,http://localhost:9999/getCandidatesMap,12671,0,2052
+1666141130570,12692,HTTP Request,200,OK,500T getCandidates 1-623,text,true,,8154,216,375,375,http://localhost:9999/getCandidatesMap,12692,0,2041
+1666141130590,12690,HTTP Request,200,OK,500T getCandidates 1-625,text,true,,8154,216,374,374,http://localhost:9999/getCandidatesMap,12690,0,2039
+1666141130610,12718,HTTP Request,200,OK,500T getCandidates 1-627,text,true,,8154,216,373,373,http://localhost:9999/getCandidatesMap,12718,0,2021
+1666141130600,12747,HTTP Request,200,OK,500T getCandidates 1-626,text,true,,8154,216,372,372,http://localhost:9999/getCandidatesMap,12747,0,2029
+1666141130621,12748,HTTP Request,200,OK,500T getCandidates 1-628,text,true,,8154,216,371,371,http://localhost:9999/getCandidatesMap,12748,0,2022
+1666141130630,12763,HTTP Request,200,OK,500T getCandidates 1-629,text,true,,8154,216,370,370,http://localhost:9999/getCandidatesMap,12763,0,2013
+1666141130639,12799,HTTP Request,200,OK,500T getCandidates 1-630,text,true,,8154,216,369,369,http://localhost:9999/getCandidatesMap,12799,0,2019
+1666141130660,12800,HTTP Request,200,OK,500T getCandidates 1-632,text,true,,8154,216,368,368,http://localhost:9999/getCandidatesMap,12800,0,2014
+1666141130650,12831,HTTP Request,200,OK,500T getCandidates 1-631,text,true,,8154,216,367,367,http://localhost:9999/getCandidatesMap,12831,0,2024
+1666141130669,12862,HTTP Request,200,OK,500T getCandidates 1-633,text,true,,8154,216,366,366,http://localhost:9999/getCandidatesMap,12862,0,2021
+1666141130679,12864,HTTP Request,200,OK,500T getCandidates 1-634,text,true,,8154,216,365,365,http://localhost:9999/getCandidatesMap,12864,0,2026
+1666141130689,12879,HTTP Request,200,OK,500T getCandidates 1-635,text,true,,8154,216,364,364,http://localhost:9999/getCandidatesMap,12879,0,2022
+1666141130699,12898,HTTP Request,200,OK,500T getCandidates 1-636,text,true,,8154,216,363,363,http://localhost:9999/getCandidatesMap,12898,0,2022
+1666141130719,12918,HTTP Request,200,OK,500T getCandidates 1-638,text,true,,8154,216,362,362,http://localhost:9999/getCandidatesMap,12918,0,2017
+1666141130709,12943,HTTP Request,200,OK,500T getCandidates 1-637,text,true,,8154,216,361,361,http://localhost:9999/getCandidatesMap,12943,0,2027
+1666141130729,12946,HTTP Request,200,OK,500T getCandidates 1-639,text,true,,8154,216,360,360,http://localhost:9999/getCandidatesMap,12946,0,2023
+1666141130751,12947,HTTP Request,200,OK,500T getCandidates 1-641,text,true,,8154,216,359,359,http://localhost:9999/getCandidatesMap,12947,0,2018
+1666141130740,13001,HTTP Request,200,OK,500T getCandidates 1-640,text,true,,8154,216,358,358,http://localhost:9999/getCandidatesMap,13001,0,2029
+1666141130760,13003,HTTP Request,200,OK,500T getCandidates 1-642,text,true,,8154,216,357,357,http://localhost:9999/getCandidatesMap,13003,0,2027
+1666141130769,13021,HTTP Request,200,OK,500T getCandidates 1-643,text,true,,8154,216,356,356,http://localhost:9999/getCandidatesMap,13021,0,2031
+1666141130779,13026,HTTP Request,200,OK,500T getCandidates 1-644,text,true,,8154,216,355,355,http://localhost:9999/getCandidatesMap,13026,0,2038
+1666141130799,13052,HTTP Request,200,OK,500T getCandidates 1-646,text,true,,8154,216,354,354,http://localhost:9999/getCandidatesMap,13051,0,2018
+1666141130789,13078,HTTP Request,200,OK,500T getCandidates 1-645,text,true,,8154,216,353,353,http://localhost:9999/getCandidatesMap,13078,0,2053
+1666141130829,13065,HTTP Request,200,OK,500T getCandidates 1-649,text,true,,8154,216,352,352,http://localhost:9999/getCandidatesMap,13065,0,2018
+1666141130810,13094,HTTP Request,200,OK,500T getCandidates 1-647,text,true,,8154,216,351,351,http://localhost:9999/getCandidatesMap,13094,0,2037
+1666141130819,13132,HTTP Request,200,OK,500T getCandidates 1-648,text,true,,8154,216,350,350,http://localhost:9999/getCandidatesMap,13132,0,2029
+1666141130840,13126,HTTP Request,200,OK,500T getCandidates 1-650,text,true,,8154,216,349,349,http://localhost:9999/getCandidatesMap,13126,0,2028
+1666141130860,13137,HTTP Request,200,OK,500T getCandidates 1-652,text,true,,8154,216,348,348,http://localhost:9999/getCandidatesMap,13137,0,2019
+1666141130849,13162,HTTP Request,200,OK,500T getCandidates 1-651,text,true,,8154,216,347,347,http://localhost:9999/getCandidatesMap,13162,0,2030
+1666141130870,13188,HTTP Request,200,OK,500T getCandidates 1-653,text,true,,8154,216,346,346,http://localhost:9999/getCandidatesMap,13188,0,2024
+1666141130879,13192,HTTP Request,200,OK,500T getCandidates 1-654,text,true,,8154,216,345,345,http://localhost:9999/getCandidatesMap,13192,0,2015
+1666141130890,13212,HTTP Request,200,OK,500T getCandidates 1-655,text,true,,8154,216,344,344,http://localhost:9999/getCandidatesMap,13212,0,2020
+1666141130910,13209,HTTP Request,200,OK,500T getCandidates 1-657,text,true,,8154,216,343,343,http://localhost:9999/getCandidatesMap,13209,0,2015
+1666141130900,13265,HTTP Request,200,OK,500T getCandidates 1-656,text,true,,8154,216,342,342,http://localhost:9999/getCandidatesMap,13265,0,2025
+1666141130920,13265,HTTP Request,200,OK,500T getCandidates 1-658,text,true,,8154,216,341,341,http://localhost:9999/getCandidatesMap,13265,0,2021
+1666141130930,13276,HTTP Request,200,OK,500T getCandidates 1-659,text,true,,8154,216,340,340,http://localhost:9999/getCandidatesMap,13276,0,2027
+1666141130940,13292,HTTP Request,200,OK,500T getCandidates 1-660,text,true,,8154,216,339,339,http://localhost:9999/getCandidatesMap,13292,0,2018
+1666141130950,13332,HTTP Request,200,OK,500T getCandidates 1-661,text,true,,8154,216,338,338,http://localhost:9999/getCandidatesMap,13332,0,2026
+1666141130959,13334,HTTP Request,200,OK,500T getCandidates 1-662,text,true,,8154,216,337,337,http://localhost:9999/getCandidatesMap,13334,0,2030
+1666141130969,13341,HTTP Request,200,OK,500T getCandidates 1-663,text,true,,8154,216,336,336,http://localhost:9999/getCandidatesMap,13341,0,2020
+1666141130981,13359,HTTP Request,200,OK,500T getCandidates 1-664,text,true,,8154,216,335,335,http://localhost:9999/getCandidatesMap,13359,0,2040
+1666141130990,13406,HTTP Request,200,OK,500T getCandidates 1-665,text,true,,8154,216,334,334,http://localhost:9999/getCandidatesMap,13406,0,2046
+1666141130999,13402,HTTP Request,200,OK,500T getCandidates 1-666,text,true,,8154,216,333,333,http://localhost:9999/getCandidatesMap,13402,0,2037
+1666141131030,13386,HTTP Request,200,OK,500T getCandidates 1-669,text,true,,8154,216,332,332,http://localhost:9999/getCandidatesMap,13386,0,2022
+1666141131009,13442,HTTP Request,200,OK,500T getCandidates 1-667,text,true,,8154,216,331,331,http://localhost:9999/getCandidatesMap,13442,0,2046
+1666141131019,13494,HTTP Request,200,OK,500T getCandidates 1-668,text,true,,8154,216,330,330,http://localhost:9999/getCandidatesMap,13494,0,2036
+1666141131041,13473,HTTP Request,200,OK,500T getCandidates 1-670,text,true,,8154,216,329,329,http://localhost:9999/getCandidatesMap,13473,0,2026
+1666141131049,13471,HTTP Request,200,OK,500T getCandidates 1-671,text,true,,8154,216,328,328,http://localhost:9999/getCandidatesMap,13471,0,2034
+1666141131060,13498,HTTP Request,200,OK,500T getCandidates 1-672,text,true,,8154,216,327,327,http://localhost:9999/getCandidatesMap,13498,0,2023
+1666141131080,13538,HTTP Request,200,OK,500T getCandidates 1-674,text,true,,8154,216,326,326,http://localhost:9999/getCandidatesMap,13538,0,2019
+1666141131091,13536,HTTP Request,200,OK,500T getCandidates 1-675,text,true,,8154,216,325,325,http://localhost:9999/getCandidatesMap,13536,0,2040
+1666141131070,13558,HTTP Request,200,OK,500T getCandidates 1-673,text,true,,8154,216,325,325,http://localhost:9999/getCandidatesMap,13558,0,2029
+1666141131101,13575,HTTP Request,200,OK,500T getCandidates 1-676,text,true,,8154,216,323,323,http://localhost:9999/getCandidatesMap,13575,0,2030
+1666141131110,13611,HTTP Request,200,OK,500T getCandidates 1-677,text,true,,8154,216,322,322,http://localhost:9999/getCandidatesMap,13611,0,2021
+1666141131119,13610,HTTP Request,200,OK,500T getCandidates 1-678,text,true,,8154,216,321,321,http://localhost:9999/getCandidatesMap,13610,0,2028
+1666141131129,13603,HTTP Request,200,OK,500T getCandidates 1-679,text,true,,8154,216,320,320,http://localhost:9999/getCandidatesMap,13603,0,2018
+1666141131140,13637,HTTP Request,200,OK,500T getCandidates 1-680,text,true,,8154,216,319,319,http://localhost:9999/getCandidatesMap,13637,0,2023
+1666141131150,13678,HTTP Request,200,OK,500T getCandidates 1-681,text,true,,8154,216,318,318,http://localhost:9999/getCandidatesMap,13678,0,2028
+1666141131160,13676,HTTP Request,200,OK,500T getCandidates 1-682,text,true,,8154,216,317,317,http://localhost:9999/getCandidatesMap,13676,0,2018
+1666141131169,13668,HTTP Request,200,OK,500T getCandidates 1-683,text,true,,8154,216,316,316,http://localhost:9999/getCandidatesMap,13668,0,2025
+1666141131179,13708,HTTP Request,200,OK,500T getCandidates 1-684,text,true,,8154,216,315,315,http://localhost:9999/getCandidatesMap,13708,0,2031
+1666141131189,13744,HTTP Request,200,OK,500T getCandidates 1-685,text,true,,8154,216,314,314,http://localhost:9999/getCandidatesMap,13744,0,2021
+1666141131200,13737,HTTP Request,200,OK,500T getCandidates 1-686,text,true,,8154,216,313,313,http://localhost:9999/getCandidatesMap,13737,0,2025
+1666141131210,13729,HTTP Request,200,OK,500T getCandidates 1-687,text,true,,8154,216,312,312,http://localhost:9999/getCandidatesMap,13729,0,2015
+1666141131220,13766,HTTP Request,200,OK,500T getCandidates 1-688,text,true,,8154,216,311,311,http://localhost:9999/getCandidatesMap,13766,0,2021
+1666141131249,13785,HTTP Request,200,OK,500T getCandidates 1-691,text,true,,8154,216,310,310,http://localhost:9999/getCandidatesMap,13785,0,2023
+1666141131229,13809,HTTP Request,200,OK,500T getCandidates 1-689,text,true,,8154,216,309,309,http://localhost:9999/getCandidatesMap,13809,0,2045
+1666141131239,13801,HTTP Request,200,OK,500T getCandidates 1-690,text,true,,8154,216,308,308,http://localhost:9999/getCandidatesMap,13801,0,2035
+1666141131269,13825,HTTP Request,200,OK,500T getCandidates 1-693,text,true,,8154,216,307,307,http://localhost:9999/getCandidatesMap,13825,0,2019
+1666141131290,13855,HTTP Request,200,OK,500T getCandidates 1-695,text,true,,8154,216,306,306,http://localhost:9999/getCandidatesMap,13855,0,2030
+1666141131260,13885,HTTP Request,200,OK,500T getCandidates 1-692,text,true,,8154,216,305,305,http://localhost:9999/getCandidatesMap,13885,0,2028
+1666141131279,13871,HTTP Request,200,OK,500T getCandidates 1-694,text,true,,8154,216,304,304,http://localhost:9999/getCandidatesMap,13871,0,2040
+1666141131300,13896,HTTP Request,200,OK,500T getCandidates 1-696,text,true,,8154,216,303,303,http://localhost:9999/getCandidatesMap,13896,0,2020
+1666141131321,13923,HTTP Request,200,OK,500T getCandidates 1-698,text,true,,8154,216,302,302,http://localhost:9999/getCandidatesMap,13923,0,2015
+1666141131311,13938,HTTP Request,200,OK,500T getCandidates 1-697,text,true,,8154,216,301,301,http://localhost:9999/getCandidatesMap,13938,0,2041
+1666141131331,13921,HTTP Request,200,OK,500T getCandidates 1-699,text,true,,8154,216,300,300,http://localhost:9999/getCandidatesMap,13921,0,2021
+1666141131340,13958,HTTP Request,200,OK,500T getCandidates 1-700,text,true,,8154,216,299,299,http://localhost:9999/getCandidatesMap,13958,0,2012
+1666141131360,13999,HTTP Request,200,OK,500T getCandidates 1-702,text,true,,8154,216,298,298,http://localhost:9999/getCandidatesMap,13998,0,2023
+1666141131350,14009,HTTP Request,200,OK,500T getCandidates 1-701,text,true,,8154,216,297,297,http://localhost:9999/getCandidatesMap,14009,0,2018
+1666141131380,13982,HTTP Request,200,OK,500T getCandidates 1-704,text,true,,8154,216,296,296,http://localhost:9999/getCandidatesMap,13982,0,2020
+1666141131370,14042,HTTP Request,200,OK,500T getCandidates 1-703,text,true,,8154,216,295,295,http://localhost:9999/getCandidatesMap,14042,0,2030
+1666141131390,14073,HTTP Request,200,OK,500T getCandidates 1-705,text,true,,8154,216,294,294,http://localhost:9999/getCandidatesMap,14073,0,2025
+1666141131422,14044,HTTP Request,200,OK,500T getCandidates 1-707,text,true,,8154,216,293,293,http://localhost:9999/getCandidatesMap,14044,0,2026
+1666141131422,14047,HTTP Request,200,OK,500T getCandidates 1-708,text,true,,8154,216,292,292,http://localhost:9999/getCandidatesMap,14047,0,2026
+1666141131432,14085,HTTP Request,200,OK,500T getCandidates 1-709,text,true,,8154,216,291,291,http://localhost:9999/getCandidatesMap,14085,0,2016
+1666141131422,14151,HTTP Request,200,OK,500T getCandidates 1-706,text,true,,8154,216,290,290,http://localhost:9999/getCandidatesMap,14151,0,2026
+1666141131442,14136,HTTP Request,200,OK,500T getCandidates 1-710,text,true,,8154,216,289,289,http://localhost:9999/getCandidatesMap,14136,0,2021
+1666141131452,14129,HTTP Request,200,OK,500T getCandidates 1-711,text,true,,8154,216,288,288,http://localhost:9999/getCandidatesMap,14129,0,2028
+1666141131460,14171,HTTP Request,200,OK,500T getCandidates 1-712,text,true,,8154,216,287,287,http://localhost:9999/getCandidatesMap,14171,0,2020
+1666141131479,14201,HTTP Request,200,OK,500T getCandidates 1-714,text,true,,8154,216,286,286,http://localhost:9999/getCandidatesMap,14201,0,2016
+1666141131489,14197,HTTP Request,200,OK,500T getCandidates 1-715,text,true,,8154,216,285,285,http://localhost:9999/getCandidatesMap,14197,0,2022
+1666141131469,14218,HTTP Request,200,OK,500T getCandidates 1-713,text,true,,8154,216,284,284,http://localhost:9999/getCandidatesMap,14218,0,2026
+1666141131509,14230,HTTP Request,200,OK,500T getCandidates 1-717,text,true,,8154,216,283,283,http://localhost:9999/getCandidatesMap,14230,0,2017
+1666141131499,14287,HTTP Request,200,OK,500T getCandidates 1-716,text,true,,8154,216,282,282,http://localhost:9999/getCandidatesMap,14287,0,2027
+1666141131519,14277,HTTP Request,200,OK,500T getCandidates 1-718,text,true,,8154,216,281,281,http://localhost:9999/getCandidatesMap,14276,0,2022
+1666141131541,14256,HTTP Request,200,OK,500T getCandidates 1-720,text,true,,8154,216,280,280,http://localhost:9999/getCandidatesMap,14256,0,2016
+1666141131529,14317,HTTP Request,200,OK,500T getCandidates 1-719,text,true,,8154,216,279,279,http://localhost:9999/getCandidatesMap,14317,0,2028
+1666141131551,14343,HTTP Request,200,OK,500T getCandidates 1-721,text,true,,8154,216,278,278,http://localhost:9999/getCandidatesMap,14343,0,2022
+1666141131569,14332,HTTP Request,200,OK,500T getCandidates 1-723,text,true,,8154,216,277,277,http://localhost:9999/getCandidatesMap,14332,0,2019
+1666141131561,14346,HTTP Request,200,OK,500T getCandidates 1-722,text,true,,8154,216,276,276,http://localhost:9999/getCandidatesMap,14346,0,2027
+1666141131589,14368,HTTP Request,200,OK,500T getCandidates 1-725,text,true,,8154,216,275,275,http://localhost:9999/getCandidatesMap,14368,0,2031
+1666141131580,14420,HTTP Request,200,OK,500T getCandidates 1-724,text,true,,8154,216,274,274,http://localhost:9999/getCandidatesMap,14420,0,2040
+1666141131600,14406,HTTP Request,200,OK,500T getCandidates 1-726,text,true,,8154,216,273,273,http://localhost:9999/getCandidatesMap,14406,0,2029
+1666141131610,14408,HTTP Request,200,OK,500T getCandidates 1-727,text,true,,8154,216,272,272,http://localhost:9999/getCandidatesMap,14408,0,2040
+1666141131620,14450,HTTP Request,200,OK,500T getCandidates 1-728,text,true,,8154,216,271,271,http://localhost:9999/getCandidatesMap,14450,0,2039
+1666141131629,14474,HTTP Request,200,OK,500T getCandidates 1-729,text,true,,8154,216,270,270,http://localhost:9999/getCandidatesMap,14474,0,2038
+1666141131650,14467,HTTP Request,200,OK,500T getCandidates 1-731,text,true,,8154,216,269,269,http://localhost:9999/getCandidatesMap,14467,0,2017
+1666141131639,14492,HTTP Request,200,OK,500T getCandidates 1-730,text,true,,8154,216,268,268,http://localhost:9999/getCandidatesMap,14492,0,2028
+1666141131661,14516,HTTP Request,200,OK,500T getCandidates 1-732,text,true,,8154,216,267,267,http://localhost:9999/getCandidatesMap,14516,0,2021
+1666141131670,14542,HTTP Request,200,OK,500T getCandidates 1-733,text,true,,8154,216,266,266,http://localhost:9999/getCandidatesMap,14542,0,2029
+1666141131681,14545,HTTP Request,200,OK,500T getCandidates 1-734,text,true,,8154,216,265,265,http://localhost:9999/getCandidatesMap,14545,0,2018
+1666141131689,14544,HTTP Request,200,OK,500T getCandidates 1-735,text,true,,8154,216,264,264,http://localhost:9999/getCandidatesMap,14544,0,2025
+1666141131699,14578,HTTP Request,200,OK,500T getCandidates 1-736,text,true,,8154,216,263,263,http://localhost:9999/getCandidatesMap,14578,0,2016
+1666141131710,14606,HTTP Request,200,OK,500T getCandidates 1-737,text,true,,8154,216,262,262,http://localhost:9999/getCandidatesMap,14606,0,2019
+1666141131730,14602,HTTP Request,200,OK,500T getCandidates 1-739,text,true,,8154,216,261,261,http://localhost:9999/getCandidatesMap,14602,0,2015
+1666141131720,14615,HTTP Request,200,OK,500T getCandidates 1-738,text,true,,8154,216,260,260,http://localhost:9999/getCandidatesMap,14615,0,2025
+1666141131740,14644,HTTP Request,200,OK,500T getCandidates 1-740,text,true,,8154,216,259,259,http://localhost:9999/getCandidatesMap,14644,0,2021
+1666141131750,14669,HTTP Request,200,OK,500T getCandidates 1-741,text,true,,8154,216,258,258,http://localhost:9999/getCandidatesMap,14669,0,2027
+1666141131782,14657,HTTP Request,200,OK,500T getCandidates 1-744,text,true,,8154,216,257,257,http://localhost:9999/getCandidatesMap,14657,0,2010
+1666141131761,14679,HTTP Request,200,OK,500T getCandidates 1-742,text,true,,8154,216,256,256,http://localhost:9999/getCandidatesMap,14679,0,2020
+1666141131772,14723,HTTP Request,200,OK,500T getCandidates 1-743,text,true,,8154,216,255,255,http://localhost:9999/getCandidatesMap,14723,0,2020
+1666141131790,14731,HTTP Request,200,OK,500T getCandidates 1-745,text,true,,8154,216,254,254,http://localhost:9999/getCandidatesMap,14731,0,2018
+1666141131810,14737,HTTP Request,200,OK,500T getCandidates 1-747,text,true,,8154,216,253,253,http://localhost:9999/getCandidatesMap,14737,0,2014
+1666141131801,14769,HTTP Request,200,OK,500T getCandidates 1-746,text,true,,8154,216,252,252,http://localhost:9999/getCandidatesMap,14769,0,2023
+1666141131820,14777,HTTP Request,200,OK,500T getCandidates 1-748,text,true,,8154,216,251,251,http://localhost:9999/getCandidatesMap,14776,0,2035
+1666141131830,14797,HTTP Request,200,OK,500T getCandidates 1-749,text,true,,8154,216,250,250,http://localhost:9999/getCandidatesMap,14797,0,2036
+1666141131839,14817,HTTP Request,200,OK,500T getCandidates 1-750,text,true,,8154,216,249,249,http://localhost:9999/getCandidatesMap,14817,0,2031
+1666141131850,14824,HTTP Request,200,OK,500T getCandidates 1-751,text,true,,8154,216,248,248,http://localhost:9999/getCandidatesMap,14824,0,2020
+1666141131861,14838,HTTP Request,200,OK,500T getCandidates 1-752,text,true,,8154,216,247,247,http://localhost:9999/getCandidatesMap,14837,0,2025
+1666141131870,14859,HTTP Request,200,OK,500T getCandidates 1-753,text,true,,8154,216,246,246,http://localhost:9999/getCandidatesMap,14859,0,2017
+1666141131881,14879,HTTP Request,200,OK,500T getCandidates 1-754,text,true,,8154,216,245,245,http://localhost:9999/getCandidatesMap,14879,0,2020
+1666141131891,14884,HTTP Request,200,OK,500T getCandidates 1-755,text,true,,8154,216,244,244,http://localhost:9999/getCandidatesMap,14884,0,2026
+1666141131900,14901,HTTP Request,200,OK,500T getCandidates 1-756,text,true,,8154,216,243,243,http://localhost:9999/getCandidatesMap,14901,0,2017
+1666141131920,14917,HTTP Request,200,OK,500T getCandidates 1-758,text,true,,8154,216,242,242,http://localhost:9999/getCandidatesMap,14917,0,2013
+1666141131930,14940,HTTP Request,200,OK,500T getCandidates 1-759,text,true,,8154,216,241,241,http://localhost:9999/getCandidatesMap,14940,0,2019
+1666141131910,14974,HTTP Request,200,OK,500T getCandidates 1-757,text,true,,8154,216,240,240,http://localhost:9999/getCandidatesMap,14974,0,2039
+1666141131971,14941,HTTP Request,200,OK,500T getCandidates 1-763,text,true,,8154,216,239,239,http://localhost:9999/getCandidatesMap,14941,0,2025
+1666141131981,14963,HTTP Request,200,OK,500T getCandidates 1-764,text,true,,8154,216,238,238,http://localhost:9999/getCandidatesMap,14963,0,2014
+1666141131951,15024,HTTP Request,200,OK,500T getCandidates 1-761,text,true,,8154,216,237,237,http://localhost:9999/getCandidatesMap,15024,0,2014
+1666141131961,15027,HTTP Request,200,OK,500T getCandidates 1-762,text,true,,8154,216,236,236,http://localhost:9999/getCandidatesMap,15027,0,2019
+1666141131940,15076,HTTP Request,200,OK,500T getCandidates 1-760,text,true,,8154,216,235,235,http://localhost:9999/getCandidatesMap,15076,0,2025
+1666141131992,15060,HTTP Request,200,OK,500T getCandidates 1-765,text,true,,8154,216,234,234,http://localhost:9999/getCandidatesMap,15060,0,2019
+1666141132011,15072,HTTP Request,200,OK,500T getCandidates 1-767,text,true,,8154,216,233,233,http://localhost:9999/getCandidatesMap,15072,0,2016
+1666141132002,15093,HTTP Request,200,OK,500T getCandidates 1-766,text,true,,8154,216,232,232,http://localhost:9999/getCandidatesMap,15093,0,2047
+1666141132020,15098,HTTP Request,200,OK,500T getCandidates 1-768,text,true,,8154,216,231,231,http://localhost:9999/getCandidatesMap,15098,0,2029
+1666141132031,15129,HTTP Request,200,OK,500T getCandidates 1-769,text,true,,8154,216,230,230,http://localhost:9999/getCandidatesMap,15129,0,2018
+1666141132041,15155,HTTP Request,200,OK,500T getCandidates 1-770,text,true,,8154,216,229,229,http://localhost:9999/getCandidatesMap,15155,0,2017
+1666141132061,15140,HTTP Request,200,OK,500T getCandidates 1-772,text,true,,8154,216,228,228,http://localhost:9999/getCandidatesMap,15140,0,2013
+1666141132050,15180,HTTP Request,200,OK,500T getCandidates 1-771,text,true,,8154,216,227,227,http://localhost:9999/getCandidatesMap,15180,0,2024
+1666141132071,15200,HTTP Request,200,OK,500T getCandidates 1-773,text,true,,8154,216,226,226,http://localhost:9999/getCandidatesMap,15200,0,2018
+1666141132081,15227,HTTP Request,200,OK,500T getCandidates 1-774,text,true,,8154,216,225,225,http://localhost:9999/getCandidatesMap,15227,0,2024
+1666141132092,15223,HTTP Request,200,OK,500T getCandidates 1-775,text,true,,8154,216,224,224,http://localhost:9999/getCandidatesMap,15223,0,2017
+1666141132102,15235,HTTP Request,200,OK,500T getCandidates 1-776,text,true,,8154,216,223,223,http://localhost:9999/getCandidatesMap,15235,0,2019
+1666141132111,15269,HTTP Request,200,OK,500T getCandidates 1-777,text,true,,8154,216,222,222,http://localhost:9999/getCandidatesMap,15269,0,2010
+1666141132120,15289,HTTP Request,200,OK,500T getCandidates 1-778,text,true,,8154,216,221,221,http://localhost:9999/getCandidatesMap,15289,0,2032
+1666141132131,15292,HTTP Request,200,OK,500T getCandidates 1-779,text,true,,8154,216,220,220,http://localhost:9999/getCandidatesMap,15292,0,2036
+1666141132151,15289,HTTP Request,200,OK,500T getCandidates 1-781,text,true,,8154,216,219,219,http://localhost:9999/getCandidatesMap,15289,0,2016
+1666141132140,15344,HTTP Request,200,OK,500T getCandidates 1-780,text,true,,8154,216,218,218,http://localhost:9999/getCandidatesMap,15344,0,2027
+1666141132161,15349,HTTP Request,200,OK,500T getCandidates 1-782,text,true,,8154,216,217,217,http://localhost:9999/getCandidatesMap,15349,0,2038
+1666141132170,15356,HTTP Request,200,OK,500T getCandidates 1-783,text,true,,8154,216,216,216,http://localhost:9999/getCandidatesMap,15356,0,2029
+1666141132181,15362,HTTP Request,200,OK,500T getCandidates 1-784,text,true,,8154,216,215,215,http://localhost:9999/getCandidatesMap,15362,0,2033
+1666141132201,15386,HTTP Request,200,OK,500T getCandidates 1-786,text,true,,8154,216,214,214,http://localhost:9999/getCandidatesMap,15386,0,2027
+1666141132191,15431,HTTP Request,200,OK,500T getCandidates 1-785,text,true,,8154,216,213,213,http://localhost:9999/getCandidatesMap,15431,0,2039
+1666141132212,15426,HTTP Request,200,OK,500T getCandidates 1-787,text,true,,8154,216,212,212,http://localhost:9999/getCandidatesMap,15426,0,2018
+1666141132231,15419,HTTP Request,200,OK,500T getCandidates 1-789,text,true,,8154,216,211,211,http://localhost:9999/getCandidatesMap,15419,0,2015
+1666141132222,15476,HTTP Request,200,OK,500T getCandidates 1-788,text,true,,8154,216,210,210,http://localhost:9999/getCandidatesMap,15476,0,2024
+1666141132251,15483,HTTP Request,200,OK,500T getCandidates 1-791,text,true,,8154,216,209,209,http://localhost:9999/getCandidatesMap,15483,0,2034
+1666141132261,15481,HTTP Request,200,OK,500T getCandidates 1-792,text,true,,8154,216,208,208,http://localhost:9999/getCandidatesMap,15481,0,2024
+1666141132270,15488,HTTP Request,200,OK,500T getCandidates 1-793,text,true,,8154,216,207,207,http://localhost:9999/getCandidatesMap,15488,0,2037
+1666141132280,15531,HTTP Request,200,OK,500T getCandidates 1-794,text,true,,8154,216,206,206,http://localhost:9999/getCandidatesMap,15531,0,2027
+1666141132241,15596,HTTP Request,200,OK,500T getCandidates 1-790,text,true,,8154,216,205,205,http://localhost:9999/getCandidatesMap,15596,0,2045
+1666141132310,15540,HTTP Request,200,OK,500T getCandidates 1-797,text,true,,8154,216,204,204,http://localhost:9999/getCandidatesMap,15540,0,2014
+1666141132331,17041,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-799,text,false,,2441,0,203,203,http://localhost:9999/getCandidatesMap,0,0,2025
+1666141132341,17032,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-800,text,false,,2441,0,202,202,http://localhost:9999/getCandidatesMap,0,0,2015
+1666141132320,17054,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-798,text,false,,2441,0,201,201,http://localhost:9999/getCandidatesMap,0,0,2036
+1666141132359,17028,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-802,text,false,,2441,0,200,200,http://localhost:9999/getCandidatesMap,0,0,2013
+1666141132349,17053,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-801,text,false,,2441,0,199,199,http://localhost:9999/getCandidatesMap,0,0,2043
+1666141132369,17049,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-803,text,false,,2441,0,198,198,http://localhost:9999/getCandidatesMap,0,0,2034
+1666141132390,17028,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-805,text,false,,2441,0,198,198,http://localhost:9999/getCandidatesMap,0,0,2013
+1666141132379,17039,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-804,text,false,,2441,0,196,196,http://localhost:9999/getCandidatesMap,0,0,2024
+1666141132400,17033,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-806,text,false,,2441,0,195,195,http://localhost:9999/getCandidatesMap,0,0,2019
+1666141132410,17039,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-807,text,false,,2441,0,194,194,http://localhost:9999/getCandidatesMap,0,0,2025
+1666141132419,17030,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-808,text,false,,2441,0,194,194,http://localhost:9999/getCandidatesMap,0,0,2022
+1666141132430,17034,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-809,text,false,,2441,0,192,192,http://localhost:9999/getCandidatesMap,0,0,2021
+1666141132441,17024,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-810,text,false,,2441,0,192,192,http://localhost:9999/getCandidatesMap,0,0,2010
+1666141132453,17027,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-811,text,false,,2441,0,190,190,http://localhost:9999/getCandidatesMap,0,0,2014
+1666141132460,17036,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-812,text,false,,2441,0,189,189,http://localhost:9999/getCandidatesMap,0,0,2023
+1666141132469,17027,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-813,text,false,,2441,0,189,189,http://localhost:9999/getCandidatesMap,0,0,2014
+1666141132489,17022,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-815,text,false,,2441,0,187,187,http://localhost:9999/getCandidatesMap,0,0,2010
+1666141132499,17028,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-816,text,false,,2441,0,186,186,http://localhost:9999/getCandidatesMap,0,0,2016
+1666141132480,17047,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-814,text,false,,2441,0,186,186,http://localhost:9999/getCandidatesMap,0,0,2035
+1666141132520,17038,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-818,text,false,,2441,0,184,184,http://localhost:9999/getCandidatesMap,0,0,2031
+1666141132529,17031,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-819,text,false,,2441,0,184,184,http://localhost:9999/getCandidatesMap,0,0,2017
+1666141132510,17050,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-817,text,false,,2441,0,184,184,http://localhost:9999/getCandidatesMap,0,0,2041
+1666141132539,17035,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-820,text,false,,2441,0,181,181,http://localhost:9999/getCandidatesMap,0,0,2024
+1666141132550,17024,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-821,text,false,,2441,0,181,181,http://localhost:9999/getCandidatesMap,0,0,2013
+1666141132561,17028,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-822,text,false,,2441,0,179,179,http://localhost:9999/getCandidatesMap,0,0,2017
+1666141132571,17034,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-823,text,false,,2441,0,178,178,http://localhost:9999/getCandidatesMap,0,0,2022
+1666141132581,17024,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-824,text,false,,2441,0,178,178,http://localhost:9999/getCandidatesMap,0,0,2012
+1666141132600,17021,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-826,text,false,,2441,0,176,176,http://localhost:9999/getCandidatesMap,0,0,2015
+1666141132589,17032,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-825,text,false,,2441,0,176,176,http://localhost:9999/getCandidatesMap,0,0,2026
+1666141132610,17026,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-827,text,false,,2441,0,174,174,http://localhost:9999/getCandidatesMap,0,0,2024
+1666141132620,17032,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-828,text,false,,2441,0,173,173,http://localhost:9999/getCandidatesMap,0,0,2021
+1666141132630,17022,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-829,text,false,,2441,0,173,173,http://localhost:9999/getCandidatesMap,0,0,2013
+1666141132640,17027,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-830,text,false,,2441,0,171,171,http://localhost:9999/getCandidatesMap,0,0,2017
+1666141132659,17040,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-832,text,false,,2441,0,170,170,http://localhost:9999/getCandidatesMap,0,0,2035
+1666141132649,17050,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-831,text,false,,2441,0,170,170,http://localhost:9999/getCandidatesMap,0,0,2045
+1666141132671,17043,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-833,text,false,,2441,0,168,168,http://localhost:9999/getCandidatesMap,0,0,2034
+1666141132709,17021,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-837,text,false,,2441,0,167,167,http://localhost:9999/getCandidatesMap,0,0,2016
+1666141132692,17038,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-835,text,false,,2441,0,166,166,http://localhost:9999/getCandidatesMap,0,0,2029
+1666141132681,17049,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-834,text,false,,2441,0,166,166,http://localhost:9999/getCandidatesMap,0,0,2044
+1666141132700,17030,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-836,text,false,,2441,0,165,165,http://localhost:9999/getCandidatesMap,0,0,2025
+1666141132719,17027,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-838,text,false,,2441,0,163,163,http://localhost:9999/getCandidatesMap,0,0,2018
+1666141132730,17031,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-839,text,false,,2441,0,162,162,http://localhost:9999/getCandidatesMap,0,0,2023
+1666141132750,17027,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-841,text,false,,2441,0,161,161,http://localhost:9999/getCandidatesMap,0,0,2020
+1666141132740,17038,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-840,text,false,,2441,0,160,160,http://localhost:9999/getCandidatesMap,0,0,2030
+1666141132769,17023,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-843,text,false,,2441,0,159,159,http://localhost:9999/getCandidatesMap,0,0,2017
+1666141132760,17048,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-842,text,false,,2441,0,158,158,http://localhost:9999/getCandidatesMap,0,0,2048
+1666141132779,17045,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-844,text,false,,2441,0,157,157,http://localhost:9999/getCandidatesMap,0,0,2037
+1666141132791,17048,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-845,text,false,,2441,0,156,156,http://localhost:9999/getCandidatesMap,0,0,2048
+1666141132801,17038,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-846,text,false,,2441,0,156,156,http://localhost:9999/getCandidatesMap,0,0,2038
+1666141132810,17030,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-847,text,false,,2441,0,154,154,http://localhost:9999/getCandidatesMap,0,0,2029
+1666141132820,17051,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-848,text,false,,2441,0,153,153,http://localhost:9999/getCandidatesMap,0,0,2044
+1666141132843,17043,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-849,text,false,,2441,0,152,152,http://localhost:9999/getCandidatesMap,0,0,2038
+1666141132843,17044,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-850,text,false,,2441,0,152,152,http://localhost:9999/getCandidatesMap,0,0,2038
+1666141132850,17037,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-851,text,false,,2441,0,150,150,http://localhost:9999/getCandidatesMap,0,0,2031
+1666141132860,17027,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-852,text,false,,2441,0,150,150,http://localhost:9999/getCandidatesMap,0,0,2021
+1666141132870,17051,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-853,text,false,,2441,0,148,148,http://localhost:9999/getCandidatesMap,0,0,2027
+1666141132881,17040,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-854,text,false,,2441,0,148,148,http://localhost:9999/getCandidatesMap,0,0,2015
+1666141132906,17027,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-855,text,false,,2441,0,146,146,http://localhost:9999/getCandidatesMap,0,0,2022
+1666141132926,17023,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-857,text,false,,2441,0,145,145,http://localhost:9999/getCandidatesMap,0,0,2018
+1666141132919,17030,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-858,text,false,,2441,0,145,145,http://localhost:9999/getCandidatesMap,0,0,2026
+1666141132929,17020,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-859,text,false,,2441,0,143,143,http://localhost:9999/getCandidatesMap,0,0,2016
+1666141132916,17033,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-856,text,false,,2441,0,142,142,http://localhost:9999/getCandidatesMap,0,0,2029
+1666141132939,17025,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-860,text,false,,2441,0,141,141,http://localhost:9999/getCandidatesMap,0,0,2022
+1666141132969,17026,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-863,text,false,,2441,0,140,140,http://localhost:9999/getCandidatesMap,0,0,2024
+1666141132960,17036,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-862,text,false,,2441,0,139,139,http://localhost:9999/getCandidatesMap,0,0,2033
+1666141132950,17046,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-861,text,false,,2441,0,138,138,http://localhost:9999/getCandidatesMap,0,0,2043
+1666141132979,17017,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-864,text,false,,2441,0,138,138,http://localhost:9999/getCandidatesMap,0,0,2014
+1666141132999,17028,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-866,text,false,,2441,0,136,136,http://localhost:9999/getCandidatesMap,0,0,2025
+1666141133009,17018,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-867,text,false,,2441,0,136,136,http://localhost:9999/getCandidatesMap,0,0,2015
+1666141132989,17038,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-865,text,false,,2441,0,134,134,http://localhost:9999/getCandidatesMap,0,0,2035
+1666141133019,17023,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-868,text,false,,2441,0,133,133,http://localhost:9999/getCandidatesMap,0,0,2021
+1666141133051,17023,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-871,text,false,,2441,0,132,132,http://localhost:9999/getCandidatesMap,0,0,2021
+1666141133030,17044,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-869,text,false,,2441,0,132,132,http://localhost:9999/getCandidatesMap,0,0,2042
+1666141133040,17034,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-870,text,false,,2441,0,130,130,http://localhost:9999/getCandidatesMap,0,0,2032
+1666141133069,17020,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-873,text,false,,2441,0,129,129,http://localhost:9999/getCandidatesMap,0,0,2019
+1666141133059,17046,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-872,text,false,,2441,0,128,128,http://localhost:9999/getCandidatesMap,0,0,2030
+1666141133089,17032,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-875,text,false,,2441,0,127,127,http://localhost:9999/getCandidatesMap,0,0,2031
+1666141133079,17042,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-874,text,false,,2441,0,127,127,http://localhost:9999/getCandidatesMap,0,0,2030
+1666141133099,17026,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-876,text,false,,2441,0,125,125,http://localhost:9999/getCandidatesMap,0,0,2020
+1666141133109,17027,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-877,text,false,,2441,0,124,124,http://localhost:9999/getCandidatesMap,0,0,2027
+1666141133119,17017,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-878,text,false,,2441,0,124,124,http://localhost:9999/getCandidatesMap,0,0,2016
+1666141133129,17038,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-879,text,false,,2441,0,122,122,http://localhost:9999/getCandidatesMap,0,0,2022
+1666141133139,17044,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-880,text,false,,2441,0,121,121,http://localhost:9999/getCandidatesMap,0,0,2029
+1666141133150,17049,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-881,text,false,,2441,0,120,120,http://localhost:9999/getCandidatesMap,0,0,2034
+1666141133160,17039,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-882,text,false,,2441,0,120,120,http://localhost:9999/getCandidatesMap,0,0,2024
+1666141133169,17061,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-883,text,false,,2441,0,118,118,http://localhost:9999/getCandidatesMap,0,0,2047
+1666141133179,17051,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-884,text,false,,2441,0,118,118,http://localhost:9999/getCandidatesMap,0,0,2037
+1666141133209,17037,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-887,text,false,,2441,0,116,116,http://localhost:9999/getCandidatesMap,0,0,2023
+1666141133199,17047,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-886,text,false,,2441,0,116,116,http://localhost:9999/getCandidatesMap,0,0,2033
+1666141133189,17057,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-885,text,false,,2441,0,114,114,http://localhost:9999/getCandidatesMap,0,0,2043
+1666141133220,17041,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-888,text,false,,2441,0,113,113,http://localhost:9999/getCandidatesMap,0,0,2028
+1666141133229,17048,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-889,text,false,,2441,0,112,112,http://localhost:9999/getCandidatesMap,0,0,2035
+1666141133240,17037,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-890,text,false,,2441,0,112,112,http://localhost:9999/getCandidatesMap,0,0,2024
+1666141133261,17031,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-892,text,false,,2441,0,110,110,http://localhost:9999/getCandidatesMap,0,0,2019
+1666141133251,17057,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-891,text,false,,2441,0,109,109,http://localhost:9999/getCandidatesMap,0,0,2047
+1666141133270,17038,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-893,text,false,,2441,0,109,109,http://localhost:9999/getCandidatesMap,0,0,2028
+1666141133280,17059,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-894,text,false,,2441,0,107,107,http://localhost:9999/getCandidatesMap,0,0,2048
+1666141133290,17049,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-895,text,false,,2441,0,107,107,http://localhost:9999/getCandidatesMap,0,0,2039
+1666141133319,17036,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-898,text,false,,2441,0,105,105,http://localhost:9999/getCandidatesMap,0,0,2026
+1666141133299,17056,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-896,text,false,,2441,0,105,105,http://localhost:9999/getCandidatesMap,0,0,2046
+1666141133309,17062,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-897,text,false,,2441,0,103,103,http://localhost:9999/getCandidatesMap,0,0,2051
+1666141133330,17057,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-899,text,false,,2441,0,102,102,http://localhost:9999/getCandidatesMap,0,0,2047
+1666141133349,17038,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-901,text,false,,2441,0,102,102,http://localhost:9999/getCandidatesMap,0,0,2028
+1666141133340,17047,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-900,text,false,,2441,0,100,100,http://localhost:9999/getCandidatesMap,0,0,2037
+1666141133359,17043,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-902,text,false,,2441,0,99,99,http://localhost:9999/getCandidatesMap,0,0,2034
+1666141133369,17049,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-903,text,false,,2441,0,98,98,http://localhost:9999/getCandidatesMap,0,0,2040
+1666141133379,17039,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-904,text,false,,2441,0,98,98,http://localhost:9999/getCandidatesMap,0,0,2030
+1666141133399,17034,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-906,text,false,,2441,0,96,96,http://localhost:9999/getCandidatesMap,0,0,2026
+1666141133389,17044,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-905,text,false,,2441,0,96,96,http://localhost:9999/getCandidatesMap,0,0,2036
+1666141133409,17040,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-907,text,false,,2441,0,94,94,http://localhost:9999/getCandidatesMap,0,0,2032
+1666141133420,17044,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-908,text,false,,2441,0,93,93,http://localhost:9999/getCandidatesMap,0,0,2037
+1666141133430,17035,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-909,text,false,,2441,0,93,93,http://localhost:9999/getCandidatesMap,0,0,2027
+1666141133439,17041,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-910,text,false,,2441,0,91,91,http://localhost:9999/getCandidatesMap,0,0,2033
+1666141133459,17037,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-912,text,false,,2441,0,90,90,http://localhost:9999/getCandidatesMap,0,0,2030
+1666141133449,17047,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-911,text,false,,2441,0,89,89,http://localhost:9999/getCandidatesMap,0,0,2040
+1666141133469,17042,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-913,text,false,,2441,0,88,88,http://localhost:9999/getCandidatesMap,0,0,2036
+1666141133489,17038,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-915,text,false,,2441,0,87,87,http://localhost:9999/getCandidatesMap,0,0,2032
+1666141133499,17044,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-916,text,false,,2441,0,86,86,http://localhost:9999/getCandidatesMap,0,0,2038
+1666141133509,17034,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-917,text,false,,2441,0,86,86,http://localhost:9999/getCandidatesMap,0,0,2028
+1666141133479,17064,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-914,text,false,,2441,0,84,84,http://localhost:9999/getCandidatesMap,0,0,2058
+1666141133530,17028,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-919,text,false,,2441,0,83,83,http://localhost:9999/getCandidatesMap,0,0,2022
+1666141133520,17054,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-918,text,false,,2441,0,82,82,http://localhost:9999/getCandidatesMap,0,0,2042
+1666141133539,17035,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-920,text,false,,2441,0,82,82,http://localhost:9999/getCandidatesMap,0,0,2029
+1666141133549,17040,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-921,text,false,,2441,0,80,80,http://localhost:9999/getCandidatesMap,0,0,2040
+1666141133569,17036,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-923,text,false,,2441,0,79,79,http://localhost:9999/getCandidatesMap,0,0,2031
+1666141133559,17046,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-922,text,false,,2441,0,79,79,http://localhost:9999/getCandidatesMap,0,0,2041
+1666141133580,17041,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-924,text,false,,2441,0,77,77,http://localhost:9999/getCandidatesMap,0,0,2036
+1666141133601,17035,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-926,text,false,,2441,0,76,76,http://localhost:9999/getCandidatesMap,0,0,2031
+1666141133590,17046,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-925,text,false,,2441,0,75,75,http://localhost:9999/getCandidatesMap,0,0,2042
+1666141133611,17056,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-927,text,false,,2441,0,74,74,http://localhost:9999/getCandidatesMap,0,0,2042
+1666141133620,17063,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-928,text,false,,2441,0,73,73,http://localhost:9999/getCandidatesMap,0,0,2051
+1666141133640,17043,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-930,text,false,,2441,0,72,72,http://localhost:9999/getCandidatesMap,0,0,2041
+1666141133650,17033,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-931,text,false,,2441,0,72,72,http://localhost:9999/getCandidatesMap,0,0,2021
+1666141133630,17053,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-929,text,false,,2441,0,70,70,http://localhost:9999/getCandidatesMap,0,0,2041
+1666141133660,17039,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-932,text,false,,2441,0,69,69,http://localhost:9999/getCandidatesMap,0,0,2036
+1666141133681,17049,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-934,text,false,,2441,0,68,68,http://localhost:9999/getCandidatesMap,0,0,2047
+1666141133691,17039,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-935,text,false,,2441,0,68,68,http://localhost:9999/getCandidatesMap,0,0,2037
+1666141133670,17060,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-933,text,false,,2441,0,68,68,http://localhost:9999/getCandidatesMap,0,0,2059
+1666141133710,17036,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-937,text,false,,2441,0,65,65,http://localhost:9999/getCandidatesMap,0,0,2034
+1666141133701,17045,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-936,text,false,,2441,0,65,65,http://localhost:9999/getCandidatesMap,0,0,2043
+1666141133720,17042,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-938,text,false,,2441,0,63,63,http://localhost:9999/getCandidatesMap,0,0,2040
+1666141133740,17037,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-940,text,false,,2441,0,62,62,http://localhost:9999/getCandidatesMap,0,0,2036
+1666141133730,17047,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-939,text,false,,2441,0,61,61,http://localhost:9999/getCandidatesMap,0,0,2046
+1666141133781,17027,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-944,text,false,,2441,0,60,60,http://localhost:9999/getCandidatesMap,0,0,2019
+1666141133750,17058,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-941,text,false,,2441,0,60,60,http://localhost:9999/getCandidatesMap,0,0,2049
+1666141133770,17038,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-943,text,false,,2441,0,58,58,http://localhost:9999/getCandidatesMap,0,0,2030
+1666141133760,17064,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-942,text,false,,2441,0,57,57,http://localhost:9999/getCandidatesMap,0,0,2048
+1666141133791,17048,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-945,text,false,,2441,0,56,56,http://localhost:9999/getCandidatesMap,0,0,2039
+1666141133800,17055,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-946,text,false,,2441,0,55,55,http://localhost:9999/getCandidatesMap,0,0,2040
+1666141133820,17051,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-948,text,false,,2441,0,54,54,http://localhost:9999/getCandidatesMap,0,0,2040
+1666141133810,17061,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-947,text,false,,2441,0,54,54,http://localhost:9999/getCandidatesMap,0,0,2050
+1666141133830,17056,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-949,text,false,,2441,0,52,52,http://localhost:9999/getCandidatesMap,0,0,2051
+1666141133840,17046,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-950,text,false,,2441,0,52,52,http://localhost:9999/getCandidatesMap,0,0,2041
+1666141133850,17037,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-951,text,false,,2441,0,50,50,http://localhost:9999/getCandidatesMap,0,0,2031
+1666141133860,17058,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-952,text,false,,2441,0,49,49,http://localhost:9999/getCandidatesMap,0,0,2044
+1666141133871,17062,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-953,text,false,,2441,0,48,48,http://localhost:9999/getCandidatesMap,0,0,2050
+1666141133900,17049,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-956,text,false,,2441,0,47,47,http://localhost:9999/getCandidatesMap,0,0,2041
+1666141133890,17059,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-955,text,false,,2441,0,47,47,http://localhost:9999/getCandidatesMap,0,0,2045
+1666141133881,17068,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-954,text,false,,2441,0,45,45,http://localhost:9999/getCandidatesMap,0,0,2054
+1666141133910,17054,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-957,text,false,,2441,0,44,44,http://localhost:9999/getCandidatesMap,0,0,2041
+1666141133930,17050,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-959,text,false,,2441,0,43,43,http://localhost:9999/getCandidatesMap,0,0,2038
+1666141133920,17060,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-958,text,false,,2441,0,42,42,http://localhost:9999/getCandidatesMap,0,0,2048
+1666141133940,17056,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-960,text,false,,2441,0,41,41,http://localhost:9999/getCandidatesMap,0,0,2044
+1666141133950,17046,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-961,text,false,,2441,0,40,40,http://localhost:9999/getCandidatesMap,0,0,2033
+1666141133960,17051,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-962,text,false,,2441,0,39,39,http://localhost:9999/getCandidatesMap,0,0,2039
+1666141133971,17056,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-963,text,false,,2441,0,38,38,http://localhost:9999/getCandidatesMap,0,0,2045
+1666141133981,17046,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-964,text,false,,2441,0,38,38,http://localhost:9999/getCandidatesMap,0,0,2040
+1666141133990,17053,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-965,text,false,,2441,0,36,36,http://localhost:9999/getCandidatesMap,0,0,2042
+1666141134001,17057,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-966,text,false,,2441,0,35,35,http://localhost:9999/getCandidatesMap,0,0,2046
+1666141134010,17048,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-967,text,false,,2441,0,35,35,http://localhost:9999/getCandidatesMap,0,0,2037
+1666141134021,17053,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-968,text,false,,2441,0,33,33,http://localhost:9999/getCandidatesMap,0,0,2042
+1666141134030,17044,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-969,text,false,,2441,0,33,33,http://localhost:9999/getCandidatesMap,0,0,2034
+1666141134060,17029,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-972,text,false,,2441,0,31,31,http://localhost:9999/getCandidatesMap,0,0,2027
+1666141134040,17049,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-970,text,false,,2441,0,31,31,http://localhost:9999/getCandidatesMap,0,0,2039
+1666141134050,17055,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-971,text,false,,2441,0,29,29,http://localhost:9999/getCandidatesMap,0,0,2040
+1666141134091,17045,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-975,text,false,,2441,0,28,28,http://localhost:9999/getCandidatesMap,0,0,2036
+1666141134080,17057,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-974,text,false,,2441,0,28,28,http://localhost:9999/getCandidatesMap,0,0,2048
+1666141134101,17051,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-976,text,false,,2441,0,26,26,http://localhost:9999/getCandidatesMap,0,0,2043
+1666141134070,17082,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-973,text,false,,2441,0,26,26,http://localhost:9999/getCandidatesMap,0,0,2074
+1666141134120,17048,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-978,text,false,,2441,0,24,24,http://localhost:9999/getCandidatesMap,0,0,2039
+1666141134110,17058,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-977,text,false,,2441,0,24,24,http://localhost:9999/getCandidatesMap,0,0,2049
+1666141134140,17028,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-980,text,false,,2441,0,22,22,http://localhost:9999/getCandidatesMap,0,0,2019
+1666141134130,17053,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-979,text,false,,2441,0,21,21,http://localhost:9999/getCandidatesMap,0,0,2045
+1666141134150,17049,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-981,text,false,,2441,0,20,20,http://localhost:9999/getCandidatesMap,0,0,2044
+1666141134160,17055,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-982,text,false,,2441,0,19,19,http://localhost:9999/getCandidatesMap,0,0,2047
+1666141134170,17045,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-983,text,false,,2441,0,18,18,http://localhost:9999/getCandidatesMap,0,0,2037
+1666141134180,17050,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-984,text,false,,2441,0,17,17,http://localhost:9999/getCandidatesMap,0,0,2044
+1666141134201,17045,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-986,text,false,,2441,0,16,16,http://localhost:9999/getCandidatesMap,0,0,2038
+1666141134191,17055,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-985,text,false,,2441,0,16,16,http://localhost:9999/getCandidatesMap,0,0,2048
+1666141134220,17041,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-988,text,false,,2441,0,14,14,http://localhost:9999/getCandidatesMap,0,0,2036
+1666141134210,17051,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-987,text,false,,2441,0,14,14,http://localhost:9999/getCandidatesMap,0,0,2045
+1666141134230,17047,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-989,text,false,,2441,0,12,12,http://localhost:9999/getCandidatesMap,0,0,2041
+1666141134250,17043,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-991,text,false,,2441,0,11,11,http://localhost:9999/getCandidatesMap,0,0,2038
+1666141134240,17053,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-990,text,false,,2441,0,11,11,http://localhost:9999/getCandidatesMap,0,0,2048
+1666141134286,17055,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-994,text,false,,2441,0,9,9,http://localhost:9999/getCandidatesMap,0,0,2050
+1666141134301,17040,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-996,text,false,,2441,0,8,8,http://localhost:9999/getCandidatesMap,0,0,2036
+1666141134290,17052,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-995,text,false,,2441,0,7,7,http://localhost:9999/getCandidatesMap,0,0,2047
+1666141134285,17057,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-993,text,false,,2441,0,6,6,http://localhost:9999/getCandidatesMap,0,0,2051
+1666141134285,17058,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-992,text,false,,2441,0,5,5,http://localhost:9999/getCandidatesMap,0,0,2052
+1666141134311,17045,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-997,text,false,,2441,0,4,4,http://localhost:9999/getCandidatesMap,0,0,2041
+1666141134320,17052,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-998,text,false,,2441,0,3,3,http://localhost:9999/getCandidatesMap,0,0,2048
+1666141134330,17042,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-999,text,false,,2441,0,3,3,http://localhost:9999/getCandidatesMap,0,0,2037
+1666141134340,17046,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,500T getCandidates 1-1000,text,false,,2441,0,1,1,http://localhost:9999/getCandidatesMap,0,0,2043

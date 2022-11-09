@@ -1,3 +1,5 @@
+const { deployContract } = require('near-api-js/lib/transaction');
+
 async function run(){
     const express = require('express');
     const app = express();
@@ -21,8 +23,8 @@ async function run(){
     const ACCOUNT_ID = "master.test.near";
     const credentialsPath = path.join(homedir, CREDENTIALS_DIR);
     const keyStore = new keyStores.UnencryptedFileSystemKeyStore(credentialsPath);
-    const LZUTF8 = require("lzutf8");
 
+    const {compress, decompress} = require('lzutf8');
     const config = {
         keyStore,
         networkId,
@@ -57,13 +59,15 @@ async function run(){
         "master.test.near",
         {
         // name of contract you're connecting to
-        changeMethods: ['getCandidates', 'addCandidate', 'voteCandidate'], // change methods modify state
+        viewMethods:['getCandidateVote','getCandidateMap','getCandidates'],
+        changeMethods: [ 'addCandidate', 'voteCandidate', 'addCandidateCompressed', 
+        'voteCandidateMap' ], // change methods modify state
         sender: account, // account object to initialize and sign transactions.
         }
     );
     app.get('/getCandidates', async (req,res) => {
         try {
-            const result = await contract.getCandidates({args:{}, gas:300000000000000});
+            const result = await contract.getCandidateMap({args:{}, gas:300000000000000});
             res.json(
                 {status:200,
                  result
@@ -82,7 +86,7 @@ async function run(){
         text = text.concat(counter);
         counter++;
         try {
-            const result = await contract.addCandidate({args:{'text':text}});
+            const result = await contract.addCandidateCompressed({args:{'compressed_candidate':text}});
             res.json(
                 {status:200,
                  result
@@ -95,10 +99,29 @@ async function run(){
             res.json({status:404, msg:e})
         }
     })
+
     app.post('/voteCandidate', async (req,res) => {
         ({idx} = req.body);
         try {
-            const result = await contract.voteCandidate({args:{'index':idx}});
+            const result = await contract.voteCandidateMap({args:{'candidate_oid':idx}});
+            res.json(
+                {status:200,
+                 result
+                }
+            )
+        }
+        catch (e)
+        {
+            console.log(e)
+            res.json({status:404, msg:e})
+        }
+    })
+
+    app.post('/voteCandidateCompressed', async (req,res) => {
+        ({idx} = req.body);
+        try {
+            idx = compress(idx, {outputEncoding:"StorageBinaryString"})
+            const result = await contract.voteCandidateMap({args:{'candidate_oid':idx}});
             res.json(
                 {status:200,
                  result
@@ -114,12 +137,15 @@ async function run(){
 
     app.get('/getCandidatesDecompressed', async (req,res) => {
         try {
-            var result = await contract.getCandidates({args:{}, gas:300000000000000});
-            console.log(result)
-            result = result.map((v)=>(v.name = LZUTF8.decompress(v.name, {inputEncoding:"StorageBinaryString", outputEncoding:"String"})))
+            var candidates = [];
+            var result = await contract.getCandidateMap({args:{}, gas:3000000000000000});
+            for(const[key, value] of Object.entries(result)) {     
+                var decompressed = await decompress(key, {inputEncoding:"StorageBinaryString", outputEncoding:"String"})
+                candidates.push({name:decompressed, vote:value})
+            }
             res.json(
                 {status:200,
-                 result
+                    candidates
                 }
             )
         }
@@ -129,11 +155,14 @@ async function run(){
             res.json({status:404, msg:e})
         }
     })
+
     app.post('/addCandidateCompressed', async (req,res) => {
-        const {text} = req.body;
-        const compStr = await LZUTF8.compress(text, {outputEncoding:"StorageBinaryString"})
+        ({text} = req.body);
+        text = text.concat(counter);
+        counter++;
         try {
-            const result = await contract.addCandidate({args:{'text':compStr}});
+            text = compress(text, {outputEncoding:"StorageBinaryString"})
+            const result = await contract.addCandidateCompressed({args:{'compressed_candidate':text}});
             res.json(
                 {status:200,
                     result
@@ -147,6 +176,42 @@ async function run(){
         }
     })
 
+    app.get('/getCandidatesMap', async(req, res)=>{
+        try {
+            var candidates = [];
+            var result = await contract.getCandidateMap({args:{}, gas:3000000000000000});
+            for(const[key, value] of Object.entries(result)) {
+                candidates.push({name:key, vote:value})
+            }
+            res.json(
+                {status:200,
+                    candidates
+                }
+            )
+        }
+        catch (e)
+        {
+            console.log(e)
+            res.json({status:404, msg:e})
+        }
+    })
+    app.post('/checkCandidateVotes', async (req,res) => {
+        ({idx} = req.body);
+        try {
+            idx = await compress(idx, {outputEncoding:"StorageBinaryString"})
+            const result = await contract.getCandidateVote({args:{'candidate_oid':idx}});
+            res.json(
+                {status:200,
+                 result
+                }
+            )
+        }
+        catch (e)
+        {
+            console.log(e)
+            res.json({status:404, msg:e})
+        }
+    })
     app.listen(port);
     console.log(`server listening on port port ${port}`);
 }

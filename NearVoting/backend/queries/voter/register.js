@@ -4,6 +4,7 @@ const VoterInfo = mongoose.model('voter')
 const register = async (request, response) => {
   console.log(`register voter to mongo request: ${JSON.stringify(request)}`)
   const {
+    accountId,
     firstName,
     lastName,
     name,
@@ -16,6 +17,7 @@ const register = async (request, response) => {
   } = request
 
   const voter = new VoterInfo({
+    accountId,
     firstName,
     lastName,
     name,
@@ -70,4 +72,105 @@ const checkUniqueIdentification = async (request, response) => {
   return response
 }
 
-module.exports = { register, checkUniqueIdentification }
+const getHasVoted = async (request, response) => {
+  console.log(`getHasVoted mongo request: ${JSON.stringify(request)}`)
+  const { accountId } = request
+
+  await VoterInfo.find({ accountId })
+    .then((result) => {
+      console.log('getHasVoted results:')
+      console.log(result.length)
+      console.log(result)
+      if (result.length > 0) {
+        response.status = 201
+        response.data = result
+      } else response.status = 200
+
+      console.log(`Response: ${response.status}`)
+    })
+    .catch((err) => {
+      console.log(err)
+      response.status = 400
+    })
+
+  return response
+}
+
+const updateHasVoted = async (request, response) => {
+  console.log(`updateHasVoted mongo request: ${JSON.stringify(request)}`)
+  const { accountId } = request
+
+  await VoterInfo.updateOne(
+    { accountId: accountId },
+    { $set: { hasVoted: true } },
+  )
+    .then((result) => {
+      console.log('updateHasVoted')
+      console.log(result)
+      if (result.modifiedCount == 1) response.status = 201
+      else response.status = 200
+
+      console.log(`Response: ${response.status}`)
+    })
+    .catch((err) => {
+      console.log(err)
+      response.status = 400
+    })
+
+  return response
+}
+
+const getHasRegistered = async (request, response) => {
+  console.log(`getHasRegistered mongo request: ${JSON.stringify(request)}`)
+  const { accountId } = request
+
+  await VoterInfo.find({ accountId })
+    .then((result) => {
+      console.log('getHasRegistered results:')
+      console.log(result.length)
+      console.log(result)
+      if (result.length > 0) response.status = 201
+      else response.status = 200
+
+      console.log(`Response: ${response.status}`)
+    })
+    .catch((err) => {
+      console.log(err)
+      response.status = 400
+    })
+
+  return response
+}
+
+const getVoterProfile = async (request, response) => {
+  console.log(`getVoterProfile mongo request: ${JSON.stringify(request)}`)
+  const { accountId } = request
+
+  await VoterInfo.find({ accountId })
+    .then((result) => {
+      console.log('getVoterProfile results:')
+      console.log(result.length)
+      console.log(result)
+      if (result.length > 0) {
+        response.status = 201
+        response.data = result
+      } else response.status = 200
+
+      console.log(`Response: ${response.status}`)
+    })
+    .catch((err) => {
+      console.log(err)
+      response.status = 400
+    })
+
+  return response
+}
+
+module.exports = {
+  register,
+  checkUniqueIdentification,
+  getHasVoted,
+  updateHasVoted,
+  getHasRegistered,
+  getVoterProfile,
+}
