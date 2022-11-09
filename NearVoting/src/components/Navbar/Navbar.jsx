@@ -3,11 +3,11 @@ import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { login, logout } from '../../utils';
 import axios from 'axios';
-import { Button } from '@mui/material';
 import SettingsIcon from '@mui/icons-material/Settings';
-
+import { Button } from '@mui/material';
+import constants from '../../constants';
 const Navbar = () => {
-  const serverUrl = 'http://localhost:9999';
+  const serverUrl = constants.SERVER_URL;
 
   React.useEffect(() => {
     if (window.walletConnection.isSignedIn()) {
