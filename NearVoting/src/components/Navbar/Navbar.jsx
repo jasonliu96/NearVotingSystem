@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 import { login, logout } from '../../utils'
 import users from './NonRestrictedUsers'
 import axios from 'axios'
+import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
   const serverUrl = 'http://localhost:9999'
@@ -38,7 +39,7 @@ const Navbar = () => {
         <div className="Navbar">
           <ul>
             <li>
-              <Link to="/">Home</Link>
+              <NavLink to="/" className={({ isActive }) => (isActive ? 'active' : 'inactive')} >Home</NavLink>
             </li>
           </ul>
           <div className="LoginNav">
@@ -57,33 +58,21 @@ const Navbar = () => {
     return (
       <>
         <div className="Navbar">
-          <ul>
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/admin/register">Add Candidate</Link>
-            </li>
-            {hasRegistered ? null : (
-              <li>
-                <Link style={{ color: 'red' }} to="/register">
-                  Voter Registration
-                </Link>
-              </li>
-            )}
-            <li>
-              <Link to="/vote">Vote</Link>
-            </li>
-            <li>
-              <Link to="/results">Results</Link>
-            </li>
+        <ul>
+            <li><NavLink to="/" className={({ isActive }) => (isActive ? 'active' : 'inactive')}>Home</NavLink></li>
+          <li> <NavLink to="/admin/register" className={({ isActive }) => (isActive ? 'active' : 'inactive')}>Add Candidate</NavLink></li>
+          {
+          hasRegistered ? null : ( 
+          <li> <NavLink to="/register" className={({ isActive }) => (isActive ? 'active' : 'inactive')}> Voter Registration </NavLink> </li>
+          )}
+            <li> <NavLink to="/vote" className={({ isActive }) => (isActive ? 'active' : 'inactive')}>Vote</NavLink> </li>
+            <li> <NavLink to="/results" className={({ isActive }) => (isActive ? 'active' : 'inactive')}>Results</NavLink> </li>
           </ul>
           <div className="LoginNav">
             <button
               className="link LoginButton"
               style={{ float: 'right' }}
-              onClick={logout}
-            >
+              onClick={logout}>
               Sign out
             </button>
           </div>
