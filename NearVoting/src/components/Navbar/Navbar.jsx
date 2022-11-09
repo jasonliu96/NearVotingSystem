@@ -1,11 +1,12 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import { login, logout } from '../../utils';
 import axios from 'axios';
 import SettingsIcon from '@mui/icons-material/Settings';
 import { Button } from '@mui/material';
 import constants from '../../constants';
+
 const Navbar = () => {
   const serverUrl = constants.SERVER_URL;
 
@@ -20,7 +21,7 @@ const Navbar = () => {
         <div className='Navbar'>
           <ul>
             <li>
-              <Link to='/'>Home</Link>
+              <NavLink to="/" className={({ isActive }) => (isActive ? 'active' : 'inactive')} >Home</NavLink>
             </li>
           </ul>
           <div className='LoginNav'>
@@ -38,23 +39,17 @@ const Navbar = () => {
   } else {
     return (
       <>
-        <div className='Navbar'>
-          <ul>
-            <li>
-              <Link to='/'>Home</Link>
-            </li>
-            <li>
-              <Link to='/admin/register'>Add Candidate</Link>
-            </li>
-            <li>
-              <Link to='/register'>Voter Registration</Link>
-            </li>
-            <li>
-              <Link to='/vote'>Vote</Link>
-            </li>
-            <li>
-              <Link to='/results'>Results</Link>
-            </li>
+        <div className="Navbar">
+        <ul>
+            <li><NavLink to="/" className={({ isActive }) => (isActive ? 'active' : 'inactive')}>Home</NavLink></li>
+          <li> <NavLink to="/admin/register" className={({ isActive }) => (isActive ? 'active' : 'inactive')}>Add Candidate</NavLink></li>
+          {
+          hasRegistered ? null : ( 
+          <li> <NavLink to="/register" className={({ isActive }) => (isActive ? 'active' : 'inactive')}> Voter Registration </NavLink> </li>
+          )}
+            <li> <NavLink to="/vote" className={({ isActive }) => (isActive ? 'active' : 'inactive')}>Vote</NavLink> </li>
+            <li> <NavLink to="/results" className={({ isActive }) => (isActive ? 'active' : 'inactive')}>Results</NavLink> </li>
+
           </ul>
           <div className='LoginNav'>
             <Button>
@@ -65,8 +60,7 @@ const Navbar = () => {
             <button
               className='link LoginButton'
               style={{ float: 'right' }}
-              onClick={logout}
-            >
+              onClick={logout}>
               Sign out
             </button>
           </div>
