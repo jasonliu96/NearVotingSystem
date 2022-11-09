@@ -1,6 +1,6 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import { login, logout } from '../../utils';
 import axios from 'axios';
 import SettingsIcon from '@mui/icons-material/Settings';
@@ -20,7 +20,7 @@ const Navbar = () => {
         <div className='Navbar'>
           <ul>
             <li>
-              <Link to='/'>Home</Link>
+              <NavLink to='/' className={({ isActive }) => (isActive ? 'active' : 'inactive')} >Home</NavLink>
             </li>
           </ul>
           <div className='LoginNav'>
@@ -41,26 +41,26 @@ const Navbar = () => {
         <div className='Navbar'>
           <ul>
             <li>
-              <Link to='/'>Home</Link>
+              <NavLink to='/' className={({ isActive }) => (isActive ? 'active' : 'inactive')} >Home</NavLink>
             </li>
             <li>
-              <Link to='/admin/register'>Add Candidate</Link>
+              <NavLink to='/admin/register' className={({ isActive }) => (isActive ? 'active' : 'inactive')} >Add Candidate</NavLink>
             </li>
             <li>
-              <Link to='/register'>Voter Registration</Link>
+              <NavLink to='/register'className={({ isActive }) => (isActive ? 'active' : 'inactive')} >Voter Registration</NavLink>
             </li>
             <li>
-              <Link to='/vote'>Vote</Link>
+              <NavLink to='/vote' className={({ isActive }) => (isActive ? 'active' : 'inactive')} >Vote</NavLink>
             </li>
             <li>
-              <Link to='/results'>Results</Link>
+              <NavLink to='/results'className={({ isActive }) => (isActive ? 'active' : 'inactive')} >Results</NavLink>
             </li>
           </ul>
           <div className='LoginNav'>
             <Button>
-              <Link to='/settings'>
+              <NavLink to='/settings'>
                 <SettingsIcon style={{ color: 'white' }} fontSize='medium' />
-              </Link>
+              </NavLink>
             </Button>
             <button
               className='link LoginButton'
