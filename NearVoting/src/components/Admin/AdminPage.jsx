@@ -90,12 +90,6 @@ function AdminPage({
           }
           setCandidates(oids);
         });
-
-        window.contract.getPhase({}).then((candidateFromContract) => {
-          console.log(candidateFromContract);
-          setphase(candidateFromContract);
-        });
-
       }
     },
 
