@@ -91,7 +91,7 @@ const Navbar = () => {
           </ul>
           <div>
               {phases != -1 ? (
-                <div class="center" >
+                <div className="center" >
                   {(() => {
                     if (phases == 1) {
                       return <div>Current Phase : Registration</div>;
@@ -107,7 +107,7 @@ const Navbar = () => {
               )}
             </div>
           <div className="LoginNav">
-            <Button>
+            <Button className="setiings">
               <NavLink to="/settings">
                 <SettingsIcon style={{ color: "white" }} fontSize="medium" />
               </NavLink>
