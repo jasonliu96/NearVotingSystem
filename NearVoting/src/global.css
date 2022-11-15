@@ -243,3 +243,9 @@ aside footer *:last-child {
   color: white;
   }
 
+.notFound{
+  background-image: none;
+  margin-top: 0;
+  padding: 3.5em 0 0.5em;
+  text-align: left;
+}
