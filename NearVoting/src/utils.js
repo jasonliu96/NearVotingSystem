@@ -44,6 +44,7 @@ export async function initContract() {
         'removeCandidate',
         'addstate',
         'setPhase',
+        'getInfo',
       ],
     }
   );
@@ -63,6 +64,11 @@ export function login() {
   window.walletConnection.requestSignIn(nearConfig.contractName);
 }
 
+/**
+ * Compress incoming mongodb candidate object ID to storage binary string
+ * @param {*} oid <- string objectid
+ * @returns <- storage binary string compressed objectid
+ */
 export function compressOid(oid) {
   return compress(oid, {
     inputEncoding: 'String',
@@ -70,6 +76,11 @@ export function compressOid(oid) {
   });
 }
 
+/**
+ * support function used to decompress the incoming objectid
+ * @param {*} oid incoming mongodb object id for candidate object
+ * @returns using lzutf8 decompresses the compressed oid to string
+ */
 export function decompressOids(oid) {
   return decompress(oid, {
     inputEncoding: 'StorageBinaryString',
@@ -77,6 +88,12 @@ export function decompressOids(oid) {
   });
 }
 
+/**
+ * Modularized transaction function used to contact the smart contract then log transactions
+ * @param {*} methodType String Constant used to map to contract function name
+ * @param {*} args Arguments used to pass to contract
+ * Output calls Backend to map transaction
+ */
 export async function executeTransaction(methodType, args) {
   const accountId = window.walletConnection.getAccountId();
   console.log(methodType);
@@ -103,6 +120,9 @@ export async function executeTransaction(methodType, args) {
     );
 }
 
+/**
+ *  methodDictionary is used to map to a method description shown in the transactions page
+ */
 const methodDictionary = {
   ADD_CANDIDATE: 'Candidate Registration',
   VOTE: 'Vote',

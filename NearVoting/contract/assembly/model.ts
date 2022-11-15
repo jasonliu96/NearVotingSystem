@@ -8,13 +8,6 @@ export class Candidate{
 }
 
 @nearBindgen
-export class Phase{
-    constructor(public phase: string, public phasenumber: i16){
-
-    }
-}
-
-@nearBindgen
 export class Ballot
 {
     constructor(private keys:PersistentVector<string>, private candidateMap:PersistentMap<string, i16>){}
@@ -49,4 +42,3 @@ export class Ballot
 }
 
 export const CandidateList = new PersistentVector<Candidate>("c")
-export const PhaseList = new PersistentVector<Phase>("f")

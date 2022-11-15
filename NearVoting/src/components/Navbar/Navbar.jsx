@@ -102,7 +102,6 @@ const Navbar = (props) => {
             <Button>
               <NavLink to='/settings'>
                 <SettingsIcon style={{ color: 'white' }} fontSize='medium' />
-
               </NavLink>
             </Button>
             <button

@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import axios from 'axios';
 import {
   Button,
   List,
@@ -80,7 +79,6 @@ function AdminPage({ submit, selectValue, handleChange, alertBoolean }) {
         var oids = [];
         // window.contract is set by initContract in index.js
         window.contract.getCandidateMap({}).then((candidateFromContract) => {
-          // setCandidates(candidateFromContract)
           for (const [key, value] of Object.entries(candidateFromContract)) {
             oids.push({ name: decompressOids(key), votes: value });
           }
