@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { styled } from '@mui/material/styles';
 import Grid from '@mui/material/Grid';
 import Paper from '@mui/material/Paper';
@@ -16,14 +16,14 @@ const Item = styled(Paper)(({ theme }) => ({
 
 function VoterProfile() {
   const serverUrl = constants.SERVER_URL;
-  const [name, setName] = React.useState('');
-  const [citizen, setCitizen] = React.useState('');
-  const [assistance, setAssistance] = React.useState('');
-  const [phone, setPhone] = React.useState('');
-  const [identification, setIdentification] = React.useState('');
-  const [email, setEmail] = React.useState('');
-  const [address, setAddress] = React.useState('');
-  const [hasRegistered, sethasRegistered] = React.useState(true);
+  const [name, setName] = useState('');
+  const [citizen, setCitizen] = useState('');
+  const [assistance, setAssistance] = useState('');
+  const [phone, setPhone] = useState('');
+  const [identification, setIdentification] = useState('');
+  const [email, setEmail] = useState('');
+  const [address, setAddress] = useState('');
+  const [hasRegistered, sethasRegistered] = useState(true);
 
   useEffect(() => {
     if (window.walletConnection.isSignedIn()) {

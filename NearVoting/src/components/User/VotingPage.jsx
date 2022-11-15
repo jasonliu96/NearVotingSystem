@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import getConfig from '../../config';
 import {
@@ -16,17 +16,19 @@ import IconButton from '@mui/material/IconButton';
 import Collapse from '@mui/material/Collapse';
 import CloseIcon from '@mui/icons-material/Close';
 import constants from '../../constants';
+import LoadingSpinner from '../LoadingSpinner';
 
 function VotingPage() {
   const serverUrl = constants.SERVER_URL;
-  const [candidates, setCandidates] = React.useState([]);
-  const [showNotification, setShowNotification] = React.useState(false);
-  const [hasVoted, setHasVoted] = React.useState(false);
-  const [msg, setMsg] = React.useState('Submitted a Vote');
-  const [errorOpen, seterrorOpen] = React.useState(false);
-  const [errormsg, seterrormsg] = React.useState('');
+  const [candidates, setCandidates] = useState([]);
+  const [showNotification, setShowNotification] = useState(false);
+  const [hasVoted, setHasVoted] = useState(false);
+  const [msg, setMsg] = useState('Submitted a Vote');
+  const [errorOpen, seterrorOpen] = useState(false);
+  const [errormsg, seterrormsg] = useState('');
+  const [loading, setLoading] = useState(false);
 
-  React.useEffect(
+  useEffect(
     () => {
       // in this case, we only care to query the contract when signed in
       if (window.walletConnection.isSignedIn()) {
@@ -76,6 +78,7 @@ function VotingPage() {
 
   async function submitVote(e) {
     e.preventDefault();
+    setLoading(true);
     var target_oid = e.target.value;
     console.log(target_oid);
     setMsg('Submitted a Vote');
@@ -106,6 +109,7 @@ function VotingPage() {
           'Maybe you need to sign out and back in? ' +
           'Check your browser console for more info.'
       );
+      setLoading(false);
       throw e;
     } finally {
       const newState = candidates.map((cand) => {
@@ -116,12 +120,14 @@ function VotingPage() {
         // 👇️ otherwise return object as is
         return cand;
       });
+      setLoading(false);
       setCandidates(newState);
       setShowNotification(true);
     }
   }
   return (
     <>
+      <LoadingSpinner loading={loading} />
       <main>
         <h1>Candidates</h1>
         <Box
