@@ -7,19 +7,24 @@ import SettingsIcon from '@mui/icons-material/Settings';
 import { Button } from '@mui/material';
 import constants from '../../constants';
 import { alignProperty } from '@mui/material/styles/cssUtils';
-const Navbar = () => {
+const Navbar = (props) => {
   const serverUrl = constants.SERVER_URL;
-  const [phases, setphase] = useState(-1);
-
-  React.useEffect(() => {
-    if (window.walletConnection.isSignedIn()) {
-      window.contract.getPhase({}).then((candidateFromContract) => {
-        console.log(candidateFromContract);
-        setphase(candidateFromContract);
-      });
+  const renderSwitch = (phase) => {
+    switch (phase) {
+      case 1:
+        return <div className='center'>Current Phase : Registration</div>;
+      case 2:
+        return <div className='center'>Current Phase : Voting</div>;
+      case 3:
+        return <div className='center'>Current Phase : Results</div>;
+      default:
+        return (
+          <div className='center'>
+            The Voting process will start after selecting the Phase
+          </div>
+        );
     }
-  }, []);
-
+  };
   if (!window.walletConnection.isSignedIn()) {
     return (
       <>
@@ -92,23 +97,7 @@ const Navbar = () => {
               </NavLink>
             </li>
           </ul>
-          <div>
-            {phases != -1 ? (
-              <div className='center'>
-                {(() => {
-                  if (phases == 1) {
-                    return <div>Current Phase : Registration</div>;
-                  } else if (phases == 2) {
-                    return <div>Current Phase : Voting</div>;
-                  } else if (phases == 3) {
-                    return <div>Current Phase : Results</div>;
-                  }
-                })()}
-              </div>
-            ) : (
-              <p>The Voting process will start after selecting the Phase</p>
-            )}
-          </div>
+          <div>{renderSwitch(props.phase)}</div>
           <div className='LoginNav'>
             <Button>
               <NavLink to='/settings'>

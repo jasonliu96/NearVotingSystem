@@ -69,7 +69,7 @@ function App() {
     return (
       <>
         <Router>
-          <Navbar />
+          <Navbar phase={phase} />
           <ConnectionCheck />
         </Router>
       </>
@@ -81,9 +81,9 @@ function App() {
       // in this case, we only care to query the contract when signed in
       if (window.walletConnection.isSignedIn()) {
         // window.contract is set by initContract in index.js
-        window.contract.getPhase({}).then((candidateFromContract) => {
-          console.log(candidateFromContract);
-          setphase(candidateFromContract);
+        window.contract.getPhase({}).then((phaseFromContract) => {
+          console.log(`phase from contract ${phaseFromContract}`);
+          setphase(phaseFromContract);
         });
       }
     },
@@ -91,12 +91,12 @@ function App() {
     // The second argument to useEffect tells React when to re-run the effect
     // Use an empty array to specify "only run on first render"
     // This works because signing into NEAR Wallet reloads the page
-    []
+    [phase]
   );
   return (
     <div className='App'>
       <Router>
-        <Navbar />
+        <Navbar phase={phase} />
         <LoadingSpinner loading={loading} />
         <Routes>
           <Route path='' element={<Landing />} />
