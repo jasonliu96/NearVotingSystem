@@ -85,10 +85,14 @@ const Desc = styled.p`
 `;
 
 const Button = styled.button`
-  padding: 10px;
-  font-size: 20px;
-  background-color: transparent;
-  cursor: pointer;
+    background-color: #555555;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 `;
 
 const BootstrapDialog = styled(Dialog)(({ theme }) => ({
@@ -137,16 +141,16 @@ const Slider = () => {
     const handleClick = (direction) => {
         if (direction === "left") {
             // setSlideIndex(slideIndex > 0 ? slideIndex - 1 : 2);
-            console.log("b4 left:" + slideIndex);
+            // console.log("b4 left:" + slideIndex);
             slideIndex = (slideIndex > 0 ? slideIndex - 1 : 2);
             setItem(sliderItems[slideIndex]);
-            console.log("left:" + slideIndex);
+            // console.log("left:" + slideIndex);
         } else {
             // setSlideIndex(slideIndex < 2 ? slideIndex + 1 : 0);
-            console.log("b4 right:" + slideIndex);
+            // console.log("b4 right:" + slideIndex);
             slideIndex = (slideIndex < 2 ? slideIndex + 1 : 0);
             setItem(sliderItems[slideIndex]);
-            console.log("right:" + slideIndex);
+            // console.log("right:" + slideIndex);
         }
     };
 
