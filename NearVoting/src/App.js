@@ -76,24 +76,27 @@ function App() {
       </>
     );
   }
-
+  const WAIT_TIME = 5000;
   useEffect(
     () => {
       // in this case, we only care to query the contract when signed in
       if (window.walletConnection.isSignedIn()) {
         // window.contract is set by initContract in index.js
-        window.contract.getPhase({}).then((phaseFromContract) => {
-          console.log(`phase from contract ${phaseFromContract}`);
-          setphase(phaseFromContract);
-        });
+        const id = setInterval(() => {
+          window.contract.getPhase({}).then((phaseFromContract) => {
+            console.log(`phase from contract ${phaseFromContract}`);
+            setphase(phaseFromContract);
+          });
+        }, WAIT_TIME);
+        return () => clearInterval(id);
       }
     },
-
     // The second argument to useEffect tells React when to re-run the effect
     // Use an empty array to specify "only run on first render"
     // This works because signing into NEAR Wallet reloads the page
     [phase]
   );
+
   return (
     <div className='App'>
       <Router>
