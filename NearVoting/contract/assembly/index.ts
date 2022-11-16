@@ -78,5 +78,5 @@ export function setPhase(phase: i8): void{
  * @returns phase integer from storage on default returns 1
  */
 export function getPhase(): i8 {
-    return storage.getPrimitive<i8>("current_phase", 0)
+    return storage.getPrimitive<i8>("current_phase", 1)
 }

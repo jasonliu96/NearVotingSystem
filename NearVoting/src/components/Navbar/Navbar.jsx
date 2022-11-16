@@ -66,7 +66,7 @@ const Navbar = (props) => {
             </li>
             <li>
               <NavLink
-                to='/admin/register'
+                to='/candidate/register'
                 className={({ isActive }) => (isActive ? 'active' : 'inactive')}
               >
                 Add Candidate
@@ -74,7 +74,7 @@ const Navbar = (props) => {
             </li>
             <li>
               <NavLink
-                to='/register'
+                to='/voter/register'
                 className={({ isActive }) => (isActive ? 'active' : 'inactive')}
               >
                 Voter Registration

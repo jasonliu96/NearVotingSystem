@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './global.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Landing from './components/Landing/Landing';
+import NoLanding from './components/Landing/NoLanding';
 import Navbar from './components/Navbar/Navbar';
 import CandidateRegistration from './components/Admin/CandidateRegistration';
 import ResultsPage from './components/User/ResultsPage';
@@ -20,7 +21,7 @@ import LoadingSpinner from './components/LoadingSpinner';
 import NotFound from './components/NotFound';
 
 function App() {
-  const [phase, setphase] = useState(-1);
+  const [phase, setphase] = useState(1);
   const [selectValue, setselectvalue] = useState('');
   const [successOpen, setsuccessOpen] = useState(false);
   const [loading, setLoading] = useState(false);
@@ -70,7 +71,7 @@ function App() {
       <>
         <Router>
           <Navbar phase={phase} />
-          <ConnectionCheck />
+          <NoLanding />
         </Router>
       </>
     );
@@ -99,16 +100,16 @@ function App() {
         <Navbar phase={phase} />
         <LoadingSpinner loading={loading} />
         <Routes>
-          <Route path='' element={<Landing />} />
+          <Route path='' element={<NoLanding />} />
           <Route path='/profile' element={<VoterProfile />} />
           <Route
-            path='admin/register'
+            path='candidate/register'
             element={
               phase == 1 ? <CandidateRegistration /> : <NoVoterRegistration />
             }
           />
           <Route
-            path='register'
+            path='voter/register'
             element={
               phase == 1 ? <VoterRegistration /> : <NoVoterRegistration />
             }
