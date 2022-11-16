@@ -69,7 +69,7 @@ const Navbar = (props) => {
                 to='/candidate/register'
                 className={({ isActive }) => (isActive ? 'active' : 'inactive')}
               >
-                Add Candidate
+                Candidate Registration
               </NavLink>
             </li>
             <li>
