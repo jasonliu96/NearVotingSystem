@@ -53,7 +53,7 @@ function ResultsPage() {
       // in this case, we only care to query the contract when signed in
       if (window.walletConnection.isSignedIn()) {
         // window.contract is set by initContract in index.js
-        window.contract.get_num({}).then((votesFromContract) => {
+        window.contract.getNumVotes({}).then((votesFromContract) => {
           setNumVotes(votesFromContract);
         });
         var oids = [];

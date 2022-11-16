@@ -14,11 +14,14 @@ const style = {
   p: 4,
 };
 
-function ConfirmationModal({ onSubmit, open, closeModal, selectedCandidate }) {
-  const [txtField, setTxtField] = React.useState('');
-  const checkText = () => {
-    return txtField === 'Delete';
-  };
+function ConfirmationModal({
+  onSubmit,
+  open,
+  closeModal,
+  selectedCandidate,
+  textField,
+  setTextField,
+}) {
   return (
     <Modal
       open={open}
@@ -32,8 +35,11 @@ function ConfirmationModal({ onSubmit, open, closeModal, selectedCandidate }) {
           <span style={{ color: 'red' }}>{selectedCandidate}</span>? If so type
           the the user oid into the box below.
         </p>
-        <Input onChange={(e) => setTxtField(e.target.value)} value={txtField} />
-        <Button onClick={onSubmit} value={txtField}>
+        <Input
+          onChange={(e) => setTextField(e.target.value)}
+          value={textField}
+        />
+        <Button onClick={onSubmit} value={textField}>
           Submit
         </Button>
       </Box>
@@ -44,6 +50,8 @@ function ConfirmationModal({ onSubmit, open, closeModal, selectedCandidate }) {
 ConfirmationModal.propTypes = {
   onSubmit: PropTypes.func.isRequired,
   open: PropTypes.bool.isRequired,
+  textField: PropTypes.string.isRequired,
+  setTextField: PropTypes.func.isRequired,
   closeModal: PropTypes.func.isRequired,
   selectedCandidate: PropTypes.string.isRequired,
 };

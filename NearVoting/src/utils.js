@@ -30,9 +30,8 @@ export async function initContract() {
       // View methods are read only. They don't modify the state, but usually return some value.
       viewMethods: [
         'getGreeting',
-        'getCandidates',
-        'get_num',
-        'getPhases',
+        'getNumCandidates',
+        'getNumVotes',
         'getPhase',
         'getCandidateMap',
       ],
@@ -41,10 +40,8 @@ export async function initContract() {
         'setGreeting',
         'addCandidateCompressed',
         'voteCandidateMap',
-        'removeCandidate',
-        'addstate',
+        'deleteCandidate',
         'setPhase',
-        'getInfo',
       ],
     }
   );
@@ -127,4 +124,5 @@ const methodDictionary = {
   ADD_CANDIDATE: 'Candidate Registration',
   VOTE: 'Vote',
   SET_PHASE: 'Phase Change',
+  DELETE_CANDIDATE: 'Candidate Deletion',
 };

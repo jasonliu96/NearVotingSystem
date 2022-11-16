@@ -17,19 +17,22 @@ import CloseIcon from '@mui/icons-material/Close';
 import ConfirmationModal from '../ConfirmationModal';
 import Notification from '../Notification';
 import constants from '../../constants';
-import { decompressOids } from '../../utils';
+import { compressOid, decompressOids, executeTransaction } from '../../utils';
+import LoadingSpinner from '../LoadingSpinner';
 const style = {
   width: '100%',
   bgcolor: 'background.paper',
 };
 
-function AdminPage({ submit, selectValue, handleChange, alertBoolean }) {
+function AdminPage(prop) {
   const serverUrl = constants.SERVER_URL;
   const [candidates, setCandidates] = useState([]);
   const [selectedCandidate, setSelCandidate] = useState('');
-  const [showNotification, setShowNotification] = useState(false);
+  const [wrongPhaseAlert, setWrongPhaseAlert] = useState(false);
+  const [deleteAlert, setDeleteAlert] = useState(false);
+  const [loading, setLoading] = useState(false);
   const [showModal, setShowModal] = useState(false);
-  const [msg, setMsg] = React.useState('Submitted a Vote');
+  const [textField, setTextField] = useState('');
 
   const closeModal = () => {
     setShowModal(false);
@@ -41,35 +44,25 @@ function AdminPage({ submit, selectValue, handleChange, alertBoolean }) {
 
   const removeCandidate = (e) => {
     e.preventDefault();
-    console.log(e.currentTarget.value);
-    setMsg('Removed Candidate');
+    if (prop.phase != 1) {
+      setWrongPhaseAlert(true);
+      return;
+    }
     setSelCandidate(e.currentTarget.value);
     openModal();
   };
 
   async function confirmDelete(e) {
     e.preventDefault();
-    if (e.target.value === 'Delete') {
-      const idx = parseInt(selectedCandidate);
-      try {
-        // make an update call to the smart contract
-        await window.contract.removeCandidate({
-          // pass the value that the user entered in the greeting field
-          index: idx,
-        });
-      } catch (e) {
-        alert(
-          'Something went wrong! ' +
-            'Maybe you need to sign out and back in? ' +
-            'Check your browser console for more info.'
-        );
-        throw e;
-      } finally {
-        setShowNotification(true);
-      }
-    } else {
+    if (textField == selectedCandidate) {
+      closeModal();
+      setLoading(true);
+      const compressedOid = compressOid(textField);
+      const args = { compressed_candidate: compressedOid };
+      await executeTransaction(constants.DEL_CONSTANT, args);
+      setDeleteAlert(true);
+      setLoading(false);
     }
-    closeModal();
   }
 
   useEffect(
@@ -95,6 +88,7 @@ function AdminPage({ submit, selectValue, handleChange, alertBoolean }) {
 
   return (
     <>
+      <LoadingSpinner loading={loading} />
       <div
         style={{
           width: '100%',
@@ -106,9 +100,27 @@ function AdminPage({ submit, selectValue, handleChange, alertBoolean }) {
         }}
       >
         <h1>Admin Page </h1>
-        {alertBoolean && (
+        {prop.alertBoolean && (
           <Alert sx={{ width: '30%', margin: 5 }} severity='success'>
             Phase Successfully Changed
+          </Alert>
+        )}
+        {wrongPhaseAlert && (
+          <Alert
+            onClose={() => {}}
+            sx={{ width: '50%', margin: 5 }}
+            severity='error'
+          >
+            Candidates can only be removed during registration phase
+          </Alert>
+        )}
+        {deleteAlert && (
+          <Alert
+            onClose={() => {}}
+            sx={{ width: '50%', margin: 5 }}
+            severity='success'
+          >
+            {selectedCandidate} Successfully deleted.
           </Alert>
         )}
         <div
@@ -132,8 +144,8 @@ function AdminPage({ submit, selectValue, handleChange, alertBoolean }) {
                   <Select
                     name='selectList'
                     id='selectList'
-                    value={selectValue}
-                    onChange={handleChange}
+                    value={prop.selectValue}
+                    onChange={prop.handleChange}
                     autoWidth
                     label='Phase'
                   >
@@ -146,7 +158,7 @@ function AdminPage({ submit, selectValue, handleChange, alertBoolean }) {
                       variant='outlined'
                       type='submit'
                       value='Submit'
-                      onClick={submit}
+                      onClick={prop.submit}
                       style={{ textAlign: 'center', marginTop: 20, width: 200 }}
                     >
                       {' '}
@@ -189,11 +201,12 @@ function AdminPage({ submit, selectValue, handleChange, alertBoolean }) {
           </div>
         </div>
       </div>
-      {showNotification && <Notification method={'phase changed'} />}
       {showModal && (
         <ConfirmationModal
           onSubmit={confirmDelete}
           open={showModal}
+          textField={textField}
+          setTextField={setTextField}
           closeModal={closeModal}
           selectedCandidate={selectedCandidate}
         />

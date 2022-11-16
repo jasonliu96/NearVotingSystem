@@ -125,6 +125,7 @@ function App() {
             path='admin'
             element={
               <AdminPage
+                phase={phase}
                 selectValue={selectValue}
                 submit={submitPhase.bind(this)}
                 handleChange={handleChange.bind(this)}
