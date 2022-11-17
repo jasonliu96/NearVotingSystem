@@ -11,7 +11,6 @@ import VoterRegistration from './components/User/VoterRegistration';
 import NoVoterRegistration from './components/User/NoVoterRegistration';
 import VotingPage from './components/User/VotingPage';
 import NoVotingPage from './components/User/NoVotingPage';
-import ConnectionCheck from './components/ConnectionCheck';
 import AdminPage from './components/Admin/AdminPage';
 import VoterProfile from './components/User/VoterProfile';
 import CandidateProfile from './components/Admin/CandidateProfile';
@@ -22,19 +21,14 @@ import LoadingSpinner from './components/LoadingSpinner';
 import NotFound from './components/NotFound';
 
 function App() {
-  const [phase, setphase] = useState(1);
+  const [phase, setphase] = useState(-1);
   const [selectValue, setselectvalue] = useState('');
-  const [successOpen, setsuccessOpen] = useState(false);
   const [loading, setLoading] = useState(false);
   const [alertBoolean, setAlertBoolean] = useState(false);
 
   async function handleChange(e) {
     setselectvalue(e.target.value);
     console.log('this is the dropdown ' + e.target.value);
-  }
-
-  async function handleModalChange(e) {
-    setsuccessOpen(false);
   }
 
   async function submitPhase(e) {
@@ -47,8 +41,6 @@ function App() {
         phase: phaseNumber,
       };
       await executeTransaction(constants.SET_CONSTANT, args);
-      setLoading(false);
-      setAlertBoolean(true);
     } catch (e) {
       alert(
         'Something went wrong! ' +
@@ -59,12 +51,9 @@ function App() {
       throw e;
     } finally {
       setphase(selectValue);
-      // console.log(phases)
-      // console.log("PHASE added")
-      setsuccessOpen(true);
+      setLoading(false);
+      setAlertBoolean(true);
     }
-    // console.log("here is the phaselist")
-    // console.log("this is phase length from submitcandidate" + phases.length)
   }
 
   if (!window.walletConnection.isSignedIn()) {
@@ -82,14 +71,17 @@ function App() {
     () => {
       // in this case, we only care to query the contract when signed in
       if (window.walletConnection.isSignedIn()) {
-        // window.contract is set by initContract in index.js
-        const id = setInterval(() => {
-          window.contract.getPhase({}).then((phaseFromContract) => {
-            console.log(`phase from contract ${phaseFromContract}`);
-            setphase(phaseFromContract);
-          });
-        }, WAIT_TIME);
-        return () => clearInterval(id);
+        window.contract.getPhase({}).then((phaseFromContract) => {
+          console.log(`phase from contract ${phaseFromContract}`);
+          setphase(phaseFromContract);
+        });
+        // const id = setInterval(() => {
+        //   window.contract.getPhase({}).then((phaseFromContract) => {
+        //     console.log(`phase from contract ${phaseFromContract}`);
+        //     setphase(phaseFromContract);
+        //   });
+        // }, WAIT_TIME);
+        // return () => clearInterval(id);
       }
     },
     // The second argument to useEffect tells React when to re-run the effect

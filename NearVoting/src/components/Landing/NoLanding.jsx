@@ -15,7 +15,7 @@ function NoLanding() {
           {/* <p style={{ textAlign: 'center', marginTop: '2.5em' }}>
             <button onClick={login}>Sign in</button>
           </p> */}
-          <Card.Footer style={{ backgroundColor: "#1a125c", color: 'white' }}>
+          <Card.Footer style={{ backgroundColor: '#1a125c', color: 'white' }}>
             <Footer />
           </Card.Footer>
           <footer

@@ -9,6 +9,11 @@ import constants from '../../constants';
 import { alignProperty } from '@mui/material/styles/cssUtils';
 const Navbar = (props) => {
   const serverUrl = constants.SERVER_URL;
+  const [phase, setPhase] = useState(-1);
+
+  useEffect(() => {
+    setPhase(props.phase);
+  }, [props.phase]);
   const renderSwitch = (phase) => {
     switch (phase) {
       case 1:
@@ -18,11 +23,7 @@ const Navbar = (props) => {
       case 3:
         return <div className='center'>Current Phase : Results</div>;
       default:
-        return (
-          <div className='center'>
-            The Voting process will start after selecting the Phase
-          </div>
-        );
+        return <div className='center'>Current Phase : Loading</div>;
     }
   };
   if (!window.walletConnection.isSignedIn()) {
@@ -97,7 +98,7 @@ const Navbar = (props) => {
               </NavLink>
             </li>
           </ul>
-          <div>{renderSwitch(props.phase)}</div>
+          <div key={phase}>{renderSwitch(phase)}</div>
           <div className='LoginNav'>
             <Button>
               <NavLink to='/settings'>
