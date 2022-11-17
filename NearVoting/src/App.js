@@ -97,6 +97,7 @@ function App() {
     // This works because signing into NEAR Wallet reloads the page
     [phase]
   );
+
   return (
     <div className='App'>
       <Router>
