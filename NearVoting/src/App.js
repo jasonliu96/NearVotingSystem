@@ -14,6 +14,7 @@ import NoVotingPage from './components/User/NoVotingPage';
 import ConnectionCheck from './components/ConnectionCheck';
 import AdminPage from './components/Admin/AdminPage';
 import VoterProfile from './components/User/VoterProfile';
+import CandidateProfile from './components/Admin/CandidateProfile';
 import Settings from './components/User/Settings';
 import constants from './constants';
 import { executeTransaction } from './utils';
@@ -76,19 +77,21 @@ function App() {
       </>
     );
   }
-
+  const WAIT_TIME = 5000;
   useEffect(
     () => {
       // in this case, we only care to query the contract when signed in
       if (window.walletConnection.isSignedIn()) {
         // window.contract is set by initContract in index.js
-        window.contract.getPhase({}).then((phaseFromContract) => {
-          console.log(`phase from contract ${phaseFromContract}`);
-          setphase(phaseFromContract);
-        });
+        const id = setInterval(() => {
+          window.contract.getPhase({}).then((phaseFromContract) => {
+            console.log(`phase from contract ${phaseFromContract}`);
+            setphase(phaseFromContract);
+          });
+        }, WAIT_TIME);
+        return () => clearInterval(id);
       }
     },
-
     // The second argument to useEffect tells React when to re-run the effect
     // Use an empty array to specify "only run on first render"
     // This works because signing into NEAR Wallet reloads the page
@@ -102,6 +105,7 @@ function App() {
         <Routes>
           <Route path='' element={<NoLanding />} />
           <Route path='/profile' element={<VoterProfile />} />
+          <Route path='/candiProfile' element={<CandidateProfile />} />
           <Route
             path='candidate/register'
             element={

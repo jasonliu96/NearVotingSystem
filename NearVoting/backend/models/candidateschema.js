@@ -3,6 +3,7 @@ const mongoose = require('mongoose')
 const { Schema } = mongoose
 
 const candidateSchema = new Schema({
+  accId: { type: String, required: true, unique: true, dropDups: true },
   fullName: { type: String, required: true },
   address: { type: String, required: true },
   cityStateZip: { type: String, required: true },

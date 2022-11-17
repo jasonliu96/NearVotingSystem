@@ -1,7 +1,13 @@
 const express = require('express')
 const router = express.Router()
 
-const { addCandidate, checkUniquecandidateId, getCandidateInfo } = require('../../queries/candidate/candidate')
+const { 
+  addCandidate, 
+  checkUniquecandidateId, 
+  getCandidateInfo,
+  getIfRegistered,
+  getCandidateProfile,
+} = require('../../queries/candidate/candidate')
 
 router.post('/addCandidate', async (req, res) => {
   try {
@@ -41,6 +47,42 @@ router.post('/getCandidateInfo', async (req, res) => {
     res.send(200, results.data)
   } catch(err) {
     console.log(`error from getCandidateInfo: ${err}`)
+    return err
+  }
+})
+
+router.post('/getIfRegistered', async (req, res) => {
+  try {
+    console.log(
+      `Check if candidate has already registered: ${JSON.stringify(req.body)}`,
+    )
+
+    let results = null
+    results = await getIfRegistered(req.body, res)
+    console.log(`getIfRegistered results ${results.status}`)
+    res.sendStatus(results.status)
+  } catch (err) {
+    console.log(`Catch error: ${err}`)
+    return err
+  }
+})
+
+router.post('/getCandidateProfile', async (req, res) => {
+  try {
+    console.log(`Retreive candidate profile: ${JSON.stringify(req.body)}`)
+
+    let results = null
+    results = await getCandidateProfile(req.body, res)
+    console.log(`getCandidateProfile results ${results.status}`)
+
+    let respData = {
+      status: results.status,
+      data: results.data,
+    }
+    console.log(`getCandidateProfile results ${JSON.stringify(respData)}`)
+    res.send(JSON.stringify(respData))
+  } catch (err) {
+    console.log(`Catch error: ${err}`)
     return err
   }
 })
