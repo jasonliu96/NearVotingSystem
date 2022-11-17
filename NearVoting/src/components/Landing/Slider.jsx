@@ -1,9 +1,9 @@
 import * as React from 'react';
-import { ArrowLeftOutlined, ArrowRightOutlined } from "@material-ui/icons"
+import { ArrowLeftOutlined, ArrowRightOutlined } from '@material-ui/icons';
 import PropTypes from 'prop-types';
-import { useState } from "react";
-import styled from "styled-components"
-import { sliderItems } from "../data";
+import { useState } from 'react';
+import styled from 'styled-components';
+import { sliderItems } from '../data';
 import Dialog from '@mui/material/Dialog';
 import DialogTitle from '@mui/material/DialogTitle';
 import DialogContent from '@mui/material/DialogContent';
@@ -11,6 +11,7 @@ import DialogActions from '@mui/material/DialogActions';
 import IconButton from '@mui/material/IconButton';
 import CloseIcon from '@mui/icons-material/Close';
 import Typography from '@mui/material/Typography';
+import { useEffect } from 'react';
 
 const Container = styled.div`
   width: 100vw;
@@ -47,11 +48,11 @@ const Wrapper = styled.div`
 `;
 
 const Slide = styled.div`
-    width : 100vw;
-    height : 100vh;
-    display : flex;
-    align-items : center;
-    background-color : #${props => props.bg};
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background-color: #${(props) => props.bg};
 `;
 
 const ImgContainer = styled.div`
@@ -60,11 +61,11 @@ const ImgContainer = styled.div`
 `;
 
 const Image = styled.img`
-    padding-left : 5px;
-    padding-top : 5px;
-    padding-bottom : 5px;
-    height : 100%;
-    background-color : transparent;
+  padding-left: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  height: 100%;
+  background-color: transparent;
 `;
 
 const InfoContainer = styled.div`
@@ -73,144 +74,139 @@ const InfoContainer = styled.div`
 `;
 
 const Title = styled.h1`
-    display: block;
-    font-size: 2em;
-    margin-top: 0.67em;
-    margin-bottom: 0.67em;
-    margin-left: 0;
-    margin-right: 0;
-    font-weight: bold;
+  display: block;
+  font-size: 2em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
 `;
 
 const Desc = styled.p`
-    margin: 50px 0px;
-    font-size: 20px;
-    font-weight: 500;
-    letter-spacing: 3px;
+  margin: 50px 0px;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 3px;
 `;
 
 const Button = styled.button`
-    background-color: #555555;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
+  background-color: #555555;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 `;
 
 const BootstrapDialog = styled(Dialog)(({ theme }) => ({
-    '& .MuiDialogContent-root': {
-    },
-    '& .MuiDialogActions-root': {
-    },
+  '& .MuiDialogContent-root': {},
+  '& .MuiDialogActions-root': {},
 }));
 
 function BootstrapDialogTitle(props) {
-    const { children, onClose, ...other } = props;
+  const { children, onClose, ...other } = props;
 
-    return (
-        <DialogTitle sx={{ m: 0, p: 2 }} {...other}>
-            {children}
-            {onClose ? (
-                <IconButton
-                    aria-label="close"
-                    onClick={onClose}
-                    sx={{
-                        position: 'absolute',
-                        right: 8,
-                        top: 8,
-                        color: (theme) => theme.palette.grey[500],
-                    }}
-                >
-                    <CloseIcon />
-                </IconButton>
-            ) : null}
-        </DialogTitle>
-    );
+  return (
+    <DialogTitle sx={{ m: 0, p: 2 }} {...other}>
+      {children}
+      {onClose ? (
+        <IconButton
+          aria-label='close'
+          onClick={onClose}
+          sx={{
+            position: 'absolute',
+            right: 8,
+            top: 8,
+            color: (theme) => theme.palette.grey[500],
+          }}
+        >
+          <CloseIcon />
+        </IconButton>
+      ) : null}
+    </DialogTitle>
+  );
 }
 
 BootstrapDialogTitle.propTypes = {
-    children: PropTypes.node,
-    onClose: PropTypes.func.isRequired,
+  children: PropTypes.node,
+  onClose: PropTypes.func.isRequired,
 };
 
-
 const Slider = () => {
-    // const [slideIndex, setSlideIndex] = useState(0);
-    let slideIndex = 0    
-    const [open, setOpen] = useState(false);
-    const [item, setItem] = useState(sliderItems[0]);
+  // const [slideIndex, setSlideIndex] = useState(0);
+  const [index, setIndex] = useState(0);
+  const [open, setOpen] = useState(false);
+  const [item, setItem] = useState(sliderItems[0]);
+  useEffect(() => {
+    setItem(sliderItems[index]);
+  }, [index]);
 
-    const handleClick = (direction) => {
-        if (direction === "left") {
-            // setSlideIndex(slideIndex > 0 ? slideIndex - 1 : 2);
-            // console.log("b4 left:" + slideIndex);
-            slideIndex = (slideIndex > 0 ? slideIndex - 1 : 2);
-            setItem(sliderItems[slideIndex]);
-            // console.log("left:" + slideIndex);
-        } else {
-            // setSlideIndex(slideIndex < 2 ? slideIndex + 1 : 0);
-            // console.log("b4 right:" + slideIndex);
-            slideIndex = (slideIndex < 2 ? slideIndex + 1 : 0);
-            setItem(sliderItems[slideIndex]);
-            // console.log("right:" + slideIndex);
-        }
-    };
+  const handleClick = (direction) => {
+    if (direction === 'left') {
+      let temp = index === 0 ? 2 : index - 1;
+      console.log(temp);
+      setIndex(temp);
+    } else {
+      let temp = index === 2 ? 0 : index + 1;
+      console.log(temp);
+      setIndex(temp);
+    }
+  };
 
-    const handleClickOpen = () => {
-        setOpen(true);
-    };
-    const handleClose = () => {
-        setOpen(false);
-    };
+  const handleClickOpen = () => {
+    setOpen(true);
+  };
+  const handleClose = () => {
+    setOpen(false);
+  };
 
-    return (
-        <Container>
-            <Arrow direction="left" onClick={() => handleClick("left")}>
-                <ArrowLeftOutlined />
-            </Arrow>
-            <Wrapper slideIndex={slideIndex}>
-                {/* {sliderItems.map((item) => ( */}
-                <Slide bg={item.bg} key={item.id}>
-                    <ImgContainer>
-                        <Image src={item.img} />
-                    </ImgContainer>
-                    <InfoContainer>
-                        <Title>{item.title}</Title>
-                        <Desc>{item.desc}</Desc>
-                        <Button onClick={handleClickOpen}>
-                            VIEW DETAILS
-                        </Button>
-                        <BootstrapDialog
-                            onClose={handleClose}
-                            aria-labelledby="customized-dialog-title"
-                            open={open}
-                        >
-                            <BootstrapDialogTitle id="customized-dialog-title" onClose={handleClose}>
-                                {item.title}
-                            </BootstrapDialogTitle>
-                            <DialogContent dividers>
-                                <Typography gutterBottom>
-                                    {item.modal}
-                                </Typography>
-                            </DialogContent>
-                            <DialogActions>
-                                <Button autoFocus onClick={handleClose}>
-                                    Close
-                                </Button>
-                            </DialogActions>
-                        </BootstrapDialog>
-                    </InfoContainer>
-                </Slide>
-                {/* ))} */}
-            </Wrapper>
-            <Arrow direction="right" onClick={() => handleClick("right")}>
-                <ArrowRightOutlined />
-            </Arrow>
-        </Container>
-    )
-}
+  return (
+    <Container>
+      <Arrow direction='left' onClick={() => handleClick('left')}>
+        <ArrowLeftOutlined />
+      </Arrow>
+      <Wrapper>
+        {/* {sliderItems.map((item) => ( */}
+        <Slide bg={item.bg} key={item.id}>
+          <ImgContainer>
+            <Image src={item.img} />
+          </ImgContainer>
+          <InfoContainer>
+            <Title>{item.title}</Title>
+            <Desc>{item.desc}</Desc>
+            <Button onClick={handleClickOpen}>VIEW DETAILS</Button>
+            <BootstrapDialog
+              onClose={handleClose}
+              aria-labelledby='customized-dialog-title'
+              open={open}
+            >
+              <BootstrapDialogTitle
+                id='customized-dialog-title'
+                onClose={handleClose}
+              >
+                {item.title}
+              </BootstrapDialogTitle>
+              <DialogContent dividers>
+                <Typography gutterBottom>{item.modal}</Typography>
+              </DialogContent>
+              <DialogActions>
+                <Button autoFocus onClick={handleClose}>
+                  Close
+                </Button>
+              </DialogActions>
+            </BootstrapDialog>
+          </InfoContainer>
+        </Slide>
+        {/* ))} */}
+      </Wrapper>
+      <Arrow direction='right' onClick={() => handleClick('right')}>
+        <ArrowRightOutlined />
+      </Arrow>
+    </Container>
+  );
+};
 
 export default Slider;
