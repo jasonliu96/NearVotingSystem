@@ -1,29 +1,29 @@
-import { context, storage, logging, PersistentMap,  PersistentVector } from 'near-sdk-as';
-import { Candidate, CandidateList, Phase, PhaseList, Ballot } from './model';
+import { context, storage, logging, PersistentMap,  PersistentVector, Context } from 'near-sdk-as';
+import { Candidate, CandidateList, Ballot } from './model';
 const CANDIDATE_LIMIT = 10
 
 var candidateMap = new PersistentMap<string, i16>("pm");
 var candidateVector = new PersistentVector<string>("pv");
 var ballot = new Ballot(candidateVector, candidateMap);
 
-export function addCandidate(text: string): void{
-    const candidate = new Candidate(text, 0)
-    CandidateList.push(candidate)
-    const new_value = getNumCandidates() + 1;
-    storage.set<i8>("candidate_counter", new_value);
-}
-
 export function addCandidateCompressed(compressed_candidate: string): void{
     ballot.addCandidate(compressed_candidate);
+    var candidateCounter = storage.getPrimitive<i8>("candidate_counter", 0);
+    candidateCounter +=1;
+    storage.set<i8>("candidate_counter", candidateCounter);
 }
 
 export function voteCandidateMap(candidate_oid: string): void{
     ballot.voteCandidate(candidate_oid);
+    var voteCounter = storage.getPrimitive<i16>("voter_counter", 0);
+    voteCounter +=1; 
+    storage.set<i16>("vote_counter", voteCounter);
 }
 
 export function getCandidateMap():Map<string,number>{
     return ballot.getMap();
 }
+
 export function getCandidateArray():Candidate[]{
     return ballot.getAllValues();
 }
@@ -33,89 +33,50 @@ export function getCandidateVote(candidate_oid:string):i16{
 }
 
 export function resetBallot():void{
-    candidateMap = new PersistentMap<string, i16>("pm");
-    candidateVector = new PersistentVector<string>("pv");
-    ballot = new Ballot(candidateVector, candidateMap);
-}
-// export function getCandidates(): Candidate[] {
-//     const numCand = min(CANDIDATE_LIMIT, CandidateList.length);
-//     const startIndex = CandidateList.length - numCand;
-//     const result = new Array<Candidate>(numCand);
-//     for (let i=0; i<numCand; i++){
-//         result[i] = CandidateList[i+startIndex];
-//     }
-//     return result;
-// }
-// const regex = new RegExp("");
-
-export function getCandidates(): Candidate[] {
-    const result = new Array<Candidate>();
-    for (let i=0; i<CandidateList.length; i++){
-        result[i] = CandidateList[i];
-    }
-    return result;
-}
-
-export function clearCandidates(): void{
-    for (let i=0; i<CandidateList.length; i++){
-        CandidateList.pop()
+    if(Context.contractName == Context.sender){
+        ballot.resetBallot();
+        storage.set<i16>("vote_counter", 0);
+        storage.set<i8>("candidate_counter", 0);
+    } else { 
+        logging.log(`Access Denied`)
     }
 }
 
-export function voteCandidate(index: i32):void {
-    const name = CandidateList[index].name;
-    let votes = CandidateList[index].votes;
-    votes += 1;
-    const newCandidate = new Candidate(name, votes)
-    CandidateList.replace(index, newCandidate)
-    const new_value = get_num() + 1;
-    storage.set<i8>("vote_counter", new_value);
-    logging.log("Increased number to " +  new_value.toString());
+export function deleteCandidate(compressed_candidate: string):String{
+    const currentPhase = storage.getPrimitive<i8>("current_phase", 0);
+    if(currentPhase==1){
+        ballot.deleteCandidate(compressed_candidate);
+        var candidateCounter = storage.getPrimitive<i8>("candidate_counter", 0);
+        candidateCounter -=1;
+        storage.set<i8>("candidate_counter", candidateCounter);
+        return "Candidate Successfully Deleted"
+    } 
+    else {
+        const msg = `Candidates can only be deleted during registration phase`
+        logging.log(msg)
+        return msg;
+    }
 }
-
-export function removeCandidate(index: i32): void {
-    const new_value = getNumCandidates() - 1;
-    storage.set<i8>("candidate_counter", new_value);
-    CandidateList.swap_remove(index)
-}
-
-export function get_num(): i8 {
-    return storage.getPrimitive<i8>("vote_counter", 0);
-}
-
-export function get_num_voters(): i8 {
-    return storage.getPrimitive<i8>("voter_counter", 0);
+export function getNumVotes():i16 {
+    return storage.getPrimitive<i16>("vote_counter", 0);
 }
 
 export function getNumCandidates(): i8 {
     return storage.getPrimitive<i8>("candidate_counter", 0);
 }
 
-// Public method - Reset to zero
-export function reset(): void {
-    storage.set<i8>("vote_counter", 0);
-    logging.log("Reset counter to zero");
-}
-
-//function to save states
-export function addstate(text: string): void{
-    const phase = new Phase(text, 0)
-    PhaseList.push(phase)
-}
-
-export function getPhases(): Phase[] {
-    
-    const result = new Array<Phase>();
-    for (let i=0; i<PhaseList.length; i++){
-        result[i] = PhaseList[i];
-    }
-    return result;
-}
-
+/**
+ * set function to track the phases of the voting process 
+ * @param phase integer 
+ */
 export function setPhase(phase: i8): void{
     storage.set<i8>("current_phase", phase)
 }
 
+/**
+ * get function to return phase from smart contract
+ * @returns phase integer from storage on default returns 1
+ */
 export function getPhase(): i8 {
     return storage.getPrimitive<i8>("current_phase", 1)
 }

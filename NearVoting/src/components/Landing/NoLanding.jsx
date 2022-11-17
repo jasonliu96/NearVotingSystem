@@ -6,9 +6,9 @@ import { Card } from 'react-bootstrap';
 import Slider from './Slider';
 import Footer from './Footer';
 
-function NoLanding1() {
-  if (!window.walletConnection.isSignedIn()) {
-    return (
+function NoLanding() {
+  return (
+    <>
       <Fragment>
         <Card style={{ margin: 0, padding: 0 }}>
           <Slider />
@@ -30,37 +30,6 @@ function NoLanding1() {
           ></footer>
         </Card>
       </Fragment>
-    );
-  }
-
-  return (
-    <>
-      <main>
-        <h1>Candidates</h1>
-        <div
-          style={{
-            textAlign: 'center',
-            position: 'absolute',
-            top: '45%',
-            left: '50%',
-            transform: 'translate(-50%, -50%)',
-          }}
-        >
-          Currently in Registration/Results Phase.
-        </div>
-        <div
-          style={{
-            textAlign: 'center',
-            position: 'absolute',
-            top: '50%',
-            left: '50%',
-            transform: 'translate(-50%, -50%)',
-          }}
-        >
-          To access the voting feature please wait until the voting phase
-          begins.
-        </div>
-      </main>
     </>
   );
 }

@@ -1,15 +1,9 @@
 import { context, u128, PersistentVector, PersistentMap } from "near-sdk-as"
+import { deleteCandidate } from ".";
 
 @nearBindgen
 export class Candidate{
     constructor(public name: string, public votes: i16){
-
-    }
-}
-
-@nearBindgen
-export class Phase{
-    constructor(public phase: string, public phasenumber: i16){
 
     }
 }
@@ -44,9 +38,33 @@ export class Ballot
         this.candidateMap.set(candidate_oid, vote_count);
     }
     getCandidateVotes(candidate_oid:string):i16{
-        return this.candidateMap.getSome(candidate_oid)
+        return this.candidateMap.getSome(candidate_oid);
+    }
+    deleteCandidate(candidate_oid:string):void{
+        if(this.candidateMap.contains(candidate_oid)){
+            this.candidateMap.delete(candidate_oid)
+            this.deleteKey(candidate_oid)
+        }
+        else {
+
+        }
+    }
+    private deleteKey(candidate_oid:string):void {
+        for (let i=0; i<this.keys.length; i++){
+            let tempKey = this.keys[i]
+            if(candidate_oid == tempKey){
+                this.keys.swap_remove(i);
+            }
+        }
+    }
+    resetBallot():void{
+        for (let i=0; i<this.keys.length; i++){
+            this.candidateMap.delete(this.keys[i]);
+        }
+        while(!this.keys.isEmpty){
+            this.keys.pop();
+        }
     }
 }
 
 export const CandidateList = new PersistentVector<Candidate>("c")
-export const PhaseList = new PersistentVector<Phase>("f")

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 // import { FormControl, InputLabel, Input, FormHelperText, Button } from '@mui/material';
 import Radio from '@mui/material/Radio';
 import {
@@ -30,27 +30,28 @@ import CheckIcon from '@mui/icons-material/Check';
 import Box from '@mui/material/Box';
 import { compressOid, executeTransaction } from '../../utils';
 import constants from '../../constants';
+import LoadingSpinner from '../LoadingSpinner';
 function CandidateRegistration() {
   // const [candidateName, setName] = React.useState("")
   const serverUrl = constants.SERVER_URL;
-  const [fullName, setName] = React.useState('');
-  const [address, setAddress] = React.useState('');
-  const [cityStateZip, setCityStateZip] = React.useState('');
-  const [candidateId, setIdnumber] = React.useState('');
-  const [partyAffiliation, setPartyAffiliation] = React.useState('');
-  const [office, setOffice] = React.useState('');
-  const [stateDistrict, setStateDistrict] = React.useState('');
-  const [showNotification, setShowNotification] = React.useState(false);
-  const [msg, setMsg] = React.useState('Added a Candidate');
-  const [errors, setErrors] = React.useState([]);
-  const [open, setOpen] = React.useState(false);
-  const [successOpen, setsuccessOpen] = React.useState(false);
-  const [errorOpen, seterrorOpen] = React.useState(false);
-
+  const [fullName, setName] = useState('');
+  const [address, setAddress] = useState('');
+  const [cityStateZip, setCityStateZip] = useState('');
+  const [candidateId, setIdnumber] = useState('');
+  const [partyAffiliation, setPartyAffiliation] = useState('');
+  const [office, setOffice] = useState('');
+  const [stateDistrict, setStateDistrict] = useState('');
+  const [showNotification, setShowNotification] = useState(false);
+  const [msg, setMsg] = useState('Added a Candidate');
+  const [errors, setErrors] = useState([]);
+  const [open, setOpen] = useState(false);
+  const [successOpen, setsuccessOpen] = useState(false);
+  const [errorOpen, seterrorOpen] = useState(false);
+  const [loading, setLoading] = useState(false);
   async function submitCandidate(e) {
     e.preventDefault();
     console.log(fullName);
-
+    setLoading(true);
     const data = {
       fullName,
       address,
@@ -80,16 +81,19 @@ function CandidateRegistration() {
             };
             await executeTransaction(constants.ADD_CONSTANT, args);
             seterrorOpen(false);
+            setLoading(false);
             setsuccessOpen(true);
           } else {
             console.log(`response for add candidate is: ${response.status}`);
             setsuccessOpen(false);
+            setLoading(false);
             seterrorOpen(true);
           }
         },
         (error) => {
           console.log(`Error while adding candidate ${error}`);
           setsuccessOpen(false);
+          setLoading(false);
           seterrorOpen(true);
         }
       );
@@ -184,6 +188,7 @@ function CandidateRegistration() {
 
   return (
     <div>
+      <LoadingSpinner loading={loading} />
       <h1>Candidate Registration</h1>
       <div className='centeredText'>
         <Box

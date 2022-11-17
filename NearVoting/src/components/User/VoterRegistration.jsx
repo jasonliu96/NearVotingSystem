@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import {
   FormControl,
   InputLabel,
@@ -20,31 +20,33 @@ import Alert from '@mui/material/Alert';
 import IconButton from '@mui/material/IconButton';
 import Collapse from '@mui/material/Collapse';
 import CloseIcon from '@mui/icons-material/Close';
-import CheckIcon from '@mui/icons-material/Check';
 import Box from '@mui/material/Box';
 import { Navigate } from 'react-router-dom';
 import constants from '../../constants';
+import LoadingSpinner from '../LoadingSpinner';
 function VoterRegistration() {
   const serverUrl = constants.SERVER_URL;
-  const [firstName, setFirstName] = React.useState('');
-  const [lastName, setLastName] = React.useState('');
-  const [citizen, setCitizen] = React.useState('');
-  const [assistance, setAssistance] = React.useState('');
-  const [phone, setPhone] = React.useState('');
-  const [identification, setIdentification] = React.useState('');
-  const [email, setEmail] = React.useState('');
-  const [address, setAddress] = React.useState('');
-  const [value, setValue] = React.useState('');
-  //const [showNotification, setShowNotification] = React.useState(false)
-  const [msg, setMsg] = React.useState('Added a Voter');
-  const [errors, setErrors] = React.useState([]);
-  const [open, setOpen] = React.useState(false);
-  const [successOpen, setsuccessOpen] = React.useState(false);
-  const [errorOpen, seterrorOpen] = React.useState(false);
-  const [hasRegistered, sethasRegistered] = React.useState(false);
+  const [firstName, setFirstName] = useState('');
+  const [lastName, setLastName] = useState('');
+  const [citizen, setCitizen] = useState('');
+  const [assistance, setAssistance] = useState('');
+  const [phone, setPhone] = useState('');
+  const [identification, setIdentification] = useState('');
+  const [email, setEmail] = useState('');
+  const [address, setAddress] = useState('');
+  const [value, setValue] = useState('');
+  //const [showNotification, setShowNotification] = useState(false)
+  const [msg, setMsg] = useState('Added a Voter');
+  const [errors, setErrors] = useState([]);
+  const [open, setOpen] = useState(false);
+  const [successOpen, setsuccessOpen] = useState(false);
+  const [errorOpen, seterrorOpen] = useState(false);
+  const [hasRegistered, sethasRegistered] = useState(false);
+  const [loading, setLoading] = useState(false);
 
   async function submitVoter(e) {
     e.preventDefault();
+    setLoading(true);
     console.log(`Account ID: ${window.walletConnection.getAccountId()}`);
     const accountId = window.walletConnection.getAccountId();
     const name = firstName + ' ' + lastName;
@@ -85,16 +87,20 @@ function VoterRegistration() {
         if (response.status == 200) {
           console.log(`Register voter is successfull: ${response.status}`);
           seterrorOpen(false);
+          setLoading(false);
           setsuccessOpen(true);
+          sethasRegistered(true);
         } else {
           console.log(`response for register voter is: ${response.status}`);
           setsuccessOpen(false);
+          setLoading(false);
           seterrorOpen(true);
         }
       },
       (error) => {
         console.log(`Error while registering voter ${error}`);
         setsuccessOpen(false);
+        setLoading(false);
         seterrorOpen(true);
       }
     );
@@ -200,6 +206,7 @@ function VoterRegistration() {
 
   return (
     <>
+      <LoadingSpinner loading={loading} />
       {hasRegistered && <Navigate to='/profile' replace={true} />}
       <div>
         <h1>Voter Registration</h1>
