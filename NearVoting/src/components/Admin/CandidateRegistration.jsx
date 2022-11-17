@@ -97,13 +97,12 @@ function CandidateRegistration() {
     } catch (e) {
       alert(
         'Something went wrong! ' +
-        'Maybe you need to sign out and back in? ' +
-        'Check your browser console for more info.'
+          'Maybe you need to sign out and back in? ' +
+          'Check your browser console for more info.'
       );
       throw e;
     } finally {
       console.log('candidate added');
-      setShowNotification(true);
     }
   }
 
