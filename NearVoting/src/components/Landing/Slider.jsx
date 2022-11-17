@@ -73,15 +73,20 @@ const InfoContainer = styled.div`
 `;
 
 const Title = styled.h1`
-    align-items : center;
-    font-size : 70px;
+    display: block;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
 `;
 
 const Desc = styled.p`
-  margin: 50px 0px;
-  font-size: 20px;
-  font-weight: 500;
-  letter-spacing: 3px;
+    margin: 50px 0px;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 3px;
 `;
 
 const Button = styled.button`

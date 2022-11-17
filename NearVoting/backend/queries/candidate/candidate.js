@@ -4,6 +4,7 @@ const CandidateInfo = mongoose.model('candidate')
 const addCandidate = async (request, response) => {
   console.log(`add candidate to mongo request: ${JSON.stringify(request)}`)
   const {
+    accId,
     fullName,
     address,
     cityStateZip,
@@ -15,6 +16,7 @@ const addCandidate = async (request, response) => {
   } = request
 
   const candidate = new CandidateInfo({
+    accId,
     fullName,
     address,
     cityStateZip,
@@ -92,4 +94,58 @@ const getCandidateInfo = async (request, response) => {
   response.data=candInfo
   return response
 }
-module.exports = { addCandidate , checkUniquecandidateId, getCandidateInfo }
+
+const getIfRegistered = async (request, response) => {
+  console.log(`getIfRegistered mongo request: ${JSON.stringify(request)}`)
+  const { accId } = request
+
+  await CandidateInfo.find({ accId })
+    .then((result) => {
+      console.log('getIfRegistered results:')
+      console.log(result.length)
+      console.log(result)
+      if (result.length > 0) response.status = 201
+      else response.status = 200
+
+      console.log(`Response: ${response.status}`)
+    })
+    .catch((err) => {
+      console.log(err)
+      response.status = 400
+    })
+
+  return response
+}
+
+const getCandidateProfile = async (request, response) => {
+  console.log(`getCandidateProfile mongo request: ${JSON.stringify(request)}`)
+  const { accId } = request
+
+  await CandidateInfo.find({ accId })
+    .then((result) => {
+      console.log('getCandidateProfile results:')
+      console.log(result.length)
+      console.log(result)
+      if (result.length > 0) {
+        response.status = 201
+        response.data = result
+      } else response.status = 200
+
+      console.log(`Response: ${response.status}`)
+    })
+    .catch((err) => {
+      console.log(err)
+      response.status = 400
+    })
+
+  return response
+}
+
+
+module.exports = { 
+  addCandidate, 
+  checkUniquecandidateId, 
+  getCandidateInfo,
+  getCandidateProfile,
+  getIfRegistered
+}

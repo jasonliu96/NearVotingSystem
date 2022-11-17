@@ -14,6 +14,7 @@ import NoVotingPage from './components/User/NoVotingPage';
 import ConnectionCheck from './components/ConnectionCheck';
 import AdminPage from './components/Admin/AdminPage';
 import VoterProfile from './components/User/VoterProfile';
+import CandidateProfile from './components/Admin/CandidateProfile';
 import Settings from './components/User/Settings';
 import constants from './constants';
 import { executeTransaction } from './utils';
@@ -105,6 +106,7 @@ function App() {
         <Routes>
           <Route path='' element={<NoLanding />} />
           <Route path='/profile' element={<VoterProfile />} />
+          <Route path='/candiProfile' element={<CandidateProfile />} />
           <Route
             path='candidate/register'
             element={
