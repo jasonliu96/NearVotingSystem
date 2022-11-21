@@ -21,7 +21,11 @@ app.use('/candidate', candidate)
 require('./models/testschema')
 require('./models/transactionschema')
 const transaction = require('./routes/transaction/transactionRoutes')
-app.use('/transaction', transaction )
+app.use('/transaction', transaction)
+
+require('./models/adminschema')
+const admin = require('./routes/Admin/adminroutes')
+app.use('/admin', admin)
 
 async function run() {
   app.get('/', async (req, res) => {
