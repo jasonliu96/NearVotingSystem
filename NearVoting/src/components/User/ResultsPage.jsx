@@ -11,12 +11,7 @@ function ResultsPage() {
   const [candidates, setCandidates] = React.useState([]);
   const [selected, setSelected] = React.useState(0);
   const [data, setData] = React.useState([]);
-  const colors = [
-    '#50A3A4',
-    '#FCAF38',
-    '#674A40',
-    '#F95335'
-  ];
+  const colors = ['#50A3A4', '#FCAF38', '#674A40', '#F95335'];
   function mapCandidates(candidates) {
     const temp = candidates
       .filter((value, index) => value.votes > 0)
@@ -44,18 +39,17 @@ function ResultsPage() {
     () => {
       // in this case, we only care to query the contract when signed in
       if (window.walletConnection.isSignedIn()) {
-        // window.contract is set by initContract in index.js
-        window.contract.getNumVotes({}).then((votesFromContract) => {
-          setNumVotes(votesFromContract);
-        });
         var oids = [];
+        var voteCounter = 0;
         // window.contract is set by initContract in index.js
         window.contract.getCandidateMap({}).then((candidateFromContract) => {
           // setCandidates(candidateFromContract)
           for (const [key, value] of Object.entries(candidateFromContract)) {
             oids.push({ name: decompressOids(key), votes: value });
+            voteCounter += value;
           }
           console.log(oids);
+          setNumVotes(voteCounter);
           axios
             .post(`${serverUrl}/candidate/getCandidateInfo`, { oids })
             .then((res) => {
