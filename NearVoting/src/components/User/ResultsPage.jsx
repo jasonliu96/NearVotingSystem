@@ -12,18 +12,10 @@ function ResultsPage() {
   const [selected, setSelected] = React.useState(0);
   const [data, setData] = React.useState([]);
   const colors = [
-    '#ebf5fb',
-    '#d6eaf8',
-    '#aed6f1',
-    '#85c1e9',
-    '#5dade2',
-    '#3498db',
-    '#b0bec5',
-    '#90a4ae',
-    '#78909c',
-    '#607d8b',
-    '#546e7a',
-    '#455a64',
+    '#50A3A4',
+    '#FCAF38',
+    '#674A40',
+    '#F95335'
   ];
   function mapCandidates(candidates) {
     const temp = candidates
