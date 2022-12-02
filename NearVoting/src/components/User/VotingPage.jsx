@@ -56,7 +56,7 @@ function VotingPage() {
             } else {
               // disable if the user is not registered
               setHasVoted(true);
-              seterrormsg('You cannot vote untill you register!');
+              seterrormsg('You cannot vote until you register!');
               seterrorOpen(true);
             }
           });
@@ -76,6 +76,19 @@ function VotingPage() {
     []
   );
 
+  function updateState(target_oid) {
+    const newState = candidates.map((cand) => {
+      // 👇️ if id equals 2, update country property
+      if (cand.oid === target_oid) {
+        return { ...cand, votes: cand.votes + 1 };
+      }
+      // 👇️ otherwise return object as is
+      return cand;
+    });
+    setLoading(false);
+    setCandidates(newState);
+    setShowNotification(true);
+  }
   async function submitVote(e) {
     e.preventDefault();
     setLoading(true);
@@ -88,21 +101,32 @@ function VotingPage() {
     const data = {
       accountId,
     };
-    await axios.post(`${serverUrl}/voter/updateHasVoted`, data).then((res) => {
-      if (res.status == 201) {
-        console.log('Vote has been registered successfully');
-      } else {
-        console.log('Please check backend logs for error');
-      }
-    });
-
     try {
       const args = {
         candidate_oid: compressOid(target_oid),
       };
-      await executeTransaction(constants.VOTE_CONSTANT, args).then(() => {
-        setHasVoted(true);
-      });
+      await executeTransaction(constants.VOTE_CONSTANT, args).then(
+        async (msg) => {
+          console.log(`message from voting page ${msg}`);
+          if (msg == 'Success') {
+            await axios
+              .post(`${serverUrl}/voter/updateHasVoted`, data)
+              .then((res) => {
+                if (res.status == 201) {
+                  console.log('Vote has been registered successfully');
+                  setHasVoted(true);
+                } else {
+                  console.log('Please check backend logs for error');
+                }
+              });
+            updateState(target_oid);
+          } else {
+            setLoading(false);
+            seterrormsg('Voting has failed: Not Currently Voting Phase');
+            seterrorOpen(true);
+          }
+        }
+      );
     } catch (e) {
       alert(
         'Something went wrong! ' +
@@ -111,18 +135,6 @@ function VotingPage() {
       );
       setLoading(false);
       throw e;
-    } finally {
-      const newState = candidates.map((cand) => {
-        // 👇️ if id equals 2, update country property
-        if (cand.oid === target_oid) {
-          return { ...cand, votes: cand.votes + 1 };
-        }
-        // 👇️ otherwise return object as is
-        return cand;
-      });
-      setLoading(false);
-      setCandidates(newState);
-      setShowNotification(true);
     }
   }
   return (

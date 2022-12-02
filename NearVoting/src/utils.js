@@ -115,6 +115,11 @@ export async function executeTransaction(methodType, args) {
         return error;
       }
     );
+  if (response.receipts_outcome[0].outcome.logs[0]) {
+    return response.receipts_outcome[0].outcome.logs[0];
+  } else {
+    return 'Success';
+  }
 }
 
 /**

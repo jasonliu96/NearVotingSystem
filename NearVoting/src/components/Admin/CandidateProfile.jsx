@@ -32,29 +32,31 @@ function CandidateProfile() {
         accId,
       };
 
-      axios.post(`${serverUrl}/candidate/getCandidateProfile`, data).then((res) => {
-        console.log('Getting profile info');
-        console.log(res);
-        if (res.data.status == 201) {
-          console.log('Candidate retreived');
-          setName(res.data.data[0].fullName);
-          setAddress(res.data.data[0].address);
-          setCityStateZip(res.data.data[0].cityStateZip);
-          setCandidateId(res.data.data[0].candidateId);
-          setPartyAffiliation(res.data.data[0].partyAffiliation);
-          setOffice(res.data.data[0].office);
-          setStateDistrict(res.data.data[0].stateDistrict);
-        } else {
-          console.log('Candidate Not found');
-          sethasRegistered(false);
-        }
-      });
+      axios
+        .post(`${serverUrl}/candidate/getCandidateProfile`, data)
+        .then((res) => {
+          console.log('Getting profile info');
+          console.log(res);
+          if (res.data.status == 201) {
+            console.log('Candidate retreived');
+            setName(res.data.data[0].fullName);
+            setAddress(res.data.data[0].address);
+            setCityStateZip(res.data.data[0].cityStateZip);
+            setCandidateId(res.data.data[0].candidateId);
+            setPartyAffiliation(res.data.data[0].partyAffiliation);
+            setOffice(res.data.data[0].office);
+            setStateDistrict(res.data.data[0].stateDistrict);
+          } else {
+            console.log('Candidate Not found');
+            sethasRegistered(false);
+          }
+        });
     }
   }, []);
 
   return (
     <div>
-      {!hasRegistered && <Navigate replace to='/register' />}
+      {!hasRegistered && <Navigate replace to='/candidate/register' />}
       <h1>Candidate Profile</h1>
       <div className='centeredText'>
         <Box

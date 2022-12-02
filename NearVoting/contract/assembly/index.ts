@@ -2,22 +2,46 @@ import { context, storage, logging, PersistentMap,  PersistentVector, Context } 
 import { Candidate, CandidateList, Ballot } from './model';
 const CANDIDATE_LIMIT = 10
 
+/**
+ * Voting Process runs on phases
+ * 1 = registration
+ * 2 = voting
+ * 3 = results
+ */
 var candidateMap = new PersistentMap<string, i16>("pm");
 var candidateVector = new PersistentVector<string>("pv");
 var ballot = new Ballot(candidateVector, candidateMap);
 
-export function addCandidateCompressed(compressed_candidate: string): void{
-    ballot.addCandidate(compressed_candidate);
-    var candidateCounter = storage.getPrimitive<i8>("candidate_counter", 0);
-    candidateCounter +=1;
-    storage.set<i8>("candidate_counter", candidateCounter);
+export function addCandidateCompressed(compressed_candidate: string): string{
+    const currentPhase = storage.getPrimitive<i8>("current_phase", 0);
+    if(currentPhase == 1 ){
+        ballot.addCandidate(compressed_candidate);
+        var candidateCounter = storage.getPrimitive<i8>("candidate_counter", 0);
+        candidateCounter +=1;
+        storage.set<i8>("candidate_counter", candidateCounter);
+        return "Success"
+    }
+    else {
+        const msg = `Failed to Register: Not Currently Registration Phase`
+        logging.log(msg)
+        return msg;
+    }
 }
 
-export function voteCandidateMap(candidate_oid: string): void{
-    ballot.voteCandidate(candidate_oid);
-    var voteCounter = storage.getPrimitive<i16>("voter_counter", 0);
-    voteCounter +=1; 
-    storage.set<i16>("vote_counter", voteCounter);
+export function voteCandidateMap(candidate_oid: string): string{
+    const currentPhase = storage.getPrimitive<i8>("current_phase", 0);
+    if(currentPhase == 2 ){
+        ballot.voteCandidate(candidate_oid);
+        var voteCounter = storage.getPrimitive<i16>("voter_counter", 0);
+        voteCounter +=1; 
+        storage.set<i16>("vote_counter", voteCounter);
+        return "Success"
+    }
+    else {
+        const msg = `Failed to Vote: Not Currently Voting Phase`
+        logging.log(msg)
+        return msg;
+    }
 }
 
 export function getCandidateMap():Map<string,number>{

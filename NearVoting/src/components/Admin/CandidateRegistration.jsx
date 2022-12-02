@@ -62,38 +62,56 @@ function CandidateRegistration() {
     try {
       await validateInput(data);
       console.log('No errors occurred');
-
-      axios.defaults.withCredentials = false;
-      console.log(`Add Candidate with axios and : ${data}`);
-      await axios.post(`${serverUrl}/candidate/addCandidate`, data).then(
-        async (response) => {
-          console.log(response.data, response.status);
-          if (response.status == 200) {
-            console.log(`Add candidate was successfull: ${response.status}`);
-            // make an update call to the smart contract
-            const compressedOid = compressOid(response.data.id);
-            const args = {
-              compressed_candidate: compressedOid,
-            };
-            await executeTransaction(constants.ADD_CONSTANT, args);
-            seterrorOpen(false);
-            setLoading(false);
-            setsuccessOpen(true);
-            sethasRegistered(true);
+      if (window.walletConnection.isSignedIn()) {
+        window.contract.getPhase({}).then(async (phaseFromContract) => {
+          console.log(`phase from contract ${phaseFromContract}`);
+          if (phaseFromContract == 1) {
+            axios.defaults.withCredentials = false;
+            console.log(`Add Candidate with axios and : ${data}`);
+            await axios.post(`${serverUrl}/candidate/addCandidate`, data).then(
+              async (response) => {
+                console.log(response.data, response.status);
+                if (response.status == 200) {
+                  console.log(
+                    `Add candidate was successfull: ${response.status}`
+                  );
+                  // make an update call to the smart contract
+                  const compressedOid = compressOid(response.data.id);
+                  const args = {
+                    compressed_candidate: compressedOid,
+                  };
+                  await executeTransaction(constants.ADD_CONSTANT, args);
+                  seterrorOpen(false);
+                  setLoading(false);
+                  setsuccessOpen(true);
+                  sethasRegistered(true);
+                } else {
+                  console.log(
+                    `response for add candidate is: ${response.status}`
+                  );
+                  setsuccessOpen(false);
+                  setLoading(false);
+                  seterrorOpen(true);
+                }
+              },
+              (error) => {
+                console.log(`Error while adding candidate ${error}`);
+                setsuccessOpen(false);
+                setLoading(false);
+                seterrorOpen(true);
+              }
+            );
           } else {
-            console.log(`response for add candidate is: ${response.status}`);
+            setErrors((errors) => [
+              ...errors,
+              'The Registration Phase has ended. Please refresh the page.',
+            ]);
             setsuccessOpen(false);
             setLoading(false);
-            seterrorOpen(true);
+            setOpen(true);
           }
-        },
-        (error) => {
-          console.log(`Error while adding candidate ${error}`);
-          setsuccessOpen(false);
-          setLoading(false);
-          seterrorOpen(true);
-        }
-      );
+        });
+      }
     } catch (e) {
       alert(
         'Something went wrong! ' +
@@ -101,8 +119,6 @@ function CandidateRegistration() {
           'Check your browser console for more info.'
       );
       throw e;
-    } finally {
-      console.log('candidate added');
     }
   }
 
@@ -380,7 +396,6 @@ function CandidateRegistration() {
             <Button onClick={handleClose}>Close</Button>
           </DialogActions>
         </Dialog>
-        {/* {showNotification && <Notification method={msg} />} */}
       </div>
     </div>
   );

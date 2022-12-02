@@ -36,14 +36,12 @@ function VoterRegistration() {
   const [address, setAddress] = useState('');
   const [value, setValue] = useState('');
   //const [showNotification, setShowNotification] = useState(false)
-  const [msg, setMsg] = useState('Added a Voter');
   const [errors, setErrors] = useState([]);
   const [open, setOpen] = useState(false);
   const [successOpen, setsuccessOpen] = useState(false);
   const [errorOpen, seterrorOpen] = useState(false);
   const [hasRegistered, sethasRegistered] = useState(false);
   const [loading, setLoading] = useState(false);
-
   async function submitVoter(e) {
     e.preventDefault();
     setLoading(true);
@@ -81,29 +79,48 @@ function VoterRegistration() {
     console.log('No errors occurred');
     axios.defaults.withCredentials = false;
     console.log(`Register voter with axios and : ${data}`);
-    await axios.post(`${serverUrl}/voter/registerVoter`, data).then(
-      (response) => {
-        console.log(response.data, response.status);
-        if (response.status == 200) {
-          console.log(`Register voter is successfull: ${response.status}`);
-          seterrorOpen(false);
-          setLoading(false);
-          setsuccessOpen(true);
-          sethasRegistered(true);
+    if (window.walletConnection.isSignedIn()) {
+      window.contract.getPhase({}).then(async (phaseFromContract) => {
+        console.log(`phase from contract ${phaseFromContract}`);
+        if (phaseFromContract == 1) {
+          await axios.post(`${serverUrl}/voter/registerVoter`, data).then(
+            (response) => {
+              console.log(response.data, response.status);
+              if (response.status == 200) {
+                console.log(
+                  `Register voter is successfull: ${response.status}`
+                );
+                seterrorOpen(false);
+                setLoading(false);
+                setsuccessOpen(true);
+                sethasRegistered(true);
+              } else {
+                console.log(
+                  `response for register voter is: ${response.status}`
+                );
+                setsuccessOpen(false);
+                setLoading(false);
+                seterrorOpen(true);
+              }
+            },
+            (error) => {
+              console.log(`Error while registering voter ${error}`);
+              setsuccessOpen(false);
+              setLoading(false);
+              seterrorOpen(true);
+            }
+          );
         } else {
-          console.log(`response for register voter is: ${response.status}`);
+          setErrors((errors) => [
+            ...errors,
+            'The Registration Phase has ended. Please refresh the page.',
+          ]);
           setsuccessOpen(false);
           setLoading(false);
-          seterrorOpen(true);
+          setOpen(true);
         }
-      },
-      (error) => {
-        console.log(`Error while registering voter ${error}`);
-        setsuccessOpen(false);
-        setLoading(false);
-        seterrorOpen(true);
-      }
-    );
+      });
+    }
   }
 
   useEffect(() => {
@@ -394,7 +411,6 @@ function VoterRegistration() {
             <Button onClick={handleClose}>Close</Button>
           </DialogActions>
         </Dialog>
-        {/* {showNotification && <Notification method={msg} />} */}
       </div>
     </>
   );

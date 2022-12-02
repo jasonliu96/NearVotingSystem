@@ -54,7 +54,7 @@ function VoterProfile() {
 
   return (
     <div>
-      {!hasRegistered && <Navigate replace to='/register' />}
+      {!hasRegistered && <Navigate replace to='/voter/register' />}
       <h1>Voter Profile</h1>
       <div className='centeredText'>
         <Box
