@@ -47,7 +47,7 @@ function VotingPage() {
             // status = 201, voter is registered in db
             if (res.data.status == 201) {
               const voted = res.data.data[0].hasVoted;
-              console.log('Voting Status ' + voted);
+              //console.log('Voting Status ' + voted);
               setHasVoted(voted);
               if (voted) {
                 seterrormsg('You can only vote once!');
@@ -93,7 +93,7 @@ function VotingPage() {
     e.preventDefault();
     setLoading(true);
     var target_oid = e.target.value;
-    console.log(target_oid);
+    //console.log(target_oid);
     setMsg('Submitted a Vote');
 
     // update in db that voter has cast a vote
@@ -107,16 +107,15 @@ function VotingPage() {
       };
       await executeTransaction(constants.VOTE_CONSTANT, args).then(
         async (msg) => {
-          console.log(`message from voting page ${msg}`);
           if (msg == 'Success') {
             await axios
               .post(`${serverUrl}/voter/updateHasVoted`, data)
               .then((res) => {
                 if (res.status == 201) {
-                  console.log('Vote has been registered successfully');
+                  //console.log('Vote has been registered successfully');
                   setHasVoted(true);
                 } else {
-                  console.log('Please check backend logs for error');
+                  //console.log('Please check backend logs for error');
                 }
               });
             updateState(target_oid);

@@ -147,11 +147,11 @@ const Slider = () => {
   const handleClick = (direction) => {
     if (direction === 'left') {
       let temp = index === 0 ? 2 : index - 1;
-      console.log(temp);
+      //console.log(temp);
       setIndex(temp);
     } else {
       let temp = index === 2 ? 0 : index + 1;
-      console.log(temp);
+      //console.log(temp);
       setIndex(temp);
     }
   };

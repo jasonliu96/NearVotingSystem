@@ -35,10 +35,9 @@ function CandidateProfile() {
       axios
         .post(`${serverUrl}/candidate/getCandidateProfile`, data)
         .then((res) => {
-          console.log('Getting profile info');
-          console.log(res);
+          // console.log('Getting profile info');
           if (res.data.status == 201) {
-            console.log('Candidate retreived');
+            // console.log('Candidate retreived');
             setName(res.data.data[0].fullName);
             setAddress(res.data.data[0].address);
             setCityStateZip(res.data.data[0].cityStateZip);
@@ -47,7 +46,7 @@ function CandidateProfile() {
             setOffice(res.data.data[0].office);
             setStateDistrict(res.data.data[0].stateDistrict);
           } else {
-            console.log('Candidate Not found');
+            // console.log('Candidate Not found');
             sethasRegistered(false);
           }
         });

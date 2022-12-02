@@ -33,10 +33,10 @@ function VoterProfile() {
       };
 
       axios.post(`${serverUrl}/voter/getVoterProfile`, data).then((res) => {
-        console.log('Getting profile info');
-        console.log(res);
+        //console.log('Getting profile info');
+        //console.log(res);
         if (res.data.status == 201) {
-          console.log('Voter Info retreived');
+          //console.log('Voter Info retreived');
           setName(res.data.data[0].name);
           setCitizen(res.data.data[0].citizen);
           setAssistance(res.data.data[0].assistance);
@@ -45,7 +45,7 @@ function VoterProfile() {
           setEmail(res.data.data[0].email);
           setAddress(res.data.data[0].address);
         } else {
-          console.log('Voter Not found');
+          //console.log('Voter Not found');
           sethasRegistered(false);
         }
       });

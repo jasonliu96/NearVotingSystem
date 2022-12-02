@@ -45,22 +45,22 @@ function VoterRegistration() {
   async function submitVoter(e) {
     e.preventDefault();
     setLoading(true);
-    console.log(`Account ID: ${window.walletConnection.getAccountId()}`);
+    //console.log(`Account ID: ${window.walletConnection.getAccountId()}`);
     const accountId = window.walletConnection.getAccountId();
     const name = firstName + ' ' + lastName;
-    console.log(name);
-    console.log(
-      accountId,
-      firstName,
-      lastName,
-      name,
-      citizen,
-      assistance,
-      phone,
-      identification,
-      email,
-      address
-    );
+    //console.log(name);
+    //console.log(
+    //   accountId,
+    //   firstName,
+    //   lastName,
+    //   name,
+    //   citizen,
+    //   assistance,
+    //   phone,
+    //   identification,
+    //   email,
+    //   address
+    // );
 
     const data = {
       accountId,
@@ -76,35 +76,35 @@ function VoterRegistration() {
     };
 
     await validateInput(data);
-    console.log('No errors occurred');
+    //console.log('No errors occurred');
     axios.defaults.withCredentials = false;
-    console.log(`Register voter with axios and : ${data}`);
+    //console.log(`Register voter with axios and : ${data}`);
     if (window.walletConnection.isSignedIn()) {
       window.contract.getPhase({}).then(async (phaseFromContract) => {
-        console.log(`phase from contract ${phaseFromContract}`);
+        //console.log(`phase from contract ${phaseFromContract}`);
         if (phaseFromContract == 1) {
           await axios.post(`${serverUrl}/voter/registerVoter`, data).then(
             (response) => {
-              console.log(response.data, response.status);
+              //console.log(response.data, response.status);
               if (response.status == 200) {
-                console.log(
-                  `Register voter is successfull: ${response.status}`
-                );
+                // console.log(
+                //   `Register voter is successfull: ${response.status}`
+                // );
                 seterrorOpen(false);
                 setLoading(false);
                 setsuccessOpen(true);
                 sethasRegistered(true);
               } else {
-                console.log(
-                  `response for register voter is: ${response.status}`
-                );
+                // console.log(
+                //   `response for register voter is: ${response.status}`
+                // );
                 setsuccessOpen(false);
                 setLoading(false);
                 seterrorOpen(true);
               }
             },
             (error) => {
-              console.log(`Error while registering voter ${error}`);
+              // console.log(`Error while registering voter ${error}`);
               setsuccessOpen(false);
               setLoading(false);
               seterrorOpen(true);
@@ -132,16 +132,16 @@ function VoterRegistration() {
 
       axios.post(`${serverUrl}/voter/getHasRegistered`, data).then((res) => {
         if (res.status == 201) {
-          console.log('Voter has already registered successfully');
+          //console.log('Voter has already registered successfully');
           sethasRegistered(true);
         } else {
-          console.log('Voter hasnt registered yet');
+          //console.log('Voter hasnt registered yet');
           sethasRegistered(false);
         }
       });
     }
     if (errors.length > 0) {
-      console.log('Error has occurred');
+      //console.log('Error has occurred');
       setOpen(true);
     }
   }, [errors]);
@@ -160,23 +160,23 @@ function VoterRegistration() {
     } = data;
 
     if (!firstName.trim()) {
-      console.log('first name field missing');
+      //console.log('first name field missing');
       setErrors((errors) => [...errors, 'First Name should not be empty']);
     }
     if (!lastName.trim()) {
-      console.log('lastName field missing');
+      //console.log('lastName field missing');
       setErrors((errors) => [...errors, 'Last Name should not be empty']);
     }
     if (!name.trim()) {
-      console.log('Name field missing');
+      //console.log('Name field missing');
     }
 
     if (!phone.trim()) {
-      console.log('phone field missing');
+      //console.log('phone field missing');
     }
 
     if (!identification.trim()) {
-      console.log('identification field missing');
+      //console.log('identification field missing');
       setErrors((errors) => [
         ...errors,
         'Identification field should not be empty',
@@ -184,16 +184,16 @@ function VoterRegistration() {
     } else {
       const data = { identification };
       axios.defaults.withCredentials = false;
-      console.log(`Checking if identification is unique: ${data}`);
+      //console.log(`Checking if identification is unique: ${data}`);
       await axios
         .post(`${serverUrl}/voter/checkUniqueIdentification`, data)
         .then(
           (response) => {
-            console.log(response.status);
+            //console.log(response.status);
             if (response.status == 200) {
-              console.log(`Identification is unique: ${response.status}`);
+              //console.log(`Identification is unique: ${response.status}`);
             } else {
-              console.log(`Identification is not unique: ${response.status}`);
+              //console.log(`Identification is not unique: ${response.status}`);
               setErrors((errors) => [
                 ...errors,
                 'Identification number should be unique',
@@ -201,17 +201,17 @@ function VoterRegistration() {
             }
           },
           (error) => {
-            console.log(`Error while checkUniqueIdentification ${error}`);
+            //console.log(`Error while checkUniqueIdentification ${error}`);
           }
         );
     }
 
     if (!email.trim()) {
-      console.log('email field missing');
+      //console.log('email field missing');
       setErrors((errors) => [...errors, 'Email field should not be empty']);
     }
     if (!address.trim()) {
-      console.log('address field missing');
+      //console.log('address field missing');
       setErrors((errors) => [...errors, 'Address field should not be empty']);
     }
   }
@@ -292,7 +292,7 @@ function VoterRegistration() {
               <TextField
                 id='firstName'
                 label='First Name'
-                defaultValue='Enter your First Name'
+                // defaultValue='Enter your First Name'
                 onChange={(e) => setFirstName(e.target.value)}
                 value={firstName}
                 style={{ width: '550px', margin: '10px' }}
@@ -301,7 +301,7 @@ function VoterRegistration() {
               <TextField
                 id='lastName'
                 label='Last Name'
-                defaultValue='Enter your Last Name'
+                // defaultValue='Enter your Last Name'
                 onChange={(e) => setLastName(e.target.value)}
                 value={lastName}
                 style={{ width: '550px', margin: '10px' }}
@@ -329,7 +329,7 @@ function VoterRegistration() {
                 id='email'
                 label='Email Address'
                 type='email'
-                defaultValue='Enter your email address'
+                // defaultValue='Enter your email address'
                 onChange={(e) => setEmail(e.target.value)}
                 value={email}
                 style={{ width: '550px', margin: '10px' }}
@@ -338,7 +338,7 @@ function VoterRegistration() {
               <TextField
                 id='phone'
                 label='Phone Number'
-                defaultValue='Enter your Phone Number'
+                // defaultValue='Enter your Phone Number'
                 onChange={(e) => setPhone(e.target.value)}
                 value={phone}
                 style={{ width: '550px', margin: '10px' }}
@@ -349,7 +349,7 @@ function VoterRegistration() {
               <TextField
                 id='identification'
                 label='Identification'
-                defaultValue='Enter last 4 digits of your SSN'
+                // defaultValue='Enter last 4 digits of your SSN'
                 onChange={(e) => setIdentification(e.target.value)}
                 value={identification}
                 style={{ width: '550px', margin: '10px' }}
@@ -359,7 +359,7 @@ function VoterRegistration() {
               <TextField
                 id='address'
                 label='Home Address'
-                defaultValue='Enter your home address'
+                // defaultValue='Enter your home address'
                 onChange={(e) => setAddress(e.target.value)}
                 value={address}
                 style={{ width: '550px', margin: '10px' }}
@@ -401,11 +401,11 @@ function VoterRegistration() {
             {'Voter Registration Failed !'}
           </DialogTitle>
           <DialogContent>
-            <DialogContentText id='alert-dialog-description'>
-              {errors.map((txt) => (
-                <p>{txt}</p>
-              ))}
-            </DialogContentText>
+            {errors.map((txt, key) => (
+              <DialogContentText key={key} id='alert-dialog-description'>
+                {txt}
+              </DialogContentText>
+            ))}
           </DialogContent>
           <DialogActions>
             <Button onClick={handleClose}>Close</Button>

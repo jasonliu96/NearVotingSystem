@@ -36,14 +36,14 @@ function Transactions() {
       axios
         .get(`${constants.SERVER_URL}/transaction/getTransactions`, { params })
         .then((res) => {
-          console.log('Getting Transactions');
-          console.log(res);
+          //console.log('Getting Transactions');
+          //console.log(res);
           if (res.status == 200) {
-            console.log('Transactions retreived');
-            console.log(res.data.transactions);
+            //console.log('Transactions retreived');
+            //console.log(res.data.transactions);
             setTransactions(res.data.transactions);
           } else {
-            console.log('user Not found');
+            //console.log('user Not found');
           }
         });
     }

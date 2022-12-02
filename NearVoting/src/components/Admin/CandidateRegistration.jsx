@@ -43,9 +43,9 @@ function CandidateRegistration() {
 
   async function submitCandidate(e) {
     e.preventDefault();
-    console.log(fullName);
+    //console.log(fullName);
     setLoading(true);
-    console.log(`Account ID: ${window.walletConnection.getAccountId()}`);
+    //console.log(`Account ID: ${window.walletConnection.getAccountId()}`);
     const accId = window.walletConnection.getAccountId();
     const data = {
       accId,
@@ -61,20 +61,20 @@ function CandidateRegistration() {
 
     try {
       await validateInput(data);
-      console.log('No errors occurred');
+      //console.log('No errors occurred');
       if (window.walletConnection.isSignedIn()) {
         window.contract.getPhase({}).then(async (phaseFromContract) => {
-          console.log(`phase from contract ${phaseFromContract}`);
+          //console.log(`phase from contract ${phaseFromContract}`);
           if (phaseFromContract == 1) {
             axios.defaults.withCredentials = false;
-            console.log(`Add Candidate with axios and : ${data}`);
+            //console.log(`Add Candidate with axios and : ${data}`);
             await axios.post(`${serverUrl}/candidate/addCandidate`, data).then(
               async (response) => {
-                console.log(response.data, response.status);
+                //console.log(response.data, response.status);
                 if (response.status == 200) {
-                  console.log(
-                    `Add candidate was successfull: ${response.status}`
-                  );
+                  // console.log(
+                  //   `Add candidate was successfull: ${response.status}`
+                  // );
                   // make an update call to the smart contract
                   const compressedOid = compressOid(response.data.id);
                   const args = {
@@ -86,16 +86,16 @@ function CandidateRegistration() {
                   setsuccessOpen(true);
                   sethasRegistered(true);
                 } else {
-                  console.log(
-                    `response for add candidate is: ${response.status}`
-                  );
+                  // console.log(
+                  //   `response for add candidate is: ${response.status}`
+                  // );
                   setsuccessOpen(false);
                   setLoading(false);
                   seterrorOpen(true);
                 }
               },
               (error) => {
-                console.log(`Error while adding candidate ${error}`);
+                //console.log(`Error while adding candidate ${error}`);
                 setsuccessOpen(false);
                 setLoading(false);
                 seterrorOpen(true);
@@ -131,16 +131,16 @@ function CandidateRegistration() {
 
       axios.post(`${serverUrl}/candidate/getIfRegistered`, data).then((res) => {
         if (res.status == 201) {
-          console.log('Candidate has already registered successfully');
+          //console.log('Candidate has already registered successfully');
           sethasRegistered(true);
         } else {
-          console.log('Candidate has not registered yet');
+          //console.log('Candidate has not registered yet');
           sethasRegistered(false);
         }
       });
     }
     if (errors.length > 0) {
-      console.log('Error has occurred');
+      //console.log('Error has occurred');
       setOpen(true);
     }
   }, [errors]);
@@ -157,23 +157,23 @@ function CandidateRegistration() {
     } = data;
 
     if (!fullName.trim()) {
-      console.log('Name field missing');
+      //console.log('Name field missing');
       setErrors((errors) => [...errors, 'Name should not be empty']);
     }
     if (!address.trim()) {
-      console.log('Address field missing');
+      //console.log('Address field missing');
       setErrors((errors) => [...errors, 'Address should not be empty']);
     }
     if (!cityStateZip.trim()) {
-      console.log('City, State and Zip are missing');
+      //console.log('City, State and Zip are missing');
     }
 
     if (!partyAffiliation.trim()) {
-      console.log('Party Affiliation info is missing');
+      //console.log('Party Affiliation info is missing');
     }
 
     if (!candidateId.trim()) {
-      console.log('Candidate Id field missing');
+      //console.log('Candidate Id field missing');
       setErrors((errors) => [
         ...errors,
         'Candidate Id field should not be empty',
@@ -181,16 +181,16 @@ function CandidateRegistration() {
     } else {
       const data = { candidateId };
       axios.defaults.withCredentials = false;
-      console.log(`Checking if candidateId is unique: ${data}`);
+      //console.log(`Checking if candidateId is unique: ${data}`);
       await axios
         .post(`${serverUrl}/candidate/checkUniquecandidateId`, data)
         .then(
           (response) => {
-            console.log(response.status);
+            //console.log(response.status);
             if (response.status == 200) {
-              console.log(`Candidate Id is unique: ${response.status}`);
+              //console.log(`Candidate Id is unique: ${response.status}`);
             } else {
-              console.log(`Candidate Id is not unique: ${response.status}`);
+              //console.log(`Candidate Id is not unique: ${response.status}`);
               setErrors((errors) => [
                 ...errors,
                 'Candidate Id should be unique',
@@ -198,17 +198,17 @@ function CandidateRegistration() {
             }
           },
           (error) => {
-            console.log(`Error while checkUniquecandidateId ${error}`);
+            //console.log(`Error while checkUniquecandidateId ${error}`);
           }
         );
     }
 
     if (!office.trim()) {
-      console.log('Office info is missing');
+      //console.log('Office info is missing');
       setErrors((errors) => [...errors, 'Office field should not be empty']);
     }
     if (!stateDistrict.trim()) {
-      console.log('State and District info is missing');
+      //console.log('State and District info is missing');
       setErrors((errors) => [
         ...errors,
         'State and District field should not be empty',
@@ -386,11 +386,11 @@ function CandidateRegistration() {
             {'Add Candidate Failed !'}
           </DialogTitle>
           <DialogContent>
-            <DialogContentText id='alert-dialog-description'>
-              {errors.map((txt) => (
-                <p>{txt}</p>
-              ))}
-            </DialogContentText>
+            {errors.map((txt, key) => (
+              <DialogContentText key={key} id='alert-dialog-description'>
+                {txt}
+              </DialogContentText>
+            ))}
           </DialogContent>
           <DialogActions>
             <Button onClick={handleClose}>Close</Button>

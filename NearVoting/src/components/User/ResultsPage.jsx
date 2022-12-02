@@ -21,7 +21,7 @@ function ResultsPage() {
         color: colors[index % 10],
       }));
     setData(temp);
-    console.log('mapcandidates', temp);
+    //console.log('mapcandidates', temp);
   }
   if (!window.walletConnection.isSignedIn()) {
     return (
@@ -48,13 +48,13 @@ function ResultsPage() {
             oids.push({ name: decompressOids(key), votes: value });
             voteCounter += value;
           }
-          console.log(oids);
+          //console.log(oids);
           setNumVotes(voteCounter);
           axios
             .post(`${serverUrl}/candidate/getCandidateInfo`, { oids })
             .then((res) => {
               if (res.status == 200) {
-                console.log(res);
+                //console.log(res);
                 setCandidates(res.data);
                 mapCandidates(res.data);
               }

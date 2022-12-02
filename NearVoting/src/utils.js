@@ -4,7 +4,7 @@ import { compress, decompress } from 'lzutf8';
 import axios from 'axios';
 import constants from './constants';
 const nearConfig = getConfig(process.env.NODE_ENV || 'testnet');
-console.log(process.env.NODE_ENV);
+// console.log(process.env.NODE_ENV);
 // Initialize contract & set global variables
 export async function initContract() {
   // Initialize connection to the NEAR testnet
@@ -93,7 +93,7 @@ export function decompressOids(oid) {
  */
 export async function executeTransaction(methodType, args) {
   const accountId = window.walletConnection.getAccountId();
-  console.log(methodType);
+  // console.log(methodType);
   const response = await window.walletConnection.account().functionCall({
     contractId: nearConfig.contractName,
     methodName: constants[methodType],
